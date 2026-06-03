@@ -5,11 +5,23 @@ import Header from '@/components/Header';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { buildMetadata, SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
 
-export const metadata: Metadata = buildMetadata({
+const baseMetadata = buildMetadata({
   title: SITE_NAME,
   description: SITE_DESC,
   canonical: SITE_URL,
 });
+
+export const metadata: Metadata = {
+  ...baseMetadata,
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -17,6 +29,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3R72WLDGC7" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3R72WLDGC7');
+`,
+          }}
+        />
         <SchemaMarkup
           type="WebSite"
           data={{
