@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="The Freak Circus">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0608"/>
+      <stop offset="0.52" stop-color="#1a0f15"/>
+      <stop offset="1" stop-color="#0a0608"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="46%">
+      <stop offset="0" stop-color="#4a1942" stop-opacity="0.72"/>
+      <stop offset="0.62" stop-color="#8b1a1a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0a0608" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#halo)"/>
+  <path d="M0 90 H1200 M0 540 H1200" stroke="#c9a84c" stroke-width="3" opacity="0.75"/>
+  <path d="M145 160 C255 60 445 105 600 168 C755 105 945 60 1055 160 L1015 507 H185 Z" fill="#120d10" stroke="#2e1f28" stroke-width="4"/>
+  <path d="M205 505 C258 294 394 202 600 168 C806 202 942 294 995 505" fill="none" stroke="#8b1a1a" stroke-width="12" opacity="0.8"/>
+  <text x="600" y="285" text-anchor="middle" fill="#f0e8ec" font-family="Georgia, serif" font-size="78" font-weight="700">The Freak Circus</text>
+  <text x="600" y="350" text-anchor="middle" fill="#c9a84c" font-family="Georgia, serif" font-size="30" letter-spacing="5">PLAY ONLINE</text>
+  <text x="600" y="410" text-anchor="middle" fill="#8a7a85" font-family="Georgia, serif" font-size="28">Psychological Horror Visual Novel</text>
+  <text x="600" y="488" text-anchor="middle" fill="#d4c5cc" font-family="Courier New, monospace" font-size="22">thefreakcircus.help</text>
+</svg>

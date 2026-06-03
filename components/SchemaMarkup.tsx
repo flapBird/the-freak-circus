@@ -1,0 +1,19 @@
+type Props = {
+  type: 'WebSite' | 'WebPage' | 'Article' | 'VideoGame';
+  data: Record<string, unknown>;
+};
+
+export default function SchemaMarkup({ type, data }: Props) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': type,
+    ...data,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Courier+Prime&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0a0608;
+  --color-card: #1a1118;
+  --color-border: #2e1f28;
+  --color-gold: #c9a84c;
+  --color-crimson: #c0392b;
+  --color-text: #d4c5cc;
+  --color-muted: #8a7a85;
+  --ad-slot-width: 160px;
+  --content-max: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(ellipse at top, #1a0f15 0%, transparent 60%),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(46, 31, 40, 0.08) 40px,
+      rgba(46, 31, 40, 0.08) 41px
+    );
+  color: var(--color-text);
+  font-family: 'Crimson Text', serif;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role='button']:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-gold);
+  opacity: 0.6;
+}
+
+.divider-ornament::before,
+.divider-ornament::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+.ad-slot {
+  min-height: 250px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--color-muted);
+  text-align: center;
+  padding: 8px;
+}
+
+.game-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 600px;
+  position: relative;
+  background: #000;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 0 40px rgba(139, 26, 26, 0.2);
+}
+
+.game-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.prose-circus h2 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--color-gold);
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.4rem;
+}
+
+.prose-circus p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.prose-circus a {
+  color: var(--color-gold);
+  text-decoration: underline;
+  text-decoration-color: rgba(201, 168, 76, 0.3);
+  transition: color 0.2s;
+}
+
+.prose-circus a:hover {
+  color: #e8c97a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
