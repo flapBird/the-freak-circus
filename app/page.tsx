@@ -21,17 +21,16 @@ const COUNTRY_MAP: Record<string, string> = {
 export default function RootPage() {
   const h = headers();
 
-  // 0. Check NEXT_LOCALE cookie (user explicitly chose a locale)
+  // 1. Check NEXT_LOCALE cookie (user explicitly chose a locale)
   const cookie = h.get('cookie') || '';
   const cookieMatch = cookie.match(/NEXT_LOCALE=(en|pt|fil|vi|es|id|zh)/);
-  if (cookieMatch && LOCALES.includes(cookieMatch[1])) {
+  if (cookieMatch) {
     redirect(`/${cookieMatch[1]}`);
     return;
   }
 
-  // 1. Try CDN headers / IP geolocation
-  const cdnHeaders = ['cloudfront-viewer-country', 'cf-ipcountry', 'x-vercel-ip-country', 'x-country-code'];
-  for (const header of cdnHeaders) {
+  // 2. Try CDN/cloud country headers
+  for (const header of ['cloudfront-viewer-country', 'cf-ipcountry', 'x-vercel-ip-country', 'x-country-code']) {
     const val = h.get(header);
     if (val && val.length === 2 && COUNTRY_MAP[val.toUpperCase()]) {
       redirect(`/${COUNTRY_MAP[val.toUpperCase()]}`);
@@ -39,7 +38,7 @@ export default function RootPage() {
     }
   }
 
-  // 2. Try geoip-lite
+  // 3. Try IP geolocation
   const ip = (h.get('x-forwarded-for') || h.get('x-real-ip') || '').split(',')[0].trim();
   if (ip && ip !== '::1' && ip !== '127.0.0.1' && !ip.startsWith('192.168.') && !ip.startsWith('10.')) {
     try {
@@ -50,14 +49,6 @@ export default function RootPage() {
         return;
       }
     } catch {}
-  }
-
-  // 3. Fall back to browser Accept-Language
-  const acceptLang = h.get('accept-language') || '';
-  const lang = acceptLang.split(',').map(l => l.split(';')[0].trim().split('-')[0].toLowerCase()).find(l => LOCALES.includes(l));
-  if (lang) {
-    redirect(`/${lang}`);
-    return;
   }
 
   // 4. Default to English
