@@ -53,12 +53,12 @@ gtag('config', 'G-855DQF48TP');
             },
           }}
         />
-        <script src="https://pl29635459.effectivecpmnetwork.com/69/44/09/694409ef7619b3b326462116521c54ea.js" />
       </head>
       <body className="antialiased">
         <Header />
         <div className="min-h-screen py-8">{children}</div>
         <Footer />
+        <script src="https://pl29635610.effectivecpmnetwork.com/fc/d4/43/fcd44392bb0b8f827124555b268d5d69.js" />
       </body>
     </html>
   );
