@@ -53,6 +53,7 @@ gtag('config', 'G-855DQF48TP');
             },
           }}
         />
+        <script src="https://pl29635459.effectivecpmnetwork.com/69/44/09/694409ef7619b3b326462116521c54ea.js" />
       </head>
       <body className="antialiased">
         <Header />
