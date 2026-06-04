@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SchemaMarkup from '@/components/SchemaMarkup';
@@ -6,7 +7,7 @@ import SidebarLayout from '@/components/SidebarLayout';
 import { getAllSlugs, getPostBySlug } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
-type Props = { params: { slug: string } };
+type Props = { params: { locale: string; slug: string } };
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -19,16 +20,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: post.title,
     description: post.description,
-    canonical: `${SITE_URL}/blog/${post.slug}`,
+    canonical: `${SITE_URL}/${params.locale === 'en' ? '' : params.locale + '/'}blog/${post.slug}`,
   });
 }
 
-export default function BlogPostPage({ params }: Props) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPostPage({ params: { locale, slug } }: Props) {
+  const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const t = await getTranslations('blog');
+  const p = locale === 'en' ? '' : `/${locale}`;
+
   const dateISO = new Date(post.date).toISOString();
-  const dateDisplay = new Date(post.date).toLocaleDateString('en-US', {
+  const dateDisplay = new Date(post.date).toLocaleDateString(locale === 'en' ? 'en-US' : locale, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -43,7 +47,7 @@ export default function BlogPostPage({ params }: Props) {
           description: post.description,
           datePublished: dateISO,
           dateModified: dateISO,
-          url: `${SITE_URL}/blog/${post.slug}`,
+          url: `${SITE_URL}/${locale === 'en' ? '' : locale + '/'}blog/${post.slug}`,
           publisher: {
             '@type': 'Organization',
             name: 'thefreakcircus.help',
@@ -58,8 +62,8 @@ export default function BlogPostPage({ params }: Props) {
 
       <SidebarLayout>
         <nav className="mb-6 text-xs text-circus-muted">
-          <Link href="/blog" className="hover:text-circus-gold transition-colors">
-            Back to all articles
+          <Link href={`${p}/blog`} className="hover:text-circus-gold transition-colors">
+            {t('backLink')}
           </Link>
         </nav>
 
@@ -79,7 +83,7 @@ export default function BlogPostPage({ params }: Props) {
           </h1>
           <p className="text-circus-muted text-sm font-body italic">{post.description}</p>
           <time dateTime={dateISO} className="block mt-2 text-xs text-circus-muted/60">
-            Published {dateDisplay}
+            {t('published', { date: dateDisplay })}
           </time>
         </header>
 
@@ -91,11 +95,11 @@ export default function BlogPostPage({ params }: Props) {
 
         <div className="mt-12 pt-6 border-t border-circus-border">
           <Link
-            href="/"
+            href={p || '/'}
             className="inline-flex items-center gap-2 text-circus-gold hover:text-circus-gold-light
                        font-display text-xs tracking-widest uppercase transition-colors"
           >
-            Play The Freak Circus Online
+            {t('footerLink')}
           </Link>
         </div>
       </SidebarLayout>

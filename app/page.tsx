@@ -1,117 +1,65 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import GameEmbed from '@/components/GameEmbed';
-import SchemaMarkup from '@/components/SchemaMarkup';
-import SidebarLayout from '@/components/SidebarLayout';
-import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { redirect } from 'next/navigation';
+import { headers } from 'next/headers';
 
-export const metadata: Metadata = buildMetadata({
-  title: 'Play The Freak Circus Online - Psychological Horror Visual Novel',
-  description:
-    'Play The Freak Circus free online in your browser. A dark psychological horror visual novel by Garula with routes for Pierrot, Harlequin, Jester, and more.',
-  canonical: SITE_URL,
-});
+const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'];
+const DEFAULT_LOCALE = 'en';
 
-export default function HomePage() {
-  return (
-    <>
-      <SchemaMarkup
-        type="VideoGame"
-        data={{
-          name: 'The Freak Circus',
-          description: 'A psychological horror romance visual novel set in a mysterious circus.',
-          genre: ['Visual Novel', 'Psychological Horror', 'Romance'],
-          author: { '@type': 'Person', name: 'Garula (Neko Bueno)' },
-          url: SITE_URL,
-          applicationCategory: 'Game',
-          operatingSystem: 'Web Browser, Windows, macOS, Linux',
-          contentRating: '18+',
-        }}
-      />
+const COUNTRY_MAP: Record<string, string> = {
+  US: 'en', GB: 'en', AU: 'en', CA: 'en', NZ: 'en', IE: 'en',
+  ZA: 'en', IN: 'en', SG: 'en', MY: 'en', KE: 'en', NG: 'en',
+  GH: 'en', JM: 'en', TT: 'en', BB: 'en',
+  PT: 'pt', BR: 'pt', AO: 'pt', MZ: 'pt', CV: 'pt', GW: 'pt',
+  ST: 'pt', TL: 'pt',
+  ES: 'es', MX: 'es', AR: 'es', CO: 'es', CL: 'es', PE: 'es',
+  VE: 'es', EC: 'es', GT: 'es', CU: 'es', BO: 'es', DO: 'es',
+  HN: 'es', PY: 'es', SV: 'es', NI: 'es', CR: 'es', PA: 'es',
+  UY: 'es', GQ: 'es', PR: 'es',
+  PH: 'fil', VN: 'vi', ID: 'id',
+  CN: 'zh', TW: 'zh', HK: 'zh',
+};
 
-      <SidebarLayout>
-        <div className="mb-6 text-center">
-          <p className="text-circus-gold/70 font-display text-xs tracking-[0.4em] uppercase mb-2">
-            Welcome to the Circus
-          </p>
-          <h1 className="font-display text-circus-white text-3xl md:text-4xl mb-3 leading-tight">
-            The Freak Circus
-          </h1>
-          <p className="text-circus-muted font-body italic text-lg">
-            Play the psychological horror visual novel online, free
-          </p>
-        </div>
+export default function RootPage() {
+  const h = headers();
 
-        <GameEmbed />
+  // 0. Check NEXT_LOCALE cookie (user explicitly chose a locale)
+  const cookie = h.get('cookie') || '';
+  const cookieMatch = cookie.match(/NEXT_LOCALE=(en|pt|fil|vi|es|id|zh)/);
+  if (cookieMatch && LOCALES.includes(cookieMatch[1])) {
+    redirect(`/${cookieMatch[1]}`);
+    return;
+  }
 
-        <article className="prose-circus mt-8">
-          <div className="divider-ornament my-6">
-            <span className="font-display text-xs text-circus-gold/50 tracking-widest">
-              About the Game
-            </span>
-          </div>
+  // 1. Try CDN headers / IP geolocation
+  const cdnHeaders = ['cloudfront-viewer-country', 'cf-ipcountry', 'x-vercel-ip-country', 'x-country-code'];
+  for (const header of cdnHeaders) {
+    const val = h.get(header);
+    if (val && val.length === 2 && COUNTRY_MAP[val.toUpperCase()]) {
+      redirect(`/${COUNTRY_MAP[val.toUpperCase()]}`);
+      return;
+    }
+  }
 
-          <h2>What Is The Freak Circus?</h2>
-          <p>
-            The Freak Circus is a <strong className="text-circus-text">psychological horror visual novel</strong>{' '}
-            created by independent developer Garula (Neko Bueno) and published on itch.io. The
-            game has gained a passionate international following for its haunting gothic artwork,
-            morally complex characters, and deeply branching narrative.
-          </p>
-          <p>
-            You arrive as a stranger at a remote circus. What begins as curiosity quickly becomes
-            entanglement. Every choice shapes your fate and the fates of five extraordinary
-            performers who have been waiting for someone like you.
-          </p>
+  // 2. Try geoip-lite
+  const ip = (h.get('x-forwarded-for') || h.get('x-real-ip') || '').split(',')[0].trim();
+  if (ip && ip !== '::1' && ip !== '127.0.0.1' && !ip.startsWith('192.168.') && !ip.startsWith('10.')) {
+    try {
+      const geoip = require('geoip-lite');
+      const geo = geoip.lookup(ip);
+      if (geo?.country && COUNTRY_MAP[geo.country]) {
+        redirect(`/${COUNTRY_MAP[geo.country]}`);
+        return;
+      }
+    } catch {}
+  }
 
-          <h2>Key Features</h2>
-          <ul className="list-none space-y-2 pl-0">
-            {[
-              'Multiple story routes across five romanceable characters',
-              'Branching narrative with distinct good and bad endings',
-              'Gothic psychological horror atmosphere with original artwork',
-              'Official Chinese language support',
-              'Regular content updates by the developer',
-              'Free to play, available in browser and as a download',
-            ].map((feature) => (
-              <li key={feature} className="flex gap-2 text-sm items-start">
-                <span className="text-circus-gold mt-0.5 flex-shrink-0">-</span>
-                <span className="text-circus-text">{feature}</span>
-              </li>
-            ))}
-          </ul>
+  // 3. Fall back to browser Accept-Language
+  const acceptLang = h.get('accept-language') || '';
+  const lang = acceptLang.split(',').map(l => l.split(';')[0].trim().split('-')[0].toLowerCase()).find(l => LOCALES.includes(l));
+  if (lang) {
+    redirect(`/${lang}`);
+    return;
+  }
 
-          <h2>Characters</h2>
-          <p>
-            Five performers shape every playthrough:{' '}
-            <Link href="/characters#pierrot">Pierrot</Link>,{' '}
-            <Link href="/characters#harlequin">Harlequin</Link>,{' '}
-            <Link href="/characters#jester">Jester</Link>,{' '}
-            <Link href="/characters#ticket-taker">the Ticket Taker</Link>, and{' '}
-            <Link href="/characters#doctor">the Doctor</Link>. Each has a unique route, ending
-            set, and relationship arc with the protagonist.
-          </p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              href="/walkthrough"
-              className="px-5 py-2.5 border border-circus-gold/50 text-circus-gold
-                         font-display text-xs tracking-widest uppercase hover:bg-circus-gold/10
-                         transition-all duration-200"
-            >
-              View Walkthrough
-            </Link>
-            <Link
-              href="/characters"
-              className="px-5 py-2.5 border border-circus-border text-circus-muted
-                         font-display text-xs tracking-widest uppercase hover:border-circus-gold/30
-                         hover:text-circus-text transition-all duration-200"
-            >
-              Meet the Characters
-            </Link>
-          </div>
-        </article>
-      </SidebarLayout>
-    </>
-  );
+  // 4. Default to English
+  redirect(`/${DEFAULT_LOCALE}`);
 }

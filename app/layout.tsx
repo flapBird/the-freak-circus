@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { buildMetadata, SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
 
@@ -54,12 +52,7 @@ gtag('config', 'G-855DQF48TP');
           }}
         />
       </head>
-      <body className="antialiased">
-        <Header />
-        <div className="min-h-screen py-8">{children}</div>
-        <Footer />
-        <script src="https://pl29635610.effectivecpmnetwork.com/fc/d4/43/fcd44392bb0b8f827124555b268d5d69.js" />
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

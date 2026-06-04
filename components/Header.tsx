@@ -1,20 +1,26 @@
 import Link from 'next/link';
+import LocaleSwitcher from './LocaleSwitcher';
+import { tMsg } from '@/lib/messages';
 
-const NAV_LINKS = [
-  { href: '/', label: 'Play Online' },
-  { href: '/characters', label: 'Characters' },
-  { href: '/walkthrough', label: 'Walkthrough' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/about', label: 'About' },
-];
+type Props = { locale: string };
 
-export default function Header() {
+export default function Header({ locale }: Props) {
+  const t = (key: string) => tMsg(locale, 'header.' + key);
+  const p = locale === 'en' ? '' : `/${locale}`;
+
+  const NAV_LINKS = [
+    { href: `${p}/`, label: t('nav.play') },
+    { href: `${p}/characters`, label: t('nav.characters') },
+    { href: `${p}/walkthrough`, label: t('nav.walkthrough') },
+    { href: `${p}/blog`, label: t('nav.blog') },
+    { href: `${p}/about`, label: t('nav.about') },
+  ];
+
   return (
     <header className="sticky top-0 z-50 bg-circus-black/95 backdrop-blur-sm border-b border-circus-border">
       <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-circus-gold to-transparent opacity-60" />
-
       <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        <Link href="/" className="flex flex-col leading-none group">
+        <Link href={p || '/'} className="flex flex-col leading-none group">
           <span className="font-display text-circus-gold text-lg tracking-wider group-hover:text-circus-gold-light transition-colors animate-flicker">
             The Freak Circus
           </span>
@@ -22,21 +28,21 @@ export default function Header() {
             thefreakcircus.help
           </span>
         </Link>
-
         <nav aria-label="Main navigation">
           <ul className="flex flex-wrap gap-1 items-center justify-end">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>
-                <Link
-                  href={href}
+                <Link href={href}
                   className="px-3 py-1.5 text-sm text-circus-text hover:text-circus-gold
                              border border-transparent hover:border-circus-border
-                             transition-all duration-200 rounded-sm font-sans"
-                >
+                             transition-all duration-200 rounded-sm font-sans">
                   {label}
                 </Link>
               </li>
             ))}
+            <li className="ml-2 pl-2 border-l border-circus-border">
+              <LocaleSwitcher />
+            </li>
           </ul>
         </nav>
       </div>

@@ -1,0 +1,259 @@
+{
+  "locale": {
+    "en": "English",
+    "pt": "Português",
+    "fil": "Filipino",
+    "vi": "Tiếng Việt",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
+  },
+  "header": {
+    "siteName": "The Freak Circus",
+    "subtitle": "thefreakcircus.help",
+    "nav": {
+      "play": "Jugar Online",
+      "characters": "Personajes",
+      "walkthrough": "Guía",
+      "blog": "Blog",
+      "about": "Acerca de"
+    }
+  },
+  "footer": {
+    "aboutTitle": "Acerca de Este Sitio",
+    "aboutText": "thefreakcircus.help es un sitio de fans no oficial para la novela visual The Freak Circus. No estamos afiliados con Garula o Neko Bueno.",
+    "quickLinks": "Enlaces Rápidos",
+    "links": {
+      "play": "Jugar The Freak Circus Online",
+      "characters": "Guía de Personajes",
+      "walkthrough": "Guía y Finales",
+      "blog": "Artículos y Guías",
+      "official": "Página Oficial en itch.io"
+    },
+    "disclaimerTitle": "Aviso Legal",
+    "disclaimerText": "Este sitio contiene contenido de un juego clasificado 18+. El juego incrustado se sirve directamente desde el CDN oficial.",
+    "copyright": "© {year} thefreakcircus.help - Sitio de Fans - Todas las marcas pertenecen a sus respectivos dueños",
+    "extLabel": "(externo)"
+  },
+  "game": {
+    "playButton": "Jugar The Freak Circus",
+    "loading": "Cargando...",
+    "ariaLabel": "Haz clic para iniciar The Freak Circus",
+    "iframeTitle": "Juega The Freak Circus - Novela Visual de Terror Psicológico"
+  },
+  "home": {
+    "welcome": "Bienvenido al Circo",
+    "subtitle": "Juega la novela visual de terror psicológico online, gratis",
+    "aboutDivider": "Acerca del Juego",
+    "whatIsTitle": "¿Qué Es The Freak Circus?",
+    "whatIsP1": "The Freak Circus es una <strong>novela visual de terror psicológico</strong> creada por el desarrollador independiente Garula (Neko Bueno) y publicada en itch.io. El juego ha ganado un seguimiento internacional apasionado por su inquietante arte gótico, personajes moralmente complejos y narrativa profundamente ramificada.",
+    "whatIsP2": "Llegas como un extraño a un circo remoto. Lo que comienza como curiosidad pronto se convierte en enredo. Cada elección moldea tu destino y el de cinco artistas extraordinarios que han estado esperando a alguien como tú.",
+    "featuresTitle": "Características Principales",
+    "features": [
+      "Múltiples rutas de historia con cinco personajes románticos",
+      "Narrativa ramificada con finales buenos y malos distintos",
+      "Atmósfera gótica de terror psicológico con arte original",
+      "Soporte oficial al idioma chino",
+      "Actualizaciones regulares de contenido por el desarrollador",
+      "Gratis para jugar, disponible en navegador y descarga"
+    ],
+    "charactersTitle": "Personajes",
+    "charactersP": "Cinco artistas moldean cada partida: <a href=\"/es/characters#pierrot\">Pierrot</a>, <a href=\"/es/characters#harlequin\">Harlequin</a>, <a href=\"/es/characters#jester\">Jester</a>, <a href=\"/es/characters#ticket-taker\">el Guardián</a> y <a href=\"/es/characters#doctor\">el Doctor</a>. Cada uno tiene una ruta única, conjunto de finales y arco de relación con el protagonista.",
+    "buttons": {
+      "walkthrough": "Ver Guía",
+      "characters": "Conocer a los Personajes"
+    }
+  },
+  "about": {
+    "title": "Acerca de The Freak Circus",
+    "subtitle": "Todo lo que necesitas saber sobre el juego y este sitio.",
+    "gameSection": "El Juego",
+    "gameP1": "The Freak Circus es una oscura novela visual de terror psicológico desarrollada por el creador independiente Garula (Neko Bueno). Se publica en itch.io y ha acumulado una base de fans internacional dedicada a través del boca a boca en plataformas como TikTok, Tumblr y Reddit.",
+    "gameP2": "El juego sigue a un protagonista anónimo que visita un circo misterioso y aislado y se enreda con cinco artistas peligrosos. La narrativa se desarrolla a lo largo de varios días, con las elecciones del jugador determinando las rutas y finales de los personajes.",
+    "siteSection": "Este Sitio",
+    "siteP1": "thefreakcircus.help es un recurso de fans no oficial que ofrece el juego incrustado, guías de personajes, tutoriales y artículos. Incrustamos el juego a través del CDN oficial y no alojamos, redistribuimos ni modificamos archivos del juego.",
+    "siteP2": "Para apoyar al desarrollador directamente, visita la <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">página oficial de itch.io</a>.",
+    "faqDivider": "Preguntas Frecuentes",
+    "faq": [
+      {
+        "q": "¿Quién creó The Freak Circus?",
+        "a": "The Freak Circus fue creado por Garula, también conocido como Neko Bueno. Es un proyecto independiente publicado en itch.io."
+      },
+      {
+        "q": "¿The Freak Circus es gratuito?",
+        "a": "Sí. El juego base es gratuito para jugar en el navegador y gratuito para descargar. El desarrollador ofrece niveles opcionales en Patreon para acceso anticipado a nuevo contenido."
+      },
+      {
+        "q": "¿Este sitio es oficial?",
+        "a": "No. thefreakcircus.help es un sitio de fans no oficial. No estamos afiliados con Garula o Neko Bueno."
+      },
+      {
+        "q": "¿Qué advertencias de contenido tiene el juego?",
+        "a": "The Freak Circus está clasificado 18+ y contiene temas de terror psicológico, dinámicas de relación possessivas y controladoras, romance oscuro y contenido maduro."
+      },
+      {
+        "q": "¿Cómo descargo el juego?",
+        "a": "Los enlaces de descarga para Windows, macOS y Linux están disponibles en la página oficial de itch.io. También puedes jugar la versión de navegador incrustada en la página principal de este sitio."
+      },
+      {
+        "q": "¿El juego tiene soporte para chino?",
+        "a": "Sí. The Freak Circus incluye soporte oficial para chino simplificado."
+      }
+    ]
+  },
+  "characters": {
+    "pageTitle": "Los Artistas",
+    "title": "Personajes de The Freak Circus",
+    "subtitle": "Cinco artistas extraordinarios. Cinco rutas. Un destino.",
+    "routeTip": "Consejo de Ruta",
+    "list": [
+      {
+        "id": "pierrot",
+        "name": "Pierrot",
+        "role": "El Payaso Llorón",
+        "description": "Controlado, melancólico e intensamente perceptivo. Pierrot es el ancla emocional del circo, interpretando tristeza para multitudes que ríen de sus lágrimas. Su ruta es la más psicológicamente exigente y ofrece la mayor cantidad de información sobre la verdadera naturaleza del circo.",
+        "traits": [
+          "Melancólico",
+          "Posesivo",
+          "Poético",
+          "Peligroso"
+        ],
+        "routeTip": "Elige diálogos introspectivos y empáticos en el Día 1. Evita la desafianza en el Día 2 para desbloquear el Final Bueno."
+      },
+      {
+        "id": "harlequin",
+        "name": "Harlequin",
+        "role": "El Artista Caótico",
+        "description": "Impredecible y teatral, Harlequin oculta un pasado turbulento detrás de una actuación siempre cambiante. Su relación con Pierrot es una de las dinámicas centrales del juego.",
+        "traits": [
+          "Volátil",
+          "Encantador",
+          "Protector",
+          "Complejo"
+        ],
+        "routeTip": "Selecciona el globo rojo en el Día 1. Usa respuestas audaces y juguetonas durante los encuentros en la carpa."
+      },
+      {
+        "id": "jester",
+        "name": "Jester",
+        "role": "El Tramposo",
+        "description": "Jester existe entre los otros artistas, ni completamente leal ni completamente antagónico. Su ruta explora la ética del entretenimiento y lo que significa hacer reír a los demás.",
+        "traits": [
+          "Ambiguo",
+          "Agudo",
+          "Solitario",
+          "Calculador"
+        ],
+        "routeTip": "La ruta de Jester se desbloquea en el Día 2. Responde con humor pero evita la confrontación directa."
+      },
+      {
+        "id": "ticket-taker",
+        "name": "Guardián",
+        "role": "El Portero",
+        "description": "El primer personaje que conoces. El Guardián controla quién entra y quién sale, y ha observado todo en este circo durante mucho más tiempo del que los otros creen.",
+        "traits": [
+          "Observador",
+          "Críptico",
+          "Severo",
+          "Antiguo"
+        ],
+        "routeTip": "Responde directamente a cada pregunta que el Guardián haga. Su ruta requiere persistencia."
+      },
+      {
+        "id": "doctor",
+        "name": "Doctor",
+        "role": "El Cirujano de los Secretos",
+        "description": "La ruta del Doctor es la más recientemente expandida y contiene algunos de los contenidos más oscuros del juego. Es metódico, íntimo y profundamente inquietante.",
+        "traits": [
+          "Clínico",
+          "Íntimo",
+          "Controlador",
+          "Complejo"
+        ],
+        "routeTip": "El contenido del Doctor se concentra en el Día 2. Acepta sus escenas de examen para progresar en su ruta."
+      }
+    ]
+  },
+  "walkthrough": {
+    "pageTitle": "Guías y Spoilers",
+    "title": "Guía de The Freak Circus",
+    "subtitle": "Guías paso a paso para cada ruta, final y escena oculta.",
+    "spoilerTitle": "Advertencia de Spoilers",
+    "spoilerText": "Esta página contiene spoilers importantes para todas las rutas y finales. Juega al menos el Día 1 antes de consultar esta guía.",
+    "day1Title": "Día 1 - Resumen de Rutas",
+    "day1P1": "El Día 1 establece tu afinidad con cada uno de los cinco personajes a través de una serie de encuentros en el carnaval. Tus elecciones en los primeros 20 minutos determinan qué rutas estarán disponibles en el Día 2.",
+    "day1P2": "Los puntos de ramificación clave en el Día 1 incluyen la interacción de entrada con el Guardián, la elección de la carpa y la conversación durante la cena.",
+    "pierrotTitle": "Guía de la Ruta de Pierrot",
+    "pierrotP1": "Selecciona opciones introspectivas y empáticas durante el Día 1. En la escena de la carpa, sigue la capa blanca. Durante el Día 2, elige comprensión en lugar de resistencia para desbloquear el Final Bueno de Pierrot.",
+    "pierrotP2": "Ve el artículo completo de la ruta de Pierrot en nuestro <a href=\"/es/blog/pierrot-route-guide\">blog</a>.",
+    "harlequinTitle": "Guía de la Ruta de Harlequin",
+    "harlequinP1": "Interactúa con el globo rojo durante la apertura del carnaval del Día 1. Usa respuestas audaces y juguetonas en la carpa principal. La ruta de Harlequin escala rápidamente en el Día 2, así que abraza el caos en lugar de resistirlo.",
+    "endingsTitle": "Resumen de Finales",
+    "endingsChar": "Personaje",
+    "endingsGood": "Final Bueno",
+    "endingsBad": "Finales Malos",
+    "endingsTable": [
+      {
+        "char": "Pierrot",
+        "good": "Reflejo en el Espejo",
+        "bad": "Escenario Roto, Escape"
+      },
+      {
+        "char": "Harlequin",
+        "good": "Llamada al Telón",
+        "bad": "Escenario Vacío"
+      },
+      {
+        "char": "Jester",
+        "good": "Desenmascarado",
+        "bad": "El Remate"
+      },
+      {
+        "char": "Guardián",
+        "good": "Puerta Abierta",
+        "bad": "Cerrado para Siempre"
+      },
+      {
+        "char": "Doctor",
+        "good": "Manos Limpias",
+        "bad": "Bajo el Cuchillo, Entumecido"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Guías y Artículos",
+    "subtitle": "Guías, análisis de personajes y lore de The Freak Circus.",
+    "backLink": "Volver a todos los artículos",
+    "published": "Publicado {date}",
+    "footerLink": "Jugar The Freak Circus Online"
+  },
+  "ad": {
+    "leftLabel": "Anuncio en la barra lateral izquierda",
+    "rightLabel": "Anuncio en la barra lateral derecha"
+  },
+  "meta": {
+    "homeTitle": "Juega The Freak Circus Online - Novela Visual de Terror Psicológico",
+    "homeDesc": "Juega The Freak Circus gratis online en tu navegador. Una oscura novela visual de terror psicológico por Garula con rutas para Pierrot, Harlequin, Jester y más.",
+    "aboutTitle": "Acerca de The Freak Circus - Información del Juego, Desarrollador y FAQ",
+    "aboutDesc": "Conoce más sobre la novela visual The Freak Circus: desarrollador, enlaces de descarga, advertencias de contenido, soporte para chino y preguntas frecuentes.",
+    "charactersTitle": "Personajes de The Freak Circus - Pierrot, Harlequin, Jester y Más",
+    "charactersDesc": "Conoce a los personajes de The Freak Circus: Pierrot, Harlequin, Jester, el Guardián y el Doctor. Lee consejos de ruta, rasgos y notas de lore.",
+    "walkthroughTitle": "Guía de The Freak Circus - Día 1 y Día 2, Todos los Finales",
+    "walkthroughDesc": "Guía completa para la novela visual The Freak Circus con elecciones del Día 1 y Día 2, rutas de personajes, finales buenos, finales malos y escenas ocultas.",
+    "blogTitle": "Blog The Freak Circus - Guías, Tutoriales y Análisis de Personajes",
+    "blogDesc": "Guías, tutoriales de finales, análisis de personajes e inmersiones profundas en el lore de la novela visual de terror psicológico The Freak Circus."
+  },
+  "schema": {
+    "websiteName": "The Freak Circus",
+    "websiteDesc": "Una novela visual de romance y terror psicológico ambientada en un circo misterioso.",
+    "gameGenres": [
+      "Novela Visual",
+      "Terror Psicológico",
+      "Romance"
+    ],
+    "authorName": "Garula (Neko Bueno)",
+    "os": "Navegador Web, Windows, macOS, Linux",
+    "contentRating": "18+",
+    "searchAction": "Buscar thefreakcircus.help"
+  }
+}

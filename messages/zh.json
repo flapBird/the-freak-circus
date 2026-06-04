@@ -1,0 +1,259 @@
+{
+  "locale": {
+    "en": "English",
+    "pt": "Português",
+    "fil": "Filipino",
+    "vi": "Tiếng Việt",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
+  },
+  "header": {
+    "siteName": "The Freak Circus",
+    "subtitle": "thefreakcircus.help",
+    "nav": {
+      "play": "在线游玩",
+      "characters": "角色介绍",
+      "walkthrough": "攻略指南",
+      "blog": "博客",
+      "about": "关于"
+    }
+  },
+  "footer": {
+    "aboutTitle": "关于本站",
+    "aboutText": "thefreakcircus.help 是《怪诞马戏团》视觉小说的非官方粉丝网站。我们与 Garula 或 Neko Bueno 无关。所有游戏内容归原作者所有。",
+    "quickLinks": "快速链接",
+    "links": {
+      "play": "在线游玩怪诞马戏团",
+      "characters": "角色指南",
+      "walkthrough": "攻略与结局",
+      "blog": "文章与指南",
+      "official": "itch.io 官方页面"
+    },
+    "disclaimerTitle": "免责声明",
+    "disclaimerText": "本站包含 18+ 级游戏内容。嵌入的游戏直接通过官方 CDN 提供。我们不托管、重新分发或修改任何游戏文件。",
+    "copyright": "© {year} thefreakcircus.help - 粉丝网站 - 所有商标归其各自所有者所有",
+    "extLabel": "(外部链接)"
+  },
+  "game": {
+    "playButton": "开始游玩",
+    "loading": "加载中...",
+    "ariaLabel": "点击开始游玩《怪诞马戏团》",
+    "iframeTitle": "游玩《怪诞马戏团》- 心理恐怖视觉小说"
+  },
+  "home": {
+    "welcome": "欢迎来到马戏团",
+    "subtitle": "免费在线游玩心理恐怖视觉小说",
+    "aboutDivider": "关于游戏",
+    "whatIsTitle": "什么是《怪诞马戏团》？",
+    "whatIsP1": "《怪诞马戏团》是一款由独立开发者 Garula（又名 Neko Bueno）创作的<strong>心理恐怖视觉小说</strong>，发布于 itch.io。该游戏凭借其令人难忘的哥特式艺术风格、道德复杂的角色以及深度分支叙事，赢得了国际粉丝的热情追捧 The Freak Circus 是一款由独立开发者 Garula（又名 Neko Bueno）创作的<strong>心理恐怖视觉小说</strong>，在 itch.io 上发布。该游戏凭借其令人难忘的哥特艺术风格、道德复杂的角色和深度分支叙事，赢得了国际粉丝的热情追捧。",
+    "whatIsP2": "你作为一个陌生人来到一个偏远的马戏团。起初只是好奇，很快就变成了纠缠。每一个选择都将塑造你的命运，以及五位非凡表演者的命运——他们一直在等待像你这样的人。",
+    "featuresTitle": "游戏特色",
+    "features": [
+      "五位可攻略角色的多条故事路线",
+      "分支叙事，包含明确的好结局和坏结局",
+      "哥特式心理恐怖氛围与原创艺术",
+      "官方中文语言支持",
+      "开发者定期内容更新",
+      "免费游玩，支持浏览器和下载"
+    ],
+    "charactersTitle": "角色介绍",
+    "charactersP": "五位表演者塑造了每一次游戏体验：<a href=\"/zh/characters#pierrot\">Pierrot</a>、<a href=\"/zh/characters#harlequin\">Harlequin</a>、<a href=\"/zh/characters#jester\">Jester</a>、<a href=\"/zh/characters#ticket-taker\">售票员</a>和<a href=\"/zh/characters#doctor\">医生</a>。每一位都有独特的故事线、结局集以及与主角的关系弧线。",
+    "buttons": {
+      "walkthrough": "查看攻略",
+      "characters": "认识角色"
+    }
+  },
+  "about": {
+    "title": "关于《怪诞马戏团》",
+    "subtitle": "关于游戏和本站你需要知道的一切。",
+    "gameSection": "游戏介绍",
+    "gameP1": "《怪诞马戏团》是由独立创作者 Garula（Neko Bueno）开发的一款黑暗心理恐怖视觉小说。该游戏在 itch.io 上发布，通过 TikTok、Tumblr 和 Reddit 等平台的口碑传播，积累了忠实的国际粉丝群。",
+    "gameP2": "游戏讲述了一位无名主角来到一个神秘而偏僻的马戏团，与五位危险的表演者纠缠在一起的故事。叙事跨越多天展开，玩家的选择决定角色的路线和结局。",
+    "siteSection": "关于本站",
+    "siteP1": "thefreakcircus.help 是一个非官方的粉丝资源站，提供游戏嵌入、角色指南、攻略和文章。我们通过官方 CDN 嵌入游戏，不托管、重新分发或修改任何游戏文件。",
+    "siteP2": "要直接支持开发者，请访问<a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">itch.io 官方页面</a>。",
+    "faqDivider": "常见问题",
+    "faq": [
+      {
+        "q": "谁制作了《怪诞马戏团》？",
+        "a": "《怪诞马戏团》由独立开发者 Garula（又名 Neko Bueno）创建，是在 itch.io 上发布的独立项目。"
+      },
+      {
+        "q": "《怪诞马戏团》免费吗？",
+        "a": "是的。基础游戏可以在浏览器中免费游玩，也可以免费下载。开发者提供可选的 Patreon 层级以提前获取新内容。"
+      },
+      {
+        "q": "这个网站是官方的吗？",
+        "a": "不是。thefreakcircus.help 是非官方粉丝网站。我们与 Garula 或 Neko Bueno 无关。所有游戏素材归原作者所有。"
+      },
+      {
+        "q": "游戏有哪些内容警告？",
+        "a": "《怪诞马戏团》评级为 18+，包含心理恐怖主题、占有欲和控制型关系动态、黑暗浪漫以及成人内容。请查看 itch.io 官方页面了解完整的内容警告列表。"
+      },
+      {
+        "q": "如何下载游戏？",
+        "a": "Windows、macOS 和 Linux 的下载链接可在 itch.io 官方页面找到。你也可以在本站首页游玩浏览器版本。"
+      },
+      {
+        "q": "游戏支持中文吗？",
+        "a": "是的。《怪诞马戏团》包含官方简体中文语言支持。"
+      }
+    ]
+  },
+  "characters": {
+    "pageTitle": "表演者们",
+    "title": "《怪诞马戏团》角色介绍",
+    "subtitle": "五位非凡的表演者。五条故事线。一个命运。",
+    "routeTip": "路线提示",
+    "list": [
+      {
+        "id": "pierrot",
+        "name": "Pierrot",
+        "role": "哭泣的小丑",
+        "description": "克制、忧郁且洞察力极强。Pierrot 是马戏团的情感支柱，为嘲笑他眼泪的观众表演悲伤。他的路线对心理要求最高，揭示了马戏团真实本质的更多传说。",
+        "traits": [
+          "忧郁",
+          "占有欲强",
+          "诗意",
+          "危险"
+        ],
+        "routeTip": "在第一天选择内省和共情的对话。在第二天避免反抗以解锁好结局。"
+      },
+      {
+        "id": "harlequin",
+        "name": "Harlequin",
+        "role": "混乱的表演者",
+        "description": "难以预测且富有戏剧性，Harlequin 用不断变化的表演掩盖了动荡的过去。他与 Pierrot 的关系是游戏的核心动态之一。",
+        "traits": [
+          "易变",
+          "迷人",
+          "保护欲",
+          "有层次"
+        ],
+        "routeTip": "在第一天选择红色气球。在帐篷遭遇中使用大胆、俏皮的回应。"
+      },
+      {
+        "id": "jester",
+        "name": "Jester",
+        "role": "欺诈师",
+        "description": "Jester 存在于其他表演者之间，既不完全忠诚也不完全敌对。他的路线探索了娱乐的伦理以及让别人发笑意味着什么。",
+        "traits": [
+          "模棱两可",
+          "机智",
+          "孤独",
+          "精于计算"
+        ],
+        "routeTip": "Jester 的路线在第二天解锁。用幽默回应但避免直接对抗。"
+      },
+      {
+        "id": "ticket-taker",
+        "name": "售票员",
+        "role": "守门人",
+        "description": "你遇到的第一个角色。售票员控制着谁进谁出，他对这个马戏团的观察时间远比其他人意识到的要长。",
+        "traits": [
+          "善于观察",
+          "神秘",
+          "严厉",
+          "古老"
+        ],
+        "routeTip": "直接回答售票员的每个问题。他的路线需要坚持不懈。"
+      },
+      {
+        "id": "doctor",
+        "name": "医生",
+        "role": "秘密外科医生",
+        "description": "医生的路线是最近扩展的，包含了一些游戏中最黑暗的内容。他有条不紊、亲密且令人深感不安。",
+        "traits": [
+          "冷静",
+          "亲密",
+          "控制欲",
+          "复杂"
+        ],
+        "routeTip": "医生的内容主要集中在第二天。接受他的检查场景以推进他的路线。"
+      }
+    ]
+  },
+  "walkthrough": {
+    "pageTitle": "指南与剧透",
+    "title": "《怪诞马戏团》攻略",
+    "subtitle": "每条路线、每个结局和隐藏场景的逐步攻略。",
+    "spoilerTitle": "剧透警告",
+    "spoilerText": "本页包含所有路线和结局的重大剧透。在查阅本指南前，请至少完成第一天的游戏。",
+    "day1Title": "第一天 - 路线概览",
+    "day1P1": "第一天通过一系列嘉年华遭遇来确定你与五位角色的亲和力。前 20 分钟的选择将决定第二天哪些路线可用。",
+    "day1P2": "第一天的关键分支点包括与售票员的入口互动、帐篷选择以及晚餐谈话。",
+    "pierrotTitle": "Pierrot 路线指南",
+    "pierrotP1": "在第一天选择内省和共情的选项。在帐篷场景中，跟随白色斗篷。在第二天，选择理解而非抵抗以解锁 Pierrot 的好结局。",
+    "pierrotP2": "在我们的<a href=\"/zh/blog/pierrot-route-guide\">博客</a>中查看完整的 Pierrot 路线文章。",
+    "harlequinTitle": "Harlequin 路线指南",
+    "harlequinP1": "在第一天嘉年华开场时与红色气球互动。在主帐篷中使用大胆、俏皮的回应。Harlequin 的路线在第二天迅速升级，所以拥抱混乱而不是抵抗它。",
+    "endingsTitle": "结局一览",
+    "endingsChar": "角色",
+    "endingsGood": "好结局",
+    "endingsBad": "坏结局",
+    "endingsTable": [
+      {
+        "char": "Pierrot",
+        "good": "镜中倒影",
+        "bad": "破碎舞台、逃脱"
+      },
+      {
+        "char": "Harlequin",
+        "good": "谢幕",
+        "bad": "空荡舞台"
+      },
+      {
+        "char": "Jester",
+        "good": "揭下面具",
+        "bad": "笑点"
+      },
+      {
+        "char": "售票员",
+        "good": "敞开的门",
+        "bad": "永远关闭"
+      },
+      {
+        "char": "医生",
+        "good": "干净的手",
+        "bad": "刀下、麻木"
+      }
+    ]
+  },
+  "blog": {
+    "title": "指南与文章",
+    "subtitle": "《怪诞马戏团》的攻略、角色分析和背景设定。",
+    "backLink": "返回所有文章",
+    "published": "发布于 {date}",
+    "footerLink": "在线游玩《怪诞马戏团》"
+  },
+  "ad": {
+    "leftLabel": "左侧边栏广告",
+    "rightLabel": "右侧边栏广告"
+  },
+  "meta": {
+    "homeTitle": "在线游玩《怪诞马戏团》- 心理恐怖视觉小说",
+    "homeDesc": "在浏览器中免费在线游玩《怪诞马戏团》。Garula 制作的黑暗心理恐怖视觉小说，包含 Pierrot、Harlequin、Jester 等角色的故事路线。",
+    "aboutTitle": "关于《怪诞马戏团》- 游戏信息、开发者和常见问题",
+    "aboutDesc": "了解《怪诞马戏团》视觉小说：开发者、下载链接、内容警告、中文支持和常见问题。",
+    "charactersTitle": "《怪诞马戏团》角色 - Pierrot、Harlequin、Jester 及更多",
+    "charactersDesc": "认识《怪诞马戏团》的角色：Pierrot、Harlequin、Jester、售票员和医生。阅读路线提示、特征和背景设定。",
+    "walkthroughTitle": "《怪诞马戏团》攻略 - 第一天和第二天，所有结局",
+    "walkthroughDesc": "《怪诞马戏团》视觉小说完整攻略，包含第一天和第二天选择、角色路线、好结局、坏结局和隐藏场景。",
+    "blogTitle": "《怪诞马戏团》博客 - 指南、攻略和角色分析",
+    "blogDesc": "《怪诞马戏团》心理恐怖视觉小说的指南、结局攻略、角色分析和背景深度挖掘。"
+  },
+  "schema": {
+    "websiteName": "The Freak Circus",
+    "websiteDesc": "一部以神秘马戏团为背景的心理恐怖恋爱视觉小说。",
+    "gameGenres": [
+      "视觉小说",
+      "心理恐怖",
+      "恋爱"
+    ],
+    "authorName": "Garula (Neko Bueno)",
+    "os": "网页浏览器、Windows、macOS、Linux",
+    "contentRating": "18+",
+    "searchAction": "搜索 thefreakcircus.help"
+  }
+}
