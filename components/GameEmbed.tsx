@@ -49,10 +49,6 @@ export default function GameEmbed() {
               aria-hidden="true"
             />
           </button>
-
-          <p className="text-circus-muted text-xs z-10 absolute bottom-6 px-4 text-center">
-            Embedded from the official CDN. 18+ content. Viewer discretion advised.
-          </p>
         </div>
       ) : (
         <div className="game-wrapper relative">
@@ -74,22 +70,6 @@ export default function GameEmbed() {
           />
         </div>
       )}
-
-      <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-circus-muted">
-        <span className="font-body italic">
-          Game by{' '}
-          <a
-            href="https://garula.itch.io/the-freak-circus"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className="text-circus-gold hover:text-circus-gold-light transition-colors"
-          >
-            Garula (Neko Bueno)
-          </a>{' '}
-          - official CDN embed
-        </span>
-        <span>18+ - Psychological Horror - Visual Novel</span>
-      </div>
     </div>
   );
 }

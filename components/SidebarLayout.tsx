@@ -1,9 +1,21 @@
 import AdSlot from './AdSlot';
 
+type AdsterraConfig = {
+  key: string;
+  height?: number;
+  width?: number;
+};
+
 type Props = {
   children: React.ReactNode;
   leftAdId?: string;
   rightAdId?: string;
+};
+
+const ADSTERRA_CONFIG: AdsterraConfig = {
+  key: '04fde8258e1019d91156736c942c5a2e',
+  height: 300,
+  width: 160,
 };
 
 export default function SidebarLayout({
@@ -18,7 +30,12 @@ export default function SidebarLayout({
         aria-label="Left advertisement"
         style={{ width: 'var(--ad-slot-width)' }}
       >
-        <AdSlot slotId={leftAdId} format="vertical" label="Left sidebar advertisement" />
+        <AdSlot
+          slotId={leftAdId}
+          format="vertical"
+          label="Left sidebar advertisement"
+          adsterra={ADSTERRA_CONFIG}
+        />
       </aside>
 
       <main className="flex-1 min-w-0 w-full" style={{ maxWidth: 'var(--content-max)' }}>
@@ -30,12 +47,11 @@ export default function SidebarLayout({
         aria-label="Right advertisement"
         style={{ width: 'var(--ad-slot-width)' }}
       >
-        <AdSlot slotId={rightAdId} format="vertical" label="Right sidebar advertisement" />
         <AdSlot
-          slotId={`${rightAdId}-2`}
-          format="rectangle"
-          className="w-[160px]"
-          label="Right sidebar rectangle advertisement"
+          slotId={rightAdId}
+          format="vertical"
+          label="Right sidebar advertisement"
+          adsterra={ADSTERRA_CONFIG}
         />
       </aside>
     </div>
