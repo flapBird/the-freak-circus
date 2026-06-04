@@ -65,7 +65,7 @@ const CHARACTERS = [
 
 export default function CharactersPage() {
   return (
-    <SidebarLayout leftAdId="chars-left" rightAdId="chars-right">
+    <SidebarLayout>
       <div className="mb-8 text-center">
         <p className="text-circus-gold/70 font-display text-xs tracking-[0.4em] uppercase mb-2">
           The Performers

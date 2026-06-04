@@ -17,7 +17,7 @@ export default function BlogPage() {
   );
 
   return (
-    <SidebarLayout leftAdId="blog-left" rightAdId="blog-right">
+    <SidebarLayout>
       <div className="mb-8">
         <h1 className="font-display text-circus-white text-3xl mb-3">Guides & Articles</h1>
         <p className="text-circus-muted font-body italic">

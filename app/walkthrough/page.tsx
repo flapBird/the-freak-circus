@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function WalkthroughPage() {
   return (
-    <SidebarLayout leftAdId="walk-left" rightAdId="walk-right">
+    <SidebarLayout>
       <div className="mb-8">
         <p className="text-circus-gold/70 font-display text-xs tracking-[0.4em] uppercase mb-2">
           Guides & Spoilers

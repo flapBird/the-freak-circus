@@ -56,7 +56,7 @@ export default function BlogPostPage({ params }: Props) {
         }}
       />
 
-      <SidebarLayout leftAdId={`post-${post.slug}-left`} rightAdId={`post-${post.slug}-right`}>
+      <SidebarLayout>
         <nav className="mb-6 text-xs text-circus-muted">
           <Link href="/blog" className="hover:text-circus-gold transition-colors">
             Back to all articles

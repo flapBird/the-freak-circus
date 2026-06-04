@@ -39,7 +39,7 @@ const FAQ = [
 
 export default function AboutPage() {
   return (
-    <SidebarLayout leftAdId="about-left" rightAdId="about-right">
+    <SidebarLayout>
       <div className="mb-8">
         <h1 className="font-display text-circus-white text-3xl mb-3">
           About The Freak Circus

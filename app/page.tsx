@@ -29,7 +29,7 @@ export default function HomePage() {
         }}
       />
 
-      <SidebarLayout leftAdId="home-left" rightAdId="home-right">
+      <SidebarLayout>
         <div className="mb-6 text-center">
           <p className="text-circus-gold/70 font-display text-xs tracking-[0.4em] uppercase mb-2">
             Welcome to the Circus
