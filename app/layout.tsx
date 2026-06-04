@@ -58,7 +58,7 @@ gtag('config', 'G-855DQF48TP');
         <Header />
         <div className="min-h-screen py-8">{children}</div>
         <div id="container-ad3a879f7acefad94dcedffe0b2a6b57" />
-        <script async="async" data-cfasync="false" src="https://pl29635653.effectivecpmnetwork.com/ad3a879f7acefad94dcedffe0b2a6b57/invoke.js" />
+        <script async={true} data-cfasync="false" src="https://pl29635653.effectivecpmnetwork.com/ad3a879f7acefad94dcedffe0b2a6b57/invoke.js" />
         <Footer />
         <script src="https://pl29635610.effectivecpmnetwork.com/fc/d4/43/fcd44392bb0b8f827124555b268d5d69.js" />
       </body>
