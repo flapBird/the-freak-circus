@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: post.title,
     description: post.description,
-    canonical: `${SITE_URL}/${params.locale === 'en' ? '' : params.locale + '/'}blog/${post.slug}`,
+
   });
 }
 

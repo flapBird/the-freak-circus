@@ -10,7 +10,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
     title: tMsg(locale, 'meta.blogTitle'),
     description: tMsg(locale, 'meta.blogDesc'),
-    canonical: `${SITE_URL}${locale === 'en' ? '/blog' : '/' + locale + '/blog'}`,
+
   });
 }
 

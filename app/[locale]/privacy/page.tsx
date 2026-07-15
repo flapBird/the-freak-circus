@@ -8,7 +8,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
     title: tMsg(locale, 'meta.privacyTitle'),
     description: tMsg(locale, 'meta.privacyDesc'),
-    canonical: `${SITE_URL}${locale === 'en' ? '/privacy' : '/' + locale + '/privacy'}`,
+
   });
 }
 

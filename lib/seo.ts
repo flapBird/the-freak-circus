@@ -19,11 +19,9 @@ export function buildMetadata(opts: {
     title: fullTitle,
     description,
     metadataBase: new URL(SITE_URL),
-    alternates: { canonical: canonical ?? '/' },
     openGraph: {
       title: fullTitle,
       description,
-      url: canonical ?? SITE_URL,
       siteName: SITE_NAME,
       images: [{ url: ogImage, width: 1200, height: 630, alt: fullTitle }],
       locale: 'en_US',

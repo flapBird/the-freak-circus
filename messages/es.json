@@ -28,7 +28,11 @@
       "characters": "Guía de Personajes",
       "walkthrough": "Guía y Finales",
       "blog": "Artículos y Guías",
-      "official": "Página Oficial en itch.io"
+      "official": "Página Oficial en itch.io",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "disclaimerTitle": "Aviso Legal",
     "disclaimerText": "Este sitio contiene contenido de un juego clasificado 18+. El juego incrustado se sirve directamente desde el CDN oficial.",
@@ -62,7 +66,63 @@
     "buttons": {
       "walkthrough": "Ver Guía",
       "characters": "Conocer a los Personajes"
-    }
+    },
+    "tipsList": [
+      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
+      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
+      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
+      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
+      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play."
+    ],
+    "faqItems": [
+      {
+        "q": "Is The Freak Circus free to play?",
+        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it from the official itch.io page."
+      },
+      {
+        "q": "Do I need to download anything?",
+        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly."
+      },
+      {
+        "q": "How long does The Freak Circus take to finish?",
+        "a": "A single playthrough takes about 2 to 3 hours. To experience all five routes and endings, expect 10 to 15 hours total."
+      },
+      {
+        "q": "Can I save my progress?",
+        "a": "Yes. The game includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+      },
+      {
+        "q": "What makes The Freak Circus unique?",
+        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+      },
+      {
+        "q": "Will progress carry over between devices?",
+        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+      },
+      {
+        "q": "Is The Freak Circus suitable for all ages?",
+        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+      },
+      {
+        "q": "What is the difference between routes?",
+        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+      }
+    ],
+    "howToPlayTitle": "How to Play",
+    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch it directly on this page. This visual novel uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
+    "howToPlayP2": "Each playthrough of The Freak Circus takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead toward one or two of these characters based on the choices you make early in the story.",
+    "howToPlayP3": "New players of The Freak Circus should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
+    "faqTitle": "The Freak Circus FAQ",
+    "storyTitle": "The Freak Circus Story & Premise",
+    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history.",
+    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
+    "tipsTitle": "Tips for Playing The Freak Circus",
+    "whyPlayTitle": "Why Play The Freak Circus?",
+    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets this visual novel apart from typical anime-style titles. Combined with a branching narrative system that tracks over a dozen variables per playthrough, it delivers a different experience every time you play."
   },
   "about": {
     "title": "Acerca de The Freak Circus",
@@ -241,7 +301,13 @@
     "walkthroughTitle": "Guía de The Freak Circus - Día 1 y Día 2, Todos los Finales",
     "walkthroughDesc": "Guía completa para la novela visual The Freak Circus con elecciones del Día 1 y Día 2, rutas de personajes, finales buenos, finales malos y escenas ocultas.",
     "blogTitle": "Blog The Freak Circus - Guías, Tutoriales y Análisis de Personajes",
-    "blogDesc": "Guías, tutoriales de finales, análisis de personajes e inmersiones profundas en el lore de la novela visual de terror psicológico The Freak Circus."
+    "blogDesc": "Guías, tutoriales de finales, análisis de personajes e inmersiones profundas en el lore de la novela visual de terror psicológico The Freak Circus.",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
+    "termsTitle": "Terms of Service",
+    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
   },
   "schema": {
     "websiteName": "The Freak Circus",
@@ -255,5 +321,29 @@
     "os": "Navegador Web, Windows, macOS, Linux",
     "contentRating": "18+",
     "searchAction": "Buscar thefreakcircus.help"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
+    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
+    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we handle your data on thefreakcircus.help.",
+    "s1title": "Information We Collect",
+    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
+    "s2title": "Third-Party Services",
+    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
+    "s3title": "Your Rights",
+    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
+    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
+    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
+    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
+    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
   }
 }

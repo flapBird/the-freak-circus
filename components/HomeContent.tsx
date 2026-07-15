@@ -43,7 +43,7 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
 
           <h2>{tMsg(locale, 'home.featuresTitle')}</h2>
-          <ul className="list-none space-y-3 pl-0">{(rawMsg(locale, 'home.features') as string[]).map((f: any) => (
+          <ul className="list-none space-y-3 pl-0">{(rawMsg(locale, 'home.features') ?? []).map((f: any) => (
             <li key={f} className="flex gap-3 items-start"><span className="text-circus-gold mt-1 flex-shrink-0 text-base leading-none">-</span><span className="text-circus-text text-base leading-relaxed">{f}</span></li>
           ))}</ul>
           <h2>{tMsg(locale, 'home.charactersTitle')}</h2>
@@ -74,7 +74,7 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
 
           <h2>{tMsg(locale, 'home.tipsTitle')}</h2>
-          <ul className="list-none space-y-3 pl-0">{(rawMsg(locale, 'home.tipsList') as string[]).map((tip: any) => (
+          <ul className="list-none space-y-3 pl-0">{(rawMsg(locale, 'home.tipsList') ?? []).map((tip: any) => (
             <li key={tip} className="flex gap-3 items-start"><span className="text-circus-gold mt-1 flex-shrink-0 text-base leading-none">*</span><span className="text-circus-text text-base leading-relaxed">{tip}</span></li>
           ))}</ul>
           <h2>{tMsg(locale, 'home.whyPlayTitle')}</h2>
@@ -87,7 +87,7 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
 
           <h2>{tMsg(locale, 'home.faqTitle')}</h2>
-          <dl className="space-y-4">{(rawMsg(locale, 'home.faqItems') as {q:string;a:string}[]).map((item: any) => (
+          <dl className="space-y-4">{(rawMsg(locale, 'home.faqItems') ?? []).map((item: any) => (
             <div key={item.q} className="border-l-2 border-circus-gold/30 pl-4"><dt className="font-body text-circus-text text-base font-semibold mb-1">{item.q}</dt><dd className="text-circus-muted text-base leading-relaxed">{item.a}</dd></div>
           ))}</dl>
         </article>
