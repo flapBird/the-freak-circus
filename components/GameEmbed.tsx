@@ -1,13 +1,46 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 
-const ITCH_EMBED_URL = 'https://cdn.the-freakcircus.com/game/index.html';
+const ITCH_EMBED_URL = 'https://g.thefreakcircus.my/the-freak-circus/index.html';
 
 export default function GameEmbed() {
   const [loaded, setLoaded] = useState(false);
   const [started, setStarted] = useState(false);
+  const [like, setLike] = useState<'none' | 'like' | 'dislike'>('none');
+  const [animLike, setAnimLike] = useState(false);
+  const [animDislike, setAnimDislike] = useState(false);
+  const [gameKey, setGameKey] = useState(0);
+
+  const reload = useCallback(() => {
+    setLoaded(false);
+    setGameKey((k) => k + 1);
+  }, []);
+
+  const toggleFullscreen = useCallback(() => {
+    const el = document.querySelector('.game-wrapper');
+    if (!el) return;
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      el.requestFullscreen();
+    }
+  }, []);
+
+  const handleLike = useCallback(() => {
+    if (like === 'like') { setLike('none'); return; }
+    setLike('like');
+    setAnimLike(true);
+    setTimeout(() => setAnimLike(false), 400);
+  }, [like]);
+
+  const handleDislike = useCallback(() => {
+    if (like === 'dislike') { setLike('none'); return; }
+    setLike('dislike');
+    setAnimDislike(true);
+    setTimeout(() => setAnimDislike(false), 400);
+  }, [like]);
 
   return (
     <div className="w-full">
@@ -60,6 +93,7 @@ export default function GameEmbed() {
             </div>
           )}
           <iframe
+            key={gameKey}
             src={ITCH_EMBED_URL}
             title="Play The Freak Circus - Psychological Horror Visual Novel"
             allowFullScreen
@@ -68,6 +102,72 @@ export default function GameEmbed() {
             onLoad={() => setLoaded(true)}
             className="w-full h-full"
           />
+        </div>
+      )}
+
+      {started && (
+        <div className="flex items-center justify-end gap-3 mt-2 px-1">
+          {/* Like */}
+          <button
+            onClick={handleLike}
+            className={`flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border transition-all duration-200
+              ${animLike ? 'scale-125' : 'scale-100'}
+              ${like === 'like'
+                ? 'bg-circus-gold/15 border-circus-gold/50 text-circus-gold'
+                : 'border-circus-border text-circus-muted hover:border-circus-gold/30 hover:text-circus-text'
+              }`}
+            title="Like"
+            type="button"
+          >
+            <svg className={`w-4 h-4 transition-transform duration-200 ${animLike ? 'scale-125' : ''}`} fill={like === 'like' ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+            </svg>
+          </button>
+
+          {/* Dislike */}
+          <button
+            onClick={handleDislike}
+            className={`flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border transition-all duration-200
+              ${animDislike ? 'scale-125' : 'scale-100'}
+              ${like === 'dislike'
+                ? 'bg-circus-red/15 border-circus-red/50 text-circus-crimson'
+                : 'border-circus-border text-circus-muted hover:border-circus-gold/30 hover:text-circus-text'
+              }`}
+            title="Dislike"
+            type="button"
+          >
+            <svg className={`w-4 h-4 transition-transform duration-200 ${animDislike ? 'scale-125' : ''}`} fill={like === 'dislike' ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 14H5.236a2 2 0 01-1.789-2.894l3.5-7A2 2 0 018.736 3h4.018a2 2 0 01.485.06l3.76.94m-7 10v5a2 2 0 002 2h.096c.5 0 .905-.405.905-.904 0-.715.211-1.413.608-2.008L17 13V4m-7 10h2m5-10h2a2 2 0 012 2v6a2 2 0 01-2 2h-2.5" />
+            </svg>
+          </button>
+
+          <span className="w-px h-5 bg-circus-border" />
+
+          {/* Reload */}
+          <button
+            onClick={reload}
+            className="flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border border-circus-border
+                       text-circus-muted hover:border-circus-gold/30 hover:text-circus-text transition-all"
+            title="Reload game"
+            type="button"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+          </button>
+
+          {/* Fullscreen */}
+          <button
+            onClick={toggleFullscreen}
+            className="flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border border-circus-border
+                       text-circus-muted hover:border-circus-gold/30 hover:text-circus-text transition-all"
+            title="Toggle fullscreen"
+            type="button"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+            </svg>
+          </button>
         </div>
       )}
     </div>

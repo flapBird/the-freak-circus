@@ -8,12 +8,10 @@ const COUNTRY_MAP: Record<string, string> = {
   US: 'en', GB: 'en', AU: 'en', CA: 'en', NZ: 'en', IE: 'en',
   ZA: 'en', IN: 'en', SG: 'en', MY: 'en', KE: 'en', NG: 'en',
   GH: 'en', JM: 'en', TT: 'en', BB: 'en',
-  PT: 'pt', BR: 'pt', AO: 'pt', MZ: 'pt', CV: 'pt', GW: 'pt',
-  ST: 'pt', TL: 'pt',
+  PT: 'pt', BR: 'pt', AO: 'pt', MZ: 'pt', CV: 'pt', GW: 'pt', ST: 'pt', TL: 'pt',
   ES: 'es', MX: 'es', AR: 'es', CO: 'es', CL: 'es', PE: 'es',
   VE: 'es', EC: 'es', GT: 'es', CU: 'es', BO: 'es', DO: 'es',
-  HN: 'es', PY: 'es', SV: 'es', NI: 'es', CR: 'es', PA: 'es',
-  UY: 'es', GQ: 'es', PR: 'es',
+  HN: 'es', PY: 'es', SV: 'es', NI: 'es', CR: 'es', PA: 'es', UY: 'es', GQ: 'es', PR: 'es',
   PH: 'fil', VN: 'vi', ID: 'id',
   CN: 'zh', TW: 'zh', HK: 'zh',
 };
@@ -21,36 +19,38 @@ const COUNTRY_MAP: Record<string, string> = {
 export default function RootPage() {
   const h = headers();
 
-  // 1. Check NEXT_LOCALE cookie (user explicitly chose a locale)
+  // 1. Check NEXT_LOCALE cookie
   const cookie = h.get('cookie') || '';
   const cookieMatch = cookie.match(/NEXT_LOCALE=(en|pt|fil|vi|es|id|zh)/);
-  if (cookieMatch) {
-    redirect(`/${cookieMatch[1]}`);
+  if (cookieMatch && LOCALES.includes(cookieMatch[1])) {
+    redirect(`/${cookieMatch[1] === 'en' ? '' : cookieMatch[1]}`);
     return;
   }
 
-  // 2. Try CDN/cloud country headers
+  // 2. CDN/cloud headers
   for (const header of ['cloudfront-viewer-country', 'cf-ipcountry', 'x-vercel-ip-country', 'x-country-code']) {
     const val = h.get(header);
     if (val && val.length === 2 && COUNTRY_MAP[val.toUpperCase()]) {
-      redirect(`/${COUNTRY_MAP[val.toUpperCase()]}`);
+      const loc = COUNTRY_MAP[val.toUpperCase()];
+      redirect(`/${loc === 'en' ? '' : loc}`);
       return;
     }
   }
 
-  // 3. Try IP geolocation
+  // 3. IP geolocation
   const ip = (h.get('x-forwarded-for') || h.get('x-real-ip') || '').split(',')[0].trim();
   if (ip && ip !== '::1' && ip !== '127.0.0.1' && !ip.startsWith('192.168.') && !ip.startsWith('10.')) {
     try {
       const geoip = require('geoip-lite');
       const geo = geoip.lookup(ip);
       if (geo?.country && COUNTRY_MAP[geo.country]) {
-        redirect(`/${COUNTRY_MAP[geo.country]}`);
+        const loc = COUNTRY_MAP[geo.country];
+        redirect(`/${loc === 'en' ? '' : loc}`);
         return;
       }
     } catch {}
   }
 
-  // 4. Default to English
-  redirect(`/${DEFAULT_LOCALE}`);
+  // 4. English default — redirect to /en so locale layout (Header/Footer) renders
+  redirect('/en');
 }

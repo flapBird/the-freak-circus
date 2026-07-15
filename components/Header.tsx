@@ -12,7 +12,6 @@ export default function Header({ locale }: Props) {
     { href: `${p}/`, label: t('nav.play') },
     { href: `${p}/characters`, label: t('nav.characters') },
     { href: `${p}/walkthrough`, label: t('nav.walkthrough') },
-    { href: `${p}/about`, label: t('nav.about') },
   ];
 
   return (

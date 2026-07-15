@@ -10,7 +10,8 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
   return (
     <>
       <Header locale={locale} />
-      <div className="min-h-screen py-8">{children}</div>
+      <div className="h-6" />
+      <div className="min-h-screen pb-8">{children}</div>
       <Footer locale={locale} />
     </>
   );

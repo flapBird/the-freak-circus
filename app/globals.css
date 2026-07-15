@@ -93,10 +93,13 @@ button:focus-visible,
   border: none;
 }
 
+
+.prose-circus {
+  font-size: 1.15rem;
+}
 .prose-circus h2 {
-  font-family: 'Cinzel Decorative', serif;
   color: var(--color-gold);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   margin: 1.5rem 0 0.75rem;
   border-bottom: 1px solid var(--color-border);
   padding-bottom: 0.4rem;
@@ -105,7 +108,7 @@ button:focus-visible,
 .prose-circus p {
   line-height: 1.8;
   margin-bottom: 1rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 
 .prose-circus a {

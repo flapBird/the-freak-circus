@@ -28,7 +28,11 @@
       "characters": "Character Guide",
       "walkthrough": "Walkthrough & Endings",
       "blog": "Articles & Guides",
-      "official": "Official itch.io Page"
+      "official": "Official itch.io Page",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "disclaimerTitle": "Disclaimer",
     "disclaimerText": "This site contains content from a game rated 18+. The embedded game is served directly from the official CDN. We do not host, redistribute, or modify any game files.",
@@ -46,23 +50,79 @@
     "subtitle": "Play the psychological horror visual novel online, free",
     "aboutDivider": "About the Game",
     "whatIsTitle": "What Is The Freak Circus?",
-    "whatIsP1": "The Freak Circus is a <strong>psychological horror visual novel</strong> created by independent developer Garula (Neko Bueno) and published on itch.io. The game has gained a passionate international following for its haunting gothic artwork, morally complex characters, and deeply branching narrative.",
-    "whatIsP2": "You arrive as a stranger at a remote circus. What begins as curiosity quickly becomes entanglement. Every choice shapes your fate and the fates of five extraordinary performers who have been waiting for someone like you.",
+    "whatIsP1": "The Freak Circus is a <strong>psychological horror visual novel</strong> created by independent developer Garula (Neko Bueno) and published on itch.io. The game has gained a passionate international following for its haunting gothic artwork, morally complex characters, and deeply branching narrative. Set in a mysterious circus that appears only at night, the story pulls you into a world where nothing is as it seems and every performer hides a dark secret.",
+    "whatIsP2": "You arrive as a stranger at a remote circus that materializes at the edge of a fog-shrouded town. What begins as curiosity quickly becomes entanglement. The five performers — Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor — sense something in you that they have been waiting for. Every choice shapes your fate and theirs across two intense days of carnivals, tent performances, and midnight conversations that reveal the circus true nature.",
     "featuresTitle": "Key Features",
     "features": [
-      "Multiple story routes across five romanceable characters",
-      "Branching narrative with distinct good and bad endings",
-      "Gothic psychological horror atmosphere with original artwork",
-      "Official Chinese language support",
-      "Regular content updates by the developer",
-      "Free to play, available in browser and as a download"
+      "Five romanceable characters: Pierrot, Harlequin, Jester, Ticket Taker, and Doctor each with unique story routes and multiple endings",
+      "Branching narrative system where every choice shifts character affinity and unlocks or locks entire story branches",
+      "Gothic psychological horror atmosphere brought to life through original hand-drawn artwork and a haunting soundtrack",
+      "Official Simplified Chinese language support alongside English for a broader player base",
+      "Regular content updates from the developer including new scenes, endings, and character routes",
+      "Free to play directly in your browser or download for Windows, macOS, and Linux from itch.io"
     ],
     "charactersTitle": "Characters",
     "charactersP": "Five performers shape every playthrough: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
     "buttons": {
       "walkthrough": "View Walkthrough",
       "characters": "Meet the Characters"
-    }
+    },
+    "howToPlayTitle": "How to Play The Freak Circus",
+    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch the game directly on this page. The Freak Circus uses a classic visual novel interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
+    "howToPlayP2": "Each playthrough takes roughly 2 to 3 hours depending on how carefully you read and explore. The Freak Circus features five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead you toward one or two of these characters based on the choices you make early in the story.",
+    "howToPlayP3": "New players should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. The Freak Circus rewards multiple playthroughs — each route reveals new scenes, dialogue, and backstory that you cannot see in a single playthrough.",
+    "faqTitle": "FAQ",
+    "faqItems": [
+      {
+        "q": "Is The Freak Circus free to play?",
+        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download the game for Windows, macOS, and Linux from the official itch.io page."
+      },
+      {
+        "q": "Do I need to download anything?",
+        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and the game loads instantly. No downloads or plugins required."
+      },
+      {
+        "q": "How long does it take to finish The Freak Circus?",
+        "a": "A single playthrough of The Freak Circus takes about 2 to 3 hours. To experience all five character routes and endings, expect 10 to 15 hours total across multiple playthroughs."
+      },
+      {
+        "q": "Can I save my progress in The Freak Circus?",
+        "a": "Yes. The Freak Circus includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+      },
+      {
+        "q": "What makes The Freak Circus different from other visual novels?",
+        "a": "The Freak Circus stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight. The game explores dark themes of possession, identity, and performance."
+      },
+      {
+        "q": "Will progress carry over between devices?",
+        "a": "Currently The Freak Circus stores saves locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+      },
+      {
+        "q": "Is The Freak Circus suitable for all ages?",
+        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, dark romance, and disturbing imagery. The game explores complex emotional territory that may not be suitable for younger audiences."
+      },
+      {
+        "q": "What is the difference between routes in The Freak Circus?",
+        "a": "Each character route in The Freak Circus offers a completely different perspective on the story. Pierrot route focuses on psychological dependence and emotional control. Harlequin route explores chaos and performance. Jester route examines the ethics of entertainment. The Ticket Taker route reveals the deepest lore about the circus itself. The Doctor route contains the most intimate and unsettling content."
+      },
+      {
+        "q": "Can I play The Freak Circus on mobile devices?",
+        "a": "The Freak Circus runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. Some interface elements may be smaller on phone screens. For the best experience with The Freak Circus, use a desktop or laptop computer."
+      }
+    ],
+    "storyTitle": "The Freak Circus Story & Premise",
+    "storyP1": "The Freak Circus begins when you, the protagonist, stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history. Pierrot weeps through his performances but sees everything. Harlequin laughs too loudly and masks a violent past. Jester plays tricks but never reveals his own hand.",
+    "storyP2": "As night falls on the second day, the masks begin to slip. The Freak Circus forces you to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
+    "tipsTitle": "Tips for Playing The Freak Circus",
+    "tipsList": [
+      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
+      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
+      "Play through at least twice. The second playthrough reveals dialogue and scenes you missed the first time.",
+      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
+      "Each character route has a Good Ending and at least one Bad Ending. The conditions are specific — refer to the walkthrough after your first play."
+    ],
+    "whyPlayTitle": "Why Play The Freak Circus?",
+    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the visual novel space: genuinely difficult choices that carry real emotional weight. The Freak Circus does not hold your hand or tell you which choice is right. It trusts you to navigate its morally gray world. The art style alone — all hand-drawn gothic illustrations — sets The Freak Circus apart from typical anime-style visual novels. Combined with a branching narrative system that tracks over a dozen variables per playthrough, The Freak Circus delivers a different experience every time you play. If you enjoy visual novels with branching narratives, morally complex characters, and gothic atmosphere, The Freak Circus deserves a spot on your playlist."
   },
   "about": {
     "title": "About The Freak Circus",
@@ -112,7 +172,12 @@
         "name": "Pierrot",
         "role": "The Weeping Clown",
         "description": "Controlled, melancholic, and intensely perceptive. Pierrot is the emotional anchor of the circus, performing sorrow for crowds who laugh at his tears. His route is the most psychologically demanding and offers the most lore about the circus's true nature.",
-        "traits": ["Melancholic", "Possessive", "Poetic", "Dangerous"],
+        "traits": [
+          "Melancholic",
+          "Possessive",
+          "Poetic",
+          "Dangerous"
+        ],
         "routeTip": "Choose introspective and empathetic dialogue in Day 1. Avoid defiance in Day 2 to unlock the Good Ending."
       },
       {
@@ -120,7 +185,12 @@
         "name": "Harlequin",
         "role": "The Chaotic Performer",
         "description": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. His relationship with Pierrot is one of the game's central dynamics.",
-        "traits": ["Volatile", "Charming", "Protective", "Layered"],
+        "traits": [
+          "Volatile",
+          "Charming",
+          "Protective",
+          "Layered"
+        ],
         "routeTip": "Select the red balloon in Day 1. Use bold, playful responses during tent encounters."
       },
       {
@@ -128,7 +198,12 @@
         "name": "Jester",
         "role": "The Trickster",
         "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. His route explores the ethics of entertainment and what it means to make others laugh.",
-        "traits": ["Ambiguous", "Quick-witted", "Lonely", "Calculating"],
+        "traits": [
+          "Ambiguous",
+          "Quick-witted",
+          "Lonely",
+          "Calculating"
+        ],
         "routeTip": "Jester's route unlocks in Day 2. Respond with humor but avoid direct confrontation."
       },
       {
@@ -136,7 +211,12 @@
         "name": "Ticket Taker",
         "role": "The Gatekeeper",
         "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize.",
-        "traits": ["Observant", "Cryptic", "Stern", "Ancient"],
+        "traits": [
+          "Observant",
+          "Cryptic",
+          "Stern",
+          "Ancient"
+        ],
         "routeTip": "Engage directly with every question the Ticket Taker asks. His route requires persistence."
       },
       {
@@ -144,7 +224,12 @@
         "name": "Doctor",
         "role": "The Surgeon of Secrets",
         "description": "The Doctor's route is the most recently expanded and contains some of the game's darkest content. He is methodical, intimate, and deeply unsettling.",
-        "traits": ["Clinical", "Intimate", "Controlling", "Complex"],
+        "traits": [
+          "Clinical",
+          "Intimate",
+          "Controlling",
+          "Complex"
+        ],
         "routeTip": "The Doctor's content is largely contained to Day 2. Accept his examination scenes to progress his route."
       }
     ]
@@ -168,11 +253,31 @@
     "endingsGood": "Good Ending",
     "endingsBad": "Bad Endings",
     "endingsTable": [
-      { "char": "Pierrot", "good": "Mirror Reflection", "bad": "Broken Stage, Escape" },
-      { "char": "Harlequin", "good": "Curtain Call", "bad": "Empty Stage" },
-      { "char": "Jester", "good": "Unmasked", "bad": "The Punchline" },
-      { "char": "Ticket Taker", "good": "Open Gate", "bad": "Closed Forever" },
-      { "char": "Doctor", "good": "Clean Hands", "bad": "Under the Knife, Numb" }
+      {
+        "char": "Pierrot",
+        "good": "Mirror Reflection",
+        "bad": "Broken Stage, Escape"
+      },
+      {
+        "char": "Harlequin",
+        "good": "Curtain Call",
+        "bad": "Empty Stage"
+      },
+      {
+        "char": "Jester",
+        "good": "Unmasked",
+        "bad": "The Punchline"
+      },
+      {
+        "char": "Ticket Taker",
+        "good": "Open Gate",
+        "bad": "Closed Forever"
+      },
+      {
+        "char": "Doctor",
+        "good": "Clean Hands",
+        "bad": "Under the Knife, Numb"
+      }
     ]
   },
   "blog": {
@@ -187,24 +292,58 @@
     "rightLabel": "Right sidebar advertisement"
   },
   "meta": {
-    "homeTitle": "Play The Freak Circus Online - Psychological Horror Visual Novel",
+    "homeTitle": "Play The Freak Circus Online",
     "homeDesc": "Play The Freak Circus free online in your browser. A dark psychological horror visual novel by Garula with routes for Pierrot, Harlequin, Jester, and more.",
-    "aboutTitle": "About The Freak Circus - Game Info, Developer, and FAQ",
+    "aboutTitle": "About The Freak Circus Game FAQ",
     "aboutDesc": "Learn about The Freak Circus visual novel: developer, download links, content warnings, Chinese support, and frequently asked questions.",
-    "charactersTitle": "The Freak Circus Characters - Pierrot, Harlequin, Jester & More",
+    "charactersTitle": "The Freak Circus Characters Guide",
     "charactersDesc": "Meet The Freak Circus characters: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Read route tips, traits, and lore notes.",
-    "walkthroughTitle": "The Freak Circus Walkthrough - Day 1 & Day 2 Guide, All Endings",
+    "walkthroughTitle": "Freak Circus Walkthrough Endings",
     "walkthroughDesc": "Complete walkthrough for The Freak Circus visual novel with Day 1 and Day 2 choices, character routes, good endings, bad endings, and hidden scenes.",
     "blogTitle": "The Freak Circus Blog - Guides, Walkthroughs & Character Analysis",
-    "blogDesc": "Guides, ending walkthroughs, character analysis, and lore deep-dives for The Freak Circus psychological horror visual novel."
+    "blogDesc": "Guides, ending walkthroughs, character analysis, and lore deep-dives for The Freak Circus psychological horror visual novel.",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
+    "termsTitle": "Terms of Service",
+    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
   },
   "schema": {
     "websiteName": "The Freak Circus",
     "websiteDesc": "A psychological horror romance visual novel set in a mysterious circus.",
-    "gameGenres": ["Visual Novel", "Psychological Horror", "Romance"],
+    "gameGenres": [
+      "Visual Novel",
+      "Psychological Horror",
+      "Romance"
+    ],
     "authorName": "Garula (Neko Bueno)",
     "os": "Web Browser, Windows, macOS, Linux",
     "contentRating": "18+",
     "searchAction": "Search thefreakcircus.help"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
+    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
+    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we handle your data on thefreakcircus.help.",
+    "s1title": "Information We Collect",
+    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
+    "s2title": "Third-Party Services",
+    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
+    "s3title": "Your Rights",
+    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
+    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
+    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
+    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
+    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
   }
 }

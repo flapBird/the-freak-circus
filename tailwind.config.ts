@@ -23,8 +23,8 @@ const config: Config = {
       },
       fontFamily: {
         display: ['"Cinzel Decorative"', 'serif'],
-        body: ['"IM Fell English"', 'serif'],
-        sans: ['"Crimson Text"', 'serif'],
+        body: ['"Crimson Text"', 'Georgia', 'serif'],
+        sans: ['"Georgia"', 'serif'],
         mono: ['"Courier Prime"', 'monospace'],
       },
       backgroundImage: {
