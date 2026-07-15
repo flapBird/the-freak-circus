@@ -2,7 +2,6 @@ import { redirect } from 'next/navigation';
 import { headers } from 'next/headers';
 
 const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'];
-const DEFAULT_LOCALE = 'en';
 
 const COUNTRY_MAP: Record<string, string> = {
   US: 'en', GB: 'en', AU: 'en', CA: 'en', NZ: 'en', IE: 'en',
@@ -23,7 +22,7 @@ export default function RootPage() {
   const cookie = h.get('cookie') || '';
   const cookieMatch = cookie.match(/NEXT_LOCALE=(en|pt|fil|vi|es|id|zh)/);
   if (cookieMatch && LOCALES.includes(cookieMatch[1])) {
-    redirect(`/${cookieMatch[1] === 'en' ? '' : cookieMatch[1]}`);
+    redirect(`/${cookieMatch[1]}`);
     return;
   }
 
@@ -31,8 +30,7 @@ export default function RootPage() {
   for (const header of ['cloudfront-viewer-country', 'cf-ipcountry', 'x-vercel-ip-country', 'x-country-code']) {
     const val = h.get(header);
     if (val && val.length === 2 && COUNTRY_MAP[val.toUpperCase()]) {
-      const loc = COUNTRY_MAP[val.toUpperCase()];
-      redirect(`/${loc === 'en' ? '' : loc}`);
+      redirect(`/${COUNTRY_MAP[val.toUpperCase()]}`);
       return;
     }
   }
@@ -44,13 +42,12 @@ export default function RootPage() {
       const geoip = require('geoip-lite');
       const geo = geoip.lookup(ip);
       if (geo?.country && COUNTRY_MAP[geo.country]) {
-        const loc = COUNTRY_MAP[geo.country];
-        redirect(`/${loc === 'en' ? '' : loc}`);
+        redirect(`/${COUNTRY_MAP[geo.country]}`);
         return;
       }
     } catch {}
   }
 
-  // 4. English default — redirect to /en so locale layout (Header/Footer) renders
+  // 4. Default to English
   redirect('/en');
 }
