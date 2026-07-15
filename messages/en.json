@@ -50,82 +50,84 @@
     "subtitle": "Play the psychological horror visual novel online, free",
     "aboutDivider": "About the Game",
     "whatIsTitle": "What Is The Freak Circus?",
-    "whatIsP1": "A <strong>psychological horror visual novel</strong> from independent developer Garula (Neko Bueno), published on itch.io. It has built a passionate international following thanks to its haunting gothic artwork, morally complex characters, and deeply branching narrative. Set in a mysterious circus that appears only at night, the story pulls you into a world where nothing is as it seems.",
+    "whatIsP1": "The Freak Circus is a <strong>psychological horror visual novel</strong> from independent developer Garula (Neko Bueno), published on itch.io. The Freak Circus has built a passionate international following for its haunting gothic artwork, morally complex characters, and deeply branching narrative. Set in a mysterious circus appearing only at night, the story pulls you into a world where nothing is as it seems and every performer hides a dark secret.",
     "whatIsP2": "You arrive as a stranger at a remote circus that materializes at the edge of a fog-shrouded town. What begins as curiosity quickly becomes entanglement. The five performers — Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor — sense something in you they have been waiting for. Every choice shapes your fate and theirs across two intense days.",
     "featuresTitle": "Key Features",
     "features": [
-      "Five romanceable characters: Pierrot, Harlequin, Jester, Ticket Taker, and Doctor each with unique story routes and multiple endings",
-      "Branching narrative system where every choice shifts character affinity and unlocks or locks entire story branches",
-      "Gothic psychological horror atmosphere brought to life through original hand-drawn artwork and a haunting soundtrack",
-      "Official Simplified Chinese language support alongside English for a broader player base",
-      "Regular content updates from the developer including new scenes, endings, and character routes",
-      "Free to play directly in your browser or download for Windows, macOS, and Linux from itch.io"
+      "Five romanceable characters in The Freak Circus with unique story routes and multiple endings",
+      "Branching narrative where every choice shifts character affinity and unlocks story branches",
+      "Gothic psychological horror atmosphere with original hand-drawn artwork",
+      "Official Simplified Chinese language support in The Freak Circus alongside English",
+      "Free to play The Freak Circus in your browser or download for Windows, macOS, Linux"
     ],
     "charactersTitle": "Characters",
-    "charactersP": "Five performers shape every playthrough: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
+    "charactersP": "Five performers shape every playthrough of The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
     "buttons": {
       "walkthrough": "View Walkthrough",
       "characters": "Meet the Characters"
     },
     "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch this visual novel directly on this page. It uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
-    "howToPlayP2": "Each playthrough takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough naturally leads toward one or two characters based on your early choices.",
-    "howToPlayP3": "New players should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
+    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button to launch this visual novel directly. The Freak Circus uses a classic interface: read the story, make choices at key moments, and watch how decisions shape the narrative.",
+    "howToPlayP2": "Each playthrough takes 2 to 3 hours. The Freak Circus features five main story routes tied to different performers: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough naturally leads toward one or two characters.",
+    "howToPlayP3": "New players should focus on enjoying the atmosphere rather than optimizing for a specific ending. Multiple playthroughs of The Freak Circus are rewarded — each route reveals new scenes and backstory you cannot see in a single run.",
     "faqTitle": "FAQ",
     "faqItems": [
       {
-        "q": "Is this game free to play?",
-        "a": "Yes. It is completely free to play in your browser on this site. You can also download it for Windows, macOS, and Linux from the official itch.io page."
+        "q": "Is The Freak Circus free?",
+        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it for Windows, macOS, and Linux from the official itch.io page. There are no hidden costs or in-app purchases."
       },
       {
-        "q": "Do I need to download anything?",
-        "a": "No. It runs directly in your browser. Just click the play button on this page and the game loads instantly. No downloads or plugins required."
+        "q": "Do I need to download The Freak Circus?",
+        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly. No downloads, plugins, or accounts required. This makes it easy to start playing right away."
       },
       {
-        "q": "How long does a playthrough take?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five character routes and endings, expect 10 to 15 hours total across multiple playthroughs."
+        "q": "How long does The Freak Circus take?",
+        "a": "A single playthrough of The Freak Circus takes about 2 to 3 hours. To experience all five character routes and endings, expect 10 to 15 hours total across multiple playthroughs. Each playthrough reveals new content."
       },
       {
-        "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system that lets you save at any decision point. You can create multiple save slots, which is useful when you want to explore different story branches without committing to a single path. Progress is stored locally in your browser."
+        "q": "Can I save progress in The Freak Circus?",
+        "a": "Yes. The Freak Circus includes a built-in save system that lets you save at any decision point. You can create multiple save slots to explore different story branches. Progress is stored locally in your browser."
       },
       {
-        "q": "What makes this visual novel unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+        "q": "What makes The Freak Circus unique?",
+        "a": "The Freak Circus stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative. The hand-drawn art and haunting soundtrack create an immersive experience unlike typical visual novels."
       },
       {
-        "q": "Will progress carry over between devices?",
-        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+        "q": "Will progress carry between devices?",
+        "a": "Saves are stored locally in your browser. Download from itch.io to transfer save files."
       },
       {
-        "q": "Is this game suitable for all ages?",
-        "a": "No. It is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+        "q": "Is The Freak Circus 18+?",
+        "a": "Yes. The Freak Circus is rated 18+ and contains mature themes including psychological horror."
       },
       {
         "q": "What is the difference between routes?",
-        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+        "a": "Each route in The Freak Circus offers a different perspective on the story."
       },
       {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+        "q": "Can I play The Freak Circus on mobile?",
+        "a": "The Freak Circus runs in most modern mobile browsers, though optimized for desktop."
       }
     ],
     "storyTitle": "Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance into a world where reality bends. Each performer offers a different perspective on the circus hidden history. Pierrot weeps through his performances but sees everything. Harlequin laughs too loudly and masks a violent past.",
-    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads. Each conclusion leaves you with questions only a second playthrough can answer, making the experience feel as layered and unpredictable as the circus itself.",
+    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. The Freak Circus offers a different perspective from each performer — Pierrot weeps through his performances but sees everything. Harlequin laughs too loudly and masks a violent past.",
+    "storyP2": "As night falls, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose. Each conclusion leaves you with questions only a second playthrough can answer, making the experience feel layered and unpredictable.",
     "tipsTitle": "Tips for Playing",
     "tipsList": [
-      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
-      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
+      "Take your time reading each scene. The Freak Circus rewards attention to small details.",
+      "Do not reload saves on your first playthrough of The Freak Circus.",
+      "Play through The Freak Circus at least twice — a second run reveals missed dialogue.",
       "Pay close attention to the Ticket Taker. He says more than he appears to say.",
-      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play.",
-      "Use the save system at each major decision point. You can reload later to explore the branch you did not take without losing progress on your current route."
+      "Each character route has a Good Ending and at least one Bad Ending.",
+      "Use the save system at each major decision point. You can reload later to explore the branch you did not take without losing progress on your current route.",
+      "Read character dialogue carefully — small details early in the story often become important later in ways you would not expect.",
+      "Try different personality approaches across playthroughs: being bold with one character and cautious with another leads to very different story outcomes.",
+      "Do not skip the carnival sequences — they contain foreshadowing and character moments that pay off later in the story."
     ],
     "whyPlayTitle": "Why Play?",
-    "whyPlayText": "This visual novel has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets it apart from typical anime-style titles. Combined with a branching narrative that tracks over a dozen variables per playthrough, it delivers a different experience every time you play.",
-    "storyP3": "The circus itself is a character in its own right. The tents shift positions between visits, the carnival games seem to know your thoughts, and the performers remember conversations you never had. By the time you realize the circus is alive, it may already be too late to leave.",
-    "gameplayP": "Gameplay centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others are deceptively simple — a single word can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even seemingly minor interactions can cascade into major consequences later. The save system lets you revisit key decision points, making it easy to explore alternative paths without restarting from scratch. Each choice matters, and no two playthroughs ever feel quite the same."
+    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The gothic art style sets The Freak Circus apart from typical anime-style visual novels. Combined with a branching narrative that tracks over a dozen variables per playthrough, The Freak Circus delivers a different experience every time you play.",
+    "storyP3": "The circus itself is a character. Tents shift positions between visits, carnival games seem to know your thoughts, and performers remember conversations you never had. By the time you realize the setting is alive, it may already be too late to leave. This living atmosphere is one of the most memorable aspects of the experience. The experience lingers long after you finish, inviting you back to explore paths you did not take and mysteries you did not solve. It is the kind of story that stays with you and grows richer each time you return.",
+    "gameplayP": "Gameplay in The Freak Circus centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others seem simple but can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices affecting the final ending. Even minor interactions can cascade into major consequences later. Each choice matters, and no two playthroughs ever feel quite the same. The save system lets you revisit key decision points. You can save at any point and return later, making it easy to play in short sessions or binge through an entire route in one sitting."
   },
   "about": {
     "title": "About The Freak Circus",
