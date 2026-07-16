@@ -1,48 +1,63 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/seo';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date().toISOString();
+const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'];
+const NOW = new Date().toISOString();
+const MONTHLY = 'monthly' as const;
+const WEEKLY = 'weekly' as const;
+const YEARLY = 'yearly' as const;
 
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: SITE_URL, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${SITE_URL}/characters`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE_URL}/walkthrough`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${SITE_URL}/wiki`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/community`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
-    { url: `${SITE_URL}/news`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
-    { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.3 },
-    { url: `${SITE_URL}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
-    { url: `${SITE_URL}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
-    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+function u(path: string, freq: string = MONTHLY, prio: number = 0.5): MetadataRoute.Sitemap[number] {
+  return { url: `${SITE_URL}${path}`, lastModified: NOW, changeFrequency: freq as any, priority: prio };
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const urls: MetadataRoute.Sitemap = [];
+
+  const pages: [string, string, number][] = [
+    ['/about', MONTHLY, 0.5],
+    ['/characters', WEEKLY, 0.8],
+    ['/walkthrough', WEEKLY, 0.85],
+    ['/wiki', MONTHLY, 0.7],
+    ['/community', MONTHLY, 0.4],
+    ['/news', WEEKLY, 0.6],
+    ['/contact', MONTHLY, 0.3],
+    ['/privacy', YEARLY, 0.2],
+    ['/terms', YEARLY, 0.2],
   ];
 
-  const characters = [
-    'pierrot', 'harlequin', 'jester', 'the-doctor', 'columbina', 'ticket-taker',
-  ].map((slug) => ({
-    url: `${SITE_URL}/characters/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.75,
-  }));
+  const charSlugs = ['pierrot', 'harlequin', 'jester', 'the-doctor', 'columbina', 'ticket-taker'];
+  const walkthroughDays = ['day-1', 'day-2', 'day-3'];
 
-  const walkthroughDays = [
-    'day-1', 'day-2', 'day-3',
-  ].map((day) => ({
-    url: `${SITE_URL}/walkthrough/${day}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // English pages at root (no /en prefix)
+  urls.push(u('/', WEEKLY, 1.0));
+  for (const [path, freq, prio] of pages) {
+    urls.push(u(path, freq, prio));
+  }
+  for (const slug of charSlugs) {
+    urls.push(u(`/characters/${slug}`, MONTHLY, 0.75));
+  }
+  for (const day of walkthroughDays) {
+    urls.push(u(`/walkthrough/${day}`, MONTHLY, 0.7));
+  }
 
-  const blogSlugs = ['what-is-the-freak-circus', 'pierrot-route-guide', 'harlequin-character-guide'];
-  const blogPages = blogSlugs.map((slug) => ({
-    url: `${SITE_URL}/blog/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.75,
-  }));
+  // Other locales with prefix
+  for (const locale of LOCALES) {
+    if (locale === 'en') continue;
+    const p = `/${locale}`;
 
-  return [...staticPages, ...characters, ...walkthroughDays, ...blogPages];
+    urls.push(u(p, WEEKLY, 0.9));
+
+    for (const [path, freq, prio] of pages) {
+      urls.push(u(`${p}${path}`, freq, prio));
+    }
+    for (const slug of charSlugs) {
+      urls.push(u(`${p}/characters/${slug}`, MONTHLY, 0.75));
+    }
+    for (const day of walkthroughDays) {
+      urls.push(u(`${p}/walkthrough/${day}`, MONTHLY, 0.7));
+    }
+  }
+
+  return urls;
 }
