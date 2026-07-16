@@ -4,7 +4,7 @@ import { tMsg } from '@/lib/messages';
 type Props = { locale: string };
 
 export default function Footer({ locale }: Props) {
-  const loc = (path: string) => `/${locale}${path}`;
+  const loc = (p: string) => locale === 'en' ? p : `/${locale}${p}`;
   const sep = <span className="text-circus-border mx-2 text-xs">|</span>;
 
   return (

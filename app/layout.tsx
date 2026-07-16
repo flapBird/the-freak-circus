@@ -1,16 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import SchemaMarkup from '@/components/SchemaMarkup';
-import { buildMetadata, SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
-
-const baseMetadata = buildMetadata({
-  title: SITE_NAME,
-  description: SITE_DESC,
-  canonical: SITE_URL,
-});
-
+import { SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
 export const metadata: Metadata = {
-  ...baseMetadata,
+  metadataBase: new URL('https://thefreakcircus.help'),
+  description: 'Play The Freak Circus online, a psychological horror visual novel. Explore walkthroughs, character guides, and endings.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },

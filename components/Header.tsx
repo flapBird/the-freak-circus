@@ -6,12 +6,15 @@ type Props = { locale: string };
 
 export default function Header({ locale }: Props) {
   const t = (key: string) => tMsg(locale, 'header.' + key);
-  const loc = (path: string) => `/${locale}${path}`;
+  const loc = (p: string) => locale === 'en' ? p : `/${locale}${p}`;
 
   const NAV_LINKS = [
     { href: loc('/'), label: t('nav.play') },
     { href: loc('/characters'), label: t('nav.characters') },
     { href: loc('/walkthrough'), label: t('nav.walkthrough') },
+    { href: loc('/wiki'), label: 'Wiki' },
+    { href: loc('/community'), label: 'Community' },
+    { href: loc('/news'), label: 'News' },
   ];
 
   return (

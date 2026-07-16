@@ -12,17 +12,19 @@ export function buildMetadata(opts: {
   ogImage?: string;
   noIndex?: boolean;
 }) {
-  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG, noIndex } = opts;
+  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG } = opts;
   const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
 
   return {
     title: fullTitle,
-    description,
-    metadataBase: new URL(SITE_URL),
-    openGraph: {
-      title: fullTitle,
-      description,
-      siteName: SITE_NAME,
+   description,
+   metadataBase: new URL(SITE_URL),
+    alternates: { canonical: canonical ?? '/' },
+   openGraph: {
+     title: fullTitle,
+     description,
+      url: canonical ?? SITE_URL,
+     siteName: SITE_NAME,
       images: [{ url: ogImage, width: 1200, height: 630, alt: fullTitle }],
       locale: 'en_US',
       type: 'website',
@@ -34,8 +36,6 @@ export function buildMetadata(opts: {
       images: [ogImage],
       creator: TWITTER_HANDLE,
     },
-    robots: noIndex
-      ? { index: false, follow: false }
-      : { index: true, follow: true, googleBot: { index: true, follow: true } },
+
   };
 }
