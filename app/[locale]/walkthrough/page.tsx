@@ -9,6 +9,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
     title: tMsg(locale, 'meta.walkthroughTitle'),
     description: tMsg(locale, 'meta.walkthroughDesc'),
+    canonical: `${SITE_URL}${locale === 'en' ? '/walkthrough' : '/' + locale + '/walkthrough'}`,
   });
 }
 

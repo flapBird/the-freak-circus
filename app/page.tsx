@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
 import { headers } from 'next/headers';
 import { tMsg } from '@/lib/messages';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, SITE_URL } from '@/lib/seo';
 import PageShell from '@/components/PageShell';
 import HomeContent from '@/components/HomeContent';
 
@@ -9,6 +9,7 @@ export async function generateMetadata() {
   return buildMetadata({
     title: tMsg('en', 'meta.homeTitle'),
     description: tMsg('en', 'meta.homeDesc'),
+    canonical: `${SITE_URL}`,
   });
 }
 

@@ -9,6 +9,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
     title: tMsg(locale, 'wiki.meta.title'),
     description: tMsg(locale, 'wiki.meta.desc'),
+    canonical: `${SITE_URL}${locale === 'en' ? '/wiki' : '/' + locale + '/wiki'}`,
   });
 }
 
