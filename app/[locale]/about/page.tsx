@@ -1,7 +1,6 @@
 import { tMsg, rawMsg } from '@/lib/messages';
 import SidebarLayout from '@/components/SidebarLayout';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
-import { routing } from '@/i18n/routing';
 
 type Props = { params: { locale: string } };
 

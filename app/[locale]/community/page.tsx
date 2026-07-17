@@ -8,7 +8,11 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 type Props = { params: { locale: string } };
 
 export async function generateMetadata({ params: { locale } }: Props) {
-  return buildMetadata({ title: tMsg(locale, 'community.meta.title'), description: tMsg(locale, 'community.meta.desc') });
+  return buildMetadata({
+    title: tMsg(locale, 'community.meta.title'),
+    description: tMsg(locale, 'community.meta.desc'),
+    canonical: `${SITE_URL}${locale === 'en' ? '/community' : '/' + locale + '/community'}`,
+  });
 }
 
 export default function CommunityPage({ params: { locale } }: Props) {

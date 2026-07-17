@@ -5,7 +5,11 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 type Props = { params: { locale: string } };
 
 export async function generateMetadata({ params: { locale } }: Props) {
-  return buildMetadata({ title: tMsg(locale, 'news.meta.title'), description: tMsg(locale, 'news.meta.desc') });
+  return buildMetadata({
+    title: tMsg(locale, 'news.meta.title'),
+    description: tMsg(locale, 'news.meta.desc'),
+    canonical: `${SITE_URL}${locale === 'en' ? '/news' : '/' + locale + '/news'}`,
+  });
 }
 
 export default function NewsPage({ params: { locale } }: Props) {
