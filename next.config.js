@@ -14,6 +14,13 @@ const nextConfig = {
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'cdn.the-freakcircus.com' }],
   },
+  async redirects() {
+    const locales = ['pt', 'fil', 'vi', 'es', 'id', 'zh'];
+    return locales.flatMap(loc => [
+      { source: `/${loc}/${loc}`, destination: `/${loc}`, permanent: false },
+      { source: `/${loc}/${loc}/:path*`, destination: `/${loc}/:path*`, permanent: false },
+    ]);
+  },
   async rewrites() {
     return [
       { source: '/', destination: '/en' },
