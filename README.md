@@ -95,17 +95,7 @@ This is an unofficial fan website dedicated to *The Freak Circus*, a dark visual
 ### Multi-Language Support
 7 languages with automatic detection via IP geolocation, falling back to English. Users can switch languages via the flag selector in the header. Content translations are maintained as JSON message files under `/messages/`.
 
-### SEO
-- Every page has unique title and meta description via `generateMetadata`
-- Schema.org structured data (WebSite, VideoGame, Article)
-- Sitemap with all locale variants
-- Robots.txt blocking AI training crawlers while allowing search engines
-- Canonical URLs per locale
 
-### Game Embed
-- In-browser iframe embed from official CDN
-- Play button with cover art image
-- Like/Dislike with animation, reload, and fullscreen controls
 
 ### Dark Gothic Theme
 Custom Tailwind configuration with a dark circus-inspired color palette. Two serif fonts: decorative Cinzel Decorative for headings and readable Crimson Text for body copy.
