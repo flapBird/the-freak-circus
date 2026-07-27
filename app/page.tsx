@@ -12,8 +12,6 @@ export async function generateMetadata() {
 }
 
 export default function RootPage() {
-  // A stable URL must always serve the same language to users and crawlers.
-  // Visitors can choose a locale explicitly with the language switcher.
   return (
     <PageShell locale="en">
       <HomeContent locale="en" />
