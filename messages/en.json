@@ -35,7 +35,7 @@
       "terms": "Terms of Service"
     },
     "disclaimerTitle": "Disclaimer",
-    "disclaimerText": "This site contains content from a game rated 18+. The embedded game is served directly from the official CDN. We do not host, redistribute, or modify any game files.",
+    "disclaimerText": "This site contains content from a game rated 18+. Any optional in-page player is served by a third-party host. This fan site does not claim that host is official or developer-operated. For the developer-supported version, use the official itch.io page.",
     "copyright": "© {year} thefreakcircus.help - Fan Site - All trademarks belong to their respective owners",
     "extLabel": "(external)"
   },
@@ -47,18 +47,18 @@
   },
   "home": {
     "welcome": "Welcome to the Circus",
-    "subtitle": "Play the psychological horror visual novel online, free",
+    "subtitle": "An unofficial guide to Garula's 18+ horror visual novel",
     "aboutDivider": "About the Game",
     "whatIsTitle": "What Is The Freak Circus?",
-    "whatIsP1": "The Freak Circus is a <strong>psychological horror visual novel</strong> from independent developer Garula (Neko Bueno), published on itch.io. It has built a passionate following for its haunting gothic artwork, morally complex characters, and deeply branching narrative set in a mysterious circus appearing only at night. You arrive as a stranger at a remote circus materialized at the edge of a fog-shrouded town. What begins as curiosity quickly becomes entanglement with five performers who have been waiting for someone like you.",
-    "whatIsP2": "You arrive as a stranger at a remote circus materialized at the edge of a fog-shrouded town. What begins as curiosity quickly becomes entanglement. The five performers — Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor — sense something in you they have been waiting for. Every choice shapes your fate and theirs across two intense days of carnivals, tent shows, and midnight conversations that reveal the circus true nature.",
+    "whatIsP1": "<strong>The Freak Circus</strong> is an 18+ visual novel by independent creator Garula (Neko Bueno), published on itch.io. The official listing currently describes it as a prototype and tags it as a visual novel, horror, romance, creepy, circus, monsters, Ren'Py, and yandere.",
+    "whatIsP2": "This is an unofficial fan guide. We distinguish developer-confirmed information from fan interpretation, link readers to the original devlogs, and direct players to itch.io for the developer-supported game, downloads, and current build information.",
     "featuresTitle": "Key Features",
     "features": [
-      "Five romanceable characters each with unique story routes and multiple endings",
-      "Branching narrative where every choice shifts character affinity and unlocks story branches",
-      "Gothic psychological horror atmosphere with original hand-drawn artwork",
-      "Official Simplified Chinese language support alongside English",
-      "Free to play in your browser or download for Windows, macOS, Linux"
+      "Official itch.io listing currently marks the project as a prototype",
+      "18+ horror, romance, circus, monsters, and yandere tags on the official listing",
+      "Developer-published updates, translation notices, and bug-fix devlogs",
+      "Official devlogs list English, Brazilian Portuguese, and Chinese among the game languages",
+      "Developer-supported browser and download options are available from the official itch.io page"
     ],
     "charactersTitle": "Characters",
     "charactersP": "Five performers shape every playthrough of The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
@@ -67,26 +67,26 @@
       "characters": "Meet the Characters"
     },
     "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch this visual novel directly on this page. It uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative across two days of carnivals and tent performances.",
-    "howToPlayP2": "Each playthrough takes 2 to 3 hours. Five main story routes tied to different performers: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough naturally leads toward one or two characters based on early choices.",
-    "howToPlayP3": "New players should focus on enjoying the atmosphere rather than optimizing for a specific ending. Multiple playthroughs are rewarded — each route reveals new scenes and backstory you cannot see in a single run.",
+    "howToPlayP1": "For the developer-supported version, start on the official itch.io page. It is the reliable place to check the newest build, platform availability, content warnings, and fixes. This site does not distribute game downloads.",
+    "howToPlayP2": "Before starting, decide how much spoiler information you want. Make a separate save before a choice you want to revisit, record the build you are using, and keep your first-playthrough save separate from experiments.",
+    "howToPlayP3": "Our guides label first-party facts and fan observations separately. If a choice chart has no game version, screenshot, or source, treat it as unverified rather than as a guaranteed route condition.",
     "faqTitle": "FAQ",
     "faqItems": [
       {
         "q": "Is this game free to play?",
-        "a": "Yes. It is completely free to play in your browser on this site. You can also download it for Windows, macOS, and Linux from the official itch.io page. No hidden costs or in-app purchases."
+        "a": "The official itch.io page lists the game as free with optional payment. Use that page for the developer-supported browser version and downloads."
       },
       {
         "q": "Do I need to download anything?",
-        "a": "No. It runs directly in your browser. Just click the play button and it loads instantly. No plugins or accounts required."
+        "a": "The official itch.io page is the best source for current browser and download instructions. This fan site does not distribute game files."
       },
       {
         "q": "How long does it take?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five character routes and endings, expect 10 to 15 hours total across multiple playthroughs. Each playthrough reveals different content."
+        "a": "The developer does not publish a fixed completion-time estimate on the sources tracked here. Avoid treating fan estimates as an official promise."
       },
       {
         "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system that lets you save at any decision point. You can create multiple save slots to explore different story branches without committing to a single path. Progress is stored locally in your browser."
+        "a": "The browser player includes import and export save controls. Check the official page and current build notes before moving saves between versions or devices."
       },
       {
         "q": "What makes this visual novel unique?",
@@ -122,7 +122,7 @@
       "Use the save system at major decision points to explore alternative paths without losing progress."
     ],
     "whyPlayTitle": "Why Play?",
-    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers genuinely difficult choices with real emotional weight. It does not hold your hand or tell you which choice is right. The gothic art style — all hand-drawn illustrations — sets this visual novel apart from typical anime-style titles. The branching narrative tracks over a dozen variables per playthrough, delivering a different experience every time.",
+    "whyPlayText": "This guide is designed to be useful after an update: it preserves official source links, dates every editorial summary, and avoids turning community rumours into release dates, endings, or route requirements.",
     "storyP3": "The circus itself is a character. Tents shift positions between visits, carnival games seem to know your thoughts, and performers remember conversations you never had. The experience lingers long after you finish, inviting you back to explore paths you did not take.",
     "gameplayP": "Gameplay centers on dialogue choices throughout each day. Some choices are timed, adding tension to conversations. Others seem simple but can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even minor interactions can cascade into major consequences later."
   },
@@ -133,7 +133,7 @@
     "gameP1": "The Freak Circus is a dark psychological horror visual novel developed by the independent creator Garula (Neko Bueno). It is published on itch.io and has accumulated a dedicated international fanbase through word-of-mouth across platforms including TikTok, Tumblr, and Reddit.",
     "gameP2": "The game follows an unnamed protagonist who visits a mysterious, isolated circus and becomes entangled with five dangerous performers. The narrative unfolds across multiple days, with player choices determining character routes and endings.",
     "siteSection": "This Site",
-    "siteP1": "thefreakcircus.help is an unofficial fan resource offering the game embed, character guides, walkthroughs, and articles. We embed the game via the official CDN and do not host, redistribute, or modify any game files.",
+    "siteP1": "thefreakcircus.help is an unofficial fan resource with character guides, update summaries, and articles. An optional in-page player is served by a third-party host; we do not claim that host is official, developer-operated, or endorsed by Garula. We do not distribute game downloads.",
     "siteP2": "To support the developer directly, visit the <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
     "faqDivider": "Frequently Asked Questions",
     "faq": [
@@ -580,9 +580,9 @@
     "title": "Privacy Policy",
     "subtitle": "How we handle your data on thefreakcircus.help.",
     "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
+    "s1body": "thefreakcircus.help uses a language-preference cookie and analytics described below. An optional in-page player is served by a third-party host; this fan site does not operate that host and does not claim it is official. We do not have access to data sent within that player.",
     "s2title": "Third-Party Services",
-    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
+    "s2body": "The optional player is loaded in an iframe from a third-party host. That host may collect data under its own policies, which we do not control. For the developer-supported game and its data practices, review the official itch.io page. We also use Google Analytics for basic traffic measurement.",
     "s3title": "Your Rights",
     "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
   },
@@ -590,7 +590,7 @@
     "title": "Terms of Service",
     "subtitle": "Rules and guidelines for using thefreakcircus.help.",
     "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
+    "s2body": "An optional player is embedded from a third-party host. We do not claim that host is official, developer-operated, or endorsed. We do not distribute game downloads; use the official itch.io page for the developer-supported version.",
     "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
     "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
   },
@@ -631,7 +631,7 @@
       }
     ],
     "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno). The game is published on itch.io and is available for Windows, macOS, and Linux, as well as directly in browser via official CDN embedding.",
+    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno) and is published on itch.io. Use the official itch.io page for developer-supported browser and download options.",
     "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
     "timelineTitle": "Update Timeline",
     "timeline": [

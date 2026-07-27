@@ -16,11 +16,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const path = `/blog/${post.slug}`;
 
   return buildMetadata({
     title: post.title,
     description: post.description,
-
+    canonical: `${SITE_URL}${params.locale === 'en' ? path : `/${params.locale}${path}`}`,
   });
 }
 

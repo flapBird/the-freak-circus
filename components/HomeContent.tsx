@@ -28,6 +28,9 @@ export default function HomeContent({ locale }: { locale: string }) {
           <p className="text-circus-muted font-body italic text-lg">{tMsg(locale, 'home.subtitle')}</p>
         </div>
         <GameEmbed />
+        <p className="mt-3 text-xs leading-relaxed text-circus-muted border-l-2 border-circus-gold/30 pl-3">
+          This optional player is served by a third-party host. thefreakcircus.help is an unofficial fan resource and does not claim that host is operated by, endorsed by, or affiliated with Garula. For the developer-supported version and downloads, use the official itch.io page.
+        </p>
         <article className="prose-circus mt-8">
           <div className="divider-ornament my-6"><span className="font-display text-xs text-circus-gold/50 tracking-widest">{tMsg(locale, 'home.aboutDivider')}</span></div>
           <h2>{tMsg(locale, 'home.whatIsTitle')}</h2>

@@ -1,14 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
-try {
-  const dataDir = path.join(__dirname, '.next/server/data');
-  fs.mkdirSync(dataDir, { recursive: true });
-  const src = path.join(__dirname, 'node_modules/geoip-lite/data/geoip-country.dat');
-  const dest = path.join(dataDir, 'geoip-country.dat');
-  if (!fs.existsSync(dest)) fs.copyFileSync(src, dest);
-} catch (e) {}
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -19,6 +8,9 @@ const nextConfig = {
     return locales.flatMap(loc => [
       { source: `/${loc}/${loc}`, destination: `/${loc}`, permanent: false },
       { source: `/${loc}/${loc}/:path*`, destination: `/${loc}/:path*`, permanent: false },
+      { source: `/${loc}/characters/doctor`, destination: `/${loc}/characters/the-doctor`, permanent: true },
+    ]).concat([
+      { source: '/characters/doctor', destination: '/characters/the-doctor', permanent: true },
     ]);
   },
   async rewrites() {
@@ -32,6 +24,9 @@ const nextConfig = {
       { source: '/wiki', destination: '/en/wiki' },
       { source: '/community', destination: '/en/community' },
       { source: '/news', destination: '/en/news' },
+      { source: '/news/:slug', destination: '/en/news/:slug' },
+      { source: '/blog', destination: '/en/blog' },
+      { source: '/blog/:slug', destination: '/en/blog/:slug' },
       { source: '/contact', destination: '/en/contact' },
       { source: '/privacy', destination: '/en/privacy' },
       { source: '/terms', destination: '/en/terms' },

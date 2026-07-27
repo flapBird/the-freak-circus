@@ -8,7 +8,7 @@
 
 This is an unofficial fan website dedicated to *The Freak Circus*, a dark visual novel with branching narratives, gothic artwork, and morally complex characters. The site provides:
 
-- **In-browser gameplay** — Play the game directly on the site via official CDN embed
+- **Optional in-browser player** — A third-party embedded player is available; it is not represented as an official Garula or itch.io service. Use the official itch.io page for developer-supported access and downloads.
 - **Character guides** — Detailed profiles for all 6 characters with route tips, traits, and personality breakdowns
 - **Walkthroughs** — Day-by-day guides covering all choice points and endings
 - **Wiki & Lore** — Setting background, glossary of terms, developer credits, and update timeline

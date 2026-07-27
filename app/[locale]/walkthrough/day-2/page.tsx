@@ -26,7 +26,7 @@ export default function Day2Page({ params: { locale } }: Props) {
         ))}
       </div>
       <div className="mt-6 flex gap-3">
-        <Link href={`${p}/walkthrough/day-2`} className="text-xs px-3 py-1.5 border border-circus-border text-circus-muted hover:text-circus-gold transition-colors rounded-sm">Day 2 &rarr;</Link>
+        <Link href={`${p}/walkthrough/day-3`} className="text-xs px-3 py-1.5 border border-circus-border text-circus-muted hover:text-circus-gold transition-colors rounded-sm">Day 3 updates &rarr;</Link>
       </div>
     </SidebarLayout>
   );

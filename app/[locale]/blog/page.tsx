@@ -7,10 +7,11 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 type Props = { params: { locale: string } };
 
 export async function generateMetadata({ params: { locale } }: Props) {
+  const path = '/blog';
   return buildMetadata({
     title: tMsg(locale, 'meta.blogTitle'),
     description: tMsg(locale, 'meta.blogDesc'),
-
+    canonical: `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`,
   });
 }
 

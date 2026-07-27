@@ -30,7 +30,7 @@ export default function WalkthroughPage({ params: { locale } }: Props) {
         {[
           { day: 'day-1', title: tMsg(locale, 'walkthrough.day1Title') },
           { day: 'day-2', title: tMsg(locale, 'walkthrough.day2Title') },
-          { day: 'day-3', title: 'Day 3 - Coming Soon' },
+          { day: 'day-3', title: 'Day 3 — official update tracker' },
         ].map(d => (
           <Link key={d.day} href={`${p}/walkthrough/${d.day}`}
             className="border border-circus-border p-4 rounded-sm hover:border-circus-gold/30 transition-colors block">
@@ -38,6 +38,36 @@ export default function WalkthroughPage({ params: { locale } }: Props) {
             <p className="text-sm text-circus-text mt-1">{d.title}</p>
           </Link>
         ))}
+      </div>
+
+      <div className="prose-circus space-y-8">
+        <section>
+          <h2>{tMsg(locale, 'walkthrough.day1Title')}</h2>
+          <p>{tMsg(locale, 'walkthrough.day1P1')}</p>
+          <p>{tMsg(locale, 'walkthrough.day1P2')}</p>
+          <Link href={`${p}/walkthrough/day-1`} className="not-prose inline-block mt-3 text-xs text-circus-gold hover:text-circus-gold-light">Open the Day 1 decision guide →</Link>
+        </section>
+
+        <section>
+          <h2>{tMsg(locale, 'walkthrough.pierrotTitle')}</h2>
+          <p>{tMsg(locale, 'walkthrough.pierrotP1')}</p>
+          <p dangerouslySetInnerHTML={{ __html: tMsg(locale, 'walkthrough.pierrotP2').replace('/blog/', `${p}/blog/`) }} />
+        </section>
+
+        <section>
+          <h2>{tMsg(locale, 'walkthrough.harlequinTitle')}</h2>
+          <p>{tMsg(locale, 'walkthrough.harlequinP1')}</p>
+        </section>
+
+        <section>
+          <h2>{tMsg(locale, 'walkthrough.endingsTitle')}</h2>
+          <div className="not-prose overflow-x-auto border border-circus-border">
+            <table className="w-full text-left text-sm">
+              <thead className="bg-circus-card/60 text-circus-gold"><tr><th className="p-3">{tMsg(locale, 'walkthrough.endingsChar')}</th><th className="p-3">{tMsg(locale, 'walkthrough.endingsGood')}</th><th className="p-3">{tMsg(locale, 'walkthrough.endingsBad')}</th></tr></thead>
+              <tbody>{(rawMsg<{ char: string; good: string; bad: string }[]>(locale, 'walkthrough.endingsTable') ?? []).map((ending) => <tr className="border-t border-circus-border" key={ending.char}><td className="p-3 text-circus-text">{ending.char}</td><td className="p-3 text-circus-muted">{ending.good}</td><td className="p-3 text-circus-muted">{ending.bad}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </section>
       </div>
     </SidebarLayout>
   );

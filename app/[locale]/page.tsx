@@ -6,7 +6,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   return buildMetadata({
     title: tMsg(locale, 'meta.homeTitle'),
     description: tMsg(locale, 'meta.homeDesc'),
-    canonical: `${SITE_URL}${locale === 'en' ? '' : '/' + locale}`,
+    canonical: `${SITE_URL}${locale === 'en' ? '/' : '/' + locale}`,
   });
 }
 
