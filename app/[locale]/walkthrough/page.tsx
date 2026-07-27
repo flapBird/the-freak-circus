@@ -30,7 +30,7 @@ export default function WalkthroughPage({ params: { locale } }: Props) {
         {[
           { day: 'day-1', title: tMsg(locale, 'walkthrough.day1Title') },
           { day: 'day-2', title: tMsg(locale, 'walkthrough.day2Title') },
-          { day: 'day-3', title: 'Day 3 — official update tracker' },
+          { day: 'day-3', title: tMsg(locale, 'walkthrough.day3.title') },
         ].map(d => (
           <Link key={d.day} href={`${p}/walkthrough/${d.day}`}
             className="border border-circus-border p-4 rounded-sm hover:border-circus-gold/30 transition-colors block">

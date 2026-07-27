@@ -7,8 +7,8 @@ type Props = { params: { locale: string } };
 
 export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
-    title: tMsg(locale, 'walkthrough.day-1.meta.title'),
-    description: tMsg(locale, 'walkthrough.day-1.meta.desc'),
+    title: tMsg(locale, 'walkthrough.day1.meta.title'),
+    description: tMsg(locale, 'walkthrough.day1.meta.desc'),
     canonical: `${SITE_URL}${locale === 'en' ? '/walkthrough/day-1' : '/' + locale + '/walkthrough/day-1'}`,
   });
 }
@@ -18,10 +18,10 @@ export default function Day1Page({ params: { locale } }: Props) {
   return (
     <SidebarLayout>
       <nav className="mb-4 text-xs text-circus-muted"><Link href={`${p}/walkthrough`} className="hover:text-circus-gold transition-colors">&larr; {tMsg(locale, 'walkthrough.title')}</Link></nav>
-      <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'walkthrough.day-1.title')}</h1>
-      <p className="text-circus-muted font-body italic mb-6">{tMsg(locale, 'walkthrough.day-1.overview')}</p>
+      <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'walkthrough.day1.title')}</h1>
+      <p className="text-circus-muted font-body italic mb-6">{tMsg(locale, 'walkthrough.day1.overview')}</p>
       <div className="prose-circus space-y-6">
-        {(rawMsg(locale, 'walkthrough.day-1.choices') as any[] ?? []).map((c: any, i: number) => (
+        {(rawMsg(locale, 'walkthrough.day1.choices') as any[] ?? []).map((c: any, i: number) => (
           <section key={i}><h2>{c.moment}</h2><p>{c.desc}</p></section>
         ))}
       </div>

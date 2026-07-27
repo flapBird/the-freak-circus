@@ -2,6 +2,7 @@ import Link from 'next/link';
 import SidebarLayout from '@/components/SidebarLayout';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { NEWS_POSTS } from '@/lib/news';
+import { tMsg } from '@/lib/messages';
 
 type Props = { params: { locale: string } };
 
@@ -17,9 +18,9 @@ export default function Day3Page({ params: { locale } }: Props) {
   const p = locale === 'en' ? '' : `/${locale}`;
   return (
     <SidebarLayout>
-      <nav className="mb-4 text-xs text-circus-muted"><Link href={`${p}/walkthrough`} className="hover:text-circus-gold transition-colors">← Walkthrough</Link></nav>
-      <h1 className="font-display text-circus-white text-3xl mb-3">Day 3: verified update tracker</h1>
-      <p className="text-circus-muted font-body italic mb-6">No release date is stated here. This page only points to dated first-party developer updates.</p>
+      <nav className="mb-4 text-xs text-circus-muted"><Link href={`${p}/walkthrough`} className="hover:text-circus-gold transition-colors">← {tMsg(locale, 'walkthrough.title')}</Link></nav>
+      <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'walkthrough.day3.title')}</h1>
+      <p className="text-circus-muted font-body italic mb-6">{tMsg(locale, 'walkthrough.day3.status')}</p>
       <div className="space-y-4">
         {NEWS_POSTS.map((post) => <article key={post.slug} className="border border-circus-border p-4"><time className="text-xs text-circus-muted">{post.publishedAt}</time><h2 className="font-display text-circus-text mt-1"><Link className="hover:text-circus-gold" href={`${p}/news/${post.slug}`}>{post.title}</Link></h2><p className="text-sm text-circus-muted mt-2">{post.excerpt}</p></article>)}
       </div>
