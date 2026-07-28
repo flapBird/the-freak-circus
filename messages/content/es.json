@@ -1,0 +1,79 @@
+{
+  "blog": [
+    {
+      "slug": "what-is-the-freak-circus",
+      "title": "¿Qué es The Freak Circus? Una Introducción Completa",
+      "description": "The Freak Circus es una novela visual de terror psicológico creada por Garula (Neko Bueno). Conoce la historia, los personajes y por qué se volvió viral.",
+      "date": "2024-11-01",
+      "tags": [
+        "guía",
+        "introducción",
+        "novela visual"
+      ],
+      "content": "\n<p><em>The Freak Circus</em> es una novela visual para mayores de 18 años de Garula, listada en itch.io como un prototipo. La página oficial la clasifica con las etiquetas novela visual, horror, romance, inquietante, circo, monstruos, Ren'Py y yandere.</p>\n<h2>Qué puede verificar esta guía</h2>\n<p>La página de itch.io del desarrollador es la fuente de verdad para los archivos de lanzamiento, disponibilidad en plataformas, advertencias de contenido y actualizaciones del juego. Esta guía de fans no distribuye archivos del juego y no trata los rumores comunitarios como información de lanzamiento.</p>\n<h2>Idiomas y versiones</h2>\n<p>Los devlogs oficiales enumeran inglés, portugués brasileño y chino entre los idiomas del juego. Revisa la página oficial antes de confiar en una versión antigua, porque las correcciones del navegador y las traducciones han cambiado con el tiempo.</p>\n<h2>Dónde jugar de manera segura</h2>\n<p>Usa la página oficial itch.io para la versión de navegador soportada por el desarrollador y las descargas. Garula ha advertido específicamente a los jugadores sobre descargar copias repostadas desde otros sitios.</p>\n"
+    },
+    {
+      "slug": "pierrot-route-guide",
+      "title": "Cómo Usar Guías con Spoilers Sin Seguir Reclamaciones de Rutas No Verificadas",
+      "description": "Un método seguro contra spoilers para revisar información de rutas en The Freak Circus sin presentar teorías de fans o tablas de decisiones no verificadas como hechos.",
+      "date": "2024-11-10",
+      "tags": [
+        "guía paso a paso",
+        "spoilers",
+        "guía"
+      ],
+      "content": "<p>Los diagramas de rutas se difunden rápidamente en las comunidades de fans, pero a menudo se basan en una versión anterior, una partida incompleta o una paráfrasis que ha perdido su contexto. Esto es especialmente riesgoso para un juego que aún recibe actualizaciones.</p>\n<h2>Haz un plan de guardado seguro frente a spoilers</h2>\n<p>Antes de una elección importante, crea una ranura de guardado claramente nombrada y anota la versión del juego que estás usando. Mantén un guardado de la primera partida separado de los guardados de experimentación, para que una guía no sobrescriba accidentalmente la experiencia que querías.</p>\n<h2>Registra evidencia, no suposiciones</h2>\n<p>Al comparar una afirmación de ruta, registra la elección exacta en pantalla, el capítulo, la versión y el resultado. Una guía útil distingue una observación confirmada de una interpretación y enlaza con las notas de parche oficiales cuando una actualización puede haber cambiado el comportamiento.</p>\n<h2>Usa primero advertencias de contenido</h2>\n<p>La página oficial etiqueta el juego como 18  e incluye temas oscuros. Decide tu límite de spoilers antes de abrir discusiones sobre personajes o finales; esto produce una guía más útil que pretender que todos los jugadores quieren el mismo nivel de detalle.</p>\n"
+    },
+    {
+      "slug": "harlequin-character-guide",
+      "title": "Cómo seguir las actualizaciones de The Freak Circus de manera confiable",
+      "description": "Un flujo de trabajo basado en la fuente para seguir parches del juego, traducciones y anuncios sin amplificar fechas de lanzamiento no confirmadas.",
+      "date": "2024-11-18",
+      "tags": [
+        "noticias",
+        "actualizaciones",
+        "fuentes-oficiales"
+      ],
+      "content": "\n<p>La fuente de actualizaciones más confiable es el devlog de Garula. Contiene publicaciones fechadas del desarrollador, incluidos anuncios de traducción, notas de corrección de errores y noticias de merchandising.</p>\n<h2>Verifica la fecha y el texto original</h2>\n<p>No conviertas una actualización de progreso en una fecha de lanzamiento. Una estimación de desarrollo, un comentario de la comunidad y un lanzamiento confirmado son afirmaciones diferentes. Enlaza la publicación original y conserva su fecha de publicación al resumirla.</p>\n<h2>Separa los hechos oficiales de la discusión de los fans</h2>\n<p>El arte de fans, teorías e interpretaciones de rutas pueden ser material valioso de la comunidad, pero deben etiquetarse como tal. Las entradas de noticias de este sitio se limitan deliberadamente a resúmenes editoriales enlazados a fuentes.\n</p>\n<h2>Actualiza una guía antigua de manera responsable</h2>\n<p>Cuando una versión cambia, agrega una fecha de revisión visible, identifica la versión verificada y explica si el cambio está confirmado por el desarrollador o simplemente observado por un jugador. No reescribas silenciosamente un viejo recorrido.\n</p>\n"
+    }
+  ],
+  "news": [
+    {
+      "slug": "official-merch-partnership-july-2026",
+      "title": "Anuncio oficial de merchandising: lo que dice el devlog de julio de 2026",
+      "excerpt": "El devlog del 14 de julio de Garula anunció una colaboración oficial de mercancía y un lanzamiento limitado de peluches Pierrot.",
+      "publishedAt": "2026-07-14",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceName": "Garula sobre itch.io",
+      "content": [
+        "El devlog del 14 de julio de 2026 de Garula anunció mercancía oficial y una colaboración relacionada con The Freak Circus. La publicación menciona específicamente un lanzamiento limitado de peluches Pierrot.",
+        "Este es un resumen, no una lista de tienda. La disponibilidad, regiones, precios y stock pueden cambiar, así que use el devlog original antes de tomar una decisión de compra."
+      ]
+    },
+    {
+      "slug": "chinese-translation-revised-february-2026",
+      "title": "Traducción al chino revisada en febrero de 2026",
+      "excerpt": "El desarrollador publicó una actualización de la traducción al chino revisada y acreditó al traductor en el devlog oficial.",
+      "publishedAt": "2026-02-22",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceName": "Garula sobre itch.io",
+      "content": [
+        "El 22 de febrero de 2026, Garula publicó un devlog sobre una traducción al chino revisada para The Freak Circus y acreditó a copiklaGrogu por el trabajo.",
+        "Para los jugadores, la conclusión práctica es actualizar desde la página oficial de itch.io antes de comparar diálogos o informar problemas de traducción. Este sitio de fans no distribuye versiones del juego ni traducciones."
+      ]
+    },
+    {
+      "slug": "browser-animation-bug-fixes-december-2025",
+      "title": "Correcciones de animación en navegador señaladas en la actualización de diciembre de 2025",
+      "excerpt": "La publicación oficial de corrección de errores informó mejoras en las animaciones del navegador y una solución para el congelamiento de animación de Ticket Taker.",
+      "publishedAt": "2025-12-09",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceName": "Garula sobre itch.io",
+      "content": [
+        "El devlog de corrección de errores del 9 de diciembre de 2025 indica que las animaciones del navegador fueron optimizadas y señala una solución de congelamiento de animación de Ticket Taker probada en Chrome y Edge.",
+        "Si persiste un problema específico del navegador, primero verifique la página oficial para obtener la versión más reciente y las últimas notas del desarrollador. No trate los informes antiguos de la comunidad como confirmación de que una versión actual esté rota."
+      ]
+    }
+  ]
+}
+

@@ -12,9 +12,9 @@ export default function Header({ locale }: Props) {
     { href: loc('/'), label: t('nav.play') },
     { href: loc('/characters'), label: t('nav.characters') },
     { href: loc('/walkthrough'), label: t('nav.walkthrough') },
-    { href: loc('/wiki'), label: 'Wiki' },
-    { href: loc('/community'), label: 'Community' },
-    { href: loc('/news'), label: 'News' },
+    { href: loc('/wiki'), label: tMsg(locale, 'ui.wiki') },
+    { href: loc('/community'), label: tMsg(locale, 'ui.community') },
+    { href: loc('/news'), label: tMsg(locale, 'ui.news') },
   ];
 
   return (
@@ -25,7 +25,7 @@ export default function Header({ locale }: Props) {
           <span className="font-display text-circus-gold text-lg tracking-wider group-hover:text-circus-gold-light transition-colors animate-flicker">The Freak Circus</span>
           <span className="text-[10px] text-circus-muted tracking-[0.4em] uppercase">thefreakcircus.help</span>
         </Link>
-        <nav aria-label="Main navigation">
+        <nav aria-label={tMsg(locale, 'ui.mainNavigation')}>
           <ul className="flex flex-wrap gap-1 items-center justify-end">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>

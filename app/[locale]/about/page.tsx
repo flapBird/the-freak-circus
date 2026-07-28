@@ -32,7 +32,7 @@ export default async function AboutPage({ params: { locale } }: Props) {
         <p>{tMsg(locale, 'about.siteP1')}</p>
        <p dangerouslySetInnerHTML={{ __html: tMsg(locale, 'about.siteP2') }} />
         <p className="mt-2">
-          Site by{" "}
+          {tMsg(locale, 'ui.siteBy')}{" "}
           <a
             href="https://cal.com/lees-wal-c7qaqq"
             target="_blank"

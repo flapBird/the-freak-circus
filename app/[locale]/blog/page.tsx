@@ -1,7 +1,7 @@
 import { tMsg, rawMsg } from '@/lib/messages';
 import Link from 'next/link';
 import SidebarLayout from '@/components/SidebarLayout';
-import { BLOG_POSTS } from '@/lib/blog-posts';
+import { getBlogPosts } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string } };
@@ -17,7 +17,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
 
 export default async function BlogPage({ params: { locale } }: Props) {
   const p = locale === 'en' ? '' : `/${locale}`;
-  const sorted = [...BLOG_POSTS].sort(
+  const sorted = [...getBlogPosts(locale)].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
 

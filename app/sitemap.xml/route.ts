@@ -1,6 +1,6 @@
 import { BLOG_POSTS } from '@/lib/blog-posts';
 import { NEWS_POSTS } from '@/lib/news';
-import { SITE_URL } from '@/lib/seo';
+import { LOCALES, SITE_URL } from '@/lib/seo';
 
 const SITE_LAST_MODIFIED = '2026-07-28';
 
@@ -27,12 +27,16 @@ function entryXml({ path, lastModified, changeFrequency, priority }: SitemapEntr
 }
 
 export function GET() {
-  const entries: SitemapEntry[] = [
+  const baseEntries: SitemapEntry[] = [
     ...staticPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'weekly' as const, priority: path === '' ? '1.0' : '0.6' })),
     ...characterPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'monthly' as const, priority: '0.7' })),
     ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, lastModified: post.date, changeFrequency: 'monthly' as const, priority: '0.8' })),
     ...NEWS_POSTS.map((post) => ({ path: `/news/${post.slug}`, lastModified: post.publishedAt, changeFrequency: 'monthly' as const, priority: '0.8' })),
   ];
+  const entries = LOCALES.flatMap((locale) => {
+    const prefix = locale === 'en' ? '' : `/${locale}`;
+    return baseEntries.map((entry) => ({ ...entry, path: `${prefix}${entry.path}` }));
+  });
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map(entryXml).join('\n')}\n</urlset>\n`;
 
   return new Response(body, {

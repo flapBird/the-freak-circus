@@ -4,6 +4,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import SidebarLayout from '@/components/SidebarLayout';
 import { getNewsPost, NEWS_POSTS } from '@/lib/news';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { tMsg } from '@/lib/messages';
 
 type Props = { params: { locale: string; slug: string } };
 
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params: { locale, slug } }: Props) {
-  const post = getNewsPost(slug);
+  const post = getNewsPost(slug, locale);
   if (!post) return {};
   const path = `/news/${slug}`;
   return buildMetadata({
@@ -23,7 +24,7 @@ export function generateMetadata({ params: { locale, slug } }: Props) {
 }
 
 export default function NewsArticlePage({ params: { locale, slug } }: Props) {
-  const post = getNewsPost(slug);
+  const post = getNewsPost(slug, locale);
   if (!post) notFound();
   const prefix = locale === 'en' ? '' : `/${locale}`;
   const canonical = `${SITE_URL}${prefix}/news/${slug}`;
@@ -31,16 +32,16 @@ export default function NewsArticlePage({ params: { locale, slug } }: Props) {
     <>
       <SchemaMarkup type="Article" data={{ headline: post.title, description: post.excerpt, datePublished: post.publishedAt, dateModified: post.publishedAt, url: canonical, isBasedOn: post.sourceUrl, author: { '@type': 'Organization', name: 'thefreakcircus.help editorial team' } }} />
       <SidebarLayout>
-        <nav className="mb-6 text-xs text-circus-muted"><Link href={`${prefix}/news`} className="hover:text-circus-gold">← All news</Link></nav>
+        <nav className="mb-6 text-xs text-circus-muted"><Link href={`${prefix}/news`} className="hover:text-circus-gold">← {tMsg(locale, 'ui.allNews')}</Link></nav>
         <article className="prose-circus">
           <header className="not-prose mb-8">
-            <p className="text-circus-gold/70 font-display text-xs tracking-widest uppercase">Fan editorial summary</p>
+            <p className="text-circus-gold/70 font-display text-xs tracking-widest uppercase">{tMsg(locale, 'ui.editorialSummary')}</p>
             <h1 className="font-display text-circus-white text-3xl mt-2">{post.title}</h1>
-            <time dateTime={post.publishedAt} className="block mt-3 text-sm text-circus-muted">Published {new Date(`${post.publishedAt}T00:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}</time>
+            <time dateTime={post.publishedAt} className="block mt-3 text-sm text-circus-muted">{tMsg(locale, 'ui.published', { date: new Date(`${post.publishedAt}T00:00:00Z`).toLocaleDateString(locale === 'en' ? 'en-US' : locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) })}</time>
           </header>
           {post.content.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-          <h2>Primary source</h2>
-          <p><a href={post.sourceUrl} target="_blank" rel="noreferrer nofollow">Read the original announcement at {post.sourceName}</a>.</p>
+          <h2>{tMsg(locale, 'ui.primarySource')}</h2>
+          <p><a href={post.sourceUrl} target="_blank" rel="noreferrer nofollow">{tMsg(locale, 'ui.readOriginal', { source: post.sourceName })}</a>.</p>
         </article>
       </SidebarLayout>
     </>

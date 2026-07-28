@@ -5,10 +5,7 @@ export const SITE_DESC =
 export const DEFAULT_OG = `${SITE_URL}/og-image.jpg`;
 export const TWITTER_HANDLE = '@freakcircushelp';
 export const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'] as const;
-// Non-English editions remain available to readers, but they must not enter
-// search results until an editor has completed and reviewed every page.
-// Add a locale here only after its translation QA is complete.
-export const INDEXABLE_LOCALES = ['en'] as const;
+export const INDEXABLE_LOCALES = LOCALES;
 
 function canonicalPath(canonical?: string) {
   if (!canonical) return '/';

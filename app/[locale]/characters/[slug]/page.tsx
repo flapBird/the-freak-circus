@@ -7,7 +7,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
 
-const SLUGS = ['pierrot', 'harlequin', 'jester', 'the-doctor', 'doctor', 'columbina', 'ticket-taker'];
+const SLUGS = ['pierrot', 'harlequin', 'jester', 'the-doctor', 'columbina', 'ticket-taker'];
 const SLUG_TO_KEY: Record<string, string> = {
   'pierrot': 'pierrot', 'harlequin': 'harlequin', 'jester': 'jester',
   'the-doctor': 'doctor', 'doctor': 'doctor', 'columbina': 'columbina', 'ticket-taker': 'ticket-taker'
@@ -25,23 +25,24 @@ export async function generateMetadata({ params }: Props) {
 
 export default function CharacterDetailPage({ params: { locale, slug } }: Props) {
   const key = SLUG_TO_KEY[slug];
-  if (!key || !SLUGS.includes(slug)) notFound();
+  if (!key || (!SLUGS.includes(slug) && slug !== 'doctor')) notFound();
 
   const p = locale === 'en' ? '' : `/${locale}`;
   const base = `characters.${key}`;
-  const NAME_MAP: Record<string, string> = {pierrot:'Pierrot',harlequin:'Harlequin',jester:'Jester',doctor:'the Doctor',columbina:'Columbina','ticket-taker':'the Ticket Taker'};
-  const charName = NAME_MAP[key] || key;
+  const characterList = rawMsg<{ id: string; name: string }[]>(locale, 'characters.list') ?? [];
+  const localizedNames = Object.fromEntries(characterList.map((character) => [character.id, character.name]));
+  localizedNames.columbina = 'Columbina';
+  const charName = localizedNames[key] || key;
 
   const otherChars = SLUGS.filter(s => s !== slug);
-  const slugToLabel: Record<string, string> = {
-    'pierrot': 'Pierrot', 'harlequin': 'Harlequin', 'jester': 'Jester',
-    'the-doctor': 'the Doctor', 'columbina': 'Columbina', 'ticket-taker': 'the Ticket Taker'
-  };
+  const slugToLabel: Record<string, string> = Object.fromEntries(
+    SLUGS.map((characterSlug) => [characterSlug, localizedNames[SLUG_TO_KEY[characterSlug]]]),
+  );
 
   return (
     <SidebarLayout>
       <nav className="mb-4 text-xs text-circus-muted">
-        <Link href={`${p}/characters`} className="hover:text-circus-gold transition-colors">&larr; All Characters</Link>
+        <Link href={`${p}/characters`} className="hover:text-circus-gold transition-colors">&larr; {tMsg(locale, 'ui.allCharacters')}</Link>
       </nav>
 
       <div className="mb-6">
@@ -61,22 +62,22 @@ export default function CharacterDetailPage({ params: { locale, slug } }: Props)
       {/* Sections */}
       <div className="prose-circus space-y-6">
         <section>
-          <h2>Appearance & Design</h2>
+          <h2>{tMsg(locale, 'ui.appearanceDesign')}</h2>
           <p>{tMsg(locale, `${base}.appearance`)}</p>
         </section>
 
         <section>
-          <h2>Personality & Traits</h2>
+          <h2>{tMsg(locale, 'ui.personalityTraits')}</h2>
           <p>{tMsg(locale, `${base}.personality`)}</p>
         </section>
 
         <section>
-          <h2>Route Guide</h2>
+          <h2>{tMsg(locale, 'ui.routeGuide')}</h2>
           <p>{tMsg(locale, `${base}.routeDesc`)}</p>
         </section>
 
         <section>
-          <h4>Fan Art & Gallery</h4>
+          <h4>{tMsg(locale, 'ui.fanArtGallery')}</h4>
           <div className="space-y-2 text-sm text-circus-muted">
             {(() => {
               const sections = rawMsg<string[]>(locale, `${base}.fanSections`) ?? [];
@@ -88,7 +89,7 @@ export default function CharacterDetailPage({ params: { locale, slug } }: Props)
                   src={`/images/characters/${slug}-1.webp`}
                   alt={`${charName} - ${first}`}
                   height={280}
-                  fallback={`🎨 ${first} — place at /images/characters/${slug}-1.webp`}
+                  fallback={`🎨 ${first}`}
                   className="border border-circus-border rounded-sm"
                 />
                 </div>
@@ -98,7 +99,7 @@ export default function CharacterDetailPage({ params: { locale, slug } }: Props)
         </section>
 
         <section>
-          <h4>Player Impressions</h4>
+          <h4>{tMsg(locale, 'ui.playerImpressions')}</h4>
           <div className="space-y-3">
             {(rawMsg(locale, `${base}.reviews`) as any[] ?? []).map((review: string, i: number) => (
               <blockquote key={i} className="border-l-2 border-circus-gold/30 pl-4 italic text-sm text-circus-muted">

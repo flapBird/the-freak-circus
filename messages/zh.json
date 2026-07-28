@@ -12,434 +12,434 @@
     "siteName": "The Freak Circus",
     "subtitle": "thefreakcircus.help",
     "nav": {
-      "play": "在线游玩",
-      "characters": "角色介绍",
-      "walkthrough": "攻略指南",
+      "play": "在线玩",
+      "characters": "角色",
+      "walkthrough": "攻略",
       "blog": "博客",
       "about": "关于"
     }
   },
   "footer": {
-    "aboutTitle": "关于本站",
-    "aboutText": "thefreakcircus.help 是《怪诞马戏团》视觉小说的非官方粉丝网站。我们与 Garula 或 Neko Bueno 无关。所有游戏内容归原作者所有。",
+    "aboutTitle": "关于本网站",
+    "aboutText": "thefreakcircus.help 是《怪诞马戏团》视觉小说的非官方粉丝网站。我们与 Garula 或 Neko Bueno 无关。所有游戏内容均属于原始创作者。",
     "quickLinks": "快速链接",
     "links": {
-      "play": "在线游玩怪诞马戏团",
+      "play": "在线玩《怪诞马戏团》",
       "characters": "角色指南",
       "walkthrough": "攻略与结局",
       "blog": "文章与指南",
-      "official": "itch.io 官方页面",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "official": "官方 itch.io 页面",
+      "about": "关于",
+      "contact": "联系",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
     },
     "disclaimerTitle": "免责声明",
-    "disclaimerText": "本站包含 18+ 级游戏内容。嵌入的游戏直接通过官方 CDN 提供。我们不托管、重新分发或修改任何游戏文件。",
+    "disclaimerText": "本网站包含 18+ 游戏内容。任何可选内嵌播放器均由第三方托管。本粉丝网站并不声明该托管方为官方或开发者运营。如需开发者支持的版本，请使用官方 itch.io 页面。",
     "copyright": "© {year} thefreakcircus.help - 粉丝网站 - 所有商标归其各自所有者所有",
     "extLabel": "(外部链接)"
   },
   "game": {
-    "playButton": "开始游玩",
+    "playButton": "玩《怪诞马戏团》",
     "loading": "加载中...",
-    "ariaLabel": "点击开始游玩《怪诞马戏团》",
-    "iframeTitle": "游玩《怪诞马戏团》- 心理恐怖视觉小说"
+    "ariaLabel": "点击启动《怪诞马戏团》",
+    "iframeTitle": "玩《怪诞马戏团》 - 心理恐怖视觉小说"
   },
   "home": {
     "welcome": "欢迎来到马戏团",
-    "subtitle": "免费在线游玩心理恐怖视觉小说",
+    "subtitle": "Garula 的 18+ 恐怖视觉小说非官方指南",
     "aboutDivider": "关于游戏",
     "whatIsTitle": "什么是《怪诞马戏团》？",
-    "whatIsP1": "《怪诞马戏团》是一款由独立开发者 Garula（又名 Neko Bueno）创作的<strong>心理恐怖视觉小说</strong>，发布于 itch.io。该游戏凭借其令人难忘的哥特式艺术风格、道德复杂的角色以及深度分支叙事，赢得了国际粉丝的热情追捧 The Freak Circus 是一款由独立开发者 Garula（又名 Neko Bueno）创作的<strong>心理恐怖视觉小说</strong>，在 itch.io 上发布。该游戏凭借其令人难忘的哥特艺术风格、道德复杂的角色和深度分支叙事，赢得了国际粉丝的热情追捧。",
-    "whatIsP2": "你作为一个陌生人来到一个偏远的马戏团。起初只是好奇，很快就变成了纠缠。每一个选择都将塑造你的命运，以及五位非凡表演者的命运——他们一直在等待像你这样的人。",
-    "featuresTitle": "游戏特色",
+    "whatIsP1": "<strong>《怪诞马戏团》</strong> 是独立创作者 Garula（Neko Bueno）制作的 18+ 视觉小说，于 itch.io 发布。官方页面目前描述其为原型，并标注为视觉小说、恐怖、恋爱、诡异、马戏团、怪物、Ren'Py 和病娇题材。",
+    "whatIsP2": "这是非官方粉丝指南。我们区分开发者确认的信息与粉丝解读，链接读者至原始开发日志，并引导玩家前往 itch.io 获取开发者支持的游戏、下载和最新版本信息。",
+    "featuresTitle": "主要特点",
     "features": [
-      "五位可攻略角色的多条故事路线",
-      "分支叙事，包含明确的好结局和坏结局",
-      "哥特式心理恐怖氛围与原创艺术",
-      "官方中文语言支持",
-      "开发者定期内容更新",
-      "免费游玩，支持浏览器和下载"
+      "官方 itch.io 页面目前将该项目标记为原型",
+      "官方页面标注 18+ 恐怖、恋爱、马戏团、怪物及病娇标签",
+      "开发者发布的更新、翻译公告及bug修复开发日志",
+      "官方开发日志列出游戏语言包括英语、巴西葡萄牙语和中文",
+      "官方 itch.io 页面提供的开发者支持浏览器和下载选项"
     ],
-    "charactersTitle": "角色介绍",
-    "charactersP": "五位表演者塑造了每一次游戏体验：<a href=\"/zh/characters#pierrot\">Pierrot</a>、<a href=\"/zh/characters#harlequin\">Harlequin</a>、<a href=\"/zh/characters#jester\">Jester</a>、<a href=\"/zh/characters#ticket-taker\">售票员</a>和<a href=\"/zh/characters#doctor\">医生</a>。每一位都有独特的故事线、结局集以及与主角的关系弧线。",
+    "charactersTitle": "角色",
+    "charactersP": "五位表演者共同塑造了《怪诞马戏团》的每次游玩体验：<a href=\"/characters#pierrot\">Pierrot</a>、<a href=\"/characters#harlequin\">Harlequin</a>、<a href=\"/characters#jester\">Jester</a>、<a href=\"/characters#ticket-taker\">售票员</a>和<a href=\"/characters#doctor\">医生</a>。每位角色都有独特的路线、结局组合，以及与主角之间的关系发展。",
     "buttons": {
       "walkthrough": "查看攻略",
       "characters": "认识角色"
     },
-    "tipsList": [
-      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
-      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
-      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
-      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play."
-    ],
+    "howToPlayTitle": "怎么玩",
+    "howToPlayP1": "要使用开发者支持的版本，请从官方 itch.io 页面开始。那是检查最新版本、平台可用性、内容警告和修复的可靠地方。该网站不提供游戏下载。",
+    "howToPlayP2": "在开始之前，决定你希望获得多少剧透信息。在你希望重玩的选择前另存一个存档，记录你使用的版本，并将首次游玩存档与实验存档分开。",
+    "howToPlayP3": "我们的指南将官方事实与粉丝观察分别标注。如果选择表没有游戏版本、截图或来源，则将其视为未经验证，而非保证的路线条件。",
+    "faqTitle": "常见问题",
     "faqItems": [
       {
-        "q": "Is The Freak Circus free to play?",
-        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it from the official itch.io page."
+        "q": "这款游戏可以免费玩吗？",
+        "a": "官方 itch.io 页面将游戏标为免费，并可选择支付。使用该页面获取开发者支持的浏览器版本和下载。"
       },
       {
-        "q": "Do I need to download anything?",
-        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly."
+        "q": "我需要下载什么吗？",
+        "a": "官方 itch.io 页面是获取当前浏览器和下载说明的最佳来源。该粉丝网站不提供游戏文件。"
       },
       {
-        "q": "How long does The Freak Circus take to finish?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five routes and endings, expect 10 to 15 hours total."
+        "q": "需要多长时间？",
+        "a": "开发者未在追踪的来源上公布固定的完成时间估计。避免将粉丝估计视为官方承诺。"
       },
       {
-        "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+        "q": "我可以保存进度吗？",
+        "a": "浏览器玩家包含导入和导出存档的功能。跨版本或设备移动存档前，请查看官方页面和当前版本说明。"
       },
       {
-        "q": "What makes The Freak Circus unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+        "q": "这款视觉小说有什么独特之处？",
+        "a": "它以哥特式心理恐怖氛围、道德复杂的角色和深入分支的剧情而独树一帜，每一个选择都具有真实分量。手绘艺术风格与令人难忘的配乐创造出与普通视觉小说不同的沉浸体验。"
       },
       {
-        "q": "Will progress carry over between devices?",
-        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+        "q": "进度可以在设备间同步吗？",
+        "a": "存档存储在你浏览器的本地。要在设备之间传输存档，请从 itch.io 下载游戏。"
       },
       {
-        "q": "Is The Freak Circus suitable for all ages?",
-        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+        "q": "适合所有年龄段吗？",
+        "a": "不适合。该游戏限18岁以上，包含心理恐怖、占有型关系、黑暗恋情和成人主题。"
       },
       {
-        "q": "What is the difference between routes?",
-        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+        "q": "路线有什么区别?",
+        "a": "每条路线都提供了对故事完全不同的视角。皮耶罗聚焦于心理依赖和情感控制。哈雷奎探索混乱与表演。小丑审视娱乐的伦理。票务员揭示了关于马戏团本身的最深层传说。医生包含了最私密和令人不安的内容。"
       },
       {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+        "q": "我可以在手机上玩吗？",
+        "a": "它可以在大多数现代移动浏览器上运行，不过为了获得最佳体验，已针对桌面和平板进行优化。"
       }
     ],
-    "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch it directly on this page. This visual novel uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
-    "howToPlayP2": "Each playthrough of The Freak Circus takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead toward one or two of these characters based on the choices you make early in the story.",
-    "howToPlayP3": "New players of The Freak Circus should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
-    "faqTitle": "The Freak Circus FAQ",
-    "storyTitle": "The Freak Circus Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history.",
-    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
-    "tipsTitle": "Tips for Playing The Freak Circus",
-    "whyPlayTitle": "Why Play The Freak Circus?",
-    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets this visual novel apart from typical anime-style titles. Combined with a branching narrative system that tracks over a dozen variables per playthrough, it delivers a different experience every time you play.",
-    "storyP3": "The circus itself is a character in its own right. The tents shift positions between visits, the carnival games seem to know your thoughts, and the performers remember conversations you never had. By the time you realize the circus is alive, it may already be too late to leave.",
-    "gameplayP": "Gameplay centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others are deceptively simple — a single word can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even seemingly minor interactions can cascade into major consequences later. The save system lets you revisit key decision points, making it easy to explore alternative paths without restarting from scratch. Each choice matters, and no two playthroughs ever feel quite the same."
+    "storyTitle": "故事与前提",
+    "storyP1": "《怪诞马戏团》开始于你偶然发现一个巡回马戏团。被一种莫名的吸引力所驱使，你踏入入口，进入一个现实扭曲的世界。每个表演者都提供了关于马戏团隐藏历史的不同视角——皮耶罗在表演中哭泣，却能看见一切。",
+    "storyP2": "随着夜幕降临，面具开始滑落。你将面对关于欲望、控制以及我们告诉自己的故事的不舒适真相。结局从温柔到可怕各不相同，而游戏并不评判你选择的道路。氛围在白天与夜晚之间不断变化，每个阶段都揭示不同的情绪和秘密。",
+    "tipsTitle": "游戏提示",
+    "tipsList": [
+      "阅读每个场景时请慢慢来。微小的细节在故事后期经常变得重要。",
+      "在第一次游玩时不要重新加载存档。你的自然选择会带来最有意义的体验。",
+      "至少玩两遍——第二次游玩会揭示第一次没能看到的对话和场景。",
+      "密切注意收票员。他在整个故事中说的比表面上更多。",
+      "每个角色路线都有一个好结局和至少一个坏结局。条件很具体——第一次游玩后请参考攻略。",
+      "在重要决策点使用存档系统，以便探索不同路径而不丢失进度。"
+    ],
+    "whyPlayTitle": "为什么要玩？",
+    "whyPlayText": "本指南旨在更新后仍能使用：它保留了官方资源链接、对每篇编辑摘要进行日期标注，并避免将社区传闻变成发布日期、结局或路线要求。",
+    "storyP3": "马戏团本身也是一个角色。帐篷在不同拜访之间会移动，嘉年华游戏似乎能洞察你的想法，表演者会记得你从未进行过的对话。这种体验在你结束游玩后仍会挥之不去，引导你回去探索未走过的路径。",
+    "gameplayP": "游戏玩法以每天的对话选择为中心。有些选择有时间限制，为对话增加紧张感。其他选择看似简单，但可能会改变整个角色路线。游戏会追踪每个角色的亲密度水平、故事分支的隐藏标记，以及影响最终结局的累积选择。即使是微小的互动，也可能在后期造成重大后果。"
   },
   "about": {
     "title": "关于《怪诞马戏团》",
-    "subtitle": "关于游戏和本站你需要知道的一切。",
-    "gameSection": "游戏介绍",
-    "gameP1": "《怪诞马戏团》是由独立创作者 Garula（Neko Bueno）开发的一款黑暗心理恐怖视觉小说。该游戏在 itch.io 上发布，通过 TikTok、Tumblr 和 Reddit 等平台的口碑传播，积累了忠实的国际粉丝群。",
-    "gameP2": "游戏讲述了一位无名主角来到一个神秘而偏僻的马戏团，与五位危险的表演者纠缠在一起的故事。叙事跨越多天展开，玩家的选择决定角色的路线和结局。",
-    "siteSection": "关于本站",
-    "siteP1": "thefreakcircus.help 是一个非官方的粉丝资源站，提供游戏嵌入、角色指南、攻略和文章。我们通过官方 CDN 嵌入游戏，不托管、重新分发或修改任何游戏文件。",
-    "siteP2": "要直接支持开发者，请访问<a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">itch.io 官方页面</a>。",
+    "subtitle": "有关游戏和本网站的所有信息。",
+    "gameSection": "游戏简介",
+    "gameP1": "《怪诞马戏团》是一款由独立创作者 Garula（Neko Bueno）开发的黑暗心理恐怖视觉小说。该游戏在 itch.io 上发布，并通过 TikTok、Tumblr 和 Reddit 等平台的口碑传播，积累了忠实的国际粉丝群体。",
+    "gameP2": "游戏讲述一名无名主角访问一个神秘、孤立的马戏团，并与五名危险的表演者纠缠在一起的故事。剧情跨越多天展开，玩家的选择决定了角色路线和结局。",
+    "siteSection": "本网站",
+    "siteP1": "thefreakcircus.help 是一个非官方的粉丝资源网站，提供角色指南、更新摘要和文章。页面内可选的播放器由第三方提供；我们不声称该托管方是官方的、由开发者运营或得到 Garula 授权。我们不分发游戏下载。",
+    "siteP2": "若要直接支持开发者，请访问 <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"> 官方 itch.io 页面 </a>。",
     "faqDivider": "常见问题",
     "faq": [
       {
-        "q": "谁制作了《怪诞马戏团》？",
-        "a": "《怪诞马戏团》由独立开发者 Garula（又名 Neko Bueno）创建，是在 itch.io 上发布的独立项目。"
+        "q": "《怪诞马戏团》是谁制作的？",
+        "a": "《怪诞马戏团》由 Garula，也就是 Neko Bueno 创作。这是一个独立项目，在 itch.io 上发布。"
       },
       {
         "q": "《怪诞马戏团》免费吗？",
-        "a": "是的。基础游戏可以在浏览器中免费游玩，也可以免费下载。开发者提供可选的 Patreon 层级以提前获取新内容。"
+        "a": "是的。基础游戏可在浏览器中免费游玩，也可免费下载。开发者提供可选的 Patreon 会员等级，以提前访问新内容。"
       },
       {
         "q": "这个网站是官方的吗？",
-        "a": "不是。thefreakcircus.help 是非官方粉丝网站。我们与 Garula 或 Neko Bueno 无关。所有游戏素材归原作者所有。"
+        "a": "不是。thefreakcircus.help 是一个非官方粉丝网站。我们与 Garula 或 Neko Bueno 没有任何关联。所有游戏素材均归原作者所有。"
       },
       {
         "q": "游戏有哪些内容警告？",
-        "a": "《怪诞马戏团》评级为 18+，包含心理恐怖主题、占有欲和控制型关系动态、黑暗浪漫以及成人内容。请查看 itch.io 官方页面了解完整的内容警告列表。"
+        "a": "《怪诞马戏团》适合 18 岁及以上玩家，包含心理恐怖主题、占有欲和控制性关系动态、黑暗浪漫以及成熟内容。请查阅官方 itch.io 页面获取完整内容警告列表。"
       },
       {
         "q": "如何下载游戏？",
-        "a": "Windows、macOS 和 Linux 的下载链接可在 itch.io 官方页面找到。你也可以在本站首页游玩浏览器版本。"
+        "a": "Windows、macOS 和 Linux 的下载链接可在官方 itch.io 页面获得。你也可以在本网站首页嵌入的浏览器版本中直接游玩。"
       },
       {
         "q": "游戏支持中文吗？",
-        "a": "是的。《怪诞马戏团》包含官方简体中文语言支持。"
+        "a": "支持。《怪诞马戏团》包括官方简体中文语言包。"
       }
     ],
-    "triviaTitle": "Character Trivia & Fun Facts",
+    "triviaTitle": "角色趣闻与趣事",
     "trivia": [
       {
-        "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot official height has not been disclosed by the developer. Fan estimates based on in-game sprite comparisons suggest he is of average to tall build. Check the <a href=\"/en/characters/pierrot\">Pierrot character page</a> for more details."
+        "q": "《怪诞马戏团》中Pierrot有多高？",
+        "a": "开发者未公开Pierrot的官方身高。根据游戏中精灵对比的粉丝估计，他的身材从中等到偏高。更多详情请查看<a href=\"/en/characters/pierrot\">Pierrot角色页面</a>。"
       },
       {
-        "q": "Is Pierrot a yandere type?",
-        "a": "Pierrot is frequently categorized by fans as a 'silent yandere' — his possessiveness develops gradually rather than manifesting immediately. His route explores themes of obsession and emotional control. Visit the <a href=\"/en/characters/pierrot\">Pierrot route guide</a> for more insight."
+        "q": "Pierrot是病娇类型吗？",
+        "a": "Pierrot经常被粉丝归类为“沉默的病娇”——他的占有欲是逐渐形成的，而非立刻显现。他的路线探索了痴迷和情感控制的主题。更多内容请访问<a href=\"/en/characters/pierrot\">Pierrot路线指南</a>。"
       },
       {
-        "q": "What is Harlequin relationship with Pierrot?",
-        "a": "Harlequin and Pierrot share one of the most complex dynamics in The Freak Circus. Their relationship is part rivalry, part codependence, with their shared history involving Columbina. This backstory is revealed differently depending on which route you play."
+        "q": "Harlequin与Pierrot的关系如何？",
+        "a": "Harlequin和Pierrot在《怪诞马戏团》中有最复杂的互动关系之一。他们的关系既有竞争也有共依存，他们共同的历史涉及Columbina。具体背景根据你选择的路线不同而有所揭示。"
       },
       {
-        "q": "What happened to Columbina in The Freak Circus?",
-        "a": "Columbina backstory is deliberately kept ambiguous and is revealed in fragments through Pierrot and Harlequin routes. She appears only in flashback sequences and is central to understanding the circus hidden history. Read the <a href=\"/en/characters/columbina\">Columbina lore page</a> for what is known."
+        "q": "《怪诞马戏团》中Columbina发生了什么？",
+        "a": "Columbina的背景故意保持模糊，通过Pierrot和Harlequin的路线碎片化地揭示。她只出现在闪回场景中，对理解马戏团的隐秘历史至关重要。可查看<a href=\"/en/characters/columbina\">Columbina背景页面</a>了解已知信息。"
       },
       {
-        "q": "Can you romance the Ticket Taker?",
-        "a": "Yes. The Ticket Taker has a romanceable route in The Freak Circus. His route requires persistence and careful attention to dialogue. He reveals the deepest lore about the circus origins. See the <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> for tips."
+        "q": "可以与票务员发展恋情吗？",
+        "a": "可以。《怪诞马戏团》中票务员有可恋爱路线。其路线需要耐心和细致关注对话。他揭示了关于马戏团起源最深层的背景。参见<a href=\"/en/characters/ticket-taker\">Ticket Taker路线指南</a>获取提示。"
       },
       {
-        "q": "Does The Doctor have a good ending?",
-        "a": "Yes, the Doctor route has at least one Good Ending. The Doctor route has been expanded with additional content. Accept his examination scenes and make specific dialogue choices to unlock the Clean Hands ending. See the <a href=\"/en/characters/the-doctor\">Doctor character page</a> for details."
+        "q": "医生有好结局吗？",
+        "a": "有，医生路线至少有一个好结局。医生路线已加入更多内容。接受他的检查场景并做出特定对话选择即可解锁清白结局。详情请见<a href=\"/en/characters/the-doctor\">Doctor角色页面</a>。"
       }
     ]
   },
   "characters": {
-    "pageTitle": "表演者们",
-    "title": "《怪诞马戏团》角色介绍",
-    "subtitle": "五位非凡的表演者。五条故事线。一个命运。",
+    "pageTitle": "表演者",
+    "title": "《怪诞马戏团》的角色",
+    "subtitle": "五位非凡的表演者。五条路线。一个命运。",
     "routeTip": "路线提示",
     "list": [
       {
         "id": "pierrot",
         "name": "Pierrot",
         "role": "哭泣的小丑",
-        "description": "克制、忧郁且洞察力极强。Pierrot 是马戏团的情感支柱，为嘲笑他眼泪的观众表演悲伤。他的路线对心理要求最高，揭示了马戏团真实本质的更多传说。",
+        "description": "控制、忧郁且洞察力极强。Pierrot是马戏团的情感支柱，为嘲笑他泪水的人群表演悲伤。他的路线在心理上要求最高，并提供关于马戏团真实本质的最多背景资料。",
         "traits": [
           "忧郁",
           "占有欲强",
-          "诗意",
-          "危险"
+          "诗意的",
+          "危险的"
         ],
-        "routeTip": "在第一天选择内省和共情的对话。在第二天避免反抗以解锁好结局。"
+        "routeTip": "在第一天选择内省且富有同情心的对话。在第二天避免反抗以解锁好结局。"
       },
       {
         "id": "harlequin",
         "name": "Harlequin",
         "role": "混乱的表演者",
-        "description": "难以预测且富有戏剧性，Harlequin 用不断变化的表演掩盖了动荡的过去。他与 Pierrot 的关系是游戏的核心动态之一。",
+        "description": "不可预测且戏剧化，Harlequin在不断变化的表演背后隐藏着动荡的过去。他与Pierrot的关系是游戏的核心动态之一。",
         "traits": [
-          "易变",
-          "迷人",
-          "保护欲",
-          "有层次"
+          "易变的",
+          "迷人的",
+          "保护性的",
+          "层次丰富的"
         ],
-        "routeTip": "在第一天选择红色气球。在帐篷遭遇中使用大胆、俏皮的回应。"
+        "routeTip": "在第一天选择红色气球。在帐篷互动中使用大胆、玩心的回应。"
       },
       {
         "id": "jester",
         "name": "Jester",
-        "role": "欺诈师",
-        "description": "Jester 存在于其他表演者之间，既不完全忠诚也不完全敌对。他的路线探索了娱乐的伦理以及让别人发笑意味着什么。",
+        "role": "恶作剧者",
+        "description": "小丑存在于其他表演者之间，既不完全忠诚，也不完全对抗。他的路线探讨了娱乐伦理以及让他人发笑的意义。",
         "traits": [
-          "模棱两可",
-          "机智",
-          "孤独",
-          "精于计算"
+          "模棱两可的",
+          "机智的",
+          "孤独的",
+          "精于算计的"
         ],
-        "routeTip": "Jester 的路线在第二天解锁。用幽默回应但避免直接对抗。"
+        "routeTip": "小丑的路线在第二天解锁。以幽默回应，但避免直接对抗。"
       },
       {
         "id": "ticket-taker",
-        "name": "售票员",
+        "name": "验票员",
         "role": "守门人",
-        "description": "你遇到的第一个角色。售票员控制着谁进谁出，他对这个马戏团的观察时间远比其他人意识到的要长。",
+        "description": "你遇到的第一个角色。验票员控制谁能进、谁能出，并观看这个马戏团的一切，比其他人意识到的时间要久得多。",
         "traits": [
-          "善于观察",
-          "神秘",
-          "严厉",
-          "古老"
+          "观察力强的",
+          "神秘的",
+          "严厉的",
+          "古老的"
         ],
-        "routeTip": "直接回答售票员的每个问题。他的路线需要坚持不懈。"
+        "routeTip": "直接回应验票员提出的每个问题。他的路线需要坚持不懈。"
       },
       {
         "id": "doctor",
         "name": "医生",
-        "role": "秘密外科医生",
-        "description": "医生的路线是最近扩展的，包含了一些游戏中最黑暗的内容。他有条不紊、亲密且令人深感不安。",
+        "role": "秘密外科医师",
+        "description": "医生的路线是最近扩展的路线，包含游戏中一些最黑暗的内容。他做事有条理，亲密而又令人不安。",
         "traits": [
-          "冷静",
-          "亲密",
-          "控制欲",
-          "复杂"
+          "冷静的",
+          "亲密的",
+          "掌控的",
+          "复杂的"
         ],
         "routeTip": "医生的内容主要集中在第二天。接受他的检查场景以推进他的路线。"
       }
     ],
     "pierrot": {
       "meta": {
-        "title": "Pierrot - The Freak Circus Character Guide",
-        "desc": "Meet Pierrot the Weeping Clown from The Freak Circus. Learn about his yandere-type personality, route guide, fanart, and role in the story."
+        "title": "Pierrot - 怪诞马戏团角色指南",
+        "desc": "认识来自怪诞马戏团的Pierrot哭泣小丑。了解他的病娇型性格、路线指南、同人画以及故事中的角色。"
       },
-      "role": "The Weeping Clown",
-      "appearance": "Pierrot has a lean, androgynous build with pale skin and dark hollowed eyes. He wears a classic white clown costume with black diamond accents and a single tear painted beneath his left eye. His official height has not been disclosed. He is often depicted holding a wilted flower or a broken mirror.",
+      "role": "哭泣小丑",
+      "appearance": "Pierrot体型瘦削，中性化外貌，皮肤苍白，眼眶深陷。他穿着经典的白色小丑服饰，带有黑色菱形饰花，左眼下方画着一滴泪。他的官方身高未公布。他常被描绘为手持枯萎的花或破碎的镜子。",
       "traits": [
-        "Melancholic",
-        "Possessive",
-        "Poetic",
-        "Dangerous",
-        "Yandere-type"
+        "忧郁的",
+        "占有欲强的",
+        "诗意的",
+        "危险的",
+        "病娇型"
       ],
-      "personality": "Pierrot is controlled, melancholic, and intensely perceptive. He performs sorrow for crowds who laugh at his tears, but behind the performance lies a deeply possessive and dangerous personality. Fans often categorize him as a 'silent yandere' type — his affection turns obsessive gradually, making his route one of the most psychologically intense in the game.",
-      "routeDesc": "Pierrot's route is the most psychologically demanding in the game. To pursue his route, choose introspective and empathetic dialogue options during Day 1 carnival encounters. Follow the white cloak during the tent scene. During Day 2, prioritize understanding over resistance to unlock the Good Ending. Pierrot's route reveals the deepest lore about the circus history and his relationship with Columbina.",
+      "personality": "皮耶罗性格克制、忧郁且洞察力极强。他为嘲笑自己泪水的人群表演悲伤，但表演背后隐藏着极度占有欲和危险的性格。粉丝们常将他归类为『沉默病娇』类型——他的爱会逐渐变得执着，使他的路线成为游戏中心理强度最高的路线之一。",
+      "routeDesc": "皮耶罗的路线是游戏中心理挑战最强的路线。要攻略他的路线，在第1天的嘉年华遭遇中选择内省和富有同情心的对话选项。在帐篷场景中跟随白色斗篷。第2天时，把理解放在抵抗之前，以解锁好结局。皮耶罗的路线揭示了关于马戏团历史及他与科隆比娜关系的最深层故事。",
       "fanSections": [
-        "Weeping Clown portrait",
-        "Pierrot and Harlequin confrontation scene",
-        "Pierrot route CG from Day 2"
+        "哭泣的小丑头像",
+        "皮耶罗与哈雷奎因的对峙场景",
+        "皮耶罗路线第2天的CG"
       ],
       "reviews": [
-        "Pierrot's route stayed with me for days. The writing makes you feel genuinely torn between wanting to save him and needing to escape him.",
-        "The psychological tension in Pierrot's route is unmatched. The voice acting for his breakdown scene is incredible.",
-        "I went into this game expecting a simple romance and came out emotionally devastated by Pierrot's storyline."
+        "皮耶罗的路线让我久久难以释怀。剧情让你真正感受到在想要拯救他和必须逃离他之间的撕扯。",
+        "皮耶罗路线中的心理紧张感无与伦比。他崩溃场景的配音非常出色。",
+        "我本以为这是一款简单的恋爱游戏，结果被皮耶罗的剧情彻底击垮了情感。"
       ]
     },
     "harlequin": {
       "meta": {
-        "title": "Harlequin - The Freak Circus Character Guide",
-        "desc": "Meet Harlequin the Chaotic Performer from The Freak Circus. Learn about his volatile personality, route tips, and role in the story."
+        "title": "哈雷奎因 - 《怪诞马戏团》角色指南",
+        "desc": "了解来自《怪诞马戏团》的混乱表演者哈雷奎因。学习他的易变性格、路线攻略及故事中的角色定位。"
       },
-      "role": "The Chaotic Performer",
-      "appearance": "Harlequin has a tall, athletic build with sharp facial features and wild, two-toned hair. His costume is a traditional diamond-patterned harlequin suit in red and gold, complete with a half-mask that he wears at an angle. His official height has not been disclosed by the developer.",
+      "role": "混乱的表演者",
+      "appearance": "哈雷奎因身材高大健壮，五官锐利，头发野性且双色。他的服装是传统红金相间的菱格图案丑角服，戴着斜戴的半面具。官方身高开发者尚未公布。",
       "traits": [
-        "Volatile",
-        "Charming",
-        "Protective",
-        "Layered",
-        "Chaotic-neutral"
+        "易变",
+        "迷人",
+        "保护欲强",
+        "层次丰富",
+        "混乱中立"
       ],
-      "personality": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. One moment he is playful and flirtatious, the next he is dangerous and unreadable. His relationship with Pierrot is one of the most complex dynamics in The Freak Circus — part rivalry, part codependence.",
-      "routeDesc": "Harlequin's route rewards bold choices. Select the red balloon during the Day 1 carnival opening. Use playful, daring responses during main tent encounters. His route escalates quickly during Day 2 — embrace the chaos rather than resist it. Harlequin's route explores themes of performance, identity, and the cost of wearing a mask.",
+      "personality": "不可预测且戏剧化，哈雷奎因用不断变化的表演掩盖动荡的过去。瞬间他顽皮调情，瞬间又危险难测。他与皮耶罗的关系是《怪诞马戏团》中最复杂的动态之一——部分对抗，部分共依存。",
+      "routeDesc": "哈雷奎因的路线奖励大胆的选择。在第1天的狂欢节开幕期间选择红色气球。在主帐篷的互动中使用顽皮、勇敢的回应。他的路线在第2天迅速升级——拥抱混乱，而不是抗拒它。哈雷奎因的路线探讨了表演、身份以及戴面具的代价。",
       "fanSections": [
-        "Harlequin performance CG",
-        "Harlequin and Pierrot tension scene",
-        "Harlequin route key art"
+        "哈雷奎因表演CG",
+        "哈雷奎因与皮埃罗紧张场景",
+        "哈雷奎因路线关键艺术"
       ],
       "reviews": [
-        "Harlequin is the kind of character you hate to love. His route made me genuinely uncomfortable in the best way.",
-        "The chaos energy of Harlequin is off the charts. Every scene with him keeps you guessing.",
-        "His backstory reveal in Day 2 completely changed how I saw his character. The writing is superb."
+        "哈雷奎因是那种你讨厌却又爱上的角色。他的路线让我在最棒的方式下感到真正不舒服。",
+        "哈雷奎因的混乱能量爆棚。每个与他的场景都让你猜不到下一步。",
+        "第2天他故事背景的揭露彻底改变了我对他角色的看法。写作非常出色。"
       ]
     },
     "jester": {
       "meta": {
-        "title": "Jester - The Freak Circus Character Guide",
-        "desc": "Meet Jester the Trickster from The Freak Circus. Learn about his ambiguous personality, route guide, and role in the story."
+        "title": "小丑——怪诞马戏团角色指南",
+        "desc": "认识来自《怪诞马戏团》的捣蛋鬼小丑。了解他的模糊性格、路线指南以及他在故事中的角色。"
       },
-      "role": "The Trickster",
-      "appearance": "Jester has a smaller, agile build with wide, expressive eyes and a permanent smirk. His costume is a multi-colored jester outfit with bells on the pointed collar and curled shoes. His official height and age have not been disclosed.",
+      "role": "捣蛋鬼",
+      "appearance": "小丑体型较小、敏捷，双眼大而富有表现力，面带永久的微笑。他的服装是多彩的小丑装，尖领和卷鞋上挂着铃铛。他的官方身高和年龄尚未透露。",
       "traits": [
-        "Ambiguous",
-        "Quick-witted",
-        "Lonely",
-        "Calculating",
-        "Trickster archetype"
+        "模糊",
+        "机智",
+        "孤独",
+        "算计",
+        "捣蛋鬼原型"
       ],
-      "personality": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He plays tricks on everyone but never reveals his own hand. His ambiguous alignment makes him one of the most unpredictable characters in The Freak Circus — you never know if he is helping you or setting you up.",
-      "routeDesc": "Jester's route is unlocked during Day 2. Respond with humor and wit, but avoid direct confrontation. Jester respects cleverness over brute honesty. His route explores the ethics of entertainment and what it means to make others laugh while hiding your own pain.",
+      "personality": "小丑存在于其他表演者之间，既不完全忠诚，也不完全敌对。他对每个人都捉弄，却从不透露自己的底牌。他的模糊立场使他成为《怪诞马戏团》中最不可预测的角色之一——你永远不知道他是在帮助你还是在设陷阱。",
+      "routeDesc": "小丑的路线在第2天解锁。用幽默和机智回应，但避免直接对抗。小丑更尊重聪明而非粗暴的诚实。他的路线探讨娱乐的伦理，以及在隐藏自己痛苦的同时让他人欢笑的意义。",
       "fanSections": [
-        "Jester trickster pose CG",
-        "Jester and protagonist dialogue scene",
-        "Jester route mood art"
+        "小丑捣蛋姿势CG",
+        "小丑与主角对话场景",
+        "小丑路线氛围画"
       ],
       "reviews": [
-        "Jester quickly became my favorite. His humor hides so much pain and the route reveals it beautifully.",
-        "The Jester route has the best writing for comedic timing. Some lines genuinely made me laugh out loud.",
-        "His route twist in the second act caught me completely off guard. Do not underestimate him."
+        "小丑很快成为了我的最爱。他的幽默掩盖了很多痛苦，但路线漂亮地展现了出来。",
+        "小丑路线在喜剧时机的写作上最出色。有些台词真的让我笑出声。",
+        "第二幕的路线反转让我完全措手不及。不要低估他。"
       ]
     },
     "doctor": {
       "meta": {
-        "title": "The Doctor - The Freak Circus Character Guide",
-        "desc": "Meet the Doctor, the Surgeon of Secrets from The Freak Circus. Learn about his clinical personality, route guide, and role in the story."
+        "title": "医生——怪诞马戏团角色指南",
+        "desc": "认识医生，《怪诞马戏团》中的秘密外科医生。了解他的临床性格、路线指南以及在故事中的角色。"
       },
-      "role": "The Surgeon of Secrets",
-      "appearance": "The Doctor is tall and composed, with sharp features and cold, analytical eyes. He wears a vintage medical coat stained with what appears to be old blood, layered over a formal waistcoat. His official height has not been disclosed. He carries a leather doctor bag that never leaves his side.",
+      "role": "秘密外科医生",
+      "appearance": "医生身材高大，举止沉着，面部轮廓分明，眼神冷静而分析。他穿着一件沾有疑似陈年血渍的复古医师外套，里面搭配正式马甲。他的官方身高尚未公布。他随身携带一个皮质医师包，从不离身。",
       "traits": [
-        "Clinical",
-        "Intimate",
-        "Controlling",
-        "Complex",
-        "Sadistic streak"
+        "临床型",
+        "亲密型",
+        "控制型",
+        "复杂型",
+        "虐待倾向"
       ],
-      "personality": "The Doctor is methodical, intimate, and deeply unsettling. He approaches every interaction as if conducting an examination — clinical in speech, unnerving in touch. His route contains some of the darkest content in The Freak Circus, exploring themes of control, vulnerability, and the ethics of care.",
-      "routeDesc": "The Doctor's content is largely concentrated in Day 2. Accept his examination scenes to progress his route. His route requires a willingness to engage with uncomfortable dynamics. The Doctor route has been recently expanded with new content by the developer, adding additional scenes and an extended ending sequence.",
+      "personality": "医生行事有条不紊，亲密又极具不安感。他对每次互动都如同进行检查——言语临床，触碰令人不安。他的路线包含《怪诞马戏团》中最黑暗的一些内容，探索控制、脆弱和护理伦理的主题。",
+      "routeDesc": "医生的内容主要集中在第2天。接受他的检查场景以推进他的路线。他的路线需要玩家愿意面对不适的互动动态。开发者最近扩展了医生路线，增加了新场景和延长结局序列。",
       "fanSections": [
-        "Doctor examination room CG",
-        "Doctor and protagonist tense scene",
-        "Doctor character concept art"
+        "医生检查室CG",
+        "医生与主角紧张场景",
+        "医生角色概念图"
       ],
       "reviews": [
-        "The Doctor's route is not for everyone, but if you enjoy dark romance with psychological depth, it is incredibly well-written.",
-        "I was genuinely unsettled during his examination scenes. The game does not hold back.",
-        "The expanded content for his route adds so much depth. The new ending made me rethink his entire character."
+        "医生的路线并非适合所有人，但如果你喜欢心理深度的黑暗恋情，这条路线写得非常出色。",
+        "在他的检查场景中，我是真的感到不安。游戏毫不保留。",
+        "他路线的扩展内容增加了许多深度。新的结局让我重新思考他的整个角色。"
       ]
     },
     "columbina": {
       "meta": {
-        "title": "Columbina - The Freak Circus Character Guide",
-        "desc": "Meet Columbina from The Freak Circus. Learn about her mysterious past with Pierrot, her role in the circus lore, and what fans speculate about her."
+        "title": "Columbina - 《怪诞马戏团》角色指南",
+        "desc": "认识《怪诞马戏团》的Columbina。了解她与Pierrot的神秘过去，她在马戏团传说中的角色，以及粉丝们对她的各种猜测。"
       },
-      "role": "The Lost Performer",
-      "appearance": "Columbina is described through in-game text and flashback sequences as having a delicate frame, porcelain features, and a soft, melancholic expression. She wears a traditional Columbina costume — a flowing white and gold dress with a small half-mask. Her official height has not been disclosed. Her appearance is only shown in fragmented CG sequences and character memories.",
+      "role": "失落的表演者",
+      "appearance": "通过游戏内文字和闪回序列描写，Columbina拥有纤细身形、瓷白面容和柔和哀郁的表情。她穿着传统的Columbina服装——飘逸的白金色礼服，带有小半面具。官方身高尚未公布。她的外貌仅在零散的CG序列和角色记忆中展示。",
       "traits": [
-        "Elegant",
-        "Tragic",
-        "Mysterious",
-        "Fragile",
-        "Central lore figure"
+        "优雅",
+        "悲剧性",
+        "神秘",
+        "脆弱",
+        "核心传说人物"
       ],
-      "personality": "Columbina is a figure of tragedy and mystery in The Freak Circus. She is central to the backstory of both Pierrot and Harlequin, though she never appears as a living character in the main timeline. Her past actions and relationship with the circus performers shape much of the present-day narrative. Fan theories about Columbina vary widely, as the game deliberately keeps her story ambiguous.",
-      "routeDesc": "Columbina does not have a romanceable route in The Freak Circus. She is a lore-only character whose story is revealed through Pierrot and Harlequin routes. Piecing together her history is one of the main motivations for multiple playthroughs.",
+      "personality": "哥伦比娜是《怪诞马戏团》中悲剧与神秘的角色。她在皮埃罗和阿尔勒金的背景故事中都占据核心地位，尽管她从未在主时间线上以活生生的角色出现。她过去的行为及与马戏团表演者的关系塑造了现今的故事。关于哥伦比娜的粉丝理论各不相同，因为游戏刻意保持她的故事模糊不清。",
+      "routeDesc": "在《怪诞马戏团》中，哥伦比娜没有可攻略路线。她是一个仅存在于剧情中的角色，其故事通过皮埃罗和阿尔勒金的路线揭示。拼凑她的历史是多次通关的主要动力之一。",
       "fanSections": [
-        "Columbina flashback CG",
-        "Columbina and Pierrot memory scene",
-        "Columbina concept art"
+        "哥伦比娜回忆CG",
+        "哥伦比娜与皮埃罗的记忆场景",
+        "哥伦比娜概念图"
       ],
       "reviews": [
-        "The Columbina reveal completely reframes Pierrot entire route. I had to replay immediately.",
-        "Every mention of Columbina in the game is heartbreaking. The writing team did an amazing job with her tragic story.",
-        "I spent hours on forums discussing Columbina theories after finishing the game. That is how compelling her character is."
+        "哥伦比娜的揭示彻底重塑了皮埃罗的整个路线。我不得不立即重新游玩。",
+        "游戏中每一次提及哥伦比娜都令人心碎。编剧团队在她的悲剧故事上做得非常出色。",
+        "我在完成游戏后花了数小时在论坛上讨论关于哥伦比娜的理论。这说明她的角色有多么吸引人。"
       ]
     },
     "ticket-taker": {
       "meta": {
-        "title": "Ticket Taker TFC - The Freak Circus Character Guide",
-        "desc": "Meet the Ticket Taker from The Freak Circus. Learn about his cryptic personality, gatekeeper role, route guide, and lore significance."
+        "title": "票务员 TFC - 《怪诞马戏团》角色指南",
+        "desc": "认识《怪诞马戏团》中的票务员。了解他的神秘性格、看门角色、路线指南及剧情重要性。"
       },
-      "role": "The Gatekeeper",
-      "appearance": "The Ticket Taker is an older, stoic figure with silver-streaked hair and piercing eyes that seem to look through you. He wears a vintage railway conductor uniform with brass buttons and always carries a leather-bound ticket book. His official height has not been disclosed. He is the first character you meet when entering the circus.",
+      "role": "守门人",
+      "appearance": "票务员是一个年长、冷静的人物，银发参杂，锐利的眼神仿佛能看透人心。他身着复古的铁路列车长制服，配有黄铜纽扣，并且总是随身携带一本皮革封面的票本。他的官方身高尚未披露。他是在进入马戏团时首先遇到的角色。",
       "traits": [
-        "Observant",
-        "Cryptic",
-        "Stern",
-        "Ancient",
-        "Guardian figure"
+        "观察力强",
+        "神秘莫测",
+        "严厉",
+        "古老",
+        "守护者形象"
       ],
-      "personality": "The first character you encounter. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize. His cryptic comments often carry double meanings that only become clear on replay. He speaks in riddles and seems to know more about the protagonist than he lets on.",
-      "routeDesc": "The Ticket Taker route requires persistence. Engage directly with every question he asks — deflect his tests at your own risk. His route rewards players who pay attention to the smallest details in dialogue. The Ticket Taker reveals the deepest lore about the circus origins and the nature of the performers contract.",
+      "personality": "你遇到的第一个角色。票务员控制着谁能进入和离开，并且比其他人意识到的时间更久地观察着整个马戏团。他神秘的评论常常带有双重含义，只有重玩时才会清楚。他用谜语般的语言说话，似乎比他表露的更了解主角。",
+      "routeDesc": "票务员路线需要持之以恒。直接回答他提出的每一个问题——绕过他的考验需自担风险。他的路线奖励那些注意对话中细节的玩家。票务员揭示了关于马戏团起源和表演者契约性质的最深层剧情。",
       "fanSections": [
-        "Ticket Taker entrance CG",
-        "Ticket Taker route key scene",
-        "Ticket Taker character art"
+        "票务员入场CG",
+        "票务员路线关键场景",
+        "售票员角色艺术"
       ],
       "reviews": [
-        "The Ticket Taker quickly went from creepy gatekeeper to fascinating character. His route has the best lore payoff in the game.",
-        "Every line the Ticket Taker speaks is important. I started taking notes on my second playthrough.",
-        "His route answers questions you did not even know you had. The lore reveal is worth the effort of unlocking his path."
+        "售票员迅速从一个令人毛骨悚然的守门人变成了一个引人入胜的角色。他的路线在游戏中拥有最精彩的背景故事回报。",
+        "售票员说的每一句话都很重要。我在第二次游玩时开始做笔记。",
+        "他的路线回答了一些你甚至都不知道自己有的问题。解锁他的路线值得为剧情揭示付出的努力。"
       ]
     }
   },
   "walkthrough": {
-    "pageTitle": "指南与剧透",
-    "title": "《怪诞马戏团》攻略",
-    "subtitle": "每条路线、每个结局和隐藏场景的逐步攻略。",
+    "pageTitle": "攻略与剧透",
+    "title": "怪诞马戏团攻略",
+    "subtitle": "每条路线、结局和隐藏场景的逐步指南。",
     "spoilerTitle": "剧透警告",
-    "spoilerText": "本页包含所有路线和结局的重大剧透。在查阅本指南前，请至少完成第一天的游戏。",
-    "day1Title": "第一天 - 路线概览",
-    "day1P1": "第一天通过一系列嘉年华遭遇来确定你与五位角色的亲和力。前 20 分钟的选择将决定第二天哪些路线可用。",
-    "day1P2": "第一天的关键分支点包括与售票员的入口互动、帐篷选择以及晚餐谈话。",
-    "pierrotTitle": "Pierrot 路线指南",
-    "pierrotP1": "在第一天选择内省和共情的选项。在帐篷场景中，跟随白色斗篷。在第二天，选择理解而非抵抗以解锁 Pierrot 的好结局。",
-    "pierrotP2": "在我们的<a href=\"/zh/blog/pierrot-route-guide\">博客</a>中查看完整的 Pierrot 路线文章。",
-    "harlequinTitle": "Harlequin 路线指南",
-    "harlequinP1": "在第一天嘉年华开场时与红色气球互动。在主帐篷中使用大胆、俏皮的回应。Harlequin 的路线在第二天迅速升级，所以拥抱混乱而不是抵抗它。",
-    "endingsTitle": "结局一览",
+    "spoilerText": "本页包含所有路线和结局的重大剧透。至少玩到第1天再参考本攻略。",
+    "day1Title": "第1天 - 路线概述",
+    "day1P1": "第1天通过一系列的嘉年华事件建立你与五名角色的亲密度。前20分钟的选择决定第2天可选择的路线。",
+    "day1P2": "第1天的关键分支点包括与售票员的入口互动、帐篷选择以及晚餐谈话。",
+    "pierrotTitle": "皮埃罗路线攻略",
+    "pierrotP1": "第1天始终选择内省且富有同情心的选项。在帐篷场景中，跟随白色斗篷。第2天时，选择理解而非抗拒，以解锁皮埃罗的好结局。",
+    "pierrotP2": "完整的皮埃罗路线文章请见我们的<a href=\"/blog/pierrot-route-guide\">blog</a>。",
+    "harlequinTitle": "小丑路线攻略",
+    "harlequinP1": "在第1天嘉年华开场时与红色气球互动。在主帐篷中使用大胆、俏皮的回应。小丑的路线在第2天迅速升级，因此要接受混乱而不是抵抗。",
+    "endingsTitle": "结局总结",
     "endingsChar": "角色",
     "endingsGood": "好结局",
     "endingsBad": "坏结局",
@@ -447,119 +447,119 @@
       {
         "char": "Pierrot",
         "good": "镜中倒影",
-        "bad": "破碎舞台、逃脱"
+        "bad": "破碎舞台，逃离"
       },
       {
         "char": "Harlequin",
         "good": "谢幕",
-        "bad": "空荡舞台"
+        "bad": "空舞台"
       },
       {
         "char": "Jester",
-        "good": "揭下面具",
+        "good": "摘下面具",
         "bad": "笑点"
       },
       {
         "char": "售票员",
-        "good": "敞开的门",
+        "good": "开启大门",
         "bad": "永远关闭"
       },
       {
-        "char": "医生",
-        "good": "干净的手",
-        "bad": "刀下、麻木"
+        "char": "博士",
+        "good": "双手干净",
+        "bad": "刀下，麻木"
       }
     ],
     "day1": {
       "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - All Choices",
-        "desc": "Complete Day 1 walkthrough for The Freak Circus. Learn all key choices, character affinity decisions, and how to unlock each route from the first day."
+        "title": "怪诞马戏团第1天攻略 - 所有选择",
+        "desc": "怪诞马戏团第1天完整攻略。了解所有关键选择、角色亲密度决定，以及如何从第一天解锁每条路线。"
       },
-      "title": "Day 1 - Complete Walkthrough",
-      "overview": "Day 1 establishes your affinity with each character through carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
+      "title": "第1天 - 完整攻略",
+      "overview": "第1天通过嘉年华事件建立你与每个角色的亲密度。前20分钟的选择决定第2天可选择的路线。",
       "choices": [
         {
-          "moment": "Entrance - Meeting the Ticket Taker",
-          "desc": "Your first interaction sets the tone. Answer honestly to gain Ticket Taker affinity. Deflect or joke to lean toward Jester or Harlequin."
+          "moment": "入口 - 见售票员",
+          "desc": "你的第一次互动会定下基调。诚实回答以获得售票员好感。回避或开玩笑则倾向于小丑或哈雷昆。"
         },
         {
-          "moment": "The Carnival Midway",
-          "desc": "Explore the booths. Each interaction subtly shifts character affinities. The red balloon leads toward Harlequin. The white cloak reveals Pierrot path."
+          "moment": "狂欢节中路",
+          "desc": "探索各个展位。每次互动都会微妙地改变角色好感度。红气球引向哈雷昆。白斗篷揭示皮耶罗路线。"
         },
         {
-          "moment": "The Tent Performance",
-          "desc": "Your seat choice and reactions during the main performance influence which performer notices you. Front row signals boldness. Balcony suggests introspection."
+          "moment": "帐篷表演",
+          "desc": "你选择的座位和对主要表演的反应会影响哪个表演者注意到你。前排表示大胆。阳台显示内省。"
         },
         {
-          "moment": "Evening Meal Conversation",
-          "desc": "The dinner scene is a major branching point. Your dialogue choices here can lock or unlock specific routes for Day 2."
+          "moment": "晚餐时的对话",
+          "desc": "晚餐场景是一个重要分支点。你在此处的对话选择可以锁定或解锁第2天的特定路线。"
         }
       ]
     },
     "day2": {
       "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Routes & Endings",
-        "desc": "Complete Day 2 walkthrough for The Freak Circus with character routes, good and bad ending conditions, and hidden scene triggers."
+        "title": "怪诞马戏团第2天攻略 - 路线与结局",
+        "desc": "完成《怪诞马戏团》第2天攻略，包括角色路线、好结局与坏结局条件，以及隐藏场景触发器。"
       },
-      "title": "Day 2 - Routes & Ending Guide",
-      "overview": "Day 2 intensifies the narrative. Your Day 1 choices determine which routes remain open. Each character route has distinct Good and Bad Ending conditions.",
+      "title": "第2天 - 路线与结局指南",
+      "overview": "第2天故事更为紧张。你第1天的选择决定了哪些路线仍然开放。每条角色路线都有独特的好结局和坏结局条件。",
       "choices": [
         {
-          "moment": "Morning After - Route Lock-in",
-          "desc": "The first Day 2 conversation confirms your active route(s). Characters with highest affinity approach you first."
+          "moment": "翌日清晨 - 路线锁定",
+          "desc": "第2天的第一次对话确认你的活跃路线。好感度最高的角色会先接近你。"
         },
         {
-          "moment": "Route-Specific Encounters",
-          "desc": "Each locked route has unique scenes. Pierrot route involves the mirror tent. Harlequin route escalates at the main stage."
+          "moment": "路线特定遭遇",
+          "desc": "每条已锁定的路线都有独特场景。皮耶罗路线涉及镜子帐篷。哈雷昆路线在主舞台升级。"
         },
         {
-          "moment": "Final Confrontation",
-          "desc": "The climax of each route. Your choices here determine Good vs Bad Ending. Save before this point to explore both outcomes."
+          "moment": "最终对决",
+          "desc": "每条路线的高潮。你在此处的选择决定好结局或坏结局。在此点前保存，以探索两种结局。"
         }
       ]
     },
     "day3": {
       "meta": {
-        "title": "The Freak Circus Day 3 - Latest Updates & News",
-        "desc": "The Freak Circus Day 3 content status. Check the latest developer updates, estimated release timeline, and subscribe for notifications."
+        "title": "怪诞马戏团第3天 - 最新更新与资讯",
+        "desc": "《怪诞马戏团》第3天内容状态。查看最新开发者更新、预计发布时间，并订阅通知。"
       },
-      "title": "Day 3 — Verified Update Tracker",
-      "status": "Day 3 content is currently under development. The developer has confirmed ongoing work but has not announced a specific release date. Bookmark this page for the latest updates.",
-      "devNotes": "Check the /news page for the latest developer updates on Day 3 progress and other upcoming content."
+      "title": "第3天 — 已验证更新跟踪",
+      "status": "本页未说明第3天的发布日期，仅链接至带日期的官方开发者公告。",
+      "devNotes": "查看新闻部分了解最新来源链接的开发者更新。"
     }
   },
   "blog": {
-    "title": "指南与文章",
-    "subtitle": "《怪诞马戏团》的攻略、角色分析和背景设定。",
+    "title": "攻略与文章",
+    "subtitle": "《怪诞马戏团》的攻略、角色分析与世界观资料。",
     "backLink": "返回所有文章",
-    "published": "发布于 {date}",
+    "published": "发表于 {date}",
     "footerLink": "在线游玩《怪诞马戏团》"
   },
   "ad": {
-    "leftLabel": "左侧边栏广告",
-    "rightLabel": "右侧边栏广告"
+    "leftLabel": "左侧广告栏",
+    "rightLabel": "右侧广告栏"
   },
   "meta": {
-    "homeTitle": "在线游玩《怪诞马戏团》- 心理恐怖视觉小说",
-    "homeDesc": "在浏览器中免费在线游玩《怪诞马戏团》。Garula 制作的黑暗心理恐怖视觉小说，包含 Pierrot、Harlequin、Jester 等角色的故事路线。",
-    "aboutTitle": "关于《怪诞马戏团》- 游戏信息、开发者和常见问题",
-    "aboutDesc": "了解《怪诞马戏团》视觉小说：开发者、下载链接、内容警告、中文支持和常见问题。",
-    "charactersTitle": "《怪诞马戏团》角色 - Pierrot、Harlequin、Jester 及更多",
-    "charactersDesc": "认识《怪诞马戏团》的角色：Pierrot、Harlequin、Jester、售票员和医生。阅读路线提示、特征和背景设定。",
-    "walkthroughTitle": "《怪诞马戏团》攻略 - 第一天和第二天，所有结局",
-    "walkthroughDesc": "《怪诞马戏团》视觉小说完整攻略，包含第一天和第二天选择、角色路线、好结局、坏结局和隐藏场景。",
-    "blogTitle": "《怪诞马戏团》博客 - 指南、攻略和角色分析",
-    "blogDesc": "《怪诞马戏团》心理恐怖视觉小说的指南、结局攻略、角色分析和背景深度挖掘。",
-    "contactTitle": "Contact Us",
-    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
+    "homeTitle": "在线游玩《怪诞马戏团》",
+    "homeDesc": "在你的浏览器中免费在线游玩《怪诞马戏团》。一款由 Garula 制作的黑暗心理恐怖视觉小说，包含皮耶罗、哈雷昆、小丑等路线。",
+    "aboutTitle": "关于《怪诞马戏团》游戏常见问题",
+    "aboutDesc": "了解《怪诞马戏团》视觉小说：开发者、下载链接、内容警告、中文支持以及常见问题解答。",
+    "charactersTitle": "《怪诞马戏团》角色指南",
+    "charactersDesc": "认识《怪诞马戏团》角色：小丑皮耶罗、哈雷奎恩、弄臣、检票员和医生。阅读路线提示、性格特点和背景说明。",
+    "walkthroughTitle": "《怪诞马戏团》攻略结局",
+    "walkthroughDesc": "《怪诞马戏团》视觉小说完整攻略，包括第1天和第2天的选择、角色路线、好结局、坏结局及隐藏场景。",
+    "blogTitle": "《怪诞马戏团》博客 - 指南、攻略与角色分析",
+    "blogDesc": "《怪诞马戏团》心理恐怖视觉小说的指南、结局攻略、角色分析及背景深度解析。",
+    "contactTitle": "联系我们",
+    "contactDesc": "联系《thefreakcircus.help》粉丝网站团队，了解《怪诞马戏团》视觉小说相关信息。",
+    "privacyTitle": "隐私政策",
+    "privacyDesc": "thefreakcircus.help 隐私政策——我们如何在这个《怪诞马戏团》粉丝网站上处理访问者数据。",
+    "termsTitle": "服务条款",
+    "termsDesc": "thefreakcircus.help 服务条款——使用此《怪诞马戏团》粉丝网站的规则和指南。"
   },
   "schema": {
     "websiteName": "The Freak Circus",
-    "websiteDesc": "一部以神秘马戏团为背景的心理恐怖恋爱视觉小说。",
+    "websiteDesc": "一部设定在神秘马戏团的心理恐怖恋爱视觉小说。",
     "gameGenres": [
       "视觉小说",
       "心理恐怖",
@@ -571,143 +571,176 @@
     "searchAction": "搜索 thefreakcircus.help"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
-    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
-    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+    "title": "联系我们",
+    "subtitle": "联系 thefreakcircus.help 背后的团队。",
+    "p1": "thefreakcircus.help 是《怪诞马戏团》视觉小说的非官方粉丝网站。我们与 Garula、Neko Bueno 或 itch.io 无关。如果您对游戏、网站有疑问，或需要游戏帮助，请随时联系。",
+    "p2": "电子邮件：contact@thefreakcircus.help——我们会尽量在几天内回复。"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "How we handle your data on thefreakcircus.help.",
-    "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
-    "s2title": "Third-Party Services",
-    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
-    "s3title": "Your Rights",
-    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+    "title": "隐私政策",
+    "subtitle": "我们如何处理您在 thefreakcircus.help 上的数据。",
+    "s1title": "我们收集的信息",
+    "s1body": "thefreakcircus.help 使用语言偏好 cookie 和以下描述的分析工具。页面内的可选播放器由第三方托管；本粉丝网站不运行该托管，也不声称其为官方。我们无法访问该播放器内部发送的数据。",
+    "s2title": "第三方服务",
+    "s2body": "可选播放器通过第三方主机的 iframe 加载。该主机可能根据自身的政策收集数据，我们无法控制其行为。有关开发者支持的游戏及其数据使用情况，请查看官方 itch.io 页面。我们也使用 Google Analytics 进行基本流量测量。 ",
+    "s3title": "您的权利",
+    "s3body": "作为此粉丝网站的访客，您有权匿名浏览，通过浏览器设置阻止 cookies，并使用广告拦截或追踪保护扩展程序。如果您对数据处理有任何疑虑，请通过官方 itch.io 页面联系我们。"
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
-    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
-    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
-    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
+    "title": "服务条款",
+    "subtitle": "thefreakcircus.help 的使用规则和指南。",
+    "s1body": "thefreakcircus.help 是《The Freak Circus》视觉小说的非官方粉丝网站。我们与 Garula、Neko Bueno 或 itch.io 无任何关联。所有游戏内容，包括艺术作品、故事和角色，均归其各自创作者所有。",
+    "s2body": "一个可选播放器嵌入自第三方主机。我们不声明该主机为官方、开发者运营或受官方认可。我们不分发游戏下载；请使用官方 itch.io 页面获取开发者支持版本。",
+    "s3body": "本站上的所有原创内容——包括指南、攻略和文章——仅供参考信息。您可以分享我们的网页链接，但不得在未注明出处的情况下复制我们的内容。",
+    "s4body": "本网站包含受 18 岁评级游戏内容。使用本网站即表示您确认自己在所属司法辖区已达到可查看成人内容的法定年龄。如对这些条款有任何疑问，请联系我们。"
   },
   "wiki": {
-    "title": "The Freak Circus Wiki & Lore Guide",
-    "subtitle": "Complete encyclopedia of The Freak Circus lore, characters, and setting.",
+    "title": "The Freak Circus 维基与故事指南",
+    "subtitle": "The Freak Circus 故事、角色和背景的完整百科全书。",
     "meta": {
-      "title": "The Freak Circus Wiki - Complete Lore & Setting Guide",
-      "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
+      "title": "The Freak Circus 维基 - 完整的故事与背景指南",
+      "desc": "探索完整的 The Freak Circus 维基，包括角色故事、马戏团设定、术语表、开发时间线和开发者名单。"
     },
-    "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia资料 including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
-    "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
-    "loreTitle": "World & Circus Setting",
-    "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
-    "loreP2": "The circus grounds include the main performance tent, the carnival midway, individual performer spaces, and hidden areas that only become accessible on specific routes. The layout shifts between visits, suggesting the circus itself is alive and responsive to the protagonist choices.",
-    "glossaryTitle": "Glossary of Terms",
+    "overviewTitle": "欢迎来到维基",
+    "overviewP1": "此页面提供完整的 The Freak Circus 百科资料，包括角色简介、故事背景和更新历史。无论您是想了解故事的新玩家，还是寻求更深入故事的老玩家，这个维基涵盖了游戏的所有已知内容。",
+    "overviewP2": "此处信息基于官方确认的游戏内容。社区推测将明确标注。",
+    "loreTitle": "世界与马戏团设定",
+    "loreP1": "怪诞马戏团的故事背景设定在一个神秘的马戏团，这个马戏团只在夜晚出现在被雾气笼罩的小镇边缘。马戏团存在于一个模糊的空间——它无声无息地到来，也同样无声无息地离开。这五名表演者因一份在游戏事件之前就存在的协议而被束缚于马戏团，尽管这份协议的具体性质被刻意保持模糊。",
+    "loreP2": "马戏团的场地包括主表演帐篷、游乐场中路段、各个表演者的私人空间，以及仅在特定路线才可访问的隐藏区域。场地的布局在每次访问间会发生变化，这暗示马戏团本身像有生命一样，会对主角的选择作出反应。",
+    "glossaryTitle": "术语表",
     "glossary": [
       {
-        "term": "The Performance",
-        "def": "The nightly show each performer gives. The Performance is both literal entertainment and a metaphor for each character hidden nature."
+        "term": "表演",
+        "def": "每位表演者每晚进行的表演。表演既是字面上的娱乐，也是每个角色隐藏本性的象征。"
       },
       {
-        "term": "The Contract",
-        "def": "An agreement binding each performer to the circus. The terms are never fully explained but hinted at through character dialogue."
+        "term": "合同",
+        "def": "束缚每位表演者与马戏团之间的协议。条款从未被完全说明，但通过角色对白有所暗示。"
       },
       {
-        "term": "Day 1 / Day 2",
-        "def": "The two active days of gameplay. The story unfolds across this timeframe, with choices determining which routes open."
+        "term": "第1天 / 第2天",
+        "def": "两个活跃的游戏日。故事在此时间跨度内展开，选择将决定哪些路线开放。"
       },
       {
-        "term": "Good Ending / Bad Ending",
-        "def": "Each character route has at least two endings. Good Endings require specific choice combinations. Bad Endings trigger through defiance or passive acceptance."
+        "term": "好结局 / 坏结局",
+        "def": "每条角色路线至少有两个结局。好结局需要特定的选择组合。坏结局通过违抗或被动接受触发。"
       },
       {
-        "term": "The Tear Painted on Pierrot Face",
-        "def": "A permanent makeup mark that symbolizes his perpetual performance of sorrow. It never washes off."
+        "term": "画在小丑脸上的泪痕",
+        "def": "一个永久性的妆饰标记，象征他永恒的悲伤表演。永远无法洗掉。"
       }
     ],
-    "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno). The game is published on itch.io and is available for Windows, macOS, and Linux, as well as directly in browser via official CDN embedding.",
-    "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
-    "timelineTitle": "Update Timeline",
+    "creditsTitle": "开发者与鸣谢",
+    "creditsP1": "《怪诞马戏团》由Garula（也被称为Neko Bueno）开发，并发布在itch.io平台。请使用官方itch.io页面进行开发者支持的浏览器和下载选项。",
+    "creditsP2": "完整配音演员名单及更多鸣谢信息尚未由开发者公开。本部分将在获取更多信息后更新。",
+    "timelineTitle": "更新时间表",
     "timeline": [
       {
-        "version": "Initial Release",
+        "version": "初次发布",
         "date": "2024",
-        "desc": "The Freak Circus first released on itch.io with Pierrot, Harlequin, Jester, Ticket Taker, and Doctor routes available."
+        "desc": "《怪诞马戏团》最初在itch.io发布时，已开放小丑、丑角、弄臣、票务员和医生路线。"
       },
       {
-        "version": "Doctor Route Expansion",
+        "version": "医生路线扩展",
         "date": "Late 2024",
-        "desc": "Additional scenes and an extended ending added to the Doctor route based on player feedback."
+        "desc": "根据玩家反馈，医生路线增加了额外场景和延长结局。"
       },
       {
-        "version": "Chinese Language Support",
+        "version": "中文语言支持",
         "date": "2025",
-        "desc": "Official Simplified Chinese language support added alongside continuing English content updates."
+        "desc": "官方简体中文语音支持已添加，同时英文内容持续更新。"
       },
       {
-        "version": "Day 3 & Future Content",
+        "version": "第3天及未来内容",
         "date": "TBD",
-        "desc": "The developer has indicated ongoing work on additional content. Day 3 and new character content are anticipated."
+        "desc": "开发者表示正在进行额外内容的开发。预计将推出第3天和新角色内容。"
       }
     ]
   },
   "community": {
     "meta": {
-      "title": "The Freak Circus Fan Art & Community",
-      "desc": "Join The Freak Circus fan community. Explore fan art, creator links, official social media, and community resources."
+      "title": "怪诞马戏团粉丝艺术与社区",
+      "desc": "加入《怪诞马戏团》粉丝社区。探索粉丝艺术、创作者链接、官方社交媒体和社区资源。"
     },
-    "title": "The Freak Circus Community",
-    "subtitle": "Fan art, discussions, and community resources.",
-    "officialTitle": "Official Links",
-    "officialDesc": "Connect with the developer and other fans through these official channels.",
+    "title": "怪诞马戏团社区",
+    "subtitle": "粉丝艺术、讨论和社区资源。",
+    "officialTitle": "官方链接",
+    "officialDesc": "通过这些官方渠道与开发者和其他粉丝联系。",
     "links": [
       {
-        "name": "itch.io Page",
+        "name": "itch.io 页面",
         "url": "https://garula.itch.io/the-freak-circus"
       },
       {
-        "name": "Official Twitter",
+        "name": "官方推特",
         "url": "https://twitter.com/FreakCircusVRC"
       }
     ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Showcasing community-created fan art of The Freak Circus characters. Submissions are from verified creators who have granted permission for display.",
-    "communityTitle": "Community Resources",
+    "fanartTitle": "粉丝艺术聚焦",
+    "fanartDesc": "展示社区创作的《怪诞马戏团》角色粉丝艺术。提交内容来自经过验证并授权展示的创作者。",
+    "communityTitle": "社区资源",
     "communityTips": [
-      "Join official Discord servers for real-time discussions with other fans.",
-      "Use #TheFreakCircus tag on social media platforms to share your creations.",
-      "Respect other fans and creators — the community thrives on mutual support.",
-      "Check the official itch.io page for the latest developer updates and community news."
+      "加入官方 Discord 服务器，与其他粉丝进行实时讨论。",
+      "在社交媒体平台上使用 #TheFreakCircus 标签分享你的作品。",
+      "尊重其他粉丝和创作者——社区依靠相互支持而繁荣。",
+      "查看官方 itch.io 页面获取最新的开发者更新和社区新闻。"
     ]
   },
   "news": {
     "meta": {
-      "title": "The Freak Circus News & Updates",
-      "desc": "Latest news and updates for The Freak Circus visual novel. Development progress, version releases, and community announcements."
+      "title": "怪诞马戏团新闻与更新",
+      "desc": "《怪诞马戏团》视觉小说的最新新闻和更新。开发进展、版本发布和社区公告。"
     },
-    "title": "News & Updates",
+    "title": "新闻与更新",
     "entries": [
       {
         "date": "2025",
-        "title": "Chinese Language Support Added",
-        "body": "The Freak Circus now includes official Simplified Chinese language support. This update also includes bug fixes and minor dialogue adjustments."
+        "title": "已添加中文支持",
+        "body": "《怪诞马戏团》现已支持官方简体中文语言。此更新还包括错误修复和部分对话的轻微调整。"
       },
       {
         "date": "Late 2024",
-        "title": "Doctor Route Expansion Released",
-        "body": "New scenes and an extended ending for the Doctor route are now available. Thank you to the community for the feedback that made this expansion possible."
+        "title": "医生路线扩展发布",
+        "body": "医生路线新增场景和扩展结局现已可用。感谢社区的反馈，使此次扩展成为可能。"
       },
       {
         "date": "2024",
-        "title": "The Freak Circus Released on itch.io",
-        "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
+        "title": "《怪诞马戏团》已在 itch.io 发布",
+        "body": "《怪诞马戏团》现在可在 itch.io 免费游玩。初始版本包含五条主要角色路线及多个结局。"
       }
     ]
+  },
+  "ui": {
+    "mainNavigation": "主要导航",
+    "wiki": "Wiki",
+    "community": "社区",
+    "news": "新闻",
+    "switchLanguage": "切换语言",
+    "gameCoverAlt": "《怪诞马戏团》封面艺术",
+    "like": "喜欢",
+    "dislike": "不喜欢",
+    "reloadGame": "重新加载游戏",
+    "toggleFullscreen": "切换全屏",
+    "playerDisclaimer": "此可选播放器由第三方托管提供。thefreakcircus.help 是非官方粉丝资源，不声明其托管方由 Garula 运营、认可或关联。欲获取开发者支持版本和下载，请使用官方 itch.io 页面。",
+    "aboutImageAlt": "《怪诞马戏团》心理恐怖视觉小说封面艺术",
+    "charactersImageAlt": "怪诞马戏团的角色",
+    "gameplayImageAlt": "在浏览器中游玩《怪诞马戏团》",
+    "faqImageAlt": "关于《怪诞马戏团》的常见问题",
+    "allCharacters": "所有角色",
+    "appearanceDesign": "外观与设计",
+    "personalityTraits": "性格与特征",
+    "routeGuide": "路线指南",
+    "fanArtGallery": "同人艺术与画廊",
+    "playerImpressions": "玩家印象",
+    "openDay1Guide": "打开第 1 天决策指南",
+    "newsTracker": "源头更新追踪器",
+    "newsIntro": "每条条目均链接至原开发者公告。我们将摘要标注为粉丝编辑报道，而非官方帖子。",
+    "readSummary": "阅读摘要和源头",
+    "allNews": "所有新闻",
+    "editorialSummary": "粉丝编辑摘要",
+    "published": "发布于 {date}",
+    "primarySource": "主要来源",
+    "readOriginal": "在 {source} 阅读原始公告",
+    "siteBy": "网站制作"
   }
 }

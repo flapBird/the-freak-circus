@@ -12,702 +12,735 @@
     "siteName": "The Freak Circus",
     "subtitle": "thefreakcircus.help",
     "nav": {
-      "play": "Chơi Trực Tuyến",
-      "characters": "Nhân Vật",
-      "walkthrough": "Hướng Dẫn",
+      "play": "Chơi trực tuyến",
+      "characters": "Nhân vật",
+      "walkthrough": "Hướng dẫn tham quan",
       "blog": "Blog",
-      "about": "Giới Thiệu"
+      "about": "Giới thiệu"
     }
   },
   "footer": {
-    "aboutTitle": "About This Site",
-    "aboutText": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula or Neko Bueno. All game content belongs to its original creators.",
-    "quickLinks": "Quick Links",
+    "aboutTitle": "Giới thiệu về trang web này",
+    "aboutText": "thefreakcircus.help là một trang web người hâm mộ không chính thức dành cho tiểu thuyết hình ảnh The Freak Circus. Chúng tôi không liên kết với Garula hay Neko Bueno. Tất cả nội dung trò chơi đều thuộc về những người sáng tạo ban đầu.",
+    "quickLinks": "Liên kết nhanh",
     "links": {
-      "play": "Play The Freak Circus Online",
-      "characters": "Character Guide",
-      "walkthrough": "Walkthrough & Endings",
-      "blog": "Articles & Guides",
-      "official": "Official itch.io Page",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "play": "Chơi The Freak Circus Online",
+      "characters": "Hướng dẫn nhân vật",
+      "walkthrough": "Hướng dẫn & Kết thúc",
+      "blog": "Bài viết & Hướng dẫn",
+      "official": "Trang itch.io chính thức",
+      "about": "Giới thiệu",
+      "contact": "Liên hệ",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
     },
-    "disclaimerTitle": "Disclaimer",
-    "disclaimerText": "This site contains content from a game rated 18+. The embedded game is served directly from the official CDN. We do not host, redistribute, or modify any game files.",
-    "copyright": "© {year} thefreakcircus.help - Fan Site - All trademarks belong to their respective owners",
-    "extLabel": "(external)"
+    "disclaimerTitle": "Tuyên bố từ chối trách nhiệm",
+    "disclaimerText": "Trang web này chứa nội dung từ một trò chơi được xếp hạng 18. Bất kỳ trình phát tùy chọn nào trên trang đều được phục vụ bởi một máy chủ bên thứ ba. Trang web người hâm mộ này không tuyên bố rằng máy chủ là chính thức hay do nhà phát triển vận hành. Đối với phiên bản do nhà phát triển hỗ trợ, hãy sử dụng trang itch.io chính thức.",
+    "copyright": "© {year} thefreakcircus.help - Trang người hâm mộ - Tất cả các nhãn hiệu đều thuộc về chủ sở hữu tương ứng",
+    "extLabel": "(bên ngoài)"
   },
   "game": {
-    "playButton": "Chơi",
+    "playButton": "Đóng Kịch Rạp Xiếc Quái Dị",
     "loading": "Đang tải...",
-    "ariaLabel": "Click to launch The Freak Circus",
-    "iframeTitle": "Play The Freak Circus - Psychological Horror Visual Novel"
+    "ariaLabel": "Nhấn để ra mắt The Freak Circus",
+    "iframeTitle": "Chơi The Freak Circus - Tiểu thuyết hình ảnh kinh dị tâm lý"
   },
   "home": {
-    "welcome": "Chào Mừng Đến Rạp Xiếc",
-    "subtitle": "Chơi visual novel kinh dị tâm lý trực tuyến miễn phí",
+    "welcome": "Chào mừng đến với rạp xiếc",
+    "subtitle": "Hướng dẫn không chính thức về tiểu thuyết hình ảnh kinh dị 18 của Garula",
     "aboutDivider": "Về Trò Chơi",
-    "whatIsTitle": "The Freak Circus Là Gì?",
-    "whatIsP1": "The Freak Circus là một <strong>visual novel kinh dị tâm lý</strong> được tạo bởi nhà phát triển độc lập Garula (Neko Bueno).",
-    "whatIsP2": "Bạn đến như một người lạ tại một rạp xiếc xa xôi. Điều bắt đầu như sự tò mò nhanh chóng trở thành vướng mắc.",
-    "featuresTitle": "Tính Năng Chính",
+    "whatIsTitle": "Rạp xiếc Freak là gì?",
+    "whatIsP1": "<strong> Rạp xiếc Freak Circus</strong> là một tiểu thuyết hình ảnh gồm 18 truyện của nhà sáng tạo độc lập Garula (Neko Bueno), được phát hành trên itch.io. Danh sách chính thức hiện tại mô tả nó là một nguyên mẫu và gắn thẻ là tiểu thuyết hình ảnh, kinh dị, lãng mạn, rùng rợn, rạng rỡ, rạp xiếc, quái vật, Ren'Py và yandere.",
+    "whatIsP2": "Đây là một hướng dẫn dành cho người hâm mộ không chính thức. Chúng tôi phân biệt thông tin do nhà phát triển xác nhận với cách hiểu của người hâm mộ, liên kết người đọc đến nhật ký phát triển gốc, và hướng dẫn người chơi đến itch.io để biết trò chơi được hỗ trợ bởi nhà phát triển, số lượt tải xuống và thông tin xây dựng hiện tại.",
+    "featuresTitle": "Các tính năng chính",
     "features": [
-      "Nhiều tuyến truyện với năm nhân vật có thể tán tỉnh",
-      "Cốt truyện phân nhánh với kết thúc tốt và xấu",
-      "Bầu không khí kinh dị Gothic với nghệ thuật gốc",
-      "Hỗ trợ tiếng Trung chính thức",
-      "Cập nhật nội dung thường xuyên",
-      "Chơi miễn phí trên trình duyệt và tải về"
+      "Danh sách itch.io chính thức hiện đang đánh dấu dự án là nguyên mẫu",
+      "18 thẻ kinh dị, lãng mạn, xiếc, quái vật và yandere trong danh sách chính thức",
+      "Các bản cập nhật do nhà phát triển xuất bản, thông báo dịch thuật và nhật ký phát triển sửa lỗi",
+      "Nhật ký phát triển chính thức liệt kê tiếng Anh, tiếng Bồ Đào Nha Brazil và tiếng Trung trong các ngôn ngữ trò chơi",
+      "Các tùy chọn trình duyệt và tải xuống do nhà phát triển hỗ trợ có sẵn từ trang itch.io chính thức"
     ],
-    "charactersTitle": "Nhân Vật",
-    "charactersP": "Năm nghệ sĩ định hình mỗi lần chơi: <a href=\"/vi/characters#pierrot\">Pierrot</a>...",
+    "charactersTitle": "Nhân vật",
+    "charactersP": "Năm diễn viên định hình mỗi lần chơi của The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">Người bán vé</a>, và <a href=\"/characters#doctor\">Bác sĩ</a>. Mỗi người có tuyến đường độc đáo, bộ kết thúc riêng và mối quan hệ với nhân vật chính.",
     "buttons": {
-      "walkthrough": "Xem Hướng Dẫn",
-      "characters": "Gặp Gỡ Nhân Vật"
+      "walkthrough": "Xem Hướng dẫn chuyển màn",
+      "characters": "Gặp gỡ Các Nhân vật"
     },
-    "tipsList": [
-      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
-      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
-      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
-      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play."
-    ],
+    "howToPlayTitle": "Cách chơi",
+    "howToPlayP1": "Đối với phiên bản được nhà phát triển hỗ trợ, hãy bắt đầu trên trang chính thức của itch.io. Đây là nơi đáng tin cậy để kiểm tra bản dựng mới nhất, nền tảng có sẵn, cảnh báo nội dung và các bản sửa lỗi. Trang web này không phân phối tệp tải trò chơi.",
+    "howToPlayP2": "Trước khi bắt đầu, hãy quyết định mức thông tin tiết lộ mà bạn muốn. Hãy lưu trữ riêng một bản trước khi chọn lựa mà bạn muốn quay lại, ghi lại bản dựng mà bạn đang sử dụng, và giữ bản lưu chơi lần đầu riêng biệt với các thử nghiệm.",
+    "howToPlayP3": "Hướng dẫn của chúng tôi phân biệt rõ ràng các thông tin từ nhà phát triển và các quan sát từ người hâm mộ. Nếu một biểu đồ lựa chọn không có phiên bản trò chơi, ảnh chụp màn hình hoặc nguồn, hãy coi nó là chưa được xác minh thay vì điều kiện tuyến đường được đảm bảo.",
+    "faqTitle": "Câu hỏi thường gặp",
     "faqItems": [
       {
-        "q": "Is The Freak Circus free to play?",
-        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it from the official itch.io page."
+        "q": "Trò chơi này có miễn phí không?",
+        "a": "Trang chính thức của itch.io liệt kê trò chơi là miễn phí với tùy chọn thanh toán. Sử dụng trang đó để chơi phiên bản trình duyệt được nhà phát triển hỗ trợ và tải xuống."
       },
       {
-        "q": "Do I need to download anything?",
-        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly."
+        "q": "Tôi có cần tải xuống gì không?",
+        "a": "Trang chính thức của itch.io là nguồn tốt nhất để hướng dẫn trình duyệt và tải xuống hiện tại. Trang web của người hâm mộ này không phân phối tệp trò chơi."
       },
       {
-        "q": "How long does The Freak Circus take to finish?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five routes and endings, expect 10 to 15 hours total."
+        "q": "Mất bao lâu để hoàn thành?",
+        "a": "Nhà phát triển không công bố ước tính thời gian hoàn thành cố định trên các nguồn được theo dõi ở đây. Tránh xem các ước tính của người hâm mộ là lời hứa chính thức."
       },
       {
-        "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+        "q": "Tôi có thể lưu tiến trình không?",
+        "a": "Trình phát trên trình duyệt bao gồm các điều khiển nhập và xuất lưu. Kiểm tra trang chính thức và ghi chú phiên bản hiện tại trước khi di chuyển file lưu giữa các phiên bản hoặc thiết bị."
       },
       {
-        "q": "What makes The Freak Circus unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+        "q": "Điều gì làm cho tiểu thuyết hình ảnh này trở nên độc đáo?",
+        "a": "Nó nổi bật với bầu không khí kinh dị tâm lý gothic, các nhân vật phức tạp về mặt đạo đức, và cốt truyện phân nhánh sâu nơi mỗi lựa chọn đều có trọng lượng thực sự. Nghệ thuật vẽ tay và nhạc nền ám ảnh tạo ra trải nghiệm nhập vai không giống với các tiểu thuyết hình ảnh thông thường."
       },
       {
-        "q": "Will progress carry over between devices?",
-        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+        "q": "Tiến trình có được chuyển giữa các thiết bị không?",
+        "a": "Các file lưu được lưu trữ cục bộ trên trình duyệt của bạn. Tải trò chơi từ itch.io để chuyển file lưu giữa các thiết bị."
       },
       {
-        "q": "Is The Freak Circus suitable for all ages?",
-        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+        "q": "Có phù hợp với mọi lứa tuổi không?",
+        "a": "Không. Trò chơi được xếp hạng 18+ và chứa kinh dị tâm lý, các mối quan hệ chiếm hữu, lãng mạn đen tối, và các chủ đề người lớn."
       },
       {
-        "q": "What is the difference between routes?",
-        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+        "q": "Sự khác biệt giữa các tuyến đường là gì?",
+        "a": "Mỗi tuyến đường mang đến một góc nhìn hoàn toàn khác về câu chuyện. Pierrot tập trung vào sự phụ thuộc tâm lý và kiểm soát cảm xúc. Harlequin khám phá sự hỗn loạn và biểu diễn. Jester xem xét đạo đức trong giải trí. Người Bán Vé tiết lộ những điều bí ẩn sâu nhất về chính rạp xiếc. Bác Sĩ chứa đựng nội dung thân mật và gây ám ảnh nhất."
       },
       {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+        "q": "Tôi có thể chơi trên điện thoại di động không?",
+        "a": "Nó chạy trên hầu hết các trình duyệt di động hiện đại, mặc dù được tối ưu hóa cho máy tính để bàn và máy tính bảng để có trải nghiệm tốt nhất."
       }
     ],
-    "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch it directly on this page. This visual novel uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
-    "howToPlayP2": "Each playthrough of The Freak Circus takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead toward one or two of these characters based on the choices you make early in the story.",
-    "howToPlayP3": "New players of The Freak Circus should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
-    "faqTitle": "The Freak Circus FAQ",
-    "storyTitle": "The Freak Circus Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history.",
-    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
-    "tipsTitle": "Tips for Playing The Freak Circus",
-    "whyPlayTitle": "Why Play The Freak Circus?",
-    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets this visual novel apart from typical anime-style titles. Combined with a branching narrative system that tracks over a dozen variables per playthrough, it delivers a different experience every time you play.",
-    "storyP3": "The circus itself is a character in its own right. The tents shift positions between visits, the carnival games seem to know your thoughts, and the performers remember conversations you never had. By the time you realize the circus is alive, it may already be too late to leave.",
-    "gameplayP": "Gameplay centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others are deceptively simple — a single word can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even seemingly minor interactions can cascade into major consequences later. The save system lets you revisit key decision points, making it easy to explore alternative paths without restarting from scratch. Each choice matters, and no two playthroughs ever feel quite the same."
+    "storyTitle": "Câu chuyện & Bối cảnh",
+    "storyP1": "Rạp Xiếc Kỳ Lạ bắt đầu khi bạn tình cờ gặp một rạp xiếc lưu động. Bị cuốn hút bởi một lực kéo không giải thích được, bạn bước qua cổng vào một thế giới nơi thực tại bị uốn cong. Mỗi nghệ sĩ mang đến một góc nhìn khác về lịch sử bí mật của rạp xiếc — Pierrot khóc trong các màn biểu diễn nhưng chứng kiến tất cả.",
+    "storyP2": "Khi đêm buông xuống, các mặt nạ bắt đầu trượt. Bạn phải đối mặt với những sự thật khó chịu về ham muốn, sự kiểm soát, và những câu chuyện mà chúng ta tự kể cho chính mình. Kết thúc có thể từ dịu dàng đến kinh hoàng, và trò chơi không phán xét bất kỳ con đường nào bạn chọn. Bầu không khí thay đổi theo ngày và đêm, với mỗi phần tiết lộ cảm giác và bí mật khác nhau.",
+    "tipsTitle": "Mẹo khi chơi",
+    "tipsList": [
+      "Hãy dành thời gian đọc kỹ từng cảnh. Những chi tiết nhỏ thường trở nên quan trọng sau này trong câu chuyện.",
+      "Không nên tải lại bản lưu trong lần chơi đầu tiên. Các quyết định tự nhiên của bạn dẫn đến trải nghiệm ý nghĩa nhất.",
+      "Chơi ít nhất hai lần — lần chơi thứ hai sẽ tiết lộ đối thoại và cảnh bạn bỏ lỡ lần đầu.",
+      "Chú ý đặc biệt đến Người Bán Vé. Anh ấy nói nhiều hơn những gì thoạt nhìn có vẻ nói trong suốt câu chuyện.",
+      "Mỗi tuyến nhân vật có một Kết Thúc Tốt và ít nhất một Kết Thúc Xấu. Điều kiện cụ thể — hãy tham khảo hướng dẫn sau lần chơi đầu tiên.",
+      "Sử dụng hệ thống lưu tại các điểm quyết định quan trọng để khám phá các con đường khác mà không mất tiến trình."
+    ],
+    "whyPlayTitle": "Tại sao nên chơi?",
+    "whyPlayText": "Hướng dẫn này được thiết kế để hữu ích sau một bản cập nhật: nó giữ lại các liên kết nguồn chính thức, ghi ngày tháng cho mọi tóm tắt biên tập và tránh biến tin đồn cộng đồng thành ngày phát hành, kết thúc hoặc yêu cầu tuyến đường.",
+    "storyP3": "Chính rạp xiếc là một nhân vật. Lều rạp thay đổi vị trí giữa các lần ghé thăm, các trò chơi hội chợ dường như biết suy nghĩ của bạn, và các nghệ sĩ nhớ những cuộc trò chuyện mà bạn chưa từng có. Trải nghiệm này kéo dài lâu sau khi bạn kết thúc, mời bạn quay lại khám phá những con đường bạn chưa đi.",
+    "gameplayP": "Lối chơi tập trung vào các lựa chọn hội thoại trong suốt mỗi ngày. Một số lựa chọn được tính thời gian, tạo thêm căng thẳng cho các cuộc trò chuyện. Một số khác thì đơn giản nhưng có thể chuyển hướng toàn bộ tuyến truyện của nhân vật. Trò chơi theo dõi các cấp độ thân thiết với từng nhân vật, các cờ ẩn cho nhánh câu chuyện, và các lựa chọn tích lũy ảnh hưởng đến kết thúc cuối cùng. Ngay cả những tương tác nhỏ cũng có thể dẫn đến hậu quả lớn sau này."
   },
   "about": {
     "title": "Về The Freak Circus",
-    "subtitle": "Everything you need to know about the game and this site.",
-    "gameSection": "Trò Chơi",
-    "gameP1": "The Freak Circus is a dark psychological horror visual novel developed by the independent creator Garula (Neko Bueno). It is published on itch.io and has accumulated a dedicated international fanbase through word-of-mouth across platforms including TikTok, Tumblr, and Reddit.",
-    "gameP2": "The game follows an unnamed protagonist who visits a mysterious, isolated circus and becomes entangled with five dangerous performers. The narrative unfolds across multiple days, with player choices determining character routes and endings.",
-    "siteSection": "Trang Này",
-    "siteP1": "thefreakcircus.help is an unofficial fan resource offering the game embed, character guides, walkthroughs, and articles. We embed the game via the official CDN and do not host, redistribute, or modify any game files.",
-    "siteP2": "To support the developer directly, visit the <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
-    "faqDivider": "Câu Hỏi Thường Gặp",
+    "subtitle": "Tất cả những gì bạn cần biết về trò chơi và trang web này.",
+    "gameSection": "Trò chơi",
+    "gameP1": "Rạp Xiếc Quái Dị là một tiểu thuyết hình ảnh kinh dị tâm lý đen tối được phát triển bởi nhà sáng tạo độc lập Garula (Neko Bueno). Nó được xuất bản trên itch.io và đã xây dựng được một lượng fan quốc tế trung thành thông qua truyền miệng trên các nền tảng như TikTok, Tumblr và Reddit.",
+    "gameP2": "Trò chơi theo chân một nhân vật chính không tên đến thăm một rạp xiếc bí ẩn, biệt lập và bị cuốn vào năm nghệ sĩ nguy hiểm. Câu chuyện diễn ra qua nhiều ngày, với các lựa chọn của người chơi quyết định tuyến đường và kết thúc của nhân vật.",
+    "siteSection": "Trang web này",
+    "siteP1": "thefreakcircus.help là một tài nguyên dành cho người hâm mộ không chính thức với các hướng dẫn nhân vật, tóm tắt cập nhật và bài viết. Một trình phát tùy chọn trên trang được phục vụ bởi một máy chủ bên thứ ba; chúng tôi không khẳng định rằng máy chủ là chính thức, do nhà phát triển vận hành hoặc được Garula xác nhận. Chúng tôi không phân phối các bản tải về game.",
+    "siteP2": "Để hỗ trợ nhà phát triển trực tiếp, hãy truy cập trang itch.io chính thức của <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">, </a>.",
+    "faqDivider": "Câu hỏi thường gặp",
     "faq": [
       {
-        "q": "Who made The Freak Circus?",
-        "a": "The Freak Circus was created by Garula, also known as Neko Bueno. It is an independent project published on itch.io."
+        "q": "Ai đã làm ra The Freak Circus?",
+        "a": "Rạp xiếc Freak được tạo ra bởi Garula, còn được biết đến với tên Neko Bueno. Đây là một dự án độc lập được xuất bản trên itch.io."
       },
       {
-        "q": "Is The Freak Circus free?",
-        "a": "Yes. The base game is free to play in browser and free to download. The developer offers optional Patreon tiers for early access to new content."
+        "q": "The Freak Circus có miễn phí không?",
+        "a": "Đúng vậy. Trò chơi gốc miễn phí để chơi trên trình duyệt và miễn phí tải về. Nhà phát triển cung cấp các gói Patreon tùy chọn để truy cập sớm nội dung mới."
       },
       {
-        "q": "Is this site official?",
-        "a": "No. thefreakcircus.help is an unofficial fan site. We are not affiliated with Garula or Neko Bueno. All game assets belong to the original creator."
+        "q": "Trang web này có chính thức không?",
+        "a": "Không. thefreakcircus.help là một trang web người hâm mộ không chính thức. Chúng tôi không liên kết với Garula hay Neko Bueno. Tất cả tài sản trò chơi đều thuộc về người sáng tạo gốc."
       },
       {
-        "q": "What content warnings does the game have?",
-        "a": "The Freak Circus is rated 18+ and contains psychological horror themes, possessive and controlling relationship dynamics, dark romance, and mature content. Please review the official itch.io page for the full content warning list."
+        "q": "Trò chơi có những cảnh báo nội dung nào?",
+        "a": "The Freak Circus được xếp hạng 18 và chứa các chủ đề kinh dị tâm lý, mối quan hệ chiếm hữu và kiểm soát, tình yêu đen tối và nội dung trưởng thành. Vui lòng xem lại trang itch.io chính thức để xem đầy đủ danh sách cảnh báo nội dung."
       },
       {
-        "q": "How do I download the game?",
-        "a": "Download links for Windows, macOS, and Linux are available on the official itch.io page. You can also play the browser version embedded on the homepage of this site."
+        "q": "Làm thế nào để tôi tải trò chơi?",
+        "a": "Các liên kết tải về cho Windows, macOS và Linux có sẵn trên trang itch.io chính thức. Bạn cũng có thể chơi phiên bản trình duyệt được nhúng trên trang chủ của trang web này."
       },
       {
-        "q": "Does the game support Chinese?",
-        "a": "Yes. The Freak Circus includes official Simplified Chinese language support."
+        "q": "Trò chơi có hỗ trợ tiếng Trung không?",
+        "a": "Đúng vậy. The Freak Circus bao gồm hỗ trợ tiếng Trung giản thể chính thức."
       }
     ],
-    "triviaTitle": "Character Trivia & Fun Facts",
+    "triviaTitle": "Thông tin thú vị & sự thú vị về nhân vật",
     "trivia": [
       {
-        "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot official height has not been disclosed by the developer. Fan estimates based on in-game sprite comparisons suggest he is of average to tall build. Check the <a href=\"/en/characters/pierrot\">Pierrot character page</a> for more details."
+        "q": "Pierrot trong The Freak Circus cao bao nhiêu?",
+        "a": "Chiều cao chính thức của Pierrot chưa được nhà phát triển tiết lộ. Ước tính của fan dựa trên so sánh sprite trong game cho thấy anh ấy có vóc dáng trung bình đến cao. Kiểm tra trang ký tự <a href=\"/en/characters/pierrot\">Pierrot</a> để biết thêm chi tiết."
       },
       {
-        "q": "Is Pierrot a yandere type?",
-        "a": "Pierrot is frequently categorized by fans as a 'silent yandere' — his possessiveness develops gradually rather than manifesting immediately. His route explores themes of obsession and emotional control. Visit the <a href=\"/en/characters/pierrot\">Pierrot route guide</a> for more insight."
+        "q": "Pierrot có phải là kiểu yandere không?",
+        "a": "Pierrot thường được người hâm mộ phân loại là 'yandere thầm lặng' — tính chiếm hữu của anh phát triển dần dần chứ không thể hiện ngay lập tức. Tuyến truyện của anh khám phá các chủ đề về ám ảnh và kiểm soát cảm xúc. Hãy truy cập hướng dẫn lộ trình <a href=\"/en/characters/pierrot\">Pierrot </a> để biết thêm thông tin."
       },
       {
-        "q": "What is Harlequin relationship with Pierrot?",
-        "a": "Harlequin and Pierrot share one of the most complex dynamics in The Freak Circus. Their relationship is part rivalry, part codependence, with their shared history involving Columbina. This backstory is revealed differently depending on which route you play."
+        "q": "Mối quan hệ giữa Harlequin và Pierrot là gì?",
+        "a": "Harlequin và Pierrot chia sẻ một trong những mối quan hệ phức tạp nhất trong The Freak Circus. Mối quan hệ của họ vừa ganh đua, vừa phụ thuộc lẫn nhau, với lịch sử chung liên quan đến Columbina. Câu chuyện nền này được tiết lộ khác nhau tùy theo tuyến đường bạn chơi."
       },
       {
-        "q": "What happened to Columbina in The Freak Circus?",
-        "a": "Columbina backstory is deliberately kept ambiguous and is revealed in fragments through Pierrot and Harlequin routes. She appears only in flashback sequences and is central to understanding the circus hidden history. Read the <a href=\"/en/characters/columbina\">Columbina lore page</a> for what is known."
+        "q": "Chuyện gì đã xảy ra với Columbina trong The Freak Circus?",
+        "a": "Quá khứ của Columbina được cố ý giữ mơ hồ và được tiết lộ qua các đoạn Pierrot và Harlequin. Cô chỉ xuất hiện trong các đoạn hồi tưởng và đóng vai trò trung tâm trong việc hiểu về lịch sử ẩn giấu của rạp xiếc. Đọc trang lore <a href=\"/en/characters/columbina\">Columbina </a> để biết những gì đã biết."
       },
       {
-        "q": "Can you romance the Ticket Taker?",
-        "a": "Yes. The Ticket Taker has a romanceable route in The Freak Circus. His route requires persistence and careful attention to dialogue. He reveals the deepest lore about the circus origins. See the <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> for tips."
+        "q": "Bạn có thể tán tỉnh The Ticket Taker không?",
+        "a": "Đúng vậy. The Ticket Taker có một tuyến truyện có thể lãng mạn trong The Freak Circus. Con đường của ông đòi hỏi sự kiên trì và chú ý kỹ lưỡng đến đối thoại. Ông tiết lộ những truyền thuyết sâu sắc nhất về nguồn gốc của rạp xiếc. Xem hướng dẫn tuyến <a href=\"/en/characters/ticket-taker\">Ticket Taker </a> để biết mẹo."
       },
       {
-        "q": "Does The Doctor have a good ending?",
-        "a": "Yes, the Doctor route has at least one Good Ending. The Doctor route has been expanded with additional content. Accept his examination scenes and make specific dialogue choices to unlock the Clean Hands ending. See the <a href=\"/en/characters/the-doctor\">Doctor character page</a> for details."
+        "q": "The Doctor có kết thúc tốt không?",
+        "a": "Đúng vậy, tuyến Doctor có ít nhất một Kết thúc Tốt. Tuyến Doctor đã được mở rộng với nội dung bổ sung. Chấp nhận các cảnh kiểm tra của anh ta và đưa ra các lựa chọn đối thoại cụ thể để mở khóa kết thúc Clean Hands. Xem trang ký tự <a href=\"/en/characters/the-doctor\">Doctor</a> để biết chi tiết."
       }
     ]
   },
   "characters": {
-    "pageTitle": "The Performers",
-    "title": "Characters of The Freak Circus",
-    "subtitle": "Five extraordinary performers. Five routes. One fate.",
-    "routeTip": "Route Tip",
+    "pageTitle": "Các nghệ sĩ biểu diễn",
+    "title": "Các nhân vật của The Freak Circus",
+    "subtitle": "Năm nghệ sĩ xuất sắc. Năm tuyến đường. Một số phận.",
+    "routeTip": "Mẹo tuyến đường",
     "list": [
       {
         "id": "pierrot",
         "name": "Pierrot",
-        "role": "The Weeping Clown",
-        "description": "Controlled, melancholic, and intensely perceptive. Pierrot is the emotional anchor of the circus, performing sorrow for crowds who laugh at his tears. His route is the most psychologically demanding and offers the most lore about the circus's true nature.",
+        "role": "Chú Hề Khóc",
+        "description": "Kiểm soát, u sầu và cực kỳ nhạy bén. Pierrot là điểm tựa cảm xúc của rạp xiếc, biểu diễn nỗi buồn cho đám đông cười trước những giọt nước mắt của anh. Tuyến đường của anh là đòi hỏi tâm lý cao nhất và cung cấp nhiều truyền thuyết nhất về bản chất thật sự của rạp xiếc.",
         "traits": [
-          "Melancholic",
-          "Possessive",
-          "Poetic",
-          "Dangerous"
+          "u sầu",
+          "thuộc sở hữu",
+          "Thơ mộng",
+          "Nguy hiểm"
         ],
-        "routeTip": "Choose introspective and empathetic dialogue in Day 1. Avoid defiance in Day 2 to unlock the Good Ending."
+        "routeTip": "Chọn đối thoại suy tư và đồng cảm vào Ngày 1. Tránh thái độ chống đối vào Ngày 2 để mở khóa Kết Thúc Tốt."
       },
       {
         "id": "harlequin",
         "name": "Harlequin",
-        "role": "The Chaotic Performer",
-        "description": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. His relationship with Pierrot is one of the game's central dynamics.",
+        "role": "Người Biểu Diễn Hỗn Loạn",
+        "description": "Không thể đoán trước và mang tính sân khấu, Harlequin che giấu một quá khứ đầy biến động phía sau màn trình diễn luôn thay đổi. Mối quan hệ của anh với Pierrot là một trong những động lực trung tâm của trò chơi.",
         "traits": [
-          "Volatile",
-          "Charming",
-          "Protective",
-          "Layered"
+          "Dễ biến đổi",
+          "Lôi cuốn",
+          "Bảo vệ",
+          "Nhiều lớp"
         ],
-        "routeTip": "Select the red balloon in Day 1. Use bold, playful responses during tent encounters."
+        "routeTip": "Chọn quả bóng màu đỏ vào Ngày 1. Sử dụng phản ứng dũng cảm, vui tươi trong các cuộc gặp gỡ tại rạp xiếc."
       },
       {
         "id": "jester",
         "name": "Jester",
-        "role": "The Trickster",
-        "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. His route explores the ethics of entertainment and what it means to make others laugh.",
+        "role": "Kẻ Lừa Gạt",
+        "description": "Jester tồn tại giữa các người biểu diễn khác, không hoàn toàn trung thành cũng không hoàn toàn đối kháng. Lộ trình của anh khám phá đạo đức của việc giải trí và ý nghĩa của việc làm người khác cười.",
         "traits": [
-          "Ambiguous",
-          "Quick-witted",
-          "Lonely",
-          "Calculating"
+          "Mơ hồ",
+          "Nhanh trí",
+          "Cô đơn",
+          "Tính toán"
         ],
-        "routeTip": "Jester's route unlocks in Day 2. Respond with humor but avoid direct confrontation."
+        "routeTip": "Lộ trình của Jester mở vào Ngày 2. Hãy trả lời bằng sự hài hước nhưng tránh đối đầu trực tiếp."
       },
       {
         "id": "ticket-taker",
-        "name": "Ticket Taker",
-        "role": "The Gatekeeper",
-        "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize.",
+        "name": "Người Soát Vé",
+        "role": "Người Gác Cổng",
+        "description": "Nhân vật đầu tiên bạn gặp. Người Soát Vé kiểm soát ai được vào và ai phải ra, và đã theo dõi mọi việc tại rạp xiếc này lâu hơn mọi người nghĩ.",
         "traits": [
-          "Observant",
-          "Cryptic",
-          "Stern",
-          "Ancient"
+          "Quan sát",
+          "Ẩn ý",
+          "Nghiêm khắc",
+          "Cổ xưa"
         ],
-        "routeTip": "Engage directly with every question the Ticket Taker asks. His route requires persistence."
+        "routeTip": "Trả lời trực tiếp mọi câu hỏi của Người Soát Vé. Lộ trình của ông yêu cầu sự kiên trì."
       },
       {
         "id": "doctor",
-        "name": "Doctor",
-        "role": "The Surgeon of Secrets",
-        "description": "The Doctor's route is the most recently expanded and contains some of the game's darkest content. He is methodical, intimate, and deeply unsettling.",
+        "name": "Bác Sĩ",
+        "role": "Người Phẫu Thuật Bí Ẩn",
+        "description": "Lộ trình của Bác Sĩ là phần mới được mở rộng nhất và chứa một số nội dung tối nhất trong trò chơi. Ông tỉ mỉ, gần gũi và khiến người ta sâu sắc chấn động.",
         "traits": [
-          "Clinical",
-          "Intimate",
-          "Controlling",
-          "Complex"
+          "Lâm sàng",
+          "Gần gũi",
+          "Kiểm soát",
+          "Phức tạp"
         ],
-        "routeTip": "The Doctor's content is largely contained to Day 2. Accept his examination scenes to progress his route."
+        "routeTip": "Nội dung của Bác Sĩ chủ yếu diễn ra vào Ngày 2. Chấp nhận các cảnh khám của ông để tiến triển lộ trình."
       }
     ],
     "pierrot": {
       "meta": {
-        "title": "Pierrot - The Freak Circus Character Guide",
-        "desc": "Meet Pierrot the Weeping Clown from The Freak Circus. Learn about his yandere-type personality, route guide, fanart, and role in the story."
+        "title": "Pierrot - Hướng Dẫn Nhân Vật Rạp Xiếc Kỳ Quặc",
+        "desc": "Gặp Pierrot, Chú Hề Khóc ở Rạp Xiếc Kỳ Quặc. Tìm hiểu về tính cách kiểu yandere, hướng dẫn lộ trình, fanart, và vai trò của cậu trong câu chuyện."
       },
-      "role": "The Weeping Clown",
-      "appearance": "Pierrot has a lean, androgynous build with pale skin and dark hollowed eyes. He wears a classic white clown costume with black diamond accents and a single tear painted beneath his left eye. His official height has not been disclosed. He is often depicted holding a wilted flower or a broken mirror.",
+      "role": "Chú Hề Khóc",
+      "appearance": "Pierrot có vóc dáng mảnh mai, thể hiện giới tính trung tính với làn da trắng và đôi mắt trũng tối. Cậu mặc bộ trang phục chú hề trắng cổ điển với các hoa văn kim cương màu đen và một giọt nước mắt vẽ dưới mắt trái. Chiều cao chính thức chưa được công bố. Cậu thường được mô tả cầm một đóa hoa héo hoặc một tấm gương vỡ.",
       "traits": [
-        "Melancholic",
-        "Possessive",
-        "Poetic",
-        "Dangerous",
-        "Yandere-type"
+        "Buồn bã",
+        "Chiếm hữu",
+        "Thơ mộng",
+        "Nguy hiểm",
+        "Kiểu yandere"
       ],
-      "personality": "Pierrot is controlled, melancholic, and intensely perceptive. He performs sorrow for crowds who laugh at his tears, but behind the performance lies a deeply possessive and dangerous personality. Fans often categorize him as a 'silent yandere' type — his affection turns obsessive gradually, making his route one of the most psychologically intense in the game.",
-      "routeDesc": "Pierrot's route is the most psychologically demanding in the game. To pursue his route, choose introspective and empathetic dialogue options during Day 1 carnival encounters. Follow the white cloak during the tent scene. During Day 2, prioritize understanding over resistance to unlock the Good Ending. Pierrot's route reveals the deepest lore about the circus history and his relationship with Columbina.",
+      "personality": "Pierrot kiểm soát, u sầu và rất nhạy bén. Anh biểu diễn nỗi buồn trước đám đông cười trước những giọt nước mắt của anh, nhưng đằng sau màn trình diễn là một tính cách chiếm hữu sâu sắc và nguy hiểm. Người hâm mộ thường xếp anh vào loại 'yandere thầm lặng' — tình cảm của anh dần trở nên ám ảnh, khiến tuyến đường của anh trở thành một trong những hành trình tâm lý căng thẳng nhất trong game.",
+      "routeDesc": "Tuyến đường của Pierrot là đòi hỏi tâm lý cao nhất trong game. Để theo đuổi con đường của mình, hãy chọn các lựa chọn đối thoại nội tâm và đồng cảm trong các cuộc gặp gỡ lễ hội ngày đầu tiên. Theo dõi chiếc áo choàng trắng trong cảnh lều. Trong Ngày 2, ưu tiên hiểu biết hơn là kháng cự để mở khóa Kết Thúc Tốt Lành. Tuyến đường của Pierrot tiết lộ những truyền thuyết sâu sắc nhất về lịch sử rạp xiếc và mối quan hệ của ông với Columbina.",
       "fanSections": [
-        "Weeping Clown portrait",
-        "Pierrot and Harlequin confrontation scene",
-        "Pierrot route CG from Day 2"
+        "Chân dung chú hề khóc",
+        "Cảnh đối đầu giữa Pierrot và Harlequin",
+        "Tuyến đường Pierrot CG từ ngày thứ 2"
       ],
       "reviews": [
-        "Pierrot's route stayed with me for days. The writing makes you feel genuinely torn between wanting to save him and needing to escape him.",
-        "The psychological tension in Pierrot's route is unmatched. The voice acting for his breakdown scene is incredible.",
-        "I went into this game expecting a simple romance and came out emotionally devastated by Pierrot's storyline."
+        "Tuyến đường của Pierrot ám ảnh tôi suốt nhiều ngày. Cách viết khiến bạn thực sự cảm thấy giằng xé giữa việc muốn cứu anh và cần phải thoát khỏi anh.",
+        "Sự căng thẳng tâm lý trong tuyến truyện của Pierrot là vô song. Diễn xuất lồng tiếng cho cảnh suy sụp của anh ấy thật tuyệt vời.",
+        "Tôi bước vào trò chơi này với mong đợi một chuyện tình đơn giản nhưng lại bị tổn thương cảm xúc bởi cốt truyện của Pierrot."
       ]
     },
     "harlequin": {
       "meta": {
-        "title": "Harlequin - The Freak Circus Character Guide",
-        "desc": "Meet Harlequin the Chaotic Performer from The Freak Circus. Learn about his volatile personality, route tips, and role in the story."
+        "title": "Harlequin - Hướng Dẫn Nhân Vật Rạp Xiếc Quái Dị",
+        "desc": "Gặp gỡ Harlequin, Nghệ sĩ Hỗn loạn trong The Freak Circus. Tìm hiểu về tính cách nóng nảy, các mẹo về tuyến đường và vai trò của anh ấy trong câu chuyện."
       },
-      "role": "The Chaotic Performer",
-      "appearance": "Harlequin has a tall, athletic build with sharp facial features and wild, two-toned hair. His costume is a traditional diamond-patterned harlequin suit in red and gold, complete with a half-mask that he wears at an angle. His official height has not been disclosed by the developer.",
+      "role": "Người Biểu Diễn Hỗn Loạn",
+      "appearance": "Harlequin có thân hình cao, khỏe mạnh với những đường nét khuôn mặt sắc nét và mái tóc hai tông rối bù. Trang phục của anh là bộ đồ harlequin truyền thống họa tiết kim cương màu đỏ và vàng, kèm theo một nửa mặt nạ mà anh đeo nghiêng. Chiều cao chính thức của ông chưa được nhà phát triển tiết lộ.",
       "traits": [
-        "Volatile",
-        "Charming",
-        "Protective",
-        "Layered",
-        "Chaotic-neutral"
+        "dễ biến động",
+        "duyên dáng",
+        "bảo vệ",
+        "có nhiều lớp",
+        "Hỗn loạn-trung lập"
       ],
-      "personality": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. One moment he is playful and flirtatious, the next he is dangerous and unreadable. His relationship with Pierrot is one of the most complex dynamics in The Freak Circus — part rivalry, part codependence.",
-      "routeDesc": "Harlequin's route rewards bold choices. Select the red balloon during the Day 1 carnival opening. Use playful, daring responses during main tent encounters. His route escalates quickly during Day 2 — embrace the chaos rather than resist it. Harlequin's route explores themes of performance, identity, and the cost of wearing a mask.",
+      "personality": "Khó đoán và mang tính sân khấu, Harlequin che giấu một quá khứ đầy biến động phía sau một màn trình diễn luôn thay đổi. Lúc thì anh ấy nghịch ngợm và tán tỉnh, lúc khác lại nguy hiểm và khó đoán. Mối quan hệ của anh với Pierrot là một trong những mối quan hệ phức tạp nhất trong The Freak Circus — một phần là ganh đua, một phần là sự phụ thuộc lẫn nhau.",
+      "routeDesc": "Tuyến đường của Harlequin thưởng cho những lựa chọn táo bạo. Chọn quả bóng bay đỏ trong buổi khai mạc ngày đầu tiên của lễ hội. Hãy sử dụng những câu trả lời vui tươi, táo bạo trong các cuộc chạm trán lều chính. Lộ trình của anh ấy tăng tốc nhanh chóng trong Ngày 2 — hãy đón nhận sự hỗn loạn thay vì chống lại nó. Tuyến truyện của Harlequin khám phá các chủ đề về biểu diễn, bản sắc và cái giá của việc đeo mặt nạ.",
       "fanSections": [
-        "Harlequin performance CG",
-        "Harlequin and Pierrot tension scene",
-        "Harlequin route key art"
+        "Màn trình diễn Harlequin CG",
+        "Cảnh căng thẳng giữa Harlequin và Pierrot",
+        "Hình ảnh chìa khóa tuyến đường Harlequin"
       ],
       "reviews": [
-        "Harlequin is the kind of character you hate to love. His route made me genuinely uncomfortable in the best way.",
-        "The chaos energy of Harlequin is off the charts. Every scene with him keeps you guessing.",
-        "His backstory reveal in Day 2 completely changed how I saw his character. The writing is superb."
+        "Harlequin là kiểu nhân vật mà bạn ghét phải yêu. Tuyến đường của anh ấy khiến tôi thực sự cảm thấy khó chịu theo cách tuyệt vời nhất.",
+        "Năng lượng hỗn loạn của Harlequin vượt ngoài tầm nhìn. Mỗi cảnh với anh ấy đều khiến bạn phải đoán già.",
+        "Việc tiết lộ quá khứ của anh ấy ở Ngày 2 đã hoàn toàn thay đổi cách tôi nhìn nhận về nhân vật của anh ấy. Kịch bản rất xuất sắc."
       ]
     },
     "jester": {
       "meta": {
-        "title": "Jester - The Freak Circus Character Guide",
-        "desc": "Meet Jester the Trickster from The Freak Circus. Learn about his ambiguous personality, route guide, and role in the story."
+        "title": "Jester - Hướng dẫn nhân vật của The Freak Circus",
+        "desc": "Gặp gỡ Jester the Trickster từ The Freak Circus. Tìm hiểu về tính cách mơ hồ, hướng dẫn tuyến đường và vai trò của anh ấy trong câu chuyện."
       },
-      "role": "The Trickster",
-      "appearance": "Jester has a smaller, agile build with wide, expressive eyes and a permanent smirk. His costume is a multi-colored jester outfit with bells on the pointed collar and curled shoes. His official height and age have not been disclosed.",
+      "role": "Kẻ Lừa Đảo",
+      "appearance": "Jester có thân hình nhỏ nhắn, nhanh nhẹn với đôi mắt to biểu cảm và nụ cười nhếch mép thường trực. Trang phục của anh là một bộ đồ chú hề nhiều màu sắc với chuông trên cổ nhọn và giày cong. Chiều cao và tuổi chính thức của ông chưa được tiết lộ.",
       "traits": [
-        "Ambiguous",
-        "Quick-witted",
-        "Lonely",
-        "Calculating",
-        "Trickster archetype"
+        "mơ hồ",
+        "nhanh trí",
+        "cô đơn",
+        "đang tính toán",
+        "Nguyên mẫu kẻ lừa đảo"
       ],
-      "personality": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He plays tricks on everyone but never reveals his own hand. His ambiguous alignment makes him one of the most unpredictable characters in The Freak Circus — you never know if he is helping you or setting you up.",
-      "routeDesc": "Jester's route is unlocked during Day 2. Respond with humor and wit, but avoid direct confrontation. Jester respects cleverness over brute honesty. His route explores the ethics of entertainment and what it means to make others laugh while hiding your own pain.",
+      "personality": "Jester tồn tại giữa các nghệ sĩ khác, không hoàn toàn trung thành cũng không hoàn toàn đối kháng. Anh ta chơi khăm mọi người nhưng không bao giờ tiết lộ bài của mình. Sự định hướng mơ hồ của anh ta khiến anh ta trở thành một trong những nhân vật khó đoán nhất trong The Freak Circus — bạn không bao giờ biết anh ta đang giúp bạn hay đang gài bẫy bạn.",
+      "routeDesc": "Lộ trình của Jester được mở khóa trong Ngày 2. Đáp lại bằng sự hài hước và dí dỏm, nhưng tránh đối đầu trực tiếp. Jester tôn trọng sự thông minh hơn là sự trung thực thô bạo. Tuyến truyện của anh khám phá đạo đức của giải trí và ý nghĩa của việc làm người khác cười trong khi che giấu nỗi đau của chính mình.",
       "fanSections": [
-        "Jester trickster pose CG",
-        "Jester and protagonist dialogue scene",
-        "Jester route mood art"
+        "Tư thế lừa đảo của chú hề CG",
+        "Cảnh đối thoại giữa chú hề và nhân vật chính",
+        "Nghệ thuật tâm trạng tuyến đường của chú hề"
       ],
       "reviews": [
-        "Jester quickly became my favorite. His humor hides so much pain and the route reveals it beautifully.",
-        "The Jester route has the best writing for comedic timing. Some lines genuinely made me laugh out loud.",
-        "His route twist in the second act caught me completely off guard. Do not underestimate him."
+        "Jester nhanh chóng trở thành yêu thích của tôi. Sự hài hước của anh che giấu rất nhiều nỗi đau và tuyến đường đã bộc lộ điều đó một cách tuyệt đẹp.",
+        "Tuyến Jester có cách viết hài hước nhất về nhịp điệu. Một số câu thoại thực sự khiến tôi bật cười thành tiếng.",
+        "Cú twist tuyến truyện của anh ấy ở hồi hai khiến tôi hoàn toàn bất ngờ. Đừng đánh giá thấp anh ấy."
       ]
     },
     "doctor": {
       "meta": {
-        "title": "The Doctor - The Freak Circus Character Guide",
-        "desc": "Meet the Doctor, the Surgeon of Secrets from The Freak Circus. Learn about his clinical personality, route guide, and role in the story."
+        "title": "Hướng dẫn nhân vật The Doctor - The Freak Circus",
+        "desc": "Gặp gỡ Bác sĩ, Bác sĩ Phẫu thuật của Bí mật trong The Freak Circus. Tìm hiểu về tính cách lâm sàng, hướng dẫn tuyến đường và vai trò của anh ấy trong câu chuyện."
       },
-      "role": "The Surgeon of Secrets",
-      "appearance": "The Doctor is tall and composed, with sharp features and cold, analytical eyes. He wears a vintage medical coat stained with what appears to be old blood, layered over a formal waistcoat. His official height has not been disclosed. He carries a leather doctor bag that never leaves his side.",
+      "role": "Bác sĩ Bí mật",
+      "appearance": "Bác sĩ cao ráo, điềm tĩnh, với những đường nét sắc sảo và đôi mắt lạnh lùng, phân tích. Anh mặc một chiếc áo khoác y tế cổ điển dính vết máu cũ, khoác bên ngoài áo ghi lê trang trọng. Chiều cao chính thức của ông chưa được tiết lộ. Anh mang theo một chiếc túi da bác sĩ không bao giờ rời khỏi bên mình.",
       "traits": [
-        "Clinical",
-        "Intimate",
-        "Controlling",
-        "Complex",
-        "Sadistic streak"
+        "Lâm sàng",
+        "thân mật",
+        "Điều khiển",
+        "Phức hợp",
+        "Tính cách tàn bạo"
       ],
-      "personality": "The Doctor is methodical, intimate, and deeply unsettling. He approaches every interaction as if conducting an examination — clinical in speech, unnerving in touch. His route contains some of the darkest content in The Freak Circus, exploring themes of control, vulnerability, and the ethics of care.",
-      "routeDesc": "The Doctor's content is largely concentrated in Day 2. Accept his examination scenes to progress his route. His route requires a willingness to engage with uncomfortable dynamics. The Doctor route has been recently expanded with new content by the developer, adding additional scenes and an extended ending sequence.",
+      "personality": "The Doctor là người có phương pháp, thân mật và gây bất an sâu sắc. Anh tiếp cận mọi tương tác như thể đang tiến hành một cuộc kiểm tra — lời nói mang tính lâm sàng, tiếp xúc gây khó chịu. Tuyến truyện của anh chứa những nội dung tối tăm nhất trong The Freak Circus, khám phá các chủ đề về kiểm soát, sự dễ tổn thương và đạo đức của sự chăm sóc.",
+      "routeDesc": "Nội dung của The Doctor chủ yếu tập trung vào Ngày thứ 2. Chấp nhận các cảnh kiểm tra của anh ấy để tiến triển hành trình. Con đường của anh đòi hỏi sự sẵn sàng đối mặt với những động lực khó chịu. Tuyến Doctor gần đây đã được mở rộng với nội dung mới bởi nhà phát triển, bổ sung thêm các cảnh và chuỗi kết thúc kéo dài.",
       "fanSections": [
-        "Doctor examination room CG",
-        "Doctor and protagonist tense scene",
-        "Doctor character concept art"
+        "Phòng khám bác sĩ CG",
+        "Cảnh căng thẳng giữa bác sĩ và nhân vật chính",
+        "Bản vẽ ý tưởng nhân vật bác sĩ"
       ],
       "reviews": [
-        "The Doctor's route is not for everyone, but if you enjoy dark romance with psychological depth, it is incredibly well-written.",
-        "I was genuinely unsettled during his examination scenes. The game does not hold back.",
-        "The expanded content for his route adds so much depth. The new ending made me rethink his entire character."
+        "Tuyến truyện của The Doctor không dành cho tất cả mọi người, nhưng nếu bạn thích truyện tình yêu đen tối với chiều sâu tâm lý, thì nó được viết cực kỳ xuất sắc.",
+        "Tôi thực sự cảm thấy bất an trong các cảnh kiểm tra của anh ấy. Trò chơi không hề nương tay.",
+        "Nội dung mở rộng cho tuyến truyện của anh ấy làm tăng chiều sâu rất nhiều. Kết thúc mới khiến tôi phải suy nghĩ lại toàn bộ nhân vật của anh ấy."
       ]
     },
     "columbina": {
       "meta": {
-        "title": "Columbina - The Freak Circus Character Guide",
-        "desc": "Meet Columbina from The Freak Circus. Learn about her mysterious past with Pierrot, her role in the circus lore, and what fans speculate about her."
+        "title": "Columbina - Hướng dẫn nhân vật The Freak Circus",
+        "desc": "Gặp Columbina từ The Freak Circus. Tìm hiểu về quá khứ bí ẩn của cô với Pierrot, vai trò của cô trong truyền thuyết xiếc, và những gì người hâm mộ suy đoán về cô."
       },
-      "role": "The Lost Performer",
-      "appearance": "Columbina is described through in-game text and flashback sequences as having a delicate frame, porcelain features, and a soft, melancholic expression. She wears a traditional Columbina costume — a flowing white and gold dress with a small half-mask. Her official height has not been disclosed. Her appearance is only shown in fragmented CG sequences and character memories.",
+      "role": "Người Biểu Diễn Mất Tích",
+      "appearance": "Columbina được miêu tả qua văn bản trong game và các đoạn hồi tưởng là có khung hình mảnh mai, nét mặt như sứ và biểu cảm nhẹ nhàng, u sầu. Cô mặc trang phục truyền thống của Columbina — một chiếc váy trắng vàng bay bổng với một chiếc mặt nạ nhỏ nửa người. Chiều cao chính thức của cô chưa được tiết lộ. Ngoại hình của cô chỉ được thể hiện qua các đoạn CG rời rạc và ký ức nhân vật.",
       "traits": [
-        "Elegant",
-        "Tragic",
-        "Mysterious",
-        "Fragile",
-        "Central lore figure"
+        "Thanh lịch",
+        "Bi kịch",
+        "Bí ẩn",
+        "dễ vỡ",
+        "Nhân vật trung tâm trong cốt truyện"
       ],
-      "personality": "Columbina is a figure of tragedy and mystery in The Freak Circus. She is central to the backstory of both Pierrot and Harlequin, though she never appears as a living character in the main timeline. Her past actions and relationship with the circus performers shape much of the present-day narrative. Fan theories about Columbina vary widely, as the game deliberately keeps her story ambiguous.",
-      "routeDesc": "Columbina does not have a romanceable route in The Freak Circus. She is a lore-only character whose story is revealed through Pierrot and Harlequin routes. Piecing together her history is one of the main motivations for multiple playthroughs.",
+      "personality": "Columbina là một nhân vật bi kịch và bí ẩn trong The Freak Circus. Cô là trung tâm của câu chuyện nền của cả Pierrot và Harlequin, mặc dù cô không bao giờ xuất hiện như một nhân vật sống trong dòng thời gian chính. Những hành động trong quá khứ và mối quan hệ của cô với các nghệ sĩ xiếc định hình phần lớn câu chuyện hiện đại. Các giả thuyết của người hâm mộ về Columbina rất đa dạng, vì trò chơi cố tình giữ câu chuyện của cô ấy mơ hồ.",
+      "routeDesc": "Columbina không có tuyến truyện lãng mạn trong The Freak Circus. Cô là một nhân vật chỉ có cốt truyện, câu chuyện được hé lộ qua các tuyến truyện Pierrot và Harlequin. Việc ghép nối lịch sử của cô ấy là một trong những động lực chính cho nhiều lần chơi lại.",
       "fanSections": [
-        "Columbina flashback CG",
-        "Columbina and Pierrot memory scene",
-        "Columbina concept art"
+        "Cảnh hồi tưởng Columbina CG",
+        "Cảnh ký ức Columbina và Pierrot",
+        "Nghệ thuật ý tưởng Columbina"
       ],
       "reviews": [
-        "The Columbina reveal completely reframes Pierrot entire route. I had to replay immediately.",
-        "Every mention of Columbina in the game is heartbreaking. The writing team did an amazing job with her tragic story.",
-        "I spent hours on forums discussing Columbina theories after finishing the game. That is how compelling her character is."
+        "Màn lộ diện Columbina hoàn toàn thay đổi toàn bộ tuyến đường của Pierrot. Tôi phải chơi lại ngay lập tức.",
+        "Mỗi lần nhắc đến Columbina trong trò chơi đều khiến tôi đau lòng. Đội ngũ biên kịch đã làm rất tốt với câu chuyện bi thảm của cô ấy.",
+        "Tôi đã dành hàng giờ trên các diễn đàn thảo luận về các lý thuyết Columbina sau khi hoàn thành trò chơi. Đó là mức độ cuốn hút của nhân vật cô ấy."
       ]
     },
     "ticket-taker": {
       "meta": {
-        "title": "Ticket Taker TFC - The Freak Circus Character Guide",
-        "desc": "Meet the Ticket Taker from The Freak Circus. Learn about his cryptic personality, gatekeeper role, route guide, and lore significance."
+        "title": "Ticket Taker TFC - Hướng dẫn nhân vật The Freak Circus",
+        "desc": "Gặp gỡ người bán vé từ The Freak Circus. Tìm hiểu về tính cách bí ẩn, vai trò người gác cổng, hướng dẫn tuyến đường và ý nghĩa cốt truyện của anh ấy."
       },
-      "role": "The Gatekeeper",
-      "appearance": "The Ticket Taker is an older, stoic figure with silver-streaked hair and piercing eyes that seem to look through you. He wears a vintage railway conductor uniform with brass buttons and always carries a leather-bound ticket book. His official height has not been disclosed. He is the first character you meet when entering the circus.",
+      "role": "Người Giữ Cổng",
+      "appearance": "Người Bán Vé là một nhân vật lớn tuổi, điềm tĩnh với mái tóc viền bạc và đôi mắt sắc lạnh như nhìn thấu bạn. Ông mặc đồng phục nhân viên soát vé xe lửa cổ điển với nút đồng và luôn mang theo một cuốn sổ vé bọc da. Chiều cao chính thức của ông chưa được tiết lộ. Anh ấy là nhân vật đầu tiên bạn gặp khi bước vào rạp xiếc.",
       "traits": [
-        "Observant",
-        "Cryptic",
-        "Stern",
-        "Ancient",
-        "Guardian figure"
+        "quan sát tinh tường",
+        "bí ẩn",
+        "đuôi tàu",
+        "Cổ đại",
+        "Hình tượng Người Bảo Vệ"
       ],
-      "personality": "The first character you encounter. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize. His cryptic comments often carry double meanings that only become clear on replay. He speaks in riddles and seems to know more about the protagonist than he lets on.",
-      "routeDesc": "The Ticket Taker route requires persistence. Engage directly with every question he asks — deflect his tests at your own risk. His route rewards players who pay attention to the smallest details in dialogue. The Ticket Taker reveals the deepest lore about the circus origins and the nature of the performers contract.",
+      "personality": "Nhân vật đầu tiên bạn gặp. Người Bán Vé kiểm soát ai ra vào, và đã quan sát mọi thứ ở rạp xiếc này lâu hơn những người khác nhận ra. Những bình luận bí ẩn của ông thường mang ý nghĩa kép chỉ rõ ràng khi xem lại. Anh ta nói bằng những câu đố và dường như biết nhiều hơn về nhân vật chính so với những gì anh ta thể hiện.",
+      "routeDesc": "Tuyến Ticket Taker đòi hỏi sự kiên trì. Hãy trực tiếp đáp ứng mọi câu hỏi của anh ấy — hãy tự tránh né các bài kiểm tra của anh ấy. Tuyến đường của anh ấy thưởng cho những người chơi chú ý đến từng chi tiết nhỏ nhất trong hội thoại. The Ticket Taker tiết lộ những truyền thuyết sâu sắc nhất về nguồn gốc rạp xiếc và bản chất hợp đồng của các nghệ sĩ biểu diễn.",
       "fanSections": [
-        "Ticket Taker entrance CG",
-        "Ticket Taker route key scene",
-        "Ticket Taker character art"
+        "Cổng vào dành cho nhân viên thu vé CG",
+        "Cảnh chìa khóa tuyến đường Ticket Taker",
+        "Nghệ thuật nhân vật của Ticket Taker"
       ],
       "reviews": [
-        "The Ticket Taker quickly went from creepy gatekeeper to fascinating character. His route has the best lore payoff in the game.",
-        "Every line the Ticket Taker speaks is important. I started taking notes on my second playthrough.",
-        "His route answers questions you did not even know you had. The lore reveal is worth the effort of unlocking his path."
+        "The Ticket Taker nhanh chóng chuyển từ người gác cổng đáng sợ thành nhân vật hấp dẫn. Tuyến đường của anh ấy có phần thưởng cốt truyện hay nhất trong game.",
+        "Mỗi câu thoại mà Người bán vé nói đều quan trọng. Tôi bắt đầu ghi chú trong lần chơi thứ hai.",
+        "Tuyến đường của anh ấy trả lời những câu hỏi mà bạn thậm chí còn không biết mình có. Việc tiết lộ cốt truyện rất đáng công sức để mở khóa con đường của hắn."
       ]
     }
   },
   "walkthrough": {
-    "pageTitle": "Guides & Spoilers",
-    "title": "The Freak Circus Walkthrough",
-    "subtitle": "Step-by-step guides for every route, ending, and hidden scene.",
-    "spoilerTitle": "Spoiler Warning",
-    "spoilerText": "This page contains major spoilers for all routes and endings. Play through at least Day 1 before consulting this guide.",
-    "day1Title": "Day 1 - Route Overview",
-    "day1P1": "Day 1 establishes your affinity with each of the five characters through a series of carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
-    "day1P2": "Key branching points in Day 1 include the entrance interaction with the Ticket Taker, the tent choice, and the evening meal conversation.",
-    "pierrotTitle": "Pierrot Route Guide",
-    "pierrotP1": "Select introspective and empathetic options throughout Day 1. In the tent scene, follow the white cloak. During Day 2, choose understanding over resistance to unlock Pierrot's Good Ending.",
-    "pierrotP2": "See the full Pierrot route article in our <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Harlequin Route Guide",
-    "harlequinP1": "Interact with the red balloon during the Day 1 carnival opening. Use bold, playful responses in the main tent. Harlequin's route escalates quickly in Day 2, so embrace the chaos rather than resist it.",
-    "endingsTitle": "Endings Summary",
-    "endingsChar": "Character",
-    "endingsGood": "Good Ending",
-    "endingsBad": "Bad Endings",
+    "pageTitle": "Hướng dẫn & Tiết lộ nội dung",
+    "title": "Hướng Dẫn Rạp Xiếc Quái Dị",
+    "subtitle": "Hướng dẫn từng bước cho mọi tuyến đường, kết thúc và cảnh ẩn.",
+    "spoilerTitle": "Cảnh báo tiết lộ nội dung",
+    "spoilerText": "Trang này chứa những tiết lộ lớn về tất cả các tuyến truyện và kết thúc. Hãy chơi ít nhất Ngày 1 trước khi tham khảo hướng dẫn này.",
+    "day1Title": "Ngày 1 - Tổng quan tuyến đường",
+    "day1P1": "Ngày 1 sẽ thiết lập sự gắn bó của bạn với từng nhân vật trong năm nhân vật thông qua một loạt các cuộc gặp gỡ tại lễ hội. Lựa chọn của bạn trong 20 phút đầu tiên quyết định tuyến đường nào sẽ mở vào Ngày 2.",
+    "day1P2": "Những điểm phân nhánh quan trọng trong Ngày 1 bao gồm tương tác khi vào cửa với Người Lấy Vé, lựa chọn lều và cuộc trò chuyện về bữa tối.",
+    "pierrotTitle": "Hướng dẫn lộ trình Pierrot",
+    "pierrotP1": "Hãy chọn các lựa chọn nội tâm và đồng cảm trong suốt Ngày 1. Trong cảnh lều, hãy theo chiếc áo choàng trắng. Trong Ngày 2, hãy chọn hiểu biết thay vì kháng cự để mở khóa Kết Thúc Tốt của Pierrot.",
+    "pierrotP2": "Xem bài viết đầy đủ về tuyến đường Pierrot trong <a href=\"/blog/pierrot-route-guide\">blog</a> của chúng tôi.",
+    "harlequinTitle": "Hướng dẫn lộ trình Harlequin",
+    "harlequinP1": "Tương tác với quả bóng bay đỏ trong lễ khai mạc ngày đầu tiên của lễ hội. Hãy sử dụng những câu trả lời táo bạo, vui tươi trong lều chính. Tuyến đường của Harlequin tăng nhanh trong Ngày 2, nên hãy đón nhận sự hỗn loạn thay vì chống lại nó.",
+    "endingsTitle": "Tóm tắt kết thúc",
+    "endingsChar": "Tính cách",
+    "endingsGood": "Kết thúc tốt",
+    "endingsBad": "Kết thúc xấu",
     "endingsTable": [
       {
         "char": "Pierrot",
-        "good": "Mirror Reflection",
-        "bad": "Broken Stage, Escape"
+        "good": "phản chiếu gương",
+        "bad": "Sân Khấu Bị Gãy, Thoát Hiểm"
       },
       {
         "char": "Harlequin",
-        "good": "Curtain Call",
-        "bad": "Empty Stage"
+        "good": "lời chào tạm thời",
+        "bad": "Sân khấu trống"
       },
       {
         "char": "Jester",
-        "good": "Unmasked",
-        "bad": "The Punchline"
+        "good": "bị lột mặt nạ",
+        "bad": "Kết Luận"
       },
       {
-        "char": "Ticket Taker",
-        "good": "Open Gate",
-        "bad": "Closed Forever"
+        "char": "nhân viên bán vé",
+        "good": "Cổng Mở",
+        "bad": "Đóng cửa vĩnh viễn"
       },
       {
-        "char": "Doctor",
-        "good": "Clean Hands",
-        "bad": "Under the Knife, Numb"
+        "char": "Bác sĩ",
+        "good": "tay sạch sẽ",
+        "bad": "Dưới Cao, Tê liệt"
       }
     ],
     "day1": {
       "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - All Choices",
-        "desc": "Complete Day 1 walkthrough for The Freak Circus. Learn all key choices, character affinity decisions, and how to unlock each route from the first day."
+        "title": "Hướng dẫn Ngày 1 của The Freak Circus - Tất cả các lựa chọn",
+        "desc": "Đã hoàn thành hướng dẫn Ngày 1 của The Freak Circus. Tìm hiểu tất cả các lựa chọn chính, quyết định về sự đồng cảm với nhân vật, và cách mở khóa từng tuyến đường ngay từ ngày đầu tiên."
       },
-      "title": "Day 1 - Complete Walkthrough",
-      "overview": "Day 1 establishes your affinity with each character through carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
+      "title": "Ngày 1 - Tham quan toàn bộ",
+      "overview": "Ngày 1 sẽ thiết lập sự gắn bó của bạn với từng nhân vật thông qua các cuộc gặp gỡ trong lễ hội. Lựa chọn của bạn trong 20 phút đầu tiên quyết định tuyến đường nào sẽ mở vào Ngày 2.",
       "choices": [
         {
-          "moment": "Entrance - Meeting the Ticket Taker",
-          "desc": "Your first interaction sets the tone. Answer honestly to gain Ticket Taker affinity. Deflect or joke to lean toward Jester or Harlequin."
+          "moment": "Lối vào - Gặp gỡ người bán vé",
+          "desc": "Lần tương tác đầu tiên của bạn tạo nên không khí. Hãy trả lời thật lòng để nhận được sự gắn kết với Ticket Taker. Né tránh hoặc đùa để nghiêng về phía Jester hoặc Harlequin."
         },
         {
-          "moment": "The Carnival Midway",
-          "desc": "Explore the booths. Each interaction subtly shifts character affinities. The red balloon leads toward Harlequin. The white cloak reveals Pierrot path."
+          "moment": "Lễ hội Trung tâm",
+          "desc": "Khám phá các gian hàng. Mỗi tương tác đều tinh tế thay đổi sự đồng cảm của nhân vật. Quả bóng bay đỏ dẫn về phía Harlequin. Chiếc áo choàng trắng tiết lộ con đường Pierrot."
         },
         {
-          "moment": "The Tent Performance",
-          "desc": "Your seat choice and reactions during the main performance influence which performer notices you. Front row signals boldness. Balcony suggests introspection."
+          "moment": "Màn trình diễn trong lều",
+          "desc": "Lựa chọn chỗ ngồi và phản ứng của bạn trong buổi biểu diễn chính sẽ ảnh hưởng đến người biểu diễn để ý đến bạn. Hàng ghế đầu báo hiệu sự táo bạo. Ban công gợi ý sự tự suy ngẫm."
         },
         {
-          "moment": "Evening Meal Conversation",
-          "desc": "The dinner scene is a major branching point. Your dialogue choices here can lock or unlock specific routes for Day 2."
+          "moment": "Trò chuyện trong bữa tối",
+          "desc": "Cảnh ăn tối là một điểm phân nhánh quan trọng. Các lựa chọn đối thoại của bạn ở đây có thể khóa hoặc mở khóa các tuyến đường cụ thể cho Ngày 2."
         }
       ]
     },
     "day2": {
       "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Routes & Endings",
-        "desc": "Complete Day 2 walkthrough for The Freak Circus with character routes, good and bad ending conditions, and hidden scene triggers."
+        "title": "Hướng dẫn Ngày 2 của The Freak Circus - Lộ trình & Kết thúc",
+        "desc": "Khám phá đầy đủ Ngày 2 của The Freak Circus với các tuyến nhân vật, điều kiện kết thúc tốt và xấu, cùng các cảnh ẩn kích hoạt."
       },
-      "title": "Day 2 - Routes & Ending Guide",
-      "overview": "Day 2 intensifies the narrative. Your Day 1 choices determine which routes remain open. Each character route has distinct Good and Bad Ending conditions.",
+      "title": "Ngày 2 - Lộ trình & Hướng dẫn kết thúc",
+      "overview": "Ngày thứ 2 làm câu chuyện trở nên căng thẳng. Lựa chọn Ngày 1 của bạn quyết định tuyến đường nào vẫn còn mở. Mỗi tuyến nhân vật đều có điều kiện Kết thúc Tốt và Kết Thúc Xấu riêng biệt.",
       "choices": [
         {
-          "moment": "Morning After - Route Lock-in",
-          "desc": "The first Day 2 conversation confirms your active route(s). Characters with highest affinity approach you first."
+          "moment": "Sáng hôm sau - Khóa lộ trình",
+          "desc": "Cuộc trò chuyện đầu tiên vào Ngày thứ 2 xác nhận tuyến đường đang hoạt động của bạn. Những nhân vật có điểm thân thiết cao nhất sẽ tiếp cận bạn trước."
         },
         {
-          "moment": "Route-Specific Encounters",
-          "desc": "Each locked route has unique scenes. Pierrot route involves the mirror tent. Harlequin route escalates at the main stage."
+          "moment": "Các cuộc gặp gỡ theo tuyến đường",
+          "desc": "Mỗi tuyến đường bị khóa đều có những cảnh riêng biệt. Tuyến đường Pierrot liên quan đến lều gương. Tuyến Harlequin tăng lên ở sân khấu chính."
         },
         {
-          "moment": "Final Confrontation",
-          "desc": "The climax of each route. Your choices here determine Good vs Bad Ending. Save before this point to explore both outcomes."
+          "moment": "Cuộc đối đầu cuối cùng",
+          "desc": "Cao trào của mỗi tuyến đường. Lựa chọn của bạn ở đây quyết định Kết thúc Tốt và Xấu. Lưu trước điểm này để khám phá cả hai kết quả."
         }
       ]
     },
     "day3": {
       "meta": {
-        "title": "The Freak Circus Day 3 - Latest Updates & News",
-        "desc": "The Freak Circus Day 3 content status. Check the latest developer updates, estimated release timeline, and subscribe for notifications."
+        "title": "The Freak Circus Day 3 - Cập nhật & Tin tức mới nhất",
+        "desc": "Trạng thái nội dung Ngày 3 của The Freak Circus. Kiểm tra các bản cập nhật mới nhất dành cho nhà phát triển, thời gian phát hành ước tính và đăng ký nhận thông báo."
       },
-      "title": "Day 3 — Verified Update Tracker",
-      "status": "Day 3 content is currently under development. The developer has confirmed ongoing work but has not announced a specific release date. Bookmark this page for the latest updates.",
-      "devNotes": "Check the /news page for the latest developer updates on Day 3 progress and other upcoming content."
+      "title": "Ngày 3 — Trình theo dõi cập nhật đã xác minh",
+      "status": "Trang này không ghi ngày phát hành Ngày 3. Nó chỉ liên kết đến các thông báo của nhà phát triển đã được phát triển bởi bên thứ nhất, đã đi cũ.",
+      "devNotes": "Đọc phần Tin tức để cập nhật các nhà phát triển liên kết nguồn mới nhất."
     }
   },
   "blog": {
-    "title": "Guides & Articles",
-    "subtitle": "Walkthroughs, character analysis, and lore for The Freak Circus.",
-    "backLink": "Back to all articles",
-    "published": "Published {date}",
-    "footerLink": "Play The Freak Circus Online"
+    "title": "Hướng dẫn & Bài viết",
+    "subtitle": "Hướng dẫn, phân tích nhân vật và cốt truyện về The Freak Circus.",
+    "backLink": "Quay lại tất cả bài viết",
+    "published": "Xuất bản {date}",
+    "footerLink": "Chơi The Freak Circus Online"
   },
   "ad": {
-    "leftLabel": "Left sidebar advertisement",
-    "rightLabel": "Right sidebar advertisement"
+    "leftLabel": "Quảng cáo thanh bên trái",
+    "rightLabel": "Quảng cáo thanh bên phải"
   },
   "meta": {
-    "homeTitle": "Play The Freak Circus Online - Psychological Horror Visual Novel",
-    "homeDesc": "Play The Freak Circus free online in your browser. A dark psychological horror visual novel by Garula with routes for Pierrot, Harlequin, Jester, and more.",
-    "aboutTitle": "About The Freak Circus - Game Info, Developer, and FAQ",
-    "aboutDesc": "Learn about The Freak Circus visual novel: developer, download links, content warnings, Chinese support, and frequently asked questions.",
-    "charactersTitle": "The Freak Circus Characters - Pierrot, Harlequin, Jester & More",
-    "charactersDesc": "Meet The Freak Circus characters: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Read route tips, traits, and lore notes.",
-    "walkthroughTitle": "The Freak Circus Walkthrough - Day 1 & Day 2 Guide, All Endings",
-    "walkthroughDesc": "Complete walkthrough for The Freak Circus visual novel with Day 1 and Day 2 choices, character routes, good endings, bad endings, and hidden scenes.",
-    "blogTitle": "The Freak Circus Blog - Guides, Walkthroughs & Character Analysis",
-    "blogDesc": "Guides, ending walkthroughs, character analysis, and lore deep-dives for The Freak Circus psychological horror visual novel.",
-    "contactTitle": "Contact Us",
-    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
+    "homeTitle": "Chơi The Freak Circus Online",
+    "homeDesc": "Chơi The Freak Circus miễn phí trực tuyến ngay trên trình duyệt của bạn. Một visual novel kinh dị tâm lý đen tối của Garula với các tuyến truyện cho Pierrot, Harlequin, Jester và nhiều nhân vật khác.",
+    "aboutTitle": "Về Câu Hỏi Thường Gặp Trò Chơi The Freak Circus",
+    "aboutDesc": "Tìm hiểu về tiểu thuyết hình ảnh The Freak Circus: nhà phát triển, liên kết tải xuống, cảnh báo nội dung, hỗ trợ tiếng Trung và các câu hỏi thường gặp.",
+    "charactersTitle": "Hướng Dẫn Nhân Vật The Freak Circus",
+    "charactersDesc": "Gặp gỡ các nhân vật của The Freak Circus: Pierrot, Harlequin, Jester, Người Bán Vé và Bác Sĩ. Đọc mẹo tuyến nhân vật, đặc điểm và ghi chú về cốt truyện.",
+    "walkthroughTitle": "Hướng Dẫn Chơi Freak Circus Kết Thúc",
+    "walkthroughDesc": "Hướng dẫn chi tiết cho tiểu thuyết hình ảnh The Freak Circus với các lựa chọn Ngày 1 và Ngày 2, tuyến nhân vật, kết thúc tốt, kết thúc xấu và cảnh ẩn.",
+    "blogTitle": "Blog The Freak Circus - Hướng Dẫn, Walkthroughs & Phân Tích Nhân Vật",
+    "blogDesc": "Hướng dẫn, walkthrough kết thúc, phân tích nhân vật và khảo cứu sâu về cốt truyện cho tiểu thuyết hình ảnh kinh dị tâm lý The Freak Circus.",
+    "contactTitle": "Liên Hệ Với Chúng Tôi",
+    "contactDesc": "Liên hệ với nhóm đứng sau trang fan thefreakcircus.help cho tiểu thuyết hình ảnh The Freak Circus.",
+    "privacyTitle": "Chính Sách Bảo Mật",
+    "privacyDesc": "Chính sách bảo mật của thefreakcircus.help - cách chúng tôi xử lý dữ liệu khách truy cập trên trang fan The Freak Circus này.",
+    "termsTitle": "Điều Khoản Dịch Vụ",
+    "termsDesc": "Điều khoản dịch vụ của thefreakcircus.help - các quy tắc và hướng dẫn sử dụng trang fan The Freak Circus này."
   },
   "schema": {
     "websiteName": "The Freak Circus",
-    "websiteDesc": "A psychological horror romance visual novel set in a mysterious circus.",
+    "websiteDesc": "Một tiểu thuyết hình ảnh kinh dị tâm lý lãng mạn được đặt trong một rạp xiếc bí ẩn.",
     "gameGenres": [
-      "Visual Novel",
-      "Psychological Horror",
-      "Romance"
+      "Tiểu Thuyết Hình Ảnh",
+      "Kinh Dị Tâm Lý",
+      "Lãng Mạn"
     ],
     "authorName": "Garula (Neko Bueno)",
-    "os": "Web Browser, Windows, macOS, Linux",
+    "os": "Trình Duyệt Web, Windows, macOS, Linux",
     "contentRating": "18+",
-    "searchAction": "Search thefreakcircus.help"
+    "searchAction": "Tìm Kiếm thefreakcircus.help"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
-    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
-    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+    "title": "Liên Hệ Với Chúng Tôi",
+    "subtitle": "Liên hệ với nhóm đứng sau thefreakcircus.help.",
+    "p1": "thefreakcircus.help là một trang fan không chính thức cho tiểu thuyết hình ảnh The Freak Circus. Chúng tôi không liên kết với Garula, Neko Bueno, hay itch.io. Nếu bạn có thắc mắc về trò chơi, trang web, hoặc cần trợ giúp về gameplay, hãy liên hệ với chúng tôi.",
+    "p2": "Email: contact@thefreakcircus.help — chúng tôi cố gắng phản hồi trong vài ngày."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "How we handle your data on thefreakcircus.help.",
-    "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
-    "s2title": "Third-Party Services",
-    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
-    "s3title": "Your Rights",
-    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+    "title": "Chính Sách Bảo Mật",
+    "subtitle": "Cách chúng tôi xử lý dữ liệu của bạn trên thefreakcircus.help.",
+    "s1title": "Thông Tin Chúng Tôi Thu Thập",
+    "s1body": "thefreakcircus.help sử dụng cookie tuỳ chọn ngôn ngữ và công cụ phân tích được mô tả bên dưới. Một trình phát tùy chọn trong trang được cung cấp bởi nhà cung cấp bên thứ ba; trang fan này không vận hành nhà cung cấp đó và không tuyên bố nó là chính thức. Chúng tôi không có quyền truy cập dữ liệu được gửi trong trình phát đó.",
+    "s2title": "Dịch Vụ Bên Thứ Ba",
+    "s2body": "Trình phát tùy chọn được tải trong iframe từ một máy chủ bên thứ ba. Máy chủ đó có thể thu thập dữ liệu theo chính sách riêng của họ, mà chúng tôi không kiểm soát. Đối với trò chơi do nhà phát triển hỗ trợ và các thực hành dữ liệu của nó, hãy xem trang itch.io chính thức. Chúng tôi cũng sử dụng Google Analytics để đo lường lưu lượng truy cập cơ bản.",
+    "s3title": "Quyền của bạn",
+    "s3body": "Là khách truy cập trang fan này, bạn có quyền duyệt ẩn danh, chặn cookie qua cài đặt trình duyệt và sử dụng các tiện ích mở rộng chặn quảng cáo hoặc bảo vệ theo dõi. Nếu bạn có thắc mắc về việc xử lý dữ liệu, vui lòng liên hệ với chúng tôi qua trang itch.io chính thức."
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
-    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
-    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
-    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
+    "title": "Điều khoản dịch vụ",
+    "subtitle": "Quy tắc và hướng dẫn sử dụng thefreakcircus.help.",
+    "s1body": "thefreakcircus.help là một trang web người hâm mộ không chính thức dành cho tiểu thuyết hình ảnh The Freak Circus. Chúng tôi không liên kết với Garula, Neko Bueno hay itch.io. Tất cả nội dung trò chơi, bao gồm tranh vẽ, cốt truyện và nhân vật, đều thuộc về các nhà sáng tạo tương ứng.",
+    "s2body": "Một trình phát tùy chọn được nhúng từ máy chủ bên thứ ba. Chúng tôi không khẳng định rằng máy chủ là chính thức, do nhà phát triển vận hành hoặc được xác nhận. Chúng tôi không phân phối tải về trò chơi; Sử dụng trang itch.io chính thức cho phiên bản do nhà phát triển hỗ trợ.",
+    "s3body": "Tất cả nội dung gốc trên trang này — bao gồm hướng dẫn, hướng dẫn và bài viết — đều được cung cấp với mục đích tham khảo. Bạn có thể chia sẻ liên kết đến các trang của chúng tôi, nhưng không được sao chép nội dung của chúng tôi mà không ghi nguồn.",
+    "s4body": "Trang web này chứa nội dung từ một trò chơi được xếp hạng 18. Bằng việc sử dụng trang web này, bạn xác nhận rằng bạn đủ tuổi hợp pháp để xem nội dung trưởng thành tại khu vực pháp lý của mình. Nếu bạn có bất kỳ câu hỏi nào về các điều khoản này, vui lòng liên hệ với chúng tôi."
   },
   "wiki": {
-    "title": "The Freak Circus Wiki & Lore Guide",
-    "subtitle": "Complete encyclopedia of The Freak Circus lore, characters, and setting.",
+    "title": "Wiki & Hướng dẫn truyền thuyết của The Freak Circus",
+    "subtitle": "Bách khoa toàn thư đầy đủ về cốt truyện, nhân vật và bối cảnh của The Freak Circus.",
     "meta": {
-      "title": "The Freak Circus Wiki - Complete Lore & Setting Guide",
-      "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
+      "title": "The Freak Circus Wiki - Hướng dẫn đầy đủ về truyền thuyết & bối cảnh",
+      "desc": "Khám phá toàn bộ wiki The Freak Circus bao gồm cốt truyện nhân vật, bối cảnh rạp xiếc, thuật ngữ, dòng thời gian phát triển và các phần ghi công của nhà phát triển."
     },
-    "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia资料 including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
-    "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
-    "loreTitle": "World & Circus Setting",
-    "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
-    "loreP2": "The circus grounds include the main performance tent, the carnival midway, individual performer spaces, and hidden areas that only become accessible on specific routes. The layout shifts between visits, suggesting the circus itself is alive and responsive to the protagonist choices.",
-    "glossaryTitle": "Glossary of Terms",
+    "overviewTitle": "Chào mừng bạn đến với Wiki",
+    "overviewP1": "Trang này cung cấp đầy đủ bách khoa toàn thư The Freak Circus bao gồm hồ sơ nhân vật, bối cảnh câu chuyện và lịch sử cập nhật. Dù bạn là người chơi mới muốn hiểu câu chuyện hay một người chơi kỳ cựu muốn tìm hiểu sâu hơn về cốt truyện, wiki này bao quát tất cả những gì biết về trò chơi.",
+    "overviewP2": "Thông tin ở đây dựa trên nội dung trò chơi đã được xác nhận chính thức. Đầu cơ của Cộng đồng được đánh dấu rõ ràng khi có bao gồm.",
+    "loreTitle": "Thế giới & Bối cảnh rạp xiếc",
+    "loreP1": "The Freak Circus lấy bối cảnh trong một rạp xiếc bí ẩn chỉ xuất hiện vào ban đêm ở rìa một thị trấn phủ đầy sương mù. Rạp xiếc tồn tại trong một không gian chuyển tiếp — nó xuất hiện bất ngờ và rời đi theo cùng một cách. Năm nghệ sĩ biểu diễn bị ràng buộc với rạp xiếc bởi một thỏa thuận có từ trước các sự kiện của trò chơi, mặc dù bản chất chính xác của thỏa thuận này được cố tình để mơ hồ.",
+    "loreP2": "Khuôn viên rạp xiếc bao gồm lều biểu diễn chính, khu trung gian hội chợ, không gian dành cho các nghệ sĩ biểu diễn cá nhân và các khu vực bí mật chỉ có thể tiếp cận trên một số tuyến đường nhất định. Bố cục thay đổi giữa các lần ghé thăm, cho thấy rạp xiếc vẫn sống động và phản ứng với các lựa chọn của nhân vật chính.",
+    "glossaryTitle": "Bảng thuật ngữ",
     "glossary": [
       {
-        "term": "The Performance",
-        "def": "The nightly show each performer gives. The Performance is both literal entertainment and a metaphor for each character hidden nature."
+        "term": "Buổi biểu diễn",
+        "def": "Chương trình biểu diễn hàng đêm mà mỗi nghệ sĩ biểu diễn sẽ trình diễn. The Performance vừa là giải trí theo nghĩa đen vừa là phép ẩn dụ cho bản chất ẩn giấu của từng nhân vật."
       },
       {
-        "term": "The Contract",
-        "def": "An agreement binding each performer to the circus. The terms are never fully explained but hinted at through character dialogue."
+        "term": "Hợp đồng",
+        "def": "Một thỏa thuận ràng buộc mỗi nghệ sĩ biểu diễn với rạp xiếc. Các thuật ngữ này không bao giờ được giải thích đầy đủ mà chỉ được gợi ý qua đối thoại của các nhân vật."
       },
       {
-        "term": "Day 1 / Day 2",
-        "def": "The two active days of gameplay. The story unfolds across this timeframe, with choices determining which routes open."
+        "term": "Ngày 1 / Ngày 2",
+        "def": "Hai ngày chơi game sôi động. Câu chuyện diễn ra trong khoảng thời gian này, với các lựa chọn quyết định tuyến đường nào sẽ mở ra."
       },
       {
-        "term": "Good Ending / Bad Ending",
-        "def": "Each character route has at least two endings. Good Endings require specific choice combinations. Bad Endings trigger through defiance or passive acceptance."
+        "term": "Kết thúc tốt / Kết thúc xấu",
+        "def": "Mỗi tuyến nhân vật có ít nhất hai kết thúc. Kết thúc tốt đòi hỏi các tổ hợp lựa chọn cụ thể. Kết thúc xấu xuất hiện thông qua sự chống đối hoặc chấp nhận thụ động."
       },
       {
-        "term": "The Tear Painted on Pierrot Face",
-        "def": "A permanent makeup mark that symbolizes his perpetual performance of sorrow. It never washes off."
+        "term": "Nước mắt được vẽ trên khuôn mặt Pierrot",
+        "def": "Một dấu trang điểm vĩnh viễn tượng trưng cho màn trình diễn nỗi buồn không ngừng của anh. Nó không bao giờ rửa sạch."
       }
     ],
-    "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno). The game is published on itch.io and is available for Windows, macOS, and Linux, as well as directly in browser via official CDN embedding.",
-    "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
-    "timelineTitle": "Update Timeline",
+    "creditsTitle": "Nhà phát triển & Ghi công",
+    "creditsP1": "Rạp xiếc Freak được phát triển bởi Garula (còn gọi là Neko Bueno) và được xuất bản trên itch.io. Sử dụng trang itch.io chính thức để xem các tùy chọn trình duyệt và tải xuống do nhà phát triển hỗ trợ.",
+    "creditsP2": "Toàn bộ dàn diễn viên lồng tiếng và các thành tích bổ sung chưa được nhà phát triển công khai. Phần này sẽ được cập nhật khi có thêm thông tin.",
+    "timelineTitle": "Cập nhật Dòng thời gian",
     "timeline": [
       {
-        "version": "Initial Release",
+        "version": "Phát hành ban đầu",
         "date": "2024",
-        "desc": "The Freak Circus first released on itch.io with Pierrot, Harlequin, Jester, Ticket Taker, and Doctor routes available."
+        "desc": "The Freak Circus lần đầu ra mắt vào itch.io với các tuyến Pierrot, Harlequin, Jester, Ticket Taker và Doctor."
       },
       {
-        "version": "Doctor Route Expansion",
+        "version": "Mở rộng tuyến Doctor",
         "date": "Late 2024",
-        "desc": "Additional scenes and an extended ending added to the Doctor route based on player feedback."
+        "desc": "Các cảnh bổ sung và kết thúc kéo dài được thêm vào tuyến Doctor dựa trên phản hồi của người chơi."
       },
       {
-        "version": "Chinese Language Support",
+        "version": "Hỗ trợ tiếng Trung",
         "date": "2025",
-        "desc": "Official Simplified Chinese language support added alongside continuing English content updates."
+        "desc": "Hỗ trợ tiếng Trung giản thể chính thức được bổ sung cùng với các cập nhật nội dung tiếng Anh liên tục."
       },
       {
-        "version": "Day 3 & Future Content",
+        "version": "Ngày 3 & Nội dung tương lai",
         "date": "TBD",
-        "desc": "The developer has indicated ongoing work on additional content. Day 3 and new character content are anticipated."
+        "desc": "Nhà phát triển đã cho biết đang tiếp tục phát triển các nội dung bổ sung. Ngày thứ 3 và nội dung nhân vật mới được mong đợi."
       }
     ]
   },
   "community": {
     "meta": {
-      "title": "The Freak Circus Fan Art & Community",
-      "desc": "Join The Freak Circus fan community. Explore fan art, creator links, official social media, and community resources."
+      "title": "Fan Art & Cộng Đồng The Freak Circus",
+      "desc": "Tham gia cộng đồng người hâm mộ The Freak Circus. Khám phá fan art, liên kết tạo tác giả, mạng xã hội chính thức và tài nguyên cộng đồng."
     },
-    "title": "The Freak Circus Community",
-    "subtitle": "Fan art, discussions, and community resources.",
-    "officialTitle": "Official Links",
-    "officialDesc": "Connect with the developer and other fans through these official channels.",
+    "title": "Cộng Đồng The Freak Circus",
+    "subtitle": "Fan art, thảo luận và tài nguyên cộng đồng.",
+    "officialTitle": "Liên Kết Chính Thức",
+    "officialDesc": "Kết nối với nhà phát triển và các fan khác thông qua các kênh chính thức này.",
     "links": [
       {
-        "name": "itch.io Page",
+        "name": "Trang itch.io",
         "url": "https://garula.itch.io/the-freak-circus"
       },
       {
-        "name": "Official Twitter",
+        "name": "Twitter Chính Thức",
         "url": "https://twitter.com/FreakCircusVRC"
       }
     ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Showcasing community-created fan art of The Freak Circus characters. Submissions are from verified creators who have granted permission for display.",
-    "communityTitle": "Community Resources",
+    "fanartTitle": "Spotlight Fan Art",
+    "fanartDesc": "Trưng bày fan art do cộng đồng tạo ra của các nhân vật trong The Freak Circus. Các bài gửi đến từ các tác giả đã được xác minh và cho phép hiển thị.",
+    "communityTitle": "Tài Nguyên Cộng Đồng",
     "communityTips": [
-      "Join official Discord servers for real-time discussions with other fans.",
-      "Use #TheFreakCircus tag on social media platforms to share your creations.",
-      "Respect other fans and creators — the community thrives on mutual support.",
-      "Check the official itch.io page for the latest developer updates and community news."
+      "Tham gia các máy chủ Discord chính thức để thảo luận thời gian thực với các fan khác.",
+      "Sử dụng thẻ #TheFreakCircus trên các nền tảng mạng xã hội để chia sẻ tác phẩm của bạn.",
+      "Tôn trọng các fan và tác giả khác — cộng đồng phát triển dựa trên sự hỗ trợ lẫn nhau.",
+      "Kiểm tra trang itch.io chính thức để cập nhật mới nhất từ nhà phát triển và tin tức cộng đồng."
     ]
   },
   "news": {
     "meta": {
-      "title": "The Freak Circus News & Updates",
-      "desc": "Latest news and updates for The Freak Circus visual novel. Development progress, version releases, and community announcements."
+      "title": "Tin Tức & Cập Nhật The Freak Circus",
+      "desc": "Tin tức và cập nhật mới nhất về visual novel The Freak Circus. Tiến độ phát triển, các phiên bản phát hành và thông báo từ cộng đồng."
     },
-    "title": "News & Updates",
+    "title": "Tin Tức & Cập Nhật",
     "entries": [
       {
         "date": "2025",
-        "title": "Chinese Language Support Added",
-        "body": "The Freak Circus now includes official Simplified Chinese language support. This update also includes bug fixes and minor dialogue adjustments."
+        "title": "Hỗ Trợ Ngôn Ngữ Trung Quốc Đã Thêm",
+        "body": "The Freak Circus hiện hỗ trợ chính thức ngôn ngữ Trung Quốc giản thể. Bản cập nhật này cũng bao gồm sửa lỗi và điều chỉnh nhỏ trong hội thoại."
       },
       {
         "date": "Late 2024",
-        "title": "Doctor Route Expansion Released",
-        "body": "New scenes and an extended ending for the Doctor route are now available. Thank you to the community for the feedback that made this expansion possible."
+        "title": "Mở Rộng Tuyến Cốt Truyện Bác Sĩ Ra Mắt",
+        "body": "Các cảnh mới và kết thúc mở rộng cho tuyến cốt truyện Bác Sĩ hiện đã có sẵn. Cảm ơn cộng đồng đã cung cấp phản hồi để mở rộng này trở thành hiện thực."
       },
       {
         "date": "2024",
-        "title": "The Freak Circus Released on itch.io",
-        "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
+        "title": "The Freak Circus Ra Mắt Trên itch.io",
+        "body": "The Freak Circus hiện đã có thể chơi miễn phí trên itch.io. Phiên bản phát hành ban đầu bao gồm tất cả năm tuyến nhân vật chính với nhiều kết thúc khác nhau."
       }
     ]
+  },
+  "ui": {
+    "mainNavigation": "Điều hướng chính",
+    "wiki": "Wiki",
+    "community": "Cộng Đồng",
+    "news": "Tin Tức",
+    "switchLanguage": "Chuyển ngôn ngữ",
+    "gameCoverAlt": "Bìa The Freak Circus",
+    "like": "Thích",
+    "dislike": "Không thích",
+    "reloadGame": "Tải lại trò chơi",
+    "toggleFullscreen": "Chuyển chế độ toàn màn hình",
+    "playerDisclaimer": "Trình phát tùy chọn này được phục vụ bởi máy chủ bên thứ ba. thefreakcircus.help là tài nguyên fan không chính thức và không tuyên bố máy chủ này được vận hành, được bảo trợ, hoặc liên kết với Garula. Để sử dụng phiên bản được hỗ trợ bởi nhà phát triển và tải xuống, hãy sử dụng trang itch.io chính thức.",
+    "aboutImageAlt": "Bìa visual novel kinh dị tâm lý The Freak Circus",
+    "charactersImageAlt": "Nhân vật trong The Freak Circus",
+    "gameplayImageAlt": "Chơi The Freak Circus trên trình duyệt",
+    "faqImageAlt": "Câu hỏi thường gặp về The Freak Circus",
+    "allCharacters": "Tất cả nhân vật",
+    "appearanceDesign": "Ngoại hình & Thiết kế",
+    "personalityTraits": "Tính cách & Đặc điểm",
+    "routeGuide": "Hướng dẫn tuyến đường",
+    "fanArtGallery": "Fan Art & Thư viện",
+    "playerImpressions": "Ấn tượng của người chơi",
+    "openDay1Guide": "Mở hướng dẫn quyết định Ngày 1",
+    "newsTracker": "Bảng cập nhật do nguồn dẫn",
+    "newsIntro": "Mỗi mục liên kết đến thông báo gốc của nhà phát triển. Chúng tôi ghi nhãn tóm tắt là bài viết biên tập của fan, không phải bài đăng chính thức.",
+    "readSummary": "Đọc tóm tắt và nguồn",
+    "allNews": "Tất cả tin tức",
+    "editorialSummary": "Tóm tắt biên tập của fan",
+    "published": "Được xuất bản {date}",
+    "primarySource": "Nguồn chính",
+    "readOriginal": "Đọc thông báo gốc tại {source}",
+    "siteBy": "Trang web bởi"
   }
 }

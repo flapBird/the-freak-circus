@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { useCallback, useRef, useState } from 'react';
+import { tMsg } from '@/lib/messages';
 
 const LOCALES = [
   { code: 'en', name: 'English', flag: '\u{1F1EC}\u{1F1E7}' },
@@ -58,7 +59,7 @@ export default function LocaleSwitcher() {
         className="flex items-center gap-1.5 px-2 py-1 text-sm text-circus-muted hover:text-circus-gold
                    border border-transparent hover:border-circus-border transition-all rounded-sm"
         onClick={() => setOpen(!open)}
-        aria-label="Switch language"
+        aria-label={tMsg(currentCode, 'ui.switchLanguage')}
         type="button"
       >
         <span className="text-base leading-none">{current.flag}</span>

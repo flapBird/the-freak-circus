@@ -2,10 +2,11 @@
 
 import Image from 'next/image';
 import { useCallback, useState } from 'react';
+import { tMsg } from '@/lib/messages';
 
 const ITCH_EMBED_URL = 'https://g.thefreakcircus.my/the-freak-circus/index.html';
 
-export default function GameEmbed() {
+export default function GameEmbed({ locale }: { locale: string }) {
   const [loaded, setLoaded] = useState(false);
   const [started, setStarted] = useState(false);
   const [like, setLike] = useState<'none' | 'like' | 'dislike'>('none');
@@ -54,11 +55,11 @@ export default function GameEmbed() {
           onKeyDown={(event) => {
             if (event.key === 'Enter' || event.key === ' ') setStarted(true);
           }}
-          aria-label="Click to launch The Freak Circus"
+          aria-label={tMsg(locale, 'game.ariaLabel')}
         >
           <Image
             src="/the-freak-circus-cover.jpg"
-            alt="The Freak Circus cover art"
+            alt={tMsg(locale, 'ui.gameCoverAlt')}
             fill
             sizes="(max-width: 800px) 100vw, 800px"
             priority
@@ -75,7 +76,7 @@ export default function GameEmbed() {
                        transition-all duration-300 group-hover:bg-circus-red/80 group-hover:text-circus-white
                        group-hover:scale-105 active:scale-95"
             type="button"
-            aria-label="Play The Freak Circus"
+            aria-label={tMsg(locale, 'game.playButton')}
           >
             <span
               className="ml-1 block h-0 w-0 border-y-[13px] border-y-transparent border-l-[20px] border-l-current"
@@ -88,14 +89,14 @@ export default function GameEmbed() {
           {!loaded && (
             <div className="absolute inset-0 bg-circus-deep flex items-center justify-center z-10">
               <div className="text-circus-gold font-display text-sm animate-pulse tracking-widest">
-                Loading...
+                {tMsg(locale, 'game.loading')}
               </div>
             </div>
           )}
           <iframe
             key={gameKey}
             src={ITCH_EMBED_URL}
-            title="Play The Freak Circus - Psychological Horror Visual Novel"
+            title={tMsg(locale, 'game.iframeTitle')}
             allowFullScreen
             allow="autoplay; fullscreen"
             sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
@@ -116,7 +117,8 @@ export default function GameEmbed() {
                 ? 'bg-circus-gold/15 border-circus-gold/50 text-circus-gold'
                 : 'border-circus-border text-circus-muted hover:border-circus-gold/30 hover:text-circus-text'
               }`}
-            title="Like"
+            title={tMsg(locale, 'ui.like')}
+            aria-label={tMsg(locale, 'ui.like')}
             type="button"
           >
             <svg className={`w-4 h-4 transition-transform duration-200 ${animLike ? 'scale-125' : ''}`} fill={like === 'like' ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
@@ -133,7 +135,8 @@ export default function GameEmbed() {
                 ? 'bg-circus-red/15 border-circus-red/50 text-circus-crimson'
                 : 'border-circus-border text-circus-muted hover:border-circus-gold/30 hover:text-circus-text'
               }`}
-            title="Dislike"
+            title={tMsg(locale, 'ui.dislike')}
+            aria-label={tMsg(locale, 'ui.dislike')}
             type="button"
           >
             <svg className={`w-4 h-4 transition-transform duration-200 ${animDislike ? 'scale-125' : ''}`} fill={like === 'dislike' ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
@@ -148,7 +151,8 @@ export default function GameEmbed() {
             onClick={reload}
             className="flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border border-circus-border
                        text-circus-muted hover:border-circus-gold/30 hover:text-circus-text transition-all"
-            title="Reload game"
+            title={tMsg(locale, 'ui.reloadGame')}
+            aria-label={tMsg(locale, 'ui.reloadGame')}
             type="button"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,7 +165,8 @@ export default function GameEmbed() {
             onClick={toggleFullscreen}
             className="flex items-center gap-1 px-2.5 py-1.5 rounded text-xs border border-circus-border
                        text-circus-muted hover:border-circus-gold/30 hover:text-circus-text transition-all"
-            title="Toggle fullscreen"
+            title={tMsg(locale, 'ui.toggleFullscreen')}
+            aria-label={tMsg(locale, 'ui.toggleFullscreen')}
             type="button"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

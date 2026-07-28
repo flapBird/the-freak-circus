@@ -34,9 +34,9 @@ export default function CommunityPage({ params: { locale } }: Props) {
             {[1,2,3,4].map(i => (
               <SafeImage key={i}
                 src={`/images/community/fanart-${i}.webp`}
-                alt={`The Freak Circus fan art submission ${i}`}
+                alt={`${tMsg(locale, 'community.fanartTitle')} ${i}`}
                 width={400} height={300} className="w-1/4 min-w-[180px] h-60 rounded-sm"
-                fallback={`🎨 Fan Art ${i} — place at /images/community/fanart-${i}.webp`}
+                fallback={`🎨 ${tMsg(locale, 'community.fanartTitle')} ${i}`}
               />
             ))}
           </div>

@@ -709,5 +709,38 @@
         "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
       }
     ]
+  },
+  "ui": {
+    "mainNavigation": "Main navigation",
+    "wiki": "Wiki",
+    "community": "Community",
+    "news": "News",
+    "switchLanguage": "Switch language",
+    "gameCoverAlt": "The Freak Circus cover art",
+    "like": "Like",
+    "dislike": "Dislike",
+    "reloadGame": "Reload game",
+    "toggleFullscreen": "Toggle fullscreen",
+    "playerDisclaimer": "This optional player is served by a third-party host. thefreakcircus.help is an unofficial fan resource and does not claim that host is operated by, endorsed by, or affiliated with Garula. For the developer-supported version and downloads, use the official itch.io page.",
+    "aboutImageAlt": "The Freak Circus psychological horror visual novel cover art",
+    "charactersImageAlt": "Characters from The Freak Circus",
+    "gameplayImageAlt": "Playing The Freak Circus in a browser",
+    "faqImageAlt": "Frequently asked questions about The Freak Circus",
+    "allCharacters": "All Characters",
+    "appearanceDesign": "Appearance & Design",
+    "personalityTraits": "Personality & Traits",
+    "routeGuide": "Route Guide",
+    "fanArtGallery": "Fan Art & Gallery",
+    "playerImpressions": "Player Impressions",
+    "openDay1Guide": "Open the Day 1 decision guide",
+    "newsTracker": "Source-led update tracker",
+    "newsIntro": "Each entry links to the original developer announcement. We label summaries as fan editorial coverage, not official posts.",
+    "readSummary": "Read summary and source",
+    "allNews": "All news",
+    "editorialSummary": "Fan editorial summary",
+    "published": "Published {date}",
+    "primarySource": "Primary source",
+    "readOriginal": "Read the original announcement at {source}",
+    "siteBy": "Site by"
   }
 }

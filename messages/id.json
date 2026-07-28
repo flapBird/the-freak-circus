@@ -14,700 +14,733 @@
     "nav": {
       "play": "Main Online",
       "characters": "Karakter",
-      "walkthrough": "Panduan",
+      "walkthrough": "Panduan Lengkap",
       "blog": "Blog",
       "about": "Tentang"
     }
   },
   "footer": {
-    "aboutTitle": "About This Site",
-    "aboutText": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula or Neko Bueno. All game content belongs to its original creators.",
-    "quickLinks": "Quick Links",
+    "aboutTitle": "Tentang Situs Ini",
+    "aboutText": "thefreakcircus.help adalah situs penggemar tidak resmi untuk novel visual The Freak Circus. Kami tidak memiliki afiliasi dengan Garula atau Neko Bueno. Semua konten permainan adalah milik pembuat aslinya.",
+    "quickLinks": "Tautan Cepat",
     "links": {
-      "play": "Play The Freak Circus Online",
-      "characters": "Character Guide",
-      "walkthrough": "Walkthrough & Endings",
-      "blog": "Articles & Guides",
-      "official": "Official itch.io Page",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "play": "Mainkan The Freak Circus Online",
+      "characters": "Panduan Karakter",
+      "walkthrough": "Panduan & Akhir Cerita",
+      "blog": "Artikel & Panduan",
+      "official": "Halaman resmi itch.io",
+      "about": "Tentang",
+      "contact": "Kontak",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan"
     },
-    "disclaimerTitle": "Disclaimer",
-    "disclaimerText": "This site contains content from a game rated 18+. The embedded game is served directly from the official CDN. We do not host, redistribute, or modify any game files.",
-    "copyright": "© {year} thefreakcircus.help - Fan Site - All trademarks belong to their respective owners",
-    "extLabel": "(external)"
+    "disclaimerTitle": "Penafian",
+    "disclaimerText": "Situs ini berisi konten dari permainan dengan rating 18+. Pemutar opsional di halaman disediakan oleh pihak ketiga. Situs penggemar ini tidak mengklaim bahwa host tersebut resmi atau dikelola oleh pengembang. Untuk versi yang didukung pengembang, gunakan halaman resmi itch.io.",
+    "copyright": "© {year} thefreakcircus.help - Situs Penggemar - Semua merek dagang adalah milik pemiliknya masing-masing",
+    "extLabel": "(eksternal)"
   },
   "game": {
-    "playButton": "Main",
+    "playButton": "Mainkan The Freak Circus",
     "loading": "Memuat...",
-    "ariaLabel": "Click to launch The Freak Circus",
-    "iframeTitle": "Play The Freak Circus - Psychological Horror Visual Novel"
+    "ariaLabel": "Klik untuk meluncurkan The Freak Circus",
+    "iframeTitle": "Mainkan The Freak Circus - Novel Visual Horor Psikologis"
   },
   "home": {
-    "welcome": "Selamat Datang di Sirkus",
-    "subtitle": "Mainkan novel visual horor psikologis online, gratis",
-    "aboutDivider": "Tentang Game",
+    "welcome": "Selamat datang di Sirkus",
+    "subtitle": "Panduan tidak resmi untuk novel visual horor 18+ karya Garula",
+    "aboutDivider": "Tentang Permainan",
     "whatIsTitle": "Apa Itu The Freak Circus?",
-    "whatIsP1": "The Freak Circus adalah <strong>novel visual horor psikologis</strong> yang dibuat oleh pengembang independen Garula (Neko Bueno).",
-    "whatIsP2": "Anda datang sebagai orang asing ke sirkus terpencil. Apa yang dimulai sebagai rasa ingin tahu dengan cepat menjadi keterikatan.",
+    "whatIsP1": "<strong>The Freak Circus</strong> adalah novel visual 18+ oleh pembuat independen Garula (Neko Bueno), diterbitkan di itch.io. Daftar resmi saat ini mendeskripsikannya sebagai prototipe dan memberi tag sebagai novel visual, horor, romansa, menyeramkan, sirkus, monster, Ren'Py, dan yandere.",
+    "whatIsP2": "Ini adalah panduan penggemar tidak resmi. Kami membedakan informasi yang dikonfirmasi pengembang dari interpretasi penggemar, menautkan pembaca ke devlog asli, dan mengarahkan pemain ke itch.io untuk permainan yang didukung pengembang, unduhan, dan informasi build terbaru.",
     "featuresTitle": "Fitur Utama",
     "features": [
-      "Banyak rute cerita dengan lima karakter yang bisa dipacari",
-      "Narasi bercabang dengan akhir baik dan buruk",
-      "Suasana horor psikologis Gothic dengan seni orisinal",
-      "Dukungan bahasa Mandarin resmi",
-      "Pembaruan konten rutin oleh pengembang",
-      "Gratis dimainkan di browser dan sebagai unduhan"
+      "Daftar resmi itch.io saat ini menandai proyek ini sebagai prototipe",
+      "Tag horor 18+, romansa, sirkus, monster, dan yandere pada daftar resmi",
+      "Pembaruan yang diterbitkan pengembang, pemberitahuan terjemahan, dan devlog perbaikan bug",
+      "Devlog resmi mencantumkan bahasa Inggris, Portugis Brasil, dan Mandarin di antara bahasa permainan",
+      "Opsi browser dan unduhan yang didukung pengembang tersedia di halaman resmi itch.io"
     ],
     "charactersTitle": "Karakter",
-    "charactersP": "Lima pemain membentuk setiap permainan: <a href=\"/id/characters#pierrot\">Pierrot</a>...",
+    "charactersP": "Lima pemain membentuk setiap permainan The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, dan <a href=\"/characters#doctor\">the Doctor</a>. Masing-masing memiliki rute unik, set akhir, dan alur hubungan dengan protagonis.",
     "buttons": {
-      "walkthrough": "Lihat Panduan",
-      "characters": "Kenali Karakter"
+      "walkthrough": "Lihat Panduan Bermain",
+      "characters": "Temui Karakter"
     },
-    "tipsList": [
-      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
-      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
-      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
-      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play."
-    ],
+    "howToPlayTitle": "Cara Bermain",
+    "howToPlayP1": "Untuk versi yang didukung pengembang, mulailah di halaman resmi itch.io. Itu adalah tempat yang dapat diandalkan untuk memeriksa versi terbaru, ketersediaan platform, peringatan konten, dan perbaikan. Situs ini tidak mendistribusikan unduhan game.",
+    "howToPlayP2": "Sebelum memulai, putuskan seberapa banyak informasi spoiler yang ingin Anda ketahui. Buat penyimpanan terpisah sebelum pilihan yang ingin Anda kunjungi kembali, catat versi yang Anda gunakan, dan pisahkan penyimpanan permainan pertama Anda dari eksperimen.",
+    "howToPlayP3": "Panduan kami menandai fakta pihak pertama dan pengamatan penggemar secara terpisah. Jika bagan pilihan tidak memiliki versi game, tangkapan layar, atau sumber, anggap itu belum diverifikasi daripada sebagai kondisi rute yang dijamin.",
+    "faqTitle": "FAQ",
     "faqItems": [
       {
-        "q": "Is The Freak Circus free to play?",
-        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it from the official itch.io page."
+        "q": "Apakah game ini gratis untuk dimainkan?",
+        "a": "Halaman resmi itch.io mencantumkan game ini sebagai gratis dengan pembayaran opsional. Gunakan halaman tersebut untuk versi browser yang didukung pengembang dan unduhan."
       },
       {
-        "q": "Do I need to download anything?",
-        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly."
+        "q": "Apakah saya perlu mengunduh sesuatu?",
+        "a": "Halaman resmi itch.io adalah sumber terbaik untuk petunjuk browser dan unduhan saat ini. Situs penggemar ini tidak mendistribusikan file game."
       },
       {
-        "q": "How long does The Freak Circus take to finish?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five routes and endings, expect 10 to 15 hours total."
+        "q": "Berapa lama waktu yang diperlukan?",
+        "a": "Pengembang tidak menerbitkan perkiraan waktu penyelesaian tetap pada sumber yang dilacak di sini. Jangan menganggap perkiraan penggemar sebagai janji resmi."
       },
       {
-        "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+        "q": "Bisakah saya menyimpan kemajuan saya?",
+        "a": "Pemutar browser mencakup kontrol impor dan ekspor penyimpanan. Periksa halaman resmi dan catatan versi saat ini sebelum memindahkan penyimpanan antar versi atau perangkat."
       },
       {
-        "q": "What makes The Freak Circus unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+        "q": "Apa yang membuat novel visual ini unik?",
+        "a": "Novel ini menonjol karena suasana horor psikologis gotik, karakter moral yang kompleks, dan narasi bercabang dalam di mana setiap pilihan memiliki bobot nyata. Seni tangan dan soundtrack menghantui menciptakan pengalaman imersif yang berbeda dari novel visual biasanya."
       },
       {
-        "q": "Will progress carry over between devices?",
-        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+        "q": "Apakah kemajuan akan terbawa antar perangkat?",
+        "a": "Penyimpanan disimpan secara lokal di browser Anda. Unduh game dari itch.io untuk mentransfer file penyimpanan antar perangkat."
       },
       {
-        "q": "Is The Freak Circus suitable for all ages?",
-        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+        "q": "Apakah cocok untuk semua usia?",
+        "a": "Tidak. Game ini berperingkat 18+ dan memuat horor psikologis, hubungan posesif, roman gelap, dan tema dewasa."
       },
       {
-        "q": "What is the difference between routes?",
-        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+        "q": "Apa perbedaan antara rute?",
+        "a": "Setiap rute menawarkan perspektif yang sepenuhnya berbeda tentang cerita. Pierrot berfokus pada ketergantungan psikologis dan kontrol emosional. Harlequin mengeksplorasi kekacauan dan penampilan. Jester meneliti etika hiburan. The Ticket Taker mengungkap lore terdalam tentang sirkus itu sendiri. The Doctor berisi konten yang paling intim dan mengganggu."
       },
       {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+        "q": "Apakah saya bisa bermain di ponsel?",
+        "a": "Ini berjalan di sebagian besar peramban seluler modern, meskipun dioptimalkan untuk desktop dan tablet agar mendapatkan pengalaman terbaik."
       }
     ],
-    "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch it directly on this page. This visual novel uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
-    "howToPlayP2": "Each playthrough of The Freak Circus takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead toward one or two of these characters based on the choices you make early in the story.",
-    "howToPlayP3": "New players of The Freak Circus should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
-    "faqTitle": "The Freak Circus FAQ",
-    "storyTitle": "The Freak Circus Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history.",
-    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
-    "tipsTitle": "Tips for Playing The Freak Circus",
-    "whyPlayTitle": "Why Play The Freak Circus?",
-    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets this visual novel apart from typical anime-style titles. Combined with a branching narrative system that tracks over a dozen variables per playthrough, it delivers a different experience every time you play.",
-    "storyP3": "The circus itself is a character in its own right. The tents shift positions between visits, the carnival games seem to know your thoughts, and the performers remember conversations you never had. By the time you realize the circus is alive, it may already be too late to leave.",
-    "gameplayP": "Gameplay centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others are deceptively simple — a single word can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even seemingly minor interactions can cascade into major consequences later. The save system lets you revisit key decision points, making it easy to explore alternative paths without restarting from scratch. Each choice matters, and no two playthroughs ever feel quite the same."
+    "storyTitle": "Cerita & Premis",
+    "storyP1": "Sirkus Aneh dimulai ketika kamu tersandung pada sebuah sirkus keliling. Tertarik oleh tarikan yang tak dapat dijelaskan, kamu melangkah melewati pintu masuk ke dunia di mana realitas berpura-pura. Setiap pemain menawarkan perspektif yang berbeda tentang sejarah tersembunyi sirkus — Pierrot menangis melalui penampilannya tetapi melihat segalanya. ",
+    "storyP2": "Saat malam tiba, topeng-topeng mulai tergelincir. Kamu menghadapi kenyataan yang tidak nyaman tentang keinginan, kontrol, dan cerita yang kita ceritakan pada diri sendiri. Akhir cerita berkisar dari lembut hingga menakutkan, dan permainan tidak menilai jalur mana pun yang kamu pilih. Suasana bergeser antara siang dan malam, dengan setiap bagian mengungkapkan suasana dan rahasia yang berbeda. ",
+    "tipsTitle": "Tips untuk Bermain",
+    "tipsList": [
+      "Luangkan waktu untuk membaca setiap adegan. Detail kecil sering menjadi penting di bagian cerita berikutnya.",
+      "Jangan muat ulang simpanan saat permainan pertama Anda. Keputusan alami Anda menghasilkan pengalaman yang paling bermakna.",
+      "Mainkan setidaknya dua kali — permainan kedua akan mengungkap dialog dan adegan yang terlewat yang tidak bisa Anda lihat pada kali pertama.",
+      "Perhatikan dengan cermat Pembawa Tiket. Dia mengatakan lebih banyak daripada yang terlihat sepanjang cerita.",
+      "Setiap rute karakter memiliki Akhir Baik dan setidaknya satu Akhir Buruk. Kondisinya spesifik — lihat panduan setelah permainan pertama Anda.",
+      "Gunakan sistem simpan pada titik keputusan penting untuk menjelajahi jalur alternatif tanpa kehilangan kemajuan."
+    ],
+    "whyPlayTitle": "Kenapa Bermain?",
+    "whyPlayText": "Panduan ini dirancang untuk berguna setelah pembaruan: ia mempertahankan tautan sumber resmi, memberi tanggal pada setiap ringkasan editorial, dan menghindari mengubah rumor komunitas menjadi tanggal rilis, akhir, atau persyaratan rute.",
+    "storyP3": "Sirkus itu sendiri adalah karakter. Tenda berpindah posisi antara kunjungan, permainan karnaval seolah mengetahui pikiran Anda, dan para penghibur mengingat percakapan yang bahkan tidak pernah Anda lakukan. Pengalaman ini bertahan lama setelah Anda selesai, mengundang Anda kembali untuk menjelajahi jalur yang belum Anda ambil.",
+    "gameplayP": "Gameplay berfokus pada pilihan dialog sepanjang setiap hari. Beberapa pilihan memiliki batas waktu, menambah ketegangan dalam percakapan. Pilihan lainnya terlihat sederhana tetapi dapat mengubah jalur karakter secara keseluruhan. Permainan melacak tingkat afinitas dengan setiap karakter, flag tersembunyi untuk cabang cerita, dan pilihan kumulatif yang memengaruhi ending akhir. Bahkan interaksi kecil dapat berdampak besar di kemudian hari."
   },
   "about": {
     "title": "Tentang The Freak Circus",
-    "subtitle": "Everything you need to know about the game and this site.",
-    "gameSection": "Game",
-    "gameP1": "The Freak Circus is a dark psychological horror visual novel developed by the independent creator Garula (Neko Bueno). It is published on itch.io and has accumulated a dedicated international fanbase through word-of-mouth across platforms including TikTok, Tumblr, and Reddit.",
-    "gameP2": "The game follows an unnamed protagonist who visits a mysterious, isolated circus and becomes entangled with five dangerous performers. The narrative unfolds across multiple days, with player choices determining character routes and endings.",
+    "subtitle": "Segalanya yang perlu Anda ketahui tentang permainan ini dan situs ini.",
+    "gameSection": "Permainan",
+    "gameP1": "The Freak Circus adalah novel visual horor psikologis gelap yang dikembangkan oleh pembuat independen Garula (Neko Bueno). Permainan ini diterbitkan di itch.io dan telah mengumpulkan basis penggemar internasional yang setia melalui rekomendasi dari mulut ke mulut di berbagai platform termasuk TikTok, Tumblr, dan Reddit.",
+    "gameP2": "Permainan mengikuti protagonis tanpa nama yang mengunjungi sirkus misterius dan terpencil serta terjerat dengan lima penampil yang berbahaya. Narasi berkembang selama beberapa hari, dengan pilihan pemain menentukan jalur dan ending karakter.",
     "siteSection": "Situs Ini",
-    "siteP1": "thefreakcircus.help is an unofficial fan resource offering the game embed, character guides, walkthroughs, and articles. We embed the game via the official CDN and do not host, redistribute, or modify any game files.",
-    "siteP2": "To support the developer directly, visit the <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
-    "faqDivider": "Pertanyaan Umum",
+    "siteP1": "thefreakcircus.help adalah sumber penggemar tidak resmi dengan panduan karakter, ringkasan pembaruan, dan artikel. Pemutar opsional di halaman disediakan oleh pihak ketiga; kami tidak mengklaim bahwa penyedia tersebut resmi, dijalankan oleh pengembang, atau didukung oleh Garula. Kami tidak mendistribusikan unduhan permainan.",
+    "siteP2": "Untuk mendukung pengembang secara langsung, kunjungi halaman <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
+    "faqDivider": "Pertanyaan yang Sering Diajukan",
     "faq": [
       {
-        "q": "Who made The Freak Circus?",
-        "a": "The Freak Circus was created by Garula, also known as Neko Bueno. It is an independent project published on itch.io."
+        "q": "Siapa yang membuat The Freak Circus?",
+        "a": "The Freak Circus dibuat oleh Garula, yang juga dikenal sebagai Neko Bueno. Ini adalah proyek independen yang diterbitkan di itch.io."
       },
       {
-        "q": "Is The Freak Circus free?",
-        "a": "Yes. The base game is free to play in browser and free to download. The developer offers optional Patreon tiers for early access to new content."
+        "q": "Apakah The Freak Circus gratis?",
+        "a": "Ya. Permainan dasar dapat dimainkan secara gratis di browser dan gratis untuk diunduh. Pengembang menawarkan tingkatan Patreon opsional untuk akses awal ke konten baru."
       },
       {
-        "q": "Is this site official?",
-        "a": "No. thefreakcircus.help is an unofficial fan site. We are not affiliated with Garula or Neko Bueno. All game assets belong to the original creator."
+        "q": "Apakah situs ini resmi?",
+        "a": "Tidak. thefreakcircus.help adalah situs penggemar tidak resmi. Kami tidak berafiliasi dengan Garula atau Neko Bueno. Semua aset permainan dimiliki oleh pembuat asli."
       },
       {
-        "q": "What content warnings does the game have?",
-        "a": "The Freak Circus is rated 18+ and contains psychological horror themes, possessive and controlling relationship dynamics, dark romance, and mature content. Please review the official itch.io page for the full content warning list."
+        "q": "Peringatan konten apa yang ada di permainan ini?",
+        "a": "The Freak Circus berperingkat 18+ dan berisi tema horor psikologis, dinamika hubungan yang posesif dan mengendalikan, romansa gelap, dan konten dewasa. Silakan tinjau halaman resmi itch.io untuk daftar peringatan konten lengkap."
       },
       {
-        "q": "How do I download the game?",
-        "a": "Download links for Windows, macOS, and Linux are available on the official itch.io page. You can also play the browser version embedded on the homepage of this site."
+        "q": "Bagaimana cara mengunduh permainan?",
+        "a": "Tautan unduhan untuk Windows, macOS, dan Linux tersedia di halaman resmi itch.io. Anda juga dapat memainkan versi browser yang tertanam di beranda situs ini."
       },
       {
-        "q": "Does the game support Chinese?",
-        "a": "Yes. The Freak Circus includes official Simplified Chinese language support."
+        "q": "Apakah permainan ini mendukung bahasa Mandarin?",
+        "a": "Ya. The Freak Circus menyertakan dukungan bahasa Mandarin Sederhana secara resmi."
       }
     ],
-    "triviaTitle": "Character Trivia & Fun Facts",
+    "triviaTitle": "Trivia Karakter & Fakta Menarik",
     "trivia": [
       {
-        "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot official height has not been disclosed by the developer. Fan estimates based on in-game sprite comparisons suggest he is of average to tall build. Check the <a href=\"/en/characters/pierrot\">Pierrot character page</a> for more details."
+        "q": "Seberapa tinggi Pierrot dari The Freak Circus?",
+        "a": "Tinggi resmi Pierrot belum diungkapkan oleh pengembang. Perkiraan penggemar berdasarkan perbandingan sprite dalam permainan menunjukkan bahwa ia memiliki postur rata-rata hingga tinggi. Periksa halaman karakter <a href=\"/en/characters/pierrot\">Pierrot</a> untuk detail lebih lanjut."
       },
       {
-        "q": "Is Pierrot a yandere type?",
-        "a": "Pierrot is frequently categorized by fans as a 'silent yandere' — his possessiveness develops gradually rather than manifesting immediately. His route explores themes of obsession and emotional control. Visit the <a href=\"/en/characters/pierrot\">Pierrot route guide</a> for more insight."
+        "q": "Apakah Pierrot tipe yandere?",
+        "a": "Pierrot sering dikategorikan oleh penggemar sebagai 'yandere diam' — sifat posesifnya berkembang secara bertahap, bukan langsung terlihat. Jalur ceritanya mengeksplorasi tema obsesi dan kontrol emosional. Kunjungi panduan jalur <a href=\"/en/characters/pierrot\">Pierrot</a> untuk wawasan lebih lanjut."
       },
       {
-        "q": "What is Harlequin relationship with Pierrot?",
-        "a": "Harlequin and Pierrot share one of the most complex dynamics in The Freak Circus. Their relationship is part rivalry, part codependence, with their shared history involving Columbina. This backstory is revealed differently depending on which route you play."
+        "q": "Apa hubungan Harlequin dengan Pierrot?",
+        "a": "Harlequin dan Pierrot memiliki salah satu dinamika paling kompleks di The Freak Circus. Hubungan mereka merupakan kombinasi antara persaingan dan ketergantungan, dengan sejarah bersama yang melibatkan Columbina. Latar belakang ini terungkap berbeda tergantung jalur yang Anda mainkan."
       },
       {
-        "q": "What happened to Columbina in The Freak Circus?",
-        "a": "Columbina backstory is deliberately kept ambiguous and is revealed in fragments through Pierrot and Harlequin routes. She appears only in flashback sequences and is central to understanding the circus hidden history. Read the <a href=\"/en/characters/columbina\">Columbina lore page</a> for what is known."
+        "q": "Apa yang terjadi dengan Columbina di The Freak Circus?",
+        "a": "Latar belakang Columbina sengaja dibuat ambigu dan terungkap secara sebagian melalui jalur Pierrot dan Harlequin. Dia hanya muncul dalam adegan kilas balik dan menjadi pusat untuk memahami sejarah tersembunyi sirkus. Baca halaman lore <a href=\"/en/characters/columbina\">Columbina</a> untuk informasi yang diketahui."
       },
       {
-        "q": "Can you romance the Ticket Taker?",
-        "a": "Yes. The Ticket Taker has a romanceable route in The Freak Circus. His route requires persistence and careful attention to dialogue. He reveals the deepest lore about the circus origins. See the <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> for tips."
+        "q": "Apakah bisa menjalin hubungan romantis dengan Ticket Taker?",
+        "a": "Ya. Ticket Taker memiliki jalur yang dapat diromantisasi di The Freak Circus. Jalurnya membutuhkan ketekunan dan perhatian khusus pada dialog. Dia mengungkap lore terdalam tentang asal-usul sirkus. Lihat panduan jalur <a href=\"/en/characters/ticket-taker\">Ticket Taker</a> untuk tips."
       },
       {
-        "q": "Does The Doctor have a good ending?",
-        "a": "Yes, the Doctor route has at least one Good Ending. The Doctor route has been expanded with additional content. Accept his examination scenes and make specific dialogue choices to unlock the Clean Hands ending. See the <a href=\"/en/characters/the-doctor\">Doctor character page</a> for details."
+        "q": "Apakah The Doctor memiliki akhir yang baik?",
+        "a": "Ya, jalur Doctor memiliki setidaknya satu Akhir Baik. Jalur Doctor telah diperluas dengan konten tambahan. Terima adegannya saat pemeriksaan dan pilih dialog tertentu untuk membuka akhir Clean Hands. Lihat halaman karakter <a href=\"/en/characters/the-doctor\">Doctor</a> untuk detail."
       }
     ]
   },
   "characters": {
-    "pageTitle": "The Performers",
-    "title": "Characters of The Freak Circus",
-    "subtitle": "Five extraordinary performers. Five routes. One fate.",
-    "routeTip": "Route Tip",
+    "pageTitle": "Para Penampil",
+    "title": "Karakter dari The Freak Circus",
+    "subtitle": "Lima penampil luar biasa. Lima jalur. Satu takdir.",
+    "routeTip": "Tips Jalur",
     "list": [
       {
         "id": "pierrot",
         "name": "Pierrot",
-        "role": "The Weeping Clown",
-        "description": "Controlled, melancholic, and intensely perceptive. Pierrot is the emotional anchor of the circus, performing sorrow for crowds who laugh at his tears. His route is the most psychologically demanding and offers the most lore about the circus's true nature.",
+        "role": "Badut Menangis",
+        "description": "Terkontrol, melankolis, dan sangat peka. Pierrot adalah jangkar emosional sirkus, menampilkan kesedihan untuk penonton yang menertawakan air matanya. Jalurnya paling menantang secara psikologis dan menawarkan lore terbesar tentang sifat sebenarnya sirkus.",
         "traits": [
-          "Melancholic",
-          "Possessive",
-          "Poetic",
-          "Dangerous"
+          "Melankolis",
+          "Posesif",
+          "Puitis",
+          "Berbahaya"
         ],
-        "routeTip": "Choose introspective and empathetic dialogue in Day 1. Avoid defiance in Day 2 to unlock the Good Ending."
+        "routeTip": "Pilih dialog introspektif dan empatik pada Hari 1. Hindari pembangkangan pada Hari 2 untuk membuka Akhir Baik."
       },
       {
         "id": "harlequin",
         "name": "Harlequin",
-        "role": "The Chaotic Performer",
-        "description": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. His relationship with Pierrot is one of the game's central dynamics.",
+        "role": "Penghibur Kacau",
+        "description": "Tidak dapat diprediksi dan teatrikal, Harlequin menyembunyikan masa lalu yang bergolak di balik pertunjukan yang selalu berubah. Hubungannya dengan Pierrot adalah salah satu dinamika utama dalam permainan.",
         "traits": [
-          "Volatile",
-          "Charming",
-          "Protective",
-          "Layered"
+          "Tidak stabil",
+          "Menawan",
+          "Protektif",
+          "Bertingkat"
         ],
-        "routeTip": "Select the red balloon in Day 1. Use bold, playful responses during tent encounters."
+        "routeTip": "Pilih balon merah pada Hari 1. Gunakan respons berani dan suka bermain selama pertemuan di tenda."
       },
       {
         "id": "jester",
         "name": "Jester",
-        "role": "The Trickster",
-        "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. His route explores the ethics of entertainment and what it means to make others laugh.",
+        "role": "Si Penipu",
+        "description": "Jester berada di antara para penghibur lain, tidak sepenuhnya setia maupun sepenuhnya antagonis. Jalurnya mengeksplorasi etika hiburan dan apa artinya membuat orang lain tertawa.",
         "traits": [
-          "Ambiguous",
-          "Quick-witted",
-          "Lonely",
-          "Calculating"
+          "Ambigu",
+          "Cerdas",
+          "Kesepian",
+          "Berdasarkan perhitungan"
         ],
-        "routeTip": "Jester's route unlocks in Day 2. Respond with humor but avoid direct confrontation."
+        "routeTip": "Jalur Jester terbuka pada Hari 2. Tanggapi dengan humor tetapi hindari konfrontasi langsung."
       },
       {
         "id": "ticket-taker",
-        "name": "Ticket Taker",
-        "role": "The Gatekeeper",
-        "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize.",
+        "name": "Pengambil Tiket",
+        "role": "Penjaga Gerbang",
+        "description": "Karakter pertama yang kamu temui. Pengambil Tiket mengontrol siapa yang masuk dan siapa yang keluar, dan telah mengamati semuanya di sirkus ini lebih lama daripada yang disadari orang lain.",
         "traits": [
-          "Observant",
-          "Cryptic",
-          "Stern",
-          "Ancient"
+          "Pengamat",
+          "Misterius",
+          "Tegas",
+          "Kuno"
         ],
-        "routeTip": "Engage directly with every question the Ticket Taker asks. His route requires persistence."
+        "routeTip": "Terlibat langsung dengan setiap pertanyaan yang diajukan Pengambil Tiket. Jalurnya membutuhkan ketekunan."
       },
       {
         "id": "doctor",
-        "name": "Doctor",
-        "role": "The Surgeon of Secrets",
-        "description": "The Doctor's route is the most recently expanded and contains some of the game's darkest content. He is methodical, intimate, and deeply unsettling.",
+        "name": "Dokter",
+        "role": "Ahli Bedah Rahasia",
+        "description": "Jalur Dokter adalah yang paling baru diperluas dan berisi beberapa konten tergelap dalam permainan. Dia metodis, intim, dan sangat mengganggu.",
         "traits": [
-          "Clinical",
-          "Intimate",
-          "Controlling",
-          "Complex"
+          "Klinis",
+          "Intim",
+          "Mengontrol",
+          "Kompleks"
         ],
-        "routeTip": "The Doctor's content is largely contained to Day 2. Accept his examination scenes to progress his route."
+        "routeTip": "Konten Dokter sebagian besar terdapat pada Hari 2. Terima adegan pemeriksaannya untuk melanjutkan jalurnya."
       }
     ],
     "pierrot": {
       "meta": {
-        "title": "Pierrot - The Freak Circus Character Guide",
-        "desc": "Meet Pierrot the Weeping Clown from The Freak Circus. Learn about his yandere-type personality, route guide, fanart, and role in the story."
+        "title": "Pierrot - Panduan Karakter Sirkus Aneh",
+        "desc": "Temui Pierrot, Badut Menangis dari Sirkus Aneh. Pelajari tentang kepribadiannya yang tipe yandere, panduan jalur, fanart, dan perannya dalam cerita."
       },
-      "role": "The Weeping Clown",
-      "appearance": "Pierrot has a lean, androgynous build with pale skin and dark hollowed eyes. He wears a classic white clown costume with black diamond accents and a single tear painted beneath his left eye. His official height has not been disclosed. He is often depicted holding a wilted flower or a broken mirror.",
+      "role": "Badut Menangis",
+      "appearance": "Pierrot memiliki tubuh ramping dan androgini dengan kulit pucat dan mata gelap cekung. Dia mengenakan kostum badut putih klasik dengan aksen berlian hitam dan satu tetes air mata digambar di bawah mata kirinya. Tinggi resminya belum diungkapkan. Dia sering digambarkan memegang bunga layu atau cermin pecah.",
       "traits": [
-        "Melancholic",
-        "Possessive",
-        "Poetic",
-        "Dangerous",
-        "Yandere-type"
+        "Melankolis",
+        "Posesif",
+        "Puitis",
+        "Berbahaya",
+        "Tipe yandere"
       ],
-      "personality": "Pierrot is controlled, melancholic, and intensely perceptive. He performs sorrow for crowds who laugh at his tears, but behind the performance lies a deeply possessive and dangerous personality. Fans often categorize him as a 'silent yandere' type — his affection turns obsessive gradually, making his route one of the most psychologically intense in the game.",
-      "routeDesc": "Pierrot's route is the most psychologically demanding in the game. To pursue his route, choose introspective and empathetic dialogue options during Day 1 carnival encounters. Follow the white cloak during the tent scene. During Day 2, prioritize understanding over resistance to unlock the Good Ending. Pierrot's route reveals the deepest lore about the circus history and his relationship with Columbina.",
+      "personality": "Pierrot dikendalikan, melankolis, dan sangat tajam dalam mempersepsi. Dia menampilkan kesedihan untuk kerumunan yang menertawakan air matanya, tetapi di balik pertunjukan itu terdapat kepribadian yang sangat posesif dan berbahaya. Penggemar sering mengkategorikannya sebagai tipe 'yandere diam' — kasih sayangnya berubah menjadi obsesif secara bertahap, membuat rutenya menjadi salah satu yang paling intens secara psikologis dalam permainan.",
+      "routeDesc": "Rute Pierrot adalah yang paling menuntut secara psikologis dalam permainan. Untuk mengikuti rutenya, pilih opsi dialog yang introspektif dan empatik selama pertemuan di karnaval Hari 1. Ikuti jubah putih saat adegan tenda. Pada Hari 2, prioritaskan pemahaman daripada perlawanan untuk membuka Good Ending. Rute Pierrot mengungkapkan sejarah sirkus dan hubungan terdalamnya dengan Columbina.",
       "fanSections": [
-        "Weeping Clown portrait",
-        "Pierrot and Harlequin confrontation scene",
-        "Pierrot route CG from Day 2"
+        "Potret Badut Menangis",
+        "Adegan konfrontasi Pierrot dan Harlequin",
+        "CG rute Pierrot dari Hari 2"
       ],
       "reviews": [
-        "Pierrot's route stayed with me for days. The writing makes you feel genuinely torn between wanting to save him and needing to escape him.",
-        "The psychological tension in Pierrot's route is unmatched. The voice acting for his breakdown scene is incredible.",
-        "I went into this game expecting a simple romance and came out emotionally devastated by Pierrot's storyline."
+        "Rute Pierrot tetap menghantui saya selama beberapa hari. Tulisan ini membuat Anda benar-benar merasa terpecah antara ingin menyelamatkannya dan perlu melarikan diri darinya.",
+        "Ketegangan psikologis dalam rute Pierrot tak tertandingi. Sulih suara untuk adegan kehancurannya luar biasa.",
+        "Saya masuk ke permainan ini mengira hanya akan ada roman sederhana dan keluar dengan perasaan emosional yang hancur oleh alur cerita Pierrot."
       ]
     },
     "harlequin": {
       "meta": {
-        "title": "Harlequin - The Freak Circus Character Guide",
-        "desc": "Meet Harlequin the Chaotic Performer from The Freak Circus. Learn about his volatile personality, route tips, and role in the story."
+        "title": "Harlequin - Panduan Karakter The Freak Circus",
+        "desc": "Temui Harlequin si Penampil Kacau dari The Freak Circus. Pelajari tentang kepribadiannya yang mudah berubah, tips rute, dan perannya dalam cerita."
       },
-      "role": "The Chaotic Performer",
-      "appearance": "Harlequin has a tall, athletic build with sharp facial features and wild, two-toned hair. His costume is a traditional diamond-patterned harlequin suit in red and gold, complete with a half-mask that he wears at an angle. His official height has not been disclosed by the developer.",
+      "role": "Si Penampil Kacau",
+      "appearance": "Harlequin memiliki tubuh tinggi dan atletis dengan fitur wajah tajam dan rambut liar berkombinasi dua warna. Kostumnya adalah setelan harlequin bermotif berlian tradisional berwarna merah dan emas, lengkap dengan setengah topeng yang ia kenakan dengan posisi miring. Tinggi resmi karakter ini belum diungkap oleh pengembang.",
       "traits": [
-        "Volatile",
-        "Charming",
-        "Protective",
-        "Layered",
+        "Mudah berubah",
+        "Mempesona",
+        "Protektif",
+        "Berlapis",
         "Chaotic-neutral"
       ],
-      "personality": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. One moment he is playful and flirtatious, the next he is dangerous and unreadable. His relationship with Pierrot is one of the most complex dynamics in The Freak Circus — part rivalry, part codependence.",
-      "routeDesc": "Harlequin's route rewards bold choices. Select the red balloon during the Day 1 carnival opening. Use playful, daring responses during main tent encounters. His route escalates quickly during Day 2 — embrace the chaos rather than resist it. Harlequin's route explores themes of performance, identity, and the cost of wearing a mask.",
+      "personality": "Tidak terduga dan teatrikal, Harlequin menutupi masa lalu yang penuh gejolak di balik pertunjukan yang selalu berubah. Kadang ia penuh guyonan dan menggoda, di saat lain ia berbahaya dan sulit dibaca. Hubungannya dengan Pierrot adalah salah satu dinamika paling kompleks di The Freak Circus — sebagian rivalitas, sebagian codependent.",
+      "routeDesc": "Rute Harlequin memberi imbalan untuk pilihan yang berani. Pilih balon merah saat pembukaan karnaval Hari 1. Gunakan respons yang main-main dan berani selama pertemuan di tenda utama. Rutenya meningkat dengan cepat pada Hari 2 — hadapi kekacauan tersebut daripada menolaknya. Rute Harlequin mengeksplorasi tema pertunjukan, identitas, dan biaya memakai topeng.",
       "fanSections": [
-        "Harlequin performance CG",
-        "Harlequin and Pierrot tension scene",
-        "Harlequin route key art"
+        "CG pertunjukan Harlequin",
+        "Adegan ketegangan Harlequin dan Pierrot",
+        "Seni kunci rute Harlequin"
       ],
       "reviews": [
-        "Harlequin is the kind of character you hate to love. His route made me genuinely uncomfortable in the best way.",
-        "The chaos energy of Harlequin is off the charts. Every scene with him keeps you guessing.",
-        "His backstory reveal in Day 2 completely changed how I saw his character. The writing is superb."
+        "Harlequin adalah tipe karakter yang membuatmu membenci tapi tetap mencintainya. Rutenya membuatku benar-benar tidak nyaman dengan cara terbaik.",
+        "Energi kekacauan dari Harlequin sangat tinggi. Setiap adegan dengannya membuatmu terus menebak.",
+        "Pengungkapan latar belakangnya pada Hari 2 sepenuhnya mengubah cara aku melihat karakternya. Penulisannya luar biasa."
       ]
     },
     "jester": {
       "meta": {
-        "title": "Jester - The Freak Circus Character Guide",
-        "desc": "Meet Jester the Trickster from The Freak Circus. Learn about his ambiguous personality, route guide, and role in the story."
+        "title": "Jester - Panduan Karakter The Freak Circus",
+        "desc": "Temui Jester si Trickster dari The Freak Circus. Pelajari tentang kepribadiannya yang ambigu, panduan rutenya, dan peranannya dalam cerita."
       },
-      "role": "The Trickster",
-      "appearance": "Jester has a smaller, agile build with wide, expressive eyes and a permanent smirk. His costume is a multi-colored jester outfit with bells on the pointed collar and curled shoes. His official height and age have not been disclosed.",
+      "role": "Sang Trickster",
+      "appearance": "Jester memiliki tubuh kecil dan gesit dengan mata lebar yang ekspresif dan senyum permanen. Kostumnya adalah pakaian badut berwarna-warni dengan lonceng di kerah runcing dan sepatu melengkung. Tinggi dan usianya yang resmi belum diungkapkan.",
       "traits": [
-        "Ambiguous",
-        "Quick-witted",
-        "Lonely",
-        "Calculating",
-        "Trickster archetype"
+        "Ambigu",
+        "Cerdas",
+        "Terseorangan",
+        "Menghitung",
+        "Arketipe Trickster"
       ],
-      "personality": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He plays tricks on everyone but never reveals his own hand. His ambiguous alignment makes him one of the most unpredictable characters in The Freak Circus — you never know if he is helping you or setting you up.",
-      "routeDesc": "Jester's route is unlocked during Day 2. Respond with humor and wit, but avoid direct confrontation. Jester respects cleverness over brute honesty. His route explores the ethics of entertainment and what it means to make others laugh while hiding your own pain.",
+      "personality": "Jester ada di antara para penampil lain, tidak sepenuhnya setia maupun sepenuhnya antagonis. Dia sering mempermainkan semua orang tetapi tidak pernah menunjukkan niat sesungguhnya. Keseimbangan yang ambigu membuatnya menjadi salah satu karakter yang paling tak terduga di The Freak Circus — kamu tidak pernah tahu apakah dia membantumu atau menjebakmu.",
+      "routeDesc": "Rute Jester dibuka pada Hari 2. Berikan respons dengan humor dan kecerdikan, tetapi hindari konfrontasi langsung. Jester menghargai kecerdikan lebih daripada kejujuran kasar. Rutenya mengeksplorasi etika hiburan dan apa artinya membuat orang lain tertawa sambil menyembunyikan rasa sakitmu sendiri.",
       "fanSections": [
-        "Jester trickster pose CG",
-        "Jester and protagonist dialogue scene",
-        "Jester route mood art"
+        "CG pose trickster Jester",
+        "Adegan dialog Jester dan protagonis",
+        "Seni suasana rute Jester"
       ],
       "reviews": [
-        "Jester quickly became my favorite. His humor hides so much pain and the route reveals it beautifully.",
-        "The Jester route has the best writing for comedic timing. Some lines genuinely made me laugh out loud.",
-        "His route twist in the second act caught me completely off guard. Do not underestimate him."
+        "Jester cepat menjadi favoritku. Humornya menyembunyikan begitu banyak rasa sakit dan rutenya mengungkapkannya dengan indah.",
+        "Rute Jester memiliki penulisan terbaik untuk timing komedi. Beberapa dialog benar-benar membuatku tertawa terbahak-bahak.",
+        "Twist rutenya di babak kedua mengejutkanku sepenuhnya. Jangan meremehkannya."
       ]
     },
     "doctor": {
       "meta": {
-        "title": "The Doctor - The Freak Circus Character Guide",
-        "desc": "Meet the Doctor, the Surgeon of Secrets from The Freak Circus. Learn about his clinical personality, route guide, and role in the story."
+        "title": "The Doctor - Panduan Karakter The Freak Circus",
+        "desc": "Temui Dokter, Ahli Bedah Rahasia dari The Freak Circus. Pelajari tentang kepribadiannya yang klinis, panduan rutenya, dan perannya dalam cerita."
       },
-      "role": "The Surgeon of Secrets",
-      "appearance": "The Doctor is tall and composed, with sharp features and cold, analytical eyes. He wears a vintage medical coat stained with what appears to be old blood, layered over a formal waistcoat. His official height has not been disclosed. He carries a leather doctor bag that never leaves his side.",
+      "role": "Ahli Bedah Rahasia",
+      "appearance": "Dokter tinggi dan tenang, dengan fitur tajam dan mata yang dingin serta analitis. Ia mengenakan jas medis vintage yang ternoda oleh apa yang tampak seperti darah lama, dilapisi di atas rompi resmi. Tinggi resmi tubuhnya belum diungkapkan. Ia membawa tas dokter dari kulit yang tak pernah ditinggalkan dari sisinya.",
       "traits": [
-        "Clinical",
-        "Intimate",
-        "Controlling",
-        "Complex",
-        "Sadistic streak"
+        "Klinis",
+        "Intim",
+        "Mengontrol",
+        "Kompleks",
+        "Aliran sadis"
       ],
-      "personality": "The Doctor is methodical, intimate, and deeply unsettling. He approaches every interaction as if conducting an examination — clinical in speech, unnerving in touch. His route contains some of the darkest content in The Freak Circus, exploring themes of control, vulnerability, and the ethics of care.",
-      "routeDesc": "The Doctor's content is largely concentrated in Day 2. Accept his examination scenes to progress his route. His route requires a willingness to engage with uncomfortable dynamics. The Doctor route has been recently expanded with new content by the developer, adding additional scenes and an extended ending sequence.",
+      "personality": "Dokter metodis, intim, dan sangat mengganggu. Ia menjadikan setiap interaksi seperti sedang melakukan pemeriksaan — berbicara secara klinis, menyentuh dengan menakutkan. Rutennya berisi beberapa konten tergelap di The Freak Circus, mengeksplorasi tema kontrol, kerentanan, dan etika perawatan.",
+      "routeDesc": "Konten Dokter sebagian besar terkonsentrasi di Hari 2. Terima adegan pemeriksaannya untuk melanjutkan rutenya. Rutenya mengharuskan kesediaan untuk terlibat dengan dinamika yang tidak nyaman. Rute Dokter baru-baru ini diperluas dengan konten baru oleh pengembang, menambahkan adegan tambahan dan urutan akhir yang diperpanjang.",
       "fanSections": [
-        "Doctor examination room CG",
-        "Doctor and protagonist tense scene",
-        "Doctor character concept art"
+        "CG ruang pemeriksaan Dokter",
+        "Adegan tegang Dokter dan protagonis",
+        "Concept art karakter Dokter"
       ],
       "reviews": [
-        "The Doctor's route is not for everyone, but if you enjoy dark romance with psychological depth, it is incredibly well-written.",
-        "I was genuinely unsettled during his examination scenes. The game does not hold back.",
-        "The expanded content for his route adds so much depth. The new ending made me rethink his entire character."
+        "Rute Dokter tidak untuk semua orang, tetapi jika Anda menyukai roman gelap dengan kedalaman psikologis, itu sangat ditulis dengan baik.",
+        "Saya benar-benar merasa terganggu selama adegan pemeriksaannya. Permainan ini tidak menahan diri.",
+        "Konten yang diperluas untuk rutenya menambah begitu banyak kedalaman. Akhir yang baru membuat saya memikirkan kembali seluruh karakternya."
       ]
     },
     "columbina": {
       "meta": {
-        "title": "Columbina - The Freak Circus Character Guide",
-        "desc": "Meet Columbina from The Freak Circus. Learn about her mysterious past with Pierrot, her role in the circus lore, and what fans speculate about her."
+        "title": "Columbina - Panduan Karakter The Freak Circus",
+        "desc": "Temui Columbina dari The Freak Circus. Pelajari tentang masa lalunya yang misterius dengan Pierrot, perannya dalam cerita sirkus, dan apa yang diperkirakan para penggemar tentangnya."
       },
-      "role": "The Lost Performer",
-      "appearance": "Columbina is described through in-game text and flashback sequences as having a delicate frame, porcelain features, and a soft, melancholic expression. She wears a traditional Columbina costume — a flowing white and gold dress with a small half-mask. Her official height has not been disclosed. Her appearance is only shown in fragmented CG sequences and character memories.",
+      "role": "Pemeran yang Hilang",
+      "appearance": "Columbina digambarkan melalui teks dalam game dan urutan kilas balik sebagai sosok berkerangka halus, fitur porselen, dan ekspresi lembut yang melankolis. Ia memakai kostum tradisional Columbina — gaun putih dan emas yang mengalir dengan setengah topeng kecil. Tinggi resminya belum diungkapkan. Penampilannya hanya ditampilkan dalam urutan CG yang terfragmentasi dan memori karakter.",
       "traits": [
-        "Elegant",
-        "Tragic",
-        "Mysterious",
-        "Fragile",
-        "Central lore figure"
+        "Anggun",
+        "Tragis",
+        "Misterius",
+        "Rapuh",
+        "Tokoh pusat cerita"
       ],
-      "personality": "Columbina is a figure of tragedy and mystery in The Freak Circus. She is central to the backstory of both Pierrot and Harlequin, though she never appears as a living character in the main timeline. Her past actions and relationship with the circus performers shape much of the present-day narrative. Fan theories about Columbina vary widely, as the game deliberately keeps her story ambiguous.",
-      "routeDesc": "Columbina does not have a romanceable route in The Freak Circus. She is a lore-only character whose story is revealed through Pierrot and Harlequin routes. Piecing together her history is one of the main motivations for multiple playthroughs.",
+      "personality": "Columbina adalah sosok tragedi dan misteri dalam The Freak Circus. Dia menjadi pusat cerita latar belakang baik untuk Pierrot maupun Harlequin, meskipun dia tidak pernah muncul sebagai karakter hidup dalam alur utama. Tindakan masa lalunya dan hubungannya dengan para penampil sirkus membentuk banyak dari narasi masa kini. Teori penggemar tentang Columbina sangat bervariasi, karena permainan ini sengaja membuat ceritanya ambigu. ",
+      "routeDesc": "Columbina tidak memiliki jalur romantis dalam The Freak Circus. Dia adalah karakter hanya untuk pengetahuan latar yang ceritanya diungkap melalui jalur Pierrot dan Harlequin. Menyusun kembali sejarahnya adalah salah satu motivasi utama untuk berkali-kali memainkan permainan. ",
       "fanSections": [
-        "Columbina flashback CG",
-        "Columbina and Pierrot memory scene",
-        "Columbina concept art"
+        "CG kilas balik Columbina ",
+        "Adegan kenangan Columbina dan Pierrot",
+        "Konsep seni Columbina"
       ],
       "reviews": [
-        "The Columbina reveal completely reframes Pierrot entire route. I had to replay immediately.",
-        "Every mention of Columbina in the game is heartbreaking. The writing team did an amazing job with her tragic story.",
-        "I spent hours on forums discussing Columbina theories after finishing the game. That is how compelling her character is."
+        "Pengungkapan Columbina sepenuhnya mengubah jalur Pierrot keseluruhan. Saya harus segera memainkannya kembali.",
+        "Setiap penyebutan Columbina dalam permainan sangat menyedihkan. Tim penulis melakukan pekerjaan luar biasa dengan cerita tragisnya.",
+        "Saya menghabiskan berjam-jam di forum mendiskusikan teori tentang Columbina setelah menyelesaikan permainan. Begitulah kuatnya daya tarik karakternya."
       ]
     },
     "ticket-taker": {
       "meta": {
-        "title": "Ticket Taker TFC - The Freak Circus Character Guide",
-        "desc": "Meet the Ticket Taker from The Freak Circus. Learn about his cryptic personality, gatekeeper role, route guide, and lore significance."
+        "title": "Ticket Taker TFC - Panduan Karakter The Freak Circus ",
+        "desc": "Temui Ticket Taker dari The Freak Circus. Pelajari tentang kepribadian misteriusnya, peran penjaga gerbang, panduan jalur, dan signifikansi latar belakangnya."
       },
-      "role": "The Gatekeeper",
-      "appearance": "The Ticket Taker is an older, stoic figure with silver-streaked hair and piercing eyes that seem to look through you. He wears a vintage railway conductor uniform with brass buttons and always carries a leather-bound ticket book. His official height has not been disclosed. He is the first character you meet when entering the circus.",
+      "role": "Sang Penjaga Gerbang",
+      "appearance": "Ticket Taker adalah sosok yang lebih tua dan stoik dengan rambut bercampur perak dan mata tajam yang seakan menembusmu. Ia mengenakan seragam konduktor kereta kuno dengan kancing kuningan dan selalu membawa buku tiket berkulit. Tinggi resmi tubuhnya belum diungkapkan. Dia adalah karakter pertama yang kamu temui saat memasuki sirkus.",
       "traits": [
         "Observant",
-        "Cryptic",
-        "Stern",
-        "Ancient",
-        "Guardian figure"
+        "Misterius",
+        "Keras",
+        "Kuno",
+        "Sosok pelindung"
       ],
-      "personality": "The first character you encounter. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize. His cryptic comments often carry double meanings that only become clear on replay. He speaks in riddles and seems to know more about the protagonist than he lets on.",
-      "routeDesc": "The Ticket Taker route requires persistence. Engage directly with every question he asks — deflect his tests at your own risk. His route rewards players who pay attention to the smallest details in dialogue. The Ticket Taker reveals the deepest lore about the circus origins and the nature of the performers contract.",
+      "personality": "Karakter pertama yang kamu temui. Ticket Taker mengontrol siapa yang masuk dan keluar, dan telah menyaksikan semuanya di sirkus ini jauh lebih lama daripada yang disadari orang lain. Komentarnya yang misterius sering mengandung makna ganda yang baru terasa jelas saat dimainkan ulang. Dia berbicara dalam teka-teki dan seolah tahu lebih banyak tentang protagonis daripada yang dia perlihatkan.",
+      "routeDesc": "Jalur Ticket Taker membutuhkan ketekunan. Terlibat secara langsung dengan setiap pertanyaan yang dia ajukan — hindari ujiannya dengan risiko sendiri. Jalurnya memberi penghargaan kepada pemain yang memperhatikan detail terkecil dalam dialog. Ticket Taker mengungkapkan latar terdalam tentang asal-usul sirkus dan sifat kontrak para penampil.",
       "fanSections": [
-        "Ticket Taker entrance CG",
-        "Ticket Taker route key scene",
-        "Ticket Taker character art"
+        "CG pintu masuk Ticket Taker",
+        "Adegan kunci jalur Ticket Taker",
+        "Seni karakter Penjual Tiket"
       ],
       "reviews": [
-        "The Ticket Taker quickly went from creepy gatekeeper to fascinating character. His route has the best lore payoff in the game.",
-        "Every line the Ticket Taker speaks is important. I started taking notes on my second playthrough.",
-        "His route answers questions you did not even know you had. The lore reveal is worth the effort of unlocking his path."
+        "Penjual Tiket dengan cepat berubah dari penjaga gerbang yang menakutkan menjadi karakter yang menarik. Jalurnya memiliki pengungkapan cerita terbaik dalam permainan.",
+        "Setiap kalimat yang diucapkan Penjual Tiket penting. Saya mulai membuat catatan pada permainan kedua saya.",
+        "Jalurnya menjawab pertanyaan yang bahkan tidak Anda ketahui. Pengungkapan cerita ini sepadan dengan usaha untuk membuka jalurnya."
       ]
     }
   },
   "walkthrough": {
-    "pageTitle": "Guides & Spoilers",
-    "title": "The Freak Circus Walkthrough",
-    "subtitle": "Step-by-step guides for every route, ending, and hidden scene.",
-    "spoilerTitle": "Spoiler Warning",
-    "spoilerText": "This page contains major spoilers for all routes and endings. Play through at least Day 1 before consulting this guide.",
-    "day1Title": "Day 1 - Route Overview",
-    "day1P1": "Day 1 establishes your affinity with each of the five characters through a series of carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
-    "day1P2": "Key branching points in Day 1 include the entrance interaction with the Ticket Taker, the tent choice, and the evening meal conversation.",
-    "pierrotTitle": "Pierrot Route Guide",
-    "pierrotP1": "Select introspective and empathetic options throughout Day 1. In the tent scene, follow the white cloak. During Day 2, choose understanding over resistance to unlock Pierrot's Good Ending.",
-    "pierrotP2": "See the full Pierrot route article in our <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Harlequin Route Guide",
-    "harlequinP1": "Interact with the red balloon during the Day 1 carnival opening. Use bold, playful responses in the main tent. Harlequin's route escalates quickly in Day 2, so embrace the chaos rather than resist it.",
-    "endingsTitle": "Endings Summary",
-    "endingsChar": "Character",
-    "endingsGood": "Good Ending",
-    "endingsBad": "Bad Endings",
+    "pageTitle": "Panduan & Spoiler",
+    "title": "Panduan The Freak Circus",
+    "subtitle": "Panduan langkah demi langkah untuk setiap jalur, akhir cerita, dan adegan tersembunyi.",
+    "spoilerTitle": "Peringatan Spoiler",
+    "spoilerText": "Halaman ini berisi spoiler besar untuk semua jalur dan akhir cerita. Bermainlah setidaknya sampai Hari 1 sebelum melihat panduan ini.",
+    "day1Title": "Hari 1 - Gambaran Jalur",
+    "day1P1": "Hari 1 menetapkan kedekatan Anda dengan masing-masing dari lima karakter melalui serangkaian pertemuan di karnaval. Pilihan Anda dalam 20 menit pertama menentukan jalur mana yang akan tersedia pada Hari 2.",
+    "day1P2": "Poin percabangan utama di Hari 1 termasuk interaksi di pintu masuk dengan Penjual Tiket, pilihan tenda, dan percakapan saat makan malam.",
+    "pierrotTitle": "Panduan Jalur Pierrot",
+    "pierrotP1": "Pilih opsi introspektif dan empatik sepanjang Hari 1. Dalam adegan tenda, ikuti jubah putih. Pada Hari 2, pilih pemahaman daripada perlawanan untuk membuka Akhir Baik Pierrot.",
+    "pierrotP2": "Lihat artikel jalur Pierrot lengkap di blog <a href=\"/blog/pierrot-route-guide\"></a> kami.",
+    "harlequinTitle": "Panduan Jalur Harlequin",
+    "harlequinP1": "Berinteraksi dengan balon merah selama pembukaan karnaval pada Hari 1. Gunakan respons berani dan lucu di tenda utama. Jalur Harlequin meningkat cepat pada Hari 2, jadi terimalah kekacauan daripada melawannya.",
+    "endingsTitle": "Ringkasan Akhir Cerita",
+    "endingsChar": "Karakter",
+    "endingsGood": "Akhir Baik",
+    "endingsBad": "Akhir Buruk",
     "endingsTable": [
       {
         "char": "Pierrot",
-        "good": "Mirror Reflection",
-        "bad": "Broken Stage, Escape"
+        "good": "Refleksi Cermin",
+        "bad": "Panggung Rusak, Melarikan Diri"
       },
       {
         "char": "Harlequin",
-        "good": "Curtain Call",
-        "bad": "Empty Stage"
+        "good": "Tepuk Tangan Penutup",
+        "bad": "Panggung Kosong"
       },
       {
         "char": "Jester",
-        "good": "Unmasked",
-        "bad": "The Punchline"
+        "good": "Tanpa Topeng",
+        "bad": "Pukulan Penutup"
       },
       {
-        "char": "Ticket Taker",
-        "good": "Open Gate",
-        "bad": "Closed Forever"
+        "char": "Penjual Tiket",
+        "good": "Gerbang Terbuka",
+        "bad": "Tertutup Selamanya"
       },
       {
-        "char": "Doctor",
-        "good": "Clean Hands",
-        "bad": "Under the Knife, Numb"
+        "char": "Dokter",
+        "good": "Tangan Bersih",
+        "bad": "Di Meja Operasi, Mati Rasa"
       }
     ],
     "day1": {
       "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - All Choices",
-        "desc": "Complete Day 1 walkthrough for The Freak Circus. Learn all key choices, character affinity decisions, and how to unlock each route from the first day."
+        "title": "Panduan Hari 1 The Freak Circus - Semua Pilihan",
+        "desc": "Panduan lengkap Hari 1 untuk The Freak Circus. Pelajari semua pilihan penting, keputusan kedekatan karakter, dan cara membuka setiap jalur dari hari pertama."
       },
-      "title": "Day 1 - Complete Walkthrough",
-      "overview": "Day 1 establishes your affinity with each character through carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
+      "title": "Hari 1 - Panduan Lengkap",
+      "overview": "Hari 1 menetapkan kedekatan Anda dengan setiap karakter melalui pertemuan di karnaval. Pilihan Anda dalam 20 menit pertama menentukan jalur mana yang akan tersedia pada Hari 2.",
       "choices": [
         {
-          "moment": "Entrance - Meeting the Ticket Taker",
-          "desc": "Your first interaction sets the tone. Answer honestly to gain Ticket Taker affinity. Deflect or joke to lean toward Jester or Harlequin."
+          "moment": "Pintu Masuk - Bertemu Penjual Tiket",
+          "desc": "Interaksi pertamamu menentukan suasana. Jawab dengan jujur untuk mendapatkan afinitas Ticket Taker. Alihkan atau bercanda agar lebih condong ke Jester atau Harlequin."
         },
         {
-          "moment": "The Carnival Midway",
-          "desc": "Explore the booths. Each interaction subtly shifts character affinities. The red balloon leads toward Harlequin. The white cloak reveals Pierrot path."
+          "moment": "Karnaval Midway",
+          "desc": "Jelajahi stan-stan. Setiap interaksi secara halus mengubah afinitas karakter. Balon merah itu mengarah ke Harlequin. Jubah putih memperlihatkan jalan Pierrot."
         },
         {
-          "moment": "The Tent Performance",
-          "desc": "Your seat choice and reactions during the main performance influence which performer notices you. Front row signals boldness. Balcony suggests introspection."
+          "moment": "Penampilan Tenda",
+          "desc": "Pilihan tempat duduk dan reaksi Anda selama pertunjukan utama memengaruhi pemain mana yang memperhatikan Anda. Baris depan menandakan keberanian. Balkon menunjukkan introspeksi."
         },
         {
-          "moment": "Evening Meal Conversation",
-          "desc": "The dinner scene is a major branching point. Your dialogue choices here can lock or unlock specific routes for Day 2."
+          "moment": "Percakapan Makan Malam",
+          "desc": "Adegan makan malam adalah titik cabang utama. Pilihan dialog Anda di sini dapat mengunci atau membuka rute tertentu untuk Hari ke-2."
         }
       ]
     },
     "day2": {
       "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Routes & Endings",
-        "desc": "Complete Day 2 walkthrough for The Freak Circus with character routes, good and bad ending conditions, and hidden scene triggers."
+        "title": "Walkthrough Hari 2 The Freak Circus - Rute & Akhir",
+        "desc": "Selesaikan walkthrough Hari 2 untuk The Freak Circus dengan rute karakter, kondisi akhir yang baik dan buruk, serta pemicu adegan tersembunyi."
       },
-      "title": "Day 2 - Routes & Ending Guide",
-      "overview": "Day 2 intensifies the narrative. Your Day 1 choices determine which routes remain open. Each character route has distinct Good and Bad Ending conditions.",
+      "title": "Hari 2 - Rute & Panduan Akhir",
+      "overview": "Hari kedua memperkuat narasi. Pilihan Hari 1 Anda menentukan rute mana yang tetap terbuka. Setiap rute karakter memiliki kondisi Akhir Baik dan Buruk yang berbeda.",
       "choices": [
         {
-          "moment": "Morning After - Route Lock-in",
-          "desc": "The first Day 2 conversation confirms your active route(s). Characters with highest affinity approach you first."
+          "moment": "Pagi Setelah - Penguncian Rute",
+          "desc": "Percakapan Hari 2 pertama mengonfirmasi rute aktif Anda. Karakter dengan afinitas tertinggi mendekatimu terlebih dahulu."
         },
         {
-          "moment": "Route-Specific Encounters",
-          "desc": "Each locked route has unique scenes. Pierrot route involves the mirror tent. Harlequin route escalates at the main stage."
+          "moment": "Pertemuan Spesifik Rute",
+          "desc": "Setiap rute yang terkunci memiliki adegan unik. Rute Pierrot melibatkan tenda cermin. Rute Harlequin meningkat di panggung utama."
         },
         {
-          "moment": "Final Confrontation",
-          "desc": "The climax of each route. Your choices here determine Good vs Bad Ending. Save before this point to explore both outcomes."
+          "moment": "Konfrontasi Akhir",
+          "desc": "Klimaks dari setiap rute. Pilihan Anda di sini menentukan Akhir yang Baik dan Buruk. Simpan sebelum titik ini untuk mengeksplorasi kedua hasil."
         }
       ]
     },
     "day3": {
       "meta": {
-        "title": "The Freak Circus Day 3 - Latest Updates & News",
-        "desc": "The Freak Circus Day 3 content status. Check the latest developer updates, estimated release timeline, and subscribe for notifications."
+        "title": "Hari 3 The Freak Circus - Pembaruan & Berita Terbaru",
+        "desc": "Status konten Hari 3 The Freak Circus. Periksa pembaruan terbaru dari pengembang, perkiraan waktu rilis, dan berlangganan untuk notifikasi."
       },
-      "title": "Day 3 — Verified Update Tracker",
-      "status": "Day 3 content is currently under development. The developer has confirmed ongoing work but has not announced a specific release date. Bookmark this page for the latest updates.",
-      "devNotes": "Check the /news page for the latest developer updates on Day 3 progress and other upcoming content."
+      "title": "Hari 3 — Pelacak Pembaruan Terverifikasi",
+      "status": "Tidak ada tanggal rilis Hari ke-3 yang tercantum di halaman ini. Hanya terhubung ke pengumuman pengembang yang sudah usang dan dari pihak pertama.",
+      "devNotes": "Baca bagian Berita untuk pembaruan terbaru dari pengembang yang terhubung ke sumber."
     }
   },
   "blog": {
-    "title": "Guides & Articles",
-    "subtitle": "Walkthroughs, character analysis, and lore for The Freak Circus.",
-    "backLink": "Back to all articles",
-    "published": "Published {date}",
-    "footerLink": "Play The Freak Circus Online"
+    "title": "Panduan & Artikel",
+    "subtitle": "Walkthrough, analisis karakter, dan lore untuk The Freak Circus.",
+    "backLink": "Kembali ke semua artikel",
+    "published": "Diterbitkan {date}",
+    "footerLink": "Mainkan The Freak Circus Online"
   },
   "ad": {
-    "leftLabel": "Left sidebar advertisement",
-    "rightLabel": "Right sidebar advertisement"
+    "leftLabel": "Iklan di sidebar kiri",
+    "rightLabel": "Iklan sidebar kanan"
   },
   "meta": {
-    "homeTitle": "Play The Freak Circus Online - Psychological Horror Visual Novel",
-    "homeDesc": "Play The Freak Circus free online in your browser. A dark psychological horror visual novel by Garula with routes for Pierrot, Harlequin, Jester, and more.",
-    "aboutTitle": "About The Freak Circus - Game Info, Developer, and FAQ",
-    "aboutDesc": "Learn about The Freak Circus visual novel: developer, download links, content warnings, Chinese support, and frequently asked questions.",
-    "charactersTitle": "The Freak Circus Characters - Pierrot, Harlequin, Jester & More",
-    "charactersDesc": "Meet The Freak Circus characters: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Read route tips, traits, and lore notes.",
-    "walkthroughTitle": "The Freak Circus Walkthrough - Day 1 & Day 2 Guide, All Endings",
-    "walkthroughDesc": "Complete walkthrough for The Freak Circus visual novel with Day 1 and Day 2 choices, character routes, good endings, bad endings, and hidden scenes.",
-    "blogTitle": "The Freak Circus Blog - Guides, Walkthroughs & Character Analysis",
-    "blogDesc": "Guides, ending walkthroughs, character analysis, and lore deep-dives for The Freak Circus psychological horror visual novel.",
-    "contactTitle": "Contact Us",
-    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
+    "homeTitle": "Mainkan The Freak Circus Online",
+    "homeDesc": "Mainkan The Freak Circus secara gratis online di browser Anda. Sebuah novel visual horor psikologis gelap karya Garula dengan rute untuk Pierrot, Harlequin, Jester, dan lainnya.",
+    "aboutTitle": "Tentang FAQ Game The Freak Circus",
+    "aboutDesc": "Pelajari tentang novel visual The Freak Circus: pengembang, tautan unduhan, peringatan konten, dukungan bahasa Cina, dan pertanyaan yang sering diajukan.",
+    "charactersTitle": "Panduan Karakter The Freak Circus",
+    "charactersDesc": "Temui karakter The Freak Circus: Pierrot, Harlequin, Jester, Penjaga Tiket, dan Dokter. Baca tips jalan cerita, sifat, dan catatan lore.",
+    "walkthroughTitle": "Panduan Lengkap Freak Circus - Akhir",
+    "walkthroughDesc": "Panduan lengkap untuk novel visual The Freak Circus dengan pilihan Hari 1 dan Hari 2, jalur karakter, akhir baik, akhir buruk, dan adegan tersembunyi.",
+    "blogTitle": "Blog The Freak Circus - Panduan, Walkthrough & Analisis Karakter",
+    "blogDesc": "Panduan, walkthrough akhir, analisis karakter, dan eksplorasi lore mendalam untuk novel visual horor psikologis The Freak Circus.",
+    "contactTitle": "Hubungi Kami",
+    "contactDesc": "Hubungi tim di balik situs penggemar thefreakcircus.help untuk novel visual The Freak Circus.",
+    "privacyTitle": "Kebijakan Privasi",
+    "privacyDesc": "kebijakan privasi thefreakcircus.help - bagaimana kami menangani data pengunjung di situs penggemar The Freak Circus ini.",
+    "termsTitle": "Syarat Layanan",
+    "termsDesc": "syarat layanan thefreakcircus.help - aturan dan pedoman untuk menggunakan situs penggemar The Freak Circus ini."
   },
   "schema": {
     "websiteName": "The Freak Circus",
-    "websiteDesc": "A psychological horror romance visual novel set in a mysterious circus.",
+    "websiteDesc": "Sebuah novel visual horor psikologis romantis yang berlatarkan sirkus misterius.",
     "gameGenres": [
-      "Visual Novel",
-      "Psychological Horror",
-      "Romance"
+      "Novel Visual",
+      "Horror Psikologis",
+      "Romansa"
     ],
     "authorName": "Garula (Neko Bueno)",
-    "os": "Web Browser, Windows, macOS, Linux",
+    "os": "Peramban Web, Windows, macOS, Linux",
     "contentRating": "18+",
-    "searchAction": "Search thefreakcircus.help"
+    "searchAction": "Cari di thefreakcircus.help"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
-    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
-    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+    "title": "Hubungi Kami",
+    "subtitle": "Hubungi tim di balik thefreakcircus.help.",
+    "p1": "thefreakcircus.help adalah situs penggemar tidak resmi untuk novel visual The Freak Circus. Kami tidak berafiliasi dengan Garula, Neko Bueno, atau itch.io. Jika Anda memiliki pertanyaan tentang game, situs, atau perlu bantuan dalam permainan, silakan hubungi kami.",
+    "p2": "Email: contact@thefreakcircus.help — kami mencoba merespons dalam beberapa hari."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "How we handle your data on thefreakcircus.help.",
-    "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
-    "s2title": "Third-Party Services",
-    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
-    "s3title": "Your Rights",
-    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+    "title": "Kebijakan Privasi",
+    "subtitle": "Bagaimana kami menangani data Anda di thefreakcircus.help.",
+    "s1title": "Informasi yang Kami Kumpulkan",
+    "s1body": "thefreakcircus.help menggunakan cookie preferensi bahasa dan analitik seperti yang dijelaskan di bawah ini. Pemutar opsional dalam halaman disediakan oleh host pihak ketiga; situs penggemar ini tidak mengoperasikan host tersebut dan tidak mengklaimnya resmi. Kami tidak memiliki akses ke data yang dikirim melalui pemutar tersebut.",
+    "s2title": "Layanan Pihak Ketiga",
+    "s2body": "Player opsional dimuat dalam iframe dari host pihak ketiga. Host tersebut dapat mengumpulkan data berdasarkan kebijakan mereka sendiri, yang tidak kami kendalikan. Untuk permainan yang didukung pengembang dan praktik datanya, tinjau halaman resmi itch.io. Kami juga menggunakan Google Analytics untuk pengukuran lalu lintas dasar.",
+    "s3title": "Hak Anda",
+    "s3body": "Sebagai pengunjung situs penggemar ini, Anda memiliki hak untuk menjelajah secara anonim, memblokir cookie melalui pengaturan browser Anda, dan menggunakan ekstensi pemblokir iklan atau perlindungan pelacakan. Jika Anda memiliki kekhawatiran tentang penanganan data, silakan hubungi kami melalui halaman resmi itch.io."
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
-    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
-    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
-    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
+    "title": "Syarat Layanan",
+    "subtitle": "Aturan dan pedoman untuk menggunakan thefreakcircus.help.",
+    "s1body": "thefreakcircus.help adalah situs penggemar tidak resmi untuk novel visual The Freak Circus. Kami tidak berafiliasi dengan Garula, Neko Bueno, atau itch.io. Semua konten permainan, termasuk karya seni, cerita, dan karakter, milik para pembuatnya masing-masing.",
+    "s2body": "Player opsional tertanam dari host pihak ketiga. Kami tidak menyatakan bahwa host tersebut resmi, dijalankan oleh pengembang, atau disetujui. Kami tidak mendistribusikan unduhan permainan; gunakan halaman resmi itch.io untuk versi yang didukung pengembang.",
+    "s3body": "Semua konten asli di situs ini — termasuk panduan, walkthrough, dan artikel — disediakan untuk tujuan informasi. Anda dapat membagikan tautan ke halaman kami, tetapi jangan menyalin konten kami tanpa atribusi.",
+    "s4body": "Situs ini berisi konten dari permainan yang diberi peringkat 18+. Dengan menggunakan situs ini, Anda mengonfirmasi bahwa Anda sudah berusia hukum untuk melihat konten dewasa di yurisdiksi Anda. Jika Anda memiliki pertanyaan tentang syarat ini, silakan hubungi kami."
   },
   "wiki": {
-    "title": "The Freak Circus Wiki & Lore Guide",
-    "subtitle": "Complete encyclopedia of The Freak Circus lore, characters, and setting.",
+    "title": "Wiki & Panduan Lore The Freak Circus",
+    "subtitle": "Ensiklopedia lengkap lore, karakter, dan setting The Freak Circus.",
     "meta": {
-      "title": "The Freak Circus Wiki - Complete Lore & Setting Guide",
-      "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
+      "title": "Wiki The Freak Circus - Panduan Lengkap Lore & Setting",
+      "desc": "Jelajahi wiki lengkap The Freak Circus termasuk lore karakter, setting sirkus, glosarium istilah, garis waktu pengembangan, dan kredit pengembang."
     },
-    "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia资料 including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
-    "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
-    "loreTitle": "World & Circus Setting",
-    "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
-    "loreP2": "The circus grounds include the main performance tent, the carnival midway, individual performer spaces, and hidden areas that only become accessible on specific routes. The layout shifts between visits, suggesting the circus itself is alive and responsive to the protagonist choices.",
-    "glossaryTitle": "Glossary of Terms",
+    "overviewTitle": "Selamat Datang di Wiki",
+    "overviewP1": "Halaman ini menyediakan ensiklopedia lengkap The Freak Circus termasuk profil karakter, setting cerita, dan riwayat pembaruan. Baik Anda pemain baru yang ingin memahami ceritanya atau veteran yang mencari lore lebih mendalam, wiki ini mencakup semua yang diketahui tentang permainan.",
+    "overviewP2": "Informasi di sini berdasarkan konten permainan yang resmi dikonfirmasi. Spekulasi komunitas ditandai dengan jelas jika disertakan.",
+    "loreTitle": "Dunia & Setting Sirkus",
+    "loreP1": "Sirkus Freak berlangsung di sebuah sirkus misterius yang hanya muncul pada malam hari di tepi kota yang diselimuti kabut. Sirkus ini berada di ruang liminal — ia muncul tanpa peringatan dan pergi dengan cara yang sama. Lima penampil terikat pada sirkus melalui sebuah perjanjian yang terjadi sebelum peristiwa dalam permainan, meskipun sifat pasti dari perjanjian ini sengaja dibiarkan ambigu.",
+    "loreP2": "Area sirkus mencakup tenda pertunjukan utama, jalan-jalan karnaval, ruang masing-masing penampil, dan area tersembunyi yang hanya dapat diakses pada rute tertentu. Tata letak berubah di antara kunjungan, menunjukkan bahwa sirkus itu sendiri hidup dan responsif terhadap pilihan protagonis.",
+    "glossaryTitle": "Glosarium Istilah",
     "glossary": [
       {
-        "term": "The Performance",
-        "def": "The nightly show each performer gives. The Performance is both literal entertainment and a metaphor for each character hidden nature."
+        "term": "Pertunjukan",
+        "def": "Pertunjukan malam yang diberikan setiap penampil. Pertunjukan ini merupakan hiburan secara harfiah sekaligus metafora untuk sifat tersembunyi tiap karakter."
       },
       {
-        "term": "The Contract",
-        "def": "An agreement binding each performer to the circus. The terms are never fully explained but hinted at through character dialogue."
+        "term": "Kontrak",
+        "def": "Sebuah perjanjian yang mengikat setiap penampil pada sirkus. Syarat-syaratnya tidak pernah dijelaskan sepenuhnya, tetapi disinggung melalui dialog karakter."
       },
       {
-        "term": "Day 1 / Day 2",
-        "def": "The two active days of gameplay. The story unfolds across this timeframe, with choices determining which routes open."
+        "term": "Hari 1 / Hari 2",
+        "def": "Dua hari aktif dari permainan. Cerita berkembang sepanjang kurun waktu ini, dengan pilihan menentukan rute mana yang terbuka."
       },
       {
-        "term": "Good Ending / Bad Ending",
-        "def": "Each character route has at least two endings. Good Endings require specific choice combinations. Bad Endings trigger through defiance or passive acceptance."
+        "term": "Akhir Baik / Akhir Buruk",
+        "def": "Setiap rute karakter memiliki setidaknya dua akhir. Akhir Baik memerlukan kombinasi pilihan tertentu. Akhir Buruk dipicu oleh pembangkangan atau penerimaan pasif."
       },
       {
-        "term": "The Tear Painted on Pierrot Face",
-        "def": "A permanent makeup mark that symbolizes his perpetual performance of sorrow. It never washes off."
+        "term": "Air Mata yang Dilukis di Wajah Pierrot",
+        "def": "Tanda riasan permanen yang melambangkan pertunjukannya yang terus-menerus dalam kesedihan. Tanda ini tidak dapat dihapus."
       }
     ],
-    "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno). The game is published on itch.io and is available for Windows, macOS, and Linux, as well as directly in browser via official CDN embedding.",
-    "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
-    "timelineTitle": "Update Timeline",
+    "creditsTitle": "Pengembang & Kredit",
+    "creditsP1": "Sirkus Freak dikembangkan oleh Garula (juga dikenal sebagai Neko Bueno) dan diterbitkan di itch.io. Gunakan halaman resmi itch.io untuk opsi peramban dan unduhan yang didukung pengembang.",
+    "creditsP2": "Daftar suara penuh dan kredit tambahan belum dipublikasikan oleh pengembang. Bagian ini akan diperbarui saat informasi lebih lanjut tersedia.",
+    "timelineTitle": "Garis Waktu Pembaruan",
     "timeline": [
       {
-        "version": "Initial Release",
+        "version": "Rilis Awal",
         "date": "2024",
-        "desc": "The Freak Circus first released on itch.io with Pierrot, Harlequin, Jester, Ticket Taker, and Doctor routes available."
+        "desc": "Sirkus Freak pertama kali dirilis di itch.io dengan rute Pierrot, Harlequin, Jester, Ticket Taker, dan Doctor yang tersedia."
       },
       {
-        "version": "Doctor Route Expansion",
+        "version": "Perluasan Rute Doctor",
         "date": "Late 2024",
-        "desc": "Additional scenes and an extended ending added to the Doctor route based on player feedback."
+        "desc": "Adegan tambahan dan akhir yang diperpanjang ditambahkan ke rute Doctor berdasarkan masukan pemain."
       },
       {
-        "version": "Chinese Language Support",
+        "version": "Dukungan Bahasa China",
         "date": "2025",
-        "desc": "Official Simplified Chinese language support added alongside continuing English content updates."
+        "desc": "Dukungan bahasa China Sederhana resmi ditambahkan bersamaan dengan pembaruan konten bahasa Inggris yang berkelanjutan."
       },
       {
-        "version": "Day 3 & Future Content",
+        "version": "Hari 3 & Konten Masa Depan",
         "date": "TBD",
-        "desc": "The developer has indicated ongoing work on additional content. Day 3 and new character content are anticipated."
+        "desc": "Pengembang telah menunjukkan pekerjaan yang sedang berlangsung pada konten tambahan. Hari 3 dan konten karakter baru diantisipasi."
       }
     ]
   },
   "community": {
     "meta": {
-      "title": "The Freak Circus Fan Art & Community",
-      "desc": "Join The Freak Circus fan community. Explore fan art, creator links, official social media, and community resources."
+      "title": "Fan Art & Komunitas The Freak Circus",
+      "desc": "Bergabunglah dengan komunitas penggemar The Freak Circus. Jelajahi fan art, tautan kreator, media sosial resmi, dan sumber daya komunitas."
     },
-    "title": "The Freak Circus Community",
-    "subtitle": "Fan art, discussions, and community resources.",
-    "officialTitle": "Official Links",
-    "officialDesc": "Connect with the developer and other fans through these official channels.",
+    "title": "Komunitas The Freak Circus",
+    "subtitle": "Fan art, diskusi, dan sumber daya komunitas.",
+    "officialTitle": "Tautan Resmi",
+    "officialDesc": "Terhubung dengan pengembang dan penggemar lain melalui saluran resmi ini.",
     "links": [
       {
-        "name": "itch.io Page",
+        "name": "Halaman itch.io",
         "url": "https://garula.itch.io/the-freak-circus"
       },
       {
-        "name": "Official Twitter",
+        "name": "Twitter Resmi",
         "url": "https://twitter.com/FreakCircusVRC"
       }
     ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Showcasing community-created fan art of The Freak Circus characters. Submissions are from verified creators who have granted permission for display.",
-    "communityTitle": "Community Resources",
+    "fanartTitle": "Sorotan Fan Art",
+    "fanartDesc": "Menampilkan fan art karakter The Freak Circus yang dibuat oleh komunitas. Kiriman berasal dari kreator terverifikasi yang telah memberikan izin untuk ditampilkan.",
+    "communityTitle": "Sumber Daya Komunitas",
     "communityTips": [
-      "Join official Discord servers for real-time discussions with other fans.",
-      "Use #TheFreakCircus tag on social media platforms to share your creations.",
-      "Respect other fans and creators — the community thrives on mutual support.",
-      "Check the official itch.io page for the latest developer updates and community news."
+      "Bergabunglah dengan server Discord resmi untuk diskusi real-time dengan penggemar lain.",
+      "Gunakan tag #TheFreakCircus di platform media sosial untuk membagikan kreasi Anda.",
+      "Hargai penggemar dan kreator lain — komunitas tumbuh berkat dukungan bersama.",
+      "Periksa halaman itch.io resmi untuk pembaruan terbaru dari pengembang dan berita komunitas."
     ]
   },
   "news": {
     "meta": {
-      "title": "The Freak Circus News & Updates",
-      "desc": "Latest news and updates for The Freak Circus visual novel. Development progress, version releases, and community announcements."
+      "title": "Berita & Pembaruan The Freak Circus",
+      "desc": "Berita dan pembaruan terbaru untuk novel visual The Freak Circus. Kemajuan pengembangan, rilis versi, dan pengumuman komunitas."
     },
-    "title": "News & Updates",
+    "title": "Berita & Pembaruan",
     "entries": [
       {
         "date": "2025",
-        "title": "Chinese Language Support Added",
-        "body": "The Freak Circus now includes official Simplified Chinese language support. This update also includes bug fixes and minor dialogue adjustments."
+        "title": "Dukungan Bahasa Mandarin Ditambahkan",
+        "body": "The Freak Circus kini menyertakan dukungan bahasa Mandarin Sederhana resmi. Pembaruan ini juga mencakup perbaikan bug dan penyesuaian dialog minor."
       },
       {
         "date": "Late 2024",
-        "title": "Doctor Route Expansion Released",
-        "body": "New scenes and an extended ending for the Doctor route are now available. Thank you to the community for the feedback that made this expansion possible."
+        "title": "Ekspansi Rute Doctor Dirilis",
+        "body": "Adegan baru dan akhir yang diperluas untuk rute Doctor kini tersedia. Terima kasih kepada komunitas atas masukan yang memungkinkan ekspansi ini."
       },
       {
         "date": "2024",
-        "title": "The Freak Circus Released on itch.io",
-        "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
+        "title": "The Freak Circus Dirilis di itch.io",
+        "body": "The Freak Circus kini tersedia untuk dimainkan secara gratis di itch.io. Rilis awal mencakup semua lima rute karakter utama dengan berbagai akhir."
       }
     ]
+  },
+  "ui": {
+    "mainNavigation": "Navigasi utama",
+    "wiki": "Wiki",
+    "community": "Komunitas",
+    "news": "Berita",
+    "switchLanguage": "Ganti bahasa",
+    "gameCoverAlt": "Sampul The Freak Circus",
+    "like": "Suka",
+    "dislike": "Tidak suka",
+    "reloadGame": "Muat ulang game",
+    "toggleFullscreen": "Alihkan layar penuh",
+    "playerDisclaimer": "Player opsional ini disediakan oleh host pihak ketiga. thefreakcircus.help adalah sumber daya penggemar tidak resmi dan tidak mengklaim bahwa host dijalankan, disahkan, atau terkait dengan Garula. Untuk versi yang didukung pengembang dan unduhan, gunakan halaman itch.io resmi.",
+    "aboutImageAlt": "Sampul novel visual horor psikologis The Freak Circus",
+    "charactersImageAlt": "Karakter dari The Freak Circus",
+    "gameplayImageAlt": "Bermain The Freak Circus di peramban",
+    "faqImageAlt": "Pertanyaan yang sering diajukan tentang The Freak Circus",
+    "allCharacters": "Semua Karakter",
+    "appearanceDesign": "Penampilan & Desain",
+    "personalityTraits": "Kepribadian & Sifat",
+    "routeGuide": "Panduan Rute",
+    "fanArtGallery": "Fan Art & Galeri",
+    "playerImpressions": "Kesan Pemain",
+    "openDay1Guide": "Buka panduan keputusan Hari 1",
+    "newsTracker": "Pelacak pembaruan berbasis sumber",
+    "newsIntro": "Setiap entri tertaut ke pengumuman pengembang asli. Kami menandai ringkasan sebagai liputan editorial penggemar, bukan posting resmi.",
+    "readSummary": "Baca ringkasan dan sumber",
+    "allNews": "Semua berita",
+    "editorialSummary": "Ringkasan editorial penggemar",
+    "published": "Diterbitkan {date}",
+    "primarySource": "Sumber utama",
+    "readOriginal": "Baca pengumuman asli di {source}",
+    "siteBy": "Situs oleh"
   }
 }

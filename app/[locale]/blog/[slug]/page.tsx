@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import SidebarLayout from '@/components/SidebarLayout';
 import { getAllSlugs, getPostBySlug } from '@/lib/blog-posts';
+import { tMsg } from '@/lib/messages';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug, params.locale);
   if (!post) return {};
   const path = `/blog/${post.slug}`;
 
@@ -26,10 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({ params: { locale, slug } }: Props) {
-  const post = getPostBySlug(slug);
+  const post = getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const t = await getTranslations('blog');
   const p = locale === 'en' ? '' : `/${locale}`;
 
   const dateISO = new Date(post.date).toISOString();
@@ -64,7 +63,7 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
       <SidebarLayout>
         <nav className="mb-6 text-xs text-circus-muted">
           <Link href={`${p}/blog`} className="hover:text-circus-gold transition-colors">
-            {t('backLink')}
+            {tMsg(locale, 'blog.backLink')}
           </Link>
         </nav>
 
@@ -84,7 +83,7 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
           </h1>
           <p className="text-circus-muted text-sm font-body italic">{post.description}</p>
           <time dateTime={dateISO} className="block mt-2 text-xs text-circus-muted/60">
-            {t('published', { date: dateDisplay })}
+            {tMsg(locale, 'blog.published', { date: dateDisplay })}
           </time>
         </header>
 
@@ -100,7 +99,7 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
             className="inline-flex items-center gap-2 text-circus-gold hover:text-circus-gold-light
                        font-display text-xs tracking-widest uppercase transition-colors"
           >
-            {t('footerLink')}
+            {tMsg(locale, 'blog.footerLink')}
           </Link>
         </div>
       </SidebarLayout>

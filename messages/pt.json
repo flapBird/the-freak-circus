@@ -1,12 +1,12 @@
 {
   "locale": {
-    "en": "Inglês",
+    "en": "English",
     "pt": "Português",
     "fil": "Filipino",
-    "vi": "Vietnamita",
-    "es": "Espanhol",
-    "id": "Indonésio",
-    "zh": "Chinês"
+    "vi": "Tiếng Việt",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
   },
   "header": {
     "siteName": "The Freak Circus",
@@ -14,552 +14,552 @@
     "nav": {
       "play": "Jogar Online",
       "characters": "Personagens",
-      "walkthrough": "Guia",
+      "walkthrough": "Passo a Passo",
       "blog": "Blog",
       "about": "Sobre"
     }
   },
   "footer": {
     "aboutTitle": "Sobre Este Site",
-    "aboutText": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula or Neko Bueno. All game content belongs to its original creators.",
-    "quickLinks": "Quick Links",
+    "aboutText": "thefreakcircus.help é um site de fã não oficial da visual novel The Freak Circus. Não temos afiliação com Garula ou Neko Bueno. Todo o conteúdo do jogo pertence aos seus criadores originais.",
+    "quickLinks": "Links Rápidos",
     "links": {
       "play": "Jogar The Freak Circus Online",
       "characters": "Guia de Personagens",
-      "walkthrough": "Guia e Finais",
+      "walkthrough": "Passo a Passo e Finais",
       "blog": "Artigos e Guias",
       "official": "Página Oficial no itch.io",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "about": "Sobre",
+      "contact": "Contato",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
     },
-    "disclaimerTitle": "Disclaimer",
-    "disclaimerText": "Este site contém conteúdo de um jogo classificado como 18+. O jogo incorporado é servido diretamente do CDN oficial.",
-    "copyright": "© {year} thefreakcircus.help - Fan Site - All trademarks belong to their respective owners",
-    "extLabel": "(external)"
+    "disclaimerTitle": "Aviso Legal",
+    "disclaimerText": "Este site contém conteúdo de um jogo classificado como 18+. Qualquer player opcional na página é fornecido por um host terceirizado. Este site de fã não afirma que o host seja oficial ou operado pelo desenvolvedor. Para a versão suportada pelo desenvolvedor, use a página oficial do itch.io.",
+    "copyright": "© {year} thefreakcircus.help - Site de Fã - Todas as marcas registradas pertencem aos respectivos donos",
+    "extLabel": "(externo)"
   },
   "game": {
     "playButton": "Jogar The Freak Circus",
     "loading": "Carregando...",
     "ariaLabel": "Clique para iniciar The Freak Circus",
-    "iframeTitle": "Jogue The Freak Circus - Visual Novel de Terror Psicológico"
+    "iframeTitle": "Jogar The Freak Circus - Visual Novel de Horror Psicológico"
   },
   "home": {
     "welcome": "Bem-vindo ao Circo",
-    "subtitle": "Jogue a visual novel de terror psicológico online, grátis",
+    "subtitle": "Um guia não oficial para a visual novel de horror 18+ de Garula",
     "aboutDivider": "Sobre o Jogo",
     "whatIsTitle": "O Que É The Freak Circus?",
-    "whatIsP1": "The Freak Circus é uma <strong>visual novel de terror psicológico</strong> criada pelo desenvolvedor independente Garula (Neko Bueno) e publicada no itch.io.",
-    "whatIsP2": "Você chega como um estranho a um circo remoto. O que começa como curiosidade rapidamente se torna envolvimento.",
+    "whatIsP1": "<strong>The Freak Circus</strong> é uma visual novel 18+ do criador independente Garula (Neko Bueno), publicada no itch.io. A listagem oficial atualmente a descreve como um protótipo e a classifica como visual novel, horror, romance, assustador, circo, monstros, Ren'Py e yandere.",
+    "whatIsP2": "Este é um guia de fã não oficial. Distinguimos informações confirmadas pelo desenvolvedor de interpretações de fãs, fornecemos links para os devlogs originais e direcionamos os jogadores ao itch.io para o jogo apoiado pelo desenvolvedor, downloads e informações da versão atual.",
     "featuresTitle": "Principais Características",
     "features": [
-      "Múltiplas rotas de história com cinco personagens romanceáveis",
-      "Narrativa ramificada com finais bons e ruins",
-      "Atmosfera gótica de terror psicológico",
-      "Suporte oficial ao chinês",
-      "Atualizações regulares de conteúdo",
-      "Grátis para jogar no navegador e para download"
+      "A listagem oficial no itch.io atualmente marca o projeto como um protótipo",
+      "Tags de horror, romance, circo, monstros e yandere para maiores de 18 anos na listagem oficial",
+      "Atualizações publicadas pelo desenvolvedor, avisos de tradução e devlogs de correção de bugs",
+      "Devlogs oficiais listam inglês, português brasileiro e chinês entre os idiomas do jogo",
+      "Opções de navegador e download suportadas pelo desenvolvedor estão disponíveis na página oficial do itch.io"
     ],
     "charactersTitle": "Personagens",
-    "charactersP": "Cinco artistas moldam cada partida: <a href=\"/pt/characters#pierrot\">Pierrot</a>...",
+    "charactersP": "Cinco artistas moldam cada jogada de The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Arlequim</a>, <a href=\"/characters#jester\">Bobo da Corte</a>, <a href=\"/characters#ticket-taker\">o Bilheteiro</a> e <a href=\"/characters#doctor\">o Doutor</a>. Cada um tem uma rota única, conjunto de finais e arco de relacionamento com o protagonista.",
     "buttons": {
-      "walkthrough": "Ver Guia",
-      "characters": "Conhecer os Personagens"
+      "walkthrough": "Ver Passo a Passo",
+      "characters": "Conheça os Personagens"
     },
-    "tipsList": [
-      "Take your time reading each scene. The Freak Circus rewards attention to small details in dialogue and environment.",
-      "Do not reload saves to undo choices on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice. A second playthrough of The Freak Circus reveals dialogue and scenes you missed the first time.",
-      "Pay close attention to the Ticket Taker. He says more than he appears to say.",
-      "Each character route has a Good Ending and at least one Bad Ending. Refer to the walkthrough after your first play."
-    ],
+    "howToPlayTitle": "Como Jogar",
+    "howToPlayP1": "Para a versão suportada pelo desenvolvedor, comece na página oficial do itch.io. É o local confiável para conferir a versão mais recente, disponibilidade por plataforma, avisos de conteúdo e correções. Este site não distribui downloads do jogo.",
+    "howToPlayP2": "Antes de começar, decida quanto de informação com spoiler você quer. Faça um save separado antes de uma escolha que deseja revisitar, registre a versão que está usando e mantenha seu save da primeira jogada separado dos experimentos.",
+    "howToPlayP3": "Nossos guias diferenciam fatos de primeira mão e observações de fãs separadamente. Se um gráfico de escolhas não tiver versão do jogo, captura de tela ou fonte, trate-o como não verificado em vez de uma condição garantida de rota.",
+    "faqTitle": "FAQ",
     "faqItems": [
       {
-        "q": "Is The Freak Circus free to play?",
-        "a": "Yes. The Freak Circus is completely free to play in your browser on this site. You can also download it from the official itch.io page."
+        "q": "Este jogo é gratuito?",
+        "a": "A página oficial do itch.io lista o jogo como gratuito com pagamento opcional. Use essa página para a versão de navegador suportada pelo desenvolvedor e downloads."
       },
       {
-        "q": "Do I need to download anything?",
-        "a": "No. The Freak Circus runs directly in your browser. Just click the play button on this page and it loads instantly."
+        "q": "Preciso baixar algo?",
+        "a": "A página oficial do itch.io é a melhor fonte para instruções atuais de navegador e download. Este site de fãs não distribui arquivos do jogo."
       },
       {
-        "q": "How long does The Freak Circus take to finish?",
-        "a": "A single playthrough takes about 2 to 3 hours. To experience all five routes and endings, expect 10 to 15 hours total."
+        "q": "Quanto tempo isso leva?",
+        "a": "O desenvolvedor não publica uma estimativa fixa de tempo de conclusão nas fontes rastreadas aqui. Evite tratar estimativas de fãs como uma promessa oficial."
       },
       {
-        "q": "Can I save my progress?",
-        "a": "Yes. The game includes a built-in save system. You can save at any decision point and return later. Progress is stored in your browser."
+        "q": "Posso salvar meu progresso?",
+        "a": "O player do navegador inclui controles de importação e exportação de salvamentos. Verifique a página oficial e as notas da versão atual antes de mover salvamentos entre versões ou dispositivos."
       },
       {
-        "q": "What makes The Freak Circus unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight."
+        "q": "O que torna este romance visual único?",
+        "a": "Ele se destaca por sua atmosfera de horror psicológico gótico, personagens moralmente complexos e narrativa profundamente ramificada, onde cada escolha tem peso real. A arte desenhada à mão e a trilha sonora assombrosa criam uma experiência imersiva diferente de romances visuais típicos."
       },
       {
-        "q": "Will progress carry over between devices?",
-        "a": "Saves are stored locally in your browser. If you want to continue on another device, you can download the game from itch.io and transfer your save files."
+        "q": "O progresso será mantido entre dispositivos?",
+        "a": "Os salvamentos são armazenados localmente no seu navegador. Baixe o jogo no itch.io para transferir arquivos de salvamento entre dispositivos."
       },
       {
-        "q": "Is The Freak Circus suitable for all ages?",
-        "a": "No. The Freak Circus is rated 18+ and contains mature themes including psychological horror, possessive relationships, and dark romance."
+        "q": "É adequado para todas as idades?",
+        "a": "Não. É classificado para maiores de 18 anos e contém horror psicológico, relacionamentos possessivos, romance sombrio e temas maduros."
       },
       {
-        "q": "What is the difference between routes?",
-        "a": "Each character route offers a completely different perspective. Pierrot focuses on psychological dependence. Harlequin explores chaos and performance. Jester examines entertainment ethics. The Ticket Taker reveals the deepest lore. The Doctor contains the most intimate and unsettling content."
+        "q": "Qual é a diferença entre as rotas?",
+        "a": "Cada rota oferece uma perspectiva completamente diferente da história. Pierrot foca na dependência psicológica e no controle emocional. Harlequin explora o caos e a performance. Jester examina a ética do entretenimento. O Ticket Taker revela o conhecimento mais profundo sobre o próprio circo. O Doctor contém o conteúdo mais íntimo e perturbador."
       },
       {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though the experience is optimized for desktop and tablet. For the best experience, use a desktop or laptop computer."
+        "q": "Posso jogar no celular?",
+        "a": "Ele funciona na maioria dos navegadores móveis modernos, embora seja otimizado para desktop e tablet para a melhor experiência."
       }
     ],
-    "howToPlayTitle": "How to Play",
-    "howToPlayP1": "Playing The Freak Circus is simple. The game runs entirely in your browser — no download or installation needed. Click the play button above to launch it directly on this page. This visual novel uses a classic interface: read the story, make choices at key moments, and watch how your decisions shape the narrative.",
-    "howToPlayP2": "Each playthrough of The Freak Circus takes roughly 2 to 3 hours depending on how carefully you read and explore. There are five main story routes, each tied to a different performer: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Your first playthrough will naturally lead toward one or two of these characters based on the choices you make early in the story.",
-    "howToPlayP3": "New players of The Freak Circus should focus on enjoying the atmosphere and characters rather than optimizing for a specific ending on their first run. Multiple playthroughs are rewarded — each route reveals new scenes, dialogue, and backstory you cannot see in a single run.",
-    "faqTitle": "The Freak Circus FAQ",
-    "storyTitle": "The Freak Circus Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus that has arrived in town unannounced. Drawn by an inexplicable pull, you step past the entrance and into a world where reality bends. Each of the five performers offers a different perspective on the circus hidden history.",
-    "storyP2": "As night falls on the second day, the masks begin to slip. You are forced to confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose — it simply shows you where it leads.",
-    "tipsTitle": "Tips for Playing The Freak Circus",
-    "whyPlayTitle": "Why Play The Freak Circus?",
-    "whyPlayText": "The Freak Circus has earned a dedicated following because it offers something rare in the genre: genuinely difficult choices that carry real emotional weight. It does not hold your hand or tell you which choice is right. The art style — all hand-drawn gothic illustrations — sets this visual novel apart from typical anime-style titles. Combined with a branching narrative system that tracks over a dozen variables per playthrough, it delivers a different experience every time you play.",
-    "storyP3": "The circus itself is a character in its own right. The tents shift positions between visits, the carnival games seem to know your thoughts, and the performers remember conversations you never had. By the time you realize the circus is alive, it may already be too late to leave.",
-    "gameplayP": "Gameplay centers on dialogue choices that appear throughout each day. Some choices are timed, adding tension to conversations. Others are deceptively simple — a single word can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even seemingly minor interactions can cascade into major consequences later. The save system lets you revisit key decision points, making it easy to explore alternative paths without restarting from scratch. Each choice matters, and no two playthroughs ever feel quite the same."
+    "storyTitle": "História & Premissa",
+    "storyP1": "O Circo Freak começa quando você tropeça em um circo itinerante. Atraído por um impulso inexplicável, você passa pela entrada e entra em um mundo onde a realidade se dobra. Cada artista oferece uma perspectiva diferente sobre a história oculta do circo — Pierrot chora em suas apresentações, mas vê tudo.",
+    "storyP2": "À medida que a noite cai, as máscaras começam a cair. Você confronta verdades desconfortáveis sobre desejo, controle e as histórias que contamos a nós mesmos. Os finais variam de ternos a terríveis, e o jogo não julga qualquer caminho que você escolha. A atmosfera muda entre o dia e a noite, com cada parte revelando diferentes humores e segredos.",
+    "tipsTitle": "Dicas para Jogar",
+    "tipsList": [
+      "Tire seu tempo lendo cada cena. Pequenos detalhes frequentemente se tornam importantes mais tarde na história.",
+      "Não recarregue os saves na sua primeira jogada. Suas decisões naturais levam à experiência mais significativa.",
+      "Jogue pelo menos duas vezes — uma segunda jogada revela diálogos e cenas que você não consegue ver na primeira vez.",
+      "Preste muita atenção ao Ticket Taker. Ele diz mais do que parece durante a história.",
+      "Cada rota de personagem tem um Final Bom e pelo menos um Final Ruim. As condições são específicas — consulte o guia após sua primeira jogada.",
+      "Use o sistema de save em pontos de decisão importantes para explorar caminhos alternativos sem perder progresso."
+    ],
+    "whyPlayTitle": "Por que jogar?",
+    "whyPlayText": "Este guia foi criado para ser útil após uma atualização: preserva os links de fonte oficiais, datas todos os resumos editoriais e evita transformar rumores da comunidade em datas de lançamento, finais ou requisitos de rotas.",
+    "storyP3": "O próprio circo é um personagem. As tendas mudam de posição entre as visitas, os jogos do carnaval parecem conhecer seus pensamentos e os artistas lembram conversas que você nunca teve. A experiência permanece muito tempo depois que você termina, convidando-o a voltar para explorar caminhos que você não seguiu.",
+    "gameplayP": "A jogabilidade se concentra em escolhas de diálogo ao longo de cada dia. Algumas escolhas são cronometradas, aumentando a tensão nas conversas. Outras parecem simples, mas podem redirecionar toda a rota de um personagem. O jogo rastreia níveis de afinidade com cada personagem, flags ocultos para ramificações da história e escolhas cumulativas que afetam o final. Até interações menores podem desencadear grandes consequências mais tarde."
   },
   "about": {
     "title": "Sobre The Freak Circus",
-    "subtitle": "Everything you need to know about the game and this site.",
-    "gameSection": "The Game",
-    "gameP1": "The Freak Circus é uma visual novel de terror psicológico desenvolvida por Garula (Neko Bueno).",
-    "gameP2": "O jogo segue um protagonista anônimo que visita um circo misterioso.",
-    "siteSection": "This Site",
-    "siteP1": "thefreakcircus.help is an unofficial fan resource offering the game embed, character guides, walkthroughs, and articles. We embed the game via the official CDN and do not host, redistribute, or modify any game files.",
-    "siteP2": "To support the developer directly, visit the <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
-    "faqDivider": "Frequently Asked Questions",
+    "subtitle": "Tudo que você precisa saber sobre o jogo e este site.",
+    "gameSection": "O Jogo",
+    "gameP1": "The Freak Circus é um visual novel de horror psicológico sombrio desenvolvido pelo criador independente Garula (Neko Bueno). É publicado no itch.io e acumulou uma base de fãs internacional dedicada por meio de recomendações em plataformas como TikTok, Tumblr e Reddit.",
+    "gameP2": "O jogo segue um protagonista sem nome que visita um circo misterioso e isolado e se envolve com cinco performers perigosos. A narrativa se desenrola ao longo de vários dias, com as escolhas do jogador determinando as rotas dos personagens e os finais.",
+    "siteSection": "Este Site",
+    "siteP1": "thefreakcircus.help é um recurso de fãs não oficial com guias de personagens, resumos de atualizações e artigos. Um player opcional no site é fornecido por um serviço de terceiros; não afirmamos que esse host é oficial, operado pelo desenvolvedor ou endossado por Garula. Nós não distribuímos downloads do jogo.",
+    "siteP2": "Para apoiar o desenvolvedor diretamente, visite a página oficial do itch.io <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"></a>.",
+    "faqDivider": "Perguntas Frequentes",
     "faq": [
       {
-        "q": "Quem fez?",
-        "a": "Garula (Neko Bueno)."
+        "q": "Quem fez The Freak Circus?",
+        "a": "The Freak Circus foi criado por Garula, também conhecido como Neko Bueno. É um projeto independente publicado no itch.io."
       },
       {
-        "q": "É grátis?",
-        "a": "Sim."
+        "q": "The Freak Circus é gratuito?",
+        "a": "Sim. O jogo base é gratuito para jogar no navegador e para download. O desenvolvedor oferece níveis opcionais no Patreon para acesso antecipado a novos conteúdos."
       },
       {
-        "q": "É oficial?",
-        "a": "Não."
+        "q": "Este site é oficial?",
+        "a": "Não. thefreakcircus.help é um site de fãs não oficial. Não somos afiliados a Garula ou Neko Bueno. Todos os recursos do jogo pertencem ao criador original."
       },
       {
-        "q": "Avisos?",
-        "a": "18+."
+        "q": "Quais avisos de conteúdo o jogo possui?",
+        "a": "The Freak Circus é recomendado para maiores de 18 anos e contém temas de horror psicológico, dinâmicas de relacionamento possessivas e controladoras, romance sombrio e conteúdo adulto. Por favor, consulte a página oficial do itch.io para a lista completa de avisos de conteúdo."
       },
       {
-        "q": "Download?",
-        "a": "No itch.io."
+        "q": "Como faço para baixar o jogo?",
+        "a": "Links para download nas plataformas Windows, macOS e Linux estão disponíveis na página oficial do itch.io. Você também pode jogar a versão para navegador incorporada na página inicial deste site."
       },
       {
-        "q": "Chinês?",
-        "a": "Sim."
+        "q": "O jogo suporta o chinês?",
+        "a": "Sim. The Freak Circus inclui suporte oficial para o idioma Chinês Simplificado."
       }
     ],
-    "triviaTitle": "Character Trivia & Fun Facts",
+    "triviaTitle": "Curiosidades e Fatos Divertidos sobre os Personagens",
     "trivia": [
       {
-        "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot official height has not been disclosed by the developer. Fan estimates based on in-game sprite comparisons suggest he is of average to tall build. Check the <a href=\"/en/characters/pierrot\">Pierrot character page</a> for more details."
+        "q": "Qual é a altura de Pierrot em The Freak Circus?",
+        "a": "A altura oficial de Pierrot não foi divulgada pelo desenvolvedor. Estimativas de fãs baseadas em comparações de sprites do jogo sugerem que ele possui um porte médio a alto. Confira a página do personagem <a href=\"/en/characters/pierrot\">Pierrot</a> para mais detalhes."
       },
       {
-        "q": "Is Pierrot a yandere type?",
-        "a": "Pierrot is frequently categorized by fans as a 'silent yandere' — his possessiveness develops gradually rather than manifesting immediately. His route explores themes of obsession and emotional control. Visit the <a href=\"/en/characters/pierrot\">Pierrot route guide</a> for more insight."
+        "q": "Pierrot é do tipo yandere?",
+        "a": "Pierrot é frequentemente categorizado pelos fãs como um 'yandere silencioso' — seu ciúme e possessividade se desenvolvem gradualmente, em vez de se manifestarem imediatamente. Sua rota explora temas de obsessão e controle emocional. Visite o guia da rota <a href=\"/en/characters/pierrot\">Pierrot</a> para mais informações."
       },
       {
-        "q": "What is Harlequin relationship with Pierrot?",
-        "a": "Harlequin and Pierrot share one of the most complex dynamics in The Freak Circus. Their relationship is part rivalry, part codependence, with their shared history involving Columbina. This backstory is revealed differently depending on which route you play."
+        "q": "Qual é a relação de Harlequin com Pierrot?",
+        "a": "Harlequin e Pierrot compartilham uma das dinâmicas mais complexas em The Freak Circus. O relacionamento deles é parte rivalidade, parte codependência, com um histórico compartilhado envolvendo Columbina. Essa história é revelada de maneira diferente dependendo da rota que você joga."
       },
       {
-        "q": "What happened to Columbina in The Freak Circus?",
-        "a": "Columbina backstory is deliberately kept ambiguous and is revealed in fragments through Pierrot and Harlequin routes. She appears only in flashback sequences and is central to understanding the circus hidden history. Read the <a href=\"/en/characters/columbina\">Columbina lore page</a> for what is known."
+        "q": "O que aconteceu com Columbina em The Freak Circus?",
+        "a": "O passado de Columbina é deliberadamente mantido ambíguo e é revelado em fragmentos através das rotas de Pierrot e Harlequin. Ela aparece apenas em sequências de flashback e é central para compreender a história oculta do circo. Leia a página de lore <a href=\"/en/characters/columbina\">Columbina</a> para saber o que é conhecido."
       },
       {
-        "q": "Can you romance the Ticket Taker?",
-        "a": "Yes. The Ticket Taker has a romanceable route in The Freak Circus. His route requires persistence and careful attention to dialogue. He reveals the deepest lore about the circus origins. See the <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> for tips."
+        "q": "É possível namorar o Ticket Taker?",
+        "a": "Sim. O Ticket Taker tem uma rota romântica em The Freak Circus. Sua rota exige persistência e atenção cuidadosa aos diálogos. Ele revela o lore mais profundo sobre as origens do circo. Veja o guia da rota <a href=\"/en/characters/ticket-taker\">Ticket Taker</a> para dicas."
       },
       {
-        "q": "Does The Doctor have a good ending?",
-        "a": "Yes, the Doctor route has at least one Good Ending. The Doctor route has been expanded with additional content. Accept his examination scenes and make specific dialogue choices to unlock the Clean Hands ending. See the <a href=\"/en/characters/the-doctor\">Doctor character page</a> for details."
+        "q": "O Doctor tem um final bom?",
+        "a": "Sim, a rota do Doctor tem pelo menos um Final Bom. A rota do Doctor foi expandida com conteúdo adicional. Aceite suas cenas de exame e faça escolhas específicas de diálogo para desbloquear o final Mãos Limpas. Veja a página do personagem <a href=\"/en/characters/the-doctor\">Doctor</a> para detalhes."
       }
     ]
   },
   "characters": {
-    "pageTitle": "The Performers",
-    "title": "Characters of The Freak Circus",
-    "subtitle": "Five extraordinary performers. Five routes. One fate.",
-    "routeTip": "Route Tip",
+    "pageTitle": "Os Performers",
+    "title": "Personagens de The Freak Circus",
+    "subtitle": "Cinco performers extraordinários. Cinco rotas. Um destino.",
+    "routeTip": "Dica da Rota",
     "list": [
       {
         "id": "pierrot",
         "name": "Pierrot",
         "role": "O Palhaço Chorão",
-        "description": "Controlado, melancólico e intensamente perceptivo. Pierrot é a âncora emocional do circo.",
+        "description": "Controlado, melancólico e intensamente perceptivo. Pierrot é o âncora emocional do circo, apresentando tristeza para multidões que riem de suas lágrimas. Sua rota é a mais exigente psicologicamente e oferece o lore mais profundo sobre a verdadeira natureza do circo.",
         "traits": [
           "Melancólico",
           "Possessivo",
           "Poético",
           "Perigoso"
         ],
-        "routeTip": "Escolha diálogos introspectivos e empáticos no Dia 1."
+        "routeTip": "Escolha diálogos introspectivos e empáticos no Dia 1. Evite a desafio no Dia 2 para desbloquear o Final Bom."
       },
       {
         "id": "harlequin",
         "name": "Harlequin",
-        "role": "O Artista Caótico",
-        "description": "Imprevisível e teatral, Harlequin mascara um passado turbulento.",
+        "role": "O Performer Caótico",
+        "description": "Imprevisível e teatral, Arlequim esconde um passado turbulento por trás de uma performance sempre mutável. Seu relacionamento com Pierrot é uma das dinâmicas centrais do jogo.",
         "traits": [
           "Volátil",
           "Encantador",
           "Protetor",
           "Complexo"
         ],
-        "routeTip": "Selecione o balão vermelho no Dia 1."
+        "routeTip": "Selecione o balão vermelho no Dia 1. Use respostas ousadas e brincalhonas durante os encontros na tenda."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "O Trapaceiro",
-        "description": "Jester existe entre os outros artistas, nem leal nem antagônico.",
+        "description": "Bobo da Corte existe entre os outros performers, nem totalmente leal nem totalmente antagonista. Sua rota explora a ética do entretenimento e o que significa fazer os outros rirem.",
         "traits": [
           "Ambíguo",
-          "Perspicaz",
+          "Ágil de raciocínio",
           "Solitário",
           "Calculista"
         ],
-        "routeTip": "A rota de Jester é desbloqueada no Dia 2."
+        "routeTip": "A rota de Jester desbloqueia no Dia 2. Responda com humor, mas evite confrontos diretos."
       },
       {
         "id": "ticket-taker",
         "name": "Bilheteiro",
         "role": "O Guardião",
-        "description": "O primeiro personagem que você conhece. O Bilheteiro controla quem entra e quem sai.",
+        "description": "O primeiro personagem que você encontra. O Bilheteiro controla quem entra e quem sai, e tem observado tudo neste circo por muito mais tempo do que os outros imaginam.",
         "traits": [
           "Observador",
-          "Enigmático",
+          "Críptico",
           "Severo",
           "Antigo"
         ],
-        "routeTip": "Responda diretamente a cada pergunta do Bilheteiro."
+        "routeTip": "Responda diretamente a todas as perguntas que o Bilheteiro faz. Sua rota requer persistência."
       },
       {
         "id": "doctor",
-        "name": "Doutor",
+        "name": "Médico",
         "role": "O Cirurgião dos Segredos",
-        "description": "A rota do Doutor contém alguns dos conteúdos mais sombrios do jogo.",
+        "description": "A rota do Doutor é a mais recentemente expandida e contém alguns dos conteúdos mais sombrios do jogo. Ele é metódico, íntimo e profundamente perturbador.",
         "traits": [
           "Clínico",
           "Íntimo",
           "Controlador",
           "Complexo"
         ],
-        "routeTip": "Aceite as cenas de exame do Doutor no Dia 2."
+        "routeTip": "O conteúdo do Doutor se concentra principalmente no Dia 2. Aceite suas cenas de exame para progredir em sua rota."
       }
     ],
     "pierrot": {
       "meta": {
-        "title": "Pierrot - The Freak Circus Character Guide",
-        "desc": "Meet Pierrot the Weeping Clown from The Freak Circus. Learn about his yandere-type personality, route guide, fanart, and role in the story."
+        "title": "Pierrot - Guia de Personagem do Circo Freak",
+        "desc": "Conheça Pierrot, o Palhaço Chorão do Circo Freak. Saiba sobre sua personalidade do tipo yandere, guia de rota, fanart e papel na história."
       },
-      "role": "The Weeping Clown",
-      "appearance": "Pierrot has a lean, androgynous build with pale skin and dark hollowed eyes. He wears a classic white clown costume with black diamond accents and a single tear painted beneath his left eye. His official height has not been disclosed. He is often depicted holding a wilted flower or a broken mirror.",
+      "role": "O Palhaço Chorão",
+      "appearance": "Pierrot tem um corpo magro e andrógino, com pele pálida e olhos escuros fundos. Ele veste um traje clássico de palhaço branco com detalhes em diamante preto e uma única lágrima pintada abaixo do olho esquerdo. Sua altura oficial não foi divulgada. Frequentemente é retratado segurando uma flor murcha ou um espelho quebrado.",
       "traits": [
-        "Melancholic",
-        "Possessive",
-        "Poetic",
-        "Dangerous",
-        "Yandere-type"
+        "Melancólico",
+        "Possessivo",
+        "Poético",
+        "Perigoso",
+        "Tipo yandere"
       ],
-      "personality": "Pierrot is controlled, melancholic, and intensely perceptive. He performs sorrow for crowds who laugh at his tears, but behind the performance lies a deeply possessive and dangerous personality. Fans often categorize him as a 'silent yandere' type — his affection turns obsessive gradually, making his route one of the most psychologically intense in the game.",
-      "routeDesc": "Pierrot's route is the most psychologically demanding in the game. To pursue his route, choose introspective and empathetic dialogue options during Day 1 carnival encounters. Follow the white cloak during the tent scene. During Day 2, prioritize understanding over resistance to unlock the Good Ending. Pierrot's route reveals the deepest lore about the circus history and his relationship with Columbina.",
+      "personality": "Pierrot é controlado, melancólico e intensamente perceptivo. Ele representa a tristeza para multidões que riem de suas lágrimas, mas por trás da atuação existe uma personalidade profundamente possessiva e perigosa. Fãs frequentemente o categorizam como um tipo de 'yandere silencioso' — seu afeto se torna obsessivo de forma gradual, tornando sua rota uma das mais psicologicamente intensas do jogo.",
+      "routeDesc": "A rota de Pierrot é a mais exigente psicologicamente do jogo. Para seguir sua rota, escolha opções de diálogo introspectivas e empáticas durante os encontros do Dia 1 no carnaval. Siga o manto branco durante a cena da tenda. Durante o Dia 2, priorize a compreensão em vez da resistência para desbloquear o Final Bom. A rota de Pierrot revela o lore mais profundo sobre a história do circo e seu relacionamento com Columbina.",
       "fanSections": [
-        "Weeping Clown portrait",
-        "Pierrot and Harlequin confrontation scene",
-        "Pierrot route CG from Day 2"
+        "Retrato do Palhaço Chorão",
+        "Cena de confronto entre Pierrot e Arlequim",
+        "CG da rota de Pierrot do Dia 2"
       ],
       "reviews": [
-        "Pierrot's route stayed with me for days. The writing makes you feel genuinely torn between wanting to save him and needing to escape him.",
-        "The psychological tension in Pierrot's route is unmatched. The voice acting for his breakdown scene is incredible.",
-        "I went into this game expecting a simple romance and came out emotionally devastated by Pierrot's storyline."
+        "A rota de Pierrot ficou comigo por dias. A escrita faz você se sentir genuinamente dividido entre querer salvá-lo e precisar escapar dele.",
+        "A tensão psicológica na rota de Pierrot é incomparável. A dublagem de sua cena de colapso é incrível.",
+        "Entrei neste jogo esperando um romance simples e saí emocionalmente devastado pela história de Pierrot."
       ]
     },
     "harlequin": {
       "meta": {
-        "title": "Harlequin - The Freak Circus Character Guide",
-        "desc": "Meet Harlequin the Chaotic Performer from The Freak Circus. Learn about his volatile personality, route tips, and role in the story."
+        "title": "Arlequim - Guia de Personagens de The Freak Circus",
+        "desc": "Conheça Arlequim, o Intérprete Caótico de The Freak Circus. Saiba mais sobre sua personalidade volátil, dicas de rota e papel na história."
       },
-      "role": "The Chaotic Performer",
-      "appearance": "Harlequin has a tall, athletic build with sharp facial features and wild, two-toned hair. His costume is a traditional diamond-patterned harlequin suit in red and gold, complete with a half-mask that he wears at an angle. His official height has not been disclosed by the developer.",
+      "role": "O Intérprete Caótico",
+      "appearance": "Arlequim tem um corpo alto e atlético com traços faciais afiados e cabelo selvagem de duas cores. Seu traje é um tradicional macacão de arlequim em padrão de losangos nas cores vermelha e dourada, completo com uma meia-máscara que ele usa de lado. Sua altura oficial não foi divulgada pelo desenvolvedor.",
       "traits": [
-        "Volatile",
-        "Charming",
-        "Protective",
-        "Layered",
-        "Chaotic-neutral"
+        "Volátil",
+        "Charmoso",
+        "Protetor",
+        "Complexo",
+        "Caótico-neutro"
       ],
-      "personality": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. One moment he is playful and flirtatious, the next he is dangerous and unreadable. His relationship with Pierrot is one of the most complex dynamics in The Freak Circus — part rivalry, part codependence.",
-      "routeDesc": "Harlequin's route rewards bold choices. Select the red balloon during the Day 1 carnival opening. Use playful, daring responses during main tent encounters. His route escalates quickly during Day 2 — embrace the chaos rather than resist it. Harlequin's route explores themes of performance, identity, and the cost of wearing a mask.",
+      "personality": "Imprevisível e teatral, Arlequim mascara um passado turbulento por trás de uma performance sempre em mudança. Em um momento ele é brincalhão e flertador, no próximo é perigoso e imprevisível. Seu relacionamento com Pierrot é uma das dinâmicas mais complexas em The Freak Circus — parte rivalidade, parte codependência.",
+      "routeDesc": "A rota de Harlequin recompensa escolhas ousadas. Selecione o balão vermelho durante a abertura do carnaval do Dia 1. Use respostas brincalhonas e audaciosas durante os encontros na tenda principal. Sua rota escala rapidamente durante o Dia 2 — abrace o caos em vez de resistir a ele. A rota de Harlequin explora temas de performance, identidade e o custo de usar uma máscara.",
       "fanSections": [
-        "Harlequin performance CG",
-        "Harlequin and Pierrot tension scene",
-        "Harlequin route key art"
+        "CG de performance de Harlequin",
+        "Cena de tensão entre Harlequin e Pierrot",
+        "Arte chave da rota de Harlequin"
       ],
       "reviews": [
-        "Harlequin is the kind of character you hate to love. His route made me genuinely uncomfortable in the best way.",
-        "The chaos energy of Harlequin is off the charts. Every scene with him keeps you guessing.",
-        "His backstory reveal in Day 2 completely changed how I saw his character. The writing is superb."
+        "Harlequin é o tipo de personagem que você odeia amar. Sua rota me deixou genuinamente desconfortável de uma maneira incrível.",
+        "A energia caótica de Harlequin está fora de série. Cada cena com ele mantém você adivinhando.",
+        "A revelação de seu passado no Dia 2 mudou completamente a forma como eu via seu personagem. A escrita é soberba."
       ]
     },
     "jester": {
       "meta": {
-        "title": "Jester - The Freak Circus Character Guide",
-        "desc": "Meet Jester the Trickster from The Freak Circus. Learn about his ambiguous personality, route guide, and role in the story."
+        "title": "Jester - Guia de Personagens de The Freak Circus",
+        "desc": "Conheça Jester, o Trapaceiro de The Freak Circus. Aprenda sobre sua personalidade ambígua, guia de rota e papel na história."
       },
-      "role": "The Trickster",
-      "appearance": "Jester has a smaller, agile build with wide, expressive eyes and a permanent smirk. His costume is a multi-colored jester outfit with bells on the pointed collar and curled shoes. His official height and age have not been disclosed.",
+      "role": "O Trapaceiro",
+      "appearance": "Jester tem uma constituição menor e ágil, com olhos largos e expressivos e um sorriso permanente. Seu traje é um conjunto de bobo-da-corte multicolorido com sinos na gola pontuda e sapatos enrolados. Sua altura e idade oficiais não foram divulgadas.",
       "traits": [
-        "Ambiguous",
-        "Quick-witted",
-        "Lonely",
-        "Calculating",
-        "Trickster archetype"
+        "Ambíguo",
+        "Espirituoso",
+        "Solitário",
+        "Calculista",
+        "Arquétipo do Trapaceiro"
       ],
-      "personality": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He plays tricks on everyone but never reveals his own hand. His ambiguous alignment makes him one of the most unpredictable characters in The Freak Circus — you never know if he is helping you or setting you up.",
-      "routeDesc": "Jester's route is unlocked during Day 2. Respond with humor and wit, but avoid direct confrontation. Jester respects cleverness over brute honesty. His route explores the ethics of entertainment and what it means to make others laugh while hiding your own pain.",
+      "personality": "Jester existe entre os outros performers, não sendo totalmente leal nem totalmente antagonista. Ele prega peças em todos, mas nunca revela suas próprias intenções. Seu alinhamento ambíguo faz dele um dos personagens mais imprevisíveis de The Freak Circus — você nunca sabe se ele está ajudando ou armando algo contra você.",
+      "routeDesc": "A rota de Jester é desbloqueada durante o Dia 2. Responda com humor e sagacidade, mas evite confrontos diretos. Jester respeita inteligência mais do que honestidade pura. Sua rota explora a ética do entretenimento e o que significa fazer os outros rirem enquanto esconde sua própria dor.",
       "fanSections": [
-        "Jester trickster pose CG",
-        "Jester and protagonist dialogue scene",
-        "Jester route mood art"
+        "CG de pose de trapaceiro de Jester",
+        "Cena de diálogo entre Jester e o protagonista",
+        "Arte de ambientação da rota de Jester"
       ],
       "reviews": [
-        "Jester quickly became my favorite. His humor hides so much pain and the route reveals it beautifully.",
-        "The Jester route has the best writing for comedic timing. Some lines genuinely made me laugh out loud.",
-        "His route twist in the second act caught me completely off guard. Do not underestimate him."
+        "Jester rapidamente se tornou meu favorito. Seu humor esconde tanta dor e a rota revela isso de forma maravilhosa.",
+        "A rota de Jester tem a melhor escrita para tempo cômico. Algumas falas realmente me fizeram rir em voz alta.",
+        "O plot twist de sua rota no segundo ato me pegou completamente desprevenido. Não o subestime."
       ]
     },
     "doctor": {
       "meta": {
-        "title": "The Doctor - The Freak Circus Character Guide",
-        "desc": "Meet the Doctor, the Surgeon of Secrets from The Freak Circus. Learn about his clinical personality, route guide, and role in the story."
+        "title": "O Doutor - Guia de Personagens de The Freak Circus",
+        "desc": "Conheça o Doutor, o Cirurgião dos Segredos de The Freak Circus. Saiba sobre sua personalidade clínica, guia de rota e papel na história."
       },
-      "role": "The Surgeon of Secrets",
-      "appearance": "The Doctor is tall and composed, with sharp features and cold, analytical eyes. He wears a vintage medical coat stained with what appears to be old blood, layered over a formal waistcoat. His official height has not been disclosed. He carries a leather doctor bag that never leaves his side.",
+      "role": "O Cirurgião dos Segredos",
+      "appearance": "O Doutor é alto e composto, com traços marcantes e olhos frios e analíticos. Ele veste um jaleco médico vintage manchado com o que parece ser sangue antigo, sobreposto a um colete formal. Sua altura oficial não foi divulgada. Ele carrega uma bolsa de couro de médico que nunca o deixa.",
       "traits": [
-        "Clinical",
-        "Intimate",
-        "Controlling",
-        "Complex",
-        "Sadistic streak"
+        "Clínico",
+        "Íntimo",
+        "Controlador",
+        "Complexo",
+        "Traço sádico"
       ],
-      "personality": "The Doctor is methodical, intimate, and deeply unsettling. He approaches every interaction as if conducting an examination — clinical in speech, unnerving in touch. His route contains some of the darkest content in The Freak Circus, exploring themes of control, vulnerability, and the ethics of care.",
-      "routeDesc": "The Doctor's content is largely concentrated in Day 2. Accept his examination scenes to progress his route. His route requires a willingness to engage with uncomfortable dynamics. The Doctor route has been recently expanded with new content by the developer, adding additional scenes and an extended ending sequence.",
+      "personality": "O Doutor é metódico, íntimo e profundamente perturbador. Ele aborda cada interação como se estivesse realizando um exame — clínico na fala, inquietante ao toque. Sua rota contém alguns dos conteúdos mais sombrios de The Freak Circus, explorando temas de controle, vulnerabilidade e ética do cuidado.",
+      "routeDesc": "O conteúdo do Doutor está concentrado principalmente no Dia 2. Aceite suas cenas de exame para avançar em sua rota. Sua rota requer disposição para lidar com dinâmicas desconfortáveis. A rota do Doutor foi recentemente expandida com novos conteúdos pelo desenvolvedor, adicionando cenas adicionais e uma sequência final estendida.",
       "fanSections": [
-        "Doctor examination room CG",
-        "Doctor and protagonist tense scene",
-        "Doctor character concept art"
+        "CG da sala de exames do Doutor",
+        "Cena tensa entre o Doutor e o protagonista",
+        "Arte conceitual do personagem Doutor"
       ],
       "reviews": [
-        "The Doctor's route is not for everyone, but if you enjoy dark romance with psychological depth, it is incredibly well-written.",
-        "I was genuinely unsettled during his examination scenes. The game does not hold back.",
-        "The expanded content for his route adds so much depth. The new ending made me rethink his entire character."
+        "A rota do Doutor não é para todos, mas se você aprecia romance sombrio com profundidade psicológica, é incrivelmente bem escrita.",
+        "Fiquei genuinamente perturbado durante suas cenas de exame. O jogo não se segura.",
+        "O conteúdo expandido da sua rota adiciona tanta profundidade. O novo final me fez repensar todo o seu personagem."
       ]
     },
     "columbina": {
       "meta": {
-        "title": "Columbina - The Freak Circus Character Guide",
-        "desc": "Meet Columbina from The Freak Circus. Learn about her mysterious past with Pierrot, her role in the circus lore, and what fans speculate about her."
+        "title": "Columbina - Guia de Personagens de The Freak Circus",
+        "desc": "Conheça Columbina de The Freak Circus. Saiba sobre seu passado misterioso com Pierrot, seu papel na história do circo e o que os fãs especulam sobre ela."
       },
-      "role": "The Lost Performer",
-      "appearance": "Columbina is described through in-game text and flashback sequences as having a delicate frame, porcelain features, and a soft, melancholic expression. She wears a traditional Columbina costume — a flowing white and gold dress with a small half-mask. Her official height has not been disclosed. Her appearance is only shown in fragmented CG sequences and character memories.",
+      "role": "A Performadora Perdida",
+      "appearance": "Columbina é descrita através de textos do jogo e sequências de flashback como tendo uma estrutura delicada, traços de porcelana e uma expressão suave e melancólica. Ela veste uma fantasia tradicional de Columbina — um vestido branco e dourado fluido com uma pequena meia-máscara. Sua altura oficial não foi divulgada. Sua aparência é mostrada apenas em sequências de CG fragmentadas e memórias de personagens.",
       "traits": [
-        "Elegant",
-        "Tragic",
-        "Mysterious",
-        "Fragile",
-        "Central lore figure"
+        "Elegante",
+        "Trágica",
+        "Misteriosa",
+        "Frágil",
+        "Figura central da história"
       ],
-      "personality": "Columbina is a figure of tragedy and mystery in The Freak Circus. She is central to the backstory of both Pierrot and Harlequin, though she never appears as a living character in the main timeline. Her past actions and relationship with the circus performers shape much of the present-day narrative. Fan theories about Columbina vary widely, as the game deliberately keeps her story ambiguous.",
-      "routeDesc": "Columbina does not have a romanceable route in The Freak Circus. She is a lore-only character whose story is revealed through Pierrot and Harlequin routes. Piecing together her history is one of the main motivations for multiple playthroughs.",
+      "personality": "Columbina é uma figura de tragédia e mistério em The Freak Circus. Ela é central para a história de fundo de Pierrot e Arlequim, embora nunca apareça como personagem viva na linha do tempo principal. Suas ações passadas e relacionamento com os artistas do circo moldam grande parte da narrativa atual. Teorias de fãs sobre Columbina variam amplamente, já que o jogo mantém deliberadamente sua história ambígua.",
+      "routeDesc": "Columbina não possui rota romântica em The Freak Circus. Ela é uma personagem apenas de lore, cuja história é revelada através das rotas de Pierrot e Arlequim. Juntar os fragmentos de sua história é uma das principais motivações para múltiplos playthroughs.",
       "fanSections": [
-        "Columbina flashback CG",
-        "Columbina and Pierrot memory scene",
-        "Columbina concept art"
+        "CG de flashback de Columbina",
+        "Cena de memória de Columbina e Pierrot",
+        "Arte conceitual de Columbina"
       ],
       "reviews": [
-        "The Columbina reveal completely reframes Pierrot entire route. I had to replay immediately.",
-        "Every mention of Columbina in the game is heartbreaking. The writing team did an amazing job with her tragic story.",
-        "I spent hours on forums discussing Columbina theories after finishing the game. That is how compelling her character is."
+        "A revelação de Columbina reformula completamente toda a rota de Pierrot. Eu tive que jogar novamente imediatamente.",
+        "Toda menção a Columbina no jogo é de partir o coração. A equipe de roteiristas fez um trabalho incrível com sua história trágica.",
+        "Passei horas em fóruns discutindo teorias sobre Columbina após terminar o jogo. É assim que a personagem é cativante."
       ]
     },
     "ticket-taker": {
       "meta": {
-        "title": "Ticket Taker TFC - The Freak Circus Character Guide",
-        "desc": "Meet the Ticket Taker from The Freak Circus. Learn about his cryptic personality, gatekeeper role, route guide, and lore significance."
+        "title": "Ticket Taker TFC - Guia de Personagens de The Freak Circus",
+        "desc": "Conheça o Ticket Taker de The Freak Circus. Saiba mais sobre sua personalidade enigmática, seu papel de guardião, guia de rotas e importância na lore."
       },
-      "role": "The Gatekeeper",
-      "appearance": "The Ticket Taker is an older, stoic figure with silver-streaked hair and piercing eyes that seem to look through you. He wears a vintage railway conductor uniform with brass buttons and always carries a leather-bound ticket book. His official height has not been disclosed. He is the first character you meet when entering the circus.",
+      "role": "O Guardião",
+      "appearance": "O Ticket Taker é uma figura mais velha e estoica, com cabelo grisalho e olhos penetrantes que parecem enxergar através de você. Ele usa um uniforme vintage de condutor de trem com botões de latão e sempre carrega um livro de bilhetes encadernado em couro. Sua altura oficial não foi divulgada. Ele é o primeiro personagem que você encontra ao entrar no circo.",
       "traits": [
-        "Observant",
-        "Cryptic",
-        "Stern",
-        "Ancient",
-        "Guardian figure"
+        "Observador",
+        "Enigmático",
+        "Severo",
+        "Antigo",
+        "Figura guardiã"
       ],
-      "personality": "The first character you encounter. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize. His cryptic comments often carry double meanings that only become clear on replay. He speaks in riddles and seems to know more about the protagonist than he lets on.",
-      "routeDesc": "The Ticket Taker route requires persistence. Engage directly with every question he asks — deflect his tests at your own risk. His route rewards players who pay attention to the smallest details in dialogue. The Ticket Taker reveals the deepest lore about the circus origins and the nature of the performers contract.",
+      "personality": "O primeiro personagem que você encontra. O Ticket Taker controla quem entra e quem sai, e tem observado tudo neste circo há muito mais tempo do que os outros percebem. Seus comentários cripticos frequentemente carregam significados duplos que só se tornam claros em uma nova jogada. Ele fala em enigmas e parece saber mais sobre o protagonista do que revela.",
+      "routeDesc": "A rota do Ticket Taker requer persistência. Interaja diretamente com cada pergunta que ele faz — desviar-se de seus testes é por sua própria conta e risco. Sua rota recompensa jogadores que prestam atenção aos menores detalhes do diálogo. O Ticket Taker revela a lore mais profunda sobre a origem do circo e a natureza do contrato dos artistas.",
       "fanSections": [
-        "Ticket Taker entrance CG",
-        "Ticket Taker route key scene",
-        "Ticket Taker character art"
+        "CG de entrada do Ticket Taker",
+        "Cena chave da rota do Ticket Taker",
+        "Arte do personagem Apanhador de Ingressos"
       ],
       "reviews": [
-        "The Ticket Taker quickly went from creepy gatekeeper to fascinating character. His route has the best lore payoff in the game.",
-        "Every line the Ticket Taker speaks is important. I started taking notes on my second playthrough.",
-        "His route answers questions you did not even know you had. The lore reveal is worth the effort of unlocking his path."
+        "O Apanhador de Ingressos rapidamente passou de um guardião assustador para um personagem fascinante. Sua rota tem o melhor desfecho de lore no jogo.",
+        "Cada linha que o Apanhador de Ingressos fala é importante. Comecei a anotar na minha segunda jogada.",
+        "Sua rota responde perguntas que você nem sabia que tinha. A revelação do lore vale o esforço para desbloquear seu caminho."
       ]
     }
   },
   "walkthrough": {
-    "pageTitle": "Guides & Spoilers",
-    "title": "The Freak Circus Walkthrough",
-    "subtitle": "Step-by-step guides for every route, ending, and hidden scene.",
-    "spoilerTitle": "Spoiler Warning",
-    "spoilerText": "Esta página contém spoilers importantes para todas as rotas e finais.",
-    "day1Title": "Day 1 - Route Overview",
-    "day1P1": "O Dia 1 estabelece sua afinidade com cada personagem através de encontros no carnaval.",
-    "day1P2": "Pontos de ramificação: interação com o Bilheteiro, escolha da tenda e jantar.",
-    "pierrotTitle": "Pierrot Route Guide",
-    "pierrotP1": "Selecione opções introspectivas e empáticas no Dia 1. Siga a capa branca.",
-    "pierrotP2": "Veja o artigo completo em nosso <a href=\"/pt/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Harlequin Route Guide",
-    "harlequinP1": "Interaja com o balão vermelho. Use respostas ousadas na tenda principal.",
-    "endingsTitle": "Endings Summary",
-    "endingsChar": "Character",
-    "endingsGood": "Good Ending",
-    "endingsBad": "Bad Endings",
+    "pageTitle": "Guias & Spoilers",
+    "title": "O Guia do Freak Circus",
+    "subtitle": "Guias passo a passo para cada rota, final e cena oculta.",
+    "spoilerTitle": "Aviso de Spoiler",
+    "spoilerText": "Esta página contém spoilers importantes para todas as rotas e finais. Jogue pelo menos o Dia 1 antes de consultar este guia.",
+    "day1Title": "Dia 1 - Visão Geral da Rota",
+    "day1P1": "O Dia 1 estabelece sua afinidade com cada um dos cinco personagens através de uma série de encontros no carnaval. Suas escolhas nos primeiros 20 minutos determinam quais rotas se tornarão disponíveis no Dia 2.",
+    "day1P2": "Os principais pontos de ramificação no Dia 1 incluem a interação na entrada com o Apanhador de Ingressos, a escolha da tenda e a conversa durante a refeição noturna.",
+    "pierrotTitle": "Guia de Rota do Pierrot",
+    "pierrotP1": "Selecione opções introspectivas e empáticas ao longo do Dia 1. Na cena da tenda, siga a capa branca. Durante o Dia 2, escolha compreensão em vez de resistência para desbloquear o Final Bom de Pierrot.",
+    "pierrotP2": "Veja o artigo completo da rota de Pierrot em nosso blog <a href=\"/blog/pierrot-route-guide\">blog</a>.",
+    "harlequinTitle": "Guia de Rota do Arlequim",
+    "harlequinP1": "Interaja com o balão vermelho durante a abertura do carnaval no Dia 1. Use respostas ousadas e brincalhonas na tenda principal. A rota de Arlequim escala rapidamente no Dia 2, então aceite o caos em vez de resistir a ele.",
+    "endingsTitle": "Resumo dos Finais",
+    "endingsChar": "Personagem",
+    "endingsGood": "Final Bom",
+    "endingsBad": "Finais Ruins",
     "endingsTable": [
       {
         "char": "Pierrot",
-        "good": "Mirror Reflection",
-        "bad": "Broken Stage, Escape"
+        "good": "Reflexo no Espelho",
+        "bad": "Palco Quebrado, Fuga"
       },
       {
         "char": "Harlequin",
-        "good": "Curtain Call",
-        "bad": "Empty Stage"
+        "good": "Cortina Final",
+        "bad": "Palco Vazio"
       },
       {
         "char": "Jester",
-        "good": "Unmasked",
-        "bad": "The Punchline"
+        "good": "Desmascarado",
+        "bad": "A Piada Final"
       },
       {
-        "char": "Ticket Taker",
-        "good": "Open Gate",
-        "bad": "Closed Forever"
+        "char": "Apanhador de Ingressos",
+        "good": "Portão Aberto",
+        "bad": "Fechado Para Sempre"
       },
       {
-        "char": "Doctor",
-        "good": "Clean Hands",
-        "bad": "Under the Knife, Numb"
+        "char": "Doutor",
+        "good": "Mãos Limpas",
+        "bad": "Sob a Faca, Anestesiado"
       }
     ],
     "day1": {
       "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - All Choices",
-        "desc": "Complete Day 1 walkthrough for The Freak Circus. Learn all key choices, character affinity decisions, and how to unlock each route from the first day."
+        "title": "Guia Completo do Dia 1 de The Freak Circus - Todas as Escolhas",
+        "desc": "Guia completo do Dia 1 de The Freak Circus. Saiba todas as escolhas principais, decisões de afinidade de personagens e como desbloquear cada rota desde o primeiro dia."
       },
-      "title": "Day 1 - Complete Walkthrough",
-      "overview": "Day 1 establishes your affinity with each character through carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
+      "title": "Dia 1 - Guia Completo",
+      "overview": "O Dia 1 estabelece sua afinidade com cada personagem através de encontros no carnaval. Suas escolhas nos primeiros 20 minutos determinam quais rotas se tornarão disponíveis no Dia 2.",
       "choices": [
         {
-          "moment": "Entrance - Meeting the Ticket Taker",
-          "desc": "Your first interaction sets the tone. Answer honestly to gain Ticket Taker affinity. Deflect or joke to lean toward Jester or Harlequin."
+          "moment": "Entrada - Encontro com o Apanhador de Ingressos",
+          "desc": "Sua primeira interação define o tom. Responda honestamente para ganhar afinidade com o Bilheteiro. Desvie ou brinque para inclinar para o Bobo ou Arlequim."
         },
         {
-          "moment": "The Carnival Midway",
-          "desc": "Explore the booths. Each interaction subtly shifts character affinities. The red balloon leads toward Harlequin. The white cloak reveals Pierrot path."
+          "moment": "O Carnaval",
+          "desc": "Explore os estandes. Cada interação muda sutilmente as afinidades dos personagens. O balão vermelho leva ao Arlequim. A capa branca revela o caminho de Pierrot."
         },
         {
-          "moment": "The Tent Performance",
-          "desc": "Your seat choice and reactions during the main performance influence which performer notices you. Front row signals boldness. Balcony suggests introspection."
+          "moment": "A Performance na Tenda",
+          "desc": "Sua escolha de assento e reações durante a apresentação principal influenciam qual artista nota você. Primeira fila sinaliza ousadia. A varanda sugere introspecção."
         },
         {
-          "moment": "Evening Meal Conversation",
-          "desc": "The dinner scene is a major branching point. Your dialogue choices here can lock or unlock specific routes for Day 2."
+          "moment": "Conversa na Refeição da Noite",
+          "desc": "A cena do jantar é um ponto de ramificação importante. Suas escolhas de diálogo aqui podem travar ou desbloquear rotas específicas para o Dia 2."
         }
       ]
     },
     "day2": {
       "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Routes & Endings",
-        "desc": "Complete Day 2 walkthrough for The Freak Circus with character routes, good and bad ending conditions, and hidden scene triggers."
+        "title": "The Freak Circus Dia 2 - Guia de Rotas e Finais",
+        "desc": "Complete o guia do Dia 2 de The Freak Circus com rotas dos personagens, condições de finais bons e ruins, e gatilhos de cenas ocultas."
       },
-      "title": "Day 2 - Routes & Ending Guide",
-      "overview": "Day 2 intensifies the narrative. Your Day 1 choices determine which routes remain open. Each character route has distinct Good and Bad Ending conditions.",
+      "title": "Dia 2 - Guia de Rotas e Finais",
+      "overview": "O Dia 2 intensifica a narrativa. Suas escolhas do Dia 1 determinam quais rotas permanecem abertas. Cada rota de personagem tem condições distintas de Final Bom e Final Ruim.",
       "choices": [
         {
-          "moment": "Morning After - Route Lock-in",
-          "desc": "The first Day 2 conversation confirms your active route(s). Characters with highest affinity approach you first."
+          "moment": "Manhã Seguinte - Bloqueio de Rota",
+          "desc": "A primeira conversa do Dia 2 confirma sua(s) rota(s) ativa(s). Personagens com maior afinidade se aproximam primeiro."
         },
         {
-          "moment": "Route-Specific Encounters",
-          "desc": "Each locked route has unique scenes. Pierrot route involves the mirror tent. Harlequin route escalates at the main stage."
+          "moment": "Encontros Específicos de Rota",
+          "desc": "Cada rota bloqueada tem cenas únicas. A rota de Pierrot envolve a tenda dos espelhos. A rota do Arlequim se intensifica no palco principal."
         },
         {
-          "moment": "Final Confrontation",
-          "desc": "The climax of each route. Your choices here determine Good vs Bad Ending. Save before this point to explore both outcomes."
+          "moment": "Confronto Final",
+          "desc": "O clímax de cada rota. Suas escolhas aqui determinam Final Bom vs Final Ruim. Salve antes deste ponto para explorar ambos os desfechos."
         }
       ]
     },
     "day3": {
       "meta": {
-        "title": "The Freak Circus Day 3 - Latest Updates & News",
-        "desc": "The Freak Circus Day 3 content status. Check the latest developer updates, estimated release timeline, and subscribe for notifications."
+        "title": "The Freak Circus Dia 3 - Últimas Atualizações e Notícias",
+        "desc": "Status do conteúdo de The Freak Circus Dia 3. Confira as últimas atualizações do desenvolvedor, previsão de lançamento e inscreva-se para notificações."
       },
-      "title": "Day 3 — Verified Update Tracker",
-      "status": "Day 3 content is currently under development. The developer has confirmed ongoing work but has not announced a specific release date. Bookmark this page for the latest updates.",
-      "devNotes": "Check the /news page for the latest developer updates on Day 3 progress and other upcoming content."
+      "title": "Dia 3 — Rastreador de Atualizações Verificadas",
+      "status": "Nenhuma data de lançamento do Dia 3 é declarada nesta página. Ela apenas vincula anúncios numerados, de desenvolvedores oficiais.",
+      "devNotes": "Leia a seção de Notícias para as últimas atualizações do desenvolvedor com fonte vinculada."
     }
   },
   "blog": {
     "title": "Guias e Artigos",
-    "subtitle": "Guias, análises e lore de The Freak Circus.",
+    "subtitle": "Walkthroughs, análise de personagens e lore de The Freak Circus.",
     "backLink": "Voltar para todos os artigos",
-    "published": "Publicado em {date}",
-    "footerLink": "Jogar The Freak Circus Online"
+    "published": "Publicado {date}",
+    "footerLink": "Jogue The Freak Circus Online"
   },
   "ad": {
-    "leftLabel": "Anúncio esquerdo",
-    "rightLabel": "Anúncio direito"
+    "leftLabel": "Publicidade na barra lateral esquerda",
+    "rightLabel": "Publicidade na barra lateral direita"
   },
   "meta": {
     "homeTitle": "Jogue The Freak Circus Online",
-    "homeDesc": "Jogue The Freak Circus grátis online. Visual novel de terror por Garula.",
-    "aboutTitle": "Sobre The Freak Circus",
-    "aboutDesc": "Informações sobre a visual novel The Freak Circus.",
-    "charactersTitle": "Personagens",
-    "charactersDesc": "Conheça os personagens de The Freak Circus.",
-    "walkthroughTitle": "Guia de The Freak Circus",
-    "walkthroughDesc": "Guia completo com escolhas, rotas e finais.",
-    "blogTitle": "Blog The Freak Circus",
-    "blogDesc": "Guias, análises e lore.",
-    "contactTitle": "Contact Us",
-    "contactDesc": "Get in touch with the team behind thefreakcircus.help fan site for The Freak Circus visual novel.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
+    "homeDesc": "Jogue The Freak Circus gratuitamente online no seu navegador. Um visual novel de horror psicológico sombrio por Garula com rotas para Pierrot, Arlequim, Bobo e mais.",
+    "aboutTitle": "Sobre o FAQ do Jogo The Freak Circus",
+    "aboutDesc": "Saiba mais sobre o visual novel The Freak Circus: desenvolvedor, links de download, avisos de conteúdo, suporte ao chinês e perguntas frequentes.",
+    "charactersTitle": "Guia de Personagens do The Freak Circus",
+    "charactersDesc": "Conheça os personagens de The Freak Circus: Pierrot, Arlequim, Bobo, o Bilheteiro e o Doutor. Leia dicas de rotas, características e notas de lore.",
+    "walkthroughTitle": "Passo a Passo e Finais de Freak Circus",
+    "walkthroughDesc": "Guia completo para o visual novel The Freak Circus com escolhas do Dia 1 e Dia 2, rotas de personagens, finais bons, finais ruins e cenas escondidas.",
+    "blogTitle": "Blog de The Freak Circus - Guias, Passo a Passo & Análise de Personagens",
+    "blogDesc": "Guias, walkthroughs de finais, análise de personagens e profundidade do lore para o visual novel de terror psicológico The Freak Circus.",
+    "contactTitle": "Contate-Nos",
+    "contactDesc": "Entre em contato com a equipe por trás do site de fãs thefreakcircus.help para o visual novel The Freak Circus.",
+    "privacyTitle": "Política de Privacidade",
+    "privacyDesc": "Política de privacidade do thefreakcircus.help - como lidamos com os dados dos visitantes neste site de fãs de The Freak Circus.",
+    "termsTitle": "Termos de Serviço",
+    "termsDesc": "Termos de serviço do thefreakcircus.help - regras e diretrizes para usar este site de fãs de The Freak Circus."
   },
   "schema": {
     "websiteName": "The Freak Circus",
-    "websiteDesc": "Uma visual novel de terror psicológico em um circo misterioso.",
+    "websiteDesc": "Um visual novel de romance e terror psicológico ambientado em um circo misterioso.",
     "gameGenres": [
       "Visual Novel",
       "Terror Psicológico",
@@ -568,146 +568,179 @@
     "authorName": "Garula (Neko Bueno)",
     "os": "Navegador Web, Windows, macOS, Linux",
     "contentRating": "18+",
-    "searchAction": "Pesquisar thefreakcircus.help"
+    "searchAction": "Pesquisar no thefreakcircus.help"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
-    "p1": "Have questions about The Freak Circus visual novel or this fan site? Feel free to reach out. We are happy to help with gameplay questions, feedback about the site, or general inquiries about the game.",
-    "p2": "You can reach us through the official itch.io page for The Freak Circus, or contact us via social media. We try to respond to all inquiries within a few days."
+    "title": "Contate-Nos",
+    "subtitle": "Entre em contato com a equipe por trás do thefreakcircus.help.",
+    "p1": "thefreakcircus.help é um site de fãs não oficial para o visual novel The Freak Circus. Não temos afiliação com Garula, Neko Bueno ou itch.io. Se você tiver perguntas sobre o jogo, o site ou precisar de ajuda com o gameplay, sinta-se à vontade para nos contatar.",
+    "p2": "Email: contact@thefreakcircus.help — tentamos responder em alguns dias."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "How we handle your data on thefreakcircus.help.",
-    "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help does not collect, store, or process any personal data from visitors. We do not use cookies for tracking purposes beyond the language preference cookie (NEXT_LOCALE) which stores your selected language and nothing else. The embedded game is served directly from the official CDN and we do not have access to any data transmitted during gameplay.",
-    "s2title": "Third-Party Services",
-    "s2body": "The Freak Circus game itself is embedded via an iframe from the official CDN. That service may collect its own data according to its own privacy policy, which we do not control. We recommend reviewing the official itch.io page for the game's data practices. We also use Google Analytics for basic anonymous traffic analysis; this can be blocked via browser extensions.",
-    "s3title": "Your Rights",
-    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
+    "title": "Política de Privacidade",
+    "subtitle": "Como lidamos com seus dados no thefreakcircus.help.",
+    "s1title": "Informações que Coletamos",
+    "s1body": "o thefreakcircus.help usa um cookie de preferência de idioma e análises descritas abaixo. Um player opcional na página é fornecido por um host de terceiros; este site de fãs não opera esse host e não afirma que seja oficial. Não temos acesso aos dados enviados dentro desse player.",
+    "s2title": "Serviços de Terceiros",
+    "s2body": "O player opcional é carregado em um iframe a partir de um host terceirizado. Esse host pode coletar dados de acordo com suas próprias políticas, que não controlamos. Para o jogo com suporte do desenvolvedor e suas práticas de dados, consulte a página oficial no itch.io. Também usamos o Google Analytics para medição básica de tráfego.",
+    "s3title": "Seus Direitos",
+    "s3body": "Como visitante deste site de fãs, você tem o direito de navegar anonimamente, bloquear cookies através das configurações do seu navegador e usar extensões de bloqueio de anúncios ou proteção contra rastreamento. Se tiver preocupações sobre o manuseio de dados, entre em contato conosco pela página oficial do itch.io."
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
-    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "The Freak Circus game is embedded via an iframe from the official CDN. We do not host, modify, or redistribute any game files. The game is provided as-is and we make no guarantees about availability or performance.",
-    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
-    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
+    "title": "Termos de Serviço",
+    "subtitle": "Regras e diretrizes para o uso do thefreakcircus.help.",
+    "s1body": "thefreakcircus.help é um site de fãs não oficial para a visual novel The Freak Circus. Não somos afiliados a Garula, Neko Bueno ou ao itch.io. Todo o conteúdo do jogo, incluindo arte, história e personagens, pertence aos respectivos criadores.",
+    "s2body": "Um player opcional está incorporado a partir de um host terceirizado. Não afirmamos que esse host seja oficial, operado pelo desenvolvedor ou endossado. Não distribuímos downloads do jogo; use a página oficial do itch.io para a versão com suporte do desenvolvedor.",
+    "s3body": "Todo o conteúdo original neste site — incluindo guias, walkthroughs e artigos — é fornecido para fins informativos. Você pode compartilhar links para nossas páginas, mas não reproduza nosso conteúdo sem atribuição.",
+    "s4body": "Este site contém conteúdo de um jogo classificado para maiores de 18 anos. Ao usar este site, você confirma que possui idade legal para visualizar conteúdo adulto em sua jurisdição. Se tiver qualquer dúvida sobre estes termos, entre em contato conosco."
   },
   "wiki": {
-    "title": "The Freak Circus Wiki & Lore Guide",
-    "subtitle": "Complete encyclopedia of The Freak Circus lore, characters, and setting.",
+    "title": "The Freak Circus Wiki & Guia de Lore",
+    "subtitle": "Enciclopédia completa do lore, personagens e cenário de The Freak Circus.",
     "meta": {
-      "title": "The Freak Circus Wiki - Complete Lore & Setting Guide",
-      "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
+      "title": "The Freak Circus Wiki - Guia Completo de Lore & Cenário",
+      "desc": "Explore a wiki completa de The Freak Circus, incluindo lore dos personagens, cenário do circo, glossário de termos, linha do tempo de desenvolvimento e créditos dos desenvolvedores."
     },
-    "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia资料 including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
-    "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
-    "loreTitle": "World & Circus Setting",
-    "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
-    "loreP2": "The circus grounds include the main performance tent, the carnival midway, individual performer spaces, and hidden areas that only become accessible on specific routes. The layout shifts between visits, suggesting the circus itself is alive and responsive to the protagonist choices.",
-    "glossaryTitle": "Glossary of Terms",
+    "overviewTitle": "Bem-vindo à Wiki",
+    "overviewP1": "Esta página fornece a enciclopédia completa de The Freak Circus, incluindo perfis de personagens, cenário da história e histórico de atualizações. Seja você um jogador novo querendo entender a história ou um veterano buscando lore mais profundo, esta wiki cobre tudo o que se sabe sobre o jogo.",
+    "overviewP2": "As informações aqui são baseadas em conteúdo do jogo oficialmente confirmado. Especulações da comunidade são claramente marcadas quando incluídas.",
+    "loreTitle": "Mundo & Cenário do Circo",
+    "loreP1": "O Freak Circus se passa em um circo misterioso que aparece apenas à noite, na periferia de uma cidade envolta em neblina. O circo existe em um espaço liminar — ele chega sem aviso e se vai da mesma forma. Os cinco artistas estão vinculados ao circo por um acordo que antecede os eventos do jogo, embora a natureza exata desse acordo seja propositalmente deixada ambígua.",
+    "loreP2": "O terreno do circo inclui a tenda principal de apresentações, a área de diversões, os espaços individuais dos artistas e áreas ocultas que só se tornam acessíveis em rotas específicas. A disposição muda entre as visitas, sugerindo que o próprio circo está vivo e responde às escolhas do protagonista.",
+    "glossaryTitle": "Glossário de Termos",
     "glossary": [
       {
-        "term": "The Performance",
-        "def": "The nightly show each performer gives. The Performance is both literal entertainment and a metaphor for each character hidden nature."
+        "term": "A Performance",
+        "def": "O show noturno que cada artista apresenta. A Performance é tanto entretenimento literal quanto uma metáfora para a natureza oculta de cada personagem."
       },
       {
-        "term": "The Contract",
-        "def": "An agreement binding each performer to the circus. The terms are never fully explained but hinted at through character dialogue."
+        "term": "O Contrato",
+        "def": "Um acordo que vincula cada artista ao circo. Os termos nunca são totalmente explicados, mas são sugeridos através do diálogo dos personagens."
       },
       {
-        "term": "Day 1 / Day 2",
-        "def": "The two active days of gameplay. The story unfolds across this timeframe, with choices determining which routes open."
+        "term": "Dia 1 / Dia 2",
+        "def": "Os dois dias ativos de jogo. A história se desenrola nesse período, com escolhas determinando quais rotas se abrem."
       },
       {
-        "term": "Good Ending / Bad Ending",
-        "def": "Each character route has at least two endings. Good Endings require specific choice combinations. Bad Endings trigger through defiance or passive acceptance."
+        "term": "Final Bom / Final Ruim",
+        "def": "Cada rota de personagem tem pelo menos dois finais. Os Finais Bons requerem combinações específicas de escolhas. Os Finais Ruins são desencadeados por desobediência ou aceitação passiva."
       },
       {
-        "term": "The Tear Painted on Pierrot Face",
-        "def": "A permanent makeup mark that symbolizes his perpetual performance of sorrow. It never washes off."
+        "term": "A Lágrima Pintada no Rosto de Pierrot",
+        "def": "Uma marca de maquiagem permanente que simboliza sua performance perpétua de tristeza. Ela nunca sai."
       }
     ],
-    "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno). The game is published on itch.io and is available for Windows, macOS, and Linux, as well as directly in browser via official CDN embedding.",
-    "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
-    "timelineTitle": "Update Timeline",
+    "creditsTitle": "Desenvolvedor & Créditos",
+    "creditsP1": "O Freak Circus foi desenvolvido por Garula (também conhecido como Neko Bueno) e é publicado no itch.io. Use a página oficial do itch.io para opções de download e jogo no navegador com suporte do desenvolvedor.",
+    "creditsP2": "O elenco completo de vozes e créditos adicionais não foram divulgados publicamente pelo desenvolvedor. Esta seção será atualizada conforme mais informações forem disponibilizadas.",
+    "timelineTitle": "Linha do Tempo de Atualizações",
     "timeline": [
       {
-        "version": "Initial Release",
+        "version": "Lançamento Inicial",
         "date": "2024",
-        "desc": "The Freak Circus first released on itch.io with Pierrot, Harlequin, Jester, Ticket Taker, and Doctor routes available."
+        "desc": "O Freak Circus foi lançado inicialmente no itch.io com rotas disponíveis para Pierrot, Harlequin, Jester, Ticket Taker e Doctor."
       },
       {
-        "version": "Doctor Route Expansion",
+        "version": "Expansão da Rota do Doctor",
         "date": "Late 2024",
-        "desc": "Additional scenes and an extended ending added to the Doctor route based on player feedback."
+        "desc": "Cenas adicionais e final estendido adicionados à rota do Doctor com base no feedback dos jogadores."
       },
       {
-        "version": "Chinese Language Support",
+        "version": "Suporte à Língua Chinesa",
         "date": "2025",
-        "desc": "Official Simplified Chinese language support added alongside continuing English content updates."
+        "desc": "Suporte oficial à língua chinesa simplificada adicionado juntamente com atualizações contínuas de conteúdo em inglês."
       },
       {
-        "version": "Day 3 & Future Content",
+        "version": "Dia 3 & Conteúdo Futuro",
         "date": "TBD",
-        "desc": "The developer has indicated ongoing work on additional content. Day 3 and new character content are anticipated."
+        "desc": "O desenvolvedor indicou trabalho contínuo em conteúdo adicional. Dia 3 e novos conteúdos de personagens são aguardados."
       }
     ]
   },
   "community": {
     "meta": {
-      "title": "The Freak Circus Fan Art & Community",
-      "desc": "Join The Freak Circus fan community. Explore fan art, creator links, official social media, and community resources."
+      "title": "A Arte de Fãs & Comunidade de The Freak Circus",
+      "desc": "Junte-se à comunidade de fãs de The Freak Circus. Explore arte de fãs, links dos criadores, mídias sociais oficiais e recursos da comunidade."
     },
-    "title": "The Freak Circus Community",
-    "subtitle": "Fan art, discussions, and community resources.",
-    "officialTitle": "Official Links",
-    "officialDesc": "Connect with the developer and other fans through these official channels.",
+    "title": "A Comunidade de The Freak Circus",
+    "subtitle": "Arte de fãs, discussões e recursos da comunidade.",
+    "officialTitle": "Links Oficiais",
+    "officialDesc": "Conecte-se com o desenvolvedor e outros fãs através desses canais oficiais.",
     "links": [
       {
-        "name": "itch.io Page",
+        "name": "Página no itch.io",
         "url": "https://garula.itch.io/the-freak-circus"
       },
       {
-        "name": "Official Twitter",
+        "name": "Twitter Oficial",
         "url": "https://twitter.com/FreakCircusVRC"
       }
     ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Showcasing community-created fan art of The Freak Circus characters. Submissions are from verified creators who have granted permission for display.",
-    "communityTitle": "Community Resources",
+    "fanartTitle": "Destaque de Arte de Fãs",
+    "fanartDesc": "Mostrando arte de fãs criada pela comunidade dos personagens de The Freak Circus. As submissões são de criadores verificados que concederam permissão para exibição.",
+    "communityTitle": "Recursos da Comunidade",
     "communityTips": [
-      "Join official Discord servers for real-time discussions with other fans.",
-      "Use #TheFreakCircus tag on social media platforms to share your creations.",
-      "Respect other fans and creators — the community thrives on mutual support.",
-      "Check the official itch.io page for the latest developer updates and community news."
+      "Participe de servidores Discord oficiais para discussões em tempo real com outros fãs.",
+      "Use a tag #TheFreakCircus nas plataformas de mídia social para compartilhar suas criações.",
+      "Respeite outros fãs e criadores — a comunidade prospera com suporte mútuo.",
+      "Confira a página oficial do itch.io para as últimas atualizações do desenvolvedor e notícias da comunidade."
     ]
   },
   "news": {
     "meta": {
-      "title": "The Freak Circus News & Updates",
-      "desc": "Latest news and updates for The Freak Circus visual novel. Development progress, version releases, and community announcements."
+      "title": "Notícias & Atualizações de The Freak Circus",
+      "desc": "Últimas notícias e atualizações do visual novel The Freak Circus. Progresso do desenvolvimento, lançamentos de versões e anúncios da comunidade."
     },
-    "title": "News & Updates",
+    "title": "Notícias & Atualizações",
     "entries": [
       {
         "date": "2025",
-        "title": "Chinese Language Support Added",
-        "body": "The Freak Circus now includes official Simplified Chinese language support. This update also includes bug fixes and minor dialogue adjustments."
+        "title": "Suporte ao Idioma Chinês Adicionado",
+        "body": "The Freak Circus agora inclui suporte oficial ao idioma Chinês Simplificado. Esta atualização também inclui correções de bugs e ajustes menores nos diálogos."
       },
       {
         "date": "Late 2024",
-        "title": "Doctor Route Expansion Released",
-        "body": "New scenes and an extended ending for the Doctor route are now available. Thank you to the community for the feedback that made this expansion possible."
+        "title": "Expansão da Rota do Doutor Lançada",
+        "body": "Novas cenas e um final estendido para a rota do Doutor estão agora disponíveis. Obrigado à comunidade pelo feedback que tornou esta expansão possível."
       },
       {
         "date": "2024",
-        "title": "The Freak Circus Released on itch.io",
-        "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
+        "title": "The Freak Circus Lançado no itch.io",
+        "body": "The Freak Circus está agora disponível para jogar gratuitamente no itch.io. O lançamento inicial inclui todas as cinco rotas principais dos personagens com múltiplos finais."
       }
     ]
+  },
+  "ui": {
+    "mainNavigation": "Navegação Principal",
+    "wiki": "Wiki",
+    "community": "Comunidade",
+    "news": "Notícias",
+    "switchLanguage": "Mudar idioma",
+    "gameCoverAlt": "Arte da capa de The Freak Circus",
+    "like": "Curtir",
+    "dislike": "Não curtir",
+    "reloadGame": "Recarregar jogo",
+    "toggleFullscreen": "Alternar tela cheia",
+    "playerDisclaimer": "Este player opcional é fornecido por um host terceirizado. thefreakcircus.help é um recurso de fãs não oficial e não afirma que o host é operado, endossado ou afiliado à Garula. Para a versão suportada pelo desenvolvedor e downloads, use a página oficial do itch.io.",
+    "aboutImageAlt": "Arte da capa do visual novel de terror psicológico The Freak Circus",
+    "charactersImageAlt": "Personagens de The Freak Circus",
+    "gameplayImageAlt": "Jogando The Freak Circus em um navegador",
+    "faqImageAlt": "Perguntas frequentes sobre The Freak Circus",
+    "allCharacters": "Todos os Personagens",
+    "appearanceDesign": "Aparência & Design",
+    "personalityTraits": "Personalidade & Características",
+    "routeGuide": "Guia de Rota",
+    "fanArtGallery": "Arte de Fãs & Galeria",
+    "playerImpressions": "Impressões dos Jogadores",
+    "openDay1Guide": "Abrir o guia de decisões do Dia 1",
+    "newsTracker": "Rastreador de atualizações baseado na fonte",
+    "newsIntro": "Cada entrada linka para o anúncio original do desenvolvedor. Nós rotulamos resumos como cobertura editorial de fãs, não como postagens oficiais.",
+    "readSummary": "Ler resumo e fonte",
+    "allNews": "Todas as notícias",
+    "editorialSummary": "Resumo editorial de fãs",
+    "published": "Publicado {date}",
+    "primarySource": "Fonte primária",
+    "readOriginal": "Leia o anúncio original em {source}",
+    "siteBy": "Site por"
   }
 }

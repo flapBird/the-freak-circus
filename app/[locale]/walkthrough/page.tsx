@@ -45,7 +45,7 @@ export default function WalkthroughPage({ params: { locale } }: Props) {
           <h2>{tMsg(locale, 'walkthrough.day1Title')}</h2>
           <p>{tMsg(locale, 'walkthrough.day1P1')}</p>
           <p>{tMsg(locale, 'walkthrough.day1P2')}</p>
-          <Link href={`${p}/walkthrough/day-1`} className="not-prose inline-block mt-3 text-xs text-circus-gold hover:text-circus-gold-light">Open the Day 1 decision guide →</Link>
+          <Link href={`${p}/walkthrough/day-1`} className="not-prose inline-block mt-3 text-xs text-circus-gold hover:text-circus-gold-light">{tMsg(locale, 'ui.openDay1Guide')} →</Link>
         </section>
 
         <section>

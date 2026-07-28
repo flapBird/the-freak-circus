@@ -13,10 +13,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
   });
 }
 
-const SLUGS: [string, string][] = [
-  ['pierrot', 'Pierrot'], ['harlequin', 'Harlequin'], ['jester', 'Jester'],
-  ['ticket-taker', 'Ticket Taker'], ['doctor', 'Doctor'], ['columbina', 'Columbina'],
-];
+const SLUGS = ['pierrot', 'harlequin', 'jester', 'ticket-taker', 'doctor', 'columbina'];
 const ROLE_KEYS: Record<string, string> = {
   pierrot: 'characters.list.0.role', harlequin: 'characters.list.1.role',
   jester: 'characters.list.2.role', 'ticket-taker': 'characters.list.3.role',
@@ -25,6 +22,9 @@ const ROLE_KEYS: Record<string, string> = {
 
 export default function CharactersPage({ params: { locale } }: Props) {
   const p = locale === 'en' ? '' : `/${locale}`;
+  const characters = rawMsg<{ id: string; name: string }[]>(locale, 'characters.list') ?? [];
+  const names = Object.fromEntries(characters.map((character) => [character.id, character.name]));
+  names.columbina = 'Columbina';
   return (
     <SidebarLayout>
       <div className="mb-6 text-center">
@@ -33,7 +33,9 @@ export default function CharactersPage({ params: { locale } }: Props) {
         <p className="text-circus-muted font-body italic">{tMsg(locale, 'characters.subtitle')}</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {SLUGS.map(([slug, name]) => (
+        {SLUGS.map((slug) => {
+          const name = names[slug] ?? slug;
+          return (
           <Link key={slug} href={`${p}/characters/${slug}`}
             className="border border-circus-border bg-circus-card/40 p-5 rounded-sm hover:border-circus-gold/30 transition-colors group block">
             <div className="flex items-center gap-3 mb-2">
@@ -44,7 +46,8 @@ export default function CharactersPage({ params: { locale } }: Props) {
               </div>
             </div>
           </Link>
-        ))}
+          );
+        })}
       </div>
     </SidebarLayout>
   );
