@@ -13,6 +13,27 @@ export async function generateMetadata({ params: { locale } }: Props) {
   });
 }
 
+// Renders the email as plain text split across two inline spans. Cloudflare's
+// Email Address Obfuscation scans the raw HTML source for a contiguous
+// "user@domain.tld" pattern and replaces it with a /cdn-cgi/l/email-protection
+// link + script (which health checks flag). Splitting the address in the HTML
+// source keeps it out of that pattern while remaining visually identical.
+function ContactP2({ locale }: { locale: string }) {
+  const text = tMsg(locale, 'contact.p2');
+  const [before, after] = text.split('contact@thefreakcircus.help');
+  if (after === undefined) return <>{text}</>;
+  return (
+    <>
+      {before}
+      <span className="whitespace-nowrap">
+        <span>contact@thefreakcircus</span>
+        <span>.help</span>
+      </span>
+      {after}
+    </>
+  );
+}
+
 export default function ContactPage({ params: { locale } }: Props) {
   const p = locale === 'en' ? '' : `/${locale}`;
   return (
@@ -23,7 +44,7 @@ export default function ContactPage({ params: { locale } }: Props) {
       </div>
       <div className="prose-circus">
         <p>{tMsg(locale, 'contact.p1')}</p>
-        <p>{tMsg(locale, 'contact.p2')}</p>
+        <p><ContactP2 locale={locale} /></p>
       </div>
     </SidebarLayout>
   );

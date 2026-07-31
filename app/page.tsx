@@ -8,13 +8,17 @@ export async function generateMetadata() {
     title: tMsg('en', 'meta.homeTitle'),
     description: tMsg('en', 'meta.homeDesc'),
     canonical: SITE_URL,
+    omitCanonical: true,
   });
 }
 
 export default function RootPage() {
   return (
-    <PageShell locale="en">
-      <HomeContent locale="en" />
-    </PageShell>
+    <>
+      <link rel="canonical" href={`${SITE_URL}/`} />
+      <PageShell locale="en">
+        <HomeContent locale="en" />
+      </PageShell>
+    </>
   );
 }

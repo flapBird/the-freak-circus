@@ -19,19 +19,35 @@ export function buildMetadata(opts: {
   canonical?: string;
   ogImage?: string;
   noIndex?: boolean;
+  omitCanonical?: boolean;
 }) {
-  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG } = opts;
+  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG, omitCanonical } = opts;
   const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
   const path = canonicalPath(canonical);
   const languages = Object.fromEntries(
-    INDEXABLE_LOCALES.map((locale) => [locale, `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`]),
+    // Locale homepages resolve to "/<locale>" without a trailing slash
+    // (e.g. /es, not /es/), matching the site's canonical URL form.
+    INDEXABLE_LOCALES.map((locale) => [
+      locale,
+      `${SITE_URL}${locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`}`,
+    ]),
   );
+  // x-default tells search engines which version to serve when no
+  // language/region target matches the user; the English version is the default.
+  languages['x-default'] = `${SITE_URL}${path}`;
+  // The homepage canonical is emitted as a raw <link> tag (with a trailing
+  // slash) because Next.js metadata normalizes root URLs to origin-only form.
+  const alternates = canonical
+    ? omitCanonical
+      ? { languages }
+      : { canonical, languages }
+    : undefined;
 
   return {
     title: fullTitle,
-   description,
-   metadataBase: new URL(SITE_URL),
-    ...(canonical ? { alternates: { canonical, languages } } : {}),
+    description,
+    metadataBase: new URL(SITE_URL),
+    ...(alternates ? { alternates } : {}),
    openGraph: {
      title: fullTitle,
      description,

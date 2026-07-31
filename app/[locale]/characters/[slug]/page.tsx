@@ -86,7 +86,7 @@ export default function CharacterDetailPage({ params: { locale, slug } }: Props)
              return (
                 <div className="max-w-sm">
                <SafeImage
-                  src={`/images/characters/${slug}-1.webp`}
+                  src={`/images/characters/${key}-1.webp`}
                   alt={`${charName} - ${first}`}
                   height={280}
                   fallback={`🎨 ${first}`}

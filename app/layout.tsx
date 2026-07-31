@@ -1,7 +1,14 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import './globals.css';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
+
+// Google Analytics 4 measurement ID, configured via environment variable.
+// Set NEXT_PUBLIC_GA_ID in the hosting environment (e.g. Vercel project settings).
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID?.trim() ?? '';
+const HAS_GA = /^G-[A-Z0-9]{6,}$/i.test(GA_ID);
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://thefreakcircus.help'),
   description: 'Play The Freak Circus online, a psychological horror visual novel. Explore walkthroughs, character guides, and endings.',
@@ -16,22 +23,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const htmlLang = headers().get('x-locale') ?? 'en';
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={htmlLang} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-855DQF48TP" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-window.dataLayer = window.dataLayer || [];
+        {HAS_GA && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-855DQF48TP');
-`,
-          }}
-        />
+gtag('config', '${GA_ID}');`,
+              }}
+            />
+          </>
+        )}
         <SchemaMarkup
           type="WebSite"
           data={{
