@@ -3,15 +3,11 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import SidebarLayout from '@/components/SidebarLayout';
-import { getAllSlugs, getPostBySlug } from '@/lib/blog-posts';
+import { getPostBySlug } from '@/lib/blog-posts';
 import { tMsg } from '@/lib/messages';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
-
-export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug, params.locale);

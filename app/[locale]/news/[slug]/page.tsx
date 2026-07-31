@@ -2,15 +2,11 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import SidebarLayout from '@/components/SidebarLayout';
-import { getNewsPost, NEWS_POSTS } from '@/lib/news';
+import { getNewsPost } from '@/lib/news';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { tMsg } from '@/lib/messages';
 
 type Props = { params: { locale: string; slug: string } };
-
-export function generateStaticParams() {
-  return NEWS_POSTS.map(({ slug }) => ({ slug }));
-}
 
 export function generateMetadata({ params: { locale, slug } }: Props) {
   const post = getNewsPost(slug, locale);
