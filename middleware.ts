@@ -1,13 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const LOCALE_PATTERN = /^\/(pt|fil|vi|es|id|zh)(?=\/|$)/;
+// ISO 639-1 language codes for <html lang>. Filipino uses `tl` (see lib/seo.ts).
+const LANG_CODES: Record<string, string> = {
+  en: 'en',
+  pt: 'pt',
+  fil: 'tl',
+  vi: 'vi',
+  es: 'es',
+  id: 'id',
+  zh: 'zh',
+};
 
 export function middleware(request: NextRequest) {
   const match = request.nextUrl.pathname.match(LOCALE_PATTERN);
   const locale = match ? match[1] : 'en';
   const response = NextResponse.next();
   // Lets the root layout render <html lang="..."> matching the requested locale.
-  response.headers.set('x-locale', locale);
+  response.headers.set('x-locale', LANG_CODES[locale] ?? 'en');
   return response;
 }
 

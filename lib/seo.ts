@@ -6,6 +6,18 @@ export const DEFAULT_OG = `${SITE_URL}/og-image.jpg`;
 export const TWITTER_HANDLE = '@freakcircushelp';
 export const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'] as const;
 export const INDEXABLE_LOCALES = LOCALES;
+// BCP 47/ISO 639-1 language codes used in <html lang> and hreflang values.
+// Filipino (`fil`) has no ISO 639-1 code, so strict validators flag it; the
+// closest ISO 639-1 code is `tl` (Tagalog). URLs keep the /fil/ prefix.
+export const LANG_CODES: Record<(typeof LOCALES)[number], string> = {
+  en: 'en',
+  pt: 'pt',
+  fil: 'tl',
+  vi: 'vi',
+  es: 'es',
+  id: 'id',
+  zh: 'zh',
+};
 
 function canonicalPath(canonical?: string) {
   if (!canonical) return '/';
@@ -28,7 +40,7 @@ export function buildMetadata(opts: {
     // Locale homepages resolve to "/<locale>" without a trailing slash
     // (e.g. /es, not /es/), matching the site's canonical URL form.
     INDEXABLE_LOCALES.map((locale) => [
-      locale,
+      LANG_CODES[locale],
       `${SITE_URL}${locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`}`,
     ]),
   );
