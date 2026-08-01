@@ -37,6 +37,11 @@ export default function LocaleSwitcher() {
       } else {
         newPath = pathname;
       }
+      // English is the default, unprefixed locale: strip the /en prefix so the
+      // URL matches the site's canonical form (/ and /news, not /en, /en/news).
+      if (code === 'en') {
+        newPath = newPath.replace(/^\/en(?=\/|$)/, '') || '/';
+      }
       newPath = newPath.replace(/\/+/g, '/').replace(/\/$/, '') || '/';
       document.cookie = 'NEXT_LOCALE=' + code + ';path=/;max-age=' + (30*24*60*60);
       router.push(newPath);
