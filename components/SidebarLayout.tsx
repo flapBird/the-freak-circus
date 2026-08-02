@@ -4,15 +4,14 @@ type Props = {
 
 export default function SidebarLayout({ children }: Props) {
   return (
-    <div className="w-full max-w-[1400px] mx-auto px-4 flex gap-6 items-start justify-center">
-      <main className="flex-1 min-w-0" style={{ maxWidth: 'var(--content-max)' }}>
+    <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-col gap-6 items-start justify-center xl:flex-row">
+      <main className="w-full flex-1 min-w-0 mx-auto xl:mx-0" style={{ maxWidth: 'var(--content-max)' }}>
         {children}
       </main>
 
       <aside
-        className="hidden xl:flex flex-col gap-4 sticky top-20 flex-shrink-0"
+        className="w-full mx-auto flex flex-col gap-4 xl:w-[var(--ad-slot-width)] xl:mx-0 xl:sticky xl:top-20 xl:flex-shrink-0"
         aria-label="Advertisement"
-        style={{ width: 'var(--ad-slot-width)' }}
       >
         <div id="container-ad3a879f7acefad94dcedffe0b2a6b57" />
         <script
