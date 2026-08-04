@@ -4,7 +4,7 @@ type Props = {
 
 export default function SidebarLayout({ children }: Props) {
   return (
-    <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-col gap-6 items-start justify-center xl:flex-row">
+    <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-col gap-6 items-start justify-center xl:flex-row xl:gap-[120px]">
       <main className="w-full flex-1 min-w-0 mx-auto xl:mx-0" style={{ maxWidth: 'var(--content-max)' }}>
         {children}
       </main>

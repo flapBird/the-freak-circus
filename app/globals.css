@@ -77,6 +77,16 @@ button:focus-visible,
   padding: 8px;
 }
 
+/* Keep the four-card Native unit in a 2 x 2 grid below desktop widths. */
+@media (max-width: 1279px) {
+  #container-ad3a879f7acefad94dcedffe0b2a6b57
+    .container-ad3a879f7acefad94dcedffe0b2a6b57__bn-container {
+    flex: 0 0 50% !important;
+    width: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
 .game-wrapper {
   width: 100%;
   aspect-ratio: 16 / 9;
