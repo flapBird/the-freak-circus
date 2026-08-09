@@ -5,13 +5,14 @@ const nextConfig = {
   },
   async redirects() {
     const locales = ['pt', 'fil', 'vi', 'es', 'id', 'zh'];
-    return locales.flatMap(loc => [
-      { source: `/${loc}/${loc}`, destination: `/${loc}`, permanent: false },
-      { source: `/${loc}/${loc}/:path*`, destination: `/${loc}/:path*`, permanent: false },
-      { source: `/${loc}/characters/doctor`, destination: `/${loc}/characters/the-doctor`, permanent: true },
-    ]).concat([
+    return [
+      ...locales.flatMap(loc => [
+        { source: `/${loc}/${loc}`, destination: `/${loc}`, permanent: false },
+        { source: `/${loc}/${loc}/:path*`, destination: `/${loc}/:path*`, permanent: false },
+        { source: `/${loc}/characters/doctor`, destination: `/${loc}/characters/the-doctor`, permanent: true },
+      ]),
       { source: '/characters/doctor', destination: '/characters/the-doctor', permanent: true },
-    ]);
+    ];
   },
   async rewrites() {
     return [

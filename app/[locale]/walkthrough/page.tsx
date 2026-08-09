@@ -29,7 +29,7 @@ export default function WalkthroughPage({ params: { locale } }: Props) {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
         {[
           { day: 'day-1', title: tMsg(locale, 'walkthrough.day1Title') },
-          { day: 'day-2', title: tMsg(locale, 'walkthrough.day2Title') },
+          { day: 'day-2', title: tMsg(locale, 'walkthrough.day2.title') },
           { day: 'day-3', title: tMsg(locale, 'walkthrough.day3.title') },
         ].map(d => (
           <Link key={d.day} href={`${p}/walkthrough/${d.day}`}

@@ -62,12 +62,10 @@ This is an unofficial fan website dedicated to *The Freak Circus*, a dark visual
 │   ├── PageShell.tsx           # Shared layout wrapper (Header + Footer)
 │   ├── HomeContent.tsx         # Home page content component
 │   ├── GameEmbed.tsx           # In-browser game iframe + Like/Reload/Fullscreen toolbar
-│   ├── SidebarLayout.tsx       # Content + right sidebar ad layout
+│   ├── SidebarLayout.tsx       # Content + Native Banner layout
 │   ├── SchemaMarkup.tsx        # JSON-LD structured data
 │   ├── LocaleSwitcher.tsx      # Language selector with country flags
-│   ├── SafeImage.tsx           # Image with fallback placeholder
-│   ├── AdSlot.tsx              # Ad placement component
-│   └── AdBanner.tsx            # Adsterra banner integration
+│   └── SafeImage.tsx           # Image with fallback placeholder
 ├── lib/
 │   ├── messages.ts             # Static message loader (bypasses next-intl)
 │   ├── seo.ts                  # Metadata builder (title, description, OG)

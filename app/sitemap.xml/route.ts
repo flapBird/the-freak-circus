@@ -1,6 +1,6 @@
 import { BLOG_POSTS } from '@/lib/blog-posts';
 import { NEWS_POSTS } from '@/lib/news';
-import { LOCALES, SITE_URL } from '@/lib/seo';
+import { INDEXABLE_LOCALES, SITE_URL } from '@/lib/seo';
 
 const SITE_LAST_MODIFIED = '2026-07-28';
 
@@ -16,9 +16,10 @@ const characterPaths = [
 type SitemapEntry = { path: string; lastModified: string; changeFrequency: 'weekly' | 'monthly'; priority: string };
 
 function entryXml({ path, lastModified, changeFrequency, priority }: SitemapEntry) {
+  const loc = path === '' ? `${SITE_URL}/` : `${SITE_URL}${path}`;
   return [
     '  <url>',
-    `    <loc>${SITE_URL}${path}</loc>`,
+    `    <loc>${loc}</loc>`,
     `    <lastmod>${lastModified}</lastmod>`,
     `    <changefreq>${changeFrequency}</changefreq>`,
     `    <priority>${priority}</priority>`,
@@ -33,7 +34,7 @@ export function GET() {
     ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, lastModified: post.date, changeFrequency: 'monthly' as const, priority: '0.8' })),
     ...NEWS_POSTS.map((post) => ({ path: `/news/${post.slug}`, lastModified: post.publishedAt, changeFrequency: 'monthly' as const, priority: '0.8' })),
   ];
-  const entries = LOCALES.flatMap((locale) => {
+  const entries = INDEXABLE_LOCALES.flatMap((locale) => {
     const prefix = locale === 'en' ? '' : `/${locale}`;
     return baseEntries.map((entry) => ({ ...entry, path: `${prefix}${entry.path}` }));
   });

@@ -13,6 +13,12 @@ const LANG_CODES: Record<string, string> = {
 };
 
 export function middleware(request: NextRequest) {
+  if (request.nextUrl.pathname === '/en' || request.nextUrl.pathname.startsWith('/en/')) {
+    const destination = request.nextUrl.clone();
+    destination.pathname = request.nextUrl.pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+    return NextResponse.redirect(destination, 301);
+  }
+
   const match = request.nextUrl.pathname.match(LOCALE_PATTERN);
   const locale = match ? match[1] : 'en';
   const response = NextResponse.next();

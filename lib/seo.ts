@@ -5,7 +5,9 @@ export const SITE_DESC =
 export const DEFAULT_OG = `${SITE_URL}/og-image.jpg`;
 export const TWITTER_HANDLE = '@freakcircushelp';
 export const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'] as const;
-export const INDEXABLE_LOCALES = LOCALES;
+// Keep legacy translations available for existing visitors, but only publish
+// the two reviewed editions to search engines for now.
+export const INDEXABLE_LOCALES = ['en', 'zh'] as const;
 // BCP 47/ISO 639-1 language codes used in <html lang> and hreflang values.
 // Filipino (`fil`) has no ISO 639-1 code, so strict validators flag it; the
 // closest ISO 639-1 code is `tl` (Tagalog). URLs keep the /fil/ prefix.
