@@ -143,7 +143,7 @@ button:focus-visible,
 }
 
 .game-player--fullscreen-fallback {
-  touch-action: none;
+  overscroll-behavior: none;
 }
 
 .game-player--fullscreen .game-wrapper {
