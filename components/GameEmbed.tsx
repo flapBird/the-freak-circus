@@ -1,10 +1,19 @@
 'use client';
 
 import Image from 'next/image';
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { tMsg } from '@/lib/messages';
 
 const ITCH_EMBED_URL = 'https://g.thefreakcircus.my/the-freak-circus/index.html';
+
+type WebkitFullscreenDocument = Document & {
+  webkitExitFullscreen?: () => Promise<void> | void;
+  webkitFullscreenElement?: Element | null;
+};
+
+type WebkitFullscreenElement = HTMLDivElement & {
+  webkitRequestFullscreen?: () => Promise<void> | void;
+};
 
 export default function GameEmbed({ locale }: { locale: string }) {
   const [loaded, setLoaded] = useState(false);
@@ -13,21 +22,94 @@ export default function GameEmbed({ locale }: { locale: string }) {
   const [animLike, setAnimLike] = useState(false);
   const [animDislike, setAnimDislike] = useState(false);
   const [gameKey, setGameKey] = useState(0);
+  const [isNativeFullscreen, setIsNativeFullscreen] = useState(false);
+  const [isFallbackFullscreen, setIsFallbackFullscreen] = useState(false);
+  const playerRef = useRef<HTMLDivElement>(null);
+  const isFullscreen = isNativeFullscreen || isFallbackFullscreen;
+
+  useEffect(() => {
+    const fullscreenDocument = document as WebkitFullscreenDocument;
+    const handleFullscreenChange = () => {
+      const fullscreenElement = document.fullscreenElement
+        ?? fullscreenDocument.webkitFullscreenElement
+        ?? null;
+
+      setIsNativeFullscreen(fullscreenElement === playerRef.current);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isFallbackFullscreen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setIsFallbackFullscreen(false);
+    };
+
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isFallbackFullscreen]);
 
   const reload = useCallback(() => {
     setLoaded(false);
     setGameKey((k) => k + 1);
   }, []);
 
-  const toggleFullscreen = useCallback(() => {
-    const el = document.querySelector('.game-wrapper');
-    if (!el) return;
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      el.requestFullscreen();
+  const toggleFullscreen = useCallback(async () => {
+    const element = playerRef.current as WebkitFullscreenElement | null;
+    if (!element) return;
+
+    if (isFallbackFullscreen) {
+      setIsFallbackFullscreen(false);
+      return;
     }
-  }, []);
+
+    const fullscreenDocument = document as WebkitFullscreenDocument;
+    const fullscreenElement = document.fullscreenElement
+      ?? fullscreenDocument.webkitFullscreenElement
+      ?? null;
+
+    if (fullscreenElement) {
+      try {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        } else {
+          await fullscreenDocument.webkitExitFullscreen?.();
+        }
+      } catch {
+        // The browser still provides its own fullscreen exit gesture.
+      }
+      return;
+    }
+
+    const requestFullscreen = element.requestFullscreen?.bind(element)
+      ?? element.webkitRequestFullscreen?.bind(element);
+
+    if (!requestFullscreen) {
+      setIsFallbackFullscreen(true);
+      return;
+    }
+
+    try {
+      await requestFullscreen();
+    } catch {
+      // iPhone Safari may expose the API but reject it for non-video elements.
+      setIsFallbackFullscreen(true);
+    }
+  }, [isFallbackFullscreen]);
 
   const handleLike = useCallback(() => {
     if (like === 'like') { setLike('none'); return; }
@@ -44,7 +126,10 @@ export default function GameEmbed({ locale }: { locale: string }) {
   }, [like]);
 
   return (
-    <div className="w-full">
+    <div
+      ref={playerRef}
+      className={`game-player w-full ${isFullscreen ? 'game-player--fullscreen' : ''} ${isFallbackFullscreen ? 'game-player--fullscreen-fallback' : ''}`}
+    >
       {!started ? (
         <div
           className="w-full aspect-video max-h-[600px] bg-circus-deep border border-circus-border
@@ -101,13 +186,13 @@ export default function GameEmbed({ locale }: { locale: string }) {
             allow="autoplay; fullscreen"
             sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
             onLoad={() => setLoaded(true)}
-            className="w-full h-full"
+            className="block w-full h-full"
           />
         </div>
       )}
 
       {started && (
-        <div className="flex items-center justify-end gap-3 mt-2 px-1">
+        <div className="game-toolbar flex items-center justify-end gap-3 mt-2 px-1">
           {/* Like */}
           <button
             onClick={handleLike}
@@ -167,6 +252,7 @@ export default function GameEmbed({ locale }: { locale: string }) {
                        text-circus-muted hover:border-circus-gold/30 hover:text-circus-text transition-all"
             title={tMsg(locale, 'ui.toggleFullscreen')}
             aria-label={tMsg(locale, 'ui.toggleFullscreen')}
+            aria-pressed={isFullscreen}
             type="button"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

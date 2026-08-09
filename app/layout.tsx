@@ -5,9 +5,10 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { SITE_DESC, SITE_NAME, SITE_URL } from '@/lib/seo';
 
 // Google Analytics 4 measurement ID, configured via environment variable.
-// Set NEXT_PUBLIC_GA_ID in the hosting environment (e.g. Vercel project settings).
+// Set NEXT_PUBLIC_GA_ID in the production hosting environment.
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID?.trim() ?? '';
-const HAS_GA = /^G-[A-Z0-9]{6,}$/i.test(GA_ID);
+const HAS_VALID_GA_ID = /^G-[A-Z0-9]{6,}$/i.test(GA_ID);
+const PRODUCTION_HOSTNAME = new URL(SITE_URL).hostname;
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thefreakcircus.help'),
@@ -23,13 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const htmlLang = headers().get('x-locale') ?? 'en';
+  const requestHeaders = headers();
+  const htmlLang = requestHeaders.get('x-locale') ?? 'en';
+  const forwardedHost = requestHeaders.get('x-forwarded-host') ?? requestHeaders.get('host') ?? '';
+  const hostname = forwardedHost.split(',')[0].trim().toLowerCase().replace(/:\d+$/, '');
+  // Host-based gating is deployment-platform agnostic and keeps localhost,
+  // IP-based testing, and preview domains out of Analytics.
+  const shouldLoadGA = HAS_VALID_GA_ID
+    && (hostname === PRODUCTION_HOSTNAME || hostname === `www.${PRODUCTION_HOSTNAME}`);
   return (
     <html lang={htmlLang} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {HAS_GA && (
+        {shouldLoadGA && (
           <>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
             <script

@@ -128,6 +128,43 @@ button:focus-visible,
   border: none;
 }
 
+.game-player--fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  max-width: none;
+  overflow: hidden;
+  background: #000;
+}
+
+.game-player--fullscreen-fallback {
+  touch-action: none;
+}
+
+.game-player--fullscreen .game-wrapper {
+  flex: 1 1 0%;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.game-player--fullscreen .game-toolbar {
+  flex: 0 0 auto;
+  min-height: 3rem;
+  margin-top: 0;
+  padding: 0.5rem max(0.5rem, env(safe-area-inset-right))
+    max(0.5rem, env(safe-area-inset-bottom)) max(0.5rem, env(safe-area-inset-left));
+  background: var(--color-bg);
+}
+
 
 .prose-circus {
   font-size: 1.15rem;
