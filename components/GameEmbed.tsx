@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { type MouseEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { tMsg } from '@/lib/messages';
 
 const ITCH_EMBED_URL = 'https://g.thefreakcircus.my/the-freak-circus/index.html';
@@ -14,6 +14,11 @@ type WebkitFullscreenDocument = Document & {
 type WebkitFullscreenElement = HTMLDivElement & {
   webkitRequestFullscreen?: () => Promise<void> | void;
 };
+
+function isAppleTouchDevice() {
+  return /iPad|iPhone|iPod/i.test(navigator.userAgent)
+    || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
 
 export default function GameEmbed({ locale }: { locale: string }) {
   const [loaded, setLoaded] = useState(false);
@@ -66,6 +71,15 @@ export default function GameEmbed({ locale }: { locale: string }) {
   const reload = useCallback(() => {
     setLoaded(false);
     setGameKey((k) => k + 1);
+  }, []);
+
+  const launchGame = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
+    if (isAppleTouchDevice() || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    event.preventDefault();
+    setStarted(true);
   }, []);
 
   const toggleFullscreen = useCallback(async () => {
@@ -131,15 +145,13 @@ export default function GameEmbed({ locale }: { locale: string }) {
       className={`game-player w-full ${isFullscreen ? 'game-player--fullscreen' : ''} ${isFallbackFullscreen ? 'game-player--fullscreen-fallback' : ''}`}
     >
       {!started ? (
-        <div
+        <a
+          href={ITCH_EMBED_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full aspect-video max-h-[600px] bg-circus-deep border border-circus-border
                      flex items-center justify-center cursor-pointer group relative overflow-hidden"
-          onClick={() => setStarted(true)}
-          role="button"
-          tabIndex={0}
-          onKeyDown={(event) => {
-            if (event.key === 'Enter' || event.key === ' ') setStarted(true);
-          }}
+          onClick={launchGame}
           aria-label={tMsg(locale, 'game.ariaLabel')}
         >
           <Image
@@ -155,20 +167,19 @@ export default function GameEmbed({ locale }: { locale: string }) {
           <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-circus-red via-circus-gold to-circus-red" />
           <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-circus-red via-circus-gold to-circus-red" />
 
-          <button
+          <span
             className="relative z-10 grid h-20 w-20 place-items-center rounded-full border border-circus-gold/80
                        bg-circus-black/55 text-circus-gold shadow-glow-gold backdrop-blur-sm
                        transition-all duration-300 group-hover:bg-circus-red/80 group-hover:text-circus-white
                        group-hover:scale-105 active:scale-95"
-            type="button"
-            aria-label={tMsg(locale, 'game.playButton')}
+            aria-hidden="true"
           >
             <span
               className="ml-1 block h-0 w-0 border-y-[13px] border-y-transparent border-l-[20px] border-l-current"
               aria-hidden="true"
             />
-          </button>
-        </div>
+          </span>
+        </a>
       ) : (
         <div className="game-wrapper relative">
           {!loaded && (
