@@ -711,6 +711,25 @@ button:focus-visible,
   .site-brand strong { overflow: hidden; font-size: .88rem; text-overflow: ellipsis; }
   .mobile-header-actions { flex: 0 0 auto; gap: .45rem; }
   .mobile-nav-panel { width: min(330px, calc(100vw - 1rem)); }
+  .home-native-ad {
+    width: min(340px, calc(100vw - 1.5rem));
+    height: auto;
+    min-width: 0;
+    min-height: 360px;
+    max-width: 340px;
+    max-height: none;
+    align-items: flex-start;
+    overflow: visible;
+  }
+  .home-native-ad .ad-container {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    min-height: 360px;
+    max-width: none;
+    max-height: none;
+    overflow: visible;
+  }
   .play-stage .game-player:not(.game-player--fullscreen) > button:first-child,
   .play-stage .game-player:not(.game-player--fullscreen) .game-wrapper { aspect-ratio: 4 / 3; max-height: none; }
   .home-hero { min-height: 0; }
