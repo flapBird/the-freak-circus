@@ -5,15 +5,13 @@ import { useCallback, useRef, useState } from 'react';
 
 type Props = {
   title: string;
-  summary: string;
   cover?: string;
   iframeSrc?: string;
   aspectRatio?: '16/9' | '4/3';
-  officialUrl: string;
   locale: string;
 };
 
-export default function GamePlayer({ title, summary, cover, iframeSrc, aspectRatio = '16/9', officialUrl, locale }: Props) {
+export default function GamePlayer({ title, cover, iframeSrc, aspectRatio = '16/9', locale }: Props) {
   const [started, setStarted] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [frameKey, setFrameKey] = useState(0);
@@ -47,7 +45,7 @@ export default function GamePlayer({ title, summary, cover, iframeSrc, aspectRat
             allow="autoplay; fullscreen"
             allowFullScreen
             loading="eager"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-popups"
+            sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-popups allow-modals allow-downloads"
             onLoad={() => setLoaded(true)}
           />
           <div className="catalog-player-toolbar">
@@ -60,17 +58,14 @@ export default function GamePlayer({ title, summary, cover, iframeSrc, aspectRat
           {cover && <Image src={cover} alt="" fill sizes="(max-width: 1024px) 100vw, 70vw" className="catalog-player-poster-image" />}
           <div className="catalog-player-poster-overlay" />
           <div className="catalog-player-poster-copy">
-            <span>{iframeSrc ? (zh ? '站内游玩' : 'PLAY ON SITE') : (zh ? '游戏详情' : 'GAME DETAILS')}</span>
+            <span>{iframeSrc ? (zh ? '在线游玩' : 'PLAY ONLINE') : (zh ? '游戏播放器' : 'GAME PLAYER')}</span>
             <h2>{title}</h2>
-            <p>{summary}</p>
             {iframeSrc ? (
               <button type="button" className="button-primary" onClick={() => setStarted(true)}>
-                <span className="catalog-play-icon" aria-hidden="true" /> {zh ? '开始游戏' : 'Play game'}
+                <span className="catalog-play-icon" aria-hidden="true" /> Play Now
               </button>
             ) : (
-              <a className="button-primary" href={officialUrl} target="_blank" rel="noopener noreferrer">
-                {zh ? '打开开发者页面' : 'Open developer page'} ↗
-              </a>
+              <p>{zh ? '该游戏的浏览器资源尚未配置。上传完整游戏文件后，在游戏配置中填写 gameResourcePath 即可在此直接游玩。' : 'The browser build has not been configured yet. Upload the complete game files and set gameResourcePath in the game configuration to play it here.'}</p>
             )}
           </div>
         </div>

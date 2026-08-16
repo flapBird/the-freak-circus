@@ -9,7 +9,7 @@ import {
   getGameBySlug,
   getGameSlug,
   getRelatedGames,
-  getValidatedEmbedSrc,
+  getGameIframeSrc,
 } from '@/data/games';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -29,10 +29,9 @@ export function generateMetadata({ params: { locale, slug } }: Props): Metadata 
   });
 }
 
-function statusLabel(status: 'playable' | 'external' | 'coming-soon', zh: boolean) {
-  if (status === 'playable') return zh ? '可在本站游玩' : 'Playable here';
-  if (status === 'coming-soon') return zh ? '即将开放' : 'Coming soon';
-  return zh ? '前往开发者页面' : 'Developer page';
+function statusLabel(playable: boolean, zh: boolean) {
+  if (playable) return zh ? '可在本站游玩' : 'Playable here';
+  return zh ? '游戏资源待配置' : 'Game files pending';
 }
 
 export default function GameDetailPage({ params: { locale, slug } }: Props) {
@@ -40,7 +39,7 @@ export default function GameDetailPage({ params: { locale, slug } }: Props) {
   if (!game) notFound();
 
   const related = getRelatedGames(game);
-  const iframeSrc = getValidatedEmbedSrc(game);
+  const iframeSrc = getGameIframeSrc(game);
   const prefix = locale === 'en' ? '' : `/${locale}`;
   const zh = locale === 'zh';
   const canonicalPath = `${prefix}/games/${getGameSlug(game)}`;
@@ -55,7 +54,6 @@ export default function GameDetailPage({ params: { locale, slug } }: Props) {
           genre: game.genres,
           creator: { '@type': 'Organization', name: game.developer },
           url: `${SITE_URL}${canonicalPath}`,
-          sameAs: game.officialUrl,
           applicationCategory: 'Game',
           ...(game.coverImage ? { image: `${SITE_URL}${game.coverImage}` } : {}),
         }}
@@ -74,16 +72,14 @@ export default function GameDetailPage({ params: { locale, slug } }: Props) {
           <section className="catalog-game-detail-grid">
             <GamePlayer
               title={game.title}
-              summary={game.summary}
               cover={game.coverImage}
               iframeSrc={iframeSrc}
-              aspectRatio={game.embed?.aspectRatio}
-              officialUrl={game.officialUrl}
+              aspectRatio={game.gameAspectRatio}
               locale={locale}
             />
 
             <aside className={`catalog-game-summary accent-${game.accent}`}>
-              <span className="catalog-status">{statusLabel(game.status, zh)}</span>
+              <span className="catalog-status">{statusLabel(Boolean(iframeSrc), zh)}</span>
               <h1>{game.title}</h1>
               <p>{game.summary}</p>
               <dl className="catalog-game-facts">
@@ -93,15 +89,12 @@ export default function GameDetailPage({ params: { locale, slug } }: Props) {
                 </div>
                 <div>
                   <dt>{zh ? '游玩方式' : 'Availability'}</dt>
-                  <dd>{statusLabel(game.status, zh)}</dd>
+                  <dd>{statusLabel(Boolean(iframeSrc), zh)}</dd>
                 </div>
               </dl>
               <div className="catalog-genre-list" aria-label={zh ? '游戏类型' : 'Genres'}>
                 {game.genres.map((genre) => <span key={genre}>{genre}</span>)}
               </div>
-              <a className="button-secondary catalog-official-link" href={game.officialUrl} target="_blank" rel="noopener noreferrer">
-                {zh ? '开发者官方页面' : 'Developer’s official page'} ↗
-              </a>
             </aside>
           </section>
 
@@ -152,10 +145,10 @@ export default function GameDetailPage({ params: { locale, slug } }: Props) {
               <section className="reference-card">
                 <span className="section-kicker">{zh ? '游玩说明' : 'PLAYING THIS GAME'}</span>
                 <h2>{zh ? '当前状态' : 'Current availability'}</h2>
-                <p>{game.playNote}</p>
-                <a className="source-chip" href={game.officialUrl} target="_blank" rel="noopener noreferrer">
-                  {zh ? '核对官方页面' : 'Check official page'} ↗
-                </a>
+                <p>{iframeSrc
+                  ? (zh ? '浏览器版本会直接在上方播放器中运行。需要重新开始时，可以使用播放器右下角的重新加载按钮。' : 'The browser build runs directly in the player above. Use the Reload control when you need to restart it.')
+                  : (zh ? '浏览器游戏文件尚未上传。配置 gameResourcePath 后，播放器会自动加载游戏，无需增加站外按钮。' : 'The browser game files have not been uploaded yet. Once gameResourcePath is configured, the player will load the game automatically without an external button.')}
+                </p>
               </section>
               <section className="reference-card catalog-curation-note">
                 <span className="section-kicker">{zh ? '收录原则' : 'CURATION NOTE'}</span>

@@ -45,7 +45,7 @@ export default function GameCard({ game, locale, compact = false }: Props) {
         <div className="catalog-game-card-body">
           <div className="catalog-game-card-topline">
             <small>{game.eyebrow}</small>
-            <span>{game.status === 'playable' ? (zh ? '可游玩' : 'Playable') : (zh ? '站外游戏' : 'External')}</span>
+            <span>{game.gameResourcePath ? (zh ? '可游玩' : 'Playable') : (zh ? '待配置' : 'Game pending')}</span>
           </div>
           <h2>{game.title}</h2>
           <p>{game.summary}</p>

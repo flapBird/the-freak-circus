@@ -1,5 +1,3 @@
-export type GameStatus = 'playable' | 'external' | 'coming-soon';
-
 export type GameFeature = {
   title: string;
   description: string;
@@ -11,20 +9,19 @@ export type GameRecord = {
   summary: string;
   about: string[];
   features?: GameFeature[];
-  playNote: string;
   releaseDate: string;
-  status: GameStatus;
   developer: string;
-  officialUrl: string;
   genres: string[];
   // Add the image to public/images/games, then enter a path such as
   // '/images/games/slay-the-princess.webp'. Leave blank to use the fallback.
   coverImage: string;
+  // Path to the browser game's index file. A same-site path such as
+  // '/games/twilight-observer/index.html' is preferred. A full URL is accepted
+  // only when its origin is listed in GAME_EMBED_ORIGINS. Leave blank until the
+  // complete HTML5 build (including all referenced assets) has been uploaded.
+  gameResourcePath: string;
   screenshots?: string[];
-  embed?: {
-    src: string;
-    aspectRatio?: '16/9' | '4/3';
-  };
+  gameAspectRatio?: '16/9' | '4/3';
   accent: 'coral' | 'violet' | 'gold' | 'rose';
   featured?: boolean;
   order: number;
@@ -33,6 +30,7 @@ export type GameRecord = {
 
 export const GAME_EMBED_ORIGINS = [
   'https://g.thefreakcircus.my',
+  'https://html-classic.itch.zone',
 ] as const;
 
 // Game content is intentionally kept in English only. Every locale renders
@@ -52,13 +50,11 @@ export const GAMES: readonly GameRecord[] = [
     ],
     features: [
     ],
-    playNote: 'This entry currently opens the developer’s official page. An on-site player can be enabled later by adding an approved iframe URL.',
     releaseDate: '2024-11-11',
-    status: 'external',
     developer: 'WhiteScar Studios',
-    officialUrl: 'https://whitescarstudio.itch.io/to',
     genres: ['Horror mystery', 'Visual novel', 'Choices'],
     coverImage: '/images/games/Twilight-Observer.png',
+    gameResourcePath: '',
     accent: 'coral',
     featured: true,
     order: 1,
@@ -77,13 +73,11 @@ export const GAMES: readonly GameRecord[] = [
       { title: 'Psychological tension', description: 'Free-to-play story-driven dating game with multiple routes.' },
       { title: 'Full voice performance', description: 'Dark humor, satire, and emotional storytelling.' },
     ],
-    playNote: 'This entry currently directs players to the developer’s official listing. No game files are mirrored here.',
     releaseDate: '2023-10-23',
-    status: 'external',
     developer: 'Núria Antonell, Unai Estavillo and Martí Estivill',
-    officialUrl: 'https://coolom-games.itch.io/datingkillmulator',
     genres: ['Psychological horror', 'Branching narrative', 'Visual novel'],
     coverImage: '/images/games/Dating-Killmulator.png',
+    gameResourcePath: '',
     accent: 'violet',
     featured: true,
     order: 2,
@@ -105,13 +99,11 @@ export const GAMES: readonly GameRecord[] = [
       { title: 'Player customization', description: 'Defy Your Fate: The Odyssey ends in a slaughter, but your story does not have to. Accumulate affection to redeem your villainous lover, or stand by Telemachus and watch him face the Kings wrath.' },
       { title: 'Character focus', description: 'A Life of Servitude (Minigames): Survive the grueling demands of the palace. Master chore-based minigames and test your luck in the high-stakes Kottabos drinking games.' },
     ],
-    playNote: 'Use the developer’s official page to check the currently available builds and additional content.',
     releaseDate: '2020-11-16',
-    status: 'external',
     developer: 'messymoonmess',
-    officialUrl: 'https://messymoonmad.itch.io/hearts-before-the-arrow',
     genres: ['Visual novel'],
     coverImage: '/images/games/Hearts-Before-The-Arrow.png',
+    gameResourcePath: 'https://html-classic.itch.zone/html/15082583/index.html',
     accent: 'gold',
     featured: true,
     order: 3,
@@ -130,13 +122,11 @@ export const GAMES: readonly GameRecord[] = [
       { title: 'Multiple relationships', description: 'Several romance paths support different character interests.' },
       { title: 'Ongoing development', description: 'Availability and story scope can change as new releases arrive.' },
     ],
-    playNote: 'Check the official developer page for the newest public build and current platform availability.',
     releaseDate: '2019-11-23',
-    status: 'external',
     developer: 'WILD WITS GAMES',
-    officialUrl: 'https://wildwits.itch.io/sovereign-tower',
     genres: ['Science fiction', 'Romance', 'Visual novel'],
     coverImage: '/images/games/Sovereign-Tower.png',
+    gameResourcePath: 'https://html.itch.zone/html/17186600/sovereign_weber/index.html',
     accent: 'rose',
     featured: true,
     order: 4,
@@ -176,11 +166,16 @@ export function getRelatedGames(game: GameRecord): GameRecord[] {
   return [...selected, ...fallback].slice(0, 3);
 }
 
-export function getValidatedEmbedSrc(game: GameRecord): string | undefined {
-  if (!game.embed?.src) return undefined;
+export function getGameIframeSrc(game: GameRecord): string | undefined {
+  const resourcePath = game.gameResourcePath.trim();
+  if (!resourcePath) return undefined;
+
+  if (resourcePath.startsWith('/') && !resourcePath.startsWith('//')) {
+    return resourcePath;
+  }
 
   try {
-    const url = new URL(game.embed.src);
+    const url = new URL(resourcePath);
     return GAME_EMBED_ORIGINS.includes(url.origin as (typeof GAME_EMBED_ORIGINS)[number])
       ? url.toString()
       : undefined;
