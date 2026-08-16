@@ -11,8 +11,8 @@ export function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
     title: zh ? 'The Freak Circus 更新' : 'The Freak Circus Updates',
     description: zh
-      ? '连续阅读 The Freak Circus 的版本公告、开发进度与维护记录，并回到对应的一手来源。'
-      : 'Read The Freak Circus release notes, development progress, and maintenance updates in one chronological hub.',
+      ? '查看 The Freak Circus 的版本公告、开发进度、维护记录与最新游戏动态。'
+      : 'Follow The Freak Circus release notes, development progress, maintenance updates, and the latest game news.',
     canonical: `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`,
   });
 }

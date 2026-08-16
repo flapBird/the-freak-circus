@@ -3,7 +3,7 @@ import { editorialLocale } from '@/lib/site-content';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? '联系本站' : 'Contact', description: zh ? '提交 The Freak Circus 资料纠错、署名和站点问题。' : 'Send corrections, attribution requests, and site issues concerning this independent The Freak Circus guide.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/contact` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 联系与内容纠错' : 'The Freak Circus Contact & Content Corrections', description: zh ? '提交与 The Freak Circus 角色、剧情、游戏更新、社区作品和页面内容有关的问题或纠错。' : 'Send questions or corrections about The Freak Circus characters, story, game updates, community creations, and page content.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/contact` });
 }
 
 function EmailAddress() { return <span className="contact-address"><span>contact@thefreakcircus</span><span>.help</span></span>; }

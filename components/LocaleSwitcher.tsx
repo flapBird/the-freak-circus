@@ -11,7 +11,7 @@ const LOCALES = [
 
 const LOCALE_PATTERN = /^\/(en|pt|fil|vi|es|id|zh)(\/|$)/;
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher({ compact = false }: { compact?: boolean }) {
   const pathname = usePathname();
   const router = useRouter();
   const [menuState, setMenuState] = useState<'closed' | 'open' | 'closing'>('closed');
@@ -84,19 +84,25 @@ export default function LocaleSwitcher() {
   return (
     <div className="relative" ref={containerRef}>
       <button
-        className="flex h-9 min-w-[116px] items-center gap-2 rounded-sm border border-circus-border
+        className={`locale-switcher-trigger flex h-11 min-w-[116px] items-center gap-2 rounded-sm border border-circus-border
                    bg-circus-card px-3 text-sm text-circus-text shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_3px_10px_rgba(0,0,0,0.3)]
                    transition-[color,background-color,border-color,box-shadow,transform] duration-150
                    hover:border-circus-gold/50 hover:bg-[#21161e] hover:text-circus-gold
-                   active:translate-y-px active:shadow-[inset_0_1px_3px_rgba(0,0,0,0.45)]"
+                   active:translate-y-px active:shadow-[inset_0_1px_3px_rgba(0,0,0,0.45)] ${compact ? 'is-compact' : ''}`}
         onClick={open ? closeDropdown : openDropdown}
         aria-label={tMsg(currentCode, 'ui.switchLanguage')}
         aria-haspopup="menu"
         aria-expanded={open}
         type="button"
       >
-        <span className="text-base leading-none">{current.flag}</span>
-        <span className="hidden flex-1 text-left sm:inline">{current.name}</span>
+        {compact ? (
+          <span className="locale-switcher-code">{current.code.toUpperCase()}</span>
+        ) : (
+          <>
+            <span className="text-base leading-none">{current.flag}</span>
+            <span className="hidden flex-1 text-left sm:inline">{current.name}</span>
+          </>
+        )}
         <svg className={`ml-auto h-3.5 w-3.5 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
              fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -116,7 +122,7 @@ export default function LocaleSwitcher() {
           <button
             key={locale.code}
             onClick={() => switchLocale(locale.code)}
-            className={`flex w-full items-center gap-2 rounded-[2px] border border-transparent px-3 py-2.5 text-sm
+            className={`flex min-h-[44px] w-full items-center gap-2 rounded-[2px] border border-transparent px-3 py-2.5 text-sm
               transition-[color,background-color,border-color] duration-150
               ${locale.code === currentCode
                 ? 'border-circus-gold/15 bg-circus-gold/10 text-circus-gold'

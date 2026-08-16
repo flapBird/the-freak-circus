@@ -10,7 +10,10 @@ export function generateMetadata({ params }: Props) {
   if (!characterSlugs.includes(params.slug as CharacterSlug)) return {};
   const lang = editorialLocale(params.locale);
   const ch = characterCopy[lang][params.slug as CharacterSlug];
-  return buildMetadata({ title: `${ch.name} — The Freak Circus Character`, description: `${ch.summary} ${ch.scope}`, canonical: `${SITE_URL}${params.locale === 'en' ? '' : `/${params.locale}`}/characters/${params.slug}`, ogImage: `${SITE_URL}${ch.image}` });
+  const description = lang === 'zh'
+    ? `${ch.summary} 探索 ${ch.name} 在 The Freak Circus 中的性格、故事与人物关系。`
+    : `${ch.summary} Explore ${ch.name}'s personality, story, and relationships in The Freak Circus.`;
+  return buildMetadata({ title: `${ch.name} — The Freak Circus Character`, description, canonical: `${SITE_URL}${params.locale === 'en' ? '' : `/${params.locale}`}/characters/${params.slug}`, ogImage: `${SITE_URL}${ch.image}` });
 }
 
 export default function CharacterPage({ params: { locale, slug } }: Props) {

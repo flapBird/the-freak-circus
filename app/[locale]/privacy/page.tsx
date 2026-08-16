@@ -3,7 +3,7 @@ import { editorialLocale } from '@/lib/site-content';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? '隐私政策' : 'Privacy Policy', description: zh ? '了解本站处理访问数据、浏览器存储、邮件与第三方内容的方式。' : 'Learn how this site handles visit data, browser storage, email, and third-party content.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/privacy` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 隐私政策' : 'The Freak Circus Privacy Policy', description: zh ? '阅读访问 The Freak Circus 角色、剧情、下载、社区与更新页面时适用的隐私政策。' : 'Read the privacy policy for visitors exploring The Freak Circus characters, story, downloads, community, and game updates.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/privacy` });
 }
 
 export default function PrivacyPage({ params: { locale } }: { params: { locale: string } }) {

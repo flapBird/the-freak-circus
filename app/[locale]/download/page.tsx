@@ -4,7 +4,7 @@ import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 下载指南（非官方）' : 'Unofficial The Freak Circus Download Guide', description: zh ? '说明如何通过创作者的 itch.io 页面获取 The Freak Circus，以及当前列出的浏览器版和各平台下载包。' : 'Learn how to get The Freak Circus from the creator’s itch.io page and what browser and platform builds are currently listed.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/download` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 下载：PC、Mac、Linux 与 Android' : 'The Freak Circus Download: PC, Mac, Linux & Android', description: zh ? '下载 The Freak Circus 的 Windows、macOS、Linux 或 Android 版本，也可以通过游戏的 itch.io 页面直接游玩浏览器版。' : 'Download The Freak Circus for Windows, macOS, Linux, or Android, or play the browser version through the game’s itch.io page.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/download` });
 }
 
 export default function DownloadPage({ params: { locale } }: { params: { locale: string } }) {

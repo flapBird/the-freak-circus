@@ -4,7 +4,7 @@ import { editorialLocale } from '@/lib/site-content';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? '关于 The Freak Circus 非官方资料站' : 'About This Unofficial The Freak Circus Guide', description: zh ? '了解本站的定位、编辑原则、内容边界与纠错方式。' : 'Learn how this independent The Freak Circus guide handles research, corrections, and creator rights.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/about` });
+  return buildMetadata({ title: zh ? '关于 The Freak Circus：剧情、角色与游戏内容' : 'About The Freak Circus: Story, Characters & Game', description: zh ? '了解 The Freak Circus 的心理恐怖故事、Pierrot 与 Harlequin 的核心竞争、马戏团角色，以及当前游戏内容。' : 'Learn about The Freak Circus, its psychological horror story, the rivalry between Pierrot and Harlequin, its circus cast, and current game content.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/about` });
 }
 
 export default function AboutPage({ params: { locale } }: { params: { locale: string } }) {

@@ -5,7 +5,7 @@ import { characterCopy, characterSlugs, editorialLocale } from '@/lib/site-conte
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 角色介绍' : 'The Freak Circus Characters', description: zh ? '基于当前 0.2 原型版整理 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker 的可信角色资料。' : 'Source-led profiles for Pierrot, Harlequin, Jester, Doctor, and Ticket Taker in The Freak Circus version 0.2 prototype.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 角色：Pierrot、Harlequin 与马戏团成员' : 'The Freak Circus Characters: Pierrot, Harlequin & More', description: zh ? '认识 The Freak Circus 中的 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker，探索他们的性格、秘密、故事和人物关系。' : 'Meet Pierrot, Harlequin, Jester, Doctor, and Ticket Taker, and explore their personalities, secrets, stories, and relationships in The Freak Circus.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters` });
 }
 
 export default function CharactersPage({ params: { locale } }: { params: { locale: string } }) {

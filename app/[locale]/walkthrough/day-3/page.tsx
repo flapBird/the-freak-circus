@@ -8,8 +8,8 @@ type Props = { params: { locale: string } };
 
 export async function generateMetadata({ params: { locale } }: Props) {
   return buildMetadata({
-    title: 'The Freak Circus Day 3: Verified Update Tracker',
-    description: 'Source-linked developer updates for The Freak Circus. No unconfirmed Day 3 release dates or route claims.',
+    title: 'The Freak Circus Day 3 Updates',
+    description: 'Follow Day 3 development news, chapter progress, and the latest updates for The Freak Circus.',
     canonical: `${SITE_URL}${locale === 'en' ? '/walkthrough/day-3' : '/' + locale + '/walkthrough/day-3'}`,
   });
 }

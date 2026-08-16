@@ -5,8 +5,8 @@ import { editorialLocale } from '@/lib/site-content';
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus Day 3 状态与下一章指南' : 'The Freak Circus Day 3 Status & Next Chapter Guide',
-    description: zh ? '了解 The Freak Circus Day 3 当前状态、已确认范围、传言辨别与更新前的准备事项。' : 'Understand the current Day 3 status, what is confirmed, how to assess rumors, and how to prepare for the next build.',
+    title: zh ? 'The Freak Circus Day 3：发布日期、进度与更新' : 'The Freak Circus Day 3: Release Status & Updates',
+    description: zh ? '关注 The Freak Circus Day 3 的开发状态、章节进度、近期更新，以及玩家可以期待的下一章内容。' : 'Follow The Freak Circus Day 3 development status, chapter progress, recent updates, and what players can expect from the next chapter.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/day-3`,
   });
 }

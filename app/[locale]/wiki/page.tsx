@@ -4,7 +4,7 @@ import { characterCopy, characterSlugs, editorialLocale, officialUpdates } from 
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus Wiki：版本、故事与角色资料' : 'The Freak Circus Wiki: Version, Story & Character Reference', description: zh ? '基于官方来源整理 The Freak Circus 0.2 的故事前提、角色、平台、语言、内容警告与更新记录。' : 'A source-led The Freak Circus Wiki covering version 0.2, premise, cast, platforms, languages, content warnings, credits, and update history.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/wiki` });
+  return buildMetadata({ title: zh ? 'The Freak Circus Wiki：剧情、角色与游戏资料' : 'The Freak Circus Wiki: Story, Characters & Game Info', description: zh ? '探索 The Freak Circus 的故事设定、角色阵容、0.2 版本内容、支持平台、语言、内容警告、制作信息与更新历史。' : 'Explore The Freak Circus story, characters, version 0.2 content, platforms, languages, content warnings, credits, and development history.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/wiki` });
 }
 
 export default function WikiPage({ params: { locale } }: { params: { locale: string } }) {

@@ -1,7 +1,7 @@
 export const SITE_NAME = 'The Freak Circus';
 export const SITE_URL = 'https://thefreakcircus.help';
 export const SITE_DESC =
-  'An unofficial, source-led guide to The Freak Circus with verified character profiles, Day 3 status, official downloads, and developer updates.';
+  'Enter The Freak Circus, a psychological horror visual novel where Pierrot and Harlequin turn romance, obsession, and rivalry into a dangerous game of choice.';
 export const DEFAULT_OG = `${SITE_URL}/og-image.jpg`;
 export const TWITTER_HANDLE = '@freakcircushelp';
 export const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'] as const;
@@ -36,7 +36,7 @@ export function buildMetadata(opts: {
   omitCanonical?: boolean;
 }) {
   const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG, omitCanonical, noIndex = false } = opts;
-  const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
   const path = canonicalPath(canonical);
   const languages = Object.fromEntries(
     // Locale homepages resolve to "/<locale>" without a trailing slash

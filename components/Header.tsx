@@ -59,23 +59,30 @@ export default function Header({ locale }: Props) {
 
         <div className="hidden xl:block"><LocaleSwitcher /></div>
 
-        <details className="mobile-nav xl:hidden">
-          <summary>{labels.menu}<span aria-hidden="true">☰</span></summary>
-          <div className="mobile-nav-panel">
-            <Link href={simpleLinks[0].href}>{simpleLinks[0].label}</Link>
-            <details className="mobile-character-menu">
-              <summary>{labels.characters}<span aria-hidden="true">⌄</span></summary>
-              <div>
-                {characterSlugs.map((slug) => (
-                  <Link key={slug} href={loc(`/characters/${slug}`)}>{characterCopy[lang][slug].name}</Link>
-                ))}
-                <Link href={loc('/characters')} className="mobile-character-all">{labels.all}</Link>
-              </div>
-            </details>
-            {simpleLinks.slice(1).map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
-            <div className="mobile-language"><LocaleSwitcher /></div>
+        <div className="mobile-header-actions xl:hidden">
+          <div className="mobile-header-language">
+            <LocaleSwitcher compact />
           </div>
-        </details>
+
+          <details className="mobile-nav">
+            <summary aria-label={labels.menu}>
+              <span className="mobile-menu-icon" aria-hidden="true"><i /><i /><i /></span>
+            </summary>
+            <div className="mobile-nav-panel">
+              <Link href={simpleLinks[0].href}>{simpleLinks[0].label}</Link>
+              <details className="mobile-character-menu">
+                <summary>{labels.characters}<span aria-hidden="true">⌄</span></summary>
+                <div>
+                  {characterSlugs.map((slug) => (
+                    <Link key={slug} href={loc(`/characters/${slug}`)}>{characterCopy[lang][slug].name}</Link>
+                  ))}
+                  <Link href={loc('/characters')} className="mobile-character-all">{labels.all}</Link>
+                </div>
+              </details>
+              {simpleLinks.slice(1).map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
+            </div>
+          </details>
+        </div>
       </div>
     </header>
   );

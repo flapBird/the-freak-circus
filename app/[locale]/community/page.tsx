@@ -10,10 +10,10 @@ type PageProps = {
 export function generateMetadata({ params: { locale } }: PageProps) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus 社区动态' : 'The Freak Circus Community Feed',
+    title: zh ? 'The Freak Circus 社区：粉丝创作与角色动态' : 'The Freak Circus Community: Fan Art & Updates',
     description: zh
-      ? '人工筛选的 The Freak Circus 粉丝创作、角色庆生与社区动态。'
-      : 'A hand-picked collection of The Freak Circus fan creations, celebrations, and community updates.',
+      ? '发现 The Freak Circus 粉丝创作、角色庆生、创意动态，以及围绕 Pierrot、Harlequin 和马戏团成员展开的社区内容。'
+      : 'Discover The Freak Circus fan art, character celebrations, creative posts, and community moments featuring Pierrot, Harlequin, and the circus cast.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/community`,
   });
 }

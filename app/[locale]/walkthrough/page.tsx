@@ -3,7 +3,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
-  return buildMetadata({ title: 'The Freak Circus Walkthrough Verification Notice', description: 'A version-aware notice replacing previously unverified route and ending claims.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/walkthrough`, noIndex: true });
+  return buildMetadata({ title: 'The Freak Circus Walkthrough', description: 'Explore The Freak Circus story progression, character encounters, choices, and chapter information for the current game build.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/walkthrough`, noIndex: true });
 }
 export default function WalkthroughPage({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh'; const p = locale === 'en' ? '' : `/${locale}`;

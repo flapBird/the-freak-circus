@@ -235,8 +235,18 @@ button:focus-visible,
 .nav-popover a { display: block; padding: .72rem .8rem; border-radius: 9px; font-size: .98rem; font-weight: 650; }
 .nav-popover a:hover { background: rgba(154,103,255,.1); }
 .nav-popover .nav-popover-all { margin-top: .35rem; padding-top: .9rem; border-top: 1px solid var(--color-border); color: var(--color-gold); }
+.mobile-header-actions { display: flex; align-items: center; gap: .55rem; margin-left: auto; }
+.mobile-header-language { position: relative; z-index: 2; }
+.mobile-header-language .locale-switcher-trigger.is-compact { justify-content: space-between; width: 64px; min-width: 64px; height: 44px; padding-inline: .72rem; border-radius: 9px; font-family: 'Courier Prime', monospace; font-size: .92rem; }
+.mobile-header-language .locale-switcher-code { line-height: 1; }
+.mobile-header-language .t-dropdown { z-index: 70; }
 .mobile-nav { position: relative; }
-.mobile-nav > summary { display: flex; align-items: center; gap: .6rem; padding: .6rem .75rem; border: 1px solid var(--color-border); border-radius: 9px; list-style: none; cursor: pointer; font-family: 'Courier Prime', monospace; }
+.mobile-nav > summary { display: grid; width: 44px; height: 44px; padding: 0; place-items: center; border: 1px solid var(--color-border); border-radius: 9px; list-style: none; cursor: pointer; }
+.mobile-menu-icon { display: grid; width: 22px; gap: 4px; }
+.mobile-menu-icon i { display: block; width: 100%; height: 2px; border-radius: 999px; background: currentColor; transition: opacity .18s, transform .18s; }
+.mobile-nav[open] .mobile-menu-icon i:first-child { transform: translateY(6px) rotate(45deg); }
+.mobile-nav[open] .mobile-menu-icon i:nth-child(2) { opacity: 0; }
+.mobile-nav[open] .mobile-menu-icon i:last-child { transform: translateY(-6px) rotate(-45deg); }
 .mobile-nav-panel { position: absolute; top: calc(100% + .7rem); right: 0; width: min(330px, calc(100vw - 2rem)); max-height: calc(100vh - 100px); overflow: auto; padding: .75rem; border: 1px solid var(--color-border); border-radius: 14px; background: #0d0c13; box-shadow: 0 24px 60px rgba(0,0,0,.6); }
 .mobile-nav-panel > a { display: block; padding: .75rem; border-bottom: 1px solid rgba(255,255,255,.045); text-decoration: none; }
 .mobile-character-menu { border-bottom: 1px solid rgba(255,255,255,.045); }
@@ -249,7 +259,6 @@ button:focus-visible,
 .mobile-character-menu > div a { display: block; padding: .72rem .8rem; border-left: 1px solid rgba(154,103,255,.3); color: var(--color-muted); text-decoration: none; }
 .mobile-character-menu > div a:hover { color: #fff; background: rgba(154,103,255,.08); }
 .mobile-character-menu > div .mobile-character-all { color: var(--color-gold); }
-.mobile-language { padding: 1rem .75rem .4rem; }
 
 .home-hero { position: relative; min-height: 620px; display: grid; align-items: start; overflow: hidden; border-bottom: 1px solid var(--color-border); }
 .home-page { position: relative; }
@@ -696,7 +705,14 @@ button:focus-visible,
 
 @media (max-width: 680px) {
   .page-section { padding-block: 4rem; }
-  .site-brand { min-width: auto; }
+  .site-header-inner { width: calc(100% - 1rem); gap: .65rem; }
+  .site-brand { min-width: 0; gap: .55rem; }
+  .site-brand-mark { width: 40px; height: 40px; }
+  .site-brand strong { overflow: hidden; font-size: .88rem; text-overflow: ellipsis; }
+  .mobile-header-actions { flex: 0 0 auto; gap: .45rem; }
+  .mobile-nav-panel { width: min(330px, calc(100vw - 1rem)); }
+  .play-stage .game-player:not(.game-player--fullscreen) > button:first-child,
+  .play-stage .game-player:not(.game-player--fullscreen) .game-wrapper { aspect-ratio: 4 / 3; max-height: none; }
   .home-hero { min-height: 0; }
   .home-hero-overlay { background: linear-gradient(90deg, rgba(7,7,12,.94), rgba(7,7,12,.58)), linear-gradient(0deg,#07070c,transparent 45%); }
   .home-hero-content { padding-block: 3rem 3.5rem; }
@@ -740,4 +756,12 @@ button:focus-visible,
   .text-page { padding-top: 3.5rem; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-intro { grid-column: auto; }
+}
+
+@media (max-width: 360px) {
+  .site-header-inner { gap: .45rem; }
+  .site-brand { gap: .45rem; }
+  .site-brand-mark { width: 36px; height: 36px; }
+  .site-brand strong { font-size: .78rem; }
+  .mobile-header-language .locale-switcher-trigger.is-compact { width: 58px; min-width: 58px; padding-inline: .6rem; }
 }
