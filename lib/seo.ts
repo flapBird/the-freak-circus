@@ -1,7 +1,7 @@
 export const SITE_NAME = 'The Freak Circus';
 export const SITE_URL = 'https://thefreakcircus.help';
 export const SITE_DESC =
-  'Play The Freak Circus online, a psychological horror visual novel. Explore walkthroughs, character guides, and endings for Pierrot, Harlequin, Jester, and more.';
+  'An unofficial, source-led guide to The Freak Circus with verified character profiles, Day 3 status, official downloads, and developer updates.';
 export const DEFAULT_OG = `${SITE_URL}/og-image.jpg`;
 export const TWITTER_HANDLE = '@freakcircushelp';
 export const LOCALES = ['en', 'pt', 'fil', 'vi', 'es', 'id', 'zh'] as const;
@@ -35,7 +35,7 @@ export function buildMetadata(opts: {
   noIndex?: boolean;
   omitCanonical?: boolean;
 }) {
-  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG, omitCanonical } = opts;
+  const { title, description = SITE_DESC, canonical, ogImage = DEFAULT_OG, omitCanonical, noIndex = false } = opts;
   const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
   const path = canonicalPath(canonical);
   const languages = Object.fromEntries(
@@ -76,8 +76,8 @@ export function buildMetadata(opts: {
       title: fullTitle,
       description,
       images: [ogImage],
-      creator: TWITTER_HANDLE,
     },
+    ...(noIndex ? { robots: { index: false, follow: true } } : {}),
 
   };
 }

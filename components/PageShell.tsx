@@ -6,8 +6,7 @@ export default function PageShell({ locale, children }: { locale: string; childr
   return (
     <div lang={LANG_CODES[locale as keyof typeof LANG_CODES] ?? locale}>
       <Header locale={locale} />
-      <div className="h-6" />
-      <div className="min-h-screen pb-8">{children}</div>
+      <div className="min-h-screen">{children}</div>
       <Footer locale={locale} />
     </div>
   );

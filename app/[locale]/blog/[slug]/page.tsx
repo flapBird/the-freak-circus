@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from '@/components/SchemaMarkup';
-import SidebarLayout from '@/components/SidebarLayout';
-import { getPostBySlug } from '@/lib/blog-posts';
-import { tMsg } from '@/lib/messages';
+import { getBlogPosts, getPostBySlug } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
@@ -26,12 +25,15 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
   if (!post) notFound();
 
   const p = locale === 'en' ? '' : `/${locale}`;
+  const zh = locale === 'zh';
+  const relatedPosts = getBlogPosts(locale).filter((item) => item.slug !== post.slug).slice(0, 2);
 
-  const dateISO = new Date(post.date).toISOString();
-  const dateDisplay = new Date(post.date).toLocaleDateString(locale === 'en' ? 'en-US' : locale, {
+  const dateISO = new Date(`${post.date}T00:00:00Z`).toISOString();
+  const dateDisplay = new Date(`${post.date}T00:00:00Z`).toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'UTC',
   });
 
   return (
@@ -44,6 +46,7 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
           datePublished: dateISO,
           dateModified: dateISO,
           url: `${SITE_URL}/${locale === 'en' ? '' : locale + '/'}blog/${post.slug}`,
+          image: `${SITE_URL}${post.image}`,
           publisher: {
             '@type': 'Organization',
             name: 'thefreakcircus.help',
@@ -56,49 +59,70 @@ export default async function BlogPostPage({ params: { locale, slug } }: Props) 
         }}
       />
 
-      <SidebarLayout>
-        <nav className="mb-6 text-xs text-circus-muted">
-          <Link href={`${p}/blog`} className="hover:text-circus-gold transition-colors">
-            {tMsg(locale, 'blog.backLink')}
-          </Link>
-        </nav>
+      <main className="blog-article-page">
+        <div className="page-container">
+          <nav className="blog-breadcrumb" aria-label={zh ? '面包屑导航' : 'Breadcrumb'}>
+            <Link href={p || '/'}>{zh ? '首页' : 'Home'}</Link>
+            <span>/</span>
+            <Link href={`${p}/blog`}>Blog</Link>
+            <span>/</span>
+            <span>{post.title}</span>
+          </nav>
 
-        <header className="mb-8">
-          <div className="flex flex-wrap gap-2 mb-3">
-            {post.tags.map((tag) => (
-              <span
-                key={tag}
-                className="text-[10px] px-1.5 py-0.5 border border-circus-border text-circus-muted font-display tracking-wider uppercase"
-              >
-                {tag}
-              </span>
-            ))}
+          <div className="blog-article-layout">
+            <article className="blog-article-main">
+              <header className="blog-article-header">
+                <div className="blog-tag-row">
+                  {post.tags.map((tag) => <span key={tag} className="blog-tag">{tag}</span>)}
+                </div>
+                <h1>{post.title}</h1>
+                <p>{post.description}</p>
+                <div className="blog-article-byline">
+                  <time dateTime={dateISO}>{dateDisplay}</time>
+                  <span>·</span>
+                  <span>{post.readingTime}</span>
+                </div>
+              </header>
+
+              <div className="blog-article-cover">
+                <SafeImage src={post.image} alt={post.imageAlt} width={1400} height={820} priority />
+              </div>
+
+              <div className="blog-article-content prose-circus" dangerouslySetInnerHTML={{ __html: post.content }} />
+
+              <div className="blog-article-return">
+                <Link href={`${p}/blog`}>← {zh ? '返回全部文章' : 'Back to all articles'}</Link>
+              </div>
+            </article>
+
+            <aside className="blog-article-sidebar">
+              <section className="reference-card">
+                <p className="section-kicker">{zh ? '文章信息' : 'ABOUT THIS ARTICLE'}</p>
+                <dl className="blog-facts">
+                  <div><dt>{zh ? '发布日期' : 'Published'}</dt><dd>{dateDisplay}</dd></div>
+                  <div><dt>{zh ? '阅读时间' : 'Reading time'}</dt><dd>{post.readingTime}</dd></div>
+                  <div><dt>{zh ? '内容范围' : 'Scope'}</dt><dd>{zh ? '0.2 原型版' : 'Version 0.2 prototype'}</dd></div>
+                </dl>
+                <div className="blog-tag-row">
+                  {post.tags.map((tag) => <span key={tag} className="blog-tag">{tag}</span>)}
+                </div>
+              </section>
+
+              <section className="reference-card">
+                <h2>{zh ? '继续阅读' : 'Continue reading'}</h2>
+                <div className="blog-related-list">
+                  {relatedPosts.map((item) => (
+                    <Link href={`${p}/blog/${item.slug}`} key={item.slug}>
+                      <span>{item.title}</span>
+                      <small>{item.readingTime} →</small>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            </aside>
           </div>
-          <h1 className="font-display text-circus-white text-2xl md:text-3xl mb-3 leading-tight">
-            {post.title}
-          </h1>
-          <p className="text-circus-muted text-sm font-body italic">{post.description}</p>
-          <time dateTime={dateISO} className="block mt-2 text-xs text-circus-muted/60">
-            {tMsg(locale, 'blog.published', { date: dateDisplay })}
-          </time>
-        </header>
-
-        <div className="divider-ornament mb-8">
-          <span className="font-display text-[10px] text-circus-gold/40 tracking-widest">TFC</span>
         </div>
-
-        <div className="prose-circus" dangerouslySetInnerHTML={{ __html: post.content }} />
-
-        <div className="mt-12 pt-6 border-t border-circus-border">
-          <Link
-            href={p || '/'}
-            className="inline-flex items-center gap-2 text-circus-gold hover:text-circus-gold-light
-                       font-display text-xs tracking-widest uppercase transition-colors"
-          >
-            {tMsg(locale, 'blog.footerLink')}
-          </Link>
-        </div>
-      </SidebarLayout>
+      </main>
     </>
   );
 }

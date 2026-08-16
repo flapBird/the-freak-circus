@@ -69,7 +69,7 @@ export default function LocaleSwitcher() {
         newPath = pathname;
       }
       // English is the default, unprefixed locale: strip the /en prefix so the
-      // URL matches the site's canonical form (/ and /news, not /en, /en/news).
+      // URL matches the site's canonical form (/ and /updates, not /en, /en/updates).
       if (code === 'en') {
         newPath = newPath.replace(/^\/en(?=\/|$)/, '') || '/';
       }

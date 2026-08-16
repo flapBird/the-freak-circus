@@ -1,54 +1,14 @@
-import { tMsg, rawMsg } from '@/lib/messages';
 import Link from 'next/link';
-import SidebarLayout from '@/components/SidebarLayout';
+import SafeImage from '@/components/SafeImage';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { characterCopy, characterSlugs, editorialLocale } from '@/lib/site-content';
 
-type Props = { params: { locale: string } };
-
-export async function generateMetadata({ params: { locale } }: Props) {
-  return buildMetadata({
-    title: tMsg(locale, 'meta.charactersTitle'),
-    description: tMsg(locale, 'meta.charactersDesc'),
-    canonical: `${SITE_URL}${locale === 'en' ? '/characters' : '/' + locale + '/characters'}`,
-  });
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const zh = editorialLocale(locale) === 'zh';
+  return buildMetadata({ title: zh ? 'The Freak Circus 角色介绍' : 'The Freak Circus Characters', description: zh ? '基于当前 0.2 原型版整理 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker 的可信角色资料。' : 'Source-led profiles for Pierrot, Harlequin, Jester, Doctor, and Ticket Taker in The Freak Circus version 0.2 prototype.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters` });
 }
 
-const SLUGS = ['pierrot', 'harlequin', 'jester', 'ticket-taker', 'doctor', 'columbina'];
-const ROLE_KEYS: Record<string, string> = {
-  pierrot: 'characters.list.0.role', harlequin: 'characters.list.1.role',
-  jester: 'characters.list.2.role', 'ticket-taker': 'characters.list.3.role',
-  doctor: 'characters.list.4.role', columbina: 'characters.columbina.role',
-};
-
-export default function CharactersPage({ params: { locale } }: Props) {
-  const p = locale === 'en' ? '' : `/${locale}`;
-  const characters = rawMsg<{ id: string; name: string }[]>(locale, 'characters.list') ?? [];
-  const names = Object.fromEntries(characters.map((character) => [character.id, character.name]));
-  names.columbina = 'Columbina';
-  return (
-    <SidebarLayout>
-      <div className="mb-6 text-center">
-        <p className="text-circus-gold/70 font-display text-xs tracking-[0.4em] uppercase mb-2">{tMsg(locale, 'characters.pageTitle')}</p>
-        <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'characters.title')}</h1>
-        <p className="text-circus-muted font-body italic">{tMsg(locale, 'characters.subtitle')}</p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {SLUGS.map((slug) => {
-          const name = names[slug] ?? slug;
-          return (
-          <Link key={slug} href={`${p}/characters/${slug}`}
-            className="border border-circus-border bg-circus-card/40 p-5 rounded-sm hover:border-circus-gold/30 transition-colors group block">
-            <div className="flex items-center gap-3 mb-2">
-              <span className="text-lg font-display text-circus-gold border border-circus-border w-10 h-10 flex items-center justify-center flex-shrink-0 rounded-sm">{name[0]}</span>
-              <div>
-                <h2 className="font-display text-circus-gold group-hover:text-circus-gold-light transition-colors">{name}</h2>
-                <p className="text-xs text-circus-muted">{tMsg(locale, ROLE_KEYS[slug])}</p>
-              </div>
-            </div>
-          </Link>
-          );
-        })}
-      </div>
-    </SidebarLayout>
-  );
+export default function CharactersPage({ params: { locale } }: { params: { locale: string } }) {
+  const lang = editorialLocale(locale); const p = locale === 'en' ? '' : `/${locale}`;
+  return <main><header className="page-hero"><div className="page-container"><h1>{lang === 'zh' ? 'The Freak Circus 角色' : 'The Freak Circus Characters'}</h1><p className="page-hero-lead">{lang === 'zh' ? '认识 The Freak Circus 中扭曲的灵魂——每个角色都藏着秘密，而每一次选择都会将你更深地拖入执念。' : 'Meet the twisted souls of The Freak Circus — where every character hides a secret, and every choice pulls you deeper into obsession.'}</p></div></header><section className="page-section page-container"><div className="character-grid-home">{characterSlugs.map(slug => { const ch = characterCopy[lang][slug]; return <Link href={`${p}/characters/${slug}`} className="character-card-home" key={slug}><div className="character-card-image"><SafeImage src={ch.image} alt={`${ch.name} — The Freak Circus`} width={520} height={680}/></div><div className="character-card-copy"><small>{ch.label}</small><h2>{ch.name}</h2><p>{ch.summary}</p><span>{lang === 'zh' ? '阅读人物故事' : 'Read character story'} →</span></div></Link>; })}</div><div className="character-route-note"><h2>{lang === 'zh' ? '当前版本中的角色与路线' : 'Characters and routes in the current build'}</h2><p>{lang === 'zh' ? '0.2 原型版已经介绍五位角色，但“登场”并不等同于“路线已经完成”。目前明确计划的结局集中在 Pierrot、Harlequin、主角与共同结局；本站会把已经出现的内容与仍在开发的计划分开呈现。' : 'Version 0.2 introduces five characters, but an introduction is not the same as a completed route. The stated ending plan centers on Pierrot, Harlequin, the protagonist, and shared conclusions, so these profiles keep released material separate from work still in development.'}</p></div><section className="relationships-section"><div className="relationships-heading"><h2>{lang === 'zh' ? '角色关系图谱' : 'Character Relationships'}</h2><p>{lang === 'zh' ? '当前故事已经明确 Pierrot 与 Harlequin 围绕主角展开竞争；其余人物属于更大的马戏团群像，具体关系仍等待后续剧情揭晓。' : 'The current story confirms Pierrot and Harlequin as rivals around the protagonist. The wider circus cast is present, while their exact connections remain part of the story still unfolding.'}</p></div><div className="relationships-map"><div className="relationship-rival-label">{lang === 'zh' ? '舞台对手 · 争夺主角' : 'STAGE RIVALS · COMPETING FOR THE PROTAGONIST'}</div><div className="relationship-core"><Link className="relationship-node is-pierrot" href={`${p}/characters/pierrot`}><strong>Pierrot</strong><small>{lang === 'zh' ? '沉默的执念' : 'Silent devotion'}</small></Link><div className="relationship-protagonist"><span>{lang === 'zh' ? '故事中心' : 'STORY CENTER'}</span><strong>{lang === 'zh' ? '咖啡店员工主角' : 'Café-worker protagonist'}</strong></div><Link className="relationship-node is-harlequin" href={`${p}/characters/harlequin`}><strong>Harlequin</strong><small>{lang === 'zh' ? '危险的魅力' : 'Dangerous charm'}</small></Link></div><div className="relationship-ensemble-label">{lang === 'zh' ? '更大的马戏团群像 · 具体关系尚未完全公开' : 'WIDER CIRCUS CAST · EXACT CONNECTIONS NOT YET FULLY REVEALED'}</div><div className="relationship-ensemble">{(['jester', 'the-doctor', 'ticket-taker'] as const).map(slug => <Link key={slug} href={`${p}/characters/${slug}`}><strong>{characterCopy[lang][slug].name}</strong><small>{characterCopy[lang][slug].label}</small></Link>)}</div></div></section></section></main>;
 }

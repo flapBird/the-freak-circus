@@ -12,7 +12,7 @@ const PRODUCTION_HOSTNAME = new URL(SITE_URL).hostname;
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thefreakcircus.help'),
-  description: 'Play The Freak Circus online, a psychological horror visual novel. Explore walkthroughs, character guides, and endings.',
+  description: SITE_DESC,
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -56,11 +56,6 @@ gtag('config', '${GA_ID}');`,
             name: SITE_NAME,
             url: SITE_URL,
             description: SITE_DESC,
-            potentialAction: {
-              '@type': 'SearchAction',
-              target: `${SITE_URL}/blog?q={search_term_string}`,
-              'query-input': 'required name=search_term_string',
-            },
           }}
         />
       </head>

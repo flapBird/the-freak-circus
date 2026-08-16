@@ -1,6 +1,6 @@
-import { tMsg, rawMsg } from '@/lib/messages';
+import { tMsg } from '@/lib/messages';
 import Link from 'next/link';
-import SidebarLayout from '@/components/SidebarLayout';
+import SafeImage from '@/components/SafeImage';
 import { getBlogPosts } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -17,53 +17,61 @@ export async function generateMetadata({ params: { locale } }: Props) {
 
 export default async function BlogPage({ params: { locale } }: Props) {
   const p = locale === 'en' ? '' : `/${locale}`;
+  const zh = locale === 'zh';
   const sorted = [...getBlogPosts(locale)].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
 
   return (
-    <SidebarLayout>
-      <div className="mb-8">
-        <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'blog.title')}</h1>
-        <p className="text-circus-muted font-body italic">{tMsg(locale, 'blog.subtitle')}</p>
-      </div>
+    <main className="blog-index-page">
+      <header className="page-hero blog-hero">
+        <div className="page-container">
+          <h1>{tMsg(locale, 'blog.title')}</h1>
+          <p className="page-hero-lead">
+            {zh
+              ? '面向玩家的实用指南、版本说明与事实核查。每篇文章都标明范围，不把猜测包装成剧情事实。'
+              : 'Practical player guides, build explainers, and careful fact checks—written with clear scope and no invented story claims.'}
+          </p>
+        </div>
+      </header>
 
-      <div className="space-y-5">
+      <section className="page-section page-container" aria-label={zh ? '文章列表' : 'Article list'}>
+        <div className="blog-card-grid">
         {sorted.map((post) => {
-          const dateDisplay = new Date(post.date).toLocaleDateString(locale === 'en' ? 'en-US' : locale, {
+          const dateDisplay = new Date(`${post.date}T00:00:00Z`).toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', {
             year: 'numeric',
             month: 'long',
             day: 'numeric',
+            timeZone: 'UTC',
           });
 
           return (
-            <article
-              key={post.slug}
-              className="border border-circus-border bg-circus-card/30 p-5 rounded-sm hover:border-circus-gold/30 transition-all group"
-            >
-              <Link href={`${p}/blog/${post.slug}`} className="block">
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {post.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[10px] px-1.5 py-0.5 border border-circus-border text-circus-muted font-display tracking-wider uppercase"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                  <time dateTime={post.date} className="text-[10px] text-circus-muted/60 ml-auto">
-                    {dateDisplay}
-                  </time>
+            <article key={post.slug} className="blog-card">
+              <Link href={`${p}/blog/${post.slug}`} className="blog-card-link">
+                <div className="blog-card-image">
+                  <SafeImage src={post.image} alt={post.imageAlt} width={900} height={560} />
+                  <span className="blog-card-hover">{zh ? '阅读文章' : 'Read article'} →</span>
                 </div>
-                <h2 className="font-display text-circus-text text-base mb-2 group-hover:text-circus-gold transition-colors leading-snug">
-                  {post.title}
-                </h2>
-                <p className="text-circus-muted text-sm leading-relaxed">{post.description}</p>
+                <div className="blog-card-body">
+                  <div className="blog-tag-row">
+                  {post.tags.map((tag) => (
+                    <span key={tag} className="blog-tag">{tag}</span>
+                  ))}
+                  </div>
+                  <h2>{post.title}</h2>
+                  <p>{post.description}</p>
+                  <div className="blog-card-meta">
+                    <time dateTime={post.date}>{dateDisplay}</time>
+                    <span>{post.readingTime}</span>
+                    <strong>{zh ? '阅读全文' : 'Read more'} →</strong>
+                  </div>
+                </div>
               </Link>
             </article>
           );
         })}
-      </div>
-    </SidebarLayout>
+        </div>
+      </section>
+    </main>
   );
 }

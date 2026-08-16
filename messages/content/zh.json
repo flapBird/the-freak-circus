@@ -43,11 +43,13 @@
       "title": "官方周边公告：2026年7月开发日志内容",
       "excerpt": "Garula在7月14日的开发日志中宣布了官方商品合作和限量Pierrot毛绒公仔的发布。",
       "publishedAt": "2026-07-14",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1585532/official-merch-plush-and-partnership",
       "sourceName": "Garula 关于 itch.io",
-      "content": [
-        "Garula在2026年7月14日的开发日志中宣布了官方商品及与The Freak Circus相关的合作。帖子特别提到限量Pierrot毛绒公仔的发布。",
-        "这是一个总结，而不是商店列表。供应情况、地区、价格和库存可能会发生变化，因此在做购买决定之前请使用原始开发日志。"
+    "content": [
+      "Garula 在 2026 年 7 月 14 日的开发日志中公布了两项《The Freak Circus》官方周边消息：限时 Pierrot 毛绒公仔，以及与春醴记工作室达成的新周边合作。",
+      "公告称，Pierrot 毛绒公仔来自此前由玩家支持的活动，计划仅销售至 2026 年 7 月 30 日（美国东部时间）。开发者明确说明这是限时商品，目前没有再次销售的计划。",
+      "同一篇公告将玩家引导至春醴记工作室购买其他官方周边，并列出了其小红书、微博、抖音与淘宝账号。开发者同时提醒玩家只信任官方账号发布的链接，并举报未经授权的商品页面。",
+      "开发日志还提到新章节仍在制作，但没有公布发布日期。周边库存、价格、配送地区和销售状态都可能变化，购买前应查看原始公告及其中列出的官方账号。"
       ]
     },
     {
@@ -55,11 +57,13 @@
       "title": "中文翻译于2026年2月修订",
       "excerpt": "开发者发布了修订后的中文翻译更新，并在官方开发日志中对翻译者进行了致谢。",
       "publishedAt": "2026-02-22",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1406964/chinese-language-update",
       "sourceName": "Garula 关于 itch.io",
-      "content": [
-        "2026年2月22日，Garula发布了一篇关于The Freak Circus修订中文翻译的开发日志，并感谢copiklaGrogu的工作。",
-        "对于玩家来说，实际的做法是在比较对话或报告翻译问题之前从官方itch.io页面更新。本粉丝网站不分发游戏构建或翻译。"
+    "content": [
+      "2026 年 2 月 22 日，Garula 发布了《The Freak Circus》经过更新和修订的中文翻译，并再次感谢 copiklaGrogu 完成本地化工作。",
+      "本次更新修复了 Columbina 的一条不完整对话：当玩家输入名字“Columbina”时，原本无法显示完整台词，开发者表示该问题已在这一版本中修正。",
+      "开发日志还提到两处较小的立绘修正和若干游戏细节调整。官方 itch.io 页面同步上传了 Android、Windows、Linux、macOS 与浏览器版的 0.2 更新文件。",
+      "Garula 还说明俄语、西班牙语和日语翻译呼声很高，并已有志愿者，但仍需要时间协调。因此这些语言目前只能视为需求或计划，不能写成已经提供的官方语言。"
       ]
     },
     {
@@ -67,13 +71,14 @@
       "title": "浏览器动画修复记录在2025年12月更新中",
       "excerpt": "官方的错误修复帖子报告了浏览器动画的改进，并修复了Ticket Taker的动画冻结问题。",
       "publishedAt": "2025-12-09",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1138952/bugs-fixed",
       "sourceName": "Garula 关于 itch.io",
-      "content": [
-        "2025年12月9日的错误修复开发日志表示浏览器动画已优化，并记录了在Chrome和Edge中测试的Ticket Taker动画冻结修复。",
-        "如果特定浏览器的问题仍然存在，请首先检查官方页面以获取最新版本和开发者的最新说明。不要将较旧的社区报告视为当前版本已损坏的确认。"
+    "content": [
+      "2025 年 12 月 9 日的维护更新主要处理 0.2 版本的稳定性与特定路线问题。浏览器动画得到优化，蓝色帐篷也不应再在 Ticket Taker 动画期间冻结；开发者在 Chrome 和 Edge 中测试了该修复。",
+      "这次更新还修复了葡萄牙语下部分玩家姓名触发的报错、Harlequin 在某条不该出现的路线中进入卧室的问题，并调整了一句葡萄牙语台词和 Columbina 的一条台词。",
+      "公告发布时仍有两个已知问题在排查：Pierrot 的花会出现在所有路线，以及快速跳过部分场景时视觉效果可能不同步。开发者也表示后续还会进行小型修复与场景润色。",
+      "如果问题仍然存在，开发者希望报告中注明平台、语言，以及使用浏览器版时的浏览器名称。排查前应先确认自己使用的是最新官方版本，因为较早的社区反馈可能描述的是已经修复的旧问题。"
       ]
     }
   ]
 }
-

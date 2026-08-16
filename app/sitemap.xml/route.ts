@@ -1,16 +1,16 @@
 import { BLOG_POSTS } from '@/lib/blog-posts';
-import { NEWS_POSTS } from '@/lib/news';
+import { GAMES, getGameSlug } from '@/data/games';
 import { INDEXABLE_LOCALES, SITE_URL } from '@/lib/seo';
 
-const SITE_LAST_MODIFIED = '2026-07-28';
+const SITE_LAST_MODIFIED = '2026-08-16';
 
 const staticPaths = [
-  '', '/about', '/characters', '/walkthrough', '/walkthrough/day-1', '/walkthrough/day-2',
-  '/walkthrough/day-3', '/wiki', '/community', '/news', '/contact', '/privacy', '/terms', '/blog',
+  '', '/about', '/characters', '/day-3', '/download', '/games', '/wiki', '/community',
+  '/updates', '/contact', '/privacy', '/terms', '/blog',
 ];
 const characterPaths = [
   '/characters/pierrot', '/characters/harlequin', '/characters/jester', '/characters/the-doctor',
-  '/characters/columbina', '/characters/ticket-taker',
+  '/characters/ticket-taker',
 ];
 
 type SitemapEntry = { path: string; lastModified: string; changeFrequency: 'weekly' | 'monthly'; priority: string };
@@ -29,10 +29,10 @@ function entryXml({ path, lastModified, changeFrequency, priority }: SitemapEntr
 
 export function GET() {
   const baseEntries: SitemapEntry[] = [
-    ...staticPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'weekly' as const, priority: path === '' ? '1.0' : '0.6' })),
+    ...staticPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'weekly' as const, priority: path === '' ? '1.0' : path === '/updates' ? '0.8' : '0.6' })),
     ...characterPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'monthly' as const, priority: '0.7' })),
+    ...GAMES.map((game) => ({ path: `/games/${getGameSlug(game)}`, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'monthly' as const, priority: '0.7' })),
     ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, lastModified: post.date, changeFrequency: 'monthly' as const, priority: '0.8' })),
-    ...NEWS_POSTS.map((post) => ({ path: `/news/${post.slug}`, lastModified: post.publishedAt, changeFrequency: 'monthly' as const, priority: '0.8' })),
   ];
   const entries = INDEXABLE_LOCALES.flatMap((locale) => {
     const prefix = locale === 'en' ? '' : `/${locale}`;

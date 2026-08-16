@@ -22,7 +22,7 @@ export default function Day3Page({ params: { locale } }: Props) {
       <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'walkthrough.day3.title')}</h1>
       <p className="text-circus-muted font-body italic mb-6">{tMsg(locale, 'walkthrough.day3.status')}</p>
       <div className="space-y-4">
-        {NEWS_POSTS.map((post) => <article key={post.slug} className="border border-circus-border p-4"><time className="text-xs text-circus-muted">{post.publishedAt}</time><h2 className="font-display text-circus-text mt-1"><Link className="hover:text-circus-gold" href={`${p}/news/${post.slug}`}>{post.title}</Link></h2><p className="text-sm text-circus-muted mt-2">{post.excerpt}</p></article>)}
+        {NEWS_POSTS.map((post) => <article key={post.slug} className="border border-circus-border p-4"><time className="text-xs text-circus-muted">{post.publishedAt}</time><h2 className="font-display text-circus-text mt-1"><Link className="hover:text-circus-gold" href={`${p}/updates#${post.slug}`}>{post.title}</Link></h2><p className="text-sm text-circus-muted mt-2">{post.excerpt}</p></article>)}
       </div>
     </SidebarLayout>
   );

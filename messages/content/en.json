@@ -43,11 +43,13 @@
       "title": "Official merchandise announcement: what the July 2026 devlog says",
       "excerpt": "Garula’s July 14 devlog announced an official merchandise partnership and a limited Pierrot plush release.",
       "publishedAt": "2026-07-14",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1585532/official-merch-plush-and-partnership",
       "sourceName": "Garula on itch.io",
-      "content": [
-        "Garula’s July 14, 2026 devlog announced official merchandise and a partnership connected to The Freak Circus. The post specifically mentions a limited Pierrot plush release.",
-        "This is a summary, not a store listing. Availability, regions, prices, and stock can change, so use the original devlog before making a purchase decision."
+    "content": [
+      "Garula’s July 14, 2026 devlog announced two official merchandise developments for The Freak Circus: a limited-time Pierrot plush and a new merchandise partnership with 春醴记工作室.",
+      "According to the announcement, the Pierrot plush came from a fan-supported campaign and was scheduled to remain available only until July 30, 2026 (EST). The developer explicitly described it as a limited release with no planned return.",
+      "The same post directed players to 春醴记工作室 for additional official merchandise and listed its Xiaohongshu, Weibo, Douyin, and Taobao accounts. It also warned readers to trust only links shared through the game’s official accounts and to report unauthorized listings.",
+      "The devlog additionally said work on the new chapter was continuing, but it did not announce a chapter release date. Merchandise availability, prices, shipping regions, and stock can change, so check the original announcement and linked official accounts before purchasing."
       ]
     },
     {
@@ -55,11 +57,13 @@
       "title": "Chinese translation revised in February 2026",
       "excerpt": "The developer published a revised Chinese translation update and credited the translator in the official devlog.",
       "publishedAt": "2026-02-22",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1406964/chinese-language-update",
       "sourceName": "Garula on itch.io",
-      "content": [
-        "On February 22, 2026, Garula published a devlog about a revised Chinese translation for The Freak Circus and credited copiklaGrogu for the work.",
-        "For players, the practical takeaway is to update from the official itch.io page before comparing dialogue or reporting translation issues. This fan site does not distribute game builds or translations."
+    "content": [
+      "On February 22, 2026, Garula released an updated and revised Chinese translation for The Freak Circus and again credited copiklaGrogu for the localization work.",
+      "The update fixed an incomplete Columbina dialogue line. When the player typed the name “Columbina,” the full line had not been displayed; the developer says that behavior was corrected in this build.",
+      "The devlog also mentions two small sprite corrections and several minor game adjustments. Updated version 0.2 files were posted for Android, Windows, Linux, macOS, and browser play on the official itch.io page.",
+      "Garula noted that Russian, Spanish, and Japanese translations were highly requested and already had volunteers, but asked players to allow time for coordination. Those languages should therefore be treated as requested or planned work, not as currently available official localizations."
       ]
     },
     {
@@ -67,13 +71,14 @@
       "title": "Browser animation fixes noted in the December 2025 update",
       "excerpt": "The official bug-fix post reported browser animation improvements and a fix for a Ticket Taker animation freeze.",
       "publishedAt": "2025-12-09",
-      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog",
+      "sourceUrl": "https://garula.itch.io/the-freak-circus/devlog/1138952/bugs-fixed",
       "sourceName": "Garula on itch.io",
-      "content": [
-        "The December 9, 2025 bug-fix devlog says browser animations were optimized and notes a Ticket Taker animation freeze fix tested in Chrome and Edge.",
-        "If a browser-specific issue persists, first check the official page for the newest build and the developer’s latest notes. Do not treat older community reports as confirmation that a current build is broken."
+    "content": [
+      "The December 9, 2025 maintenance update focused on stability and route-specific corrections in version 0.2. Browser animations were optimized, and the blue tent was no longer expected to freeze during the Ticket Taker animation; the developer tested that fix in Chrome and Edge.",
+      "The update also fixed an error triggered by certain player names in Portuguese, removed an unintended Harlequin bedroom appearance from one specific route, and corrected a Portuguese line and one of Columbina’s lines.",
+      "Two known issues were still under investigation at the time of the post: Pierrot’s flower appearing across every route and visual effects falling out of sync when scenes were skipped too quickly. The developer also said that additional minor fixes and scene polish were planned.",
+      "Players reporting a remaining issue were asked to include the platform, language, and—when using the browser build—the browser name. Checking the newest official build before troubleshooting is important because older community reports may describe behavior that has already been fixed."
       ]
     }
   ]
 }
-

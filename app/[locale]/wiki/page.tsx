@@ -1,77 +1,17 @@
-import { tMsg, rawMsg } from '@/lib/messages';
 import Link from 'next/link';
-import SidebarLayout from '@/components/SidebarLayout';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { characterCopy, characterSlugs, editorialLocale, officialUpdates } from '@/lib/site-content';
 
-type Props = { params: { locale: string } };
-
-export async function generateMetadata({ params: { locale } }: Props) {
-  return buildMetadata({
-    title: tMsg(locale, 'wiki.meta.title'),
-    description: tMsg(locale, 'wiki.meta.desc'),
-    canonical: `${SITE_URL}${locale === 'en' ? '/wiki' : '/' + locale + '/wiki'}`,
-  });
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const zh = editorialLocale(locale) === 'zh';
+  return buildMetadata({ title: zh ? 'The Freak Circus Wiki：版本、故事与角色资料' : 'The Freak Circus Wiki: Version, Story & Character Reference', description: zh ? '基于官方来源整理 The Freak Circus 0.2 的故事前提、角色、平台、语言、内容警告与更新记录。' : 'A source-led The Freak Circus Wiki covering version 0.2, premise, cast, platforms, languages, content warnings, credits, and update history.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/wiki` });
 }
 
-export default function WikiPage({ params: { locale } }: Props) {
-  const p = locale === 'en' ? '' : `/${locale}`;
-
-  return (
-    <SidebarLayout>
-      <h1 className="font-display text-circus-white text-3xl mb-3">{tMsg(locale, 'wiki.title')}</h1>
-      <p className="text-circus-muted font-body italic mb-8">{tMsg(locale, 'wiki.subtitle')}</p>
-
-      <div className="prose-circus space-y-8">
-        <section>
-          <h2>{tMsg(locale, 'wiki.overviewTitle')}</h2>
-          <p>{tMsg(locale, 'wiki.overviewP1')}</p>
-          <p>{tMsg(locale, 'wiki.overviewP2')}</p>
-        </section>
-
-        <section>
-          <h2>{tMsg(locale, 'wiki.loreTitle')}</h2>
-          <p>{tMsg(locale, 'wiki.loreP1')}</p>
-          <p>{tMsg(locale, 'wiki.loreP2')}</p>
-        </section>
-
-        <section>
-          <h2>{tMsg(locale, 'wiki.glossaryTitle')}</h2>
-          <dl className="space-y-3">
-            {(rawMsg(locale, 'wiki.glossary') as any[] ?? []).map((item: any) => (
-              <div key={item.term} className="border-l-2 border-circus-gold/30 pl-3">
-                <dt className="font-display text-circus-text text-sm">{item.term}</dt>
-                <dd className="text-sm text-circus-muted mt-0.5">{item.def}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-        <section>
-          <h2>{tMsg(locale, 'wiki.creditsTitle')}</h2>
-          <p>{tMsg(locale, 'wiki.creditsP1')}</p>
-          <p>{tMsg(locale, 'wiki.creditsP2')}</p>
-        </section>
-
-        <section>
-          <h2>{tMsg(locale, 'wiki.timelineTitle')}</h2>
-          <div className="space-y-3">
-            {(rawMsg(locale, 'wiki.timeline') as {version:string;date:string;desc:string}[] ?? []).map((item: any) => (
-              <div key={item.version} className="border border-circus-border p-3 rounded-sm">
-                <div className="flex items-baseline gap-3 mb-1">
-                  <span className="font-display text-circus-gold text-xs tracking-wider uppercase">{item.version}</span>
-                  <span className="text-xs text-circus-muted">{item.date}</span>
-                </div>
-                <p className="text-sm text-circus-text">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
-
-      <div className="mt-10 pt-6 border-t border-circus-border flex flex-wrap gap-3">
-        <Link href={`${p}/characters`} className="text-xs px-3 py-1.5 border border-circus-border rounded-sm text-circus-muted hover:text-circus-gold transition-colors">{tMsg(locale, 'characters.title')}</Link>
-        <Link href={`${p}/walkthrough`} className="text-xs px-3 py-1.5 border border-circus-border rounded-sm text-circus-muted hover:text-circus-gold transition-colors">{tMsg(locale, 'walkthrough.title')}</Link>
-      </div>
-    </SidebarLayout>
-  );
+export default function WikiPage({ params: { locale } }: { params: { locale: string } }) {
+  const lang = editorialLocale(locale); const zh = lang === 'zh'; const p = locale === 'en' ? '' : `/${locale}`; const c = zh ? copyZh : copyEn;
+  return <main><header className="page-hero"><div className="page-container"><p className="section-kicker">SOURCE-LED REFERENCE · VERSION 0.2</p><h1>The Freak Circus Wiki</h1><p className="page-hero-lead">{c.lead}</p><div className="page-hero-actions"><Link className="button-primary" href={`${p}/characters/pierrot`}>Pierrot</Link><Link className="button-secondary" href={`${p}/characters/harlequin`}>Harlequin</Link><Link className="button-secondary" href={`${p}/day-3`}>Day 3</Link></div></div></header>
+  <section className="page-section page-container content-split"><div className="content-stack"><article className="reference-card"><h2>{c.overviewTitle}</h2><p>{c.overview1}</p><p>{c.overview2}</p></article><article className="reference-card"><h2>{c.castTitle}</h2><p>{c.castText}</p><div className="link-grid">{characterSlugs.map(slug => <Link key={slug} href={`${p}/characters/${slug}`}>{characterCopy[lang][slug].name}<br/><small>{characterCopy[lang][slug].label}</small></Link>)}</div></article><article className="reference-card" id="columbina"><h2>Columbina</h2><p>{c.columbina}</p></article><article className="reference-card"><h2>{c.warningTitle}</h2><p>{c.warning}</p><ul>{c.warnings.map(x => <li key={x}>{x}</li>)}</ul></article><article className="reference-card"><h2>{c.creditsTitle}</h2><table className="fact-table"><tbody><tr><th>{c.creator}</th><td>Neko Bueno</td></tr><tr><th>{c.publisher}</th><td>Garula</td></tr><tr><th>{c.status}</th><td>Prototype</td></tr><tr><th>{c.version}</th><td>0.2</td></tr></tbody></table></article></div><aside className="content-stack"><div className="reference-card"><p className="section-kicker">QUICK FACTS</p><table className="fact-table"><tbody><tr><th>GENRE</th><td>Visual novel · Psychological horror · Romance</td></tr><tr><th>RATING</th><td>18+</td></tr><tr><th>PLATFORMS</th><td>HTML5 · Windows · macOS · Linux · Android</td></tr><tr><th>LANGUAGES</th><td>English · Português (Brasil) · 中文</td></tr><tr><th>ENDINGS</th><td>{c.ending}</td></tr></tbody></table></div><div className="reference-card"><h2>{c.updates}</h2><div className="wiki-update-list">{officialUpdates.map(u => <a key={u.href} href={u.href} target="_blank" rel="noopener noreferrer"><time>{u.date}</time><span>{u.title}</span><small>↗</small></a>)}</div></div><div className="reference-card"><h2>{c.next}</h2><nav className="wiki-continue-links"><Link href={`${p}/community`}>{c.community}</Link><Link href={`${p}/blog`}>{c.guides}</Link><Link href={`${p}/download`}>{c.download}</Link></nav></div></aside></section></main>;
 }
+
+const copyEn = { lead: 'A living reference for the current public build—written around primary sources and explicit content boundaries, not invented lore.', overviewTitle: 'Premise and current scope', overview1: 'The protagonist works at a café. On the way to work, they meet Pierrot, a silent yandere whose fixation starts the central conflict. Harlequin, Pierrot’s seductive stage rival, enters the competition around the protagonist.', overview2: 'The official listing currently says all five character introductions are complete, one bad ending is available, and the rest of the script and endings are still being developed. The planned endings named there are Pierrot, Harlequin, and protagonist endings.', castTitle: 'Introduced cast', castText: 'These five characters have introductions in the current prototype. “Introduced” does not automatically mean a completed route or ending.', columbina: 'Columbina appears in official maintenance notes: the February 2026 Chinese-language update mentions a previously incomplete line when her name was entered. This confirms dialogue context, but it does not support the extensive backstory previously published on this site.', warningTitle: 'Age rating and content warnings', warning: 'The developer labels the game 18+. The official page warns about themes and scenes that may not be suitable for every player.', warnings: ['Blood and death', 'Kidnapping and drugging', 'Cannibalism', 'Non-consensual behavior and explicit sexual content'], creditsTitle: 'Credits and publication', creator: 'CREATOR', publisher: 'PUBLISHER', status: 'STATUS', version: 'BUILD', ending: '1 bad ending currently listed', updates: 'Verified update timeline', next: 'Continue', download: 'Download Guide', guides: 'Blog', community: 'Community' };
+const copyZh: typeof copyEn = { lead: '围绕当前公开版本持续更新的资料库：以一手来源和明确内容边界为基础，不编造设定。', overviewTitle: '故事前提与当前范围', overview1: '主角在咖啡店工作。上班途中，主角遇见沉默的病娇 Pierrot，他的执念由此引发核心冲突；Pierrot 富有诱惑力的舞台对手 Harlequin 随后加入围绕主角展开的竞争。', overview2: '官方页面目前说明：五位角色介绍已经完成、存在一个坏结局，其余剧本与结局仍在开发。页面点名的计划结局为 Pierrot、Harlequin 和主角结局。', castTitle: '已登场角色', castText: '以下五位角色已在当前原型版完成介绍；“已登场”并不等于已经有完整路线或结局。', columbina: 'Columbina 出现在官方维护记录中：2026 年 2 月中文更新提到，输入她的名字时曾有一句台词不完整。这能确认相关对白，却不足以支持本站此前发布的大量背景故事。', warningTitle: '年龄限制与内容警告', warning: '开发者将游戏标为 18+，并在官方页面列出可能不适合所有玩家的主题与场景。', warnings: ['血腥与死亡', '绑架与下药', '食人内容', '非自愿行为与露骨性内容'], creditsTitle: '制作与发布信息', creator: '创作者', publisher: '发布者', status: '状态', version: '版本', ending: '当前列出 1 个坏结局', updates: '已核实更新时间线', next: '继续浏览', download: '下载指南', guides: 'Blog', community: 'Community' };
