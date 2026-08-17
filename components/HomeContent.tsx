@@ -1,10 +1,8 @@
 import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
-import GameCard from '@/components/games/GameCard';
 import SchemaMarkup from './SchemaMarkup';
 import GameEmbed from './GameEmbed';
 import AdSlot from './AdSlot';
-import { getGames, getGameSlug } from '@/data/games';
 import { getNewsPosts } from '@/lib/news';
 import {
   CharacterSlug,
@@ -20,7 +18,6 @@ export default function HomeContent({ locale }: { locale: string }) {
   const copy = lang === 'zh' ? zhCopy : enCopy;
   const characterDescriptions = lang === 'zh' ? zhCharacterDescriptions : enCharacterDescriptions;
   const latestNews = getNewsPosts(locale).slice(0, 3);
-  const games = getGames();
 
   return (
     <>
@@ -59,20 +56,6 @@ export default function HomeContent({ locale }: { locale: string }) {
             </div>
             <div className="play-stage">
               <GameEmbed locale={locale} />
-            </div>
-          </div>
-        </section>
-
-        <section className="page-section page-section-tinted narrative-games-section">
-          <div className="page-container">
-            <div className="section-heading section-heading-centered narrative-section-heading">
-              <h2>{copy.moreTitle}</h2>
-            </div>
-            <div className="narrative-section-link">
-              <Link href={`${p}/games`} className="text-link">{copy.browseGames} →</Link>
-            </div>
-            <div className="catalog-game-grid catalog-game-grid-home">
-              {games.map((game) => <GameCard key={getGameSlug(game)} game={game} locale={locale} compact />)}
             </div>
           </div>
         </section>
@@ -172,6 +155,13 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
         </section>
 
+        <AdSlot
+          className="home-native-ad"
+          label={lang === 'zh' ? '广告' : 'Advertisement'}
+          scriptSrc="https://pl29635653.effectivecpmnetwork.com/ad3a879f7acefad94dcedffe0b2a6b57/invoke.js"
+          containerId="container-ad3a879f7acefad94dcedffe0b2a6b57"
+        />
+
         <section className="page-section page-container faq-section">
           <div className="section-heading section-heading-centered">
             <h2>{copy.faqTitle}</h2>
@@ -208,12 +198,6 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
         </section>
 
-        <AdSlot
-          className="home-native-ad"
-          label={lang === 'zh' ? '广告' : 'Advertisement'}
-          scriptSrc="https://pl29635653.effectivecpmnetwork.com/ad3a879f7acefad94dcedffe0b2a6b57/invoke.js"
-          containerId="container-ad3a879f7acefad94dcedffe0b2a6b57"
-        />
       </main>
     </>
   );
