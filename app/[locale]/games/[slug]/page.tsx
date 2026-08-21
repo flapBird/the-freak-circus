@@ -7,6 +7,7 @@ import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import {
   getGameBySlug,
+  getGames,
   getGameSlug,
   getRelatedGames,
   getGameIframeSrc,
@@ -14,6 +15,12 @@ import {
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getGames().map((game) => ({ slug: getGameSlug(game) }));
+}
 
 export function generateMetadata({ params: { locale, slug } }: Props): Metadata {
   const game = getGameBySlug(slug);

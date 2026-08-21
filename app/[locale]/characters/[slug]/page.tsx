@@ -6,6 +6,12 @@ import { CharacterSlug, characterCopy, characterSlugs, editorialLocale } from '@
 
 type Props = { params: { locale: string; slug: string } };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return characterSlugs.map((slug) => ({ slug }));
+}
+
 export function generateMetadata({ params }: Props) {
   if (!characterSlugs.includes(params.slug as CharacterSlug)) return {};
   const lang = editorialLocale(params.locale);

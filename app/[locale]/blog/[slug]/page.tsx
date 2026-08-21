@@ -3,10 +3,16 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from '@/components/SchemaMarkup';
-import { getBlogPosts, getPostBySlug } from '@/lib/blog-posts';
+import { getAllSlugs, getBlogPosts, getPostBySlug } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 type Props = { params: { locale: string; slug: string } };
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getAllSlugs().map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug, params.locale);

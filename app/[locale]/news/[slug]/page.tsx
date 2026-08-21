@@ -1,7 +1,13 @@
 import { notFound, permanentRedirect } from 'next/navigation';
-import { getNewsPost } from '@/lib/news';
+import { getNewsPost, getNewsPosts } from '@/lib/news';
 
 type Props = { params: { locale: string; slug: string } };
+
+export const dynamicParams = false;
+
+export function generateStaticParams({ params: { locale } }: { params: { locale: string } }) {
+  return getNewsPosts(locale).map((post) => ({ slug: post.slug }));
+}
 
 export default function LegacyNewsArticlePage({ params: { locale, slug } }: Props) {
   if (!getNewsPost(slug, locale)) notFound();

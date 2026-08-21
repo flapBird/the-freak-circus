@@ -6,6 +6,8 @@ const nextConfig = {
   async redirects() {
     const locales = ['pt', 'fil', 'vi', 'es', 'id', 'zh'];
     return [
+      { source: '/en', destination: '/', permanent: true },
+      { source: '/en/:path*', destination: '/:path*', permanent: true },
       ...locales.flatMap(loc => [
         { source: `/${loc}/${loc}`, destination: `/${loc}`, permanent: false },
         { source: `/${loc}/${loc}/:path*`, destination: `/${loc}/:path*`, permanent: false },
