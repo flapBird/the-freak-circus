@@ -1,171 +1,284 @@
 import Link from 'next/link';
+import SchemaMarkup from '@/components/SchemaMarkup';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
-import { editorialLocale } from '@/lib/site-content';
+import { DAY_3_UPDATE_URL, editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 
-export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+type Props = { params: { locale: string } };
+
+const LAST_CHECKED = '2026-08-23';
+
+const day3Updates = [
+  {
+    dateTime: '2026-08',
+    period: { en: 'August 2026', zh: '2026年8月' },
+    title: { en: 'Dialogue programming continues', zh: '对白编程仍在继续' },
+    text: {
+      en: 'The next story continuation remains in active development.',
+      zh: '下一段故事内容仍在积极开发中。',
+    },
+  },
+  {
+    dateTime: '2026-08',
+    period: { en: 'August 2026', zh: '2026年8月' },
+    title: { en: 'New artwork is being prepared', zh: '新美术素材正在准备中' },
+    text: {
+      en: 'At least two new pieces of artwork are expected as part of the ongoing work.',
+      zh: '当前开发预计至少还需要两张新的美术作品。',
+    },
+  },
+  {
+    dateTime: '2026-08',
+    period: { en: 'August 2026', zh: '2026年8月' },
+    title: { en: 'Background revisions are planned', zh: '部分背景计划修改' },
+    text: {
+      en: 'Some existing backgrounds need additional work or adjustment.',
+      zh: '部分现有背景仍需进一步制作或调整。',
+    },
+  },
+  {
+    dateTime: '2026-08',
+    period: { en: 'August 2026', zh: '2026年8月' },
+    title: { en: 'Additional character sprites may be needed', zh: '后续场景可能需要更多角色立绘' },
+    text: {
+      en: 'Later scenes may require more character sprite work.',
+      zh: '后续场景可能还需要补充角色立绘。',
+    },
+  },
+  {
+    dateTime: null,
+    period: { en: 'Current status', zh: '当前状态' },
+    title: { en: 'Public Day 3 build — Not released', zh: 'Day 3 公开版本——尚未发布' },
+    text: {
+      en: 'No new public build containing Day 3 has been announced.',
+      zh: '目前尚未公布包含 Day 3 的新公开版本。',
+    },
+  },
+] as const;
+
+export function generateMetadata({ params: { locale } }: Props) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus Day 3：发布日期、进度与更新' : 'The Freak Circus Day 3: Release Status & Updates',
-    description: zh ? '关注 The Freak Circus Day 3 的开发状态、章节进度、近期更新，以及玩家可以期待的下一章内容。' : 'Follow The Freak Circus Day 3 development status, chapter progress, recent updates, and what players can expect from the next chapter.',
+    title: zh
+      ? 'The Freak Circus Day 3：发布日期与最新更新'
+      : 'The Freak Circus Day 3: Release Date & Updates',
+    description: zh
+      ? '查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。'
+      : 'Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/day-3`,
   });
 }
 
-export default function DayThreePage({ params: { locale } }: { params: { locale: string } }) {
+export default function DayThreePage({ params: { locale } }: Props) {
   const zh = editorialLocale(locale) === 'zh';
   const p = locale === 'en' ? '' : `/${locale}`;
   const c = zh ? copyZh : copyEn;
+  const canonical = `${SITE_URL}${p}/day-3`;
+  const localeKey = zh ? 'zh' : 'en';
+
   return (
-    <main>
-      <header className="page-hero day3-hero">
-        <div className="page-container">
-          <h1>The Freak Circus Day 3</h1>
-          <p className="page-hero-lead">{c.lead}</p>
-          <div className="page-hero-actions">
-            <Link className="button-primary" href={`${p}/updates`}>{c.tracker}</Link>
-            <Link className="button-secondary" href={`${p}/wiki`}>{c.wiki}</Link>
-          </div>
-        </div>
-      </header>
+    <>
+      <SchemaMarkup
+        type="WebPage"
+        data={{
+          name: c.pageTitle,
+          description: c.metaDescription,
+          url: canonical,
+          dateModified: LAST_CHECKED,
+          isBasedOn: [DAY_3_UPDATE_URL, OFFICIAL_GAME_URL],
+          about: { '@type': 'VideoGame', name: 'The Freak Circus' },
+        }}
+      />
+      <SchemaMarkup
+        type="FAQPage"
+        data={{
+          mainEntity: c.faq.map((item) => ({
+            '@type': 'Question',
+            name: item.q,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: item.linkLabel ? `${item.a} ${item.linkLabel}` : item.a,
+            },
+          })),
+        }}
+      />
 
-      <section className="page-section page-container content-split">
-        <div className="content-stack">
-          <article className="day3-editorial">
-            <p className="section-kicker">{zh ? '从当前版本到下一章' : 'FROM THE CURRENT BUILD TO THE NEXT DAY'}</p>
-            <h2>{zh ? 'Day 3 不是已经发布的隐藏章节' : 'Day 3 is a continuation, not a hidden finished chapter'}</h2>
-            <p>{zh ? <>玩家所说的 Day 3，指的是 0.2 原型版之后的下一段故事。当前可玩的版本已经让主角遇见 <Link className="character-inline-link is-pierrot" href={`${p}/characters/pierrot`}>Pierrot</Link>，并把他与 <Link className="character-inline-link is-harlequin" href={`${p}/characters/harlequin`}>Harlequin</Link> 的竞争推到舞台中央；五位人物介绍与一个坏结局已经存在，但更完整的剧本与结局仍在制作中。</> : <>Players use “Day 3” for the story continuation after version 0.2. The playable prototype has already brought the protagonist into contact with <Link className="character-inline-link is-pierrot" href={`${p}/characters/pierrot`}>Pierrot</Link> and placed his rivalry with <Link className="character-inline-link is-harlequin" href={`${p}/characters/harlequin`}>Harlequin</Link> at the center. Five character introductions and one bad ending exist, while the broader script and endings remain in development.</>}</p>
-            <h3>{zh ? '已经完成的工作不等于发布日期' : 'Development progress is not a release date'}</h3>
-            <p>{zh ? <>写作、美术、场景编程与测试都是真实进度，但只有新的公开版本出现，玩家才真正拥有可游玩的下一章。可以通过站内 <Link href={`${p}/updates`}>Updates 时间线</Link>核对里程碑；如果消息只有截图、转述或倒计时，却没有对应的公开版本，就不应把它当成发布日期。</> : <>Writing, art, scene programming, and testing are meaningful progress, but players only have a new chapter when a new public build exists. Use the on-site <Link href={`${p}/updates`}>Updates timeline</Link> to place milestones in order. A screenshot, paraphrase, or countdown without a corresponding public build is not a release date.</>}</p>
-            <h3>{zh ? '下一章最可能改变什么' : 'What a continuation can change'}</h3>
-            <p>{zh ? <>新的故事日意味着更多对白、分支场景与角色关系可能被整合进游戏，但不能预设所有计划结局会一次完成。想区分“当前已玩到的内容”和“开发计划”，可以先看 <Link href={`${p}/wiki`}>Wiki 的版本说明</Link>；准备游玩时，则在 <Link href={`${p}/download`}>Download 页面</Link>确认平台与存档注意事项。</> : <>A new in-game day can integrate more dialogue, branch scenes, and character relationships, but it should not be read as a promise that every planned ending will arrive together. The <Link href={`${p}/wiki`}>Wiki build notes</Link> separate playable material from plans, while the <Link href={`${p}/download`}>Download page</Link> explains platforms and save precautions before a future build.</>}</p>
-          </article>
-
-          <article className="reference-card status-answer-card">
-            <p className="section-kicker">{c.answerKicker}</p>
-            <h2>{c.answerTitle}</h2>
-            <p>{c.answer}</p>
-            <p>{c.answer2}</p>
-          </article>
-
-          <article className="reference-card">
-            <h2>{c.confirmedTitle}</h2>
-            <ul>{c.confirmed.map((item) => <li key={item}>{item}</li>)}</ul>
-          </article>
-
-          <article className="reference-card">
-            <h2>{c.meaningTitle}</h2>
-            <p>{c.meaningIntro}</p>
-            <div className="day3-compare-grid">
-              <div><span>{c.isLabel}</span><h3>{c.isTitle}</h3><p>{c.isText}</p></div>
-              <div><span>{c.isNotLabel}</span><h3>{c.isNotTitle}</h3><p>{c.isNotText}</p></div>
-            </div>
-          </article>
-
-          <article className="reference-card">
-            <h2>{c.signalsTitle}</h2>
-            <p>{c.signalsText}</p>
-            <div className="signal-grid">
-              {c.signals.map((signal, index) => <div key={signal.title}><span>0{index + 1}</span><h3>{signal.title}</h3><p>{signal.text}</p></div>)}
-            </div>
-          </article>
-
-          <article className="reference-card">
-            <h2>{c.prepareTitle}</h2>
-            <ol className="numbered-checklist">
-              {c.prepare.map((item) => <li key={item}>{item}</li>)}
-            </ol>
-          </article>
-
-          <article className="reference-card">
-            <h2>{c.faqTitle}</h2>
-            <div className="faq-grid">
-              {c.faq.map((item) => <div className="faq-item" key={item.q}><h3>{item.q}</h3><p>{item.a}</p></div>)}
-            </div>
-          </article>
-        </div>
-
-        <aside className="content-stack day3-sidebar">
-          <div className="reference-card">
-            <p className="section-kicker">{c.snapshot}</p>
-            <table className="fact-table"><tbody>
-              <tr><th>DAY 3</th><td>{c.notReleased}</td></tr>
-              <tr><th>{c.dateLabel}</th><td>{c.noDate}</td></tr>
-              <tr><th>{c.currentLabel}</th><td>0.2 · Prototype</td></tr>
-              <tr><th>{c.reviewedLabel}</th><td>2026-08-15</td></tr>
-            </tbody></table>
-          </div>
-          <div className="reference-card">
-            <h2>{c.ruleTitle}</h2>
-            <p>{c.ruleText}</p>
-          </div>
-          <div className="reference-card">
-            <h2>{c.nextTitle}</h2>
-            <div className="blog-related-list">
-              <Link href={`${p}/updates`}><span>{c.tracker}</span><small>→</small></Link>
-              <Link href={`${p}/blog/day-3-rumor-checklist`}><span>{c.rumorArticle}</span><small>→</small></Link>
-              <Link href={`${p}/download`}><span>{c.download}</span><small>→</small></Link>
+      <main>
+        <header className="page-hero day3-hero">
+          <div className="page-container">
+            <h1>{c.pageTitle}</h1>
+            <p className="page-hero-lead">{c.lead}</p>
+            <p className="day3-checked">{c.lastChecked}: <time dateTime={LAST_CHECKED}>{c.lastCheckedDisplay}</time></p>
+            <div className="page-hero-actions">
+              <a className="button-primary" href="#latest-update">{c.latestCta}</a>
+              <a className="button-secondary" href="#timeline">{c.timelineCta}</a>
             </div>
           </div>
-        </aside>
-      </section>
-    </main>
+        </header>
+
+        <section className="page-section page-container content-split">
+          <div className="content-stack">
+            <article className="reference-card day3-latest-card" id="latest-update">
+              <p className="section-kicker">{c.officialUpdate}</p>
+              <h2>{c.latestTitle}</h2>
+              <h3>{c.weeklyTitle}</h3>
+              <p>{c.latestIntro}</p>
+              <ul className="day3-update-list">
+                {c.latestPoints.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </article>
+
+            <article className="reference-card" id="timeline">
+              <h2>{c.timelineTitle}</h2>
+              <p>{c.timelineIntro}</p>
+              <div className="day3-timeline">
+                {day3Updates.map((update, index) => (
+                  <div className="day3-timeline-item" key={`${update.title.en}-${index}`}>
+                    <div className="day3-timeline-marker" aria-hidden="true" />
+                    {update.dateTime
+                      ? <time dateTime={update.dateTime}>{update.period[localeKey]}</time>
+                      : <span className="day3-timeline-period">{update.period[localeKey]}</span>}
+                    <h3>{update.title[localeKey]}</h3>
+                    <p>{update.text[localeKey]}</p>
+                  </div>
+                ))}
+              </div>
+            </article>
+
+            <article className="reference-card" id="current-version">
+              <p className="section-kicker">VERSION 0.2 · PROTOTYPE</p>
+              <h2>{c.currentVersionTitle}</h2>
+              <ul>{c.currentVersionPoints.map((item) => <li key={item}>{item}</li>)}</ul>
+            </article>
+
+            <article className="reference-card day3-release-note">
+              <h2>{c.releaseNoteTitle}</h2>
+              <p>{c.releaseNoteText}</p>
+            </article>
+
+            <article className="reference-card" id="faq">
+              <h2>{c.faqTitle}</h2>
+              <div className="faq-grid day3-faq-grid">
+                {c.faq.map((item) => (
+                  <div className="faq-item" key={item.q}>
+                    <h3>{item.q}</h3>
+                    <p>
+                      {item.a}
+                      {item.linkLabel && <> <a href="#latest-update">{item.linkLabel}</a></>}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </article>
+
+          </div>
+
+          <aside className="content-stack day3-sidebar">
+            <div className="reference-card">
+              <p className="section-kicker">{c.snapshot}</p>
+              <table className="fact-table"><tbody>
+                <tr><th>DAY 3</th><td>{c.inDevelopment}</td></tr>
+                <tr><th>{c.releaseDateLabel}</th><td>{c.notAnnounced}</td></tr>
+                <tr><th>{c.currentBuildLabel}</th><td>Version 0.2 · Prototype</td></tr>
+                <tr><th>{c.lastCheckedLabel}</th><td>{LAST_CHECKED}</td></tr>
+              </tbody></table>
+            </div>
+            <div className="reference-card day3-sidebar-update">
+              <p className="section-kicker">{c.latestUpdateLabel}</p>
+              <h2>{c.sidebarUpdateTitle}</h2>
+              <p>{c.sidebarUpdateText}</p>
+              <a className="text-link" href="#latest-update">{c.latestCta} →</a>
+            </div>
+            <div className="reference-card">
+              <h2>{c.continueTitle}</h2>
+              <div className="blog-related-list">
+                <Link href={`${p}/updates`}><span>{c.updatesLink}</span><small>→</small></Link>
+                <Link href={`${p}/wiki`}><span>{c.wikiLink}</span><small>→</small></Link>
+                <Link href={`${p}/download`}><span>{c.downloadLink}</span><small>→</small></Link>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </>
   );
 }
 
 const copyEn = {
-  lead: 'A practical status hub for the next in-game day: what exists now, what remains uncertain, and how to prepare without turning development notes into promises.',
-  tracker: 'Read the update timeline', wiki: 'Open the Wiki', answerKicker: 'THE ANSWER IN ONE LINE',
-  answerTitle: 'Day 3 is in development and has no published release date',
-  answer: 'Version 0.2 remains the current public prototype. It contains the established opening, five character introductions, and one bad ending; the next in-game day is not yet part of a finished public release.',
-  answer2: 'Development can move through writing, programming, artwork, and testing without producing a reliable launch date. This page will not convert those milestones into a countdown.',
-  confirmedTitle: 'What the current build confirms',
-  confirmed: ['Version 0.2 is the current public build.', 'All five character introductions are described as complete.', 'One bad ending is available in the prototype.', 'Pierrot, Harlequin, protagonist, and shared conclusions are planned rather than complete.', 'The story is intended to continue for another in-game day.'],
-  meaningTitle: 'What “Day 3” means here', meaningIntro: 'Players use the phrase as shorthand for the next continuation. The label is helpful, but it can blur the line between a work-in-progress scene and a released chapter.',
-  isLabel: 'USEFUL MEANING', isTitle: 'The next story continuation', isText: 'New dialogue, scenes, art, and branching work that extends the current prototype.',
-  isNotLabel: 'DO NOT ASSUME', isNotTitle: 'A finished route pack', isNotText: 'It is not evidence that every romance route or planned ending will arrive at the same time.',
-  signalsTitle: 'How to read development signals', signalsText: 'Progress is real, but each signal answers a different question. Use this three-part check before repeating a claim.',
-  signals: [
-    { title: 'Creation', text: 'Writing, sprites, backgrounds, and dialogue programming show that new material is being made.' },
-    { title: 'Integration', text: 'Scene implementation and route testing show that separate assets are becoming a playable sequence.' },
-    { title: 'Release', text: 'Only a dated public build turns development work into something players can download or run.' },
+  pageTitle: 'The Freak Circus Day 3 – Release Date & Latest Updates',
+  metaDescription: 'Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.',
+  lead: 'The Freak Circus Day 3 has not been released yet. The next in-game day is still in active development, Version 0.2 remains the current public prototype, and no official release date has been announced.',
+  lastChecked: 'Last checked', lastCheckedDisplay: 'August 23, 2026', latestCta: 'Read latest update', timelineCta: 'View development timeline',
+  officialUpdate: 'OFFICIAL DEVELOPMENT UPDATE', latestTitle: 'Latest Day 3 Development Update', weeklyTitle: 'Weekly Update – Day 3',
+  latestIntro: 'Day 3 remains in active development. The latest developer update says dialogue programming is continuing while new visual assets are being planned and revised.',
+  latestPoints: [
+    'Dialogue programming is still underway.',
+    'The developer is reviewing which new assets are required.',
+    'At least two new artworks are currently expected.',
+    'Some backgrounds need revisions.',
+    'Later scenes may require additional character sprites.',
+    'Dialogue and scenes shown during development may still change.',
+    'No official release date has been announced.',
   ],
-  prepareTitle: 'Prepare your current playthrough', prepare: ['Keep one untouched save from your first playthrough.', 'Name experimental saves by scene and version.', 'Record whether you played in a browser or a downloaded build.', 'Read the next build notes before reusing an old choice guide.'],
-  faqTitle: 'Day 3 questions', faq: [
-    { q: 'Is there a confirmed date?', a: 'No. An exact date or countdown should be treated as speculation until a public release is announced.' },
-    { q: 'Is the current story complete?', a: 'No. The public build is a prototype and says the rest of the script and endings are still being developed.' },
-    { q: 'Will every character get an ending?', a: 'The current plan names Pierrot, Harlequin, protagonist, and shared endings. Other route claims are not confirmed here.' },
-    { q: 'Will old saves work?', a: 'That cannot be guaranteed before a new build ships. Back up local saves and keep your current version noted.' },
+  timelineTitle: 'Day 3 Development Timeline', timelineIntro: 'A concise record of confirmed Day 3 work. New official milestones can be added here as development continues.',
+  currentVersionTitle: 'Current Version',
+  currentVersionPoints: [
+    'Version 0.2 remains the current public build.',
+    'Five character introductions are available.',
+    'One bad ending is currently playable.',
+    'The next in-game day remains in development.',
   ],
-  snapshot: 'STATUS SNAPSHOT', notReleased: 'In development', dateLabel: 'DATE', noDate: 'Not announced', currentLabel: 'CURRENT', reviewedLabel: 'REVIEWED',
-  ruleTitle: 'The simple verification rule', ruleText: 'A progress post describes work. A release notice names a playable build. Do not treat them as the same thing.',
-  nextTitle: 'Continue on this site', rumorArticle: 'Release-rumor checklist', download: 'Download guide',
+  releaseNoteTitle: 'Development Update ≠ Release Announcement',
+  releaseNoteText: 'Writing, artwork, sprites, or programming updates confirm that development is active, but they do not mean Day 3 has been released. Day 3 should only be treated as released when a new public build becomes available.',
+  faqTitle: 'The Freak Circus Day 3 FAQ',
+  faq: [
+    { q: 'Is The Freak Circus Day 3 out?', a: 'No. Day 3 is still in development and there is currently no public Day 3 build.' },
+    { q: 'When will The Freak Circus Day 3 release?', a: 'No official release date has been announced. Development updates confirm ongoing work, but they should not be treated as a release schedule.' },
+    { q: 'What is the latest Day 3 update?', a: 'Recent developer updates indicate continued dialogue programming, new artwork planning, background revisions, and possible additional character sprite work.', linkLabel: 'Read the latest development update.' },
+    { q: 'What is the current version of The Freak Circus?', a: 'Version 0.2 remains the current public prototype.' },
+    { q: 'Can I download The Freak Circus Day 3?', a: 'There is currently no separate public Day 3 download. This page will only link to an official public build when one actually exists.' },
+    { q: 'Is Day 3 still being developed?', a: 'Yes. Recent official development updates show that work on the next in-game day is continuing.' },
+  ],
+  updatesLink: 'Updates timeline', wikiLink: 'Version 0.2 Wiki', downloadLink: 'Official download guide',
+  snapshot: 'STATUS SNAPSHOT', inDevelopment: 'In Development', releaseDateLabel: 'RELEASE DATE', notAnnounced: 'Not Announced', currentBuildLabel: 'CURRENT BUILD', lastCheckedLabel: 'LAST CHECKED',
+  latestUpdateLabel: 'LATEST UPDATE', sidebarUpdateTitle: 'Day 3 development continues', sidebarUpdateText: 'Dialogue programming, new artwork, background revisions, and additional sprite work are part of the ongoing development.', continueTitle: 'Continue on this site',
 };
 
 const copyZh: typeof copyEn = {
-  lead: '围绕下一个游戏日整理的实用状态页：现在有什么、哪些仍不确定，以及如何在不把开发记录当成承诺的前提下做好准备。',
-  tracker: '查看站内更新记录', wiki: '打开 Wiki', answerKicker: '一句话结论',
-  answerTitle: 'Day 3 正在开发，但目前没有发布日期',
-  answer: '0.2 仍是当前公开原型版，包含已经建立的开场、五位角色介绍和一个坏结局；下一个游戏日尚未成为完整公开版本的一部分。',
-  answer2: '开发会经历写作、编程、美术和测试等阶段，但这些里程碑无法自动推导出可靠日期。本站不会把它们改写成倒计时。',
-  confirmedTitle: '当前版本能够确认什么',
-  confirmed: ['0.2 是当前公开版本。', '五位角色介绍已经完成。', '原型版包含一个坏结局。', 'Pierrot、Harlequin、主角与共同结局属于计划内容，并非已完成。', '故事计划继续推进一个游戏日。'],
-  meaningTitle: '这里所说的“Day 3”是什么', meaningIntro: '玩家常用这个词指代下一段剧情，但方便的简称也容易把制作中的场景与已发布章节混在一起。',
-  isLabel: '合理理解', isTitle: '下一段剧情延续', isText: '通过新对白、场景、美术与分支工作，把当前原型版继续向前推进。',
-  isNotLabel: '不要预设', isNotTitle: '一次完成所有路线', isNotText: '它不能证明每条恋爱路线或所有计划结局会在同一版本中上线。',
-  signalsTitle: '怎样理解开发信号', signalsText: '进度是真实的，但不同信号回答的问题不同。传播消息前，可以按下面三层判断。',
-  signals: [
-    { title: '创作', text: '剧本、立绘、背景和对白编程说明新内容正在被制作。' },
-    { title: '整合', text: '场景实现与路线测试说明独立素材正在变成可游玩的流程。' },
-    { title: '发布', text: '只有带日期的公开版本，才意味着玩家真正可以下载或运行。' },
+  pageTitle: 'The Freak Circus Day 3——发布日期与最新更新',
+  metaDescription: '查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。',
+  lead: 'The Freak Circus Day 3 尚未发布。下一个游戏日仍在积极开发中，Version 0.2 仍是当前公开原型版，官方尚未公布发布日期。',
+  lastChecked: '最后核验', lastCheckedDisplay: '2026年8月23日', latestCta: '查看最新更新', timelineCta: '查看开发时间线',
+  officialUpdate: '官方开发更新', latestTitle: 'Day 3 最新开发进度', weeklyTitle: 'Weekly Update – Day 3',
+  latestIntro: 'Day 3 仍在积极开发中。最新开发者更新显示，对白编程仍在继续，同时新的视觉素材也在规划和修改。',
+  latestPoints: [
+    '对白编程仍在进行。',
+    '开发者正在确认还需要哪些新素材。',
+    '目前预计至少还需要两张新的美术作品。',
+    '部分背景需要修改。',
+    '后续场景可能需要更多角色立绘。',
+    '开发期间展示的对白与场景仍可能继续调整。',
+    '官方尚未公布发布日期。',
   ],
-  prepareTitle: '为当前存档做好准备', prepare: ['保留一个未改动的首次游玩存档。', '用场景名和版本号命名测试存档。', '记录自己使用的是浏览器版还是下载版。', '新版本上线后先看变更说明，再使用旧选项指南。'],
-  faqTitle: 'Day 3 常见问题', faq: [
-    { q: '有确认日期吗？', a: '没有。在公开发布被确认前，具体日期或倒计时都应视为推测。' },
-    { q: '当前故事已经完整了吗？', a: '没有。公开版本仍是原型版，其余剧本与结局仍在开发。' },
-    { q: '每个角色都会有结局吗？', a: '当前计划点名 Pierrot、Harlequin、主角与共同结局；本站不确认其它路线说法。' },
-    { q: '旧存档一定兼容吗？', a: '新版本发布前无法保证。请备份本地存档，并记录当前版本。' },
+  timelineTitle: 'Day 3 开发时间线', timelineIntro: '这里简要记录已确认的 Day 3 开发工作，后续有新的官方里程碑时可继续添加。',
+  currentVersionTitle: '当前版本',
+  currentVersionPoints: [
+    'Version 0.2 仍是当前公开版本。',
+    '目前可以体验五位角色的介绍。',
+    '当前可以游玩一个坏结局。',
+    '下一个游戏日仍在开发中。',
   ],
-  snapshot: '状态速览', notReleased: '正在开发', dateLabel: '日期', noDate: '尚未公布', currentLabel: '当前版本', reviewedLabel: '核验日期',
-  ruleTitle: '最简单的判断规则', ruleText: '进度记录描述正在做什么；发布通知会给出可玩的版本。不要把两者当作同一件事。',
-  nextTitle: '继续浏览站内内容', rumorArticle: '发布日期传言核对清单', download: '下载指南',
+  releaseNoteTitle: '开发更新 ≠ 发布公告',
+  releaseNoteText: '剧本、美术、立绘或编程更新能够确认开发仍在继续，但不代表 Day 3 已经发布。只有新的公开版本实际上线后，才应把 Day 3 视为已发布。',
+  faqTitle: 'The Freak Circus Day 3 常见问题',
+  faq: [
+    { q: 'The Freak Circus Day 3 已经发布了吗？', a: '没有。Day 3 仍在开发中，目前没有公开的 Day 3 版本。' },
+    { q: 'The Freak Circus Day 3 什么时候发布？', a: '官方尚未公布发布日期。开发更新可以确认工作仍在继续，但不应被当作发布日程。' },
+    { q: 'Day 3 最近有什么更新？', a: '近期开发者更新提到了继续进行对白编程、规划新美术、修改背景，以及后续可能需要补充角色立绘。', linkLabel: '查看最新开发更新。' },
+    { q: 'The Freak Circus 当前是什么版本？', a: 'Version 0.2 仍是当前公开原型版。' },
+    { q: '可以下载 The Freak Circus Day 3 吗？', a: '目前没有单独公开的 Day 3 下载。只有官方公开版本实际存在时，本页才会提供对应链接。' },
+    { q: 'Day 3 还在开发吗？', a: '是的。近期官方开发更新显示，下一个游戏日的制作仍在继续。' },
+  ],
+  updatesLink: '站内更新记录', wikiLink: 'Version 0.2 Wiki', downloadLink: '官方下载指南',
+  snapshot: '状态速览', inDevelopment: '正在开发', releaseDateLabel: '发布日期', notAnnounced: '尚未公布', currentBuildLabel: '当前版本', lastCheckedLabel: '最后核验',
+  latestUpdateLabel: '最新更新', sidebarUpdateTitle: 'Day 3 开发仍在继续', sidebarUpdateText: '对白编程、新美术、背景修改和额外立绘工作仍属于当前开发内容。', continueTitle: '继续浏览站内内容',
 };

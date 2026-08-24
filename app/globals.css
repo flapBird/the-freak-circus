@@ -439,12 +439,6 @@ button:focus-visible,
 .character-reading span { color: #fff; font: 800 1.1rem ui-sans-serif, system-ui, sans-serif; }
 .character-reading small { align-self: end; color: var(--color-gold); line-height: 1.35; }
 
-.day3-editorial { padding: clamp(.4rem, 2vw, 1rem) clamp(.2rem, 2vw, .8rem) 2rem; }
-.day3-editorial h2 { max-width: 720px; margin-top: .7rem; color: #fff; font: 800 clamp(1.65rem, 3vw, 2.35rem) ui-sans-serif, system-ui, sans-serif; line-height: 1.2; }
-.day3-editorial h3 { margin-top: 2.2rem; color: var(--color-gold); font: 800 1.28rem ui-sans-serif, system-ui, sans-serif; }
-.day3-editorial p { margin-top: .9rem; color: #d4cad7; font-size: 1.12rem; line-height: 1.82; }
-.day3-editorial a:not(.character-inline-link) { color: var(--color-gold); font-weight: 800; text-decoration: none; }
-
 .text-page { padding-top: 4.5rem; }
 .longform-copy { max-width: 820px; margin-inline: auto; }
 .longform-copy h2 { margin-top: 3.1rem; color: #fff; font: 800 clamp(1.45rem, 2.5vw, 1.9rem) ui-sans-serif, system-ui, sans-serif; letter-spacing: -.02em; }
@@ -627,11 +621,25 @@ button:focus-visible,
 .wiki-continue-links a:hover { color: var(--color-gold); }
 
 /* Day 3 and download information pages */
-.status-answer-card { background: radial-gradient(circle at 100% 0, rgba(232,90,145,.13), transparent 38%), var(--color-card); }
-.day3-compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: 1.2rem; }
-.day3-compare-grid > div { padding: 1.2rem; border: 1px solid var(--color-border); border-radius: 13px; background: rgba(255,255,255,.025); }
-.day3-compare-grid span { color: var(--color-violet); font: 700 .72rem 'Courier Prime', monospace; letter-spacing: .1em; }
-.day3-compare-grid h3 { margin-top: .55rem; color: #fff; font: 700 1.22rem ui-sans-serif, system-ui, sans-serif; }
+.day3-checked { margin-top: .8rem; color: #a89dad; font: 700 .78rem 'Courier Prime', monospace; letter-spacing: .04em; text-transform: uppercase; }
+.day3-checked time { color: var(--color-gold); }
+.day3-latest-card, #timeline { scroll-margin-top: 96px; }
+.day3-latest-card { background: radial-gradient(circle at 100% 0, rgba(232,90,145,.13), transparent 38%), var(--color-card); }
+.day3-latest-card h3 { margin-top: 1.15rem; color: #fff; font-size: 1.25rem; }
+.day3-update-list { display: grid; gap: .15rem; }
+.day3-update-list li::marker { color: var(--color-gold); }
+.day3-timeline { display: grid; margin-top: 1.4rem; }
+.day3-timeline-item { position: relative; padding: 0 0 1.55rem 2rem; border-left: 1px solid rgba(154,103,255,.38); }
+.day3-timeline-item:last-child { padding-bottom: 0; border-left-color: transparent; }
+.day3-timeline-marker { position: absolute; top: .22rem; left: -6px; width: 11px; height: 11px; border: 2px solid #211628; border-radius: 50%; background: linear-gradient(135deg, var(--color-gold), var(--color-rose)); box-shadow: 0 0 0 3px rgba(154,103,255,.12); }
+.day3-timeline time, .day3-timeline-period { color: var(--color-violet); font: 700 .75rem 'Courier Prime', monospace; letter-spacing: .08em; text-transform: uppercase; }
+.day3-timeline h3 { margin-top: .38rem; color: #fff; font: 750 1.16rem ui-sans-serif, system-ui, sans-serif; }
+.day3-timeline p { margin-top: .42rem; font-size: 1rem; line-height: 1.58; }
+.day3-release-note { border-color: rgba(240,197,107,.24); background: linear-gradient(145deg, rgba(240,197,107,.055), rgba(154,103,255,.035)), var(--color-card); }
+.day3-faq-grid { margin-top: 1.2rem; }
+.day3-faq-grid .faq-item h3 { margin-top: 0; color: #fff; font-size: 1.12rem; }
+.day3-faq-grid .faq-item p { margin-top: 0; padding-top: .75rem; font-size: 1rem; }
+.day3-sidebar-update .text-link { display: inline-block; margin-top: 1rem; font-weight: 800; }
 .signal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; margin-top: 1.2rem; }
 .signal-grid > div { padding: 1.15rem; border: 1px solid var(--color-border); border-radius: 13px; background: rgba(255,255,255,.025); }
 .signal-grid > div > span { color: var(--color-gold); font: 700 .74rem 'Courier Prime', monospace; }
@@ -738,7 +746,7 @@ button:focus-visible,
   .home-hero-content { padding-block: 3rem 3.5rem; }
   .home-hero h1 { font-size: clamp(3rem, 14vw, 4.35rem); }
   .home-hero-lead { font-size: 1.02rem; line-height: 1.65; }
-  .entry-grid, .game-preview-grid, .update-grid, .faq-grid, .character-grid-home, .link-grid, .game-feature-grid, .how-to-play-grid, .player-review-grid, .blog-card-grid, .blog-article-sidebar, .day3-compare-grid, .signal-grid, .download-option-grid { grid-template-columns: 1fr; }
+  .entry-grid, .game-preview-grid, .update-grid, .faq-grid, .character-grid-home, .link-grid, .game-feature-grid, .how-to-play-grid, .player-review-grid, .blog-card-grid, .blog-article-sidebar, .signal-grid, .download-option-grid { grid-template-columns: 1fr; }
   .catalog-game-grid, .catalog-related-grid, .catalog-feature-grid, .catalog-screenshot-grid, .catalog-game-sidebar { grid-template-columns: 1fr; }
   .catalog-game-detail-page { padding-block: 1.3rem 4rem; }
   .catalog-game-player { aspect-ratio: 4 / 3 !important; }

@@ -1,5 +1,5 @@
 type Props = {
-  type: 'WebSite' | 'WebPage' | 'Article' | 'VideoGame';
+  type: 'WebSite' | 'WebPage' | 'Article' | 'VideoGame' | 'FAQPage';
   data: Record<string, unknown>;
 };
 

@@ -1,6 +1,7 @@
 export const OFFICIAL_GAME_URL = 'https://garula.itch.io/the-freak-circus';
 export const OFFICIAL_DEVLOG_URL = `${OFFICIAL_GAME_URL}/devlog`;
 export const OFFICIAL_TUMBLR_URL = 'https://freakcircusofhorrors.tumblr.com/';
+export const DAY_3_UPDATE_URL = 'https://www.tumblr.com/freakcircusofhorrors/825607753064169472/weekly-update-day-3';
 
 export type SupportedEditorialLocale = 'en' | 'zh';
 
