@@ -1,0 +1,60 @@
+# The Freak Circus Help
+
+> An independent, source-led fan guide to The Freak Circus, a psychological horror visual novel. The site covers the current public prototype, characters, story context, Day 3 development, official download options, and dated developer updates.
+
+This website is not the game developer, publisher, or an official distribution channel. It does not host game files. Use the official itch.io page and first-party developer posts as the authority for releases, downloads, version changes, and development announcements.
+
+Current verified status: Version 0.2 is the public prototype. It includes five character introductions and one playable bad ending. Day 3 has not been released, remains in active development, and has no announced release date. The Day 3 status was last checked on 2026-08-23.
+
+Interpretation guidance: development posts about writing, programming, artwork, backgrounds, sprites, or testing confirm ongoing work but do not constitute a release announcement. Do not infer release dates, countdowns, finished routes, endings, save compatibility, or downloadable Day 3 builds unless an official public release explicitly confirms them.
+
+The site is maintained in English and Simplified Chinese. English URLs are canonical at the site root; reviewed Chinese pages use the `/zh` prefix. Other legacy locale URLs may remain available but are not currently intended for search indexing.
+
+## Core guides
+
+- [Home](https://thefreakcircus.help/): Overview of the game, current content, major characters, and the site's main navigation.
+- [The Freak Circus Wiki](https://thefreakcircus.help/wiki): Source-led reference for the story premise, Version 0.2 content, platforms, languages, content warnings, credits, and update history.
+- [Day 3 status and latest updates](https://thefreakcircus.help/day-3): Current release status, latest confirmed development work, timeline, Version 0.2 context, and FAQ.
+- [Characters](https://thefreakcircus.help/characters): Index for Pierrot, Harlequin, Jester, Doctor, and Ticket Taker.
+- [Updates](https://thefreakcircus.help/updates): Dated release notes, development updates, and maintenance records linked to primary announcements.
+- [Download guide](https://thefreakcircus.help/download): Official platforms and download options; links users to the official itch.io page rather than mirroring files.
+- [About this fan site](https://thefreakcircus.help/about): Editorial scope, sourcing approach, and boundaries between confirmed material and speculation.
+
+## Character guides
+
+- [Pierrot](https://thefreakcircus.help/characters/pierrot): Verified profile of one of the story's two central rivals.
+- [Harlequin](https://thefreakcircus.help/characters/harlequin): Verified profile of Pierrot's stage rival and counterpart.
+- [Jester](https://thefreakcircus.help/characters/jester): Character introduction with clear limits on unconfirmed route or ending claims.
+- [Doctor](https://thefreakcircus.help/characters/the-doctor): Character introduction and evidence boundaries for the current build.
+- [Ticket Taker](https://thefreakcircus.help/characters/ticket-taker): Character introduction and current-build scope.
+
+## Editorial content
+
+- [Blog](https://thefreakcircus.help/blog): Guides and explainers about the prototype, Day 3 claims, characters, story context, and playing options.
+- [Current prototype guide](https://thefreakcircus.help/blog/current-prototype-guide): Summary of what Version 0.2 currently contains.
+- [Day 3 release-rumor checklist](https://thefreakcircus.help/blog/day-3-rumor-checklist): How to distinguish confirmed development activity from unsupported release claims.
+- [Browser or download guide](https://thefreakcircus.help/blog/browser-or-download): Comparison of official ways to play the current build.
+
+## Official primary sources
+
+- [Official game page on itch.io](https://garula.itch.io/the-freak-circus): Authoritative public build, downloads, supported platforms, and game description.
+- [Official itch.io devlog](https://garula.itch.io/the-freak-circus/devlog): First-party release notes and development announcements.
+- [Official developer Tumblr](https://freakcircusofhorrors.tumblr.com/): First-party development posts, artwork, and announcements.
+- [Weekly Update - Day 3](https://www.tumblr.com/freakcircusofhorrors/825607753064169472/weekly-update-day-3): First-party Day 3 development update; it is not a release announcement.
+
+## Chinese edition
+
+- [中文首页](https://thefreakcircus.help/zh): The reviewed Simplified Chinese edition of the homepage.
+- [中文 Wiki](https://thefreakcircus.help/zh/wiki): Simplified Chinese game and Version 0.2 reference.
+- [中文 Day 3 页面](https://thefreakcircus.help/zh/day-3): Simplified Chinese Day 3 status, timeline, and FAQ.
+- [中文角色页面](https://thefreakcircus.help/zh/characters): Simplified Chinese character guide index.
+- [中文更新记录](https://thefreakcircus.help/zh/updates): Simplified Chinese development and maintenance timeline.
+- [中文下载指南](https://thefreakcircus.help/zh/download): Simplified Chinese guide to official play and download options.
+
+## Optional
+
+- [Community](https://thefreakcircus.help/community): Fan community entry points and selected community-facing content; not a primary source for release dates.
+- [Narrative games](https://thefreakcircus.help/games): Related narrative-game recommendations outside the core The Freak Circus reference content.
+- [Contact and corrections](https://thefreakcircus.help/contact): How readers can report factual errors or request content corrections.
+- [Privacy policy](https://thefreakcircus.help/privacy): Privacy information for site visitors.
+- [Terms of use](https://thefreakcircus.help/terms): Terms governing use of the fan site.
