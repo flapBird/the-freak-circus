@@ -1,136 +1,208 @@
 # The Freak Circus — Unofficial Fan Site
 
-> [https://thefreakcircus.help/](https://thefreakcircus.help/) — A comprehensive fan resource for *The Freak Circus* psychological horror visual novel by Garula (Neko Bueno).
+An independent, multilingual fan resource for *The Freak Circus*, the psychological-horror visual novel by Garula (Neko Bueno).
 
----
+**Live site:** [thefreakcircus.help](https://thefreakcircus.help/)
 
-## About
+![The Freak Circus cover artwork](public/the-freak-circus-cover.jpg)
 
-This is an unofficial fan website dedicated to *The Freak Circus*, a dark visual novel with branching narratives, gothic artwork, and morally complex characters. The site provides:
+> [!IMPORTANT]
+> This project is not affiliated with, endorsed by, or operated by Garula or itch.io. It does not repackage or distribute the game. Game downloads and developer-supported access should come from the official itch.io page.
 
-- **Optional in-browser player** — A third-party embedded player is available; it is not represented as an official Garula or itch.io service. Use the official itch.io page for developer-supported access and downloads.
-- **Character guides** — Detailed profiles for all 6 characters with route tips, traits, and personality breakdowns
-- **Walkthroughs** — Day-by-day guides covering all choice points and endings
-- **Wiki & Lore** — Setting background, glossary of terms, developer credits, and update timeline
-- **Multi-language support** — Available in English, Portuguese, Filipino, Vietnamese, Spanish, Indonesian, and Chinese (Simplified)
-- **Community** — Fan art showcase, official links, and community resources
-- **News** — Development updates and version release notes
+## What the site includes
 
----
+- Version-aware character profiles for Pierrot, Harlequin, Jester, Doctor, and Ticket Taker
+- A browser player that loads the hosted HTML5 build only after user interaction
+- Editorial pages for the current prototype, Day 3 status, downloads, lore, and development updates
+- An article library with build explainers, player guides, and rumor checks
+- A curated community feed with source and attribution fields
+- A related-games catalog with an allowlisted iframe player
+- Seven locale routes: English, Portuguese, Filipino, Vietnamese, Spanish, Indonesian, and Simplified Chinese
+- SEO metadata, canonical and `hreflang` links, JSON-LD, robots rules, and a dynamic XML sitemap
 
-## Tech Stack
+## Tech stack
 
-| Category | Technology |
-|---|---|
-| Framework | [Next.js 14](https://nextjs.org/) (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS 3 |
-| Fonts | Cinzel Decorative (headings), Crimson Text (body) |
-| Icons | Lucide React |
-| Geolocation | geoip-lite for IP-based language detection |
-| Deployment | Vercel |
+| Area | Technology |
+| --- | --- |
+| Framework | Next.js 14 App Router |
+| UI | React 18 + TypeScript |
+| Styling | Tailwind CSS 3 + global CSS |
+| Content | TypeScript data modules + JSON locale files |
+| Images | `next/image`, local assets, and an allowlisted remote CDN |
+| Analytics | Optional Google Analytics 4 in Vercel production |
+| Hosting | Vercel-ready |
 
-## Project Structure
+## Getting started
 
-```
-├── app/
-│   ├── layout.tsx              # Root layout (fonts, analytics, SchemaMarkup)
-│   ├── sitemap.ts              # Dynamic sitemap generation
-│   ├── robots.ts               # Robots.txt with AI crawler blocking
-│   ├── page.tsx                # Root / — locale detection + redirect
-│   ├── [locale]/
-│   │   ├── layout.tsx          # Locale layout (Header + content + Footer)
-│   │   ├── page.tsx            # Home page with game embed
-│   │   ├── about/              # About the game & FAQ
-│   │   ├── characters/         # Character cards list
-│   │   │   └── [slug]/         # Individual character detail pages
-│   │   ├── walkthrough/        # Walkthrough hub
-│   │   │   ├── day-1/          # Day 1 guide
-│   │   │   ├── day-2/          # Day 2 guide
-│   │   │   └── day-3/          # Day 3 (coming soon)
-│   │   ├── wiki/               # Lore, glossary, credits, timeline
-│   │   ├── community/          # Fan art & community links
-│   │   ├── news/               # Development updates
-│   │   ├── blog/               # Blog posts
-│   │   │   └── [slug]/         # Individual blog post
-│   │   ├── contact/            # Contact page
-│   │   ├── privacy/            # Privacy policy
-│   │   └── terms/              # Terms of service
-├── components/
-│   ├── Header.tsx              # Sticky navigation header
-│   ├── Footer.tsx              # Footer with legal links
-│   ├── PageShell.tsx           # Shared layout wrapper (Header + Footer)
-│   ├── HomeContent.tsx         # Home page content component
-│   ├── GameEmbed.tsx           # In-browser game iframe + Like/Reload/Fullscreen toolbar
-│   ├── SidebarLayout.tsx       # Content + Native Banner layout
-│   ├── SchemaMarkup.tsx        # JSON-LD structured data
-│   ├── LocaleSwitcher.tsx      # Language selector with country flags
-│   └── SafeImage.tsx           # Image with fallback placeholder
-├── lib/
-│   ├── messages.ts             # Static message loader (bypasses next-intl)
-│   ├── seo.ts                  # Metadata builder (title, description, OG)
-│   └── blog-posts.ts           # Blog post data
-├── messages/
-│   ├── en.json                 # English translations (complete)
-│   ├── pt.json                 # Portuguese
-│   ├── es.json                 # Spanish
-│   ├── fil.json                # Filipino
-│   ├── vi.json                 # Vietnamese
-│   ├── id.json                 # Indonesian
-│   └── zh.json                 # Chinese (Simplified)
-└── public/
-    ├── images/
-    │   ├── characters/          # Character gallery images
-    │   ├── home/                # Home page section images
-    │   └── community/           # Community fan art
-    ├── sitemap.xml              # Auto-generated static sitemap
-    ├── og-image.jpg             # Open Graph default image
-    └── the-freak-circus-cover.jpg
-```
+### Prerequisites
 
-## Key Features
+- Node.js 18.17 or newer
+- npm (the repository includes `package-lock.json`)
 
-### Multi-Language Support
-7 languages with automatic detection via IP geolocation, falling back to English. Users can switch languages via the flag selector in the header. Content translations are maintained as JSON message files under `/messages/`.
-
-
-
-### Dark Gothic Theme
-Custom Tailwind configuration with a dark circus-inspired color palette. Two serif fonts: decorative Cinzel Decorative for headings and readable Crimson Text for body copy.
-
-## Development
+### Local setup
 
 ```bash
-# Install dependencies
 npm install
-
-# Start dev server
+cp .env.example .env.local
 npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
 ```
 
-The dev server runs at `http://localhost:3000` by default.
+Open [http://localhost:3000](http://localhost:3000). The English edition is served without a locale prefix; for example, `/characters` is internally rewritten to `/en/characters`.
 
-## Images
+The environment file is optional for normal local development. If analytics is not needed, leave the example value unchanged or remove it.
 
-Place character, home page, and community images in `public/images/` following the naming conventions in `IMAGES.md`. WebP format is preferred.
+## Available scripts
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the Next.js development server |
+| `npm run build` | Create an optimized production build |
+| `npm start` | Serve the production build |
+| `npm run lint` | Run the Next.js ESLint checks |
+
+The repository does not currently track an ESLint configuration. On the first `npm run lint`, Next.js asks whether to create a Strict or Base configuration; commit the generated config before relying on the lint command in CI.
+
+At minimum, verify a production build before deploying a content or code change:
+
+```bash
+npm run build
+```
+
+## Environment variables
+
+| Variable | Required | Description |
+| --- | --- | --- |
+| `NEXT_PUBLIC_GA_ID` | No | Google Analytics 4 measurement ID, in the form `G-XXXXXXXXXX` |
+
+Analytics is loaded only when the ID is valid and Vercel sets `VERCEL_ENV=production`. It is intentionally disabled in local, preview, and non-Vercel environments.
+
+## Routing and localization
+
+All application pages live under `app/[locale]/`. Next.js rewrites expose English at clean, prefix-free URLs while other languages retain a locale prefix:
+
+| Edition | Example URL |
+| --- | --- |
+| English | `/characters/pierrot` |
+| Simplified Chinese | `/zh/characters/pierrot` |
+| Portuguese | `/pt/characters/pierrot` |
+
+The locale list is defined in `lib/seo.ts`. All seven locale routes are generated, but only the reviewed English and Simplified Chinese editions are currently indexable. Portuguese, Filipino, Vietnamese, Spanish, and Indonesian remain available to visitors and are marked `noindex` until their editorial content has been reviewed.
+
+Localization is split into two layers:
+
+- `messages/*.json` contains shared navigation and UI strings.
+- `messages/content/*.json` contains structured, locale-specific content such as news entries.
+- `lib/site-content.ts` contains source-led editorial copy and canonical external links. Editorial pages currently provide dedicated English and Chinese copy; the other routes fall back to English for this layer.
+
+When adding a locale, update the locale declarations in `lib/seo.ts`, `components/LocaleSwitcher.tsx`, both message loaders, the relevant JSON files, and the routing rules in `next.config.js`.
+
+## Project structure
+
+```text
+.
+├── app/
+│   ├── [locale]/
+│   │   ├── layout.tsx          # Locale validation, metadata, analytics, shell
+│   │   ├── page.tsx            # Home page
+│   │   ├── characters/         # Character index and detail routes
+│   │   ├── games/              # Related-games catalog and player routes
+│   │   ├── blog/               # Article index and detail routes
+│   │   ├── walkthrough/        # Source-review and day routes
+│   │   └── ...                 # Wiki, updates, download, legal, and other pages
+│   ├── robots.ts               # robots.txt metadata route
+│   ├── sitemap.xml/route.ts     # Dynamically generated XML sitemap
+│   └── globals.css              # Global design system and component styles
+├── components/
+│   ├── games/                   # Game cards and iframe player
+│   ├── GameEmbed.tsx            # Main game player
+│   ├── Header.tsx               # Navigation and locale controls
+│   ├── HomeContent.tsx          # Home-page sections
+│   ├── PageShell.tsx            # Shared header/footer shell
+│   ├── SchemaMarkup.tsx         # JSON-LD output
+│   └── ...                      # Images, ads, footer, and layout helpers
+├── data/
+│   ├── games.ts                 # Related-game catalog and embed allowlist
+│   └── community-posts.ts       # Curated community feed
+├── lib/
+│   ├── blog-posts.ts            # Localized article records
+│   ├── localized-content.ts     # Structured-content locale loader
+│   ├── messages.ts              # UI-message locale loader
+│   ├── news.ts                  # Update helpers
+│   ├── seo.ts                   # Site constants and metadata builder
+│   └── site-content.ts          # Editorial content and official source URLs
+├── messages/
+│   ├── content/                 # Structured content by locale
+│   └── *.json                   # Shared UI messages by locale
+├── public/                      # Static images, icons, ads.txt, and llms.txt
+├── types/                       # Local TypeScript declarations
+├── next.config.js               # Image policy, redirects, and rewrites
+└── tailwind.config.ts           # Theme tokens and Tailwind configuration
+```
+
+## Updating content
+
+### Character and editorial content
+
+Edit `lib/site-content.ts` for character profiles, official source URLs, and source-led English/Chinese copy. Character slugs are explicit; keep links, images, and any redirect rules synchronized when changing one.
+
+### Blog posts and updates
+
+- Add or edit articles in `lib/blog-posts.ts`.
+- Add localized update records in `messages/content/<locale>.json`.
+- Update `SITE_LAST_MODIFIED` in `app/sitemap.xml/route.ts` when a broad site revision should be reflected in the sitemap.
+
+Blog slugs are included in the sitemap automatically. Update entries are rendered as anchors on `/updates` and link back to their primary sources.
+
+### Community posts
+
+Community cards are defined in `data/community-posts.ts`. Keep the creator, platform, source URL, publication date, localized summary, image attribution, and sensitive-content flag accurate. Store approved local media under `public/images/community/`.
+
+### Related games
+
+Add a `GameRecord` to `data/games.ts` and place its cover in `public/images/games/`. Public slugs are generated from the game title.
+
+For playable browser builds, `gameResourcePath` may be either:
+
+1. A same-site path beginning with `/`, after uploading the complete HTML5 build and all referenced assets.
+2. A full URL whose origin appears in `GAME_EMBED_ORIGINS`.
+
+Unknown remote origins are rejected. Leave `gameResourcePath` empty to show the game detail page without enabling the player.
+
+### Images
+
+Follow [IMAGES.md](IMAGES.md) for the current home-page and character naming conventions.
+
+- Prefer WebP for editorial images; PNG and JPEG are also supported.
+- Keep editorial assets below 500 KB where practical.
+- Put static assets under `public/images/<section>/` and reference them from the site root, such as `/images/characters/pierrot-1.webp`.
+- Add any new external image host to `images.remotePatterns` in `next.config.js` only after reviewing the source and ownership requirements.
+
+## SEO and external services
+
+- Page metadata and canonical URLs are built through `lib/seo.ts`.
+- The sitemap is generated at request time by `app/sitemap.xml/route.ts` and cached for one hour at the edge.
+- English is the `x-default` language and uses prefix-free canonical URLs.
+- Only locales in `INDEXABLE_LOCALES` are included in `hreflang` and sitemap output.
+- Google Fonts, Google AdSense, optional GA4, game iframes, and linked third-party sources may make external requests in the browser.
+- The main game iframe is sandboxed and lazy-started. Related-game iframes are restricted to the origin allowlist in `data/games.ts`.
+
+Review the privacy page and consent requirements before adding or changing analytics, advertising, embeds, or other third-party scripts.
 
 ## Deployment
 
-Deployed on Vercel. The site uses:
-- `geoip-lite` for IP-based language detection (database copied at build time)
-- Static sitemap generation
-- Server-side language detection with cookie-based preference persistence
+The project can be deployed as a standard Next.js application on Vercel:
 
-## License
+1. Import the repository into Vercel.
+2. Keep the detected framework preset as **Next.js**.
+3. Optionally set `NEXT_PUBLIC_GA_ID` for Production only.
+4. Deploy and verify `/`, `/zh`, `/robots.txt`, and `/sitemap.xml`.
 
-This is a fan project. All game content belongs to Garula (Neko Bueno). Site code is provided as-is for educational and fan reference purposes.
+The project does not require a database or a separate content service; all content is built from files in the repository.
 
----
+## Rights and disclaimer
 
-*Built with Next.js 14 • TypeScript • Tailwind CSS • geoip-lite*
+This is a fan-maintained project. *The Freak Circus*, its characters, artwork, and other game materials belong to their respective rights holders. Community artwork remains the property of its original creators.
+
+No open-source license is currently included in this repository. Do not assume the site code or bundled media can be reused, redistributed, or relicensed without permission from the relevant owner.
+
+If you find outdated build information, an incorrect attribution, or material that should be removed, use the contact page on the live site and identify the affected URL.
