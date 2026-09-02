@@ -39,7 +39,10 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
         {posts.length > 0 ? (
           <div className="community-feed">
             {posts.map((post, index) => {
-              const hasImage = Boolean(post.image && post.imageAlt && isImagePath(post.image));
+              const media = post.images?.filter((item) => isImagePath(item.src))
+                ?? (post.image && post.imageAlt && isImagePath(post.image)
+                  ? [{ src: post.image, alt: post.imageAlt }]
+                  : []);
 
               return (
                 <article className={`community-feed-item${post.featured ? ' is-featured' : ''}`} key={`${post.id}-${index}`}>
@@ -70,15 +73,19 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
                       </div>
                     ) : null}
 
-                    {hasImage && post.image && post.imageAlt ? (
-                      <div className={`community-feed-media${post.sensitive ? ' is-sensitive' : ''}`}>
-                        <SafeImage
-                          src={post.image}
-                          alt={post.imageAlt[lang]}
-                          width={720}
-                          height={900}
-                        />
-                        {post.sensitive ? <span>{zh ? '敏感内容' : 'Sensitive content'}</span> : null}
+                    {media.length > 0 ? (
+                      <div className="community-feed-media-grid">
+                        {media.map((item, mediaIndex) => (
+                          <div className={`community-feed-media${post.sensitive ? ' is-sensitive' : ''}`} key={`${item.src}-${mediaIndex}`}>
+                            <SafeImage
+                              src={item.src}
+                              alt={item.alt[lang]}
+                              width={1283}
+                              height={721}
+                            />
+                            {post.sensitive ? <span>{zh ? '敏感内容' : 'Sensitive content'}</span> : null}
+                          </div>
+                        ))}
                       </div>
                     ) : null}
 

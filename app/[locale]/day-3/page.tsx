@@ -5,9 +5,18 @@ import { DAY_3_UPDATE_URL, editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site
 
 type Props = { params: { locale: string } };
 
-const LAST_CHECKED = '2026-08-23';
+const LAST_CHECKED = '2026-08-31';
 
 const day3Updates = [
+  {
+    dateTime: '2026-08-31',
+    period: { en: 'August 31, 2026', zh: '2026年8月31日' },
+    title: { en: 'Opening section advances and new sprites are selected', zh: '开篇制作推进，三位角色新立绘已确定' },
+    text: {
+      en: 'The developer reported good progress on the opening section while translating and programming its extensive dialogue. New sprites were selected for Harlequin, Pierrot, and Jester.',
+      zh: '开发者表示 Day 3 开篇部分进展良好，大量对白正在翻译和程序实装中；Harlequin、Pierrot 与 Jester 的新立绘已经确定。',
+    },
+  },
   {
     dateTime: '2026-08',
     period: { en: 'August 2026', zh: '2026年8月' },
@@ -207,16 +216,14 @@ const copyEn = {
   pageTitle: 'The Freak Circus Day 3 – Release Date & Latest Updates',
   metaDescription: 'Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.',
   lead: 'The Freak Circus Day 3 has not been released yet. The next in-game day is still in active development, Version 0.2 remains the current public prototype, and no official release date has been announced.',
-  lastChecked: 'Last checked', lastCheckedDisplay: 'August 23, 2026', latestCta: 'Read latest update', timelineCta: 'View development timeline',
-  officialUpdate: 'OFFICIAL DEVELOPMENT UPDATE', latestTitle: 'Latest Day 3 Development Update', weeklyTitle: 'Weekly Update – Day 3',
-  latestIntro: 'Day 3 remains in active development. The latest developer update says dialogue programming is continuing while new visual assets are being planned and revised.',
+  lastChecked: 'Last checked', lastCheckedDisplay: 'August 31, 2026', latestCta: 'Read latest update', timelineCta: 'View development timeline',
+  officialUpdate: 'OFFICIAL DEVELOPMENT UPDATE', latestTitle: 'Latest Day 3 Development Update', weeklyTitle: 'Weekly Update – Day 3 · August 31, 2026',
+  latestIntro: 'The developer focused exclusively on the store and the game this week and reported good progress on the opening section of Day 3. Its extensive dialogue is still being translated and programmed.',
   latestPoints: [
-    'Dialogue programming is still underway.',
-    'The developer is reviewing which new assets are required.',
-    'At least two new artworks are currently expected.',
-    'Some backgrounds need revisions.',
-    'Later scenes may require additional character sprites.',
-    'Dialogue and scenes shown during development may still change.',
+    'The opening section made good progress this week.',
+    'The large volume of dialogue is taking time to translate and implement.',
+    'New sprites have been selected for Harlequin, Pierrot, and Jester.',
+    'Two new café-scene screenshots were shared with the update.',
     'No official release date has been announced.',
   ],
   timelineTitle: 'Day 3 Development Timeline', timelineIntro: 'A concise record of confirmed Day 3 work. New official milestones can be added here as development continues.',
@@ -233,30 +240,28 @@ const copyEn = {
   faq: [
     { q: 'Is The Freak Circus Day 3 out?', a: 'No. Day 3 is still in development and there is currently no public Day 3 build.' },
     { q: 'When will The Freak Circus Day 3 release?', a: 'No official release date has been announced. Development updates confirm ongoing work, but they should not be treated as a release schedule.' },
-    { q: 'What is the latest Day 3 update?', a: 'Recent developer updates indicate continued dialogue programming, new artwork planning, background revisions, and possible additional character sprite work.', linkLabel: 'Read the latest development update.' },
+    { q: 'What is the latest Day 3 update?', a: 'On August 31, the developer reported good progress on the opening section, continued translation and programming of its extensive dialogue, and newly selected sprites for Harlequin, Pierrot, and Jester.', linkLabel: 'Read the latest development update.' },
     { q: 'What is the current version of The Freak Circus?', a: 'Version 0.2 remains the current public prototype.' },
     { q: 'Can I download The Freak Circus Day 3?', a: 'There is currently no separate public Day 3 download. This page will only link to an official public build when one actually exists.' },
     { q: 'Is Day 3 still being developed?', a: 'Yes. Recent official development updates show that work on the next in-game day is continuing.' },
   ],
   updatesLink: 'Updates timeline', wikiLink: 'Version 0.2 Wiki', downloadLink: 'Official download guide',
   snapshot: 'STATUS SNAPSHOT', inDevelopment: 'In Development', releaseDateLabel: 'RELEASE DATE', notAnnounced: 'Not Announced', currentBuildLabel: 'CURRENT BUILD', lastCheckedLabel: 'LAST CHECKED',
-  latestUpdateLabel: 'LATEST UPDATE', sidebarUpdateTitle: 'Day 3 development continues', sidebarUpdateText: 'Dialogue programming, new artwork, background revisions, and additional sprite work are part of the ongoing development.', continueTitle: 'Continue on this site',
+  latestUpdateLabel: 'LATEST UPDATE', sidebarUpdateTitle: 'The opening section is taking shape', sidebarUpdateText: 'Dialogue translation and programming continue, with new sprites now selected for Harlequin, Pierrot, and Jester.', continueTitle: 'Continue on this site',
 };
 
 const copyZh: typeof copyEn = {
   pageTitle: 'The Freak Circus Day 3——发布日期与最新更新',
   metaDescription: '查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。',
   lead: 'The Freak Circus Day 3 尚未发布。下一个游戏日仍在积极开发中，Version 0.2 仍是当前公开原型版，官方尚未公布发布日期。',
-  lastChecked: '最后核验', lastCheckedDisplay: '2026年8月23日', latestCta: '查看最新更新', timelineCta: '查看开发时间线',
-  officialUpdate: '官方开发更新', latestTitle: 'Day 3 最新开发进度', weeklyTitle: 'Weekly Update – Day 3',
-  latestIntro: 'Day 3 仍在积极开发中。最新开发者更新显示，对白编程仍在继续，同时新的视觉素材也在规划和修改。',
+  lastChecked: '最后核验', lastCheckedDisplay: '2026年8月31日', latestCta: '查看最新更新', timelineCta: '查看开发时间线',
+  officialUpdate: '官方开发更新', latestTitle: 'Day 3 最新开发进度', weeklyTitle: 'Weekly Update – Day 3 · 2026年8月31日',
+  latestIntro: '开发者本周集中处理商店与游戏工作，并表示 Day 3 开篇部分已取得不错进展。其中大量对白仍在翻译和程序实装中。',
   latestPoints: [
-    '对白编程仍在进行。',
-    '开发者正在确认还需要哪些新素材。',
-    '目前预计至少还需要两张新的美术作品。',
-    '部分背景需要修改。',
-    '后续场景可能需要更多角色立绘。',
-    '开发期间展示的对白与场景仍可能继续调整。',
+    '开篇部分在本周取得了良好进展。',
+    '对白量很大，翻译与程序实装仍需要时间。',
+    'Harlequin、Pierrot 与 Jester 的新立绘已经确定。',
+    '本次更新同时分享了两张咖啡店场景截图。',
     '官方尚未公布发布日期。',
   ],
   timelineTitle: 'Day 3 开发时间线', timelineIntro: '这里简要记录已确认的 Day 3 开发工作，后续有新的官方里程碑时可继续添加。',
@@ -273,12 +278,12 @@ const copyZh: typeof copyEn = {
   faq: [
     { q: 'The Freak Circus Day 3 已经发布了吗？', a: '没有。Day 3 仍在开发中，目前没有公开的 Day 3 版本。' },
     { q: 'The Freak Circus Day 3 什么时候发布？', a: '官方尚未公布发布日期。开发更新可以确认工作仍在继续，但不应被当作发布日程。' },
-    { q: 'Day 3 最近有什么更新？', a: '近期开发者更新提到了继续进行对白编程、规划新美术、修改背景，以及后续可能需要补充角色立绘。', linkLabel: '查看最新开发更新。' },
+    { q: 'Day 3 最近有什么更新？', a: '8 月 31 日的更新显示，开篇部分进展良好，大量对白仍在翻译和程序实装中，同时 Harlequin、Pierrot 与 Jester 的新立绘已确定。', linkLabel: '查看最新开发更新。' },
     { q: 'The Freak Circus 当前是什么版本？', a: 'Version 0.2 仍是当前公开原型版。' },
     { q: '可以下载 The Freak Circus Day 3 吗？', a: '目前没有单独公开的 Day 3 下载。只有官方公开版本实际存在时，本页才会提供对应链接。' },
     { q: 'Day 3 还在开发吗？', a: '是的。近期官方开发更新显示，下一个游戏日的制作仍在继续。' },
   ],
   updatesLink: '站内更新记录', wikiLink: 'Version 0.2 Wiki', downloadLink: '官方下载指南',
   snapshot: '状态速览', inDevelopment: '正在开发', releaseDateLabel: '发布日期', notAnnounced: '尚未公布', currentBuildLabel: '当前版本', lastCheckedLabel: '最后核验',
-  latestUpdateLabel: '最新更新', sidebarUpdateTitle: 'Day 3 开发仍在继续', sidebarUpdateText: '对白编程、新美术、背景修改和额外立绘工作仍属于当前开发内容。', continueTitle: '继续浏览站内内容',
+  latestUpdateLabel: '最新更新', sidebarUpdateTitle: '开篇部分正在成形', sidebarUpdateText: '对白翻译与程序实装仍在继续，Harlequin、Pierrot 与 Jester 的新立绘已经确定。', continueTitle: '继续浏览站内内容',
 };
