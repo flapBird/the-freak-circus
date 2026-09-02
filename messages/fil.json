@@ -14,7 +14,6 @@
     "nav": {
       "play": "Maglaro Online",
       "characters": "Mga Tauhan",
-      "walkthrough": "Walkthrough",
       "blog": "Blog",
       "about": "Tungkol sa"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Maglaro ng Freak Circus Online",
       "characters": "Gabay sa Tauhan",
-      "walkthrough": "Walkthrough at Mga Wakas",
       "blog": "Mga Artikulo at Gabay",
       "official": "Opisyal na itch.io Page",
       "about": "Tungkol sa",
@@ -63,7 +61,6 @@
     "charactersTitle": "Mga Tauhan",
     "charactersP": "Limang performer ang humuhubog sa bawat paglalaro ng The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, at <a href=\"/characters#doctor\">the Doctor</a>. Bawat isa ay may natatanging ruta, pagtatapos, at kwento ng relasyon sa pangunahing tauhan. ",
     "buttons": {
-      "walkthrough": "Tingnan ang Walkthrough",
       "characters": "Kilalanin ang mga Karakter"
     },
     "howToPlayTitle": "Paano Maglaro",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Mga Gabay at Spoiler",
-    "title": "Ang Walkthrough ng Freak Circus",
-    "subtitle": "Hakbang-hakbang na gabay para sa bawat ruta, wakas, at nakatagong eksena.",
-    "spoilerTitle": "Babala sa Spoiler",
-    "spoilerText": "Ang pahinang ito ay naglalaman ng malalaking spoiler para sa lahat ng ruta at pagtatapos. Laruin mo muna ang Day 1 bago tingnan ang gabay na ito.",
-    "day1Title": "Araw 1 - Pangkalahatang-ideya ng Ruta",
-    "day1P1": "Itinatag ng Day 1 ang iyong affinity sa bawat isa sa limang karakter sa pamamagitan ng serye ng mga engkwentro sa karnabal. Ang iyong mga pagpipilian sa unang 20 minuto ang magtatakda kung aling mga ruta ang magiging available sa Ikalawang Araw.",
-    "day1P2": "Kabilang sa mga pangunahing sangay sa Araw 1 ang interaksyon sa pagpasok sa Ticket Taker, pagpili ng tolda, at ang usapan tungkol sa hapunan sa hapunan.",
-    "pierrotTitle": "Gabay sa Ruta ng Pierrot",
-    "pierrotP1": "Pumili ng mga opsyon na introspektibo at maunawain sa buong Araw 1. Sa eksena ng tolda, sundan ang puting balabal. Sa Araw 2, piliin ang pag-unawa kaysa pagtutol upang ma-unlock ang Pierrot's Good Ending.",
-    "pierrotP2": "Tingnan ang buong artikulo tungkol sa Pierrot route sa aming <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Gabay sa Ruta ng Harlequin",
-    "harlequinP1": "Makipag-ugnayan sa pulang lobo sa pagbubukas ng Day 1 carnival. Gumamit ng matapang at masayang sagot sa pangunahing tolda. Mabilis na tumataas ang ruta ni Harlequin sa Ikalawang Araw, kaya tanggapin ang kaguluhan kaysa labanan ito.",
-    "endingsTitle": "Buod ng mga Wakas",
-    "endingsChar": "Katangian",
-    "endingsGood": "Magandang Wakas",
-    "endingsBad": "Masamang Wakas",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "repleksyon ng salamin",
-        "bad": "Sirang Yugto, Pagtakas"
-      },
-      {
-        "char": "Harlequin",
-        "good": "Panawagan sa Tabing",
-        "bad": "walang laman na entablado"
-      },
-      {
-        "char": "Jester",
-        "good": "nabunyag ang maskara",
-        "bad": "Ang Punchline"
-      },
-      {
-        "char": "Tagakuha ng Tiket",
-        "good": "Buksan ang Tarangkahan",
-        "bad": "Sarado Magpakailanman"
-      },
-      {
-        "char": "Doktor",
-        "good": "malinis na kamay",
-        "bad": "Sa ilalim ng kutsilyo, manhid"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - Lahat ng Pagpipilian",
-        "desc": "Kumpletuhin ang Day 1 walkthrough para sa The Freak Circus. Alamin ang lahat ng mahahalagang pagpipilian, mga desisyon sa affinity ng karakter, at kung paano i-unlock ang bawat ruta mula sa unang araw."
-      },
-      "title": "Araw 1 - Kumpletong Walkthrough",
-      "overview": "Itinatag ng Day 1 ang affinity mo sa bawat karakter sa pamamagitan ng carnival encounters. Ang iyong mga pagpipilian sa unang 20 minuto ang magtatakda kung aling mga ruta ang magiging available sa Ikalawang Araw.",
-      "choices": [
-        {
-          "moment": "Pagpasok - Pagkikita sa Ticket Taker",
-          "desc": "Ang unang interaksyon mo ang nagtatakda ng tono. Sumagot nang tapat para makuha ang affinity sa Ticket Taker. I-deflect o magbiro para lumapit kay Jester o Harlequin."
-        },
-        {
-          "moment": "Ang Carnival Midway",
-          "desc": "Galugarin ang mga booth. Bawat interaksyon ay bahagyang nagbabago ng affinity ng mga karakter. Ang pulang lobo ay patungo kay Harlequin. Ipinapakita ng puting balabal ang landas ni Pierrot."
-        },
-        {
-          "moment": "Ang Pagtatanghal sa Tolda",
-          "desc": "Ang iyong pagpili ng upuan at mga reaksyon sa pangunahing pagtatanghal ay nakakaapekto kung aling performer ang makakapansin sa iyo. Ang front row ay nagpapahiwatig ng tapang. Ang balkonahe ay nagpapahiwatig ng pagninilay."
-        },
-        {
-          "moment": "Pag-uusap sa Hapunan",
-          "desc": "Ang eksena ng hapunan ay isang mahalagang sangay na punto. Ang iyong mga pagpipilian sa diyalogo dito ay maaaring mag-lock o magbukas ng mga partikular na ruta para sa Day 2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Mga Ruta at Wakas",
-        "desc": "Kumpletuhin ang Day 2 walkthrough para sa The Freak Circus na may mga ruta ng karakter, maganda at masamang kondisyon sa pagtatapos, at mga nakatagong scene trigger."
-      },
-      "title": "Araw 2 - Mga Ruta at Gabay sa Pagtatapos",
-      "overview": "Pinalalakas ng Day 2 ang kwento. Ang iyong mga pagpipilian sa Araw 1 ang nagtatakda kung aling mga ruta ang nananatiling bukas. Bawat ruta ng karakter ay may kanya-kanyang Good at Bad Ending conditions.",
-      "choices": [
-        {
-          "moment": "Umaga Pagkatapos - Pag-lock ng Ruta",
-          "desc": "Kinukumpirma ng unang Day 2 na usapan ang iyong aktibong ruta(s). Ang mga karakter na may pinakamataas na affinity ang unang lalapit sa iyo."
-        },
-        {
-          "moment": "Mga Encounter na Nakatuon sa Ruta",
-          "desc": "Bawat naka-lock na ruta ay may natatanging mga eksena. Ang ruta ni Pierrot ay gumagamit ng mirror tent. Tumataas ang ruta ng Harlequin sa pangunahing entablado."
-        },
-        {
-          "moment": "Huling Tunggalian",
-          "desc": "Ang rurok ng bawat ruta. Ang mga pagpipilian mo dito ang nagtatakda ng Maganda laban sa Masamang Wakas. Mag-save bago ang puntong ito para tuklasin ang parehong resulta."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "Ang Freak Circus Araw 3 - Pinakabagong Update at Balita",
-        "desc": "Katayuan ng nilalaman ng The Freak Circus Day 3. Suriin ang pinakabagong update ng developer, tinatayang timeline ng release, at mag-subscribe para sa mga notification."
-      },
-      "title": "Araw 3 — Napatunayang Update Tracker",
-      "status": "Walang nakasaad na petsa ng paglabas ng Day 3 sa pahinang ito. Ito ay nag-uugnay lamang sa mga luma at first-party na anunsyo ng mga developer.",
-      "devNotes": "Basahin ang seksyon ng Balita para sa pinakabagong mga update mula sa mga developer na naka-link sa pinagmulan."
-    }
-  },
   "blog": {
     "title": "Mga Gabay at Artikulo",
     "subtitle": "Mga walkthrough, pagsusuri ng karakter, at lore para sa The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Alamin tungkol sa The Freak Circus visual novel: developer, download links, content warnings, suporta sa Chinese, at mga madalas itanong.",
     "charactersTitle": "The Freak Circus Gabay sa Mga Tauhan",
     "charactersDesc": "Kilalanin ang mga tauhan ng The Freak Circus: Pierrot, Harlequin, Jester, ang Ticket Taker, at ang Doctor. Basahin ang mga tip sa ruta, katangian, at tala tungkol sa kwento.",
-    "walkthroughTitle": "The Freak Circus Walkthrough Mga Wakas",
-    "walkthroughDesc": "Kumpletong walkthrough para sa The Freak Circus visual novel kasama ang Mga Pagpipilian sa Araw 1 at Araw 2, ruta ng mga tauhan, magagandang wakas, masamang wakas, at mga nakatagong eksena.",
     "blogTitle": "The Freak Circus Blog - Mga Gabay, Walkthroughs at Analisis ng Tauhan",
     "blogDesc": "Mga gabay, walkthrough ng mga wakas, analisis ng tauhan, at malaliman na talakayan ng lore para sa The Freak Circus psychological horror visual novel.",
     "contactTitle": "Makipag-ugnayan sa Amin",

@@ -14,7 +14,6 @@
     "nav": {
       "play": "Jugar online",
       "characters": "Personajes",
-      "walkthrough": "Guía",
       "blog": "Blog",
       "about": "Acerca de"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Juega a The Freak Circus Online",
       "characters": "Guía de personajes",
-      "walkthrough": "Guía y finales",
       "blog": "Artículos y guías",
       "official": "Página oficial de itch.io",
       "about": "Acerca de",
@@ -63,7 +61,6 @@
     "charactersTitle": "Personajes",
     "charactersP": "Cinco intérpretes dan forma a cada partida de The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Arlequín</a>, <a href=\"/characters#jester\">Bufón</a>, <a href=\"/characters#ticket-taker\">el Recolector de Entradas</a> y <a href=\"/characters#doctor\">el Doctor</a>. Cada uno tiene una ruta única, un conjunto de finales y un arco de relación con el protagonista.",
     "buttons": {
-      "walkthrough": "Ver Guía",
       "characters": "Conoce a los Personajes"
     },
     "howToPlayTitle": "Cómo Jugar",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Guías y spoilers",
-    "title": "La guía de Freak Circus",
-    "subtitle": "Guías paso a paso para cada ruta, final y escena oculta.",
-    "spoilerTitle": "Aviso de spoilers",
-    "spoilerText": "Esta página contiene grandes spoilers de todas las rutas y finales. Juega al menos el Día 1 antes de consultar esta guía.",
-    "day1Title": "Día 1 - Resumen de la ruta",
-    "day1P1": "El Día 1 establece tu afinidad con cada uno de los cinco personajes a través de una serie de encuentros en el carnaval. Tus elecciones en los primeros 20 minutos determinan qué rutas estarán disponibles en el Día 2.",
-    "day1P2": "Los puntos clave de ramificación en el Día 1 incluyen la interacción de entrada con el Ticket Taker, la elección de la tienda y la conversación sobre la cena.",
-    "pierrotTitle": "Guía de ruta de Pierrot",
-    "pierrotP1": "Selecciona opciones introspectivas y empáticas durante el primer día. En la escena de la tienda, sigue a la capa blanca. Durante el Día 2, elige la comprensión en lugar de la resistencia para desbloquear el Buen Final de Pierrot.",
-    "pierrotP2": "Consulta el artículo completo sobre la ruta de Pierrot en nuestro <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Guía de la ruta de Harlequin",
-    "harlequinP1": "Interactúa con el globo rojo durante la apertura del carnaval del Día 1. Usa respuestas audaces y juguetonas en la carpa principal. La ruta de Harlequin se intensifica rápidamente en el Día 2, así que abraza el caos en lugar de resistirte.",
-    "endingsTitle": "Resumen de finales",
-    "endingsChar": "Carácter",
-    "endingsGood": "Buen final",
-    "endingsBad": "Malos finales",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "Reflejo en espejo",
-        "bad": "Escenario roto, escape"
-      },
-      {
-        "char": "Harlequin",
-        "good": "Llamada final",
-        "bad": "Escenario vacío"
-      },
-      {
-        "char": "Jester",
-        "good": "Desenmascarado",
-        "bad": "El remate"
-      },
-      {
-        "char": "Taquillero",
-        "good": "Puerta Abierta",
-        "bad": "Cerrado para siempre"
-      },
-      {
-        "char": "Doctor",
-        "good": "Manos limpias",
-        "bad": "Bajo el cuchillo, entumecido"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "La guía del Día 1 de Freak Circus - Todas las opciones",
-        "desc": "Guía completa del Día 1 para The Freak Circus. Aprende todas las decisiones clave, las decisiones de afinidad de personajes y cómo desbloquear cada ruta desde el primer día."
-      },
-      "title": "Día 1 - Recorrido completo",
-      "overview": "El día 1 establece tu afinidad con cada personaje a través de encuentros en ferias. Tus elecciones en los primeros 20 minutos determinan qué rutas estarán disponibles en el Día 2.",
-      "choices": [
-        {
-          "moment": "Entrada - Encuentro con el Taquillista",
-          "desc": "Tu primera interacción marca el tono. Responde con honestidad para ganar la afinidad del Recolector de Boletos. Desvía o bromea para inclinarte hacia Bufón o Arlequín."
-        },
-        {
-          "moment": "El Paseo del Carnaval",
-          "desc": "Explora los puestos. Cada interacción cambia sutilmente la afinidad con los personajes. El globo rojo conduce hacia Arlequín. La capa blanca revela el camino de Pierrot."
-        },
-        {
-          "moment": "La Actuación en la Carpa",
-          "desc": "Tu elección de asiento y tus reacciones durante la actuación principal influyen en qué intérprete te nota. La primera fila indica audacia. El balcón sugiere introspección."
-        },
-        {
-          "moment": "Conversación durante la Cena",
-          "desc": "La escena de la cena es un punto de ramificación importante. Tus opciones de diálogo aquí pueden bloquear o desbloquear rutas específicas para el Día 2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "Guía del Día 2 de The Freak Circus - Rutas y Finales",
-        "desc": "Completa la guía del Día 2 de The Freak Circus con rutas de personajes, condiciones para finales buenos y malos, y activadores de escenas ocultas."
-      },
-      "title": "Día 2 - Guía de Rutas y Finales",
-      "overview": "El Día 2 intensifica la narrativa. Tus elecciones del Día 1 determinan qué rutas permanecen abiertas. Cada ruta de personaje tiene condiciones distintas para finales Buenos y Malos.",
-      "choices": [
-        {
-          "moment": "Mañana Siguiente - Confirmación de Ruta",
-          "desc": "La primera conversación del Día 2 confirma tu(s) ruta(s) activa(s). Los personajes con mayor afinidad se acercan primero."
-        },
-        {
-          "moment": "Encuentros Específicos de la Ruta",
-          "desc": "Cada ruta bloqueada tiene escenas únicas. La ruta de Pierrot implica la carpa de espejos. La ruta de Arlequín se intensifica en el escenario principal."
-        },
-        {
-          "moment": "Confrontación Final",
-          "desc": "El clímax de cada ruta. Tus elecciones aquí determinan el Final Bueno o Malo. Guarda antes de este punto para explorar ambos resultados."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "The Freak Circus Día 3 - Últimas Actualizaciones y Noticias",
-        "desc": "Estado del contenido del Día 3 de The Freak Circus. Consulta las últimas actualizaciones del desarrollador, el cronograma estimado de lanzamiento y suscríbete para recibir notificaciones."
-      },
-      "title": "Día 3 — Seguimiento de Actualizaciones Verificadas",
-      "status": "No se indica fecha de lanzamiento del Día 3 en esta página. Solo enlaza anuncios fechados de desarrolladores oficiales.",
-      "devNotes": "Lee la sección de Noticias para las últimas actualizaciones del desarrollador con fuentes vinculadas."
-    }
-  },
   "blog": {
     "title": "Guías y Artículos",
     "subtitle": "Guías, análisis de personajes y lore de The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Aprende sobre la novela visual The Freak Circus: desarrollador, enlaces de descarga, advertencias de contenido, soporte en chino y preguntas frecuentes.",
     "charactersTitle": "Guía de Personajes de The Freak Circus",
     "charactersDesc": "Conoce a los personajes de The Freak Circus: Pierrot, Arlequín, Bufón, el cobrador de entradas y el Doctor. Lee consejos de rutas, rasgos y notas de la historia.",
-    "walkthroughTitle": "Guía de Finales de Freak Circus",
-    "walkthroughDesc": "Guía completa para la novela visual The Freak Circus con elecciones del Día 1 y Día 2, rutas de personajes, finales buenos, finales malos y escenas ocultas.",
     "blogTitle": "Blog de The Freak Circus - Guías, Guías de Estrategia y Análisis de Personajes",
     "blogDesc": "Guías, guías de finales, análisis de personajes y profundización en la historia para la novela visual de terror psicológico The Freak Circus.",
     "contactTitle": "Contáctanos",

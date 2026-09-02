@@ -14,7 +14,6 @@
     "nav": {
       "play": "Main Online",
       "characters": "Karakter",
-      "walkthrough": "Panduan Lengkap",
       "blog": "Blog",
       "about": "Tentang"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Mainkan The Freak Circus Online",
       "characters": "Panduan Karakter",
-      "walkthrough": "Panduan & Akhir Cerita",
       "blog": "Artikel & Panduan",
       "official": "Halaman resmi itch.io",
       "about": "Tentang",
@@ -63,7 +61,6 @@
     "charactersTitle": "Karakter",
     "charactersP": "Lima pemain membentuk setiap permainan The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, dan <a href=\"/characters#doctor\">the Doctor</a>. Masing-masing memiliki rute unik, set akhir, dan alur hubungan dengan protagonis.",
     "buttons": {
-      "walkthrough": "Lihat Panduan Bermain",
       "characters": "Temui Karakter"
     },
     "howToPlayTitle": "Cara Bermain",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Panduan & Spoiler",
-    "title": "Panduan The Freak Circus",
-    "subtitle": "Panduan langkah demi langkah untuk setiap jalur, akhir cerita, dan adegan tersembunyi.",
-    "spoilerTitle": "Peringatan Spoiler",
-    "spoilerText": "Halaman ini berisi spoiler besar untuk semua jalur dan akhir cerita. Bermainlah setidaknya sampai Hari 1 sebelum melihat panduan ini.",
-    "day1Title": "Hari 1 - Gambaran Jalur",
-    "day1P1": "Hari 1 menetapkan kedekatan Anda dengan masing-masing dari lima karakter melalui serangkaian pertemuan di karnaval. Pilihan Anda dalam 20 menit pertama menentukan jalur mana yang akan tersedia pada Hari 2.",
-    "day1P2": "Poin percabangan utama di Hari 1 termasuk interaksi di pintu masuk dengan Penjual Tiket, pilihan tenda, dan percakapan saat makan malam.",
-    "pierrotTitle": "Panduan Jalur Pierrot",
-    "pierrotP1": "Pilih opsi introspektif dan empatik sepanjang Hari 1. Dalam adegan tenda, ikuti jubah putih. Pada Hari 2, pilih pemahaman daripada perlawanan untuk membuka Akhir Baik Pierrot.",
-    "pierrotP2": "Lihat artikel jalur Pierrot lengkap di blog <a href=\"/blog/pierrot-route-guide\"></a> kami.",
-    "harlequinTitle": "Panduan Jalur Harlequin",
-    "harlequinP1": "Berinteraksi dengan balon merah selama pembukaan karnaval pada Hari 1. Gunakan respons berani dan lucu di tenda utama. Jalur Harlequin meningkat cepat pada Hari 2, jadi terimalah kekacauan daripada melawannya.",
-    "endingsTitle": "Ringkasan Akhir Cerita",
-    "endingsChar": "Karakter",
-    "endingsGood": "Akhir Baik",
-    "endingsBad": "Akhir Buruk",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "Refleksi Cermin",
-        "bad": "Panggung Rusak, Melarikan Diri"
-      },
-      {
-        "char": "Harlequin",
-        "good": "Tepuk Tangan Penutup",
-        "bad": "Panggung Kosong"
-      },
-      {
-        "char": "Jester",
-        "good": "Tanpa Topeng",
-        "bad": "Pukulan Penutup"
-      },
-      {
-        "char": "Penjual Tiket",
-        "good": "Gerbang Terbuka",
-        "bad": "Tertutup Selamanya"
-      },
-      {
-        "char": "Dokter",
-        "good": "Tangan Bersih",
-        "bad": "Di Meja Operasi, Mati Rasa"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "Panduan Hari 1 The Freak Circus - Semua Pilihan",
-        "desc": "Panduan lengkap Hari 1 untuk The Freak Circus. Pelajari semua pilihan penting, keputusan kedekatan karakter, dan cara membuka setiap jalur dari hari pertama."
-      },
-      "title": "Hari 1 - Panduan Lengkap",
-      "overview": "Hari 1 menetapkan kedekatan Anda dengan setiap karakter melalui pertemuan di karnaval. Pilihan Anda dalam 20 menit pertama menentukan jalur mana yang akan tersedia pada Hari 2.",
-      "choices": [
-        {
-          "moment": "Pintu Masuk - Bertemu Penjual Tiket",
-          "desc": "Interaksi pertamamu menentukan suasana. Jawab dengan jujur untuk mendapatkan afinitas Ticket Taker. Alihkan atau bercanda agar lebih condong ke Jester atau Harlequin."
-        },
-        {
-          "moment": "Karnaval Midway",
-          "desc": "Jelajahi stan-stan. Setiap interaksi secara halus mengubah afinitas karakter. Balon merah itu mengarah ke Harlequin. Jubah putih memperlihatkan jalan Pierrot."
-        },
-        {
-          "moment": "Penampilan Tenda",
-          "desc": "Pilihan tempat duduk dan reaksi Anda selama pertunjukan utama memengaruhi pemain mana yang memperhatikan Anda. Baris depan menandakan keberanian. Balkon menunjukkan introspeksi."
-        },
-        {
-          "moment": "Percakapan Makan Malam",
-          "desc": "Adegan makan malam adalah titik cabang utama. Pilihan dialog Anda di sini dapat mengunci atau membuka rute tertentu untuk Hari ke-2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "Walkthrough Hari 2 The Freak Circus - Rute & Akhir",
-        "desc": "Selesaikan walkthrough Hari 2 untuk The Freak Circus dengan rute karakter, kondisi akhir yang baik dan buruk, serta pemicu adegan tersembunyi."
-      },
-      "title": "Hari 2 - Rute & Panduan Akhir",
-      "overview": "Hari kedua memperkuat narasi. Pilihan Hari 1 Anda menentukan rute mana yang tetap terbuka. Setiap rute karakter memiliki kondisi Akhir Baik dan Buruk yang berbeda.",
-      "choices": [
-        {
-          "moment": "Pagi Setelah - Penguncian Rute",
-          "desc": "Percakapan Hari 2 pertama mengonfirmasi rute aktif Anda. Karakter dengan afinitas tertinggi mendekatimu terlebih dahulu."
-        },
-        {
-          "moment": "Pertemuan Spesifik Rute",
-          "desc": "Setiap rute yang terkunci memiliki adegan unik. Rute Pierrot melibatkan tenda cermin. Rute Harlequin meningkat di panggung utama."
-        },
-        {
-          "moment": "Konfrontasi Akhir",
-          "desc": "Klimaks dari setiap rute. Pilihan Anda di sini menentukan Akhir yang Baik dan Buruk. Simpan sebelum titik ini untuk mengeksplorasi kedua hasil."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "Hari 3 The Freak Circus - Pembaruan & Berita Terbaru",
-        "desc": "Status konten Hari 3 The Freak Circus. Periksa pembaruan terbaru dari pengembang, perkiraan waktu rilis, dan berlangganan untuk notifikasi."
-      },
-      "title": "Hari 3 — Pelacak Pembaruan Terverifikasi",
-      "status": "Tidak ada tanggal rilis Hari ke-3 yang tercantum di halaman ini. Hanya terhubung ke pengumuman pengembang yang sudah usang dan dari pihak pertama.",
-      "devNotes": "Baca bagian Berita untuk pembaruan terbaru dari pengembang yang terhubung ke sumber."
-    }
-  },
   "blog": {
     "title": "Panduan & Artikel",
     "subtitle": "Walkthrough, analisis karakter, dan lore untuk The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Pelajari tentang novel visual The Freak Circus: pengembang, tautan unduhan, peringatan konten, dukungan bahasa Cina, dan pertanyaan yang sering diajukan.",
     "charactersTitle": "Panduan Karakter The Freak Circus",
     "charactersDesc": "Temui karakter The Freak Circus: Pierrot, Harlequin, Jester, Penjaga Tiket, dan Dokter. Baca tips jalan cerita, sifat, dan catatan lore.",
-    "walkthroughTitle": "Panduan Lengkap Freak Circus - Akhir",
-    "walkthroughDesc": "Panduan lengkap untuk novel visual The Freak Circus dengan pilihan Hari 1 dan Hari 2, jalur karakter, akhir baik, akhir buruk, dan adegan tersembunyi.",
     "blogTitle": "Blog The Freak Circus - Panduan, Walkthrough & Analisis Karakter",
     "blogDesc": "Panduan, walkthrough akhir, analisis karakter, dan eksplorasi lore mendalam untuk novel visual horor psikologis The Freak Circus.",
     "contactTitle": "Hubungi Kami",

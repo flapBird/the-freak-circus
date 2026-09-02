@@ -14,7 +14,6 @@
     "nav": {
       "play": "Play Online",
       "characters": "Characters",
-      "walkthrough": "Walkthrough",
       "blog": "Blog",
       "about": "About"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Play The Freak Circus Online",
       "characters": "Character Guide",
-      "walkthrough": "Walkthrough & Endings",
       "blog": "Articles & Guides",
       "official": "Official itch.io Page",
       "about": "About",
@@ -63,7 +61,6 @@
     "charactersTitle": "Characters",
     "charactersP": "Five performers shape every playthrough of The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
     "buttons": {
-      "walkthrough": "View Walkthrough",
       "characters": "Meet the Characters"
     },
     "howToPlayTitle": "How to Play",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Guides & Spoilers",
-    "title": "The Freak Circus Walkthrough",
-    "subtitle": "Step-by-step guides for every route, ending, and hidden scene.",
-    "spoilerTitle": "Spoiler Warning",
-    "spoilerText": "This page contains major spoilers for all routes and endings. Play through at least Day 1 before consulting this guide.",
-    "day1Title": "Day 1 - Route Overview",
-    "day1P1": "Day 1 establishes your affinity with each of the five characters through a series of carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
-    "day1P2": "Key branching points in Day 1 include the entrance interaction with the Ticket Taker, the tent choice, and the evening meal conversation.",
-    "pierrotTitle": "Pierrot Route Guide",
-    "pierrotP1": "Select introspective and empathetic options throughout Day 1. In the tent scene, follow the white cloak. During Day 2, choose understanding over resistance to unlock Pierrot's Good Ending.",
-    "pierrotP2": "See the full Pierrot route article in our <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Harlequin Route Guide",
-    "harlequinP1": "Interact with the red balloon during the Day 1 carnival opening. Use bold, playful responses in the main tent. Harlequin's route escalates quickly in Day 2, so embrace the chaos rather than resist it.",
-    "endingsTitle": "Endings Summary",
-    "endingsChar": "Character",
-    "endingsGood": "Good Ending",
-    "endingsBad": "Bad Endings",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "Mirror Reflection",
-        "bad": "Broken Stage, Escape"
-      },
-      {
-        "char": "Harlequin",
-        "good": "Curtain Call",
-        "bad": "Empty Stage"
-      },
-      {
-        "char": "Jester",
-        "good": "Unmasked",
-        "bad": "The Punchline"
-      },
-      {
-        "char": "Ticket Taker",
-        "good": "Open Gate",
-        "bad": "Closed Forever"
-      },
-      {
-        "char": "Doctor",
-        "good": "Clean Hands",
-        "bad": "Under the Knife, Numb"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "The Freak Circus Day 1 Walkthrough - All Choices",
-        "desc": "Complete Day 1 walkthrough for The Freak Circus. Learn all key choices, character affinity decisions, and how to unlock each route from the first day."
-      },
-      "title": "Day 1 - Complete Walkthrough",
-      "overview": "Day 1 establishes your affinity with each character through carnival encounters. Your choices in the first 20 minutes determine which routes become available in Day 2.",
-      "choices": [
-        {
-          "moment": "Entrance - Meeting the Ticket Taker",
-          "desc": "Your first interaction sets the tone. Answer honestly to gain Ticket Taker affinity. Deflect or joke to lean toward Jester or Harlequin."
-        },
-        {
-          "moment": "The Carnival Midway",
-          "desc": "Explore the booths. Each interaction subtly shifts character affinities. The red balloon leads toward Harlequin. The white cloak reveals Pierrot path."
-        },
-        {
-          "moment": "The Tent Performance",
-          "desc": "Your seat choice and reactions during the main performance influence which performer notices you. Front row signals boldness. Balcony suggests introspection."
-        },
-        {
-          "moment": "Evening Meal Conversation",
-          "desc": "The dinner scene is a major branching point. Your dialogue choices here can lock or unlock specific routes for Day 2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "The Freak Circus Day 2 Walkthrough - Routes & Endings",
-        "desc": "Complete Day 2 walkthrough for The Freak Circus with character routes, good and bad ending conditions, and hidden scene triggers."
-      },
-      "title": "Day 2 - Routes & Ending Guide",
-      "overview": "Day 2 intensifies the narrative. Your Day 1 choices determine which routes remain open. Each character route has distinct Good and Bad Ending conditions.",
-      "choices": [
-        {
-          "moment": "Morning After - Route Lock-in",
-          "desc": "The first Day 2 conversation confirms your active route(s). Characters with highest affinity approach you first."
-        },
-        {
-          "moment": "Route-Specific Encounters",
-          "desc": "Each locked route has unique scenes. Pierrot route involves the mirror tent. Harlequin route escalates at the main stage."
-        },
-        {
-          "moment": "Final Confrontation",
-          "desc": "The climax of each route. Your choices here determine Good vs Bad Ending. Save before this point to explore both outcomes."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "The Freak Circus Day 3 - Latest Updates & News",
-        "desc": "The Freak Circus Day 3 content status. Check the latest developer updates, estimated release timeline, and subscribe for notifications."
-      },
-      "title": "Day 3 — Verified Update Tracker",
-      "status": "No Day 3 release date is stated on this page. It only links to dated, first-party developer announcements.",
-      "devNotes": "Read the News section for the latest source-linked developer updates."
-    }
-  },
   "blog": {
     "title": "Guides & Articles",
     "subtitle": "Walkthroughs, character analysis, and lore for The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Learn about The Freak Circus visual novel: developer, download links, content warnings, Chinese support, and frequently asked questions.",
     "charactersTitle": "The Freak Circus Characters Guide",
     "charactersDesc": "Meet The Freak Circus characters: Pierrot, Harlequin, Jester, the Ticket Taker, and the Doctor. Read route tips, traits, and lore notes.",
-    "walkthroughTitle": "Freak Circus Walkthrough Endings",
-    "walkthroughDesc": "Complete walkthrough for The Freak Circus visual novel with Day 1 and Day 2 choices, character routes, good endings, bad endings, and hidden scenes.",
     "blogTitle": "The Freak Circus Guides, Story & Character Articles",
     "blogDesc": "Read The Freak Circus guides, character analysis, story explanations, version coverage, and articles about Pierrot, Harlequin, Day 3, and more.",
     "contactTitle": "Contact Us",

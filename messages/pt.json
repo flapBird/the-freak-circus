@@ -14,7 +14,6 @@
     "nav": {
       "play": "Jogar Online",
       "characters": "Personagens",
-      "walkthrough": "Passo a Passo",
       "blog": "Blog",
       "about": "Sobre"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Jogar The Freak Circus Online",
       "characters": "Guia de Personagens",
-      "walkthrough": "Passo a Passo e Finais",
       "blog": "Artigos e Guias",
       "official": "Página Oficial no itch.io",
       "about": "Sobre",
@@ -63,7 +61,6 @@
     "charactersTitle": "Personagens",
     "charactersP": "Cinco artistas moldam cada jogada de The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Arlequim</a>, <a href=\"/characters#jester\">Bobo da Corte</a>, <a href=\"/characters#ticket-taker\">o Bilheteiro</a> e <a href=\"/characters#doctor\">o Doutor</a>. Cada um tem uma rota única, conjunto de finais e arco de relacionamento com o protagonista.",
     "buttons": {
-      "walkthrough": "Ver Passo a Passo",
       "characters": "Conheça os Personagens"
     },
     "howToPlayTitle": "Como Jogar",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Guias & Spoilers",
-    "title": "O Guia do Freak Circus",
-    "subtitle": "Guias passo a passo para cada rota, final e cena oculta.",
-    "spoilerTitle": "Aviso de Spoiler",
-    "spoilerText": "Esta página contém spoilers importantes para todas as rotas e finais. Jogue pelo menos o Dia 1 antes de consultar este guia.",
-    "day1Title": "Dia 1 - Visão Geral da Rota",
-    "day1P1": "O Dia 1 estabelece sua afinidade com cada um dos cinco personagens através de uma série de encontros no carnaval. Suas escolhas nos primeiros 20 minutos determinam quais rotas se tornarão disponíveis no Dia 2.",
-    "day1P2": "Os principais pontos de ramificação no Dia 1 incluem a interação na entrada com o Apanhador de Ingressos, a escolha da tenda e a conversa durante a refeição noturna.",
-    "pierrotTitle": "Guia de Rota do Pierrot",
-    "pierrotP1": "Selecione opções introspectivas e empáticas ao longo do Dia 1. Na cena da tenda, siga a capa branca. Durante o Dia 2, escolha compreensão em vez de resistência para desbloquear o Final Bom de Pierrot.",
-    "pierrotP2": "Veja o artigo completo da rota de Pierrot em nosso blog <a href=\"/blog/pierrot-route-guide\">blog</a>.",
-    "harlequinTitle": "Guia de Rota do Arlequim",
-    "harlequinP1": "Interaja com o balão vermelho durante a abertura do carnaval no Dia 1. Use respostas ousadas e brincalhonas na tenda principal. A rota de Arlequim escala rapidamente no Dia 2, então aceite o caos em vez de resistir a ele.",
-    "endingsTitle": "Resumo dos Finais",
-    "endingsChar": "Personagem",
-    "endingsGood": "Final Bom",
-    "endingsBad": "Finais Ruins",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "Reflexo no Espelho",
-        "bad": "Palco Quebrado, Fuga"
-      },
-      {
-        "char": "Harlequin",
-        "good": "Cortina Final",
-        "bad": "Palco Vazio"
-      },
-      {
-        "char": "Jester",
-        "good": "Desmascarado",
-        "bad": "A Piada Final"
-      },
-      {
-        "char": "Apanhador de Ingressos",
-        "good": "Portão Aberto",
-        "bad": "Fechado Para Sempre"
-      },
-      {
-        "char": "Doutor",
-        "good": "Mãos Limpas",
-        "bad": "Sob a Faca, Anestesiado"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "Guia Completo do Dia 1 de The Freak Circus - Todas as Escolhas",
-        "desc": "Guia completo do Dia 1 de The Freak Circus. Saiba todas as escolhas principais, decisões de afinidade de personagens e como desbloquear cada rota desde o primeiro dia."
-      },
-      "title": "Dia 1 - Guia Completo",
-      "overview": "O Dia 1 estabelece sua afinidade com cada personagem através de encontros no carnaval. Suas escolhas nos primeiros 20 minutos determinam quais rotas se tornarão disponíveis no Dia 2.",
-      "choices": [
-        {
-          "moment": "Entrada - Encontro com o Apanhador de Ingressos",
-          "desc": "Sua primeira interação define o tom. Responda honestamente para ganhar afinidade com o Bilheteiro. Desvie ou brinque para inclinar para o Bobo ou Arlequim."
-        },
-        {
-          "moment": "O Carnaval",
-          "desc": "Explore os estandes. Cada interação muda sutilmente as afinidades dos personagens. O balão vermelho leva ao Arlequim. A capa branca revela o caminho de Pierrot."
-        },
-        {
-          "moment": "A Performance na Tenda",
-          "desc": "Sua escolha de assento e reações durante a apresentação principal influenciam qual artista nota você. Primeira fila sinaliza ousadia. A varanda sugere introspecção."
-        },
-        {
-          "moment": "Conversa na Refeição da Noite",
-          "desc": "A cena do jantar é um ponto de ramificação importante. Suas escolhas de diálogo aqui podem travar ou desbloquear rotas específicas para o Dia 2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "The Freak Circus Dia 2 - Guia de Rotas e Finais",
-        "desc": "Complete o guia do Dia 2 de The Freak Circus com rotas dos personagens, condições de finais bons e ruins, e gatilhos de cenas ocultas."
-      },
-      "title": "Dia 2 - Guia de Rotas e Finais",
-      "overview": "O Dia 2 intensifica a narrativa. Suas escolhas do Dia 1 determinam quais rotas permanecem abertas. Cada rota de personagem tem condições distintas de Final Bom e Final Ruim.",
-      "choices": [
-        {
-          "moment": "Manhã Seguinte - Bloqueio de Rota",
-          "desc": "A primeira conversa do Dia 2 confirma sua(s) rota(s) ativa(s). Personagens com maior afinidade se aproximam primeiro."
-        },
-        {
-          "moment": "Encontros Específicos de Rota",
-          "desc": "Cada rota bloqueada tem cenas únicas. A rota de Pierrot envolve a tenda dos espelhos. A rota do Arlequim se intensifica no palco principal."
-        },
-        {
-          "moment": "Confronto Final",
-          "desc": "O clímax de cada rota. Suas escolhas aqui determinam Final Bom vs Final Ruim. Salve antes deste ponto para explorar ambos os desfechos."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "The Freak Circus Dia 3 - Últimas Atualizações e Notícias",
-        "desc": "Status do conteúdo de The Freak Circus Dia 3. Confira as últimas atualizações do desenvolvedor, previsão de lançamento e inscreva-se para notificações."
-      },
-      "title": "Dia 3 — Rastreador de Atualizações Verificadas",
-      "status": "Nenhuma data de lançamento do Dia 3 é declarada nesta página. Ela apenas vincula anúncios numerados, de desenvolvedores oficiais.",
-      "devNotes": "Leia a seção de Notícias para as últimas atualizações do desenvolvedor com fonte vinculada."
-    }
-  },
   "blog": {
     "title": "Guias e Artigos",
     "subtitle": "Walkthroughs, análise de personagens e lore de The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Saiba mais sobre o visual novel The Freak Circus: desenvolvedor, links de download, avisos de conteúdo, suporte ao chinês e perguntas frequentes.",
     "charactersTitle": "Guia de Personagens do The Freak Circus",
     "charactersDesc": "Conheça os personagens de The Freak Circus: Pierrot, Arlequim, Bobo, o Bilheteiro e o Doutor. Leia dicas de rotas, características e notas de lore.",
-    "walkthroughTitle": "Passo a Passo e Finais de Freak Circus",
-    "walkthroughDesc": "Guia completo para o visual novel The Freak Circus com escolhas do Dia 1 e Dia 2, rotas de personagens, finais bons, finais ruins e cenas escondidas.",
     "blogTitle": "Blog de The Freak Circus - Guias, Passo a Passo & Análise de Personagens",
     "blogDesc": "Guias, walkthroughs de finais, análise de personagens e profundidade do lore para o visual novel de terror psicológico The Freak Circus.",
     "contactTitle": "Contate-Nos",

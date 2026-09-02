@@ -107,7 +107,6 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 │   │   ├── characters/         # Character index and detail routes
 │   │   ├── games/              # Related-games catalog and player routes
 │   │   ├── blog/               # Article index and detail routes
-│   │   ├── walkthrough/        # Source-review and day routes
 │   │   └── ...                 # Wiki, updates, download, legal, and other pages
 │   ├── robots.ts               # robots.txt metadata route
 │   ├── sitemap.xml/route.ts     # Dynamically generated XML sitemap

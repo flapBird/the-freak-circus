@@ -14,7 +14,6 @@
     "nav": {
       "play": "Chơi trực tuyến",
       "characters": "Nhân vật",
-      "walkthrough": "Hướng dẫn tham quan",
       "blog": "Blog",
       "about": "Giới thiệu"
     }
@@ -26,7 +25,6 @@
     "links": {
       "play": "Chơi The Freak Circus Online",
       "characters": "Hướng dẫn nhân vật",
-      "walkthrough": "Hướng dẫn & Kết thúc",
       "blog": "Bài viết & Hướng dẫn",
       "official": "Trang itch.io chính thức",
       "about": "Giới thiệu",
@@ -63,7 +61,6 @@
     "charactersTitle": "Nhân vật",
     "charactersP": "Năm diễn viên định hình mỗi lần chơi của The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">Người bán vé</a>, và <a href=\"/characters#doctor\">Bác sĩ</a>. Mỗi người có tuyến đường độc đáo, bộ kết thúc riêng và mối quan hệ với nhân vật chính.",
     "buttons": {
-      "walkthrough": "Xem Hướng dẫn chuyển màn",
       "characters": "Gặp gỡ Các Nhân vật"
     },
     "howToPlayTitle": "Cách chơi",
@@ -425,109 +422,6 @@
       ]
     }
   },
-  "walkthrough": {
-    "pageTitle": "Hướng dẫn & Tiết lộ nội dung",
-    "title": "Hướng Dẫn Rạp Xiếc Quái Dị",
-    "subtitle": "Hướng dẫn từng bước cho mọi tuyến đường, kết thúc và cảnh ẩn.",
-    "spoilerTitle": "Cảnh báo tiết lộ nội dung",
-    "spoilerText": "Trang này chứa những tiết lộ lớn về tất cả các tuyến truyện và kết thúc. Hãy chơi ít nhất Ngày 1 trước khi tham khảo hướng dẫn này.",
-    "day1Title": "Ngày 1 - Tổng quan tuyến đường",
-    "day1P1": "Ngày 1 sẽ thiết lập sự gắn bó của bạn với từng nhân vật trong năm nhân vật thông qua một loạt các cuộc gặp gỡ tại lễ hội. Lựa chọn của bạn trong 20 phút đầu tiên quyết định tuyến đường nào sẽ mở vào Ngày 2.",
-    "day1P2": "Những điểm phân nhánh quan trọng trong Ngày 1 bao gồm tương tác khi vào cửa với Người Lấy Vé, lựa chọn lều và cuộc trò chuyện về bữa tối.",
-    "pierrotTitle": "Hướng dẫn lộ trình Pierrot",
-    "pierrotP1": "Hãy chọn các lựa chọn nội tâm và đồng cảm trong suốt Ngày 1. Trong cảnh lều, hãy theo chiếc áo choàng trắng. Trong Ngày 2, hãy chọn hiểu biết thay vì kháng cự để mở khóa Kết Thúc Tốt của Pierrot.",
-    "pierrotP2": "Xem bài viết đầy đủ về tuyến đường Pierrot trong <a href=\"/blog/pierrot-route-guide\">blog</a> của chúng tôi.",
-    "harlequinTitle": "Hướng dẫn lộ trình Harlequin",
-    "harlequinP1": "Tương tác với quả bóng bay đỏ trong lễ khai mạc ngày đầu tiên của lễ hội. Hãy sử dụng những câu trả lời táo bạo, vui tươi trong lều chính. Tuyến đường của Harlequin tăng nhanh trong Ngày 2, nên hãy đón nhận sự hỗn loạn thay vì chống lại nó.",
-    "endingsTitle": "Tóm tắt kết thúc",
-    "endingsChar": "Tính cách",
-    "endingsGood": "Kết thúc tốt",
-    "endingsBad": "Kết thúc xấu",
-    "endingsTable": [
-      {
-        "char": "Pierrot",
-        "good": "phản chiếu gương",
-        "bad": "Sân Khấu Bị Gãy, Thoát Hiểm"
-      },
-      {
-        "char": "Harlequin",
-        "good": "lời chào tạm thời",
-        "bad": "Sân khấu trống"
-      },
-      {
-        "char": "Jester",
-        "good": "bị lột mặt nạ",
-        "bad": "Kết Luận"
-      },
-      {
-        "char": "nhân viên bán vé",
-        "good": "Cổng Mở",
-        "bad": "Đóng cửa vĩnh viễn"
-      },
-      {
-        "char": "Bác sĩ",
-        "good": "tay sạch sẽ",
-        "bad": "Dưới Cao, Tê liệt"
-      }
-    ],
-    "day1": {
-      "meta": {
-        "title": "Hướng dẫn Ngày 1 của The Freak Circus - Tất cả các lựa chọn",
-        "desc": "Đã hoàn thành hướng dẫn Ngày 1 của The Freak Circus. Tìm hiểu tất cả các lựa chọn chính, quyết định về sự đồng cảm với nhân vật, và cách mở khóa từng tuyến đường ngay từ ngày đầu tiên."
-      },
-      "title": "Ngày 1 - Tham quan toàn bộ",
-      "overview": "Ngày 1 sẽ thiết lập sự gắn bó của bạn với từng nhân vật thông qua các cuộc gặp gỡ trong lễ hội. Lựa chọn của bạn trong 20 phút đầu tiên quyết định tuyến đường nào sẽ mở vào Ngày 2.",
-      "choices": [
-        {
-          "moment": "Lối vào - Gặp gỡ người bán vé",
-          "desc": "Lần tương tác đầu tiên của bạn tạo nên không khí. Hãy trả lời thật lòng để nhận được sự gắn kết với Ticket Taker. Né tránh hoặc đùa để nghiêng về phía Jester hoặc Harlequin."
-        },
-        {
-          "moment": "Lễ hội Trung tâm",
-          "desc": "Khám phá các gian hàng. Mỗi tương tác đều tinh tế thay đổi sự đồng cảm của nhân vật. Quả bóng bay đỏ dẫn về phía Harlequin. Chiếc áo choàng trắng tiết lộ con đường Pierrot."
-        },
-        {
-          "moment": "Màn trình diễn trong lều",
-          "desc": "Lựa chọn chỗ ngồi và phản ứng của bạn trong buổi biểu diễn chính sẽ ảnh hưởng đến người biểu diễn để ý đến bạn. Hàng ghế đầu báo hiệu sự táo bạo. Ban công gợi ý sự tự suy ngẫm."
-        },
-        {
-          "moment": "Trò chuyện trong bữa tối",
-          "desc": "Cảnh ăn tối là một điểm phân nhánh quan trọng. Các lựa chọn đối thoại của bạn ở đây có thể khóa hoặc mở khóa các tuyến đường cụ thể cho Ngày 2."
-        }
-      ]
-    },
-    "day2": {
-      "meta": {
-        "title": "Hướng dẫn Ngày 2 của The Freak Circus - Lộ trình & Kết thúc",
-        "desc": "Khám phá đầy đủ Ngày 2 của The Freak Circus với các tuyến nhân vật, điều kiện kết thúc tốt và xấu, cùng các cảnh ẩn kích hoạt."
-      },
-      "title": "Ngày 2 - Lộ trình & Hướng dẫn kết thúc",
-      "overview": "Ngày thứ 2 làm câu chuyện trở nên căng thẳng. Lựa chọn Ngày 1 của bạn quyết định tuyến đường nào vẫn còn mở. Mỗi tuyến nhân vật đều có điều kiện Kết thúc Tốt và Kết Thúc Xấu riêng biệt.",
-      "choices": [
-        {
-          "moment": "Sáng hôm sau - Khóa lộ trình",
-          "desc": "Cuộc trò chuyện đầu tiên vào Ngày thứ 2 xác nhận tuyến đường đang hoạt động của bạn. Những nhân vật có điểm thân thiết cao nhất sẽ tiếp cận bạn trước."
-        },
-        {
-          "moment": "Các cuộc gặp gỡ theo tuyến đường",
-          "desc": "Mỗi tuyến đường bị khóa đều có những cảnh riêng biệt. Tuyến đường Pierrot liên quan đến lều gương. Tuyến Harlequin tăng lên ở sân khấu chính."
-        },
-        {
-          "moment": "Cuộc đối đầu cuối cùng",
-          "desc": "Cao trào của mỗi tuyến đường. Lựa chọn của bạn ở đây quyết định Kết thúc Tốt và Xấu. Lưu trước điểm này để khám phá cả hai kết quả."
-        }
-      ]
-    },
-    "day3": {
-      "meta": {
-        "title": "The Freak Circus Day 3 - Cập nhật & Tin tức mới nhất",
-        "desc": "Trạng thái nội dung Ngày 3 của The Freak Circus. Kiểm tra các bản cập nhật mới nhất dành cho nhà phát triển, thời gian phát hành ước tính và đăng ký nhận thông báo."
-      },
-      "title": "Ngày 3 — Trình theo dõi cập nhật đã xác minh",
-      "status": "Trang này không ghi ngày phát hành Ngày 3. Nó chỉ liên kết đến các thông báo của nhà phát triển đã được phát triển bởi bên thứ nhất, đã đi cũ.",
-      "devNotes": "Đọc phần Tin tức để cập nhật các nhà phát triển liên kết nguồn mới nhất."
-    }
-  },
   "blog": {
     "title": "Hướng dẫn & Bài viết",
     "subtitle": "Hướng dẫn, phân tích nhân vật và cốt truyện về The Freak Circus.",
@@ -546,8 +440,6 @@
     "aboutDesc": "Tìm hiểu về tiểu thuyết hình ảnh The Freak Circus: nhà phát triển, liên kết tải xuống, cảnh báo nội dung, hỗ trợ tiếng Trung và các câu hỏi thường gặp.",
     "charactersTitle": "Hướng Dẫn Nhân Vật The Freak Circus",
     "charactersDesc": "Gặp gỡ các nhân vật của The Freak Circus: Pierrot, Harlequin, Jester, Người Bán Vé và Bác Sĩ. Đọc mẹo tuyến nhân vật, đặc điểm và ghi chú về cốt truyện.",
-    "walkthroughTitle": "Hướng Dẫn Chơi Freak Circus Kết Thúc",
-    "walkthroughDesc": "Hướng dẫn chi tiết cho tiểu thuyết hình ảnh The Freak Circus với các lựa chọn Ngày 1 và Ngày 2, tuyến nhân vật, kết thúc tốt, kết thúc xấu và cảnh ẩn.",
     "blogTitle": "Blog The Freak Circus - Hướng Dẫn, Walkthroughs & Phân Tích Nhân Vật",
     "blogDesc": "Hướng dẫn, walkthrough kết thúc, phân tích nhân vật và khảo cứu sâu về cốt truyện cho tiểu thuyết hình ảnh kinh dị tâm lý The Freak Circus.",
     "contactTitle": "Liên Hệ Với Chúng Tôi",

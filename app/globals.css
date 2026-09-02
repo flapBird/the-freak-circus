@@ -596,10 +596,23 @@ button:focus-visible,
 .blog-article-content { margin-top: 1.4rem; padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--color-border); border-radius: 20px; background: linear-gradient(155deg, rgba(255,255,255,.04), rgba(255,255,255,.015)); }
 .blog-article-content .article-lede { color: #f1e9f2; font-size: clamp(1.18rem, 2vw, 1.4rem); }
 .blog-article-content h2 { margin-top: 2.35rem; padding: 0 0 0 1rem; border: 0; border-left: 4px solid var(--color-violet); color: #b77cff; font: 800 clamp(1.4rem, 2.2vw, 1.85rem) ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.22; letter-spacing: -.02em; }
+.blog-article-content h3 { margin-top: 1.65rem; color: #f0d8ff; font: 800 1.18rem ui-sans-serif, system-ui, sans-serif; line-height: 1.35; }
 .blog-article-content ul, .blog-article-content ol { margin: .7rem 0 1.2rem; padding-left: 1.4rem; color: #d7cdda; font-size: 1.1rem; }
 .blog-article-content li { margin-block: .55rem; padding-left: .25rem; line-height: 1.6; }
 .blog-article-content ul { list-style: disc; }
 .blog-article-content ol { list-style: decimal; }
+.walkthrough-note, .walkthrough-tip { margin: 1.4rem 0; padding: 1.1rem 1.2rem; border: 1px solid rgba(240,197,107,.25); border-radius: 12px; background: linear-gradient(135deg, rgba(240,197,107,.07), rgba(154,103,255,.045)); }
+.walkthrough-tip { border-color: rgba(154,103,255,.32); background: rgba(154,103,255,.07); }
+.walkthrough-note > strong, .walkthrough-tip > strong { color: var(--color-gold); font: 800 .82rem 'Courier Prime', monospace; letter-spacing: .06em; text-transform: uppercase; }
+.walkthrough-note p, .walkthrough-tip p { margin: .5rem 0 0; color: #ddd3df; font-size: 1.04rem; line-height: 1.65; }
+.walkthrough-route { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; margin: 1rem 0 1.4rem; }
+.walkthrough-route > div { padding: 1rem; border: 1px solid var(--color-border); border-radius: 12px; background: rgba(255,255,255,.025); }
+.walkthrough-route strong { color: #fff; font-size: 1.05rem; }
+.walkthrough-route p { margin: .5rem 0 0; color: #c9becd; font-size: 1rem; line-height: 1.6; }
+.walkthrough-steps strong { color: #fff; }
+.walkthrough-checklist { padding-left: 0 !important; list-style: none !important; }
+.walkthrough-checklist li { position: relative; padding-left: 1.6rem; }
+.walkthrough-checklist li::before { content: '✓'; position: absolute; left: 0; color: var(--color-gold); font-weight: 900; }
 .blog-article-return { margin-top: 1.2rem; }
 .blog-article-return a { color: var(--color-gold); font-weight: 700; text-decoration: none; }
 .blog-article-sidebar { position: sticky; top: 96px; display: grid; gap: 1rem; }
@@ -769,6 +782,7 @@ button:focus-visible,
   .blog-article-page { padding-block: 1.3rem 4rem; }
   .blog-breadcrumb { margin-bottom: 1.8rem; }
   .blog-article-header h1 { font-size: clamp(1.9rem, 8vw, 2.65rem); }
+  .walkthrough-route { grid-template-columns: 1fr; }
   .download-option:first-child { grid-column: auto; }
   .install-guide-list > div { grid-template-columns: 1fr; gap: .2rem; }
   .day3-sidebar, .download-sidebar { position: static; }
