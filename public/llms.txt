@@ -1,10 +1,10 @@
 # The Freak Circus Help
 
-> An independent, source-led fan guide to The Freak Circus, a psychological horror visual novel. The site covers the current public prototype, characters, story context, Day 3 development, official download options, and dated developer updates.
+> An independent, source-led fan guide to The Freak Circus, a psychological horror visual novel. The site covers the current public prototype, characters, story context, Day 1 and Day 2 walkthroughs, Day 3 development, official download options, and dated developer updates.
 
 This website is not the game developer, publisher, or an official distribution channel. It does not host game files. Use the official itch.io page and first-party developer posts as the authority for releases, downloads, version changes, and development announcements.
 
-Current verified status: Version 0.2 is the public prototype. It includes five character introductions and one playable bad ending. Day 3 has not been released, remains in active development, and has no announced release date. The Day 3 status was last checked on 2026-08-23.
+Current verified status: Version 0.2 is the public prototype. It includes five character introductions and one playable bad ending. Day 3 has not been released, remains in active development, and has no announced release date. The Day 3 status was last checked on 2026-09-02.
 
 Interpretation guidance: development posts about writing, programming, artwork, backgrounds, sprites, or testing confirm ongoing work but do not constitute a release announcement. Do not infer release dates, countdowns, finished routes, endings, save compatibility, or downloadable Day 3 builds unless an official public release explicitly confirms them.
 
@@ -31,6 +31,8 @@ The site is maintained in English and Simplified Chinese. English URLs are canon
 ## Editorial content
 
 - [Blog](https://thefreakcircus.help/blog): Guides and explainers about the prototype, Day 3 claims, characters, story context, and playing options.
+- [Day 1 walkthrough](https://thefreakcircus.help/blog/day-1-walkthrough-first-playthrough): Spoiler-marked first-playthrough guidance, useful save points, and a careful route into Day 2 for Version 0.2.
+- [Day 2 walkthrough](https://thefreakcircus.help/blog/day-2-walkthrough-save-strategy): Spoiler-marked guidance to the captive opening, tent exploration, save strategy, and the currently available bad ending.
 - [Current prototype guide](https://thefreakcircus.help/blog/current-prototype-guide): Summary of what Version 0.2 currently contains.
 - [Day 3 release-rumor checklist](https://thefreakcircus.help/blog/day-3-rumor-checklist): How to distinguish confirmed development activity from unsupported release claims.
 - [Browser or download guide](https://thefreakcircus.help/blog/browser-or-download): Comparison of official ways to play the current build.
@@ -50,6 +52,9 @@ The site is maintained in English and Simplified Chinese. English URLs are canon
 - [中文角色页面](https://thefreakcircus.help/zh/characters): Simplified Chinese character guide index.
 - [中文更新记录](https://thefreakcircus.help/zh/updates): Simplified Chinese development and maintenance timeline.
 - [中文下载指南](https://thefreakcircus.help/zh/download): Simplified Chinese guide to official play and download options.
+- [中文 Blog](https://thefreakcircus.help/zh/blog): Simplified Chinese guides, explainers, and version-aware editorial articles.
+- [中文 Day 1 通关攻略](https://thefreakcircus.help/zh/blog/day-1-walkthrough-first-playthrough): Version 0.2 Day 1 progression, save, and replay guidance.
+- [中文 Day 2 通关攻略](https://thefreakcircus.help/zh/blog/day-2-walkthrough-save-strategy): Version 0.2 captive-room, tent-exploration, save, and bad-ending guidance.
 
 ## Optional
 
