@@ -1,6 +1,7 @@
 import { BLOG_POSTS } from '@/lib/blog-posts';
 import { GAMES, getGameSlug } from '@/data/games';
 import { INDEXABLE_LOCALES, SITE_URL } from '@/lib/seo';
+import { COMMUNITY_LAST_CHECKED } from '@/data/community-posts';
 
 const SITE_LAST_MODIFIED = '2026-08-16';
 
@@ -29,7 +30,7 @@ function entryXml({ path, lastModified, changeFrequency, priority }: SitemapEntr
 
 export function GET() {
   const baseEntries: SitemapEntry[] = [
-    ...staticPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'weekly' as const, priority: path === '' ? '1.0' : path === '/updates' ? '0.8' : '0.6' })),
+    ...staticPaths.map((path) => ({ path, lastModified: path === '/community' || path === '/day-3' ? COMMUNITY_LAST_CHECKED : SITE_LAST_MODIFIED, changeFrequency: 'weekly' as const, priority: path === '' ? '1.0' : path === '/updates' ? '0.8' : '0.6' })),
     ...characterPaths.map((path) => ({ path, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'monthly' as const, priority: '0.7' })),
     ...GAMES.map((game) => ({ path: `/games/${getGameSlug(game)}`, lastModified: SITE_LAST_MODIFIED, changeFrequency: 'monthly' as const, priority: '0.7' })),
     ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, lastModified: post.date, changeFrequency: 'monthly' as const, priority: '0.8' })),

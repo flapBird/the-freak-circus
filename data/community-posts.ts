@@ -18,7 +18,15 @@ export type CommunityPost = {
   tags: string[];
   sensitive?: boolean;
   featured?: boolean;
+  // Official Day 3 posts also populate the Day 3 page from this single record.
+  day3?: {
+    kind: 'development' | 'notice';
+    headline: Record<CommunityLocale, string>;
+    points?: Record<CommunityLocale, readonly string[]>;
+  };
 };
+
+export const COMMUNITY_LAST_CHECKED = '2026-09-26';
 
 // Add reviewed community picks here. Copy the example block below for each new
 // post. Only use a local image after the creator has allowed reuse; sourceUrl is
@@ -45,11 +53,123 @@ export type CommunityPost = {
 
 export const COMMUNITY_POSTS: readonly CommunityPost[] = [
 {
-  id: 'ama-2-answers-part-24-2026-08-31',
+  id: 'weekly-update-day-3-2026-09-18',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-18',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828144006942818304/weekly-update-day3',
+  title: { en: 'Weekly Update! – Day 3', zh: 'Day 3 每周开发进展：路线实装与草图' },
+  summary: {
+    en: 'One route is almost fully functional. Neko has corrected visual glitches and dialogue errors and prepared three or four new placeholder sketches, including scene variations, while programming continues. The update explains why coordinating dialogue, effects, and sprites takes time and shares two development screenshots.',
+    zh: '一条路线已接近完全可运行。Neko 修复了画面与对白错误，并在继续编程的同时准备了三至四张占位草图，部分场景还有不同版本。本篇介绍了对白、特效与立绘协同实装所需的调试工作，并分享了两张开发截图。',
+  },
+  tags: ['Day3', 'DevelopmentUpdate', 'Programming', 'Artwork'],
+  featured: true,
+  day3: {
+    kind: 'development',
+    headline: { en: 'One route is almost fully functional', zh: '一条路线已接近完全可运行' },
+    points: {
+      en: ['Visual glitches and dialogue errors have been corrected.', 'Three or four new placeholder sketches include variations for some scenes.', 'Dialogue, effects, and sprite placement are still being programmed and debugged.', 'This is development progress; no public Day 3 release date was announced.'],
+      zh: ['已修复部分画面问题与对白错误。', '新增三至四张占位草图，部分场景含不同版本。', '对白、特效与立绘显示仍在持续实装和调试。', '本次是开发进展，没有公布 Day 3 的公开发布日期。'],
+    },
+  },
+},
+{
+  id: 'ama-2-answers-part-26-2026-09-18',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-18',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828134682948517888/ama-2-answers-part-26',
+  title: { en: 'AMA 2 – Answers Part 26', zh: 'AMA 2 – 问答第 26 部分' },
+  summary: {
+    en: 'The latest cast Q&A explores monster species, circus photography rules, dancing, and character relationships. Doctor describes Pierrot as the troupe’s healthiest member, while Pierrot admires Jester’s adaptability and Doctor’s knowledge. Neko also discusses the challenges of scene pacing, choice-dependent dialogue, and interactive mechanics.',
+    zh: '新一轮角色问答涉及怪物种族、马戏团拍照规则、舞蹈与角色关系。Doctor 认为 Pierrot 是团内身体最健康的成员；Pierrot 则欣赏 Jester 的应变能力与 Doctor 的知识。Neko 也谈到了场景节奏、选项分支对白和交互机制的制作难点。',
+  },
+  tags: ['AMA2', 'Lore', 'Pierrot', 'Harlequin', 'Jester', 'Doctor', 'TicketTaker'],
+},
+{
+  id: 'ama-2-answers-part-25-2-2026-09-11',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-11',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513414487343104/ama-2-answers-part-25-12',
+  title: { en: 'AMA 2 – Answers Part 25 (2/2)', zh: 'AMA 2 – 问答第 25 部分（下篇）' },
+  summary: {
+    en: 'The second half continues Part 25’s illustrated Q&A. Neko clarifies that “deceased/unknown” labels can reflect characters losing contact after going their separate ways, rather than knowing what happened to one another. The post links back to the first half.',
+    zh: '第 25 部分下篇继续以图文形式回答问题。Neko 补充说明，“已故／未知”的标记可能表示角色分道扬镳后失去了联系，并不知道彼此后来的情况。原帖同时提供了上篇入口。',
+  },
+  tags: ['AMA2', 'Lore'],
+},
+{
+  id: 'ama-2-answers-part-25-1-2026-09-11',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-11',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513385132441600/ama-2-answers-part-24-%C2%BD',
+  title: { en: 'AMA 2 – Answers Part 25 (1/2)', zh: 'AMA 2 – 问答第 25 部分（上篇）' },
+  summary: {
+    en: 'AMA 2 returns with the first half of Part 25, presented as illustrated question-and-answer panels. This installment is split across two posts, with a link to the second half at the end of the original post.',
+    zh: 'AMA 2 恢复更新，第 25 部分上篇以问答图片发布。本期分成上下两篇，原帖末尾提供了下篇入口，可接续阅读完整一期。',
+  },
+  tags: ['AMA2', 'Community'],
+},
+{
+  id: 'weekly-update-day-3-2026-09-11',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-11',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827510465631600640/weekly-update-day3',
+  title: { en: 'Weekly Update – Day 3: Branching scenes', zh: 'Day 3 每周开发进展：分支场景制作' },
+  summary: {
+    en: 'Neko has resumed work after a short break, progressing through code, adjustments, and fixes. A complex section with many choices and branching paths needs extra testing. Backgrounds and sprites have been corrected, and revisions plus new sprites for Doctor are planned when development reaches his scene.',
+    zh: '短暂休息后，Neko 已恢复开发，继续推进代码、调整与修复。目前正在处理选项和分支较多的复杂段落，因此测试可能需要更长时间。部分背景与立绘已修正；推进到 Doctor 的场景后，还计划修改他的部分立绘并绘制新立绘。',
+  },
+  tags: ['Day3', 'DevelopmentUpdate', 'Doctor'],
+  day3: {
+    kind: 'development',
+    headline: { en: 'Work resumes on choices and branching scenes', zh: '恢复开发，推进多选项分支场景' },
+  },
+},
+{
+  id: 'no-ama-or-weekly-update-2026-09-04',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-04',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/826849046331375616/no-ama-or-weekly-update',
+  title: { en: 'No AMA or Weekly Update This Week', zh: '本周暂停 AMA 与开发周报' },
+  summary: {
+    en: 'The moderation team announced that the September 4 AMA crosspost and weekly update would be skipped while Neko took time away following a family bereavement. The team thanked the community for its understanding and support.',
+    zh: '管理员公告：Neko 因家人离世需要暂时休息，9 月 4 日的 AMA 转载与开发周报暂停。团队感谢社区的理解与支持。',
+  },
+  tags: ['CommunityNotice', 'WeeklyUpdate'],
+  day3: {
+    kind: 'notice',
+    headline: { en: 'Weekly update paused for September 4', zh: '9 月 4 日开发周报暂停' },
+  },
+},
+{
+  id: 'ask-box-update-2026-08-31',
   creator: 'freakcircusofhorrors',
   platform: 'Tumblr',
   publishedAt: '2026-08-31',
-  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/826478862411153408/ask-box-update',
+  title: { en: 'Ask Box Update', zh: '提问箱安排更新' },
+  summary: {
+    en: 'The ask box will remain closed for the rest of 2026. Existing questions will be kept, and AMA posts and development updates will continue. Reducing blog duties gives Neko more time to focus on Day 3.',
+    zh: '提问箱将在 2026 年剩余时间保持关闭，已有问题会保留，AMA 与开发动态仍会继续发布。减少博客事务能让 Neko 将更多时间投入 Day 3 开发。',
+  },
+  tags: ['CommunityNotice', 'Day3', 'AskBox'],
+  day3: {
+    kind: 'notice',
+    headline: { en: 'Ask box stays closed to make more time for Day 3', zh: '提问箱继续关闭，为 Day 3 开发留出更多时间' },
+  },
+},
+{
+  id: 'ama-2-answers-part-24-2026-08-28',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-08-28',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/826245939387891712/ama-2-answers-part-24-12',
   images: [
     {
       src: '/images/community/ama2-part24-20260831-pierrot.jpg',
@@ -80,14 +200,14 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   },
   tags: ['AMA2', 'BetaTesting', 'Pierrot', 'Jester', 'TicketTaker'],
   sensitive: false,
-  featured: true,
+  featured: false,
 },
 {
-  id: 'weekly-update-day-3-2026-08-31',
+  id: 'weekly-update-day-3-2026-08-28',
   creator: 'freakcircusofhorrors',
   platform: 'Tumblr',
-  publishedAt: '2026-08-31',
-  sourceUrl: 'https://www.tumblr.com/freakcircusofhorrors/825607753064169472/weekly-update-day-3',
+  publishedAt: '2026-08-28',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/826241523793428480/weekly-update-day-3',
   images: [
     {
       src: '/images/community/weekly-update-day3-20260831-1.jpg',
@@ -111,10 +231,14 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   },
   tags: ['Day3', 'DevelopmentUpdate', 'Harlequin', 'Pierrot', 'Jester'],
   sensitive: false,
-  featured: true,
+  featured: false,
+  day3: {
+    kind: 'development',
+    headline: { en: 'Opening section advances and new sprites are selected', zh: '开篇制作推进，三位角色新立绘已确定' },
+  },
 },
 {
-  id: 'unique-short-name',
+  id: 'pierrot-day3-july-24-2026',
   creator: 'Fan account',
   platform: 'X',
   publishedAt: '2026-08-16',
@@ -128,7 +252,7 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   featured: false,
 },
 {
-  id: 'unique-short-name',
+  id: 'pierrot-hold-you-longer',
   creator: 'Fan account',
   platform: 'X',
   publishedAt: '2026-08-16',
@@ -142,7 +266,7 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   featured: false,
 },
 {
-  id: 'unique-short-name',
+  id: 'harlequin-hungry',
   creator: 'Fan account',
   platform: 'X',
   publishedAt: '2026-08-16',

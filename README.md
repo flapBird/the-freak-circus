@@ -156,6 +156,8 @@ Blog slugs are included in the sitemap automatically. Update entries are rendere
 
 Community cards are defined in `data/community-posts.ts`. Keep the creator, platform, source URL, publication date, localized summary, image attribution, and sensitive-content flag accurate. Store approved local media under `public/images/community/`.
 
+Use the original post's publication date, not the date it was added here. After checking the official blog, update `COMMUNITY_LAST_CHECKED`. Posts appear newest first. Add `day3` metadata to official Day 3 posts: use `kind: 'development'` for progress reports and `kind: 'notice'` for related scheduling announcements, with a localized `headline` and optional `points`. The Day 3 page automatically uses these records for its timeline and the latest development post for its main summary, FAQ, and sidebar. Notices do not replace the latest development report. This shares reviewed content between pages; it does not fetch new Tumblr posts automatically.
+
 ### Related games
 
 Add a `GameRecord` to `data/games.ts` and place its cover in `public/images/games/`. Public slugs are generated from the game title.

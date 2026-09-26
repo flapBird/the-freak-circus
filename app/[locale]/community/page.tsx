@@ -22,7 +22,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
   const lang = editorialLocale(locale);
   const zh = lang === 'zh';
   const posts = [...COMMUNITY_POSTS]
-    .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || b.publishedAt.localeCompare(a.publishedAt));
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
 
   return (
     <main className="community-page">
@@ -45,7 +45,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
                   : []);
 
               return (
-                <article className={`community-feed-item${post.featured ? ' is-featured' : ''}`} key={`${post.id}-${index}`}>
+                <article id={post.id} className={`community-feed-item${post.featured ? ' is-featured' : ''}`} key={`${post.id}-${index}`}>
                   <div className="community-feed-avatar" aria-hidden="true">
                     {creatorInitials(post.creator)}
                   </div>
