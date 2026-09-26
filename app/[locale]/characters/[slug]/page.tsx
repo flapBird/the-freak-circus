@@ -1,3 +1,4 @@
+import FanArtSection from '@/components/FanArtSection';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
@@ -63,6 +64,7 @@ export default function CharacterPage({ params: { locale, slug } }: Props) {
           </div></nav>
         </article>
       </section>
+      <FanArtSection locale={locale} character={current} />
     </main>
   );
 }

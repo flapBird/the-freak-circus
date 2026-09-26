@@ -6,6 +6,8 @@ const nextConfig = {
   async redirects() {
     const locales = ['pt', 'fil', 'vi', 'es', 'id', 'zh'];
     return [
+      { source: '/games/:path*', destination: '/fan-art', permanent: true },
+      ...['en', ...locales].map(loc => ({ source: `/${loc}/games/:path*`, destination: loc === 'en' ? '/fan-art' : `/${loc}/fan-art`, permanent: true })),
       { source: '/en', destination: '/', permanent: true },
       { source: '/en/:path*', destination: '/:path*', permanent: true },
       ...locales.flatMap(loc => [
@@ -33,8 +35,7 @@ const nextConfig = {
       { source: '/wiki', destination: '/en/wiki' },
       { source: '/day-3', destination: '/en/day-3' },
       { source: '/download', destination: '/en/download' },
-      { source: '/games', destination: '/en/games' },
-      { source: '/games/:slug', destination: '/en/games/:slug' },
+      { source: '/fan-art', destination: '/en/fan-art' },
       { source: '/community', destination: '/en/community' },
       { source: '/updates', destination: '/en/updates' },
       { source: '/blog', destination: '/en/blog' },

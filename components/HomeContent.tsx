@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import FanArtSection from './FanArtSection';
 import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from './SchemaMarkup';
 import GameEmbed from './GameEmbed';
@@ -155,6 +156,8 @@ export default function HomeContent({ locale }: { locale: string }) {
           </div>
         </section>
 
+        <FanArtSection locale={locale} />
+
         <AdSlot
           className="home-native-ad"
           label={lang === 'zh' ? '广告' : 'Advertisement'}
@@ -257,8 +260,6 @@ const enCopy = {
   updateTitle: 'LATEST UPDATES',
   allUpdates: 'View all updates',
   readUpdate: 'Read full update',
-  moreTitle: 'More Narrative Games',
-  browseGames: 'View all narrative games',
   faqTitle: 'Frequently Asked Questions',
   reviewsTitle: 'WHAT PLAYERS SAY',
   faq: [
@@ -272,7 +273,7 @@ const enCopy = {
     { q: 'Which platforms are supported?', a: 'The official listing currently includes HTML5 browser play, Windows, macOS, Linux, and Android.' },
     { q: 'Is The Freak Circus suitable for younger players?', a: 'No. The developer rates the game 18+ and lists dark themes including blood, death, kidnapping, cannibalism, non-consensual use of drugs, physical domination, and mild physical harassment / non-consensual physical contact.' },
     { q: 'Where can I follow verified game updates?', a: 'Use the developer’s itch.io devlog and official Tumblr. This site’s Updates section links its summaries back to those original posts.' },
-    { q: 'What can I find on this website?', a: 'The site provides an in-page player, character profiles, a source-led Wiki, Day 3 status, an official download guide, update summaries, and related visual novel recommendations.' },
+    { q: 'What can I find on this website?', a: 'The site provides an in-page player, character profiles, a source-led Wiki, Day 3 status, an official download guide, update summaries, and community fan art.' },
     { q: 'Is this an official website?', a: 'No. This is an independent fan guide that links back to the developer’s official sources.' },
   ],
 };
@@ -307,8 +308,6 @@ const zhCopy: typeof enCopy = {
   updateTitle: '最新更新',
   allUpdates: '查看全部更新',
   readUpdate: '阅读完整更新',
-  moreTitle: '更多叙事游戏',
-  browseGames: '查看全部叙事游戏',
   faqTitle: '常见问题',
   reviewsTitle: '玩家怎么说',
   faq: [
@@ -322,7 +321,7 @@ const zhCopy: typeof enCopy = {
     { q: '游戏支持哪些平台？', a: '官方页面目前列出 HTML5 浏览器版、Windows、macOS、Linux 和 Android。' },
     { q: '未成年玩家适合游玩吗？', a: '不适合。开发者将游戏标记为 18+，并列出血腥、死亡、绑架、食人、非自愿用药、肢体控制，以及轻度肢体骚扰／非自愿肢体接触等黑暗主题。' },
     { q: '去哪里关注可信的游戏更新？', a: '请查看开发者 itch.io 日志和官方 Tumblr；本站更新栏目也会把摘要链接回原始公告。' },
-    { q: '这个网站提供哪些内容？', a: '本站提供页面内游戏播放器、角色资料、可信 Wiki、Day 3 状态、官方下载指南、更新摘要及同类视觉小说推荐。' },
+    { q: '这个网站提供哪些内容？', a: '本站提供页面内游戏播放器、角色资料、可信 Wiki、Day 3 状态、官方下载指南、更新摘要及社区同人作品。' },
     { q: '这是官网吗？', a: '不是。本站是独立粉丝指南，并持续链接回开发者的一手来源。' },
   ],
 };

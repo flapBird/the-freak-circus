@@ -31,7 +31,7 @@ export default function Footer({ locale }: { locale: string }) {
           <Link href={loc('/characters')}>{copy.characters}</Link>
           <Link href={loc('/wiki')}>Wiki</Link>
           <Link href={loc('/day-3')}>Day 3</Link>
-          <Link href={loc('/games')}>{copy.games}</Link>
+          <Link href={loc('/fan-art')}>{copy.fanArt}</Link>
           <Link href={loc('/updates')}>{copy.updates}</Link>
           <Link href={loc('/download')}>{copy.download}</Link>
         </div>
@@ -55,7 +55,7 @@ export default function Footer({ locale }: { locale: string }) {
 const en = {
   note: 'Discover a disturbing circus world shaped by obsession, manipulation, and rivalry, where Pierrot and Harlequin draw you into a haunting visual novel experience.',
   features: 'Explore the Site', siteInfo: 'Site Information', play: 'Home', characters: 'Characters', download: 'Download',
-  updates: 'Updates', games: 'Narrative Games', community: 'Community',
+  updates: 'Updates', fanArt: 'Fan Art', community: 'Community',
   about: 'About', contact: 'Contact', privacy: 'Privacy Policy', terms: 'Terms of Use',
   shareX: 'Share thefreakcircus.help on X', shareFacebook: 'Share thefreakcircus.help on Facebook',
   bottom: 'This is an unofficial fan-made website created for informational purposes. It has no official connection with the original creators or publishers. No game files are hosted here. All trademarks and copyrighted content belong to their respective owners.',
@@ -64,7 +64,7 @@ const en = {
 const zh: typeof en = {
   note: '探索一个由执念、操纵与竞争塑造的诡异马戏世界，让 Pierrot 与 Harlequin 带你进入令人不安的视觉小说体验。',
   features: '站点功能', siteInfo: '网站信息', play: '首页', characters: '角色', download: '下载',
-  updates: '更新', games: '叙事游戏', community: '社区',
+  updates: '更新', fanArt: '同人画廊', community: '社区',
   about: '关于', contact: '联系我们', privacy: '隐私政策', terms: '使用条款',
   shareX: '在 X 分享 thefreakcircus.help', shareFacebook: '在 Facebook 分享 thefreakcircus.help',
   bottom: '本站是出于信息整理目的创建的非官方粉丝网站，与原作者或发行方没有官方关联。本站不托管游戏文件，所有商标及受版权保护的内容均归各自权利人所有。',

@@ -9,14 +9,14 @@ export default function Header({ locale }: Props) {
   const lang = editorialLocale(locale);
   const loc = (path: string) => locale === 'en' ? path : `/${locale}${path}`;
   const labels = lang === 'zh'
-    ? { home: '首页', characters: '角色', wiki: 'Wiki', day3: 'Day 3', blog: 'Blog', download: '下载', games: '叙事游戏', community: '社区', menu: '菜单', all: '全部角色' }
-    : { home: 'Home', characters: 'Characters', wiki: 'Wiki', day3: 'Day 3', blog: 'Blog', download: 'Download', games: 'Narrative Games', community: 'Community', menu: 'Menu', all: 'All characters' };
+    ? { home: '首页', characters: '角色', wiki: 'Wiki', day3: 'Day 3', blog: 'Blog', download: '下载', fanArt: '同人画廊', community: '社区', menu: '菜单', all: '全部角色' }
+    : { home: 'Home', characters: 'Characters', wiki: 'Wiki', day3: 'Day 3', blog: 'Blog', download: 'Download', fanArt: 'Fan Art', community: 'Community', menu: 'Menu', all: 'All characters' };
 
   const simpleLinks = [
     { href: loc('/'), label: labels.home },
     { href: loc('/wiki'), label: labels.wiki },
     { href: loc('/day-3'), label: labels.day3 },
-    { href: loc('/games'), label: labels.games },
+    { href: loc('/fan-art'), label: labels.fanArt },
     { href: loc('/community'), label: labels.community },
     { href: loc('/blog'), label: labels.blog },
     { href: loc('/download'), label: labels.download },

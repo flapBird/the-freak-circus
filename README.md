@@ -16,7 +16,7 @@ An independent, multilingual fan resource for *The Freak Circus*, the psychologi
 - Editorial pages for the current prototype, Day 3 status, downloads, lore, and development updates
 - An article library with build explainers, player guides, and rumor checks
 - A curated community feed with source and attribution fields
-- A related-games catalog with an allowlisted iframe player
+- A community fan art gallery with character filters, artist credits, and image previews
 - Seven locale routes: English, Portuguese, Filipino, Vietnamese, Spanish, Indonesian, and Simplified Chinese
 - SEO metadata, canonical and `hreflang` links, JSON-LD, robots rules, and a dynamic XML sitemap
 
@@ -105,14 +105,14 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 │   │   ├── layout.tsx          # Locale validation, metadata, analytics, shell
 │   │   ├── page.tsx            # Home page
 │   │   ├── characters/         # Character index and detail routes
-│   │   ├── games/              # Related-games catalog and player routes
+│   │   ├── fan-art/            # Community artwork gallery
 │   │   ├── blog/               # Article index and detail routes
 │   │   └── ...                 # Wiki, updates, download, legal, and other pages
 │   ├── robots.ts               # robots.txt metadata route
 │   ├── sitemap.xml/route.ts     # Dynamically generated XML sitemap
 │   └── globals.css              # Global design system and component styles
 ├── components/
-│   ├── games/                   # Game cards and iframe player
+│   ├── FanArtGrid.tsx           # Artwork grid and accessible image dialog
 │   ├── GameEmbed.tsx            # Main game player
 │   ├── Header.tsx               # Navigation and locale controls
 │   ├── HomeContent.tsx          # Home-page sections
@@ -120,7 +120,7 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 │   ├── SchemaMarkup.tsx         # JSON-LD output
 │   └── ...                      # Images, ads, footer, and layout helpers
 ├── data/
-│   ├── games.ts                 # Related-game catalog and embed allowlist
+│   ├── fan-art.ts               # Curated artwork, character tags, and credits
 │   └── community-posts.ts       # Curated community feed
 ├── lib/
 │   ├── blog-posts.ts            # Localized article records
@@ -158,16 +158,13 @@ Community cards are defined in `data/community-posts.ts`. Keep the creator, plat
 
 Use the original post's publication date, not the date it was added here. After checking the official blog, update `COMMUNITY_LAST_CHECKED`. Posts appear newest first. Add `day3` metadata to official Day 3 posts: use `kind: 'development'` for progress reports and `kind: 'notice'` for related scheduling announcements, with a localized `headline` and optional `points`. The Day 3 page automatically uses these records for its timeline and the latest development post for its main summary, FAQ, and sidebar. Notices do not replace the latest development report. This shares reviewed content between pages; it does not fetch new Tumblr posts automatically.
 
-### Related games
+### Fan art gallery
 
-Add a `GameRecord` to `data/games.ts` and place its cover in `public/images/games/`. Public slugs are generated from the game title.
+Curate artwork in `data/fan-art.ts`. Each image has a stable ID, character slug, creator credit, title, and original post URL. Keep original signatures and watermarks intact. Only tag characters actually visible in that image; do not fill rows with duplicate artwork or official game screenshots. Remote thumbnails are loaded directly from the original Tumblr media host; no social scripts are injected.
 
-For playable browser builds, `gameResourcePath` may be either:
+`/fan-art` supports shareable `?character=pierrot` filters. The homepage shows four mixed artworks and character profiles select their first four matching images. Cards show the character name without creator labels or external links. Images open in an accessible dialog with the artist's original post link. Keep source and attribution information accurate when adding or removing entries. The former `/games` routes permanently redirect to `/fan-art` in the same locale and are excluded from the sitemap.
 
-1. A same-site path beginning with `/`, after uploading the complete HTML5 build and all referenced assets.
-2. A full URL whose origin appears in `GAME_EMBED_ORIGINS`.
-
-Unknown remote origins are rejected. Leave `gameResourcePath` empty to show the game detail page without enabling the player.
+Initial curation status (2026-09-26): 14 images from 8 Tumblr posts. Pierrot, Harlequin, and Ticket Taker have four images each; Jester has two, and Doctor still needs four. The remaining six images and browser visual QA are pending restoration of the browser/network connection. Do not treat the empty-state copy as completion of the four-images-per-character requirement.
 
 ### Images
 
@@ -185,7 +182,7 @@ Follow [IMAGES.md](IMAGES.md) for the current home-page and character naming con
 - English is the `x-default` language and uses prefix-free canonical URLs.
 - Only locales in `INDEXABLE_LOCALES` are included in `hreflang` and sitemap output.
 - Google Fonts, Google AdSense, optional GA4, game iframes, and linked third-party sources may make external requests in the browser.
-- The main game iframe is sandboxed and lazy-started. Related-game iframes are restricted to the origin allowlist in `data/games.ts`.
+- The main game iframe is sandboxed and lazy-started.
 
 Review the privacy page and consent requirements before adding or changing analytics, advertising, embeds, or other third-party scripts.
 
