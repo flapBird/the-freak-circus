@@ -28,15 +28,14 @@
 .fan-art-dialog-content { position: relative; }
 .fan-art-dialog-content > img { display: block; width: 100%; height: min(72dvh, 820px); object-fit: contain; }
 .fan-art-close { position: absolute; z-index: 1; top: 12px; right: 12px; width: 44px; height: 44px; border: 1px solid var(--color-border); border-radius: 50%; font: 28px/1 system-ui, sans-serif; color: #fff; background: #171321; }
-.fan-art-dialog-caption { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 24px; }
+.fan-art-dialog-caption { padding: 20px 24px; }
 .fan-art-dialog-caption h2 { font-size: 1.25rem; margin: 0; }
-.fan-art-dialog-caption p { color: var(--color-muted); margin: 6px 0 0; }
 @media (max-width: 1000px) { .fan-art-grid { gap: 16px; } .fan-art-caption { padding: 12px; } }
 @media (max-width: 760px) {
   .fan-art-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
   .fan-art-section .section-heading-row { align-items: flex-start; flex-direction: column; }
   .fan-art-filters a { padding: 10px 14px; }
-  .fan-art-dialog-caption { flex-direction: column; align-items: flex-start; gap: 12px; padding: 16px; }
+  .fan-art-dialog-caption { padding: 16px; }
   .fan-art-dialog-content > img { height: 60dvh; }
 }
 @media (prefers-reduced-motion: reduce) { .fan-art-card { transition: none; } }

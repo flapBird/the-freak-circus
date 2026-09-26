@@ -16,7 +16,7 @@ An independent, multilingual fan resource for *The Freak Circus*, the psychologi
 - Editorial pages for the current prototype, Day 3 status, downloads, lore, and development updates
 - An article library with build explainers, player guides, and rumor checks
 - A curated community feed with source and attribution fields
-- A community fan art gallery with character filters, artist credits, and image previews
+- A community fan art gallery with character filters, source records, and image previews
 - Seven locale routes: English, Portuguese, Filipino, Vietnamese, Spanish, Indonesian, and Simplified Chinese
 - SEO metadata, canonical and `hreflang` links, JSON-LD, robots rules, and a dynamic XML sitemap
 
@@ -162,7 +162,7 @@ Use the original post's publication date, not the date it was added here. After 
 
 Curate artwork in `data/fan-art.ts`. Each image has a stable ID, character slug, creator credit, title, and original post URL. Keep original signatures and watermarks intact. Only tag characters actually visible in that image; do not fill rows with duplicate artwork or official game screenshots. Remote thumbnails are loaded directly from the original Tumblr media host; no social scripts are injected.
 
-`/fan-art` supports shareable `?character=pierrot` filters. The homepage shows four mixed artworks and character profiles select their first four matching images. Cards show the character name without creator labels or external links. Images open in an accessible dialog with the artist's original post link. Keep source and attribution information accurate when adding or removing entries. The former `/games` routes permanently redirect to `/fan-art` in the same locale and are excluded from the sitemap.
+`/fan-art` supports shareable `?character=pierrot` filters. The homepage shows four mixed artworks and character profiles select their first four matching images. Cards show the character name without creator labels or external links. Images open in an accessible dialog showing only the artwork and title, without creator labels or external links. Keep source and attribution information accurate when adding or removing entries. The former `/games` routes permanently redirect to `/fan-art` in the same locale and are excluded from the sitemap.
 
 Initial curation status (2026-09-26): 14 images from 8 Tumblr posts. Pierrot, Harlequin, and Ticket Taker have four images each; Jester has two, and Doctor still needs four. The remaining six images and browser visual QA are pending restoration of the browser/network connection. Do not treat the empty-state copy as completion of the four-images-per-character requirement.
 

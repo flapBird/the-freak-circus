@@ -39,7 +39,7 @@ export default function FanArtGrid({ items, locale }: { items: readonly FanArtwo
       <div className="fan-art-dialog-content">
         <button className="fan-art-close" onClick={close} aria-label={zh ? '关闭大图' : 'Close artwork'} autoFocus>×</button>
         <ArtworkImage item={selected} locale={locale} enlarged />
-        <div className="fan-art-dialog-caption"><div><h2>{selected.title}</h2><p>@{selected.creator} · Tumblr</p></div><a className="button-secondary" href={selected.sourceUrl} target="_blank" rel="noopener noreferrer">{zh ? '查看原帖' : 'View original'} ↗</a></div>
+        <div className="fan-art-dialog-caption"><h2>{selected.title}</h2></div>
       </div>
     </dialog>}
   </>;
@@ -48,6 +48,6 @@ export default function FanArtGrid({ items, locale }: { items: readonly FanArtwo
 function ArtworkImage({ item, locale, enlarged = false }: { item: FanArtwork; locale: string; enlarged?: boolean }) {
   const [failed, setFailed] = useState(false);
   const lang = editorialLocale(locale);
-  if (failed) return <span className="fan-art-image-unavailable">{lang === 'zh' ? '图片暂不可用，请查看作者原帖' : 'Image unavailable. Visit the artist’s original post.'}</span>;
+  if (failed) return <span className="fan-art-image-unavailable">{lang === 'zh' ? '图片暂不可用，请稍后重试' : 'Image unavailable. Please try again later.'}</span>;
   return <Image src={item.image} alt={`${characterCopy[lang][item.character].name} — ${item.title}, by ${item.creator}`} width={640} height={800} unoptimized loading={enlarged ? 'eager' : 'lazy'} onError={() => setFailed(true)} />;
 }
