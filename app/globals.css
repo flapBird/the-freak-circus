@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 /* Community artwork: shared gallery, home preview, and character selections. */
+.fan-art-section { scroll-margin-top: 88px; }
 .fan-art-intro { color: var(--color-muted); max-width: 680px; margin: -8px 0 28px; font-size: 1.1rem; }
 .fan-art-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
 .fan-art-card { min-width: 0; overflow: hidden; border: 1px solid var(--color-border); border-radius: 16px; background: var(--color-card); transition: border-color .2s, box-shadow .2s; }
@@ -17,26 +18,31 @@
 .fan-art-caption h3 { font-size: 1.15rem; margin: 0; color: var(--color-text); }
 .fan-art-image-unavailable { display: grid; place-items: center; height: 100%; min-height: 220px; padding: 28px; color: var(--color-muted); font-size: 1rem; text-align: center; }
 .fan-art-filters { display: flex; flex-wrap: wrap; gap: 10px; }
-.fan-art-filters a { padding: 10px 20px; border-radius: 999px; border: 1px solid var(--color-border); color: var(--color-muted); background: var(--color-card); font-family: system-ui, sans-serif; font-size: .85rem; }
+.fan-art-filters a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 20px; border-radius: 999px; border: 1px solid var(--color-border); color: var(--color-muted); background: var(--color-card); font-family: system-ui, sans-serif; font-size: .85rem; }
 .fan-art-filters a:hover { color: var(--color-text); border-color: var(--color-violet); }
 .fan-art-filters a[aria-current] { color: #fff; background: #613c94; border-color: #ac84e5; }
 .fan-art-count { margin: 24px 0; font-size: 1.05rem; }
 .fan-art-count span { color: var(--color-muted); }
 .fan-art-empty { padding: 40px 24px; border: 1px dashed var(--color-border); border-radius: 16px; color: var(--color-muted); text-align: center; }
-.fan-art-dialog { padding: 0; width: min(960px, calc(100% - 32px)); max-height: calc(100dvh - 32px); border: 1px solid var(--color-border); border-radius: 16px; color: var(--color-text); background: #11111b; }
+.fan-art-dialog { padding: 0; width: min(960px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overscroll-behavior: contain; border: 1px solid var(--color-border); border-radius: 16px; color: var(--color-text); background: #11111b; }
 .fan-art-dialog::backdrop { background: rgba(0,0,0,.88); backdrop-filter: blur(6px); }
 .fan-art-dialog-content { position: relative; }
-.fan-art-dialog-content > img { display: block; width: 100%; height: min(72dvh, 820px); object-fit: contain; }
-.fan-art-close { position: absolute; z-index: 1; top: 12px; right: 12px; width: 44px; height: 44px; border: 1px solid var(--color-border); border-radius: 50%; font: 28px/1 system-ui, sans-serif; color: #fff; background: #171321; }
+.fan-art-dialog-toolbar { position: sticky; top: 0; z-index: 1; display: flex; justify-content: flex-end; padding: 8px; background: #11111b; }
+.fan-art-dialog-content > img { display: block; width: 100%; height: auto; max-height: min(72dvh, calc(100dvh - 176px), 820px); object-fit: contain; }
+.fan-art-close { flex-shrink: 0; width: 44px; height: 44px; border: 1px solid var(--color-border); border-radius: 50%; font: 28px/1 system-ui, sans-serif; color: #fff; background: #171321; }
 .fan-art-dialog-caption { padding: 20px 24px; }
-.fan-art-dialog-caption h2 { font-size: 1.25rem; margin: 0; }
-@media (max-width: 1000px) { .fan-art-grid { gap: 16px; } .fan-art-caption { padding: 12px; } }
+.fan-art-dialog-caption h2 { font-size: 1.25rem; margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 1000px) { .fan-art-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; } .fan-art-caption { padding: 12px; } }
 @media (max-width: 760px) {
   .fan-art-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
   .fan-art-section .section-heading-row { align-items: flex-start; flex-direction: column; }
   .fan-art-filters a { padding: 10px 14px; }
+  .fan-art-page .fan-art-gallery, .fan-art-section.page-section { padding-block: 32px; }
+  .fan-art-section .text-link { display: inline-flex; align-items: center; min-height: 44px; }
+  .fan-art-image-unavailable { min-height: 0; padding: 12px; font-size: .9rem; }
+  .fan-art-dialog { width: calc(100% - 16px); max-width: calc(100% - 16px); max-height: calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
   .fan-art-dialog-caption { padding: 16px; }
-  .fan-art-dialog-content > img { height: 60dvh; }
+  .fan-art-dialog-content > img { max-height: calc(100dvh - 160px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
 }
 @media (prefers-reduced-motion: reduce) { .fan-art-card { transition: none; } }
 

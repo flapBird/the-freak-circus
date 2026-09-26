@@ -164,7 +164,9 @@ Curate artwork in `data/fan-art.ts`. Each image has a stable ID, character slug,
 
 `/fan-art` supports shareable `?character=pierrot` filters. The homepage shows four mixed artworks and character profiles select their first four matching images. Cards show the character name without creator labels or external links. Images open in an accessible dialog showing only the artwork and title, without creator labels or external links. Keep source and attribution information accurate when adding or removing entries. The former `/games` routes permanently redirect to `/fan-art` in the same locale and are excluded from the sitemap.
 
-Initial curation status (2026-09-26): 14 images from 8 Tumblr posts. Pierrot, Harlequin, and Ticket Taker have four images each; Jester has two, and Doctor still needs four. The remaining six images and browser visual QA are pending restoration of the browser/network connection. Do not treat the empty-state copy as completion of the four-images-per-character requirement.
+Initial curation status (2026-09-26): 14 images from 8 Tumblr posts. Pierrot, Harlequin, and Ticket Taker have four images each; Jester has two, and Doctor still needs four. The remaining six images still need source verification. Do not treat the empty-state copy as completion of the four-images-per-character requirement.
+
+Mobile layout: two columns through 760px, three on tablets through 1000px, and four on wider screens. Filters and the close button have at least 44px touch targets. The image dialog fits the viewport, keeps its close control visible, and restores the page's scroll position on dismissal. Verify small portrait and short landscape viewports when changing these shared components; browser viewport checks do not replace testing mobile Safari on a physical device.
 
 ### Images
 

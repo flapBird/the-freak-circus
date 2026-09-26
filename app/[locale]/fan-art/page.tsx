@@ -29,8 +29,8 @@ export default function FanArtPage({ params: { locale }, searchParams }: Props) 
     </div></header>
     <section className="page-section page-container fan-art-gallery" aria-label={zh ? '社区作品' : 'Community artwork'}>
       <nav className="fan-art-filters" aria-label={zh ? '按角色筛选' : 'Filter by character'}>
-        <Link href={`${prefix}/fan-art`} aria-current={!selected ? 'page' : undefined}>{zh ? '全部作品' : 'All artwork'}</Link>
-        {characterSlugs.map(slug => <Link key={slug} href={`${prefix}/fan-art?character=${slug}`} aria-current={selected === slug ? 'page' : undefined}>{characterCopy[lang][slug].name}</Link>)}
+        <Link href={`${prefix}/fan-art`} scroll={false} aria-current={!selected ? 'page' : undefined}>{zh ? '全部作品' : 'All artwork'}</Link>
+        {characterSlugs.map(slug => <Link key={slug} href={`${prefix}/fan-art?character=${slug}`} scroll={false} aria-current={selected === slug ? 'page' : undefined}>{characterCopy[lang][slug].name}</Link>)}
       </nav>
       <p className="fan-art-count" role="status">{selected ? characterCopy[lang][selected].name : zh ? '全部作品' : 'All artwork'} <span>· {items.length} {zh ? '张作品' : 'artworks'}</span></p>
       {items.length ? <FanArtGrid key={selected ?? 'all'} items={items} locale={locale} /> : <div className="fan-art-empty"><h2>{zh ? '作品整理中' : 'More artwork to come'}</h2><p>{zh ? '这个角色的作品还在整理，先看看其他角色吧。' : 'We’re curating this character’s artwork. Discover the other characters in the meantime.'}</p><Link className="text-link" href={`${prefix}/fan-art`}>{zh ? '浏览全部作品' : 'Browse all artwork'} →</Link></div>}

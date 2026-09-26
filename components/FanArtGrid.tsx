@@ -13,12 +13,17 @@ export default function FanArtGrid({ items, locale }: { items: readonly FanArtwo
   useEffect(() => {
     if (!selected || !dialog.current) return;
     const active = document.activeElement as HTMLElement | null;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const body = document.body;
+    const previous = { position: body.style.position, top: body.style.top, left: body.style.left, right: body.style.right, overflow: body.style.overflow };
     dialog.current.showModal();
-    const overflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+    // A fixed body also prevents background scrolling on mobile Safari.
+    Object.assign(body.style, { position: 'fixed', top: `-${scrollY}px`, left: `-${scrollX}px`, right: '0', overflow: 'hidden' });
     return () => {
-      document.body.style.overflow = overflow;
-      active?.focus();
+      Object.assign(body.style, previous);
+      active?.focus({ preventScroll: true });
+      window.scrollTo({ left: scrollX, top: scrollY, behavior: 'instant' });
     };
   }, [selected]);
   const close = () => { dialog.current?.close(); setSelected(null); };
@@ -37,7 +42,7 @@ export default function FanArtGrid({ items, locale }: { items: readonly FanArtwo
     </div>
     {selected && <dialog ref={dialog} className="fan-art-dialog" aria-label={selected.title} onCancel={close} onClose={() => setSelected(null)} onClick={(event) => { if (event.target === event.currentTarget) close(); }}>
       <div className="fan-art-dialog-content">
-        <button className="fan-art-close" onClick={close} aria-label={zh ? '关闭大图' : 'Close artwork'} autoFocus>×</button>
+        <div className="fan-art-dialog-toolbar"><button className="fan-art-close" onClick={close} aria-label={zh ? '关闭大图' : 'Close artwork'} autoFocus>×</button></div>
         <ArtworkImage item={selected} locale={locale} enlarged />
         <div className="fan-art-dialog-caption"><h2>{selected.title}</h2></div>
       </div>
