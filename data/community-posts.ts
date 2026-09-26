@@ -58,6 +58,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-18',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828144006942818304/weekly-update-day3',
+  // Original post image: https://64.media.tumblr.com/1717a4fd013061ca2f1b3b222b590a3b/8546ae089cd24538-24/s1280x1920/6c0cc1535db2ff81c4c3a819c7001024056e0854.jpg
+  image: '/images/community/weekly-update-day3-20260918.jpg',
+  imageAlt: {
+    en: 'Day 3 development screenshot showing the café boss speaking with the player.',
+    zh: 'Day 3 开发截图：咖啡店老板与玩家对话。',
+  },
   title: { en: 'Weekly Update! – Day 3', zh: 'Day 3 每周开发进展：路线实装与草图' },
   summary: {
     en: 'One route is almost fully functional. Neko has corrected visual glitches and dialogue errors and prepared three or four new placeholder sketches, including scene variations, while programming continues. The update explains why coordinating dialogue, effects, and sprites takes time and shares two development screenshots.',
@@ -80,6 +86,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-18',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828134682948517888/ama-2-answers-part-26',
+  // Original post image: https://64.media.tumblr.com/ed933d7b74be3075c372df66e9ee1c44/5bd37be02ab5feec-0a/s1280x1920/a6323b23af2921a6bd254df7c8dc5c49dbc9780f.png
+  image: '/images/community/ama2-part26-20260918.png',
+  imageAlt: {
+    en: 'AMA 2 Part 26: Pierrot talks about admiring Jester’s adaptability and Doctor’s knowledge.',
+    zh: 'AMA 2 第 26 部分：Pierrot 谈到自己欣赏 Jester 的应变能力与 Doctor 的知识。',
+  },
   title: { en: 'AMA 2 – Answers Part 26', zh: 'AMA 2 – 问答第 26 部分' },
   summary: {
     en: 'The latest cast Q&A explores monster species, circus photography rules, dancing, and character relationships. Doctor describes Pierrot as the troupe’s healthiest member, while Pierrot admires Jester’s adaptability and Doctor’s knowledge. Neko also discusses the challenges of scene pacing, choice-dependent dialogue, and interactive mechanics.',
@@ -93,6 +105,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-11',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513414487343104/ama-2-answers-part-25-12',
+  // Original post image: https://64.media.tumblr.com/859fd79c646c589e340d2886ea280d35/2b38b8683faea987-c4/s1280x1920/35a8b13fd89a712f3e0bfc01a754f1f4ded06239.png
+  image: '/images/community/ama2-part25-2-20260911.png',
+  imageAlt: {
+    en: 'AMA 2 Part 25, second half: Pierrot answers a question in front of the illuminated circus tents.',
+    zh: 'AMA 2 第 25 部分下篇：Pierrot 在灯光明亮的马戏帐篷前回答问题。',
+  },
   title: { en: 'AMA 2 – Answers Part 25 (2/2)', zh: 'AMA 2 – 问答第 25 部分（下篇）' },
   summary: {
     en: 'The second half continues Part 25’s illustrated Q&A. Neko clarifies that “deceased/unknown” labels can reflect characters losing contact after going their separate ways, rather than knowing what happened to one another. The post links back to the first half.',
@@ -106,6 +124,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-11',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513385132441600/ama-2-answers-part-24-%C2%BD',
+  // Original post image: https://64.media.tumblr.com/aed005b1cd8de3cb2e218728382854b9/378dac40524d8d9d-86/s1280x1920/51f3294473eee9f007926da320ea4a938afd10d0.png
+  image: '/images/community/ama2-part25-1-20260911.png',
+  imageAlt: {
+    en: 'AMA 2 Part 25, first half: Pierrot explains that he turns to Jester for guidance.',
+    zh: 'AMA 2 第 25 部分上篇：Pierrot 表示自己会向 Jester 寻求指引。',
+  },
   title: { en: 'AMA 2 – Answers Part 25 (1/2)', zh: 'AMA 2 – 问答第 25 部分（上篇）' },
   summary: {
     en: 'AMA 2 returns with the first half of Part 25, presented as illustrated question-and-answer panels. This installment is split across two posts, with a link to the second half at the end of the original post.',
@@ -119,6 +143,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-11',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827510465631600640/weekly-update-day3',
+  // Original post image: https://64.media.tumblr.com/8070a34c403b82515429deee18c0081c/dddcef019ec28fa7-31/s1280x1920/d06ba45e1824a4f37c77bf2434332af673deae6f.jpg
+  image: '/images/community/weekly-update-day3-20260911.jpg',
+  imageAlt: {
+    en: 'Day 3 development screenshot showing Pierrot leaning closer to whisper to the player.',
+    zh: 'Day 3 开发截图：Pierrot 靠近玩家并低声耳语。',
+  },
   title: { en: 'Weekly Update – Day 3: Branching scenes', zh: 'Day 3 每周开发进展：分支场景制作' },
   summary: {
     en: 'Neko has resumed work after a short break, progressing through code, adjustments, and fixes. A complex section with many choices and branching paths needs extra testing. Backgrounds and sprites have been corrected, and revisions plus new sprites for Doctor are planned when development reaches his scene.',
