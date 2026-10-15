@@ -26,7 +26,7 @@ export type CommunityPost = {
   };
 };
 
-export const COMMUNITY_LAST_CHECKED = '2026-09-26';
+export const COMMUNITY_LAST_CHECKED = '2026-10-15';
 
 // Add reviewed community picks here. Copy the example block below for each new
 // post. Only use a local image after the creator has allowed reuse; sourceUrl is
@@ -52,6 +52,189 @@ export const COMMUNITY_LAST_CHECKED = '2026-09-26';
 
 
 export const COMMUNITY_POSTS: readonly CommunityPost[] = [
+{
+  id: 'ama-2-answers-part-29-2026-10-12',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-12',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/830248258818408448/ama-2-answers-part-29',
+  title: { en: 'AMA 2 – Answers Part 29', zh: 'AMA 2 – 问答第 29 部分' },
+  summary: {
+    en: 'Neko writes the script in Portuguese before translating it into English, adjusting scenes where language changes affect the dialogue. This AMA also revisits the troupe’s earlier days, explains that Pierrot’s feelings for MC are new to him, and leaves a shared universe with Pet Boy undecided. The Tumblr post arrived later than planned because of a team delay.',
+    zh: 'Neko 先用葡萄牙语写剧本，再翻译成英语，并调整因语言差异而受影响的对白。本期还回顾了团员早期的相处，解释 Pierrot 尚不熟悉自己对 MC 的感情；Pet Boy 是否与本作共享世界观仍未决定。因团队事务，本期 Tumblr 问答比原计划晚发布。',
+  },
+  tags: ['AMA2', 'Lore', 'Writing', 'Pierrot'],
+},
+{
+  id: 'weekly-quick-update-day-3-2026-10-09',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-09',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/830046885449515008/weekly-quick-update-day3',
+  title: { en: 'Weekly Quick Update – Day 3', zh: 'Day 3 开发简报：代码与 Columbina 场景' },
+  summary: {
+    en: 'Neko focused on coding and the shop, with placeholder assets still standing in for unfinished scenes. Transitions, choices, and images will be polished once those scenes are settled. A new, very short scene briefly mentions Columbina, whose design is planned soon so flashback silhouettes can remain consistent. No new game artwork or public Day 3 release date was shared.',
+    zh: 'Neko 本周主要推进代码与商店工作，未完成场景仍使用占位素材，待场景确定后再打磨转场、选项和画面。新增了一个简短提及 Columbina 的场景；她的设计也计划近期制作，以保持回忆场景中的剪影一致。本次没有展示新的游戏美术，也未公布 Day 3 的公开发布日期。',
+  },
+  tags: ['Day3', 'DevelopmentUpdate', 'Programming', 'Columbina'],
+  featured: true,
+  day3: {
+    kind: 'development',
+    headline: { en: 'Coding continues with a brief Columbina scene', zh: '代码继续推进，新增简短 Columbina 场景' },
+    points: {
+      en: [
+        'Newly coded scenes still use placeholders and work only partially.',
+        'Transitions, choices, and images will be polished after scene decisions are settled.',
+        'A short new scene briefly mentions Columbina; her character design is planned soon.',
+        'No public Day 3 build or release date was announced.',
+      ],
+      zh: [
+        '新实装的场景仍使用占位素材，目前仅部分可运行。',
+        '场景确定后，再进一步打磨转场、选项与画面。',
+        '新增场景简短提及 Columbina，她的角色设计计划近期制作。',
+        '尚未公布 Day 3 的公开版本或发布日期。',
+      ],
+    },
+  },
+},
+{
+  id: 'neko-canon-community-clarification-2026-10-05',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-05',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829687295604129793/neko-here',
+  title: { en: 'Neko’s Canon and Community Clarification', zh: 'Neko 关于正史与社区沟通的说明' },
+  summary: {
+    en: 'Neko confirms being TFC’s sole creator and developer. The circus members regard one another as family, share no blood relationship, and are not romantically paired with each other; relationships involving MC develop through player choices. Only official blogs and Neko’s official social accounts confirm canon. Moderators’ personal posts are their own views. Neko also addresses Chinese fans, apologizes for misunderstandings, and asks the community to reject cyberbullying.',
+    zh: 'Neko 确认自己仍是 TFC 的唯一创作者与开发者。团员彼此视为家人，没有血缘关系，彼此之间也没有恋爱配对；涉及 MC 的关系由玩家选择发展。正史确认以官方博客及 Neko 的官方社交账号为准，管理员私人博客代表个人观点。Neko 也向中文社区表达感谢、为误会致歉，并呼吁抵制网络霸凌。',
+  },
+  tags: ['CommunityNotice', 'Canon', 'Neko'],
+},
+{
+  id: 'just-a-hi-2026-10-03',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-03',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829422781829677056/just-a-hi',
+  title: { en: 'Just a Hi! – Weekly Update Paused', zh: '近况问候：本周详细周报暂停' },
+  summary: {
+    en: 'Neko skipped the detailed weekly update because of a heavy workload, while reporting continued coding progress and more artwork needed for new scenes. The post also welcomes the new Japan/Korea partnership and mentions possible arrangements for Brazilian fans, with nothing confirmed yet.',
+    zh: '因工作繁忙，Neko 暂停本周的详细开发周报，但代码仍在推进，新场景也需要准备更多美术。本篇同时提及新的日本／韩国合作，以及为巴西粉丝筹备安排的可能性；后者尚未确定。',
+  },
+  tags: ['Day3', 'CommunityNotice', 'WeeklyUpdate'],
+  day3: {
+    kind: 'notice',
+    headline: { en: 'Detailed weekly report skipped; coding continues', zh: '详细周报暂停，代码工作继续' },
+  },
+},
+{
+  id: 'ama-2-answers-part-28-2026-10-02',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-02',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829417297037950976/ama-2-answers-part-28',
+  title: { en: 'AMA 2 – Answers Part 28', zh: 'AMA 2 – 问答第 28 部分' },
+  summary: {
+    en: 'Neko highlights easily missed character traits: Doctor’s curiosity, Jester’s affection, Harlequin’s protectiveness, Ticket Taker’s sociability, and Pierrot’s fears. The cast’s childhoods will be revealed gradually, and their faces are intended to appear eventually, though not necessarily all in the main game. An official Discord remains difficult to manage; sprite packs and an art book are still undecided.',
+    zh: 'Neko 谈到了容易被忽略的角色特点：Doctor 的好奇心、Jester 的温情、Harlequin 的保护欲、Ticket Taker 的善于交际，以及 Pierrot 的恐惧。角色童年会逐步揭示，面容也计划在未来展示，但未必都在主游戏中出现。官方 Discord 的管理仍有困难，立绘包与画集也尚未确定。',
+  },
+  tags: ['AMA2', 'Lore', 'Characters'],
+},
+{
+  id: 'harlequins-pet-comic-2026-10-02',
+  creator: 'destinysquared',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-02',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829371603825655808',
+  title: { en: 'Official Comic – Harlequin’s Pet', zh: '官方漫画：Harlequin 的宠物' },
+  summary: {
+    en: 'The official blog shared Harlequin’s Pet, written by Neko with art and lettering by Destiny and cover inspiration credited to Naomi Itami. It explores Harlequin’s past and outlook. The iguana’s nickname “Aioli” comes from fans and is not canon. Content warning: animal death and death; the comic contains story spoilers.',
+    zh: '官方博客转发漫画《Harlequin 的宠物》，由 Neko 编剧、Destiny 绘画与排字，封面创意署名 Naomi Itami。故事补充 Harlequin 的过去与观念。鬣蜥的昵称“Aioli”来自粉丝，并非正史名字。内容提示：涉及动物死亡与死亡，并含剧情剧透。',
+  },
+  tags: ['OfficialComic', 'Harlequin', 'Lore', 'Spoilers'],
+  sensitive: true,
+},
+{
+  id: 'official-japan-korea-x-account-2026-10-02',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-02',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829337443751919616/official-twitterx-account-for-korea-japan',
+  title: { en: 'Official X Account for Japan and Korea', zh: '日本与韩国官方 X 账号公告' },
+  summary: {
+    en: 'The team announced @FreakCircusJPKR on X, operated by partner diVers LLC for fans in Japan and Korea. Planned posts include development news, merchandise and event information, and press releases. At the time of this announcement, the team said there were no other official TFC X accounts, including an English account.',
+    zh: '团队公布面向日本与韩国粉丝的官方 X 账号 @FreakCircusJPKR，由合作方 diVers LLC 运营，计划分享开发动态、周边与活动信息及新闻公告。该公告发布时，团队表示没有其他 TFC 官方 X 账号，也没有英文官方 X 账号。',
+  },
+  tags: ['CommunityNotice', 'OfficialAccount', 'Japan', 'Korea'],
+},
+{
+  id: 'pierrot-plush-availability-2026-10-01',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-10-01',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829300150476357632/about-the-pierrot-plush-availability',
+  title: { en: 'Pierrot Plush – Availability Clarification', zh: 'Pierrot 毛绒玩偶销售安排说明' },
+  summary: {
+    en: 'The team clarified that Gimme Swag’s 30-day period referred to the public launch, while orders could remain open during production or while stock lasted. Gimme Swag assured the team that delivery dates for orders placed in the original preorder window would not be affected. The post also warns about unauthorized copies of the plush.',
+    zh: '团队澄清，Gimme Swag 所说的 30 天指公开首发期，生产期间或仍有库存时可能继续接受订单。Gimme Swag 向团队保证，原预售期内订单的交付日期不会因此改变。公告同时提醒粉丝留意未经授权的仿制玩偶。',
+  },
+  tags: ['CommunityNotice', 'Pierrot', 'OfficialMerch'],
+},
+{
+  id: 'happy-birthday-jester-2026-09-29',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-29',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829110621879582720/happy-birthday-jester',
+  title: { en: 'Happy Birthday, Jester!', zh: 'Jester 生日快乐！' },
+  summary: {
+    en: 'The official blog celebrated Jester’s birthday with an illustration made with 春醴记工作室 and an additional personal tribute from Neko. The post celebrates the troupe’s purple leader on September 29.',
+    zh: '官方博客于 9 月 29 日庆祝紫色团长 Jester 的生日，发布了与春醴记工作室合作的生日插画，以及 Neko 自己的庆生作品。',
+  },
+  tags: ['Jester', 'Birthday', 'OfficialArt'],
+},
+{
+  id: 'ama-2-answers-part-27-2026-09-25',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-25',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828781377298284544/ama-2-answers-part-27',
+  title: { en: 'AMA 2 – Answers Part 27', zh: 'AMA 2 – 问答第 27 部分' },
+  summary: {
+    en: 'Doctor recalls a warm meal shared after the troupe acquired its trailer, Jester discusses learning Arabic and favorite scents, and Neko explains that Ticket Taker’s design draws on magicians and traditional ringmasters. Future Tumblr AMAs will transcribe fan questions to avoid splitting installments around the image limit.',
+    zh: 'Doctor 回忆团员刚有拖车时一起用餐的温暖时刻，Jester 谈到学习阿拉伯语与喜欢的气味，Neko 则说明 Ticket Taker 的设计主要参考魔术师与传统马戏团长服装。为避免受图片上限影响而拆篇，后续 Tumblr AMA 将用文字转录粉丝问题。',
+  },
+  tags: ['AMA2', 'Lore', 'Doctor', 'Jester', 'TicketTaker'],
+},
+{
+  id: 'weekly-update-day-3-2026-09-25',
+  creator: 'freakcircusofhorrors',
+  platform: 'Tumblr',
+  publishedAt: '2026-09-25',
+  sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828778230530097152/weekly-update-day3',
+  title: { en: 'Weekly Update – Day 3: Café Scene Polish', zh: 'Day 3 每周开发进展：咖啡店场景打磨' },
+  summary: {
+    en: 'Some café choices and situations need more polish, while programming has advanced to the next scene. More sketches and possibly new backgrounds are needed. Neko described being almost halfway through the content planned for the beta test, rather than all of Day 3. Unauthorized Google Play uploads also took time to address; an official store release would receive its own announcement.',
+    zh: '咖啡店部分选项与情境仍需打磨，下一场景的编程也已推进；后续还需要草图，并可能补充新背景。Neko 表示已接近计划用于 Beta 测试内容的一半，并非指整个 Day 3 的完成比例。处理 Google Play 上的盗版上传也占用了时间，正式商店版本会另行公告。',
+  },
+  tags: ['Day3', 'DevelopmentUpdate', 'Programming', 'BetaTesting'],
+  day3: {
+    kind: 'development',
+    headline: { en: 'Café revisions and progress toward the planned beta scope', zh: '调整咖啡店场景，推进计划中的 Beta 测试内容' },
+    points: {
+      en: [
+        'Café choices and situations need further revisions.',
+        'Programming has moved ahead to the next scene; more sketches and backgrounds may be needed.',
+        'The “almost halfway” estimate applies to the planned beta-test content, not the full Day 3 release.',
+      ],
+      zh: [
+        '咖啡店的部分选项与情境仍需调整。',
+        '下一场景的程序工作已推进，可能还需更多草图与背景。',
+        '“接近一半”指计划中的 Beta 测试内容，不代表整个 Day 3 的完成比例。',
+      ],
+    },
+  },
+},
 {
   id: 'weekly-update-day-3-2026-09-18',
   creator: 'freakcircusofhorrors',

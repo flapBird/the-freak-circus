@@ -10,10 +10,10 @@ type PageProps = {
 export function generateMetadata({ params: { locale } }: PageProps) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus 社区：粉丝创作与角色动态' : 'The Freak Circus Community: Fan Art & Updates',
+    title: zh ? 'The Freak Circus 社区：官方周报、角色问答与粉丝创作' : 'The Freak Circus Community: Official Updates, AMA & Fan Art',
     description: zh
-      ? '发现 The Freak Circus 粉丝创作、角色庆生、创意动态，以及围绕 Pierrot、Harlequin 和马戏团成员展开的社区内容。'
-      : 'Discover The Freak Circus fan art, character celebrations, creative posts, and community moments featuring Pierrot, Harlequin, and the circus cast.',
+      ? '关注 The Freak Circus 官方开发周报、角色 AMA 问答、粉丝创作与社区动态，了解 Day 3 和马戏团成员的最新消息。'
+      : 'Follow The Freak Circus official development updates, character AMA answers, fan creations, and community news about Day 3 and the circus cast.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/community`,
   });
 }
@@ -30,8 +30,8 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
         <div className="page-container">
           <h1>{zh ? '社区动态' : 'Community Feed'}</h1>
           <p className="page-hero-lead">{zh
-            ? '发现粉丝创作、角色庆生与值得关注的社区动态。'
-            : 'Discover fan creations, character celebrations, and community moments worth sharing.'}</p>
+            ? '关注官方开发周报、角色 AMA 问答、粉丝创作与值得分享的社区动态。'
+            : 'Follow official development updates, character AMA answers, fan creations, and community moments worth sharing.'}</p>
         </div>
       </header>
 
