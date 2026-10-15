@@ -58,6 +58,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-12',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/830248258818408448/ama-2-answers-part-29',
+  // Original post image: https://64.media.tumblr.com/f6906a3719e428ed44a35277e134e3f5/daceb5c935930b9e-71/s500x750/8f628600e88960ee343323eb73ac4c163318586a.png
+  image: '/images/community/ama2-part29-20261012.png',
+  imageAlt: {
+    en: 'Pierrot recalls the troupe’s earlier days in AMA 2, Part 29.',
+    zh: 'Pierrot 在 AMA 2 第 29 部分中回忆团员早期的相处。',
+  },
   title: { en: 'AMA 2 – Answers Part 29', zh: 'AMA 2 – 问答第 29 部分' },
   summary: {
     en: 'Neko writes the script in Portuguese before translating it into English, adjusting scenes where language changes affect the dialogue. This AMA also revisits the troupe’s earlier days, explains that Pierrot’s feelings for MC are new to him, and leaves a shared universe with Pet Boy undecided. The Tumblr post arrived later than planned because of a team delay.',
@@ -71,6 +77,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-09',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/830046885449515008/weekly-quick-update-day3',
+  // Original post image: https://64.media.tumblr.com/63cc093302c716ae908a99fbfd82bab5/d8080ca6d3bc42b6-c7/s500x750/ec0b502bbcdab582332f8ef9c647a46b60f70c68.jpg
+  image: '/images/community/weekly-update-day3-20261009.jpg',
+  imageAlt: {
+    en: 'Update image with a small Pierrot plush peeking into the café.',
+    zh: '开发周报配图：小小的 Pierrot 玩偶从墙边探头看向咖啡店。',
+  },
   title: { en: 'Weekly Quick Update – Day 3', zh: 'Day 3 开发简报：代码与 Columbina 场景' },
   summary: {
     en: 'Neko focused on coding and the shop, with placeholder assets still standing in for unfinished scenes. Transitions, choices, and images will be polished once those scenes are settled. A new, very short scene briefly mentions Columbina, whose design is planned soon so flashback silhouettes can remain consistent. No new game artwork or public Day 3 release date was shared.',
@@ -133,6 +145,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-02',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829417297037950976/ama-2-answers-part-28',
+  // Original post image: https://64.media.tumblr.com/301220e7e1f7140abdf73f771d844f56/28bb5480cbc5b2c6-c1/s500x750/f8e6bf97426ef823e9d2e42a75ced75b9d502528.png
+  image: '/images/community/ama2-part28-20261002.png',
+  imageAlt: {
+    en: 'Jester and Ticket Taker respond to a fan invitation in AMA 2, Part 28.',
+    zh: 'Jester 与 Ticket Taker 在 AMA 2 第 28 部分中回应粉丝邀约。',
+  },
   title: { en: 'AMA 2 – Answers Part 28', zh: 'AMA 2 – 问答第 28 部分' },
   summary: {
     en: 'Neko highlights easily missed character traits: Doctor’s curiosity, Jester’s affection, Harlequin’s protectiveness, Ticket Taker’s sociability, and Pierrot’s fears. The cast’s childhoods will be revealed gradually, and their faces are intended to appear eventually, though not necessarily all in the main game. An official Discord remains difficult to manage; sprite packs and an art book are still undecided.',
@@ -146,13 +164,19 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-02',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829371603825655808',
+  // Original post image: https://64.media.tumblr.com/fd1d2b4149826490473c542408883347/cf8d27835681db92-f0/s540x810/e6adaa39489c6ecd5c23bb3e71a5af2d096577b1.png
+  image: '/images/community/harlequins-pet-cover-20261002.png',
+  imageAlt: {
+    en: 'Cover of Harlequin’s Pet, written by Neko and illustrated by Destiny, showing Harlequin holding an iguana.',
+    zh: '由 Neko 编剧、Destiny 绘制的《Harlequin 的宠物》漫画封面，Harlequin 怀抱一只鬣蜥。',
+  },
   title: { en: 'Official Comic – Harlequin’s Pet', zh: '官方漫画：Harlequin 的宠物' },
   summary: {
     en: 'The official blog shared Harlequin’s Pet, written by Neko with art and lettering by Destiny and cover inspiration credited to Naomi Itami. It explores Harlequin’s past and outlook. The iguana’s nickname “Aioli” comes from fans and is not canon. Content warning: animal death and death; the comic contains story spoilers.',
     zh: '官方博客转发漫画《Harlequin 的宠物》，由 Neko 编剧、Destiny 绘画与排字，封面创意署名 Naomi Itami。故事补充 Harlequin 的过去与观念。鬣蜥的昵称“Aioli”来自粉丝，并非正史名字。内容提示：涉及动物死亡与死亡，并含剧情剧透。',
   },
   tags: ['OfficialComic', 'Harlequin', 'Lore', 'Spoilers'],
-  sensitive: true,
+  // The selected cover is non-graphic; the summary retains the comic’s content warnings.
 },
 {
   id: 'official-japan-korea-x-account-2026-10-02',
@@ -160,6 +184,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-02',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829337443751919616/official-twitterx-account-for-korea-japan',
+  // Original post image: https://64.media.tumblr.com/bda277e2382b9cbb70f260c5762225e7/6f123e8821993dff-3e/s500x750/4cb0bb62bf9f41df939171f568124b1cdaa27818.png
+  image: '/images/community/official-jpkr-account-20261002.png',
+  imageAlt: {
+    en: 'Screenshot of the official Japan and Korea X account’s launch post with Japanese and Korean text and Pierrot artwork.',
+    zh: '日本与韩国官方 X 账号的首发博文截图，包含日文、韩文公告与 Pierrot 插画。',
+  },
   title: { en: 'Official X Account for Japan and Korea', zh: '日本与韩国官方 X 账号公告' },
   summary: {
     en: 'The team announced @FreakCircusJPKR on X, operated by partner diVers LLC for fans in Japan and Korea. Planned posts include development news, merchandise and event information, and press releases. At the time of this announcement, the team said there were no other official TFC X accounts, including an English account.',
@@ -173,6 +203,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-10-01',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829300150476357632/about-the-pierrot-plush-availability',
+  // Original post image: https://64.media.tumblr.com/caf631716f0aeeb06473d524f9febf1c/05c48a4f5973d0c5-da/s500x750/bc1a557aaec1d45f9b46d799120829941506687f.png
+  image: '/images/community/pierrot-plush-20261001.png',
+  imageAlt: {
+    en: 'Official Pierrot plush with heart-shaped eyes, a red-and-black hat, and a gold ruff.',
+    zh: '官方 Pierrot 毛绒玩偶，带有爱心眼睛、红黑帽子与金色领饰。',
+  },
   title: { en: 'Pierrot Plush – Availability Clarification', zh: 'Pierrot 毛绒玩偶销售安排说明' },
   summary: {
     en: 'The team clarified that Gimme Swag’s 30-day period referred to the public launch, while orders could remain open during production or while stock lasted. Gimme Swag assured the team that delivery dates for orders placed in the original preorder window would not be affected. The post also warns about unauthorized copies of the plush.',
@@ -186,6 +222,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-29',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/829110621879582720/happy-birthday-jester',
+  // Original post image: https://64.media.tumblr.com/5684236158600ba15023d3fae8b390e1/f1df32bbbe3a72f9-7c/s500x750/be9de18b699a87cf31d0fa3be8df30fe1fa9d6ff.png
+  image: '/images/community/jester-birthday-20260929.png',
+  imageAlt: {
+    en: 'Jester with miniature circus members on his gloved hand in Neko’s birthday illustration.',
+    zh: 'Neko 的生日贺图：Jester 的手套上聚集着迷你马戏团成员。',
+  },
   title: { en: 'Happy Birthday, Jester!', zh: 'Jester 生日快乐！' },
   summary: {
     en: 'The official blog celebrated Jester’s birthday with an illustration made with 春醴记工作室 and an additional personal tribute from Neko. The post celebrates the troupe’s purple leader on September 29.',
@@ -199,6 +241,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-25',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828781377298284544/ama-2-answers-part-27',
+  // Original post image: https://64.media.tumblr.com/50e38cd42d58140151720a0b4f05d16f/5251b01042537a30-45/s500x750/0ffb60aab1d77394b3384330963249e6cb18a156.png
+  image: '/images/community/ama2-part27-20260925.png',
+  imageAlt: {
+    en: 'Doctor recalls a warm meal shared by the troupe in AMA 2, Part 27.',
+    zh: 'Doctor 在 AMA 2 第 27 部分中回忆团员共同用餐的温暖时刻。',
+  },
   title: { en: 'AMA 2 – Answers Part 27', zh: 'AMA 2 – 问答第 27 部分' },
   summary: {
     en: 'Doctor recalls a warm meal shared after the troupe acquired its trailer, Jester discusses learning Arabic and favorite scents, and Neko explains that Ticket Taker’s design draws on magicians and traditional ringmasters. Future Tumblr AMAs will transcribe fan questions to avoid splitting installments around the image limit.',
@@ -212,6 +260,12 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   platform: 'Tumblr',
   publishedAt: '2026-09-25',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828778230530097152/weekly-update-day3',
+  // Original post image: https://64.media.tumblr.com/9d3ebc955eec0b13962f9ec769847d26/ee27abf5982eb54b-31/s500x750/c47228c3007c552621f988720009243cf6d7e937.png
+  image: '/images/community/weekly-update-day3-20260925.png',
+  imageAlt: {
+    en: 'Day 3 development screenshot showing Jester and another character as silhouettes in a dark café scene.',
+    zh: 'Day 3 开发截图：Jester 与另一名角色以剪影形式出现在昏暗的咖啡店场景中。',
+  },
   title: { en: 'Weekly Update – Day 3: Café Scene Polish', zh: 'Day 3 每周开发进展：咖啡店场景打磨' },
   summary: {
     en: 'Some café choices and situations need more polish, while programming has advanced to the next scene. More sketches and possibly new backgrounds are needed. Neko described being almost halfway through the content planned for the beta test, rather than all of Day 3. Unauthorized Google Play uploads also took time to address; an official store release would receive its own announcement.',

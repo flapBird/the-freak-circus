@@ -59,7 +59,7 @@ The site is maintained in English and Simplified Chinese. English URLs are canon
 
 ## Optional
 
-- [Community](https://thefreakcircus.help/community): Curated English and Chinese summaries of official Tumblr development reports, character AMA answers through Part 29 (2026-10-12), and selected community content. Original sources are retained for editorial verification; this feed is not a primary release source.
+- [Community](https://thefreakcircus.help/community): Curated English and Chinese summaries of official Tumblr development reports, character AMA answers through Part 29 (2026-10-12), and selected community content, with representative original post images where available. Original sources are retained for editorial verification; this feed is not a primary release source.
 - [Fan art gallery](https://thefreakcircus.help/fan-art): Selected community artwork with character filters and image previews.
 - [Contact and corrections](https://thefreakcircus.help/contact): How readers can report factual errors or request content corrections.
 - [Privacy policy](https://thefreakcircus.help/privacy): Privacy information for site visitors.
