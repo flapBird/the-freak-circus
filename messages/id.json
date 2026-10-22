@@ -115,7 +115,7 @@
       "Jangan muat ulang simpanan saat permainan pertama Anda. Keputusan alami Anda menghasilkan pengalaman yang paling bermakna.",
       "Mainkan setidaknya dua kali — permainan kedua akan mengungkap dialog dan adegan yang terlewat yang tidak bisa Anda lihat pada kali pertama.",
       "Perhatikan dengan cermat Pembawa Tiket. Dia mengatakan lebih banyak daripada yang terlihat sepanjang cerita.",
-      "Setiap rute karakter memiliki Akhir Baik dan setidaknya satu Akhir Buruk. Kondisinya spesifik — lihat panduan setelah permainan pertama Anda.",
+      "Hanya satu akhir yang bisa diselesaikan pada versi saat ini, dan itu adalah akhir buruk. Akhir Pierrot, Harlequin, Protagonis, dan \"All together\" sudah diumumkan tetapi masih dikembangkan, jadi branchnya masih belum lengkap.",
       "Gunakan sistem simpan pada titik keputusan penting untuk menjelajahi jalur alternatif tanpa kehilangan kemajuan."
     ],
     "whyPlayTitle": "Kenapa Bermain?",
@@ -162,8 +162,8 @@
     "triviaTitle": "Trivia Karakter & Fakta Menarik",
     "trivia": [
       {
-        "q": "Seberapa tinggi Pierrot dari The Freak Circus?",
-        "a": "Tinggi resmi Pierrot belum diungkapkan oleh pengembang. Perkiraan penggemar berdasarkan perbandingan sprite dalam permainan menunjukkan bahwa ia memiliki postur rata-rata hingga tinggi. Periksa halaman karakter <a href=\"/en/characters/pierrot\">Pierrot</a> untuk detail lebih lanjut."
+        "q": "Tinggi Pierrot di The Freak Circus berapa?",
+        "a": "Pierrot setinggi 198 cm, sekitar 6 kaki 5,95 inci, menurut tabel tinggi yang dipublikasikan pengembang. Ia juga menempati posisi ketiga dari lima dalam urutan usia resmi, dari yang tertua. Lihat <a href=\"/characters/heights\">halaman tinggi dan peringkat</a>."
       },
       {
         "q": "Apakah Pierrot tipe yandere?",
@@ -178,12 +178,12 @@
         "a": "Latar belakang Columbina sengaja dibuat ambigu dan terungkap secara sebagian melalui jalur Pierrot dan Harlequin. Dia hanya muncul dalam adegan kilas balik dan menjadi pusat untuk memahami sejarah tersembunyi sirkus. Baca halaman lore <a href=\"/en/characters/columbina\">Columbina</a> untuk informasi yang diketahui."
       },
       {
-        "q": "Apakah bisa menjalin hubungan romantis dengan Ticket Taker?",
-        "a": "Ya. Ticket Taker memiliki jalur yang dapat diromantisasi di The Freak Circus. Jalurnya membutuhkan ketekunan dan perhatian khusus pada dialog. Dia mengungkap lore terdalam tentang asal-usul sirkus. Lihat panduan jalur <a href=\"/en/characters/ticket-taker\">Ticket Taker</a> untuk tips."
+        "q": "Bisaigtsa pacar Pengambil Tiket?",
+        "a": "Tidak. Pengembang mengonfirmasi tidak ada rute Pengambil Tiket — pilihannya adalah Pierrot, Harlequin, keduanya, atau tidak ada. Membuat karakter lain menjadi pilihan romantis disebut sebagai kemungkinan, bukan janji. Lihat <a href=\"/endings\">halaman akhir dan rute</a>."
       },
       {
-        "q": "Apakah The Doctor memiliki akhir yang baik?",
-        "a": "Ya, jalur Doctor memiliki setidaknya satu Akhir Baik. Jalur Doctor telah diperluas dengan konten tambahan. Terima adegannya saat pemeriksaan dan pilih dialog tertentu untuk membuka akhir Clean Hands. Lihat halaman karakter <a href=\"/en/characters/the-doctor\">Doctor</a> untuk detail."
+        "q": "Apakah Dokter punya akhir baik?",
+        "a": "Tidak. Dokter tidak memiliki rute maupun akhir pada versi saat ini. Satu-satunya akhir yang ada adalah akhir buruk \"Missing\" di Hari 1; akhir Pierrot, Harlequin, Protagonis, dan \"All together\" sudah diumumkan tetapi belum diimplementasikan."
       }
     ]
   },
@@ -204,7 +204,7 @@
           "Puitis",
           "Berbahaya"
         ],
-        "routeTip": "Pilih dialog introspektif dan empatik pada Hari 1. Hindari pembangkangan pada Hari 2 untuk membuka Akhir Baik."
+        "routeTip": "Rute romantis yang direncanakan. Naskahnya masih dikembangkan — belum ada syarat pemicu yang dipublikasikan."
       },
       {
         "id": "harlequin",
@@ -217,46 +217,46 @@
           "Protektif",
           "Bertingkat"
         ],
-        "routeTip": "Pilih balon merah pada Hari 1. Gunakan respons berani dan suka bermain selama pertemuan di tenda."
+        "routeTip": "Rute romantis yang direncanakan. Naskahnya masih dikembangkan — belum ada syarat pemicu yang dipublikasikan."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "Si Penipu",
-        "description": "Jester berada di antara para penghibur lain, tidak sepenuhnya setia maupun sepenuhnya antagonis. Jalurnya mengeksplorasi etika hiburan dan apa artinya membuat orang lain tertawa.",
+        "description": "Jester berada di antara parapemain pemain lain, tidak sepenuhnya setia maupun sepenuhnya antagonis.",
         "traits": [
           "Ambigu",
           "Cerdas",
           "Kesepian",
           "Berdasarkan perhitungan"
         ],
-        "routeTip": "Jalur Jester terbuka pada Hari 2. Tanggapi dengan humor tetapi hindari konfrontasi langsung."
+        "routeTip": "Diperkenalkan pada versi 0.2. Pengembang mengonfirmasi tidak ada rute Jester; dia bagian dari pelaku yang lebih luas karakter yang lebih luas."
       },
       {
         "id": "ticket-taker",
         "name": "Pengambil Tiket",
         "role": "Penjaga Gerbang",
-        "description": "Karakter pertama yang kamu temui. Pengambil Tiket mengontrol siapa yang masuk dan siapa yang keluar, dan telah mengamati semuanya di sirkus ini lebih lama daripada yang disadari orang lain.",
+        "description": "Karakter pertama yang kamu temui. Pengambil Tiket mengendalikan siapa yang boleh masuk dan keluar, dan sudah lama mengamati segalanya di sirkus ini. Versi saat ini memperkenalkan dia tanpa membuka rute sendiri.",
         "traits": [
           "Pengamat",
           "Misterius",
           "Tegas",
           "Kuno"
         ],
-        "routeTip": "Terlibat langsung dengan setiap pertanyaan yang diajukan Pengambil Tiket. Jalurnya membutuhkan ketekunan."
+        "routeTip": "Diperkenalkan pada versi 0.2. Pengembang mengonfirmasi tidak ada rute Pengambil Tiket."
       },
       {
         "id": "doctor",
         "name": "Dokter",
         "role": "Ahli Bedah Rahasia",
-        "description": "Jalur Dokter adalah yang paling baru diperluas dan berisi beberapa konten tergelap dalam permainan. Dia metodis, intim, dan sangat mengganggu.",
+        "description": "Dokter menghadirkan register yang lebih dingin dan klinis bagi sirkus. Dia teliti dan membuat gelisah, dan versi saat ini memperkenalkan dia tanpa membuka rute sendiri.",
         "traits": [
           "Klinis",
           "Intim",
           "Mengontrol",
           "Kompleks"
         ],
-        "routeTip": "Konten Dokter sebagian besar terdapat pada Hari 2. Terima adegan pemeriksaannya untuk melanjutkan jalurnya."
+        "routeTip": "Diperkenalkan pada versi 0.2. Pengembang mengonfirmasi tidak ada rute Dokter."
       }
     ],
     "pierrot": {

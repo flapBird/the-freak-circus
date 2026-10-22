@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
+import { CONTENT_WARNINGS, PLATFORMS, SHIPPED_LANGUAGES, VOICE_ACTING } from '@/lib/game-facts';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
@@ -64,6 +65,38 @@ export default function DownloadPage({ params: { locale } }: { params: { locale:
             <div className="faq-grid">
               {c.troubleshooting.map((item) => <div className="faq-item" key={item.q}><h3>{item.q}</h3><p>{item.a}</p></div>)}
             </div>
+          </article>
+
+          <article className="reference-card">
+            <h2>{c.platformsTitle}</h2>
+            <p>{c.platformsIntro}</p>
+            <table className="fact-table"><tbody>
+              {PLATFORMS.map((platform) => (
+                <tr key={platform.key}><th>{platform.name}</th><td>{platform.detail}</td></tr>
+              ))}
+            </tbody></table>
+            <h3>{c.languagesTitle}</h3>
+            <p>{c.languagesIntro}</p>
+            <ul>
+              {SHIPPED_LANGUAGES.map((language) => <li key={language.key}>{language.name}</li>)}
+            </ul>
+            <p className="file-list-note">{c.voiceNote}</p>
+          </article>
+
+          <article className="reference-card">
+            <h2>{c.warningsTitle}</h2>
+            <p>{c.warningsIntro}</p>
+            <ul className="guide-list">
+              {CONTENT_WARNINGS.map((warning) => <li key={warning}>{warning}</li>)}
+            </ul>
+          </article>
+
+          <article className="reference-card">
+            <h2>{c.fakeTitle}</h2>
+            <p>{c.fakeIntro}</p>
+            <ul className="guide-list">
+              {c.fakeSigns.map((sign) => <li key={sign}>{sign}</li>)}
+            </ul>
           </article>
         </div>
 
@@ -139,6 +172,18 @@ const enCopy = {
     { q: 'A download page looks different', a: 'Stop if the publisher, domain, version, or file type does not match the verified listing.' },
   ],
   snapshot: 'CURRENT LISTING', version: 'VERSION', status: 'STATUS', priceLabel: 'PRICE', price: 'Name your own price', rating: 'RATING', session: 'SESSION', sessionValue: 'About half an hour', languages: 'LANGUAGES',
+  platformsTitle: 'Supported platforms', platformsIntro: 'The current build ships for every platform below. Availability and file sizes change when the developer uploads a new build.',
+  languagesTitle: 'Languages and voice acting', languagesIntro: 'The game ships in these languages:',
+  voiceNote: `Voice acting is ${VOICE_ACTING}`,
+  warningsTitle: 'Content warnings', warningsIntro: 'The game is rated 18+. The developer publishes the following warning list — worth reading first if you are deciding how much of the story to read before starting.',
+  fakeTitle: 'How to spot a fake download', fakeIntro: 'The itch.io page above is the only official source. The developer has asked that the game not be re-uploaded or reposted, and has confirmed there is no official Discord server, so every server should be treated as fan-run. These are the warning signs:',
+  fakeSigns: [
+    'Any site offering the full build outside the official itch.io page.',
+    'A required "verification" program, launcher, or browser extension.',
+    'A download that turns out to be an installer for something unrelated.',
+    'Any request to disable antivirus protection or ignore system security warnings.',
+    'A different publisher, domain, or version number than the official listing.',
+  ],
   filesTitle: 'Version 0.2 files', fileNote: 'Sizes were checked on 2026-08-15 and can change when a new build is uploaded.', related: 'Related pages', fullGuide: 'Browser vs. download article',
 };
 
@@ -175,5 +220,17 @@ const zhCopy: typeof enCopy = {
     { q: '下载页面看起来不一样', a: '如果发布者、域名、版本或文件类型与核验信息不一致，请停止下载。' },
   ],
   snapshot: '当前版本', version: '版本', status: '状态', priceLabel: '价格', price: '自由定价', rating: '年龄', session: '时长', sessionValue: '约半小时', languages: '语言',
+  platformsTitle: '支持的平台', platformsIntro: '当前版本覆盖下列全部平台。开发者上传新版本后，可用性与文件大小会随之变化。',
+  languagesTitle: '语言与配音', languagesIntro: '游戏提供以下语言：',
+  voiceNote: `配音为${VOICE_ACTING}`,
+  warningsTitle: '内容警告', warningsIntro: '游戏评级为 18+。开发者公开了以下警告清单——如果你正在决定先读多少剧情再开始游玩，这份清单值得先看。',
+  fakeTitle: '如何识别假下载', fakeIntro: '上方 itch.io 页面是唯一官方来源。开发者要求不要重新上传或转载本作，并确认不存在官方 Discord 服务器，因此所有服务器都应视为粉丝自建。以下是需要警惕的迹象：',
+  fakeSigns: [
+    '任何在官方 itch.io 页面之外提供完整下载的站点。',
+    '要求安装额外的"验证"程序、启动器或浏览器扩展。',
+    '下载后实际却是其他无关软件的安装包。',
+    '要求关闭杀毒软件或忽略系统安全警告。',
+    '发布者、域名或版本号与官方列表不一致。',
+  ],
   filesTitle: '0.2 版本文件', fileNote: '文件大小核验于 2026-08-15，新版本上传后可能变化。', related: '相关页面', fullGuide: '浏览器版与下载版比较',
 };

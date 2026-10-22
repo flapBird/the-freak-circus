@@ -24,6 +24,15 @@ const nextConfig = {
       { source: '/blog/what-is-the-freak-circus', destination: '/blog/current-prototype-guide', permanent: true },
       { source: '/blog/pierrot-route-guide', destination: '/blog/current-prototype-guide', permanent: true },
       { source: '/blog/harlequin-character-guide', destination: '/blog/day-3-rumor-checklist', permanent: true },
+      // Pages that shipped in earlier sitemaps (2026-07) and later moved. They
+      // are no longer in the sitemap, but Google still holds them from the old
+      // submissions, so they need a permanent redirect instead of a 404.
+      { source: '/news', destination: '/updates', permanent: true },
+      { source: '/walkthrough', destination: '/blog', permanent: true },
+      { source: '/walkthrough/day-1', destination: '/blog/day-1-walkthrough-first-playthrough', permanent: true },
+      { source: '/walkthrough/day-2', destination: '/blog/day-2-walkthrough-save-strategy', permanent: true },
+      { source: '/walkthrough/day-3', destination: '/day-3', permanent: true },
+      { source: '/walkthrough/:slug', destination: '/blog/:slug', permanent: true },
     ];
   },
   async rewrites() {

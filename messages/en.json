@@ -115,7 +115,7 @@
       "Do not reload saves on your first playthrough. Your natural decisions lead to the most meaningful experience.",
       "Play through at least twice — a second run reveals missed dialogue and scenes you cannot see the first time.",
       "Pay close attention to the Ticket Taker. He says more than he appears to say throughout the story.",
-      "Each character route has a Good Ending and at least one Bad Ending. The conditions are specific — refer to the walkthrough after your first play.",
+      "Only one ending is playable in the current build, and it is a bad one. The Pierrot, Harlequin, Protagonist, and \"All together\" endings are announced but still in development, so expect the branching to be unfinished.",
       "Use the save system at major decision points to explore alternative paths without losing progress."
     ],
     "whyPlayTitle": "Why Play?",
@@ -163,11 +163,11 @@
     "trivia": [
       {
         "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot official height has not been disclosed by the developer. Fan estimates based on in-game sprite comparisons suggest he is of average to tall build. Check the <a href=\"/en/characters/pierrot\">Pierrot character page</a> for more details."
+        "a": "Pierrot is 198 cm, roughly 6 ft 5.95 in, in the developer's published height chart. It also places him third of five in the official age order, oldest first. See the <a href=\"/characters/heights\">height and ranking page</a>."
       },
       {
         "q": "Is Pierrot a yandere type?",
-        "a": "Pierrot is frequently categorized by fans as a 'silent yandere' — his possessiveness develops gradually rather than manifesting immediately. His route explores themes of obsession and emotional control. Visit the <a href=\"/en/characters/pierrot\">Pierrot route guide</a> for more insight."
+        "a": "The official synopsis describes Pierrot as \"the silent yandere\", so the label comes from the developer rather than from fan categorisation. His silence is a deliberate characterisation. His planned route explores obsession and emotional control, but that route is still in development."
       },
       {
         "q": "What is Harlequin relationship with Pierrot?",
@@ -179,11 +179,11 @@
       },
       {
         "q": "Can you romance the Ticket Taker?",
-        "a": "Yes. The Ticket Taker has a romanceable route in The Freak Circus. His route requires persistence and careful attention to dialogue. He reveals the deepest lore about the circus origins. See the <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> for tips."
+        "a": "No. The developer has confirmed there is no Ticket Taker route — the route options are Pierrot, Harlequin, both, or neither. Making the remaining characters romance options is described as a possibility rather than a commitment. See the <a href=\"/endings\">endings and routes page</a>."
       },
       {
         "q": "Does The Doctor have a good ending?",
-        "a": "Yes, the Doctor route has at least one Good Ending. The Doctor route has been expanded with additional content. Accept his examination scenes and make specific dialogue choices to unlock the Clean Hands ending. See the <a href=\"/en/characters/the-doctor\">Doctor character page</a> for details."
+        "a": "No. The Doctor has no route and no ending in the current build. The only ending that exists is the \"Missing\" bad ending on Day 1; Pierrot, Harlequin, the Protagonist, and \"All together\" are announced but not yet implemented."
       }
     ]
   },
@@ -204,7 +204,7 @@
           "Poetic",
           "Dangerous"
         ],
-        "routeTip": "Choose introspective and empathetic dialogue in Day 1. Avoid defiance in Day 2 to unlock the Good Ending."
+        "routeTip": "Planned romance route. The script for it is still in development — no trigger conditions exist publicly yet."
       },
       {
         "id": "harlequin",
@@ -217,46 +217,46 @@
           "Protective",
           "Layered"
         ],
-        "routeTip": "Select the red balloon in Day 1. Use bold, playful responses during tent encounters."
+        "routeTip": "Planned romance route. The script for it is still in development — no trigger conditions exist publicly yet."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "The Trickster",
-        "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. His route explores the ethics of entertainment and what it means to make others laugh.",
+        "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He widens the circus beyond its central rivalry and keeps a larger purpose to himself, and the current build introduces him without opening a route of his own.",
         "traits": [
           "Ambiguous",
           "Quick-witted",
           "Lonely",
           "Calculating"
         ],
-        "routeTip": "Jester's route unlocks in Day 2. Respond with humor but avoid direct confrontation."
+        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Jester route; the character appears as part of the wider cast."
       },
       {
         "id": "ticket-taker",
         "name": "Ticket Taker",
         "role": "The Gatekeeper",
-        "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize.",
+        "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for a long time. The current build introduces him without opening a route of his own.",
         "traits": [
           "Observant",
           "Cryptic",
           "Stern",
           "Ancient"
         ],
-        "routeTip": "Engage directly with every question the Ticket Taker asks. His route requires persistence."
+        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Ticket Taker route."
       },
       {
         "id": "doctor",
         "name": "Doctor",
         "role": "The Surgeon of Secrets",
-        "description": "The Doctor's route is the most recently expanded and contains some of the game's darkest content. He is methodical, intimate, and deeply unsettling.",
+        "description": "The Doctor brings a colder, clinical register to the circus. He is methodical and unsettling, and the current build introduces him without opening a route of his own.",
         "traits": [
           "Clinical",
           "Intimate",
           "Controlling",
           "Complex"
         ],
-        "routeTip": "The Doctor's content is largely contained to Day 2. Accept his examination scenes to progress his route."
+        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Doctor route."
       }
     ],
     "pierrot": {
@@ -494,7 +494,7 @@
       "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
     },
     "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia资料 including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
+    "overviewP1": "This page provides complete The Freak Circus encyclopedia including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
     "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
     "loreTitle": "World & Circus Setting",
     "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
