@@ -213,7 +213,7 @@ export default function HomeContent({ locale }: { locale: string }) {
                     <span aria-hidden="true">{review.author.charAt(0).toUpperCase()}</span>
                     <div>
                       <h3>{review.author}</h3>
-                      <time dateTime={review.isoDate}>{review.date}</time>
+                      <time dateTime={review.isoDate}>{formatUpdateDate(review.isoDate, locale)}</time>
                     </div>
                   </div>
                   <blockquote>“{review.quote}”</blockquote>
@@ -228,6 +228,20 @@ export default function HomeContent({ locale }: { locale: string }) {
   );
 }
 
+/**
+ * Placeholder spellings accepted in landing.heroLead, mapped to the canonical
+ * character slug. Translations may use the slug itself or a shorter alias.
+ */
+const HERO_LEAD_SLUGS: Record<string, CharacterSlug> = {
+  pierrot: 'pierrot',
+  harlequin: 'harlequin',
+  jester: 'jester',
+  'the-doctor': 'the-doctor',
+  doctor: 'the-doctor',
+  'ticket-taker': 'ticket-taker',
+  ticketTaker: 'ticket-taker',
+};
+
 function HomeHeroLead({ locale }: { locale: string }) {
   const p = locale === 'en' ? '' : `/${locale}`;
   const zh = editorialLocale(locale) === 'zh';
@@ -237,17 +251,20 @@ function HomeHeroLead({ locale }: { locale: string }) {
     </Link>
   );
 
-  if (zh) {
-    return (
-      <p className="home-hero-lead">
-        The Freak Circus 是一个浪漫与恐怖融为一体的世界。{name('pierrot', 'Pierrot')}沉默的爱意逐渐腐化为执念，{name('harlequin', 'Harlequin')}的魅力背后暗藏危险——而当{name('jester', 'Jester')}、{name('the-doctor', 'Doctor')}与{name('ticket-taker', 'Ticket Taker')}踏入舞台，身为咖啡店员工的主角也被拖入更深的魔咒之中，在这里，爱可能和它表现出来的一样真实，也同样危险。
-      </p>
-    );
-  }
+  // The hero lead is a translated template with character placeholders, so the
+  // character names stay linked in every language. Translations may spell a
+  // placeholder either as the character slug ({the-doctor}) or in a friendlier
+  // camelCase form ({doctor}), so both forms map to the same slug.
+  const heroLead = tMsg(locale, 'landing.heroLead');
+  const heroParts = heroLead.split(/(\{(?:pierrot|harlequin|jester|the-doctor|doctor|ticket-taker|ticketTaker)\})/g);
 
   return (
     <p className="home-hero-lead">
-      The Freak Circus is a world where romance and horror collapse into one. {name('pierrot', 'Pierrot')}&apos;s silent devotion curdles into obsession, {name('harlequin', 'Harlequin')}&apos;s charm hides danger — and as the {name('jester', 'Jester')}, {name('the-doctor', 'Doctor')}, and {name('ticket-taker', 'Ticket Taker')} enter the ring, the café-worker protagonist is pulled deeper into a spell where love may be as dangerous as it is real.
+      {heroParts.map((part, index) => {
+        const slug = HERO_LEAD_SLUGS[part.replace(/[{}]/g, '')];
+        if (!slug) return part;
+        return name(slug, characterCopy[editorialLocale(locale)][slug].name);
+      })}
     </p>
   );
 }
@@ -258,37 +275,31 @@ const playerReviews = [
   {
     author: 'Dry land',
     isoDate: '2026-08-15',
-    date: 'Aug 15, 2026',
     quote: 'Honestly this is peak of video game. I would pay 10 dollar for it if I had a bank account.',
   },
   {
     author: 'Luucyroach',
     isoDate: '2026-08-15',
-    date: 'Aug 15, 2026',
     quote: 'WE. NEED. TO. SEE. JESTER MORE. He\'s so cute.',
   },
   {
     author: 'hellary020',
     isoDate: '2026-08-15',
-    date: 'Aug 15, 2026',
     quote: 'I don\'t even know how many times I played this, the characters are soooo damn fine! I can\'t wait for day 3 to release.',
   },
   {
     author: 'Bby.rye',
     isoDate: '2026-08-14',
-    date: 'Aug 14, 2026',
     quote: 'I came from Instagram and am absolutely obsessed. This game deserves much more recognition, and I\'m incredibly excited for the next update.',
   },
   {
     author: 'Kitunes19',
     isoDate: '2026-08-14',
-    date: 'Aug 14, 2026',
     quote: 'I can\'t wait for the update! Great game, I can tell a lot of love was put into it.',
   },
   {
     author: 'yus337',
     isoDate: '2026-08-14',
-    date: 'Aug 14, 2026',
     quote: 'This game is definitely worth trying and pretty interesting.',
   },
 ];
