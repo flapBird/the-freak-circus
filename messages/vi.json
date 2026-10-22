@@ -175,7 +175,35 @@
       "jester": "Người kể chuyện và nhân chứng thầm lặng của rạp xiếc, hé lộ truyền thuyết bi tráng về Columbina qua những buổi múa rối phơi bày những sự thật tối tăm nhất của buổi biểu diễn.",
       "the-doctor": "Một bác sĩ dịch hạch tiến hành những thí nghiệm đáng sợ bên trong Cyan Tent, nghiên cứu chính nỗi sợ hãi và soi mò vùng tối hơn của đạo đức y khoa.",
       "ticket-taker": "Một kẻ thao túng hiện thực, đứng trước Tent of Mirrors, dùng những hình phản chiếu méo mó để lột trần mặt thật của từng quái vật."
-    }
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Các kết cục và tuyến truyện",
+        "text": "Kết cục duy nhất bạn có thể đạt được hiện tại và bốn kết cục vẫn đang được phát triển.",
+        "cta": "Xem hướng dẫn các kết cục"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Chiều cao và thứ tự tuổi",
+        "text": "Bảng chiều cao, thứ tự tuổi và bảng xếp hạng sức mạnh do nhà phát triển công bố.",
+        "cta": "Xem toàn bộ bảng"
+      },
+      {
+        "href": "/save",
+        "title": "Lưu game và chơi tiếp",
+        "text": "Những gì engine thực sự hỗ trợ và những chi tiết về save chưa từng được tài liệu hóa.",
+        "cta": "Xem hướng dẫn lưu game"
+      },
+      {
+        "href": "/faq",
+        "title": "Câu hỏi thường gặp",
+        "text": "Câu trả lời ngắn về cách chơi, tải xuống, các kết cục và nhân vật.",
+        "cta": "Đọc phần câu hỏi thường gặp"
+      }
+    ],
+    "storyLink": "Câu chuyện của {name}",
+    "adLabel": "Quảng cáo"
   },
   "siteFooter": {
     "note": "Khám phá một thế giới rạp xiếc rùng rợn, được tạo nên bởi ám ảnh, thao túng và cạnh tranh, nơi Pierrot và Harlequin kéo bạn vào một trải nghiệm tiểu thuyết hình ảnh đầy ám ảnh.",

@@ -175,7 +175,35 @@
       "jester": "O narrador do circo e testemunha silenciosa, que desfaz a lenda trágica de Columbina por meio de espetáculos de marionetes que expõem as verdades mais escuras do show.",
       "the-doctor": "Um médico da peste que realiza experimentos sinistros dentro da Cyan Tent, estudando o próprio medo e sondando os limites mais sombrios da ética médica.",
       "ticket-taker": "Um manipulador da realidade que preside o Tent of Mirrors e usa reflexos distorcidos para revelar o rosto verdadeiro de cada monstro."
-    }
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Finais e rotas",
+        "text": "O único final que você pode alcançar hoje e os quatro que ainda estão em desenvolvimento.",
+        "cta": "Ver o guia de finais"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Alturas e ordem de idade",
+        "text": "A tabela de alturas, a ordem de idade e o ranking de força publicados pelo desenvolvedor.",
+        "cta": "Ver a tabela completa"
+      },
+      {
+        "href": "/save",
+        "title": "Salvar e continuar",
+        "text": "O que o motor realmente suporta e quais detalhes do save nunca foram documentados.",
+        "cta": "Ver o guia de save"
+      },
+      {
+        "href": "/faq",
+        "title": "Perguntas frequentes",
+        "text": "Respostas curtas sobre jogar, baixar, os finais e os personagens.",
+        "cta": "Ler as perguntas frequentes"
+      }
+    ],
+    "storyLink": "A história de {name}",
+    "adLabel": "Publicidade"
   },
   "siteFooter": {
     "note": "Descubra um mundo de circo perturbador, moldado por obsessão, manipulação e rivalidade, onde Pierrot e Harlequin arrastam você para uma experiência de visual novel que fica na cabeça.",

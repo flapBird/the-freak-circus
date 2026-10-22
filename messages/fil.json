@@ -175,7 +175,35 @@
       "jester": "Ang tagasalita ng kuwento at tahimik na witness ng sirko, na naglalabas ng trahedyang alamat ni Columbina sa pamamagitan ng mga puppet show na nagbubukas sa pinakamadmim na katotohanan ng pagtatanghal.",
       "the-doctor": "Isang plague doctor na nagsasagawa ng makahihiyat na eksperimento sa loob ng Cyan Tent, nag-aaral mismo ng takot at sumusukat sa pinakamadilim na gilid ng etika ng medisina.",
       "ticket-taker": "Isang manipulador ng realidad na nangingibabaw sa Tent of Mirrors, gumagamit ng mga naliligaw na salamin upang mailantad ang tunay na mukha ng bawat monster."
-    }
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Mga ending at ruta",
+        "text": "Ang iisang ending na maaaring maabot ngayon, at ang apat na nasa development pa.",
+        "cta": "Tingnan ang gabay sa mga ending"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Mga taas at pagkakasunod ng edad",
+        "text": "Ang opisyal na talahanayan ng taas, pagkakasunod ng edad, at rangking ng lakas ng developer.",
+        "cta": "Tingnan ang buong talahanayan"
+      },
+      {
+        "href": "/save",
+        "title": "Pag-save at pagpapatuloy",
+        "text": "Ang tunay na sinusuportahan ng engine, at aling detalye ng save na hindi kailanman naidokumento.",
+        "cta": "Tingnan ang gabay sa pag-save"
+      },
+      {
+        "href": "/faq",
+        "title": "Mga madalas itanong",
+        "text": "Mga maikling sagot sa paglalaro, pag-download, mga ending, at mga tauhan.",
+        "cta": "Basahin ang mga madalas itanong"
+      }
+    ],
+    "storyLink": "Ang Kwento ni {name}",
+    "adLabel": "Patalastas"
   },
   "siteFooter": {
     "note": "Tuklasin ang nakababahalang mundo ng sirko na binubuo ng obsesyon, manipulasyon, at tunggalian, kung saan hinihila ka ng Pierrot at Harlequin sa isang nakababahalang karanasan sa visual novel.",

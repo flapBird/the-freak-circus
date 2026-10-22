@@ -175,7 +175,35 @@
       "jester": "El narrador del circo y testigo silencioso, que deshace la trágica leyenda de Columbina mediante marionetas que destapan las verdades más oscuras del espectáculo.",
       "the-doctor": "Un médico de la peste que realiza experimentos sinisteros dentro de la Cyan Tent, estudiando el miedo mismo y sondeando los límites más oscuros de la ética médica.",
       "ticket-taker": "Un manipulador de la realidad que preside el Tent of Mirrors y usa reflejos deformados para descubrir el rostro verdadero de cada monstruo."
-    }
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Finales y rutas",
+        "text": "El único final al que puedes llegar hoy y los cuatro que siguen en desarrollo.",
+        "cta": "Ver la guía de finales"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Alturas y orden de edad",
+        "text": "La tabla de alturas, el orden de edad y el ranking de fuerza publicados por el desarrollador.",
+        "cta": "Ver la tabla completa"
+      },
+      {
+        "href": "/save",
+        "title": "Guardado y continuar",
+        "text": "Lo que el motor admite de verdad y qué detalles del guardado nunca se documentaron.",
+        "cta": "Ver la guía de guardado"
+      },
+      {
+        "href": "/faq",
+        "title": "Preguntas frecuentes",
+        "text": "Respuestas breves sobre cómo jugar, descargar, los finales y los personajes.",
+        "cta": "Leer las preguntas frecuentes"
+      }
+    ],
+    "storyLink": "La historia de {name}",
+    "adLabel": "Publicidad"
   },
   "siteFooter": {
     "note": "Descubre un mundo de circo inquietante, marcado por la obsesión, la manipulación y la rivalidad, donde Pierrot y Harlequin te arrastran a una experiencia de novela visual que no se olvida.",

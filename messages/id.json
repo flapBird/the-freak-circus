@@ -175,10 +175,38 @@
       "jester": "Pendongeng dan saksi sunyi sirkus, yang mengurai legenda tragis Columbina lewat pertunjukan boneka yang membongkar sisi tergelap pertunjukan itu.",
       "the-doctor": "Seorang dokter bermasker yang menjalankan eksperimen mengerikan di dalam Cyan Tent, mempelajari rasa takut itu sendiri, dan menelusuri sisi tergelap dari etika medis.",
       "ticket-taker": "Manipulator realitas yang menguasai Tent of Mirrors, memakai pantulan yang bengkok untuk menyingkap wajah asli setiap monster."
-    }
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Ending dan rute",
+        "text": "Satu ending yang bisa kamu capai sekarang, dan empat ending yang masih dalam pengembangan.",
+        "cta": "Lihat panduan ending"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Tinggi badan dan urutan umur",
+        "text": "Tabel tinggi, urutan umur, dan peringkat kekuatan yang dipublikasikan developer.",
+        "cta": "Lihat tabel lengkap"
+      },
+      {
+        "href": "/save",
+        "title": "Menyimpan dan melanjutkan",
+        "text": "Yang benar-benar didukung mesin game, dan detail penyimpanan yang tak pernah didokumentasikan.",
+        "cta": "Lihat panduan menyimpan"
+      },
+      {
+        "href": "/faq",
+        "title": "Pertanyaan yang sering diajukan",
+        "text": "Jawaban singkat tentang bermain, mengunduh, ending, dan karakter.",
+        "cta": "Baca pertanyaan yang sering diajukan"
+      }
+    ],
+    "storyLink": "Cerita {name}",
+    "adLabel": "Iklan"
   },
   "siteFooter": {
-    "note": "Jelajahi dunia sirkus yang mence滞在... ",
+    "note": "Jelajahi dunia sirkus yang mencekam, dibentuk oleh obsesif, manipulasi, dan rivalitas, tempat Pierrot dan Harlequin menarikmu ke dalam pengalaman novel visual yang menghantui.",
     "features": "Jelajahi Situs",
     "siteInfo": "Informasi Situs",
     "play": "Beranda",
