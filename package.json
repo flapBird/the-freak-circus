@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "verify:facts": "node scripts/verify-facts.mjs",
+    "verify": "npm run verify:facts && npm run build"
   },
   "dependencies": {
     "geoip-lite": "^1.4.10",

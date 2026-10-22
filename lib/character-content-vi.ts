@@ -176,7 +176,7 @@ export const characterProfilesVi: Record<
       {
         heading: 'Trả lời nhanh',
         paragraphs: [
-          'Harlequin cao 187 cm, là người thấp nhất trong năm nhân vật đã được giới thiệu và là người thấp hơn trong hai nhân vật chính của tuyến tình yêu. Trong thứ tự tuổi do nhà phát triển công bố, anh ấy đứng thứ năm trong năm, tức là nhỏ tuổi nhất. Anh ấy chia sẻ hạng hai trong bảng xếp hạng sức mạnh với Jester, và có một tuyến tình yêu đã lên kế hoạch nhưng chưa được thực hiện.',
+          'Harlequin cao 187 cm, là người thấp thứ hai trong năm nhân vật đã được giới thiệu và là người thấp nhất trong hai nhân vật chính của tuyến tình yêu. Trong thứ tự tuổi do nhà phát triển công bố, anh ấy đứng thứ năm trong năm, tức là nhỏ tuổi nhất. Anh ấy chia sẻ hạng hai trong bảng xếp hạng sức mạnh với Jester, và có một tuyến tình yêu đã lên kế hoạch nhưng chưa được thực hiện.',
         ],
       },
       {
@@ -203,7 +203,7 @@ export const characterProfilesVi: Record<
       {
         heading: 'Bảng xếp hạng sức mạnh',
         paragraphs: [
-          'Harlequin chia sẻ hạng hai trong bảng xếp hạng sức mạnh của nhà phát triển với Jester, sau Pierrot và trước Doctor cùng Ticket Taker. Cộng thêm việc anh ấy vừa nhỏ tuổi nhất vừa thấp nhất, anh ấy luôn được mô tả là người nhanh nhất nhóm chứ không phải người nặng nhất — wiki fan cũng ghi nhận hai người hòa nhau ở hạng hai trong hạng mục sức mạnh thể chất thuần túy.',
+          'Harlequin chia sẻ hạng hai trong bảng xếp hạng sức mạnh của nhà phát triển với Jester, sau Pierrot và trước Doctor cùng Ticket Taker. Cộng thêm việc anh ấy vừa nhỏ tuổi nhất vừa thấp thứ hai, anh ấy luôn được mô tả là người nhanh nhất nhóm chứ không phải người nặng nhất — wiki fan cũng ghi nhận hai người hòa nhau ở hạng hai trong hạng mục sức mạnh thể chất thuần túy.',
         ],
       },
       {
@@ -236,7 +236,7 @@ export const characterProfilesVi: Record<
       {
         question: 'Harlequin cao bao nhiêu trong The Freak Circus?',
         answer:
-          'Harlequin cao 187 cm, khoảng 6 ft 1.62 in, theo bảng chiều cao đã công bố của nhà phát triển. Anh ấy là người thấp nhất trong năm nhân vật.',
+          'Harlequin cao 187 cm, khoảng 6 ft 1.62 in, theo bảng chiều cao đã công bố của nhà phát triển. Anh ấy là người thấp thứ hai trong năm nhân vật.',
       },
       {
         question: 'Harlequin có phải là nhân vật nhỏ tuổi nhất không?',
@@ -293,7 +293,7 @@ export const characterProfilesVi: Record<
       {
         heading: 'Trả lời nhanh',
         paragraphs: [
-          'Jester cao 192 cm, là người cao thứ hai trong năm nhân vật đã được giới thiệu, và đứng thứ tư trong năm người theo thứ tự tuổi của nhà phát triển. Anh ấy chia sẻ hạng hai trong bảng xếp hạng sức mạnh với Harlequin. Anh ấy không có tuyến và không có kết cục, và nhà phát triển đã nói rõ rằng việc biến những nhân vật còn lại thành lựa chọn tình yêu là một khả năng chứ không phải một lời hứa.',
+          'Jester cao 192 cm, là người cao thứ ba trong năm nhân vật đã được giới thiệu, và đứng thứ tư trong năm người theo thứ tự tuổi của nhà phát triển. Anh ấy chia sẻ hạng hai trong bảng xếp hạng sức mạnh với Harlequin. Anh ấy không có tuyến và không có kết cục, và nhà phát triển đã nói rõ rằng việc biến những nhân vật còn lại thành lựa chọn tình yêu là một khả năng chứ không phải một lời hứa.',
         ],
       },
       {
@@ -353,7 +353,7 @@ export const characterProfilesVi: Record<
       {
         question: 'Jester cao bao nhiêu?',
         answer:
-          '192 cm, khoảng 6 ft 3.59 in, theo bảng chiều cao đã công bố của nhà phát triển. Anh ấy là người cao thứ hai trong năm.',
+          '192 cm, khoảng 6 ft 3.59 in, theo bảng chiều cao đã công bố của nhà phát triển. Anh ấy là người cao thứ ba trong năm.',
       },
       {
         question: 'Jester có phải là người đứng đầu rạp xiếc không?',

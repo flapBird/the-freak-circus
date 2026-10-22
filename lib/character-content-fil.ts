@@ -22,10 +22,10 @@ const chartFor = (slug: string) => HEIGHT_CHART.find((entry) => entry.slug === s
 
 /**
  * Ordinal place in a ranking, oldest-first age order or strength ranking.
- * Filipino ordinals used here: unang, ikalawang, pangatlong, ika-apat,
+ * Filipino ordinals used here: unang, ikalawang, ikatlong, ika-apat,
  * ikalimang.
  */
-const FIL_ORDINALS = ['unang', 'ikalawang', 'pangatlong', 'ika-apat', 'ikalimang'];
+const FIL_ORDINALS = ['unang', 'ikalawang', 'ikatlong', 'ika-apat na', 'ikalimang'];
 const ordinal = (position: number) => FIL_ORDINALS[position - 1] ?? `${position}`;
 
 /**
@@ -51,7 +51,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Pierrot ay ${formatHeight(chartFor('pierrot')).metric}, kaya siya ang pinakapangatong isa sa limang karakter na ipinakilala, at pinakamataas sa dalawang romance lead. Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('pierrot').ageOrder)} lugar sa limang, mula sa pinakamatanda patungo sa pinakamabata. Ang ruta niya ay binalak at naglalaban pa sa development, at isa ito sa dalawang romance route lang na binanggit ng developer.`,
+          `Ang Pierrot ay ${formatHeight(chartFor('pierrot')).metric}, kaya siya ang ikalawang pinakamataas sa limang karakter na ipinakilala, at pinakamataas sa dalawang romance lead. Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('pierrot').ageOrder)} lugar sa limang, mula sa pinakamatanda patungo sa pinakamabata. Ang ruta niya ay binalak at naglalaban pa sa development, at isa ito sa dalawang romance route lang na binanggit ng developer.`,
         ],
       },
       {
@@ -131,7 +131,7 @@ export const characterProfilesFil: Record<
     faq: [
       {
         question: 'Ano ang taas ni Pierrot sa The Freak Circus?',
-        answer: `Ang Pierrot ay ${formatHeight(chartFor('pierrot')).metric}, mga ${imperialFil('pierrot')}, sa height chart na inilathala ng developer. Siya ang pinakapangatong isa sa limang karakter, at pinakamataas sa dalawang romance lead.`,
+        answer: `Ang Pierrot ay ${formatHeight(chartFor('pierrot')).metric}, mga ${imperialFil('pierrot')}, sa height chart na inilathala ng developer. Siya ang ikalawang pinakamataas sa limang karakter, at pinakamataas sa dalawang romance lead.`,
       },
       {
         question: 'Ilang taas ang si Pierrot?',
@@ -197,7 +197,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Harlequin ay ${formatHeight(chartFor('harlequin')).metric}, ang pinakababa sa limang karakter na ipinakilala, at ang mas mababa sa dalawang romance lead. Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('harlequin').ageOrder)} lugar sa limang, kaya siya ang pinakamabata. Nagtataya siya ng ikalawang lugar sa ranking ng lakas kasama si Jester, at mayroon siyang binalak na romance route na hindi pa ipinatutupad.`,
+          `Ang Harlequin ay ${formatHeight(chartFor('harlequin')).metric}, ang ikalawang pinakamababa sa limang karakter na ipinakilala, at ang pinakamababa sa dalawang romance lead. Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('harlequin').ageOrder)} lugar sa limang, kaya siya ang pinakamabata. Nagtataya siya ng ${ordinal(chartFor('harlequin').strengthRank)} lugar sa ranking ng lakas kasama si Jester, at mayroon siyang binalak na romance route na hindi pa ipinatutupad.`,
         ],
       },
       {
@@ -256,7 +256,7 @@ export const characterProfilesFil: Record<
     faq: [
       {
         question: 'Ano ang taas ni Harlequin sa The Freak Circus?',
-        answer: `Ang Harlequin ay ${formatHeight(chartFor('harlequin')).metric}, mga ${imperialFil('harlequin')}, sa height chart na inilathala ng developer. Siya ang pinakababa sa limang karakter.`,
+        answer: `Ang Harlequin ay ${formatHeight(chartFor('harlequin')).metric}, mga ${imperialFil('harlequin')}, sa height chart na inilathala ng developer. Siya ang ikalawang pinakamababa sa limang karakter.`,
       },
       {
         question: 'Ang pinakamabata ba si Harlequin?',
@@ -312,7 +312,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Jester ay ${formatHeight(chartFor('jester')).metric}, ang ikalawang pinakamataas sa limang karakter na ipinakilala, at nasa ${ordinal(chartFor('jester').ageOrder)} lugar sa limang sa age order ng developer. Nagtataya siya ng ikalawang lugar sa ranking ng lakas kasama si Harlequin. Wala siyang ruta at walang ending, at sinabi ng developer na ang paggawa sa iba pang karakter bilang mga opsyong romantik ay isang posibilidad, hindi isang pangako.`,
+          `Ang Jester ay ${formatHeight(chartFor('jester')).metric}, ang ikatlong pinakamataas sa limang karakter na ipinakilala, at nasa ${ordinal(chartFor('jester').ageOrder)} lugar sa limang sa age order ng developer. Nagtataya siya ng ${ordinal(chartFor('jester').strengthRank)} lugar sa ranking ng lakas kasama si Harlequin. Wala siyang ruta at walang ending, at sinabi ng developer na ang paggawa sa iba pang karakter bilang mga opsyong romantik ay isang posibilidad, hindi isang pangako.`,
         ],
       },
       {
@@ -371,7 +371,7 @@ export const characterProfilesFil: Record<
     faq: [
       {
         question: 'Ano ang taas ni Jester?',
-        answer: `${formatHeight(chartFor('jester')).metric}, mga ${imperialFil('jester')}, sa height chart na inilathala ng developer. Siya ang ikalawang pinakamataas sa limang karakter.`,
+        answer: `${formatHeight(chartFor('jester')).metric}, mga ${imperialFil('jester')}, sa height chart na inilathala ng developer. Siya ang ikatlong pinakamataas sa limang karakter.`,
       },
       {
         question: 'Leader ba si Jester ng sirko?',
@@ -417,13 +417,13 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Doctor ay ${formatHeight(chartFor('the-doctor')).metric}, kaya siya ang pinakatall sa limang karakter na ipinakilala nang may malinaw na margin — 9 cm sa itaas ng Pierrot. Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang siya sa age order ng developer, ibig sabihin, ang Ticket Taker lang ang mas matanda sa kanya. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar sa limang siya sa ranking ng lakas, at wala siyang ruta at walang ending.`,
+          `Ang Doctor ay ${formatHeight(chartFor('the-doctor')).metric}, kaya siya ang pinakatall sa limang karakter na ipinakilala nang may malinaw na margin — 9 cm sa itaas ng Pierrot. Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang siya sa age order ng developer, ibig sabihin, ang Ticket Taker lang ang mas matanda sa kanya. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa ranking ng lakas ng developer, at wala siyang ruta at walang ending.`,
         ],
       },
       {
         heading: 'Sino ang Doctor',
         paragraphs: [
-          'Inilalarawan ng fandom wiki ang Doctor bilang pangalawang kontrabida o posibleng neutral na pigura, at nagbibigay sa kanya ng dalawang mukha: kalmado at matino sa isa, mainit at sadistikong sa iba. Nakakatulong ito sa pagbabasa ng kanyang mga eksena, sapagkat inilalarawan ang pagbabago bilang makikita — nagiging pula ang kanyang mga mata kapag may partikular na damdamin ang nakuha sa kanya. Ipinapakita rin ng wiki na mas gusto niya ang talino kaysa sa brutal na lakas, na tugma sa isang karakter na siyang pinakatall at pangatlong lang sa raw na lakas.',
+          'Inilalarawan ng fandom wiki ang Doctor bilang pangalawang kontrabida o posibleng neutral na pigura, at nagbibigay sa kanya ng dalawang mukha: kalmado at matino sa isa, mainit at sadistikong sa iba. Nakakatulong ito sa pagbabasa ng kanyang mga eksena, sapagkat inilalarawan ang pagbabago bilang makikita — nagiging pula ang kanyang mga mata kapag may partikular na damdamin ang nakuha sa kanya. Ipinapakita rin ng wiki na mas gusto niya ang talino kaysa sa brutal na lakas, na tugma sa isang karakter na siyang pinakatall at ikatlong lang sa raw na lakas.',
           'Siya rin ang karakter na pinakamalamang malalarawan bilang may ruta. Ang ideya ng isang ruta ng Doctor na may "magandang ending" ay umiikot sa ilang lumang gabay, at hindi ito tumutugma sa kahit anong inilarawan ng developer.',
         ],
       },
@@ -438,7 +438,7 @@ export const characterProfilesFil: Record<
         heading: 'Age order at lakas',
         paragraphs: [
           `Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang si Doctor sa opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Ang Ticket Taker lang ang mas matanda sa kanya.`,
-          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya, sa unahan ng Ticket Taker at sa likuran ng Pierrot, ng Harlequin, at ng Jester. Ang pagiging pinakatall at pangatlong sa lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
+          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya, sa unahan ng Ticket Taker at sa likuran ng Pierrot, ng Harlequin, at ng Jester. Ang pagiging pinakatall at ikatlong sa lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
         ],
       },
       {
@@ -520,7 +520,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Ticket Taker ay ${formatHeight(chartFor('ticket-taker')).metric}, ang pinakababa sa limang karakter na ipinakilala, at nasa ${ordinal(chartFor('ticket-taker').ageOrder)} lugar sa limang sa age order ng developer, kaya siya ang pinakamamatanda. Nasa ${ordinal(chartFor('ticket-taker').strengthRank)} lugar sa limang siya sa ranking ng lakas. Wala siyang ruta at walang ending, at kinukumpirma ito nang tuwiran ng developer.`,
+          `Ang Ticket Taker ay ${formatHeight(chartFor('ticket-taker')).metric}, ang pinakababa sa limang karakter na ipinakilala, at nasa ${ordinal(chartFor('ticket-taker').ageOrder)} lugar sa limang sa age order ng developer, kaya siya ang pinakamamatanda. Huling siya sa limang sa ranking ng lakas ng developer. Wala siyang ruta at walang ending, at kinukumpirma ito nang tuwiran ng developer.`,
         ],
       },
       {

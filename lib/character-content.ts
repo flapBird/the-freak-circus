@@ -223,7 +223,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: 'Quick answer',
           paragraphs: [
-            'Harlequin is 187 cm tall, the shortest of the five introduced characters and the second shortest of the two romance leads. In the developer\'s published age order he is fifth of five, which makes him the youngest. He shares second place in the strength ranking with Jester, and he has a planned romance route that is not yet implemented.',
+            'Harlequin is 187 cm tall, the second shortest of the five introduced characters and the shorter of the two romance leads. In the developer\'s published age order he is fifth of five, which makes him the youngest. He shares second place in the strength ranking with Jester, and he has a planned romance route that is not yet implemented.',
           ],
         },
         {
@@ -250,7 +250,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: 'Strength ranking',
           paragraphs: [
-            'Harlequin shares second place in the developer\'s strength ranking with Jester, behind Pierrot and ahead of the Doctor and the Ticket Taker. Combined with being the youngest and the shortest, he is consistently described as the fastest of the group rather than the heaviest — the fandom wiki records the two of them tied in a second strength category for raw physical power as well.',
+            'Harlequin shares second place in the developer\'s strength ranking with Jester, behind Pierrot and ahead of the Doctor and the Ticket Taker. Combined with being the youngest and the second shortest, he is consistently described as the fastest of the group rather than the heaviest — the fandom wiki records the two of them tied in a second strength category for raw physical power as well.',
           ],
         },
         {
@@ -282,7 +282,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
       faq: [
         {
           question: 'How tall is Harlequin in The Freak Circus?',
-          answer: 'Harlequin is 187 cm, roughly 6 ft 1.62 in, in the developer\'s published height chart. He is the shortest of the five characters.',
+          answer: 'Harlequin is 187 cm, roughly 6 ft 1.62 in, in the developer\'s published height chart. He is the second shortest of the five characters.',
         },
         {
           question: 'Is Harlequin the youngest character?',
@@ -335,7 +335,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: 'Quick answer',
           paragraphs: [
-            'Jester is 192 cm tall, the second tallest of the five introduced characters, and fourth of five in the developer\'s age order. He shares second place in the strength ranking with Harlequin. He has no route and no ending, and the developer has stated that making the remaining characters romance options is a possibility rather than a commitment.',
+            'Jester is 192 cm tall, the third tallest of the five introduced characters, and fourth of five in the developer\'s age order. He shares second place in the strength ranking with Harlequin. He has no route and no ending, and the developer has stated that making the remaining characters romance options is a possibility rather than a commitment.',
           ],
         },
         {
@@ -394,7 +394,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
       faq: [
         {
           question: 'How tall is Jester?',
-          answer: '192 cm, roughly 6 ft 3.59 in, in the developer\'s published height chart. He is the second tallest of the five.',
+          answer: '192 cm, roughly 6 ft 3.59 in, in the developer\'s published height chart. He is the third tallest of the five.',
         },
         {
           question: 'Is Jester the leader of the circus?',
@@ -748,7 +748,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: '速览',
           paragraphs: [
-            'Harlequin 身高 187 cm，是五位已登场角色中最矮的，也是两位恋爱主角中较矮的一位。在开发者公布的年龄顺序中他列第 5 位，即年龄最小。他在力量排名中与 Jester 并列第二，并且有一条尚未实装的计划恋爱路线。',
+            'Harlequin 身高 187 cm，是五位已登场角色中第二矮的，也是两位恋爱主角中较矮的一位。在开发者公布的年龄顺序中他列第 5 位，即年龄最小。他在力量排名中与 Jester 并列第二，并且有一条尚未实装的计划恋爱路线。',
           ],
         },
         {
@@ -775,7 +775,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: '力量排名',
           paragraphs: [
-            'Harlequin 与 Jester 并列开发者力量排名第二，位于 Pierrot 之后、Doctor 与 Ticket Taker 之前。综合最年轻与最矮两点，他在这群人里被一致描述为最快的那个而非最重的那个——同人 Wiki 还记录了两人在纯粹体能这一项上也并列第二。',
+            'Harlequin 与 Jester 并列开发者力量排名第二，位于 Pierrot 之后、Doctor 与 Ticket Taker 之前。综合最年轻与第二矮两点，他在这群人里被一致描述为最快的那个而非最重的那个——同人 Wiki 还记录了两人在纯粹体能这一项上也并列第二。',
           ],
         },
         {
@@ -805,7 +805,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         },
       ],
       faq: [
-        { question: 'Harlequin 身高多少？', answer: '开发者公布的身高表中，Harlequin 为 187 cm，约 6 英尺 1.62 英寸，是五位角色中最矮的。' },
+        { question: 'Harlequin 身高多少？', answer: '开发者公布的身高表中，Harlequin 为 187 cm，约 6 英尺 1.62 英寸，是五位角色中第二矮的。' },
         { question: 'Harlequin 是最年轻的角色吗？', answer: '是。在官方年龄顺序中他列第 5 位（由大到小）：Ticket Taker、Doctor、Pierrot、Jester、Harlequin。' },
         { question: 'Harlequin 多大？', answer: '官方从未公布过任何角色的具体年龄，只有相对顺序有据可查，而该顺序把他排在最后。' },
         { question: 'Harlequin 是什么性格？', answer: '同人 Wiki 描述他随性、残忍、爱戏弄且暗中嫉妒，并且对亲密关系并不自在。他与 Pierrot 正好是戏剧化与安静两种极端的对照，这正是竞争得以成立的原因。' },
@@ -825,7 +825,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: '速览',
           paragraphs: [
-            'Jester 身高 192 cm，在五位已登场角色中排第二高，在开发者年龄顺序中列第 4 位。他在力量排名中与 Harlequin 并列第二。他没有路线也没有结局，开发者明确表示让其余角色成为恋爱对象是一种可能性，而不是承诺。',
+            'Jester 身高 192 cm，在五位已登场角色中排第三高，在开发者年龄顺序中列第 4 位。他在力量排名中与 Harlequin 并列第二。他没有路线也没有结局，开发者明确表示让其余角色成为恋爱对象是一种可能性，而不是承诺。',
           ],
         },
         {
@@ -882,7 +882,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         },
       ],
       faq: [
-        { question: 'Jester 身高多少？', answer: '192 cm，约 6 英尺 3.59 英寸，出自开发者公布的身高表，在五位角色中排第二高。' },
+        { question: 'Jester 身高多少？', answer: '192 cm，约 6 英尺 3.59 英寸，出自开发者公布的身高表，在五位角色中排第三高。' },
         { question: 'Jester 是马戏团的领导者吗？', answer: '同人 Wiki 描述他是马戏团的领导者与主要反派，他对其他角色的权威在版本中保持一致。该描述来自同人而非开发者声明。' },
         { question: 'Jester 有路线吗？', answer: '没有。开发者已确认不存在 Jester 路线，选项只有 Pierrot、Harlequin、两者或都不选。' },
         { question: 'Jester 有结局吗？', answer: '没有。四个计划结局分别属于 Pierrot、Harlequin、主角和"All together"。' },

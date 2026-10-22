@@ -175,7 +175,7 @@ export const characterProfilesPt: Record<
       {
         heading: 'Resposta rápida',
         paragraphs: [
-          'Harlequin tem 187 cm, o mais baixo dos cinco personagens apresentados e o segundo mais baixo dos dois protagonistas românticos. Na ordem de idades publicada pelo desenvolvedor ele fica em quinto lugar entre cinco, o que faz dele o mais novo. Divide o segundo lugar no ranking de força com Jester, e tem uma rota romântica planejada que ainda não foi implementada.',
+          'Harlequin tem 187 cm, o segundo mais baixo dos cinco personagens apresentados e o mais baixo dos dois protagonistas românticos. Na ordem de idades publicada pelo desenvolvedor ele fica em quinto lugar entre cinco, o que faz dele o mais novo. Divide o segundo lugar no ranking de força com Jester, e tem uma rota romântica planejada que ainda não foi implementada.',
         ],
       },
       {
@@ -202,7 +202,7 @@ export const characterProfilesPt: Record<
       {
         heading: 'Ranking de força',
         paragraphs: [
-          'Harlequin divide o segundo lugar no ranking de força do desenvolvedor com Jester, atrás de Pierrot e à frente do Doctor e do Ticket Taker. Somado ao fato de ser o mais novo e o mais baixo, ele é descrito de forma consistente como o mais rápido do grupo, e não como o mais pesado — o wiki de fãs registra que os dois dividem a segunda categoria também em força física bruta.',
+          'Harlequin divide o segundo lugar no ranking de força do desenvolvedor com Jester, atrás de Pierrot e à frente do Doctor e do Ticket Taker. Somado ao fato de ser o mais novo e o segundo mais baixo, ele é descrito de forma consistente como o mais rápido do grupo, e não como o mais pesado — o wiki de fãs registra que os dois dividem a segunda categoria também em força física bruta.',
         ],
       },
       {
@@ -235,7 +235,7 @@ export const characterProfilesPt: Record<
       {
         question: 'Qual a altura de Harlequin em The Freak Circus?',
         answer:
-          'Harlequin tem 187 cm, aproximadamente 6 ft 1.62 in, na tabela de alturas publicada pelo desenvolvedor. Ele é o mais baixo dos cinco personagens.',
+          'Harlequin tem 187 cm, aproximadamente 6 ft 1.62 in, na tabela de alturas publicada pelo desenvolvedor. Ele é o segundo mais baixo dos cinco personagens.',
       },
       {
         question: 'Harlequin é o personagem mais novo?',
@@ -292,7 +292,7 @@ export const characterProfilesPt: Record<
       {
         heading: 'Resposta rápida',
         paragraphs: [
-          'Jester tem 192 cm, o segundo mais alto dos cinco personagens apresentados, e fica em quarto lugar entre cinco na ordem de idades do desenvolvedor. Divide o segundo lugar no ranking de força com Harlequin. Não tem rota nem final, e o desenvolvedor afirmou que transformar os personagens restantes em opções românticas é uma possibilidade, e não um compromisso.',
+          'Jester tem 192 cm, o terceiro mais alto dos cinco personagens apresentados, e fica em quarto lugar entre cinco na ordem de idades do desenvolvedor. Divide o segundo lugar no ranking de força com Harlequin. Não tem rota nem final, e o desenvolvedor afirmou que transformar os personagens restantes em opções românticas é uma possibilidade, e não um compromisso.',
         ],
       },
       {
@@ -352,7 +352,7 @@ export const characterProfilesPt: Record<
       {
         question: 'Qual a altura de Jester?',
         answer:
-          '192 cm, aproximadamente 6 ft 3.59 in, na tabela de alturas publicada pelo desenvolvedor. Ele é o segundo mais alto dos cinco.',
+          '192 cm, aproximadamente 6 ft 3.59 in, na tabela de alturas publicada pelo desenvolvedor. Ele é o terceiro mais alto dos cinco.',
       },
       {
         question: 'Jester é o líder do circo?',

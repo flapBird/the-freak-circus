@@ -182,7 +182,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Jawaban singkat',
         paragraphs: [
-          'Harlequin setinggi 187 cm, yang terpendek dari lima karakter yang sudah diperkenalkan dan yang terpendek kedua dari dua protagonis romance. Dalam urutan usia yang dipublikasikan developer, dia ada di posisi kelima dari lima, yang berarti dia yang termuda. Dia berbagi posisi kedua di peringkat kekuatan dengan Jester, dan dia punya rute romance yang direncanakan tetapi belum diimplementasikan.',
+          'Harlequin setinggi 187 cm, yang terpendek kedua dari lima karakter yang sudah diperkenalkan dan yang terpendek dari dua protagonis romance. Dalam urutan usia yang dipublikasikan developer, dia ada di posisi kelima dari lima, yang berarti dia yang termuda. Dia berbagi posisi kedua di peringkat kekuatan dengan Jester, dan dia punya rute romance yang direncanakan tetapi belum diimplementasikan.',
         ],
       },
       {
@@ -209,7 +209,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Peringkat kekuatan',
         paragraphs: [
-          'Harlequin berbagi posisi kedua di peringkat kekuatan developer dengan Jester, di belakang Pierrot dan di depan Doctor serta Ticket Taker. Digabung dengan kenyataan bahwa dia yang termuda dan yang terpendek, dia secara konsisten digambarkan sebagai yang tercepat di antara kelompok itu, bukan yang terberat — wiki fans juga mencatat bahwa keduanya seri di kategori kedua untuk kekuatan fisik murni.',
+          'Harlequin berbagi posisi kedua di peringkat kekuatan developer dengan Jester, di belakang Pierrot dan di depan Doctor serta Ticket Taker. Digabung dengan kenyataan bahwa dia yang termuda dan yang terpendek kedua, dia secara konsisten digambarkan sebagai yang tercepat di antara kelompok itu, bukan yang terberat — wiki fans juga mencatat bahwa keduanya seri di kategori kedua untuk kekuatan fisik murni.',
         ],
       },
       {
@@ -242,7 +242,7 @@ export const characterProfilesId: Record<
       {
         question: 'Seberapa tinggi Harlequin di The Freak Circus?',
         answer:
-          'Harlequin setinggi 187 cm, kira-kira 6 ft 1.62 in, dalam tabel tinggi yang dipublikasikan developer. Dia yang terpendek dari lima karakter.',
+          'Harlequin setinggi 187 cm, kira-kira 6 ft 1.62 in, dalam tabel tinggi yang dipublikasikan developer. Dia yang terpendek kedua dari lima karakter.',
       },
       {
         question: 'Apakah Harlequin karakter termuda?',
@@ -299,7 +299,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Jawaban singkat',
         paragraphs: [
-          'Jester setinggi 192 cm, tertinggi kedua dari lima karakter yang sudah diperkenalkan, dan di posisi keempat dari lima dalam urutan usia developer. Dia berbagi posisi kedua di peringkat kekuatan dengan Harlequin. Dia tidak punya rute dan tidak punya ending, dan developer menyatakan bahwa menjadikan karakter-karakter sisanya sebagai pilihan romance adalah sebuah kemungkinan, bukan sebuah komitmen.',
+          'Jester setinggi 192 cm, tertinggi ketiga dari lima karakter yang sudah diperkenalkan, dan di posisi keempat dari lima dalam urutan usia developer. Dia berbagi posisi kedua di peringkat kekuatan dengan Harlequin. Dia tidak punya rute dan tidak punya ending, dan developer menyatakan bahwa menjadikan karakter-karakter sisanya sebagai pilihan romance adalah sebuah kemungkinan, bukan sebuah komitmen.',
         ],
       },
       {
@@ -359,7 +359,7 @@ export const characterProfilesId: Record<
       {
         question: 'Seberapa tinggi Jester?',
         answer:
-          '192 cm, kira-kira 6 ft 3.59 in, dalam tabel tinggi yang dipublikasikan developer. Dia tertinggi kedua dari lima.',
+          '192 cm, kira-kira 6 ft 3.59 in, dalam tabel tinggi yang dipublikasikan developer. Dia tertinggi ketiga dari lima.',
       },
       {
         question: 'Apakah Jester pemimpin sirkus?',
