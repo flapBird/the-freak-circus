@@ -30,7 +30,7 @@ export const characterProfilesId: Record<
   pierrot: {
     role: 'Salah satu dari dua pesaing utama, sekaligus obsesi sunyi di pusat cerita',
     intro:
-      'Pierrot adalah karakter yang dibangun seluruh game, dan dia yang paling sering digambarkan dengan satu kata saja: diam. Sinopsis dari developer sendiri menyebutnya "yandere yang diam" ("yandere" adalah istilah fandom untuk obsesi romantis yang berakhir pada kendali) — deskripsi yang jauh lebih cermat daripada kelihatannya pada pertama baca. Diam di sini adalah pilihan penulisan karakter, bukan suara yang hilang atau tempat kosong yang belum diisi. Itulah sebabnya setiap gerak-geriknya membawa bobot, dan itulah pula mekanisme yang membuat perhatiannya sulit dipisahkan dari possessing.',
+      'Pierrot adalah karakter yang dibangun seluruh game, dan dia yang paling sering digambarkan dengan satu kata saja: diam. Sinopsis dari developer sendiri menyebutnya "yandere yang diam" ("yandere" adalah istilah fandom untuk obsesi romantis yang berakhir pada kendali) — deskripsi yang jauh lebih cermat daripada kelihatannya pada pertama baca. Diam di sini adalah pilihan penulisan karakter, bukan suara yang hilang atau tempat kosong yang belum diisi. Itulah sebabnya setiap gerak-geriknya membawa bobot, dan itulah pula mekanisme yang membuat perhatiannya sulit dipisahkan dari possessesi.',
     sections: [
       {
         heading: 'Jawaban singkat',
@@ -41,7 +41,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Siapa Pierrot',
         paragraphs: [
-          'Sinkripsi resmi menyatakan situasinya dengan lugas: kamu bekerja di sebuah kafe, takdir membawa kamu bertemu Pierrot, dan di situlah obsesinya dimulai. Kerangka game ini cukup presisi soal mekanismenya — ini bukan pria yang baru menjadi mengerikan di satu titik balik yang dramatis, melainkan seseorang yang perhatiannya mengeras perlahan, sepanjang hari-hari biasa, sampai hal-hal biasa itu ditata ulang di sekelilingnya.',
+          'Sinopsis resmi menyatakan situasinya dengan lugas: kamu bekerja di sebuah kafe, takdir membawa kamu bertemu Pierrot, dan di situlah obsesinya dimulai. Kerangka game ini cukup presisi soal mekanismenya — ini bukan pria yang baru menjadi mengerikan di satu titik balik yang dramatis, melainkan seseorang yang perhatiannya mengeras perlahan, sepanjang hari-hari biasa, sampai hal-hal biasa itu ditata ulang di sekelilingnya.',
           'Yang membuatnya jadi karakter yang sulit ditulis secara akurat adalah kenyataan bahwa game ini adalah novel visual, dan Pierrot adalah karakter yang nyaris tidak bicara. Sebagian besar dari apa yang pemain gambarkan sebagai kepribadiannya dirakit dari apa yang tidak dia katakan dan dari bagaimana dia merespons protagonist. Materi itu nyata dan ada di dalam build, tetapi itu adalah interpretasi di atas observasi, dan halaman ini memisahkannya.',
         ],
       },
@@ -49,7 +49,7 @@ export const characterProfilesId: Record<
         heading: 'Tinggi badan dan detail fisik',
         paragraphs: [
           `Tabel tinggi yang dipublikasikan developer menempatkan Pierrot di ${formatHeight(chartFor('pierrot')).metric}, kira-kira ${formatHeight(chartFor('pierrot')).imperial}. Tabel yang sama menyebutkan bahwa developer memakainya sebagai acuan saat menggambar sprite, dan itulah sebabnya angka di sini dianggap sebagai angka kanonik, bukan perkiraan yang dibaca dari gambar.`,
-          'Wiki fans mendeskripsikan desainnya dengan cukup rinci: rambut putih sedang panjang, topeng putih dengan garis vertikal hitam yang panjangnya tidak seragam, mata keemasan, topi badut merah-hitam dengan lonceng, jas badut merah dengan aksen emas, dan sarung tangan hitam beruas. Detail kostumysetingkat itu berguna untuk mengenali dia di tangkapan layar dan fan art, dan itu berasal dari fandom, bukan dari pernyataan developer, jadi di sini ditampilkan sebagai deskripsi fans.',
+          'Wiki fans mendeskripsikan desainnya dengan cukup rinci: rambut putih sedang panjang, topeng putih dengan garis vertikal hitam yang panjangnya tidak seragam, mata keemasan, topi badut merah-hitam dengan lonceng, jas badut merah dengan aksen emas, dan sarung tangan hitam beruas. Detail kostum setingkat itu berguna untuk mengenali dia di tangkapan layar dan fan art, dan itu berasal dari fandom, bukan dari pernyataan developer, jadi di sini ditampilkan sebagai deskripsi fans.',
         ],
       },
       {
@@ -68,14 +68,14 @@ export const characterProfilesId: Record<
       {
         heading: 'Mengapa Pierrot tidak bicara',
         paragraphs: [
-          'Sinkripsi resmi menggambarkan Pierrot sebagai "yandere yang diam". Frasa tunggal itu berasal dari developer sendiri, dan itulah batas terjauh yang pernah dicapai material pihak pertama soal alasannya. Wiki fans menambahkan penjelasan di dalam fiksi: ada aturan untuk tidak berbicara di ruang publik yang ditetapkan Jester, dan Jester adalah figur otoritas yang sangat dihormati Pierrot. Detail itu memuaskan dan konsisten dengan cara kedua karakter itu ditulis, tetapi sumbernya adalah wiki, bukan developer.',
+          'Sinopsis resmi menggambarkan Pierrot sebagai "yandere yang diam". Frasa tunggal itu berasal dari developer sendiri, dan itulah batas terjauh yang pernah dicapai material pihak pertama soal alasannya. Wiki fans menambahkan penjelasan di dalam fiksi: ada aturan untuk tidak berbicara di ruang publik yang ditetapkan Jester, dan Jester adalah figur otoritas yang sangat dihormati Pierrot. Detail itu memuaskan dan konsisten dengan cara kedua karakter itu ditulis, tetapi sumbernya adalah wiki, bukan developer.',
           'Pembedaan ini penting karena satu alasan praktis: jika kamu membaca terjemahan naskahnya dan Pierrot tampak menjawab, itu adalah soal pelokalan atau penafsiran, bukan kontradiksi dengan latar cerita. Diam adalah ciri yang menentukan karakter ini, bukan cacat pada teks.',
         ],
       },
       {
         heading: 'Kepribadian dan bentuk obsesinya',
         paragraphs: [
-          'Sepanjang material cerita, Pierrot terbaca sebagai sabar dan penuh perhatian, bukan impulsif. Obsesi yang digambarkan dalam sinopsis resmi tidak dibingkai sebagai kemarahan; ia dibingkai sebagai sebuah awal, dan itu adalah pernyataan tentang tempo, bukan tentang tingkat烷cekc. Justru perbedaan itulah yang membuat ceritanya terasa tidak nyaman: karakter yang perhatiannya sudah menjadi total dan sunyi lebih mengerikan daripada karakter yang berteriak-teriak soal keinginannya.',
+          'Sepanjang material cerita, Pierrot terbaca sebagai sabar dan penuh perhatian, bukan impulsif. Obsesi yang digambarkan dalam sinopsis resmi tidak dibingkai sebagai kemarahan; ia dibingkai sebagai sebuah awal, dan itu adalah pernyataan tentang tempo, bukan tentang tingkat keparahan. Justru perbedaan itulah yang membuat ceritanya terasa tidak nyaman: karakter yang perhatiannya sudah menjadi total dan sunyi lebih mengerikan daripada karakter yang berteriak-teriak soal keinginannya.',
           'Wiki fans menggolongkannya sebagai lembut dan sopan di permukaan sambil menguntit protagonist, serta melindungi protagonist dan Columbina. Wiki itu juga mencatat jawaban spesifik developer atas pertanyaan apakah Pierrot suatu saat akan meninggalkan protagonist: jawabannya tidak, dan dengan tegas. Jawaban itu adalah sinyal kuat ke arah mana rutenya akan bergerak, meskipun rute itu sendiri belum selesai.',
         ],
       },
@@ -145,7 +145,7 @@ export const characterProfilesId: Record<
       {
         question: 'Mengapa Pierrot tidak bisa bicara?',
         answer:
-          'Sinkripsi resmi menyebutnya "yandere yang diam", jadi diamnya adalah penggambaran karakter dari developer, bukan celah dalam teks. Wiki fans memberi alasan dalam fiksi yang melibatkan Jester, tetapi detail itu tidak berasal dari pernyataan developer.',
+          'Sinopsis resmi menyebutnya "yandere yang diam", jadi diamnya adalah penggambaran karakter dari developer, bukan celah dalam teks. Wiki fans memberi alasan dalam fiksi yang melibatkan Jester, tetapi detail itu tidak berasal dari pernyataan developer.',
       },
       {
         question: 'Apakah Pierrot termasuk yandere?',
@@ -177,7 +177,7 @@ export const characterProfilesId: Record<
   harlequin: {
     role: 'Rival yang mempesona, dan yang kedua dari dua rute romance',
     intro:
-      'Harlequin adalah karakter yang membuat The Freak Circus menjadi sebuah pilihan, bukan cerita dengan satu jalur. Sinopsis resmi menyebutnya "rival yang mempesona" milik Pierrot dan menggambarkan game sebagai yang dipimpin oleh salah satu dari mereka — ringkasan yang tepat untuk sebuah desain yang dibangun di torno dua cara yang tidak kompatibel untuk mendapatkan perhatian protagonist.',
+      'Harlequin adalah karakter yang membuat The Freak Circus menjadi sebuah pilihan, bukan cerita dengan satu jalur. Sinopsis resmi menyebutnya "rival yang mempesona" milik Pierrot dan menggambarkan game sebagai yang dipimpin oleh salah satu dari mereka — ringkasan yang tepat untuk sebuah desain yang dibangun di atas dua cara yang tidak kompatibel untuk mendapatkan perhatian protagonist.',
     sections: [
       {
         heading: 'Jawaban singkat',
@@ -189,7 +189,7 @@ export const characterProfilesId: Record<
         heading: 'Siapa Harlequin',
         paragraphs: [
           'Kalau Pierrot bekerja dengan konsistensi, Harlequin bekerja dengan pertunjukan. Kata yang dipakai developer adalah "mempesona", dan karakternya ditulis agar hanya bisa dibaca dalam gerakan: keberadaan yang teateris dan berubah-ubah, yang niatnya sulit ditahan cukup lama untuk dipastikan. Dalam novel visual, di mana hampir seluruh bobotnya bertumpu pada dialog, itu membuatnya jadi protagonis yang lebih sulit diringkas dari keduanya, dan lebih memuaskan untuk ditonton sepanjang satu playthrough.',
-          'Wiki fans menggolongkannya sebagai santai, sadis, suka menggoda, dan diam-diam cemburu, serta mencatat bahwa dia tidak nyaman dengan kasih sayang. Cemburunya adalah bagian menarik dari deskripsi itu, karena membingkai ulang persaingan ini menjadi sesuatu yang dia inginkan sama binggayanya dengan Pierrot, bukan sekadar sesuatu yang sedang ia perebutkan.',
+          'Wiki fans menggolongkannya sebagai santai, sadis, suka menggoda, dan diam-diam cemburu, serta mencatat bahwa dia tidak nyaman dengan kasih sayang. Cemburunya adalah bagian menarik dari deskripsi itu, karena membingkai ulang persaingan ini menjadi sesuatu yang ia inginkan tidak kalah dari Pierrot, bukan sekadar sesuatu yang sedang ia perebutkan.',
         ],
       },
       {
@@ -294,7 +294,7 @@ export const characterProfilesId: Record<
   jester: {
     role: 'Pemimpin sirkus, dan karakter yang tidak punya rute sendiri',
     intro:
-      'Jester adalah karakter yang paling sering salah digambarkan secara online, biasanya ke arahmemberinya rute romance yang tidak dia miliki. Developer sudah tegas: pilihan rutenya hanya Pierrot, Harlequin, keduanya, atau tidak keduanya. Jester diperkenalkan di build saat ini sebagai bagian dari kelompok yang lebih luas, dan keberadaannyalah yang membuat sirkus terasa seperti sebuah institusi, bukan sekadar sepasang pesaing dengan latar belakang.',
+      'Jester adalah karakter yang paling sering salah digambarkan secara online, biasanya ke arah memberinya rute romance yang tidak dia miliki. Developer sudah tegas: pilihan rutenya hanya Pierrot, Harlequin, keduanya, atau tidak keduanya. Jester diperkenalkan di build saat ini sebagai bagian dari kelompok yang lebih luas, dan keberadaannya itulah yang membuat sirkus terasa seperti sebuah institusi, bukan sekadar sepasang pesaing dengan latar belakang.',
     sections: [
       {
         heading: 'Jawaban singkat',
@@ -306,7 +306,7 @@ export const characterProfilesId: Record<
         heading: 'Siapa Jester',
         paragraphs: [
           'Jester berfungsi sebagai figur otoritas sirkus itu. Wiki fans menggolongkannya sebagai antagonis utama Freak Circus, tetapi tenang dan terkumpul, bukan mudah berubah — deskripsi yang lebih cocok dengan desainnya daripada kata "antagonis" semata. Dialah yang menentukan peran, yang membagi tugas-tugas dalam sirkus, dan yang dibicarakan dengan campuran rasa hormat dan kesal.',
-          'Yang penting bagi pembaca adalah bahwa pengaruhnya atas karakter lain bersifat struktural. Ketika sebuah sumber mengatakan seorang karakter menghormati Jester, atau takut padanya, atau bergerak di dalam aturan yang ditetapkan Jester, itu sedang menggambarkan bentuk sirkus itu, bukan satu beat cerita.',
+          'Yang penting bagi pembaca adalah bahwa pengaruhnya atas karakter lain bersifat struktural. Ketika sebuah sumber mengatakan seorang karakter menghormati Jester, atau takut padanya, atau bergerak di dalam aturan yang ditetapkan Jester, itu sedang menggambarkan bentuk sirkus itu, bukan satu titik adegan dalam cerita.',
         ],
       },
       {
@@ -320,7 +320,7 @@ export const characterProfilesId: Record<
         heading: 'Urutan usia',
         paragraphs: [
           'Dalam urutan usia yang dipublikasikan developer, Jester ada di posisi keempat dari lima, dari yang tertua: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Dia lebih tua dari Harlequin dan lebih muda dari Pierrot, Doctor, serta Ticket Taker.',
-          'Wiki fans mencatat ulang tahun Jester dan menyatakan bahwa developer pernah memposting ucapan ulang tahun untuknya, yang membuat tanggal miliknya lebih berdasar dibanding yang lain — tetapi tanggal-tanggal yang beredar untuk anggota kelompok lainnya berasal dari fans, dan urutan usia tetap satu-satunya ukuran resmi.',
+          'Wiki fans mencatat ulang tahun Jester dan menyatakan bahwa developer pernah memposting ucapan ulang tahun untuknya, yang membuat tanggal ulang tahun-nya lebih berdasar dibanding yang lain — tetapi tanggal-tanggal yang beredar untuk anggota kelompok lainnya berasal dari fans, dan urutan usia tetap satu-satunya ukuran resmi.',
         ],
       },
       {
@@ -515,7 +515,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Siapa Ticket Taker',
         paragraphs: [
-          'Dia menempati posisi liminal dalam fiksi: figur di pintu masuk sirkus, yang berkaitan dengan izin, ambang batas, dan mesin pertunjukan. Wiki fans menggolongkannya sebagai patuh dan berdedikasi pada agenda sirkus, dewasa dan profesional, preoccupied dengan kebersihan dan keteraturan, serta menyatakan prinsipnya dengan lugas: di sini, tak ada yang keluar dari perannya.',
+          'Dia menempati posisi liminal dalam fiksi: figur di pintu masuk sirkus, yang berkaitan dengan izin, ambang batas, dan mesin pertunjukan. Wiki fans menggolongkannya sebagai patuh dan berdedikasi pada agenda sirkus, dewasa dan profesional, sibuk dengan kebersihan dan keteraturan, serta menyatakan prinsipnya dengan lugas: di sini, tak ada yang keluar dari perannya.',
           'Detail terakhir itulah yang membuatnya bekerja sebagai karakter, bukan sekadar penjaga gerbang. Dalam cerita tentang sirkus yang berjalan di atas pertunjukan, karakter yang tugasnya menegakkan batas antara penonton dan penampil harus percaya pada pertunjukan itu sendiri.',
         ],
       },

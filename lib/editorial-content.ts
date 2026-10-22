@@ -22,6 +22,8 @@ import type { CharacterEditorial, CharacterProfile } from './character-content';
 import { characterProfiles, profile } from './character-content';
 import { characterProfilesEs } from './character-content-es';
 import { characterProfilesPt } from './character-content-pt';
+import { characterProfilesVi } from './character-content-vi';
+import { characterProfilesId } from './character-content-id';
 
 export type ResolvedLocale = 'en' | 'zh' | 'es' | 'pt' | 'vi' | 'id' | 'fil';
 
@@ -47,9 +49,9 @@ const CHARACTER_SOURCES: Record<ResolvedLocale, Record<string, CharacterProfile>
   zh: characterProfiles.zh,
   es: mergeCharacterLocales(characterProfilesEs),
   pt: mergeCharacterLocales(characterProfilesPt),
-  // Vietnamese, Indonesian and Filipino character profiles are still in translation.
-  vi: undefined,
-  id: undefined,
+  vi: mergeCharacterLocales(characterProfilesVi),
+  id: mergeCharacterLocales(characterProfilesId),
+  // Filipino is still in translation.
   fil: undefined,
 };
 
