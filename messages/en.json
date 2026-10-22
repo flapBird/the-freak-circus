@@ -1,426 +1,9 @@
 {
-  "locale": {
-    "en": "English",
-    "pt": "Português",
-    "fil": "Filipino",
-    "vi": "Tiếng Việt",
-    "es": "Español",
-    "id": "Bahasa Indonesia",
-    "zh": "中文"
-  },
-  "header": {
-    "siteName": "The Freak Circus",
-    "subtitle": "thefreakcircus.help",
-    "nav": {
-      "play": "Play Online",
-      "characters": "Characters",
-      "blog": "Blog",
-      "about": "About"
-    }
-  },
-  "footer": {
-    "aboutTitle": "About This Site",
-    "aboutText": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula or Neko Bueno. All game content belongs to its original creators.",
-    "quickLinks": "Quick Links",
-    "links": {
-      "play": "Play The Freak Circus Online",
-      "characters": "Character Guide",
-      "blog": "Articles & Guides",
-      "official": "Official itch.io Page",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
-    },
-    "disclaimerTitle": "Disclaimer",
-    "disclaimerText": "This site contains content from a game rated 18+. Any optional in-page player is served by a third-party host. This fan site does not claim that host is official or developer-operated. For the developer-supported version, use the official itch.io page.",
-    "copyright": "© {year} thefreakcircus.help - Fan Site - All trademarks belong to their respective owners",
-    "extLabel": "(external)"
-  },
   "game": {
     "playButton": "Play The Freak Circus",
     "loading": "Loading...",
     "ariaLabel": "Click to launch The Freak Circus",
     "iframeTitle": "Play The Freak Circus - Psychological Horror Visual Novel"
-  },
-  "home": {
-    "welcome": "Welcome to the Circus",
-    "subtitle": "An unofficial guide to Garula's 18+ horror visual novel",
-    "aboutDivider": "About the Game",
-    "whatIsTitle": "What Is The Freak Circus?",
-    "whatIsP1": "<strong>The Freak Circus</strong> is an 18+ visual novel by independent creator Garula (Neko Bueno), published on itch.io. The official listing currently describes it as a prototype and tags it as a visual novel, horror, romance, creepy, circus, monsters, Ren'Py, and yandere.",
-    "whatIsP2": "This is an unofficial fan guide. We distinguish developer-confirmed information from fan interpretation, link readers to the original devlogs, and direct players to itch.io for the developer-supported game, downloads, and current build information.",
-    "featuresTitle": "Key Features",
-    "features": [
-      "Official itch.io listing currently marks the project as a prototype",
-      "18+ horror, romance, circus, monsters, and yandere tags on the official listing",
-      "Developer-published updates, translation notices, and bug-fix devlogs",
-      "Official devlogs list English, Brazilian Portuguese, and Chinese among the game languages",
-      "Developer-supported browser and download options are available from the official itch.io page"
-    ],
-    "charactersTitle": "Characters",
-    "charactersP": "Five performers shape every playthrough of The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, and <a href=\"/characters#doctor\">the Doctor</a>. Each has a unique route, ending set, and relationship arc with the protagonist.",
-    "buttons": {
-      "characters": "Meet the Characters"
-    },
-    "howToPlayTitle": "How to Play",
-    "howToPlayP1": "For the developer-supported version, start on the official itch.io page. It is the reliable place to check the newest build, platform availability, content warnings, and fixes. This site does not distribute game downloads.",
-    "howToPlayP2": "Before starting, decide how much spoiler information you want. Make a separate save before a choice you want to revisit, record the build you are using, and keep your first-playthrough save separate from experiments.",
-    "howToPlayP3": "Our guides label first-party facts and fan observations separately. If a choice chart has no game version, screenshot, or source, treat it as unverified rather than as a guaranteed route condition.",
-    "faqTitle": "FAQ",
-    "faqItems": [
-      {
-        "q": "Is this game free to play?",
-        "a": "The official itch.io page lists the game as free with optional payment. Use that page for the developer-supported browser version and downloads."
-      },
-      {
-        "q": "Do I need to download anything?",
-        "a": "The official itch.io page is the best source for current browser and download instructions. This fan site does not distribute game files."
-      },
-      {
-        "q": "How long does it take?",
-        "a": "The developer does not publish a fixed completion-time estimate on the sources tracked here. Avoid treating fan estimates as an official promise."
-      },
-      {
-        "q": "Can I save my progress?",
-        "a": "The browser player includes import and export save controls. Check the official page and current build notes before moving saves between versions or devices."
-      },
-      {
-        "q": "What makes this visual novel unique?",
-        "a": "It stands out for its gothic psychological horror atmosphere, morally complex characters, and deeply branching narrative where every choice carries real weight. The hand-drawn art and haunting soundtrack create an immersive experience unlike typical visual novels."
-      },
-      {
-        "q": "Will progress carry between devices?",
-        "a": "Saves are stored locally in your browser. Download the game from itch.io to transfer save files between devices."
-      },
-      {
-        "q": "Is it suitable for all ages?",
-        "a": "No. It is rated 18+ and contains psychological horror, possessive relationships, dark romance, and mature themes."
-      },
-      {
-        "q": "What is the difference between routes?",
-        "a": "Each route offers a completely different perspective on the story. Pierrot focuses on psychological dependence and emotional control. Harlequin explores chaos and performance. Jester examines the ethics of entertainment. The Ticket Taker reveals the deepest lore about the circus itself. The Doctor contains the most intimate and unsettling content."
-      },
-      {
-        "q": "Can I play on mobile?",
-        "a": "It runs in most modern mobile browsers, though optimized for desktop and tablet for the best experience."
-      }
-    ],
-    "storyTitle": "Story & Premise",
-    "storyP1": "The Freak Circus begins when you stumble upon a traveling circus. Drawn by an inexplicable pull, you step past the entrance into a world where reality bends. Each performer offers a different perspective on the circus hidden history — Pierrot weeps through his performances but sees everything.",
-    "storyP2": "As night falls, the masks begin to slip. You confront uncomfortable truths about desire, control, and the stories we tell ourselves. The endings range from tender to terrifying, and the game does not judge whichever path you choose. The atmosphere shifts between day and night, with each part revealing different moods and secrets.",
-    "tipsTitle": "Tips for Playing",
-    "tipsList": [
-      "Take your time reading each scene. Small details often become important later in the story.",
-      "Do not reload saves on your first playthrough. Your natural decisions lead to the most meaningful experience.",
-      "Play through at least twice — a second run reveals missed dialogue and scenes you cannot see the first time.",
-      "Pay close attention to the Ticket Taker. He says more than he appears to say throughout the story.",
-      "Only one ending is playable in the current build, and it is a bad one. The Pierrot, Harlequin, Protagonist, and \"All together\" endings are announced but still in development, so expect the branching to be unfinished.",
-      "Use the save system at major decision points to explore alternative paths without losing progress."
-    ],
-    "whyPlayTitle": "Why Play?",
-    "whyPlayText": "This guide is designed to be useful after an update: it preserves official source links, dates every editorial summary, and avoids turning community rumours into release dates, endings, or route requirements.",
-    "storyP3": "The circus itself is a character. Tents shift positions between visits, carnival games seem to know your thoughts, and performers remember conversations you never had. The experience lingers long after you finish, inviting you back to explore paths you did not take.",
-    "gameplayP": "Gameplay centers on dialogue choices throughout each day. Some choices are timed, adding tension to conversations. Others seem simple but can redirect an entire character route. The game tracks affinity levels with each character, hidden flags for story branches, and cumulative choices that affect the final ending. Even minor interactions can cascade into major consequences later."
-  },
-  "about": {
-    "title": "About The Freak Circus",
-    "subtitle": "Everything you need to know about the game and this site.",
-    "gameSection": "The Game",
-    "gameP1": "The Freak Circus is a dark psychological horror visual novel developed by the independent creator Garula (Neko Bueno). It is published on itch.io and has accumulated a dedicated international fanbase through word-of-mouth across platforms including TikTok, Tumblr, and Reddit.",
-    "gameP2": "The game follows an unnamed protagonist who visits a mysterious, isolated circus and becomes entangled with five dangerous performers. The narrative unfolds across multiple days, with player choices determining character routes and endings.",
-    "siteSection": "This Site",
-    "siteP1": "thefreakcircus.help is an unofficial fan resource with character guides, update summaries, and articles. An optional in-page player is served by a third-party host; we do not claim that host is official, developer-operated, or endorsed by Garula. We do not distribute game downloads.",
-    "siteP2": "To support the developer directly, visit the <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
-    "faqDivider": "Frequently Asked Questions",
-    "faq": [
-      {
-        "q": "Who made The Freak Circus?",
-        "a": "The Freak Circus was created by Garula, also known as Neko Bueno. It is an independent project published on itch.io."
-      },
-      {
-        "q": "Is The Freak Circus free?",
-        "a": "Yes. The base game is free to play in browser and free to download. The developer offers optional Patreon tiers for early access to new content."
-      },
-      {
-        "q": "Is this site official?",
-        "a": "No. thefreakcircus.help is an unofficial fan site. We are not affiliated with Garula or Neko Bueno. All game assets belong to the original creator."
-      },
-      {
-        "q": "What content warnings does the game have?",
-        "a": "The Freak Circus is rated 18+ and contains psychological horror themes, possessive and controlling relationship dynamics, dark romance, and mature content. Please review the official itch.io page for the full content warning list."
-      },
-      {
-        "q": "How do I download the game?",
-        "a": "Download links for Windows, macOS, and Linux are available on the official itch.io page. You can also play the browser version embedded on the homepage of this site."
-      },
-      {
-        "q": "Does the game support Chinese?",
-        "a": "Yes. The Freak Circus includes official Simplified Chinese language support."
-      }
-    ],
-    "triviaTitle": "Character Trivia & Fun Facts",
-    "trivia": [
-      {
-        "q": "How tall is Pierrot from The Freak Circus?",
-        "a": "Pierrot is 198 cm, roughly 6 ft 5.95 in, in the developer's published height chart. It also places him third of five in the official age order, oldest first. See the <a href=\"/characters/heights\">height and ranking page</a>."
-      },
-      {
-        "q": "Is Pierrot a yandere type?",
-        "a": "The official synopsis describes Pierrot as \"the silent yandere\", so the label comes from the developer rather than from fan categorisation. His silence is a deliberate characterisation. His planned route explores obsession and emotional control, but that route is still in development."
-      },
-      {
-        "q": "What is Harlequin relationship with Pierrot?",
-        "a": "Harlequin and Pierrot share one of the most complex dynamics in The Freak Circus. Their relationship is part rivalry, part codependence, with their shared history involving Columbina. This backstory is revealed differently depending on which route you play."
-      },
-      {
-        "q": "What happened to Columbina in The Freak Circus?",
-        "a": "Columbina backstory is deliberately kept ambiguous and is revealed in fragments through Pierrot and Harlequin routes. She appears only in flashback sequences and is central to understanding the circus hidden history. Read the <a href=\"/en/characters/columbina\">Columbina lore page</a> for what is known."
-      },
-      {
-        "q": "Can you romance the Ticket Taker?",
-        "a": "No. The developer has confirmed there is no Ticket Taker route — the route options are Pierrot, Harlequin, both, or neither. Making the remaining characters romance options is described as a possibility rather than a commitment. See the <a href=\"/endings\">endings and routes page</a>."
-      },
-      {
-        "q": "Does The Doctor have a good ending?",
-        "a": "No. The Doctor has no route and no ending in the current build. The only ending that exists is the \"Missing\" bad ending on Day 1; Pierrot, Harlequin, the Protagonist, and \"All together\" are announced but not yet implemented."
-      }
-    ]
-  },
-  "characters": {
-    "pageTitle": "The Performers",
-    "title": "Characters of The Freak Circus",
-    "subtitle": "Five extraordinary performers. Five routes. One fate.",
-    "routeTip": "Route Tip",
-    "list": [
-      {
-        "id": "pierrot",
-        "name": "Pierrot",
-        "role": "The Weeping Clown",
-        "description": "Controlled, melancholic, and intensely perceptive. Pierrot is the emotional anchor of the circus, performing sorrow for crowds who laugh at his tears. His route is the most psychologically demanding and offers the most lore about the circus's true nature.",
-        "traits": [
-          "Melancholic",
-          "Possessive",
-          "Poetic",
-          "Dangerous"
-        ],
-        "routeTip": "Planned romance route. The script for it is still in development — no trigger conditions exist publicly yet."
-      },
-      {
-        "id": "harlequin",
-        "name": "Harlequin",
-        "role": "The Chaotic Performer",
-        "description": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. His relationship with Pierrot is one of the game's central dynamics.",
-        "traits": [
-          "Volatile",
-          "Charming",
-          "Protective",
-          "Layered"
-        ],
-        "routeTip": "Planned romance route. The script for it is still in development — no trigger conditions exist publicly yet."
-      },
-      {
-        "id": "jester",
-        "name": "Jester",
-        "role": "The Trickster",
-        "description": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He widens the circus beyond its central rivalry and keeps a larger purpose to himself, and the current build introduces him without opening a route of his own.",
-        "traits": [
-          "Ambiguous",
-          "Quick-witted",
-          "Lonely",
-          "Calculating"
-        ],
-        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Jester route; the character appears as part of the wider cast."
-      },
-      {
-        "id": "ticket-taker",
-        "name": "Ticket Taker",
-        "role": "The Gatekeeper",
-        "description": "The first character you meet. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for a long time. The current build introduces him without opening a route of his own.",
-        "traits": [
-          "Observant",
-          "Cryptic",
-          "Stern",
-          "Ancient"
-        ],
-        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Ticket Taker route."
-      },
-      {
-        "id": "doctor",
-        "name": "Doctor",
-        "role": "The Surgeon of Secrets",
-        "description": "The Doctor brings a colder, clinical register to the circus. He is methodical and unsettling, and the current build introduces him without opening a route of his own.",
-        "traits": [
-          "Clinical",
-          "Intimate",
-          "Controlling",
-          "Complex"
-        ],
-        "routeTip": "Introduced in version 0.2. The developer has confirmed there is no Doctor route."
-      }
-    ],
-    "pierrot": {
-      "meta": {
-        "title": "Pierrot - The Freak Circus Character Guide",
-        "desc": "Meet Pierrot the Weeping Clown from The Freak Circus. Learn about his yandere-type personality, route guide, fanart, and role in the story."
-      },
-      "role": "The Weeping Clown",
-      "appearance": "Pierrot has a lean, androgynous build with pale skin and dark hollowed eyes. He wears a classic white clown costume with black diamond accents and a single tear painted beneath his left eye. His official height has not been disclosed. He is often depicted holding a wilted flower or a broken mirror.",
-      "traits": [
-        "Melancholic",
-        "Possessive",
-        "Poetic",
-        "Dangerous",
-        "Yandere-type"
-      ],
-      "personality": "Pierrot is controlled, melancholic, and intensely perceptive. He performs sorrow for crowds who laugh at his tears, but behind the performance lies a deeply possessive and dangerous personality. Fans often categorize him as a 'silent yandere' type — his affection turns obsessive gradually, making his route one of the most psychologically intense in the game.",
-      "routeDesc": "Pierrot's route is the most psychologically demanding in the game. To pursue his route, choose introspective and empathetic dialogue options during Day 1 carnival encounters. Follow the white cloak during the tent scene. During Day 2, prioritize understanding over resistance to unlock the Good Ending. Pierrot's route reveals the deepest lore about the circus history and his relationship with Columbina.",
-      "fanSections": [
-        "Weeping Clown portrait",
-        "Pierrot and Harlequin confrontation scene",
-        "Pierrot route CG from Day 2"
-      ],
-      "reviews": [
-        "Pierrot's route stayed with me for days. The writing makes you feel genuinely torn between wanting to save him and needing to escape him.",
-        "The psychological tension in Pierrot's route is unmatched. The voice acting for his breakdown scene is incredible.",
-        "I went into this game expecting a simple romance and came out emotionally devastated by Pierrot's storyline."
-      ]
-    },
-    "harlequin": {
-      "meta": {
-        "title": "Harlequin - The Freak Circus Character Guide",
-        "desc": "Meet Harlequin the Chaotic Performer from The Freak Circus. Learn about his volatile personality, route tips, and role in the story."
-      },
-      "role": "The Chaotic Performer",
-      "appearance": "Harlequin has a tall, athletic build with sharp facial features and wild, two-toned hair. His costume is a traditional diamond-patterned harlequin suit in red and gold, complete with a half-mask that he wears at an angle. His official height has not been disclosed by the developer.",
-      "traits": [
-        "Volatile",
-        "Charming",
-        "Protective",
-        "Layered",
-        "Chaotic-neutral"
-      ],
-      "personality": "Unpredictable and theatrical, Harlequin masks a turbulent past behind an ever-shifting performance. One moment he is playful and flirtatious, the next he is dangerous and unreadable. His relationship with Pierrot is one of the most complex dynamics in The Freak Circus — part rivalry, part codependence.",
-      "routeDesc": "Harlequin's route rewards bold choices. Select the red balloon during the Day 1 carnival opening. Use playful, daring responses during main tent encounters. His route escalates quickly during Day 2 — embrace the chaos rather than resist it. Harlequin's route explores themes of performance, identity, and the cost of wearing a mask.",
-      "fanSections": [
-        "Harlequin performance CG",
-        "Harlequin and Pierrot tension scene",
-        "Harlequin route key art"
-      ],
-      "reviews": [
-        "Harlequin is the kind of character you hate to love. His route made me genuinely uncomfortable in the best way.",
-        "The chaos energy of Harlequin is off the charts. Every scene with him keeps you guessing.",
-        "His backstory reveal in Day 2 completely changed how I saw his character. The writing is superb."
-      ]
-    },
-    "jester": {
-      "meta": {
-        "title": "Jester - The Freak Circus Character Guide",
-        "desc": "Meet Jester the Trickster from The Freak Circus. Learn about his ambiguous personality, route guide, and role in the story."
-      },
-      "role": "The Trickster",
-      "appearance": "Jester has a smaller, agile build with wide, expressive eyes and a permanent smirk. His costume is a multi-colored jester outfit with bells on the pointed collar and curled shoes. His official height and age have not been disclosed.",
-      "traits": [
-        "Ambiguous",
-        "Quick-witted",
-        "Lonely",
-        "Calculating",
-        "Trickster archetype"
-      ],
-      "personality": "Jester exists between the other performers, neither fully loyal nor fully antagonistic. He plays tricks on everyone but never reveals his own hand. His ambiguous alignment makes him one of the most unpredictable characters in The Freak Circus — you never know if he is helping you or setting you up.",
-      "routeDesc": "Jester's route is unlocked during Day 2. Respond with humor and wit, but avoid direct confrontation. Jester respects cleverness over brute honesty. His route explores the ethics of entertainment and what it means to make others laugh while hiding your own pain.",
-      "fanSections": [
-        "Jester trickster pose CG",
-        "Jester and protagonist dialogue scene",
-        "Jester route mood art"
-      ],
-      "reviews": [
-        "Jester quickly became my favorite. His humor hides so much pain and the route reveals it beautifully.",
-        "The Jester route has the best writing for comedic timing. Some lines genuinely made me laugh out loud.",
-        "His route twist in the second act caught me completely off guard. Do not underestimate him."
-      ]
-    },
-    "doctor": {
-      "meta": {
-        "title": "The Doctor - The Freak Circus Character Guide",
-        "desc": "Meet the Doctor, the Surgeon of Secrets from The Freak Circus. Learn about his clinical personality, route guide, and role in the story."
-      },
-      "role": "The Surgeon of Secrets",
-      "appearance": "The Doctor is tall and composed, with sharp features and cold, analytical eyes. He wears a vintage medical coat stained with what appears to be old blood, layered over a formal waistcoat. His official height has not been disclosed. He carries a leather doctor bag that never leaves his side.",
-      "traits": [
-        "Clinical",
-        "Intimate",
-        "Controlling",
-        "Complex",
-        "Sadistic streak"
-      ],
-      "personality": "The Doctor is methodical, intimate, and deeply unsettling. He approaches every interaction as if conducting an examination — clinical in speech, unnerving in touch. His route contains some of the darkest content in The Freak Circus, exploring themes of control, vulnerability, and the ethics of care.",
-      "routeDesc": "The Doctor's content is largely concentrated in Day 2. Accept his examination scenes to progress his route. His route requires a willingness to engage with uncomfortable dynamics. The Doctor route has been recently expanded with new content by the developer, adding additional scenes and an extended ending sequence.",
-      "fanSections": [
-        "Doctor examination room CG",
-        "Doctor and protagonist tense scene",
-        "Doctor character concept art"
-      ],
-      "reviews": [
-        "The Doctor's route is not for everyone, but if you enjoy dark romance with psychological depth, it is incredibly well-written.",
-        "I was genuinely unsettled during his examination scenes. The game does not hold back.",
-        "The expanded content for his route adds so much depth. The new ending made me rethink his entire character."
-      ]
-    },
-    "columbina": {
-      "meta": {
-        "title": "Columbina - The Freak Circus Character Guide",
-        "desc": "Meet Columbina from The Freak Circus. Learn about her mysterious past with Pierrot, her role in the circus lore, and what fans speculate about her."
-      },
-      "role": "The Lost Performer",
-      "appearance": "Columbina is described through in-game text and flashback sequences as having a delicate frame, porcelain features, and a soft, melancholic expression. She wears a traditional Columbina costume — a flowing white and gold dress with a small half-mask. Her official height has not been disclosed. Her appearance is only shown in fragmented CG sequences and character memories.",
-      "traits": [
-        "Elegant",
-        "Tragic",
-        "Mysterious",
-        "Fragile",
-        "Central lore figure"
-      ],
-      "personality": "Columbina is a figure of tragedy and mystery in The Freak Circus. She is central to the backstory of both Pierrot and Harlequin, though she never appears as a living character in the main timeline. Her past actions and relationship with the circus performers shape much of the present-day narrative. Fan theories about Columbina vary widely, as the game deliberately keeps her story ambiguous.",
-      "routeDesc": "Columbina does not have a romanceable route in The Freak Circus. She is a lore-only character whose story is revealed through Pierrot and Harlequin routes. Piecing together her history is one of the main motivations for multiple playthroughs.",
-      "fanSections": [
-        "Columbina flashback CG",
-        "Columbina and Pierrot memory scene",
-        "Columbina concept art"
-      ],
-      "reviews": [
-        "The Columbina reveal completely reframes Pierrot entire route. I had to replay immediately.",
-        "Every mention of Columbina in the game is heartbreaking. The writing team did an amazing job with her tragic story.",
-        "I spent hours on forums discussing Columbina theories after finishing the game. That is how compelling her character is."
-      ]
-    },
-    "ticket-taker": {
-      "meta": {
-        "title": "Ticket Taker TFC - The Freak Circus Character Guide",
-        "desc": "Meet the Ticket Taker from The Freak Circus. Learn about his cryptic personality, gatekeeper role, route guide, and lore significance."
-      },
-      "role": "The Gatekeeper",
-      "appearance": "The Ticket Taker is an older, stoic figure with silver-streaked hair and piercing eyes that seem to look through you. He wears a vintage railway conductor uniform with brass buttons and always carries a leather-bound ticket book. His official height has not been disclosed. He is the first character you meet when entering the circus.",
-      "traits": [
-        "Observant",
-        "Cryptic",
-        "Stern",
-        "Ancient",
-        "Guardian figure"
-      ],
-      "personality": "The first character you encounter. The Ticket Taker controls who enters and who leaves, and has watched everything at this circus for far longer than the others realize. His cryptic comments often carry double meanings that only become clear on replay. He speaks in riddles and seems to know more about the protagonist than he lets on.",
-      "routeDesc": "The Ticket Taker route requires persistence. Engage directly with every question he asks — deflect his tests at your own risk. His route rewards players who pay attention to the smallest details in dialogue. The Ticket Taker reveals the deepest lore about the circus origins and the nature of the performers contract.",
-      "fanSections": [
-        "Ticket Taker entrance CG",
-        "Ticket Taker route key scene",
-        "Ticket Taker character art"
-      ],
-      "reviews": [
-        "The Ticket Taker quickly went from creepy gatekeeper to fascinating character. His route has the best lore payoff in the game.",
-        "Every line the Ticket Taker speaks is important. I started taking notes on my second playthrough.",
-        "His route answers questions you did not even know you had. The lore reveal is worth the effort of unlocking his path."
-      ]
-    }
   },
   "blog": {
     "title": "Guides & Articles",
@@ -428,10 +11,6 @@
     "backLink": "Back to all articles",
     "published": "Published {date}",
     "footerLink": "Play The Freak Circus Online"
-  },
-  "ad": {
-    "leftLabel": "Left sidebar advertisement",
-    "rightLabel": "Right sidebar advertisement"
   },
   "meta": {
     "homeTitle": "The Freak Circus — Psychological Horror Visual Novel",
@@ -448,159 +27,6 @@
     "privacyDesc": "thefreakcircus.help privacy policy - how we handle visitor data on this The Freak Circus fan site.",
     "termsTitle": "Terms of Service",
     "termsDesc": "thefreakcircus.help terms of service - rules and guidelines for using this The Freak Circus fan site."
-  },
-  "schema": {
-    "websiteName": "The Freak Circus",
-    "websiteDesc": "A psychological horror romance visual novel set in a mysterious circus.",
-    "gameGenres": [
-      "Visual Novel",
-      "Psychological Horror",
-      "Romance"
-    ],
-    "authorName": "Garula (Neko Bueno)",
-    "os": "Web Browser, Windows, macOS, Linux",
-    "contentRating": "18+",
-    "searchAction": "Search thefreakcircus.help"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with the team behind thefreakcircus.help.",
-    "p1": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. If you have questions about the game, the site, or need help with gameplay, feel free to reach out.",
-    "p2": "Email: contact@thefreakcircus.help — we try to respond within a few days."
-  },
-  "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "How we handle your data on thefreakcircus.help.",
-    "s1title": "Information We Collect",
-    "s1body": "thefreakcircus.help uses a language-preference cookie and analytics described below. An optional in-page player is served by a third-party host; this fan site does not operate that host and does not claim it is official. We do not have access to data sent within that player.",
-    "s2title": "Third-Party Services",
-    "s2body": "The optional player is loaded in an iframe from a third-party host. That host may collect data under its own policies, which we do not control. For the developer-supported game and its data practices, review the official itch.io page. We also use Google Analytics for basic traffic measurement.",
-    "s3title": "Your Rights",
-    "s3body": "As a visitor to this fan site, you have the right to browse anonymously, block cookies via your browser settings, and use ad-blocking or tracking protection extensions. If you have concerns about data handling, please contact us through the official itch.io page."
-  },
-  "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Rules and guidelines for using thefreakcircus.help.",
-    "s1body": "thefreakcircus.help is an unofficial fan site for The Freak Circus visual novel. We are not affiliated with Garula, Neko Bueno, or itch.io. All game content, including artwork, story, and characters, belongs to their respective creators.",
-    "s2body": "An optional in-page player is served by a third-party host. We do not claim that host is official, developer-operated, or endorsed. We do not distribute game downloads; use the official itch.io page for the developer-supported version.",
-    "s3body": "All original content on this site — including guides, walkthroughs, and articles — is provided for informational purposes. You may share links to our pages, but do not reproduce our content without attribution.",
-    "s4body": "This site contains content from a game rated 18+. By using this site, you confirm that you are of legal age to view mature content in your jurisdiction. If you have any questions about these terms, please contact us."
-  },
-  "wiki": {
-    "title": "The Freak Circus Wiki & Lore Guide",
-    "subtitle": "Complete encyclopedia of The Freak Circus lore, characters, and setting.",
-    "meta": {
-      "title": "The Freak Circus Wiki - Complete Lore & Setting Guide",
-      "desc": "Explore the complete The Freak Circus wiki including character lore, circus setting, glossary of terms, development timeline, and developer credits."
-    },
-    "overviewTitle": "Welcome to the Wiki",
-    "overviewP1": "This page provides complete The Freak Circus encyclopedia including character profiles, story setting, and update history. Whether you are a new player looking to understand the story or a veteran seeking deeper lore, this wiki covers everything known about the game.",
-    "overviewP2": "Information here is based on officially confirmed game content. Community speculation is clearly marked where included.",
-    "loreTitle": "World & Circus Setting",
-    "loreP1": "The Freak Circus is set in a mysterious circus that appears only at night at the edge of a fog-shrouded town. The circus exists in a liminal space — it arrives without warning and leaves the same way. The five performers are bound to the circus by an agreement that predates the events of the game, though the exact nature of this agreement is deliberately left ambiguous.",
-    "loreP2": "The circus grounds include the main performance tent, the carnival midway, individual performer spaces, and hidden areas that only become accessible on specific routes. The layout shifts between visits, suggesting the circus itself is alive and responsive to the protagonist choices.",
-    "glossaryTitle": "Glossary of Terms",
-    "glossary": [
-      {
-        "term": "The Performance",
-        "def": "The nightly show each performer gives. The Performance is both literal entertainment and a metaphor for each character hidden nature."
-      },
-      {
-        "term": "The Contract",
-        "def": "An agreement binding each performer to the circus. The terms are never fully explained but hinted at through character dialogue."
-      },
-      {
-        "term": "Day 1 / Day 2",
-        "def": "The two active days of gameplay. The story unfolds across this timeframe, with choices determining which routes open."
-      },
-      {
-        "term": "Good Ending / Bad Ending",
-        "def": "Each character route has at least two endings. Good Endings require specific choice combinations. Bad Endings trigger through defiance or passive acceptance."
-      },
-      {
-        "term": "The Tear Painted on Pierrot Face",
-        "def": "A permanent makeup mark that symbolizes his perpetual performance of sorrow. It never washes off."
-      }
-    ],
-    "creditsTitle": "Developer & Credits",
-    "creditsP1": "The Freak Circus was developed by Garula (also known as Neko Bueno) and is published on itch.io. Use the official itch.io page for developer-supported browser and download options.",
-    "creditsP2": "Full voice cast and additional credits have not been publicly disclosed by the developer. This section will be updated as more information becomes available.",
-    "timelineTitle": "Update Timeline",
-    "timeline": [
-      {
-        "version": "Initial Release",
-        "date": "2024",
-        "desc": "The Freak Circus first released on itch.io with Pierrot, Harlequin, Jester, Ticket Taker, and Doctor routes available."
-      },
-      {
-        "version": "Doctor Route Expansion",
-        "date": "Late 2024",
-        "desc": "Additional scenes and an extended ending added to the Doctor route based on player feedback."
-      },
-      {
-        "version": "Chinese Language Support",
-        "date": "2025",
-        "desc": "Official Simplified Chinese language support added alongside continuing English content updates."
-      },
-      {
-        "version": "Day 3 & Future Content",
-        "date": "TBD",
-        "desc": "The developer has indicated ongoing work on additional content. Day 3 and new character content are anticipated."
-      }
-    ]
-  },
-  "community": {
-    "meta": {
-      "title": "The Freak Circus Fan Art & Community",
-      "desc": "Join The Freak Circus fan community. Explore fan art, creator links, official social media, and community resources."
-    },
-    "title": "The Freak Circus Community",
-    "subtitle": "Fan art, discussions, and community resources.",
-    "officialTitle": "Official Links",
-    "officialDesc": "Connect with the developer and other fans through these official channels.",
-    "links": [
-      {
-        "name": "itch.io Page",
-        "url": "https://garula.itch.io/the-freak-circus"
-      },
-      {
-        "name": "Official Twitter",
-        "url": "https://twitter.com/FreakCircusVRC"
-      }
-    ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Showcasing community-created fan art of The Freak Circus characters. Submissions are from verified creators who have granted permission for display.",
-    "communityTitle": "Community Resources",
-    "communityTips": [
-      "Join official Discord servers for real-time discussions with other fans.",
-      "Use #TheFreakCircus tag on social media platforms to share your creations.",
-      "Respect other fans and creators — the community thrives on mutual support.",
-      "Check the official itch.io page for the latest developer updates and community news."
-    ]
-  },
-  "news": {
-    "meta": {
-      "title": "The Freak Circus News & Updates",
-      "desc": "Latest news and updates for The Freak Circus visual novel. Development progress, version releases, and community announcements."
-    },
-    "title": "News & Updates",
-    "entries": [
-      {
-        "date": "2025",
-        "title": "Chinese Language Support Added",
-        "body": "The Freak Circus now includes official Simplified Chinese language support. This update also includes bug fixes and minor dialogue adjustments."
-      },
-      {
-        "date": "Late 2024",
-        "title": "Doctor Route Expansion Released",
-        "body": "New scenes and an extended ending for the Doctor route are now available. Thank you to the community for the feedback that made this expansion possible."
-      },
-      {
-        "date": "2024",
-        "title": "The Freak Circus Released on itch.io",
-        "body": "The Freak Circus is now available to play for free on itch.io. The initial release includes all five main character routes with multiple endings."
-      }
-    ]
   },
   "ui": {
     "mainNavigation": "Main navigation",
@@ -634,5 +60,167 @@
     "primarySource": "Primary source",
     "readOriginal": "Read the original announcement at {source}",
     "siteBy": "Site by"
+  },
+  "landing": {
+    "schemaDescription": "An unofficial, source-led guide to The Freak Circus, an 18+ psychological horror visual novel by Neko Bueno.",
+    "heroSubtitle": "The Circus Is Open. Choose Who You Trust.",
+    "heroLead": "The Freak Circus is an 18+ psychological horror visual novel starring Pierrot, a silent clown whose affection turns into obsession, and Harlequin, his dangerously charming rival. As Jester, Doctor, and Ticket Taker enter the ring, every encounter draws the café-worker protagonist deeper into the circus.",
+    "playHere": "Play here now",
+    "learnMore": "Discover the Story & Cast",
+    "playTitle": "Play The Freak Circus Now",
+    "castTitle": "MEET THE CHARACTERS",
+    "allCharacters": "Character overview",
+    "whatTitle": "WHAT IS THE FREAK CIRCUS?",
+    "whatP1": "The Freak Circus is an 18+ psychological horror visual novel set around a circus that turns affection into danger. A café worker crosses paths with Pierrot, a silent yandere clown, and is pulled into his escalating rivalry with the seductive Harlequin.",
+    "whatP2": "The current prototype introduces five distinct performers, blends character-driven choices with unsettling imagery, and leaves its larger routes and endings in development. It is a story about obsession, masks, secrets, and deciding which smile is safe to trust.",
+    "meetCast": "Meet the cast",
+    "whatFeatures": [
+      {
+        "title": "Psychological Horror",
+        "text": "Romance and dread share the same stage as affection slips into control, manipulation, and fear."
+      },
+      {
+        "title": "Character-Driven Story",
+        "text": "Pierrot and Harlequin anchor the rivalry while Jester, Doctor, and Ticket Taker deepen the circus mystery."
+      },
+      {
+        "title": "Meaningful Choices",
+        "text": "Dialogue and route decisions change encounters, reveal scenes, and shape the outcomes available in the current build."
+      },
+      {
+        "title": "Dark Circus Atmosphere",
+        "text": "Original character art, theatrical tents, animated scenes, and a sinister fairground mood define the experience."
+      }
+    ],
+    "howTitle": "HOW TO PLAY",
+    "howSteps": [
+      {
+        "title": "Launch the player",
+        "text": "Use the browser player near the top of this page and press its start button when you are ready to enter the circus."
+      },
+      {
+        "title": "Set your preferences",
+        "text": "Open the in-game preferences to choose an available language, adjust sound, and set text speed before beginning."
+      },
+      {
+        "title": "Choose and save",
+        "text": "Read each scene, make route choices, and use the in-game Save and Load menus before decisions you may want to revisit."
+      },
+      {
+        "title": "Continue safely",
+        "text": "Keep browser data intact if you rely on browser saves, or use the official download page for the supported desktop and Android builds."
+      }
+    ],
+    "howCta": "Start playing",
+    "guidesTitle": "PRACTICAL GUIDES",
+    "guidesLead": "Direct answers to the questions players search for most, each one checked against the developer’s own published sources.",
+    "updateTitle": "LATEST UPDATES",
+    "allUpdates": "View all updates",
+    "readUpdate": "Read full update",
+    "faqTitle": "Frequently Asked Questions",
+    "reviewsTitle": "WHAT PLAYERS SAY",
+    "faq": [
+      {
+        "q": "What is The Freak Circus?",
+        "a": "The Freak Circus is an 18+ psychological horror visual novel created by Neko Bueno and published by Garula. Its current story centers on a café worker, Pierrot, and Harlequin."
+      },
+      {
+        "q": "Is The Freak Circus finished?",
+        "a": "No. The official itch.io listing labels it a prototype and says the remaining script and endings are still in development."
+      },
+      {
+        "q": "Where should I play or download it?",
+        "a": "Use Garula’s official itch.io page. This guide does not host or redistribute game files."
+      },
+      {
+        "q": "Is Day 3 available?",
+        "a": "The developer is working on the next chapter, but no release date is published on the official sources tracked here."
+      },
+      {
+        "q": "Which characters appear in the current build?",
+        "a": "The current prototype introduces Pierrot, Harlequin, Jester, Doctor, and Ticket Taker. Columbina is also referenced in official maintenance notes."
+      },
+      {
+        "q": "Does every character have a completed route?",
+        "a": "No. The official listing names planned Pierrot, Harlequin, and protagonist endings, while confirming that the remaining script and endings are still in development."
+      },
+      {
+        "q": "Which languages are official?",
+        "a": "The current official listing names English, Brazilian Portuguese, and Chinese."
+      },
+      {
+        "q": "Which platforms are supported?",
+        "a": "The official listing currently includes HTML5 browser play, Windows, macOS, Linux, and Android."
+      },
+      {
+        "q": "Is The Freak Circus suitable for younger players?",
+        "a": "No. The developer rates the game 18+ and lists dark themes including blood, death, kidnapping, cannibalism, non-consensual use of drugs, physical domination, and mild physical harassment / non-consensual physical contact."
+      },
+      {
+        "q": "Where can I follow verified game updates?",
+        "a": "Use the developer’s itch.io devlog and official Tumblr. This site’s Updates section links its summaries back to those original posts."
+      },
+      {
+        "q": "What can I find on this website?",
+        "a": "The site provides an in-page player, character profiles, a source-led Wiki, Day 3 status, an official download guide, update summaries, and community fan art."
+      },
+      {
+        "q": "Is this an official website?",
+        "a": "No. This is an independent fan guide that links back to the developer’s official sources."
+      }
+    ],
+    "characters": {
+      "pierrot": "A sorrowful clown concealing profound emotions beneath a painted grin. His tale unfolds through love, loss, and the burden of secrets long kept.",
+      "harlequin": "A playful trickster whose lighthearted exterior conceals a far more intricate soul. Her bond with Pierrot lies at the very center of the story.",
+      "jester": "The circus's storyteller and silent witness, unraveling Columbina's tragic legend through puppet shows that expose the show's darkest truths.",
+      "the-doctor": "A plague doctor performing sinister experiments within the Cyan Tent, studying fear itself and probing the darker edges of medical ethics.",
+      "ticket-taker": "A manipulator of reality who presides over the Tent of Mirrors, using warped reflections to unmask the true face of every monster."
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Endings and routes",
+        "text": "The one ending you can reach today, and the four that are still in development.",
+        "cta": "See the endings guide"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Heights and age order",
+        "text": "The developer’s published height chart, age order, and strength ranking.",
+        "cta": "See the full chart"
+      },
+      {
+        "href": "/save",
+        "title": "Saving and resuming",
+        "text": "What the engine actually supports, and which save details were never documented.",
+        "cta": "See the saving guide"
+      },
+      {
+        "href": "/faq",
+        "title": "Frequently asked questions",
+        "text": "Short answers on playing, downloading, endings, and characters.",
+        "cta": "Read the FAQ"
+      }
+    ],
+    "storyLink": "{name}'s Story",
+    "adLabel": "Advertisement"
+  },
+  "siteFooter": {
+    "note": "Discover a disturbing circus world shaped by obsession, manipulation, and rivalry, where Pierrot and Harlequin draw you into a haunting visual novel experience.",
+    "features": "Explore the Site",
+    "siteInfo": "Site Information",
+    "play": "Home",
+    "characters": "Characters",
+    "download": "Download",
+    "updates": "Updates",
+    "fanArt": "Fan Art",
+    "community": "Community",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "shareX": "Share thefreakcircus.help on X",
+    "shareFacebook": "Share thefreakcircus.help on Facebook",
+    "bottom": "This is an unofficial fan-made website created for informational purposes. It has no official connection with the original creators or publishers. No game files are hosted here. All trademarks and copyrighted content belong to their respective owners."
   }
 }

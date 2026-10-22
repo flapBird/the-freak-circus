@@ -58,7 +58,9 @@ export const CHARACTER_LOCALES: Record<string, readonly Locale[]> = {
  * are translated into other locales as the review passes complete.
  */
 export const CORE_LOCALES: Record<string, readonly Locale[]> = {
-  home: ['en', 'zh'],
+  // The home page carries a full translation in every locale, so it can be
+  // indexed wherever the landing copy exists.
+  home: ['en', 'zh', 'es', 'pt', 'vi', 'id', 'fil'],
   about: ['en', 'zh'],
   wiki: ['en', 'zh'],
   'day-3': ['en', 'zh'],

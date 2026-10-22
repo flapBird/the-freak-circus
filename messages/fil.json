@@ -1,426 +1,9 @@
 {
-  "locale": {
-    "en": "English",
-    "pt": "Português",
-    "fil": "Filipino",
-    "vi": "Tiếng Việt",
-    "es": "Español",
-    "id": "Bahasa Indonesia",
-    "zh": "中文"
-  },
-  "header": {
-    "siteName": "The Freak Circus",
-    "subtitle": "thefreakcircus.help",
-    "nav": {
-      "play": "Maglaro Online",
-      "characters": "Mga Tauhan",
-      "blog": "Blog",
-      "about": "Tungkol sa"
-    }
-  },
-  "footer": {
-    "aboutTitle": "Tungkol sa Site na Ito",
-    "aboutText": "Ang thefreakcircus.help ay isang hindi opisyal na fan site para sa visual novel ng The Freak Circus. Hindi kami konektado sa Garula o Neko Bueno. Lahat ng nilalaman ng laro ay pag-aari ng orihinal nitong mga lumikha.",
-    "quickLinks": "Mabilisang mga Link",
-    "links": {
-      "play": "Maglaro ng Freak Circus Online",
-      "characters": "Gabay sa Tauhan",
-      "blog": "Mga Artikulo at Gabay",
-      "official": "Opisyal na itch.io Page",
-      "about": "Tungkol sa",
-      "contact": "Makipag-ugnayan",
-      "privacy": "Patakaran sa Privacy",
-      "terms": "Mga Tuntunin ng Serbisyo"
-    },
-    "disclaimerTitle": "Paunawa",
-    "disclaimerText": "Ang site na ito ay naglalaman ng nilalaman mula sa isang laro na may rating na 18. Anumang opsyonal na in-page player ay pinaglilingkuran ng third-party host. Hindi sinasabi ng fan site na ito na opisyal o pinapatakbo ng developer ang host. Para sa bersyong sinusuportahan ng developer, gamitin ang opisyal na itch.io page.",
-    "copyright": "© {year} thefreakcircus.help - Fan Site - Lahat ng trademark ay pag-aari ng kani-kanilang may-ari",
-    "extLabel": "(panlabas)"
-  },
   "game": {
     "playButton": "Maglaro sa Freak Circus",
     "loading": "Naglo-load...",
     "ariaLabel": "I-click para ilunsad ang The Freak Circus",
     "iframeTitle": "Laruin ang Freak Circus - Sikolohikal na Horror Visual Novel"
-  },
-  "home": {
-    "welcome": "Maligayang pagdating sa sirko",
-    "subtitle": "Isang hindi opisyal na gabay sa 18 horror visual novel ni Garula",
-    "aboutDivider": "Tungkol sa Laro",
-    "whatIsTitle": "Ano ang Freak Circus?",
-    "whatIsP1": "<strong> Ang Freak Circus</strong> ay isang 18 visual novel na isinulat ng independent creator na si Garula (Neko Bueno), na inilathala noong itch.io. Ang opisyal na listahan ay kasalukuyang inilalarawan ito bilang isang prototype at tinag bilang isang visual novel, horror, romance, creepy, circus, monsters, Ren'Py, at yandere.",
-    "whatIsP2": "Ito ay isang hindi opisyal na fan guide. Pinagkaiba namin ang impormasyong kinumpirma ng developer mula sa interpretasyon ng mga tagahanga, iniuugnay ang mga mambabasa sa orihinal na devlogs, at tinutukoy ang mga manlalaro na mag-itch.io para sa larong sinusuportahan ng developer, mga download, at kasalukuyang impormasyon tungkol sa build.",
-    "featuresTitle": "Pangunahing Tampok",
-    "features": [
-      "Ang opisyal na itch.io listing ay kasalukuyang nagmamarka sa proyekto bilang isang prototype",
-      "18 Horror, Romance, Circus, Monsters, at Yandere tags sa opisyal na listahan",
-      "Mga update na inilathala ng developer, mga paunawa sa pagsasalin, at mga devlog na nag-aayos ng bug",
-      "Opisyal na mga devlogs ay naglilista ng English, Brazilian Portuguese, at Chinese bilang mga wika ng laro",
-      "Ang mga browser at download options na sinusuportahan ng developer ay available mula sa opisyal na itch.io page"
-    ],
-    "charactersTitle": "Mga Tauhan",
-    "charactersP": "Limang performer ang humuhubog sa bawat paglalaro ng The Freak Circus: <a href=\"/characters#pierrot\">Pierrot</a>, <a href=\"/characters#harlequin\">Harlequin</a>, <a href=\"/characters#jester\">Jester</a>, <a href=\"/characters#ticket-taker\">the Ticket Taker</a>, at <a href=\"/characters#doctor\">the Doctor</a>. Bawat isa ay may natatanging ruta, pagtatapos, at kwento ng relasyon sa pangunahing tauhan. ",
-    "buttons": {
-      "characters": "Kilalanin ang mga Karakter"
-    },
-    "howToPlayTitle": "Paano Maglaro",
-    "howToPlayP1": "Para sa bersyon na suportado ng developer, magsimula sa opisyal na pahina sa itch.io. Ito ang tinitiyak na lugar upang tingnan ang pinakabagong build, availability sa mga platform, content warnings, at mga pag-aayos. Ang site na ito ay hindi nagdi-distribute ng mga game downloads.",
-    "howToPlayP2": "Bago magsimula, magpasya kung gaano karaming spoiler ang nais mo. Gumawa ng hiwalay na save bago ang isang pagpipiliang nais mong balikan, i-record ang build na ginagamit mo, at panatilihing hiwalay ang iyong first-playthrough save mula sa mga eksperimento.",
-    "howToPlayP3": "Ang aming mga gabay ay nagtatakda ng first-party facts at fan observations nang hiwalay. Kung ang isang choice chart ay walang game version, screenshot, o source, ituring itong hindi pa naverify kaysa isang garantisadong kondisyon ng ruta.",
-    "faqTitle": "FAQ",
-    "faqItems": [
-      {
-        "q": "Libre ba ang paglalaro ng laro na ito?",
-        "a": "Itinatala ng opisyal na pahina sa itch.io ang laro bilang libre na may opsyonal na pagbabayad. Gamitin ang pahinang iyon para sa developer-supported browser version at downloads."
-      },
-      {
-        "q": "Kailangan ko bang mag-download ng kahit ano?",
-        "a": "Ang opisyal na pahina sa itch.io ang pinakamahusay na mapagkukunan para sa kasalukuyang browser at download instructions. Ang fan site na ito ay hindi nagdi-distribute ng game files."
-      },
-      {
-        "q": "Gaano katagal ang laro?",
-        "a": "Ang developer ay hindi naglalathala ng takdang oras ng pagtatapos sa mga sinubaybayang source dito. Iwasan ang pagtrato sa fan estimates bilang isang opisyal na pangako."
-      },
-      {
-        "q": "Maaari ko bang i-save ang aking progreso?",
-        "a": "Kasama sa browser player ang import at export save controls. Suriin ang opisyal na pahina at kasalukuyang build notes bago ilipat ang mga save sa pagitan ng mga bersyon o devices."
-      },
-      {
-        "q": "Ano ang nagpapatingkad sa visual novel na ito?",
-        "a": "Ito ay namumukod-tangi dahil sa gothic psychological horror na atmospera, moral na komplikadong mga karakter, at malalim na nagha-habang kwento kung saan bawat pagpili ay may tunay na bigat. Ang hand-drawn art at nakakatakot na soundtrack ay lumilikha ng immersive na karanasan na naiiba sa karaniwang visual novels."
-      },
-      {
-        "q": "Maii-transfer ba ang progreso sa pagitan ng mga device?",
-        "a": "Ang mga save ay naka-imbak lokal sa iyong browser. I-download ang laro mula sa itch.io upang mailipat ang mga save files sa pagitan ng mga device."
-      },
-      {
-        "q": "Angkop ba ito sa lahat ng edad?",
-        "a": "Hindi. Ito ay rated 18 at naglalaman ng psychological horror, possessive relationships, dark romance, at mature themes."
-      },
-      {
-        "q": "Ano ang pagkakaiba ng mga ruta?",
-        "a": "Ang bawat ruta ay nag-aalok ng ganap na ibang pananaw sa kuwento. Nakatuon si Pierrot sa sikolohikal na pagsandal at kontrol sa emosyon. Sinusuri ni Harlequin ang kaguluhan at pagtatanghal. Tinutukoy ng Jester ang etika ng libangan. Ipinapakita ng Ticket Taker ang pinakamalalim na kaalaman tungkol sa sirko mismo. Ang Doctor ay naglalaman ng pinaka-personal at nakakabagabag na nilalaman."
-      },
-      {
-        "q": "Maaari ko bang laruin sa mobile?",
-        "a": "Tumakbo ito sa karamihan ng mga modernong browser ng mobile, bagaman mas na-optimize para sa desktop at tablet para sa pinakamahusay na karanasan."
-      }
-    ],
-    "storyTitle": "Kuwento at Panimula",
-    "storyP1": "Nagsisimula ang Freak Circus nang matagpuan mo ang isang naglalakbay na sirko. Hinila ng isang hindi maipaliwanag na puwersa, tumawid ka sa pasukan patungo sa isang mundo kung saan nagbabago ang realidad. Bawat mananayaw ay nag-aalok ng ibang pananaw sa nakatagong kasaysayan ng sirko — umiiyak si Pierrot sa kanyang mga pagtatanghal ngunit nakikita ang lahat.",
-    "storyP2": "Habang lumulubog ang gabi, nagsisimulang gumalaw ang mga maskara. Hinaharap mo ang mga hindi komportableng katotohanan tungkol sa pagnanasa, kontrol, at mga kuwentong sinasabi natin sa ating sarili. Ang mga wakas ay mula sa malambing hanggang kakila-kilabot, at hindi hinahatulan ng laro kung alin mang landas ang iyong piliin. Nagbabago ang atmospera sa pagitan ng araw at gabi, kung saan bawat bahagi ay nagbubunyag ng iba't ibang mga mood at lihim.",
-    "tipsTitle": "Mga Tip sa Paglalaro",
-    "tipsList": [
-      "Maglaan ng oras sa pagbasa ng bawat eksena. Ang maliliit na detalye ay madalas na nagiging mahalaga sa kalaunan ng kuwento.",
-      "Huwag mag-reload ng mga save sa iyong unang gameplay. Ang iyong natural na mga desisyon ang magdudulot ng pinaka-makabuluhang karanasan.",
-      "Maglaro nang hindi bababa sa dalawang beses — ang pangalawang run ay magpapakita ng mga usapan at eksena na hindi mo makikita sa unang beses.",
-      "Magbigay-pansin ng mabuti sa Ticket Taker. Mas marami siyang sinasabi kaysa sa lumilitaw sa buong kuwento.",
-      "Isa lang ang ending na magagawa sa kasalukuyang bersyon, at ito ay masama. Ang mga ending ni Pierrot, Harlequin, ang Protagonist, at \"All together\" ay ipinapahayag ngunit nang developing pa, kaya asahan na hindi pa kumpleto ang mga branch.",
-      "Gamitin ang save system sa mga pangunahing punto ng desisyon upang subukan ang ibang mga landas nang hindi nawawala ang progreso."
-    ],
-    "whyPlayTitle": "Bakit Maglaro?",
-    "whyPlayText": "Ang gabay na ito ay idinisenyo upang maging kapaki-pakinabang pagkatapos ng isang update: pinapanatili nito ang mga opisyal na link ng source, minamarkahan ang petsa ng bawat editorial summary, at iniiwasan ang pagbago ng mga rumor mula sa komunidad bilang mga petsa ng release, endings, o requirements ng ruta.",
-    "storyP3": "Ang sirko mismo ay isang karakter. Ang mga tolda ay nagbabago ng posisyon sa pagitan ng mga pagbisita, tila alam ng mga laro sa karnibal ang iyong iniisip, at naaalaala ng mga performera ang mga pag-uusap na hindi mo pa nagagawa. Ang karanasan ay nananatili kahit matapos mong tapusin, at inuudyok kang bumalik upang tuklasin ang mga landas na hindi mo dinaanan.",
-    "gameplayP": "Nakatuon ang gameplay sa mga pagpili ng diyalogo sa bawat araw. May mga pagpipilian na may timed, na nagdadagdag ng tensyon sa mga usapan. Ang iba naman ay mukhang simple pero kayang baguhin ang buong ruta ng karakter. Sinusubaybayan ng laro ang affinity levels ng bawat karakter, mga nakatagong bandila para sa mga sangay ng kwento, at mga pinagsama-samang pagpipilian na nakakaapekto sa huling pagtatapos. Kahit ang maliliit na interaksyon ay maaaring magdulot ng malalaking epekto sa hinaharap."
-  },
-  "about": {
-    "title": "Tungkol sa The Freak Circus",
-    "subtitle": "Lahat ng kailangan mong malaman tungkol sa laro at sa site na ito.",
-    "gameSection": "Ang Laro",
-    "gameP1": "Ang Freak Circus ay isang madilim na psychological horror visual novel na binuo ng independent na tagalikha na si Garula (Neko Bueno). Ito ay inilalathala sa itch.io at nakalikom ng dedikadong internasyonal na fanbase sa pamamagitan ng word-of-mouth sa iba't ibang platform tulad ng TikTok, Tumblr, at Reddit.",
-    "gameP2": "Sinusundan ng laro ang isang hindi pinangalanang pangunahing tauhan na bumisita sa isang misteryoso at hiwalay na sirko at nasangkot sa limang mapanganib na mga artista. Ang kwento ay umuusad sa loob ng maraming araw, kung saan ang mga pagpili ng manlalaro ang nagtatakda ng mga ruta at pagtatapos ng karakter.",
-    "siteSection": "Ang Site na Ito",
-    "siteP1": "Ang thefreakcircus.help ay isang hindi opisyal na fan resource na may mga gabay sa karakter, update summary, at mga artikulo. Ang opsyonal na in-page player ay pinaglilingkuran ng third-party host; hindi namin inaangkin na ang host na iyon ay opisyal, pinapatakbo ng developer, o inendorso ng Garula. Hindi kami namamahagi ng game downloads.",
-    "siteP2": "Para direktang suportahan ang developer, bisitahin ang <a href=\"https://garula.itch.io/the-freak-circus\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">official itch.io page</a>.",
-    "faqDivider": "Mga Madalas Itanong",
-    "faq": [
-      {
-        "q": "Sino ang gumawa ng The Freak Circus?",
-        "a": "Ang Freak Circus ay nilikha ni Garula, na kilala rin bilang Neko Bueno. Ito ay isang independiyenteng proyekto na inilathala noong itch.io."
-      },
-      {
-        "q": "Libre ba ang The Freak Circus?",
-        "a": "Oo. Ang base game ay libre laruin sa browser at libre itong i-download. Nag-aalok ang developer ng opsyonal na Patreon tiers para sa maagang access sa bagong nilalaman."
-      },
-      {
-        "q": "Opisyal ba ang site na ito?",
-        "a": "Wala. Ang thefreakcircus.help ay isang hindi opisyal na fan site. Hindi kami konektado sa Garula o Neko Bueno. Lahat ng asset ng laro ay pag-aari ng orihinal na tagalikha."
-      },
-      {
-        "q": "Anong mga babala sa nilalaman ang meron ang laro?",
-        "a": "Ang The Freak Circus ay may rating na 18 at naglalaman ng mga temang psychological horror, possessive at controlling na dinamika ng relasyon, madilim na romansa, at mature na nilalaman. Pakisuri ang opisyal na pahina ng itch.io para sa buong listahan ng babala sa nilalaman."
-      },
-      {
-        "q": "Paano ko ida-download ang laro?",
-        "a": "Ang mga link para sa pag-download para sa Windows, macOS, at Linux ay makikita sa opisyal na pahina ng itch.io. Maaari mo ring laruin ang bersyon ng browser na naka-embed sa homepage ng site na ito."
-      },
-      {
-        "q": "Sinusuportahan ba ng laro ang Chinese?",
-        "a": "Oo. Kasama sa The Freak Circus ang opisyal na suporta sa Simplified Chinese language."
-      }
-    ],
-    "triviaTitle": "Trivia ng Tauhan at mga Nakakatuwang Katotohanan",
-    "trivia": [
-      {
-        "q": "Gaano kataas ang Pierrot sa The Freak Circus?",
-        "a": "198 cm ang Pierrot, mga 6 na talaga at 5,95 pulgada, sa height chart na inilathala ng developer. Iginagalang din siya sa ikatlong lugar ng limang hanggang sa opisyal na age order mula sa pinakamatanda. Tingnan ang <a href=\"/characters/heights\">height at ranking page</a>."
-      },
-      {
-        "q": "Si Pierrot ba ay isang yandere type?",
-        "a": "Madalas na itinuturing si Pierrot ng mga tagahanga bilang isang 'silent yandere' — unti-unting umuunlad ang kanyang pagiging possessive sa halip na agad na magpakita. Tinutuklas ng kanyang ruta ang mga tema ng obsesyon at emosyonal na kontrol. Bisitahin ang <a href=\"/en/characters/pierrot\">Pierrot route guide</a> para sa karagdagang kaalaman."
-      },
-      {
-        "q": "Ano ang relasyon ni Harlequin kay Pierrot?",
-        "a": "Si Harlequin at Pierrot ay may isa sa pinaka-komplikadong dinamika sa The Freak Circus. Ang kanilang relasyon ay bahagi ng tunggalian, bahagi ng codependence, at ang kanilang pinagsaluhang kasaysayan ay kinasasangkutan ni Columbina. Iba-iba ang pagkakalantad ng backstory depende sa ruta na lalaruan mo."
-      },
-      {
-        "q": "Ano ang nangyari kay Columbina sa The Freak Circus?",
-        "a": "Ang backstory ni Columbina ay sinadya na panatilihing malabo at ipinapakita sa mga pira-piraso sa pamamagitan ng mga ruta nina Pierrot at Harlequin. Lumilitaw lamang siya sa mga flashback sequence at mahalaga sa pag-unawa sa nakatagong kasaysayan ng sirko. Basahin ang <a href=\"/en/characters/columbina\">Columbina lore page</a> para sa mga nalalaman."
-      },
-      {
-        "q": "Maaari bang magmahal ang Ticket Taker?",
-        "a": "Hindi. Kinukumpirma ng developer na walang ruta para sa Ticket Taker — ang mga pagpipilian ay Pierrot, Harlequin, pareho, o wala. Ginawang possibility ng mga pangibabang karakter ang mga opsyong romantik, hindi pangako. Tingnan ang <a href=\"/endings\">endings at routes page</a>."
-      },
-      {
-        "q": "Mayroon bang good ending ang Doctor?",
-        "a": "Wala. Walang ruta o ending ang Doctor sa kasalukuyang bersyon. Ang tanging umiiral na ending ay ang \"Missing\" na bad ending sa Araw 1; ang mga ending ni Pierrot, Harlequin, ang Protagonist, at \"All together\" ay ipinapahayag ngunit hindi pa ipinapatupad."
-      }
-    ]
-  },
-  "characters": {
-    "pageTitle": "Ang mga Performer",
-    "title": "Mga Tauhan ng The Freak Circus",
-    "subtitle": "Limang pambihirang mga artista. Limang ruta. Isang kapalaran.",
-    "routeTip": "tip ng ruta",
-    "list": [
-      {
-        "id": "pierrot",
-        "name": "Pierrot",
-        "role": "Ang Umiiyak na Payaso",
-        "description": "Kontrolado, malungkot, at matindi ang pag-unawa. Si Pierrot ang emosyonal na sandigan ng sirko, na nagpapakita ng kalungkutan para sa mga tao na tumatawa sa kanyang mga luha. Ang ruta niya ang pinaka-mahirap sa sikolohiya at nag-aalok ng pinakamaraming kwento tungkol sa tunay na kalikasan ng sirko.",
-        "traits": [
-          "malungkot",
-          "possessive",
-          "makata",
-          "Mapanganib"
-        ],
-        "routeTip": "Isang romance na binalak. Nakasulat ay nang developing pa — walang pampublikong trigger conditions sa ngayon."
-      },
-      {
-        "id": "harlequin",
-        "name": "Harlequin",
-        "role": "Ang Magulong Tagapagpalabas",
-        "description": "Hindi mahulaan at teatrikal, tinatago ni Harlequin ang magulong nakaraan sa likod ng pabago-bagong pagganap. Ang relasyon niya kay Pierrot ay isa sa mga sentrong dinamika ng laro.",
-        "traits": [
-          "pabagu-bago",
-          "Kaakit-akit",
-          "protektibo",
-          "may patong"
-        ],
-        "routeTip": "Isang romance na binalak. Nakasulat ay nang developing pa — walang pampublikong trigger conditions sa ngayon."
-      },
-      {
-        "id": "jester",
-        "name": "Jester",
-        "role": "Ang Trickster",
-        "description": "Nasa pagitan ng mga iba ang Jester, ni tapat sa lahat ni antagonistic sa lahat. Inuutos niya ang circo higit sa gitnang rivalry at itinatago niya ang mas malaking layunin. Ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
-        "traits": [
-          "malabo",
-          "mabilis mag-isip",
-          "malungkot",
-          "Pagkalkula"
-        ],
-        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Jester; bahagi siya ng mas malaking cast."
-      },
-      {
-        "id": "ticket-taker",
-        "name": "Tagakuha ng Tiket",
-        "role": "Ang Tagapangalaga ng Tarangkahan",
-        "description": "Ang unang karakter na makikita mo. Ang Ticket Taker ang nagpapasyok kung sino ang makakapasok at sino ang makalalabas, at matagal nang nakamasid sa lahat ng nangyayari sa circo na ito. Ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
-        "traits": [
-          "mapagmasid",
-          "misteryoso",
-          "Stern",
-          "Sinauna"
-        ],
-        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Ticket Taker."
-      },
-      {
-        "id": "doctor",
-        "name": "Doktor",
-        "role": "Ang Siruhano ng mga Lihim",
-        "description": "Nagdagdag ang Doctor ng mas malamig at klinikal na tono sa circo. methodical at nakababahala siya, at ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
-        "traits": [
-          "Klinikal",
-          "malapit",
-          "Pagkontrol",
-          "Kompleks"
-        ],
-        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Doctor."
-      }
-    ],
-    "pierrot": {
-      "meta": {
-        "title": "Pierrot - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin si Pierrot the Weeping Clown mula sa The Freak Circus. Alamin ang tungkol sa kanyang yandere-type na personalidad, route guide, fanart, at papel sa kwento."
-      },
-      "role": "Ang Umiiyak na Payaso",
-      "appearance": "Si Pierrot ay may payat, androgynous na pangangatawan, maputlang balat at madilim na mga mata. Nakasuot siya ng klasikong puting costume ng payaso na may itim na diyamante at isang luha na ipininta sa ilalim ng kanyang kaliwang mata. Hindi pa isiniwalat ang kanyang opisyal na taas. Madalas siyang inilalarawan na may hawak na nalalantang bulaklak o basag na salamin.",
-      "traits": [
-        "malungkot",
-        "possessive",
-        "makata",
-        "Mapanganib",
-        "Yandere-type"
-      ],
-      "personality": "Si Pierrot ay kontrolado, malungkot, at matindi ang pag-unawa. Ginagampanan niya ang lungkot para sa mga tao na tumatawa sa kanyang mga luha, ngunit sa likod ng pagtatanghal ay may malalim na pag-aari at mapanganib na personalidad. Madalas siyang itinuturing ng mga tagahanga bilang isang 'silent yandere' na uri — unti-unting nagiging obsesibo ang kanyang pagmamahal, kaya isa ang kanyang ruta sa pinaka-matindi sa sikolohikal na antas ng laro.",
-      "routeDesc": "Ang ruta ni Pierrot ang pinaka-mahirap sa sikolohikal na aspeto sa laro. Upang sundan ang kanyang landas, pumili ng mga opsyon sa pagmumuni-muni at empatikong diyalogo sa mga engkwentro sa Araw 1 ng karnabal. Sundan ang puting balabal sa eksena ng tolda. Sa Araw 2, unahin ang pag-unawa kaysa pagtutol para ma-unlock ang Good Ending. Ibinunyag ng ruta ni Pierrot ang pinakamalalim na kwento tungkol sa kasaysayan ng sirko at ang kanyang relasyon kay Columbina.",
-      "fanSections": [
-        "Larawan ng Weeping Clown",
-        "Eksena ng sagupaan nina Pierrot at Harlequin",
-        "Pierrot route CG mula Araw 2"
-      ],
-      "reviews": [
-        "Ang ruta ni Pierrot ay nanatili sa akin ng ilang araw. Ang pagsusulat ay nagpaparamdam sa iyo ng tunay na hati sa pagitan ng pagnanais na iligtas siya o ang pangangailangang takasan siya.",
-        "Walang kapantay ang sikolohikal na tensyon sa ruta ni Pierrot. Ang voice acting para sa breakdown scene niya ay kamangha-mangha.",
-        "Pumasok ako sa larong ito na inaasahan ang isang simpleng romansa at lumabas akong emosyonal na wasak sa kwento ni Pierrot."
-      ]
-    },
-    "harlequin": {
-      "meta": {
-        "title": "Harlequin - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin si Harlequin the Chaotic Performer mula sa The Freak Circus. Alamin ang tungkol sa kanyang pabagu-bagong personalidad, mga tip sa ruta, at papel sa kwento."
-      },
-      "role": "Ang Magulong Tagapagpalabas",
-      "appearance": "Si Harlequin ay may matangkad, atletikong pangangatawan na may matalim na mga tampok sa mukha at ligaw, dalawang-kulay na buhok. Ang kanyang kasuotan ay isang tradisyunal na harlequin suit na may disenyo ng diyamante na pula at ginto, kumpleto sa kalahating maskara na isinusuot niya nang naka-anggulo. Hindi pa ibinunyag ng developer ang kanyang opisyal na tangkad.",
-      "traits": [
-        "pabagu-bago",
-        "Kaakit-akit",
-        "protektibo",
-        "may patong",
-        "Chaotic-neutral"
-      ],
-      "personality": "Hindi mahulaan at teatrikal, tinatago ni Harlequin ang magulong nakaraan sa likod ng pabago-bagong pagganap. Isang sandali siya ay mapaglalaro at mapang-akit, sa susunod ay mapanganib at hindi mabasa. Ang relasyon niya kay Pierrot ay isa sa pinaka-komplikadong dinamika sa The Freak Circus — bahagi ng tunggalian, bahagi ng codependence.",
-      "routeDesc": "Ang ruta ni Harlequin ay nagbibigay gantimpala sa matapang na mga pagpili. Piliin ang pulang lobo sa pagbubukas ng Day 1 carnival. Gumamit ng mapaglarong at matapang na tugon sa mga pangunahing laban sa tolda. Mabilis na lumala ang kanyang ruta sa Ikalawang Araw — yakapin ang kaguluhan sa halip na labanan ito. Tinutuklas ng ruta ni Harlequin ang mga tema ng pagtatanghal, pagkakakilanlan, at ang kapalit ng pagsusuot ng maskara.",
-      "fanSections": [
-        "Harlequin performance CG",
-        "Eksena ng tensyon nina Harlequin at Pierrot",
-        "Sining ng susi ng ruta ng Harlequin"
-      ],
-      "reviews": [
-        "Si Harlequin ay uri ng karakter na ayaw mong mahalin. Ang ruta niya ay talagang nagdulot sa akin ng hindi komportableng pakiramdam sa pinakamagandang paraan.",
-        "Ang chaos energy ng Harlequin ay sobrang tindi. Bawat eksena kasama siya ay nagpapanatili sa iyo ng pagtataka.",
-        "Ang pagsisiwalat ng kanyang backstory sa Day 2 ay lubos na nagbago sa pananaw ko sa kanyang karakter. Napakahusay ng pagkakasulat."
-      ]
-    },
-    "jester": {
-      "meta": {
-        "title": "Jester - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin si Jester the Trickster mula sa The Freak Circus. Alamin ang tungkol sa kanyang malabong personalidad, gabay sa ruta, at papel sa kwento."
-      },
-      "role": "Ang Trickster",
-      "appearance": "Si Jester ay may mas maliit, mabilis na pangangatawan, may malalawak at ekspresibong mga mata at palaging ngiti. Ang kanyang kasuotan ay isang makulay na kasuotan ng payaso na may mga kampanilya sa matulis na kwelyo at kulot na sapatos. Hindi pa ibinunyag ang kanyang opisyal na taas at edad.",
-      "traits": [
-        "malabo",
-        "mabilis mag-isip",
-        "malungkot",
-        "Pagkalkula",
-        "Arketipo ng Trickster"
-      ],
-      "personality": "Umiiral si Jester sa pagitan ng ibang mga artista, hindi ganap na tapat o ganap na antagonistic. Niloloko niya ang lahat ngunit hindi niya ipinapakita ang kanyang sariling kamay. Ang kanyang malabong pagkakasundo ay ginagawa siyang isa sa mga pinaka-hindi mahulaan na karakter sa The Freak Circus — hindi mo alam kung tinutulungan ka ba niya o niloloko ka niya.",
-      "routeDesc": "Ang ruta ni Jester ay na-unlock sa Ikalawang Araw. Tumugon nang may katatawanan at talino, ngunit iwasan ang direktang komprontasyon. Mas nirerespeto ni Jester ang talino kaysa sa matinding katapatan. Tinutuklas ng kanyang ruta ang etika ng libangan at kung ano ang ibig sabihin ng pagpapatawa sa iba habang itinatago ang sariling sakit.",
-      "fanSections": [
-        "Jester trickster pose CG",
-        "Eksena ng dayalogo ng Jester at pangunahing tauhan",
-        "Jester route mood art"
-      ],
-      "reviews": [
-        "Mabilis na naging paborito ko si Jester. Ang kanyang katatawanan ay nagtatago ng labis na sakit at malinaw itong ipinapakita ng ruta.",
-        "Ang Jester route ang may pinakamagandang pagsusulat para sa timing ng komedya. May ilang linya na talagang napatawa ako nang malakas.",
-        "Lubos akong nabigla sa kanyang pagliko sa ruta sa ikalawang yugto. Huwag mo siyang maliitin."
-      ]
-    },
-    "doctor": {
-      "meta": {
-        "title": "The Doctor - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin ang Doktor, ang Surgeon of Secrets mula sa Freak Circus. Alamin ang tungkol sa kanyang klinikal na personalidad, gabay sa ruta, at papel sa kwento."
-      },
-      "role": "Ang Siruhano ng mga Lihim",
-      "appearance": "Matangkad at kalmado ang Doktor, may matalim na katangian at malamig, analitikal na mga mata. Nakasuot siya ng vintage na medical coat na may mantsa ng tila lumang dugo, na nakapatong sa pormal na waistcoat. Hindi pa isiniwalat ang kanyang opisyal na taas. May dala siyang leather doctor bag na hindi niya inaalis sa tabi.",
-      "traits": [
-        "Klinikal",
-        "malapit",
-        "Pagkontrol",
-        "Kompleks",
-        "Sadistikong ugali"
-      ],
-      "personality": "Ang Doctor ay maingat, malapit, at labis na nakakabagabag. Nilapitan niya ang bawat interaksyon na parang nagsasagawa ng pagsusuri — klinikal sa pagsasalita, nakakakilabot sa pakikipag-ugnayan. Ang kanyang ruta ay naglalaman ng ilan sa pinakamadilim na nilalaman sa The Freak Circus, na sumusuri sa mga tema ng kontrol, kahinaan, at etika ng pangangalaga.",
-      "routeDesc": "Ang nilalaman ng The Doctor ay nakatuon sa Ikalawang Araw. Tanggapin ang mga eksena ng pagsusuri para umusad sa ruta. Ang ruta niya ay nangangailangan ng kahandaang makisalamuha sa mga hindi komportableng dinamika. Kamakailan, pinalawak ang ruta ng Doctor sa pamamagitan ng bagong nilalaman ng developer, dagdag na mga eksena at pinalawig na ending sequence.",
-      "fanSections": [
-        "Silid ng pagsusuri ng doktor CG",
-        "Eksena ng tensyon ng doktor at pangunahing tauhan",
-        "Sining ng konsepto ng karakter ng Doktor"
-      ],
-      "reviews": [
-        "Hindi para sa lahat ang ruta ng The Doctor, pero kung gusto mo ng madilim na romansa na may lalim ng sikolohikal, napakaganda ng pagkakasulat nito.",
-        "Talagang nabahala ako sa mga eksena ng pagsusuri niya. Hindi nagpipigil ang laro.",
-        "Ang pinalawak na nilalaman para sa kanyang ruta ay nagbibigay ng lalim. Ang bagong ending ang nagpabago sa akin ng pag-iisip tungkol sa buong karakter niya."
-      ]
-    },
-    "columbina": {
-      "meta": {
-        "title": "Columbina - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin si Columbina mula sa The Freak Circus. Alamin ang misteryosong nakaraan niya kay Pierrot, ang papel niya sa kwento ng sirko, at kung ano ang hinala ng mga fans tungkol sa kanya."
-      },
-      "role": "Ang Nawawalang Tagapagpalabas",
-      "appearance": "Inilalarawan si Columbina sa pamamagitan ng in-game na teksto at mga flashback na may maselang frame, porselanang mga katangian, at malambot at malungkot na ekspresyon. Suot niya ang tradisyunal na kasuotang Columbina — isang dumadaloy na puti at gintong damit na may maliit na kalahating maskara. Hindi pa isiniwalat ang opisyal niyang taas. Ang kanyang anyo ay ipinapakita lamang sa mga pira-pirasong CG sequence at mga alaala ng karakter.",
-      "traits": [
-        "Eleganteng",
-        "Trahedya",
-        "Misteryoso",
-        "marupok",
-        "Pangunahing tauhan sa lore"
-      ],
-      "personality": "Si Columbina ay isang tauhan ng trahedya at misteryo sa The Freak Circus. Sentral siya sa backstory nina Pierrot at Harlequin, bagaman hindi siya lumitaw bilang buhay na karakter sa pangunahing timeline. Ang kanyang mga nakaraang kilos at relasyon sa mga artista ng sirko ang humuhubog sa malaking bahagi ng kasalukuyang kwento. Malawak ang pagkakaiba-iba ng mga teorya ng mga tagahanga tungkol kay Columbina, dahil sinasadya ng laro na panatilihing malabo ang kanyang kwento.",
-      "routeDesc": "Walang romanceable na ruta si Columbina sa The Freak Circus. Isa siyang karakter na lore-only na ang kwento ay inilalantad sa pamamagitan ng mga ruta nina Pierrot at Harlequin. Ang pagbuo ng kanyang kasaysayan ay isa sa mga pangunahing motibasyon sa maraming paglalaro.",
-      "fanSections": [
-        "Columbina flashback CG",
-        "Eksena ng alaala nina Columbina at Pierrot",
-        "Sining konsepto ni Columbina"
-      ],
-      "reviews": [
-        "Ang Columbina reveal ay ganap na binago ang buong ruta ni Pierrot. Kinailangan kong ulitin agad.",
-        "Bawat pagbanggit kay Columbina sa laro ay nakakalungkot. Napakahusay ng ginawa ng writing team sa kanyang malungkot na kwento.",
-        "Naglaan ako ng oras sa mga forum para talakayin ang mga teorya ni Columbina matapos kong tapusin ang laro. Ganoon ka-kaakit-akit ang kanyang karakter."
-      ]
-    },
-    "ticket-taker": {
-      "meta": {
-        "title": "Ticket Taker TFC - Gabay sa Tauhan ng Freak Circus",
-        "desc": "Kilalanin ang Ticket Taker mula sa The Freak Circus. Alamin ang tungkol sa kanyang misteryosong personalidad, papel bilang tagapangalaga ng pintuan, gabay sa ruta, at kahalagahan sa lore."
-      },
-      "role": "Ang Tagapangalaga ng Tarangkahan",
-      "appearance": "Ang Ticket Taker ay isang mas matanda, matatag na tao na may pilak na buhok at matalim na mga mata na tila tumatagos sa iyo. Nagsusuot siya ng vintage na uniporme ng konduktor ng riles na may mga butones na tanso at palaging may dalang libro ng tiket na may balat na balot. Hindi pa isiniwalat ang kanyang opisyal na taas. Siya ang unang karakter na makikilala mo pagpasok mo sa sirko.",
-      "traits": [
-        "mapagmasid",
-        "misteryoso",
-        "Stern",
-        "Sinauna",
-        "Tagapagbantay na pigura"
-      ],
-      "personality": "Ang unang karakter na makakasalubong mo. Kinokontrol ng Ticket Taker kung sino ang papasok at lalabas, at mas matagal na niyang pinapanood ang lahat sa sirkus na ito kaysa sa inaakala ng iba. Ang kanyang mga misteryosong komento ay madalas may dobleng kahulugan na nagiging malinaw lamang kapag paulit-ulit na pinapanood. Nagsasalita siya gamit ang mga bugtong at tila mas marami siyang alam tungkol sa pangunahing tauhan kaysa sa ipinapakita niya.",
-      "routeDesc": "Ang ruta ng Ticket Taker ay nangangailangan ng pagtitiyaga. Direktang makipag-ugnayan sa bawat tanong niya — iwasan ang kanyang mga pagsusulit sa iyong sariling panganib. Ang kanyang ruta ay nagbibigay-gantimpala sa mga manlalaro na nagbibigay-pansin sa pinakamaliit na detalye sa diyalogo. Ibinunyag ng The Ticket Taker ang pinakamalalim na kwento tungkol sa pinagmulan ng sirko at ang kalikasan ng kontrata ng mga performer.",
-      "fanSections": [
-        "Ticket Taker entrance CG",
-        "Eksena ng susi ng ruta ng Ticket Taker",
-        "Sining ng karakter ng Ticket Taker"
-      ],
-      "reviews": [
-        "Mabilis na naging kamangha-mangha ang The Ticket Taker mula sa pagiging creepy gatekeeper tungo sa kahanga-hangang karakter. Ang ruta niya ang may pinakamagandang gantimpala sa lore sa laro.",
-        "Mahalaga ang bawat linya na binibigkas ng Ticket Taker. Nagsimula akong mag-notes sa pangalawang playthrough ko.",
-        "Ang ruta niya ay sumasagot sa mga tanong na hindi mo alam na meron ka. Sulit ang pagsisikap ng pagsisiwalat ng lore para mabuksan ang kanyang landas."
-      ]
-    }
   },
   "blog": {
     "title": "Mga Gabay at Artikulo",
@@ -428,10 +11,6 @@
     "backLink": "Bumalik sa lahat ng artikulo",
     "published": "Nailathalang {date}",
     "footerLink": "Maglaro ng Freak Circus Online"
-  },
-  "ad": {
-    "leftLabel": "Patalastas sa kaliwang sidebar",
-    "rightLabel": "Patalastas sa kanang sidebar"
   },
   "meta": {
     "homeTitle": "Maglaro ng Freak Circus Online",
@@ -448,159 +27,6 @@
     "privacyDesc": "thefreakcircus.help patakaran sa privacy - kung paano namin pinangangasiwaan ang datos ng mga bisita sa The Freak Circus fan site na ito.",
     "termsTitle": "Mga Tuntunin ng Serbisyo",
     "termsDesc": "thefreakcircus.help mga tuntunin ng serbisyo - mga patakaran at gabay para sa paggamit ng The Freak Circus fan site na ito."
-  },
-  "schema": {
-    "websiteName": "The Freak Circus",
-    "websiteDesc": "Isang psychological horror romance visual novel na itinakda sa isang misteryosong circus.",
-    "gameGenres": [
-      "Visual Novel",
-      "Psychological Horror",
-      "Romansa"
-    ],
-    "authorName": "Garula (Neko Bueno)",
-    "os": "Web Browser, Windows, macOS, Linux",
-    "contentRating": "18+",
-    "searchAction": "Maghanap sa thefreakcircus.help"
-  },
-  "contact": {
-    "title": "Makipag-ugnayan sa Amin",
-    "subtitle": "Makipag-ugnayan sa team sa likod ng thefreakcircus.help.",
-    "p1": "thefreakcircus.help ay isang hindi opisyal na fan site para sa The Freak Circus visual novel. Hindi kami kaanib ng Garula, Neko Bueno, o itch.io. Kung mayroon kang mga tanong tungkol sa laro, sa site, o kailangan ng tulong sa gameplay, huwag mag-atubiling makipag-ugnayan.",
-    "p2": "Email: contact@thefreakcircus.help — sinisikap naming tumugon sa loob ng ilang araw."
-  },
-  "privacy": {
-    "title": "Patakaran sa Privacy",
-    "subtitle": "Paano namin pinangangasiwaan ang iyong datos sa thefreakcircus.help.",
-    "s1title": "Impormasyon na Kinokolekta Natin",
-    "s1body": "thefreakcircus.help ay gumagamit ng language-preference cookie at analytics na inilarawan sa ibaba. Isang opsyonal na in-page player ay ibinibigay ng third-party host; ang fan site na ito ay hindi nagpapatakbo ng host na iyon at hindi inaangkin na opisyal ito. Wala kaming access sa datos na ipinapadala sa loob ng player na iyon.",
-    "s2title": "Mga Serbisyo ng Third-Party",
-    "s2body": "Ang opsiyonal na manlalaro ay naka-load sa isang iframe mula sa host na third-party. Maaaring mangolekta ng data ang host na iyon alinsunod sa sariling patakaran, na hindi namin kinokontrol. Para sa larong suportado ng developer at sa mga gawi nito sa datos, suriin ang opisyal na pahina sa itch.io. Ginagamit din namin ang Google Analytics para sa pangunahing pagsukat ng trapiko. ",
-    "s3title": "Ang Iyong Mga Karapatan",
-    "s3body": "Bilang bisita sa fan site na ito, mayroon kang karapatang mag-browse nang hindi nagpapakilala, i-block ang cookies sa pamamagitan ng mga setting ng iyong browser, at gumamit ng mga extension para sa ad-blocking o proteksyon sa tracking. Kung may mga alalahanin ka tungkol sa paghawak ng datos, mangyaring makipag-ugnayan sa amin sa opisyal na pahina sa itch.io."
-  },
-  "terms": {
-    "title": "Mga Tuntunin ng Serbisyo",
-    "subtitle": "Mga patakaran at gabay para sa paggamit ng thefreakcircus.help.",
-    "s1body": "thefreakcircus.help ay isang hindi opisyal na fan site para sa The Freak Circus visual novel. Hindi kami konektado sa Garula, Neko Bueno, o itch.io. Ang lahat ng nilalaman ng laro, kabilang ang artwork, kwento, at mga karakter, ay pag-aari ng kani-kanilang mga may-akda.",
-    "s2body": "Ang opsiyonal na manlalaro ay naka-embed mula sa third-party host. Hindi namin ipinapangako na ang host na iyon ay opisyal, pinatatakbo ng developer, o suportado. Hindi namin ipinamamahagi ang mga download ng laro; gamitin ang opisyal na pahina sa itch.io para sa bersyon na suportado ng developer.",
-    "s3body": "Lahat ng orihinal na nilalaman sa site na ito — kabilang ang mga gabay, walkthroughs, at artikulo — ay ibinibigay para sa layuning pang-impormasyon. Maaari mong ibahagi ang mga link sa aming mga pahina, ngunit huwag bawiin o kopyahin ang aming nilalaman nang walang kredito.",
-    "s4body": "Ang site na ito ay naglalaman ng nilalaman mula sa laro na may rating na 18. Sa paggamit ng site na ito, kinukumpirma mo na ikaw ay nasa legal na edad upang makita ang mature na nilalaman sa iyong hurisdiksyon. Kung mayroon kang mga tanong tungkol sa mga tuntuning ito, mangyaring makipag-ugnayan sa amin."
-  },
-  "wiki": {
-    "title": "The Freak Circus Wiki & Guide sa Lore",
-    "subtitle": "Kumpletong ensiklopedya ng The Freak Circus lore, mga karakter, at setting.",
-    "meta": {
-      "title": "The Freak Circus Wiki - Kumpletong Gabay sa Lore at Setting",
-      "desc": "I-explore ang kumpletong The Freak Circus wiki kabilang ang character lore, circus setting, glossary ng mga termino, development timeline, at mga kredito ng developer."
-    },
-    "overviewTitle": "Maligayang pagdating sa Wiki",
-    "overviewP1": "Ang pahinang ito ay nagbibigay ng kumpletong The Freak Circus ensiklopedya kabilang ang mga profile ng karakter, story setting, at history ng update. Kung ikaw man ay isang bagong manlalaro na naghahanap ng pag-unawa sa kwento o beterano na naghahanap ng mas malalim na lore, ang wiki na ito ay sumasaklaw sa lahat ng nalalaman tungkol sa laro.",
-    "overviewP2": "Ang impormasyon dito ay batay sa opisyalisadong nilalaman ng laro. Ang kuro-kuro ng komunidad ay malinaw na minarkahan kapag kasama.",
-    "loreTitle": "Mundo at Setting ng Circus",
-    "loreP1": "Ang Freak Circus ay itinakda sa isang mahiwagang sirko na lumilitaw lamang sa gabi sa gilid ng isang bayan na nababalot ng ulap. Ang sirko ay umiiral sa isang hangganang espasyo — dumadating ito nang walang babala at umaalis sa parehong paraan. Ang limang performer ay nakatali sa sirko sa pamamagitan ng isang kasunduan na nauna pa sa mga pangyayari sa laro, kahit na ang eksaktong likas ng kasunduang ito ay sadyang pinananatiling malabo.",
-    "loreP2": "Kasama sa mga lugar ng sirko ang pangunahing tent para sa pagtatanghal, karnabal na dito dumadaan ang mga bisita, mga hiwalay na espasyo ng performer, at mga nakatagong lugar na nagiging maa-access lamang sa partikular na mga ruta. Nagbabago ang layout sa bawat pagbisita, na nagpapahiwatig na ang sirko mismo ay buhay at tumutugon sa mga pagpipilian ng pangunahing tauhan.",
-    "glossaryTitle": "Talahulugan ng mga Terminolohiya",
-    "glossary": [
-      {
-        "term": "Ang Pagtatanghal",
-        "def": "Ang gabi-gabing palabas na ibinibigay ng bawat performer. Ang Pagtatanghal ay parehong literal na libangan at metapora para sa nakatagong kalikasan ng bawat karakter."
-      },
-      {
-        "term": "Ang Kontrata",
-        "def": "Isang kasunduan na nagtatali sa bawat performer sa sirko. Ang mga tuntunin ay hindi ganap na ipinaliwanag ngunit tinutukoy sa pamamagitan ng dayalogo ng mga karakter."
-      },
-      {
-        "term": "Araw 1 / Araw 2",
-        "def": "Ang dalawang aktibong araw ng gameplay. Ang kwento ay umuusbong sa loob ng panahong ito, kung saan ang mga pagpipilian ay tumutukoy kung aling mga ruta ang magbubukas."
-      },
-      {
-        "term": "Magandang Wakas / Masamang Wakas",
-        "def": "Ang bawat ruta ng karakter ay may hindi bababa sa dalawang wakas. Ang Mga Magandang Wakas ay nangangailangan ng partikular na kombinasyon ng mga pagpipilian. Ang Masamang Wakas ay lumilitaw sa pamamagitan ng pagsuway o pasibong pagtanggap."
-      },
-      {
-        "term": "Ang Luha na Pinta sa Mukha ni Pierrot",
-        "def": "Isang permanenteng marka ng makeup na sumasagisag sa kanyang walang-hanggang pagtatanghal ng kalungkutan. Hindi ito natatanggal."
-      }
-    ],
-    "creditsTitle": "Developer at Mga Kredito",
-    "creditsP1": "Ang Freak Circus ay binuo ni Garula (na kilala rin bilang Neko Bueno) at inilathala sa itch.io. Gamitin ang opisyal na pahina ng itch.io para sa developer-supported na browser at opsyon sa pag-download.",
-    "creditsP2": "Ang buong voice cast at karagdagang kredito ay hindi pa publikong inihahayag ng developer. Ang seksyong ito ay maa-update sa pagdating ng karagdagang impormasyon.",
-    "timelineTitle": "Timeline ng Update",
-    "timeline": [
-      {
-        "version": "Unang Paglabas",
-        "date": "2024",
-        "desc": "Una itong inilabas sa itch.io na may mga ruta para kina Pierrot, Harlequin, Jester, Ticket Taker, at Doctor na magagamit."
-      },
-      {
-        "version": "Pagpapalawak ng Ruta ng Doctor",
-        "date": "Late 2024",
-        "desc": "Karagdagang mga eksena at pinalawig na wakas ang idinagdag sa ruta ng Doctor batay sa feedback ng manlalaro."
-      },
-      {
-        "version": "Suporta sa Wikang Tsino",
-        "date": "2025",
-        "desc": "Opisyal na suporta sa Simplified Chinese na wika ang idinagdag kasabay ng patuloy na pag-update ng nilalamang Ingles."
-      },
-      {
-        "version": "Araw 3 at Hinaharap na Nilalaman",
-        "date": "TBD",
-        "desc": "Ipinahiwatig ng developer ang patuloy na paggawa sa karagdagang nilalaman. Inaasahan ang Araw 3 at bagong nilalaman ng karakter."
-      }
-    ]
-  },
-  "community": {
-    "meta": {
-      "title": "Ang Freak Circus Fan Art at Komunidad",
-      "desc": "Sumali sa Freak Circus fan community. Tuklasin ang fan art, mga link ng mga tagalikha, opisyal na social media, at mga mapagkukunan ng komunidad."
-    },
-    "title": "Ang Freak Circus Komunidad",
-    "subtitle": "Fan art, talakayan, at mga mapagkukunan ng komunidad.",
-    "officialTitle": "Opisyal na Link",
-    "officialDesc": "Makipag-ugnayan sa developer at iba pang mga tagahanga sa pamamagitan ng mga opisyal na kanal na ito.",
-    "links": [
-      {
-        "name": "Pahina sa itch.io",
-        "url": "https://garula.itch.io/the-freak-circus"
-      },
-      {
-        "name": "Opisyal na Twitter",
-        "url": "https://twitter.com/FreakCircusVRC"
-      }
-    ],
-    "fanartTitle": "Fan Art Spotlight",
-    "fanartDesc": "Ipinapakita ang fan art na ginawa ng komunidad ng mga karakter ng Freak Circus. Ang mga isinumiteng art ay mula sa mga beripikadong tagalikha na nagbigay pahintulot para sa pagpapakita.",
-    "communityTitle": "Mga Mapagkukunan ng Komunidad",
-    "communityTips": [
-      "Sumali sa opisyal na Discord servers para sa real-time na talakayan kasama ang ibang mga tagahanga.",
-      "Gamitin ang #TheFreakCircus tag sa mga social media platform upang ibahagi ang iyong mga likha.",
-      "Igalang ang ibang mga tagahanga at tagalikha — ang komunidad ay umuunlad sa pamamagitan ng magkatulong na suporta.",
-      "Suriin ang opisyal na pahina ng itch.io para sa pinakabagong update ng developer at balita ng komunidad."
-    ]
-  },
-  "news": {
-    "meta": {
-      "title": "Balita at Mga Update ng Freak Circus",
-      "desc": "Pinakabagong balita at update para sa visual novel na Freak Circus. Pag-unlad ng development, mga release ng bersyon, at mga anunsyo ng komunidad."
-    },
-    "title": "Balita at Mga Update",
-    "entries": [
-      {
-        "date": "2025",
-        "title": "Suportang Wikang Tsino Idinagdag",
-        "body": "Kasama na sa Freak Circus ang opisyal na suportang Simplified Chinese. Kasama rin sa update na ito ang pag-aayos ng mga bug at maliliit na pagbabago sa dayalogo."
-      },
-      {
-        "date": "Late 2024",
-        "title": "Inilabas ang Doctor Route Expansion",
-        "body": "May mga bagong eksena at pinalawig na katapusan para sa Doctor route. Salamat sa komunidad para sa feedback na nagpagawa sa pagpapalawak na ito."
-      },
-      {
-        "date": "2024",
-        "title": "Inilabas ang Freak Circus sa itch.io",
-        "body": "Ang Freak Circus ay maaari nang laruin nang libre sa itch.io. Kasama sa unang release ang lahat ng limang pangunahing ruta ng karakter na may maraming katapusan."
-      }
-    ]
   },
   "ui": {
     "mainNavigation": "Pangunahing nabigasyon",
@@ -634,5 +60,139 @@
     "primarySource": "Pangunahing pinagkunan",
     "readOriginal": "Basahin ang orihinal na anunsyo sa {source}",
     "siteBy": "Site ni"
+  },
+  "landing": {
+    "schemaDescription": "Isang hindi opisyal na gabay batay sa mga opisyal na source ng developer para sa The Freak Circus, isang 18+ psychological horror visual novel ni Neko Bueno.",
+    "heroSubtitle": "Bukas na ang Sirko. Pumili ka ng taong pinagkakatiwalaan mo.",
+    "heroLead": "Ang The Freak Circus ay isang 18+ psychological horror visual novel na may pangunahing tauhan na si Pierrot, isang tahimik na payaso na ang pagmamahal ay nauuwi sa obsesyon, at si Harlequin, ang mapanganib na mapang-akit na kakumpete niya. Habang sumasali sa ring si Jester, Doctor, at Ticket Taker, bawat encounter ay humihila nang mas malalim sa sirko ang protagonist na nagta-trabaho sa café.",
+    "playHere": "Maglaro dito ngayon",
+    "learnMore": "Tuklasin ang Kwento at mga Tauhan",
+    "playTitle": "Maglaro sa The Freak Circus Ngayon",
+    "castTitle": "KILALANIN ANG MGA TAUHAN",
+    "allCharacters": "Buod ng mga Tauhan",
+    "whatTitle": "ANO ANG THE FREAK CIRCUS?",
+    "whatP1": "Ang The Freak Circus ay isang 18+ psychological horror visual novel na nakatatakda sa isang sirko na ginagawang peligro ang pagmamahal. Isang manggagawa sa café ang nakatagpo ni Pierrot, isang tahimik na \"yandere\" na payaso (ang \"yandere\" ay ang pananalit ng komunidad para sa obsessed na romansa na humahantong sa kontrol), at napapasok siya sa patuloy na paglalaban niya sa mapang-akit na Harlequin.",
+    "whatP2": "Ang kasalukuyang prototype ay nagpapakilala ng limang magkakaibang performer, pinagsasama ang mga pinagpipilian na nakabatay sa karakter at ang mga nakababahalang larawan, at iniiwan pa sa development ang mas malalaking ruta at ending nito. Ito ay isang kuwento tungkol sa obsesyon, mga maskara, mga lihim, at pagpili kung aling ngiti ang ligtas na pagkatiwalaan.",
+    "meetCast": "Kilalanin ang mga tauhan",
+    "whatFeatures": [
+      {
+        "title": "Psychological Horror",
+        "text": "Nagbabagayan ang romance at ang takot sa iisang entablado habang ang pagmamahal ay dumadaloy sa kontrol, manipulasyon, at pagtakot."
+      },
+      {
+        "title": "Kuwentong Nakabatay sa Karakter",
+        "text": "Si Pierrot at Harlequin ang bumubuo sa gitna ng tunggalian, habang si Jester, Doctor, at Ticket Taker ang nagpapalim sa misteryo ng sirko."
+      },
+      {
+        "title": "Mga Pinagpipiliang May Saysay",
+        "text": "Binabago ng mga desisyon sa dayalogo at sa ruta ang mga encounter, nagpapakita ng mga eksena, at humubog sa mga resulta na maaaring abutin sa kasalukuyang build."
+      },
+      {
+        "title": "Madilim na Atmospera ng Sirko",
+        "text": "Ang orihinal na art ng karakter, ang mga teatrikal na tent, ang mga animated na eksena, at ang mabigat na atmospera ng karnibal ang nagtatakda ng karanasan."
+      }
+    ],
+    "howTitle": "PAANO MAGLARO",
+    "howSteps": [
+      {
+        "title": "Buksan ang player",
+        "text": "Gumamit ng browser player sa itaas ng pahinang ito at pindutin ang start button nito kapag handa ka nang pumasok sa sirko."
+      },
+      {
+        "title": "Ayusin ang mga setting",
+        "text": "Buksan ang mga preference sa loob ng laro upang pumili ng isang available na wika, i-adjust ang tunog, at itakda ang bilis ng teksto bago magsimula."
+      },
+      {
+        "title": "Pumili at mag-save",
+        "text": "Basahin ang bawat eksena, pumili ng ruta, at gamitin ang Save at Load na menu ng laro bago ang mga desisyong maaaring balikan."
+      },
+      {
+        "title": "Magpatuloy nang ligtas",
+        "text": "Huwang burahin ang datos ng browser kung umaasa ka sa mga save na nasa browser, o gamitin ang opisyal na pahina ng download para sa suportadong desktop at Android build."
+      }
+    ],
+    "howCta": "Magsimula na maglaro",
+    "guidesTitle": "MGA PRAKTIKAL NA GABAY",
+    "guidesLead": "Direktang sagot sa mga tanong na pinakamaraming hinahanap ng mga manlalaro, bawat isa ay nginusuri laban sa mga opisyal na inilathala ng developer.",
+    "updateTitle": "MGA PINAKABAGONG UPDATE",
+    "allUpdates": "Tingnan ang lahat ng update",
+    "readUpdate": "Basahin ang buong update",
+    "faqTitle": "Mga Madalas Itanong",
+    "reviewsTitle": "ANO ANG SINASABI NG MGA MANLALARO",
+    "faq": [
+      {
+        "q": "Ano ang The Freak Circus?",
+        "a": "Ang The Freak Circus ay isang 18+ psychological horror visual novel na ginawa ni Neko Bueno at inilathala ni Garula. Ang kasalukuyang kwento nito ay nakatuon sa isang manggagawa sa café, sa Pierrot, at sa Harlequin."
+      },
+      {
+        "q": "Tapos na ba ang The Freak Circus?",
+        "a": "Hindi pa. Tinatawag ng opisyal na itch.io listing ito bilang prototype, at sinasabing nandito pa sa development ang natitirang script at mga ending."
+      },
+      {
+        "q": "Saan ko dapat ito laruin o i-download?",
+        "a": "Gamitin ang opisyal na itch.io page ni Garula. Ang gabay na ito ay hindi nagho-host o nagpapamahagi ng mga game file."
+      },
+      {
+        "q": "Available na ba ang Araw 3?",
+        "a": "Ginagawa pa ng developer ang susunod na kabanata, ngunit walang ipinapahayag na petsa ng paglabas sa mga opisyal na source na sinusubaybayan dito."
+      },
+      {
+        "q": "Sinong mga tauhan ang lumilitaw sa kasalukuyang build?",
+        "a": "Ang kasalukuyang prototype ay nagpapakilala ng Pierrot, Harlequin, Jester, Doctor, at Ticket Taker. Binanggit din si Columbina sa mga opisyal na tala ng maintenance."
+      },
+      {
+        "q": "May kumpletong ruta ba ang bawat tauhan?",
+        "a": "Hindi. Binanggit ng opisyal na listing ang mga planadong ending ni Pierrot, ni Harlequin, at ng Protagonist, habang kinukumpirma nitong nandito pa sa development ang natitirang script at mga ending."
+      },
+      {
+        "q": "Aling mga wika ang opisyal?",
+        "a": "Ang kasalukuyang opisyal na listing ay binabanggit ang English, Brazilian Portuguese, at Chinese."
+      },
+      {
+        "q": "Anong mga platform ang sinusuportahan?",
+        "a": "Kasama sa kasalukuyang opisyal na listing ang paglalaro sa browser gamit ang HTML5, Windows, macOS, Linux, at Android."
+      },
+      {
+        "q": "Angkop ba ang The Freak Circus para sa mga batang manlalaro?",
+        "a": "Hindi. Itinatala ng developer ang laro bilang 18+ at isinasaad ang mga madilim na tema tulad ng blood, death, kidnapping, cannibalism, hindi pangkonsensuwal na paggamit ng gamot, physical domination, at mild physical harassment o hindi pangkonsensuwal na pisikal na kontak."
+      },
+      {
+        "q": "Saan ko maaaring sundan ang mga beripikadong update ng laro?",
+        "a": "Gamitin ang itch.io devlog ng developer at ang opisyal na Tumblr. Ibinabalik ng bahagi na Updates ng site na ito ang mga buod nito sa orihinal na post."
+      },
+      {
+        "q": "Ano ang matutukoy ko sa website na ito?",
+        "a": "Nagbibigay ang site ng player sa loob ng pahina, mga profile ng karakter, isang Wiki na batay sa mga source, ang kalagayan ng Araw 3, isang gabay sa opisyal na download, mga buod ng update, at fan art ng komunidad."
+      },
+      {
+        "q": "Opisyal ba ang website na ito?",
+        "a": "Hindi. Ito ay isang malayang fan guide na nag-uugnay pabalik sa mga opisyal na source ng developer."
+      }
+    ],
+    "characters": {
+      "pierrot": "Isang payasong may matinding kalungkutan na nagtatago ng malalim na damdamin sa ilalim ng pinang-pinta na ngiti. Ang kanyang kuwento ay sumusulong sa pag-ibig, sa pagkalugi, at sa bigat ng mga lihim na matagal nang itinago.",
+      "harlequin": "Isang masayang trickster na ang kanyang maliwanag na panlabas ay nagtatago ng mas malalim at mas magulo na kalayaan. Ang kanyang ugnayan sa Pierrot ay nasa mismong puso ng kuwento.",
+      "jester": "Ang tagasalita ng kuwento at tahimik na witness ng sirko, na naglalabas ng trahedyang alamat ni Columbina sa pamamagitan ng mga puppet show na nagbubukas sa pinakamadmim na katotohanan ng pagtatanghal.",
+      "the-doctor": "Isang plague doctor na nagsasagawa ng makahihiyat na eksperimento sa loob ng Cyan Tent, nag-aaral mismo ng takot at sumusukat sa pinakamadilim na gilid ng etika ng medisina.",
+      "ticket-taker": "Isang manipulador ng realidad na nangingibabaw sa Tent of Mirrors, gumagamit ng mga naliligaw na salamin upang mailantad ang tunay na mukha ng bawat monster."
+    }
+  },
+  "siteFooter": {
+    "note": "Tuklasin ang nakababahalang mundo ng sirko na binubuo ng obsesyon, manipulasyon, at tunggalian, kung saan hinihila ka ng Pierrot at Harlequin sa isang nakababahalang karanasan sa visual novel.",
+    "features": "Tuklasin ang Site",
+    "siteInfo": "Impormasyon ng Site",
+    "play": "Home",
+    "characters": "Mga Tauhan",
+    "download": "Download",
+    "updates": "Mga Update",
+    "fanArt": "Fan Art",
+    "community": "Komunidad",
+    "about": "Tungkol sa",
+    "contact": "Makipag-ugnayan",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "shareX": "Ibahagi ang thefreakcircus.help sa X",
+    "shareFacebook": "Ibahagi ang thefreakcircus.help sa Facebook",
+    "bottom": "Ito ay isang hindi opisyal na website na ginawa ng mga fan para sa layunin ng impormasyon. Wala itong opisyal na koneksyon sa orihinal na mga lumikha o tagapaglabas. Walang game file na nai-host dito. Lahat ng trademark at nilalaman na may karapatang-ari ay pag-aari ng kani-kanilang may-ari."
   }
 }

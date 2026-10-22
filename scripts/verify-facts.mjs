@@ -61,8 +61,8 @@ const VOCABULARY = {
     [/\bterpendek (pertama|kedua|ketiga|keempat|kelima)\b/g, null, 'short'],
   ],
   fil: [
-    [/\bika-?apat pinakamataas\b|\bikalawang pinakamataas\b|\bikatlong pinakamataas\b|\bikalimang pinakamataas\b|\bunang pinakamataas\b/g, null, 'tall'],
-    [/\bika-?apat pinakamababa\b|\bikalawang pinakamababa\b|\bikatlong pinakamababa\b|\bikalimang pinakamababa\b|\bunang pinakamababa\b/g, null, 'short'],
+    [/\b(ika-?apat|ikalawang|ikatlong|ikalimang|unang) pinakamataas\b/g, null, 'tall'],
+    [/\b(ika-?apat|ikalawang|ikatlong|ikalimang|unang) pinakamababa\b/g, null, 'short'],
   ],
 };
 

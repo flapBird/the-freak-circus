@@ -12,29 +12,17 @@ import {
   editorialLocale,
   OFFICIAL_GAME_URL,
 } from '@/lib/site-content';
+import { rawMsg, tMsg } from '@/lib/messages';
+import { formatUpdateDate } from '@/lib/day3-updates';
 
 export default function HomeContent({ locale }: { locale: string }) {
   const lang = editorialLocale(locale);
   const p = locale === 'en' ? '' : `/${locale}`;
-  const copy = lang === 'zh' ? zhCopy : enCopy;
-  const characterDescriptions = lang === 'zh' ? zhCharacterDescriptions : enCharacterDescriptions;
   const latestNews = getNewsPosts(locale).slice(0, 3);
   // The guide hub is the internal-link path into the pages that answer the
   // most-searched questions about this game. Without it, those pages are
   // reachable only through the sitemap, which is a weak discovery signal.
-  const guideCards = lang === 'zh'
-    ? [
-        { href: '/endings', title: '结局与路线', text: '当前版本唯一能玩到的结局，以及四个仍在开发中的计划结局。', cta: '查看结局全解' },
-        { href: '/characters/heights', title: '身高与年龄顺序', text: '开发者公布的身高表、年龄顺序与力量排名。', cta: '查看完整榜单' },
-        { href: '/save', title: '存档与继续', text: '引擎实际支持什么，以及哪些存档细节开发者从未公布。', cta: '查看存档说明' },
-        { href: '/faq', title: '常见问题', text: '游玩、下载、结局、角色问题的简明答案。', cta: '查看 FAQ' },
-      ]
-    : [
-        { href: '/endings', title: 'Endings and routes', text: 'The one ending you can reach today, and the four that are still in development.', cta: 'See the endings guide' },
-        { href: '/characters/heights', title: 'Heights and age order', text: 'The developer’s published height chart, age order, and strength ranking.', cta: 'See the full chart' },
-        { href: '/save', title: 'Saving and resuming', text: 'What the engine actually supports, and which save details were never documented.', cta: 'See the saving guide' },
-        { href: '/faq', title: 'Frequently asked questions', text: 'Short answers on playing, downloading, endings, and characters.', cta: 'Read the FAQ' },
-      ];
+  const guideCards = rawMsg<{ href: string; title: string; text: string; cta: string }[]>(locale, 'landing.guideCards');
 
   return (
     <>
@@ -42,7 +30,7 @@ export default function HomeContent({ locale }: { locale: string }) {
         type="VideoGame"
         data={{
           name: 'The Freak Circus',
-          description: copy.schemaDescription,
+          description: tMsg(locale, 'landing.schemaDescription'),
           genre: ['Visual novel', 'Psychological horror', 'Romance'],
           author: { '@type': 'Person', name: 'Neko Bueno' },
           sameAs: OFFICIAL_GAME_URL,
@@ -60,8 +48,8 @@ export default function HomeContent({ locale }: { locale: string }) {
             <h1>The Freak Circus</h1>
             <HomeHeroLead locale={locale} />
             <div className="hero-actions">
-              <a className="button-primary" href="#play">{copy.playHere} <span aria-hidden="true">↓</span></a>
-              <Link className="button-secondary" href={`${p}/wiki`}>{copy.learnMore}</Link>
+              <a className="button-primary" href="#play">{tMsg(locale, 'landing.playHere')} <span aria-hidden="true">↓</span></a>
+              <Link className="button-secondary" href={`${p}/wiki`}>{tMsg(locale, 'landing.learnMore')}</Link>
             </div>
           </div>
         </section>
@@ -69,7 +57,7 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section play-section" id="play">
           <div className="page-container">
             <div className="section-heading section-heading-centered">
-              <h2>{copy.playTitle}</h2>
+              <h2>{tMsg(locale, 'landing.playTitle')}</h2>
             </div>
             <div className="play-stage">
               <GameEmbed locale={locale} />
@@ -79,13 +67,13 @@ export default function HomeContent({ locale }: { locale: string }) {
 
         <section className="page-section page-container what-game-section">
           <div className="section-heading section-heading-centered">
-            <h2>{copy.whatTitle}</h2>
+            <h2>{tMsg(locale, 'landing.whatTitle')}</h2>
           </div>
           <div className="what-game-panel">
             <article className="what-game-copy">
-              <p>{copy.whatP1}</p>
-              <p>{copy.whatP2}</p>
-              <div className="what-game-links" aria-label={copy.meetCast}>
+              <p>{tMsg(locale, 'landing.whatP1')}</p>
+              <p>{tMsg(locale, 'landing.whatP2')}</p>
+              <div className="what-game-links" aria-label={tMsg(locale, 'landing.meetCast')}>
                 {characterSlugs.map((slug) => (
                   <Link key={slug} href={`${p}/characters/${slug}`}>{characterCopy[lang][slug].name}</Link>
                 ))}
@@ -96,7 +84,7 @@ export default function HomeContent({ locale }: { locale: string }) {
             </div>
           </div>
           <div className="game-feature-grid">
-            {copy.whatFeatures.map((feature) => (
+            {rawMsg<{ title: string; text: string }[]>(locale, 'landing.whatFeatures').map((feature) => (
               <article key={feature.title} className="game-feature-card">
                 <h3>{feature.title}</h3>
                 <p>{feature.text}</p>
@@ -108,10 +96,10 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section page-section-tinted how-to-play-section">
           <div className="page-container">
             <div className="section-heading section-heading-centered">
-              <h2>{copy.howTitle}</h2>
+              <h2>{tMsg(locale, 'landing.howTitle')}</h2>
             </div>
             <div className="how-to-play-grid">
-              {copy.howSteps.map((step, index) => (
+              {rawMsg<{ title: string; text: string }[]>(locale, 'landing.howSteps').map((step, index) => (
                 <article className="how-to-play-card" key={step.title}>
                   <span aria-hidden="true">0{index + 1}</span>
                   <h3>{step.title}</h3>
@@ -120,7 +108,7 @@ export default function HomeContent({ locale }: { locale: string }) {
               ))}
             </div>
             <div className="how-to-play-action">
-              <a className="button-primary" href="#play">{copy.howCta} ↑</a>
+              <a className="button-primary" href="#play">{tMsg(locale, 'landing.howCta')} ↑</a>
             </div>
           </div>
         </section>
@@ -128,9 +116,9 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section page-section-tinted">
           <div className="page-container">
             <div className="section-heading character-section-heading">
-              <h2>{copy.guidesTitle}</h2>
+              <h2>{tMsg(locale, 'landing.guidesTitle')}</h2>
             </div>
-            <p className="section-lead">{copy.guidesLead}</p>
+            <p className="section-lead">{tMsg(locale, 'landing.guidesLead')}</p>
             <div className="guide-hub-grid">
               {guideCards.map((card) => (
                 <Link key={card.href} href={`${p}${card.href}`} className="guide-hub-card">
@@ -146,10 +134,10 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section page-section-tinted">
           <div className="page-container">
             <div className="section-heading character-section-heading">
-              <h2>{copy.castTitle}</h2>
+              <h2>{tMsg(locale, 'landing.castTitle')}</h2>
             </div>
             <div className="character-section-link">
-              <Link href={`${p}/characters`} className="text-link">{copy.allCharacters}</Link>
+              <Link href={`${p}/characters`} className="text-link">{tMsg(locale, 'landing.allCharacters')}</Link>
             </div>
             <div className="character-grid-home">
               {characterSlugs.map((slug) => {
@@ -161,8 +149,8 @@ export default function HomeContent({ locale }: { locale: string }) {
                     </div>
                     <div className="character-card-copy">
                       <h3>{character.name}</h3>
-                      <p>{characterDescriptions[slug]}</p>
-                      <span>{lang === 'zh' ? `${character.name} 的故事` : `${character.name}'s Story`} →</span>
+                      <p>{tMsg(locale, `landing.characters.${slug}`)}</p>
+                      <span>{tMsg(locale, 'landing.storyLink').replace('{name}', character.name)} →</span>
                     </div>
                   </Link>
                 );
@@ -174,16 +162,16 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section page-section-tinted">
           <div className="page-container">
             <div className="section-heading section-heading-row">
-              <h2>{copy.updateTitle}</h2>
-              <Link href={`${p}/updates`} className="text-link">{copy.allUpdates} →</Link>
+              <h2>{tMsg(locale, 'landing.updateTitle')}</h2>
+              <Link href={`${p}/updates`} className="text-link">{tMsg(locale, 'landing.allUpdates')} →</Link>
             </div>
             <div className="update-grid">
               {latestNews.map((post) => (
                 <Link key={post.slug} href={`${p}/updates#${post.slug}`} className="update-card">
-                  <time dateTime={post.publishedAt}>{formatUpdateDate(post.publishedAt, lang)}</time>
+                  <time dateTime={post.publishedAt}>{formatUpdateDate(post.publishedAt, locale)}</time>
                   <h3>{post.title}</h3>
                   <p>{post.excerpt}</p>
-                  <span>{copy.readUpdate} →</span>
+                  <span>{tMsg(locale, 'landing.readUpdate')} →</span>
                 </Link>
               ))}
             </div>
@@ -194,17 +182,17 @@ export default function HomeContent({ locale }: { locale: string }) {
 
         <AdSlot
           className="home-native-ad"
-          label={lang === 'zh' ? '广告' : 'Advertisement'}
+          label={tMsg(locale, 'landing.adLabel')}
           scriptSrc="https://pl29635653.effectivecpmnetwork.com/ad3a879f7acefad94dcedffe0b2a6b57/invoke.js"
           containerId="container-ad3a879f7acefad94dcedffe0b2a6b57"
         />
 
         <section className="page-section page-container faq-section">
           <div className="section-heading section-heading-centered">
-            <h2>{copy.faqTitle}</h2>
+            <h2>{tMsg(locale, 'landing.faqTitle')}</h2>
           </div>
           <div className="faq-grid">
-            {copy.faq.map((item) => (
+            {rawMsg<{ q: string; a: string }[]>(locale, 'landing.faq').map((item) => (
               <article className="faq-item" key={item.q}>
                 <h3>{item.q}</h3>
                 <p>{item.a}</p>
@@ -216,7 +204,7 @@ export default function HomeContent({ locale }: { locale: string }) {
         <section className="page-section page-section-tinted player-reviews-section">
           <div className="page-container">
             <div className="section-heading section-heading-centered">
-              <h2>{copy.reviewsTitle}</h2>
+              <h2>{tMsg(locale, 'landing.reviewsTitle')}</h2>
             </div>
             <div className="player-review-grid">
               {playerReviews.map((review) => (
@@ -264,105 +252,7 @@ function HomeHeroLead({ locale }: { locale: string }) {
   );
 }
 
-const enCopy = {
-  schemaDescription: 'An unofficial, source-led guide to The Freak Circus, an 18+ psychological horror visual novel by Neko Bueno.',
-  heroSubtitle: 'The Circus Is Open. Choose Who You Trust.',
-  heroLead: 'The Freak Circus is an 18+ psychological horror visual novel starring Pierrot, a silent clown whose affection turns into obsession, and Harlequin, his dangerously charming rival. As Jester, Doctor, and Ticket Taker enter the ring, every encounter draws the café-worker protagonist deeper into the circus.',
-  playHere: 'Play here now',
-  learnMore: 'Discover the Story & Cast',
-  playTitle: 'Play The Freak Circus Now',
-  castTitle: 'MEET THE CHARACTERS',
-  allCharacters: 'Character overview',
-  whatTitle: 'WHAT IS THE FREAK CIRCUS?',
-  whatP1: 'The Freak Circus is an 18+ psychological horror visual novel set around a circus that turns affection into danger. A café worker crosses paths with Pierrot, a silent yandere clown, and is pulled into his escalating rivalry with the seductive Harlequin.',
-  whatP2: 'The current prototype introduces five distinct performers, blends character-driven choices with unsettling imagery, and leaves its larger routes and endings in development. It is a story about obsession, masks, secrets, and deciding which smile is safe to trust.',
-  meetCast: 'Meet the cast',
-  whatFeatures: [
-    { title: 'Psychological Horror', text: 'Romance and dread share the same stage as affection slips into control, manipulation, and fear.' },
-    { title: 'Character-Driven Story', text: 'Pierrot and Harlequin anchor the rivalry while Jester, Doctor, and Ticket Taker deepen the circus mystery.' },
-    { title: 'Meaningful Choices', text: 'Dialogue and route decisions change encounters, reveal scenes, and shape the outcomes available in the current build.' },
-    { title: 'Dark Circus Atmosphere', text: 'Original character art, theatrical tents, animated scenes, and a sinister fairground mood define the experience.' },
-  ],
-  howTitle: 'HOW TO PLAY',
-  howSteps: [
-    { title: 'Launch the player', text: 'Use the browser player near the top of this page and press its start button when you are ready to enter the circus.' },
-    { title: 'Set your preferences', text: 'Open the in-game preferences to choose an available language, adjust sound, and set text speed before beginning.' },
-    { title: 'Choose and save', text: 'Read each scene, make route choices, and use the in-game Save and Load menus before decisions you may want to revisit.' },
-    { title: 'Continue safely', text: 'Keep browser data intact if you rely on browser saves, or use the official download page for the supported desktop and Android builds.' },
-  ],
-  howCta: 'Start playing',
-  guidesTitle: 'PRACTICAL GUIDES',
-  guidesLead: 'Direct answers to the questions players search for most, each one checked against the developer’s own published sources.',
-  updateTitle: 'LATEST UPDATES',
-  allUpdates: 'View all updates',
-  readUpdate: 'Read full update',
-  faqTitle: 'Frequently Asked Questions',
-  reviewsTitle: 'WHAT PLAYERS SAY',
-  faq: [
-    { q: 'What is The Freak Circus?', a: 'The Freak Circus is an 18+ psychological horror visual novel created by Neko Bueno and published by Garula. Its current story centers on a café worker, Pierrot, and Harlequin.' },
-    { q: 'Is The Freak Circus finished?', a: 'No. The official itch.io listing labels it a prototype and says the remaining script and endings are still in development.' },
-    { q: 'Where should I play or download it?', a: 'Use Garula’s official itch.io page. This guide does not host or redistribute game files.' },
-    { q: 'Is Day 3 available?', a: 'The developer is working on the next chapter, but no release date is published on the official sources tracked here.' },
-    { q: 'Which characters appear in the current build?', a: 'The current prototype introduces Pierrot, Harlequin, Jester, Doctor, and Ticket Taker. Columbina is also referenced in official maintenance notes.' },
-    { q: 'Does every character have a completed route?', a: 'No. The official listing names planned Pierrot, Harlequin, and protagonist endings, while confirming that the remaining script and endings are still in development.' },
-    { q: 'Which languages are official?', a: 'The current official listing names English, Brazilian Portuguese, and Chinese.' },
-    { q: 'Which platforms are supported?', a: 'The official listing currently includes HTML5 browser play, Windows, macOS, Linux, and Android.' },
-    { q: 'Is The Freak Circus suitable for younger players?', a: 'No. The developer rates the game 18+ and lists dark themes including blood, death, kidnapping, cannibalism, non-consensual use of drugs, physical domination, and mild physical harassment / non-consensual physical contact.' },
-    { q: 'Where can I follow verified game updates?', a: 'Use the developer’s itch.io devlog and official Tumblr. This site’s Updates section links its summaries back to those original posts.' },
-    { q: 'What can I find on this website?', a: 'The site provides an in-page player, character profiles, a source-led Wiki, Day 3 status, an official download guide, update summaries, and community fan art.' },
-    { q: 'Is this an official website?', a: 'No. This is an independent fan guide that links back to the developer’s official sources.' },
-  ],
-};
 
-const zhCopy: typeof enCopy = {
-  schemaDescription: '《The Freak Circus》非官方资料站，基于一手来源整理这款 18+ 心理恐怖视觉小说的角色、更新与下载信息。',
-  heroSubtitle: '马戏团已经开场，你会相信谁？',
-  heroLead: '《The Freak Circus》是一部 18+ 心理恐怖视觉小说。沉默的小丑 Pierrot 将爱意变成执念，而危险又迷人的 Harlequin 则是他的舞台对手；当 Jester、Doctor 和 Ticket Taker 陆续入场，身为咖啡店员工的主角也被一步步拖入马戏团深处。',
-  playHere: '立即在线游玩',
-  learnMore: '探索故事与角色',
-  playTitle: '立即游玩 The Freak Circus',
-  castTitle: '认识角色',
-  allCharacters: '角色总览',
-  whatTitle: 'THE FREAK CIRCUS 是什么？',
-  whatP1: '《The Freak Circus》是一部以诡异马戏团为舞台的 18+ 心理恐怖视觉小说，把爱意、执念与危险放在同一场演出里。一名咖啡店员工偶遇沉默的病娇小丑 Pierrot，随后被卷入他与魅惑对手 Harlequin 不断升级的竞争。',
-  whatP2: '当前原型版已经介绍五位风格鲜明的表演者，以人物选择、压迫感画面和未解秘密推进故事，更完整的路线与结局仍在开发。这是一场关于面具、秘密，以及该相信哪一张笑脸的故事。',
-  meetCast: '认识角色',
-  whatFeatures: [
-    { title: '心理恐怖', text: '浪漫与恐惧同台出现，爱意逐渐滑向控制、操纵与危险。' },
-    { title: '人物驱动叙事', text: 'Pierrot 与 Harlequin 构成竞争核心，Jester、Doctor 和 Ticket Taker 则扩展马戏团谜团。' },
-    { title: '有意义的选择', text: '对话与路线决定会改变相遇方式、解锁场景，并影响当前版本能够抵达的结果。' },
-    { title: '黑暗马戏氛围', text: '原创人物美术、主题帐篷、动画场景与危险游乐场气质共同构成游戏体验。' },
-  ],
-  howTitle: '如何游玩',
-  howSteps: [
-    { title: '启动网页播放器', text: '回到本页上方的游戏区域，在准备好进入马戏团后点击播放器的开始按钮。' },
-    { title: '调整游戏设置', text: '开始前可在游戏设置中选择现有语言、调整音量，并设置适合自己的文字速度。' },
-    { title: '做出选择并存档', text: '阅读剧情、选择路线，并在可能想重新尝试的决定前使用游戏内的保存与读取功能。' },
-    { title: '安全地继续进度', text: '依赖浏览器存档时不要清除该站点的浏览器数据；也可以通过官方下载页获取受支持的桌面版和 Android 版。' },
-  ],
-  howCta: '开始游玩',
-  guidesTitle: '实用指南',
-  guidesLead: '针对玩家搜索最多的几个问题给出的直接答案，每一条都对照开发者自己公布的资料核实过。',
-  updateTitle: '最新更新',
-  allUpdates: '查看全部更新',
-  readUpdate: '阅读完整更新',
-  faqTitle: '常见问题',
-  reviewsTitle: '玩家怎么说',
-  faq: [
-    { q: '《The Freak Circus》是什么游戏？', a: '《The Freak Circus》是由 Neko Bueno 创作、Garula 发布的 18+ 心理恐怖视觉小说，当前故事围绕一名咖啡店员工、Pierrot 与 Harlequin 展开。' },
-    { q: '《The Freak Circus》已经完结了吗？', a: '没有。官方 itch.io 页面将其标记为原型版，并说明其余剧本与结局仍在开发。' },
-    { q: '应该去哪里游玩或下载？', a: '请使用 Garula 的官方 itch.io 页面。本站不托管或重新分发游戏文件。' },
-    { q: 'Day 3 已经发布了吗？', a: '开发者正在制作下一章，但本站追踪的官方来源尚未公布发布日期。' },
-    { q: '当前版本有哪些角色？', a: '当前原型版介绍了 Pierrot、Harlequin、Jester、Doctor 和 Ticket Taker；官方维护记录中也曾提到 Columbina。' },
-    { q: '每个角色都有完整路线吗？', a: '没有。官方页面点名了计划中的 Pierrot、Harlequin 与主角结局，同时说明剩余剧本和结局仍在开发。' },
-    { q: '目前有哪些官方语言？', a: '当前官方页面列出英语、巴西葡萄牙语和中文。' },
-    { q: '游戏支持哪些平台？', a: '官方页面目前列出 HTML5 浏览器版、Windows、macOS、Linux 和 Android。' },
-    { q: '未成年玩家适合游玩吗？', a: '不适合。开发者将游戏标记为 18+，并列出血腥、死亡、绑架、食人、非自愿用药、肢体控制，以及轻度肢体骚扰／非自愿肢体接触等黑暗主题。' },
-    { q: '去哪里关注可信的游戏更新？', a: '请查看开发者 itch.io 日志和官方 Tumblr；本站更新栏目也会把摘要链接回原始公告。' },
-    { q: '这个网站提供哪些内容？', a: '本站提供页面内游戏播放器、角色资料、可信 Wiki、Day 3 状态、官方下载指南、更新摘要及社区同人作品。' },
-    { q: '这是官网吗？', a: '不是。本站是独立粉丝指南，并持续链接回开发者的一手来源。' },
-  ],
-};
 
 const playerReviews = [
   {
@@ -403,27 +293,5 @@ const playerReviews = [
   },
 ];
 
-function formatUpdateDate(date: string, lang: 'en' | 'zh') {
-  return new Date(`${date}T00:00:00Z`).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  });
-}
 
-const enCharacterDescriptions = {
-  pierrot: 'A sorrowful clown concealing profound emotions beneath a painted grin. His tale unfolds through love, loss, and the burden of secrets long kept.',
-  harlequin: 'A playful trickster whose lighthearted exterior conceals a far more intricate soul. Her bond with Pierrot lies at the very center of the story.',
-  jester: "The circus's storyteller and silent witness, unraveling Columbina's tragic legend through puppet shows that expose the show's darkest truths.",
-  'the-doctor': 'A plague doctor performing sinister experiments within the Cyan Tent, studying fear itself and probing the darker edges of medical ethics.',
-  'ticket-taker': 'A manipulator of reality who presides over the Tent of Mirrors, using warped reflections to unmask the true face of every monster.',
-};
 
-const zhCharacterDescriptions: typeof enCharacterDescriptions = {
-  pierrot: '一个悲伤的小丑，将深沉的情感藏在画出的笑容之下。他的故事围绕爱、失去，以及那些被隐藏多年的秘密所带来的重负展开。',
-  harlequin: '一个爱恶作剧的表演者，轻松顽皮的外表下藏着更为复杂的灵魂。她与 Pierrot 的联系处于整个故事的中心。',
-  jester: '马戏团的讲述者与沉默见证人，通过木偶戏揭开 Columbina 的悲剧传说，并暴露演出背后最黑暗的真相。',
-  'the-doctor': '一名在 Cyan Tent 中进行危险实验的瘟疫医生，研究恐惧本身，并探索医学伦理更黑暗的边界。',
-  'ticket-taker': 'Tent of Mirrors 的现实操纵者，利用扭曲的倒影揭开每一个怪物的真实面目。',
-};

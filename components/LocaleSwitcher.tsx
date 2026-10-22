@@ -1,15 +1,42 @@
 'use client';
 
+import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { tMsg } from '@/lib/messages';
 
+// Every locale the site is published in. Each one needs a visible entry
+// point: a language a reader cannot reach from the interface is a language
+// that never gets crawled, and never gets read.
 const LOCALES = [
   { code: 'en', name: 'English', flag: '\u{1F1EC}\u{1F1E7}' },
   { code: 'zh', name: '\u4E2D\u6587', flag: '\u{1F1E8}\u{1F1F3}' },
+  { code: 'es', name: 'Espa\u00f1ol', flag: '\u{1F1EA}\u{1F1F8}' },
+  { code: 'pt', name: 'Portugu\u00eas', flag: '\u{1F1E7}\u{1F1F7}' },
+  { code: 'vi', name: 'Ti\u1ebfng Vi\u1ec7t', flag: '\u{1F1F3}\u{1F1F1}' },
+  { code: 'id', name: 'Bahasa Indonesia', flag: '\u{1F1EE}\u{1F1E9}' },
+  { code: 'fil', name: 'Filipino', flag: '\u{1F1F5}\u{1F1ED}' },
 ];
 
 const LOCALE_PATTERN = /^\/(en|pt|fil|vi|es|id|zh)(\/|$)/;
+
+/**
+ * The path for a locale given the current path. English is the default and
+ * stays unprefixed, so the URL matches the site's canonical form.
+ */
+function localePath(pathname: string, code: string): string {
+  const match = pathname.match(LOCALE_PATTERN);
+  let next = pathname;
+  if (match) {
+    next = pathname.replace(LOCALE_PATTERN, `/${code}/`);
+  } else if (code !== 'en') {
+    next = `/${code}${pathname === '/' ? '' : pathname}`;
+  }
+  if (code === 'en') {
+    next = next.replace(/^\/en(?=\/|$)/, '') || '/';
+  }
+  return next.replace(/\/+/g, '/').replace(/\/$/, '') || '/';
+}
 
 export default function LocaleSwitcher({ compact = false }: { compact?: boolean }) {
   const pathname = usePathname();
@@ -60,25 +87,11 @@ export default function LocaleSwitcher({ compact = false }: { compact?: boolean 
         closeDropdown();
         return;
       }
-      let newPath: string;
-      if (currentMatch) {
-        newPath = pathname.replace(LOCALE_PATTERN, `/${code}/`);
-      } else if (code !== 'en') {
-        newPath = `/${code}${pathname === '/' ? '' : pathname}`;
-      } else {
-        newPath = pathname;
-      }
-      // English is the default, unprefixed locale: strip the /en prefix so the
-      // URL matches the site's canonical form (/ and /updates, not /en, /en/updates).
-      if (code === 'en') {
-        newPath = newPath.replace(/^\/en(?=\/|$)/, '') || '/';
-      }
-      newPath = newPath.replace(/\/+/g, '/').replace(/\/$/, '') || '/';
-      document.cookie = 'NEXT_LOCALE=' + code + ';path=/;max-age=' + (30*24*60*60);
-      router.push(newPath);
+      document.cookie = 'NEXT_LOCALE=' + code + ';path=/;max-age=' + (30 * 24 * 60 * 60);
+      router.push(localePath(pathname, code));
       closeDropdown();
     },
-    [pathname, currentMatch, currentCode, router, closeDropdown],
+    [pathname, currentCode, router, closeDropdown],
   );
 
   return (
@@ -119,16 +132,22 @@ export default function LocaleSwitcher({ compact = false }: { compact?: boolean 
         aria-hidden={!open}
       >
         {LOCALES.map((locale) => (
-          <button
+          // A real link, not a button: search engines follow the href, and
+          // readers can open another language in a new tab.
+          <Link
             key={locale.code}
-            onClick={() => switchLocale(locale.code)}
+            href={localePath(pathname, locale.code)}
+            hrefLang={locale.code}
+            onClick={(event) => {
+              event.preventDefault();
+              switchLocale(locale.code);
+            }}
             className={`flex min-h-[44px] w-full items-center gap-2 rounded-[2px] border border-transparent px-3 py-2.5 text-sm
               transition-[color,background-color,border-color] duration-150
               ${locale.code === currentCode
                 ? 'border-circus-gold/15 bg-circus-gold/10 text-circus-gold'
                 : 'text-circus-muted hover:border-circus-border hover:bg-circus-card hover:text-circus-text'
               }`}
-            type="button"
             role="menuitemradio"
             aria-checked={locale.code === currentCode}
             tabIndex={open ? 0 : -1}
@@ -138,7 +157,7 @@ export default function LocaleSwitcher({ compact = false }: { compact?: boolean 
             {locale.code === currentCode && (
               <span className="ml-auto inline-flex h-4 w-4 items-center justify-center rounded-full border border-circus-gold/50 text-[10px] text-circus-gold">✓</span>
             )}
-          </button>
+          </Link>
         ))}
       </div>
     </div>

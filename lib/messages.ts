@@ -12,9 +12,20 @@ export function getMsg(locale: string) {
   return (ALL as Record<string, unknown>)[locale] || ALL.en;
 }
 
+/**
+ * Look up a dotted key, falling back to English when the requested locale
+ * does not carry that key yet. A missing translation should render the
+ * English copy, not an empty string or a crash.
+ */
+function lookup(locale: string, dotpath: string): unknown {
+  const path = dotpath.split('.');
+  const local = path.reduce((o: unknown, k: string) => (o as Record<string, unknown>)?.[k], getMsg(locale));
+  if (local !== undefined) return local;
+  return path.reduce((o: unknown, k: string) => (o as Record<string, unknown>)?.[k], ALL.en);
+}
+
 export function tMsg(locale: string, dotpath: string, params?: Record<string, unknown>): string {
-  const msg = getMsg(locale);
-  const val = dotpath.split('.').reduce((o: unknown, k: string) => (o as Record<string, unknown>)?.[k], msg);
+  const val = lookup(locale, dotpath);
   let result = typeof val === 'string' ? val : dotpath;
   if (params) {
     for (const [k, v] of Object.entries(params)) {
@@ -25,6 +36,5 @@ export function tMsg(locale: string, dotpath: string, params?: Record<string, un
 }
 
 export function rawMsg<T = unknown>(locale: string, dotpath: string): T {
-  const msg = getMsg(locale);
-  return dotpath.split('.').reduce((o: unknown, k: string) => (o as Record<string, unknown>)?.[k], msg) as T;
+  return lookup(locale, dotpath) as T;
 }

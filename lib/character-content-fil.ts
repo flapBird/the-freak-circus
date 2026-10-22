@@ -39,6 +39,12 @@ const imperialFil = (slug: string) => {
   return `${chart.feet} na talaga at ${inches} pulgada`;
 };
 
+/**
+ * Height differences are also derived from the chart, so a prose figure can
+ * never contradict the published measurements.
+ */
+const cmDiff = (a: string, b: string) => Math.abs(chartFor(a).cm - chartFor(b).cm);
+
 export const characterProfilesFil: Record<
   'pierrot' | 'harlequin' | 'jester' | 'the-doctor' | 'ticket-taker',
   CharacterEditorial
@@ -122,7 +128,7 @@ export const characterProfilesFil: Record<
           'Para malinaw ang pagkakaiba, ganito ang paghahati ng materyal sa pahinang ito.',
         ],
         list: [
-          `Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang ${ordinal(chartFor('pierrot').strengthRank)} lugar sa ranking ng lakas, ang paglalarawan sa kanya bilang "the silent yandere", ang kanyang tungkulin bilang isa sa dalawang lead, at ang katotohanan na binalak ang romance ending ni Pierrot.`,
+          `Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang posisyon bilang una sa ranking ng lakas, ang paglalarawan sa kanya bilang "the silent yandere", ang kanyang tungkulin bilang isa sa dalawang lead, at ang katotohanan na binalak ang romance ending ni Pierrot.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang paraan ng kanyang pagtugon sa protagonist.',
           'Mula sa fandom: ang buong deskripsiyon ng kostume at maskara, ang dahilan sa loob ng kuwento ng kanyang katahimikan, ang kanyang personal na kasaysayan, at ang mga espesipiko ng kanyang relasyon sa iba pang karakter.',
         ],
@@ -210,7 +216,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Tatig at detalyeng pisikal',
         paragraphs: [
-          `Ang height chart ng developer ay naglalagay ng Harlequin sa ${formatHeight(chartFor('harlequin')).metric}, mga ${imperialFil('harlequin')}. Ipinapamantit nito na 11 cm mas mababa kaysa Pierrot, isang pagkakaiba na itinuturing ng fandom wiki bilang makabuluhan sa kung paano sila pinapares laban sa isa't isa.`,
+          `Ang height chart ng developer ay naglalagay ng Harlequin sa ${formatHeight(chartFor('harlequin')).metric}, mga ${imperialFil('harlequin')}. Ipinapamantit nito na ${cmDiff('pierrot', 'harlequin')} cm mas mababa kaysa Pierrot, isang pagkakaiba na itinuturing ng fandom wiki bilang makabuluhan sa kung paano sila pinapares laban sa isa't isa.`,
           'Inilalarawan ng fandom wiki ang kanyang disenyo bilang buhok na itim na kulot hanggang sa mga pisang, na may dalang tuplas na nakakulot sa hugis ng puso sa kaliwang noo, puting maskara na may berdeng rhombus na dumadaan sa isang mata at berdeng tatsulo sa ilalim ng kabila, mga mata na berde ng lason na lumilabag kapag inalis ang maskara, at berdeng-itim na hood at kostume na may hindi magkapantay na mga guante. Muli, ito ay deskripsiyon ng mga fan at hindi pahayag ng developer, at pinakakinabangan sa pagkilala sa kanya sa mga screenshot at artwork.',
         ],
       },
@@ -224,7 +230,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          `Nagtataya ang Harlequin ng ${ordinal(chartFor('harlequin').strengthRank)} lugar sa ranking ng lakas ng developer kasama si Jester, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Kasama ang pagiging pinakamabata at pinakababa, siya ay patuloy na inilalarawan bilang pinakamabilis sa grupo at hindi pinakamabigat — itinatala rin ng fandom wiki na magkatie sila ng Jester sa ikalawang kategorya para sa raw na pisikal na lakas.`,
+          `Nagtataya ang Harlequin ng ${ordinal(chartFor('harlequin').strengthRank)} lugar sa ranking ng lakas ng developer kasama si Jester, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Kasama ang pagiging pinakamabata at ikalawang pinakamababa, siya ay patuloy na inilalarawan bilang pinakamabilis sa grupo at hindi pinakamabigat — itinatala rin ng fandom wiki na magkatie sila ng Jester sa ikalawang kategorya para sa raw na pisikal na lakas.`,
         ],
       },
       {
@@ -325,14 +331,14 @@ export const characterProfilesFil: Record<
       {
         heading: 'Tatig at detalyeng pisikal',
         paragraphs: [
-          `Ang height chart ng developer ay naglalagay ng Jester sa ${formatHeight(chartFor('jester')).metric}, mga ${imperialFil('jester')}. Mas mababa siya ng 6 cm kaysa Pierrot at ng 20 cm kaysa Doctor.`,
+          `Ang height chart ng developer ay naglalagay ng Jester sa ${formatHeight(chartFor('jester')).metric}, mga ${imperialFil('jester')}. Mas mababa siya ng ${cmDiff('pierrot', 'jester')} cm kaysa Pierrot at ng ${cmDiff('the-doctor', 'jester')} cm kaysa Doctor.`,
           'Inilalarawan ng fandom wiki siya na may mahabang malalim na violet na buhok, puting maskara na may violet na pabaligtad na puso at violet na bituin, violet na tailcoat, at opera gloves, at itinuturo na ambidextrous siya. Mula sa fandom ang paglalarawang ito at hindi sa pahayag ng developer.',
         ],
       },
       {
         heading: 'Age order',
         paragraphs: [
-          `Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('jester').ageOrder)} lugar sa limang si Jester, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Mas matanda siya kaysa Harlequin at mas bata kaysa Pierrot, sa Doctor, at sa Ticket Taker.`,
+          `Sa age order na inilathala ng developer, nasa ${ordinal(chartFor('jester').ageOrder)} lugar si Jester sa limang, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Mas matanda siya kaysa Harlequin at mas bata kaysa Pierrot, sa Doctor, at sa Ticket Taker.`,
           'Itinatala ng fandom wiki ang kaarawan ni Jester at sinasabing nagpa-publish ang developer ng pagbati para sa kanya, na dahil doon ay mas maayos ang kanyang petsa kaysa sa karamihan sa iba — ngunit ang mga petsang umiikot para sa iba pang karakter ay iniuugnay ng mga fan, at ang age order pa rin ang tanging opisyal na sukat.',
         ],
       },
@@ -417,7 +423,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Madaliang sagot',
         paragraphs: [
-          `Ang Doctor ay ${formatHeight(chartFor('the-doctor')).metric}, kaya siya ang pinakatall sa limang karakter na ipinakilala nang may malinaw na margin — 9 cm sa itaas ng Pierrot. Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang siya sa age order ng developer, ibig sabihin, ang Ticket Taker lang ang mas matanda sa kanya. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa ranking ng lakas ng developer, at wala siyang ruta at walang ending.`,
+          `Ang Doctor ay ${formatHeight(chartFor('the-doctor')).metric}, kaya siya ang pinakatall sa limang karakter na ipinakilala nang may malinaw na margin — ${cmDiff('the-doctor', 'pierrot')} cm sa itaas ng Pierrot. Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang siya sa age order ng developer, ibig sabihin, ang Ticket Taker lang ang mas matanda sa kanya. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa ranking ng lakas ng developer, at wala siyang ruta at walang ending.`,
         ],
       },
       {
@@ -430,7 +436,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Tatig at detalyeng pisikal',
         paragraphs: [
-          `Ang height chart ng developer ay naglalagay ng Doctor sa ${formatHeight(chartFor('the-doctor')).metric}, mga ${imperialFil('the-doctor')} — ang pinakatall sa limang may 9 cm na lamang.`,
+          `Ang height chart ng developer ay naglalagay ng Doctor sa ${formatHeight(chartFor('the-doctor')).metric}, mga ${imperialFil('the-doctor')} — ang pinakatall sa limang may ${cmDiff('the-doctor', 'pierrot')} cm na lamang.`,
           'Inilalarawan ng fandom wiki siya na may pulang balat, maiikling pulang buhok, at isang beak na plague-doctor mask na may lumilabag na cyan na lente, at itinuturo na kailanman ay hindi ipinapakita ang kanyang mga binti at paa. Itinatala rin nito na kaliitin ang kamay niya, hindi siya marunong lumangoy, at nagiging pula ang kanyang mga mata kapag naranasan niya ang ilang damdamin. Lahat ng iyon ay deskripsiyon ng mga fan mula sa materyal, hindi mga pahayag ng developer.',
         ],
       },
@@ -438,7 +444,7 @@ export const characterProfilesFil: Record<
         heading: 'Age order at lakas',
         paragraphs: [
           `Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang si Doctor sa opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Ang Ticket Taker lang ang mas matanda sa kanya.`,
-          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya, sa unahan ng Ticket Taker at sa likuran ng Pierrot, ng Harlequin, at ng Jester. Ang pagiging pinakatall at ikatlong sa lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
+          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya — sa unahan ng Ticket Taker, at sa likuran ng Pierrot at ng magkatie na Harlequin at Jester. Ang pagiging pinakatall ngunit ikatlong lamang sa raw na lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
         ],
       },
       {
@@ -469,7 +475,7 @@ export const characterProfilesFil: Record<
     faq: [
       {
         question: 'Ano ang taas ng Doctor?',
-        answer: `${formatHeight(chartFor('the-doctor')).metric}, mga ${imperialFil('the-doctor')} — ang pinakatall sa limang karakter, 9 cm sa itaas ng Pierrot.`,
+        answer: `${formatHeight(chartFor('the-doctor')).metric}, mga ${imperialFil('the-doctor')} — ang pinakatall sa limang karakter, ${cmDiff('the-doctor', 'pierrot')} cm sa itaas ng Pierrot.`,
       },
       {
         question: 'Ang pinakamamatanda ba ang Doctor?',
@@ -479,7 +485,7 @@ export const characterProfilesFil: Record<
       {
         question: 'Ang pinakamalakas ba ang Doctor?',
         answer:
-          `Wala. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa strength list ng developer, sa likuran ng Pierrot, ng Harlequin, at ng Jester.`,
+          `Wala. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa strength list ng developer, sa likuran ng Pierrot at ng magkatie na Harlequin at Jester.`,
       },
       {
         question: 'May ruta ba ang Doctor?',
@@ -533,7 +539,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Tatig at detalyeng pisikal',
         paragraphs: [
-          `Ang height chart ng developer ay naglalagay ng Ticket Taker sa ${formatHeight(chartFor('ticket-taker')).metric}, mga ${imperialFil('ticket-taker')} — ang pinakababa sa limang, 24 cm sa ibaba ng Doctor.`,
+          `Ang height chart ng developer ay naglalagay ng Ticket Taker sa ${formatHeight(chartFor('ticket-taker')).metric}, mga ${imperialFil('ticket-taker')} — ang pinakababa sa limang, ${cmDiff('the-doctor', 'ticket-taker')} cm sa ibaba ng Doctor.`,
           'Inilalarawan ng fandom wiki siya na may maiikling madilim na navy na buhok, isang maskara na hatiin sa puting at itim na bahagi, navy na tailcoat na may gintong trim, gintong cravat, at top hat, at itinuturo na magkaibaw ang kanyang mga mata — isa puti, isa asul. Ang Portuguese na pangalan ng karakter, Bilheteiro, ay lumilitaw sa parehong materyal.',
         ],
       },
@@ -570,7 +576,7 @@ export const characterProfilesFil: Record<
           'Ang Ticket Taker ay napakabuting dokumentado sa materyal na opisyal para sa isang suporting character, lalo na dahil ang sistema ng tiket ay isa sa ilang kakaunting mekanikal na kinukumpirma.',
         ],
         list: [
-          `Kinukumpirma ng developer: ang kanyang taas bilang pinakababa sa limang, ang kanyang ${ordinal(chartFor('ticket-taker').ageOrder)} posisyon sa age order, ang kanyang huling posisyon sa ranking ng lakas, ang pag-iralang ng walong uri ng tiket, at ang katotohanan na wala siyang ruta.`,
+          `Kinukumpirma ng developer: ang kanyang taas bilang pinakababa sa limang, ang kanyang posisyon bilang una sa age order, ang kanyang huling posisyon sa ranking ng lakas, ang pag-iralang ng walong uri ng tiket, at ang katotohanan na wala siyang ruta.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang katotohanan na binibigyan ang protagonist ng pink tiket sa Araw 1.',
           'Mula sa fandom: ang pagkakadisguise bilang "Unknown" ng café, ang epitetong "reality manipulator", at ang mga detalye ng kanyang kasaysayan sa Columbina.',
         ],
@@ -579,7 +585,7 @@ export const characterProfilesFil: Record<
     faq: [
       {
         question: 'Ano ang taas ng Ticket Taker?',
-        answer: `${formatHeight(chartFor('ticket-taker')).metric}, mga ${imperialFil('ticket-taker')} — ang pinakababa sa limang karakter, 24 cm mas mababa kaysa Doctor.`,
+        answer: `${formatHeight(chartFor('ticket-taker')).metric}, mga ${imperialFil('ticket-taker')} — ang pinakababa sa limang karakter, ${cmDiff('the-doctor', 'ticket-taker')} cm mas mababa kaysa Doctor.`,
       },
       {
         question: 'Ang pinakamamatanda ba si Ticket Taker?',
