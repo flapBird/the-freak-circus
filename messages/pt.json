@@ -115,7 +115,7 @@
       "Não recarregue os saves na sua primeira jogada. Suas decisões naturais levam à experiência mais significativa.",
       "Jogue pelo menos duas vezes — uma segunda jogada revela diálogos e cenas que você não consegue ver na primeira vez.",
       "Preste muita atenção ao Ticket Taker. Ele diz mais do que parece durante a história.",
-      "Cada rota de personagem tem um Final Bom e pelo menos um Final Ruim. As condições são específicas — consulte o guia após sua primeira jogada.",
+      "Apenas um final pode ser concluído na versão atual, e ele é ruim. Os finais de Pierrot, Harlequin, da Protagonista e \"All together\" foram anunciados, mas ainda estão em desenvolvimento, então espere que os caminhos estejam incompletos.",
       "Use o sistema de save em pontos de decisão importantes para explorar caminhos alternativos sem perder progresso."
     ],
     "whyPlayTitle": "Por que jogar?",
@@ -162,8 +162,8 @@
     "triviaTitle": "Curiosidades e Fatos Divertidos sobre os Personagens",
     "trivia": [
       {
-        "q": "Qual é a altura de Pierrot em The Freak Circus?",
-        "a": "A altura oficial de Pierrot não foi divulgada pelo desenvolvedor. Estimativas de fãs baseadas em comparações de sprites do jogo sugerem que ele possui um porte médio a alto. Confira a página do personagem <a href=\"/en/characters/pierrot\">Pierrot</a> para mais detalhes."
+        "q": "Qual a altura de Pierrot em The Freak Circus?",
+        "a": "Pierrot tem 198 cm, cerca de 6 pés e 5,95 polegadas, na tabela de alturas publicada pelo desenvolvedor. Também ocupa o terceiro lugar entre cinco na ordem de idade oficial, do mais velho ao mais novo. Veja a <a href=\"/characters/heights\">página de alturas e rankings</a>."
       },
       {
         "q": "Pierrot é do tipo yandere?",
@@ -178,12 +178,12 @@
         "a": "O passado de Columbina é deliberadamente mantido ambíguo e é revelado em fragmentos através das rotas de Pierrot e Harlequin. Ela aparece apenas em sequências de flashback e é central para compreender a história oculta do circo. Leia a página de lore <a href=\"/en/characters/columbina\">Columbina</a> para saber o que é conhecido."
       },
       {
-        "q": "É possível namorar o Ticket Taker?",
-        "a": "Sim. O Ticket Taker tem uma rota romântica em The Freak Circus. Sua rota exige persistência e atenção cuidadosa aos diálogos. Ele revela o lore mais profundo sobre as origens do circo. Veja o guia da rota <a href=\"/en/characters/ticket-taker\">Ticket Taker</a> para dicas."
+        "q": "Dá para se apaixonar pelo Bilheteiro?",
+        "a": "Não. O desenvolvedor confirma que não há rota do Bilheteiro — as opções são Pierrot, Harlequin, os dois ou nenhum. Transformar os demais personagens em opções românticas é descrito como possibilidade, não como promessa. Veja a <a href=\"/endings\">página de finais e rotas</a>."
       },
       {
-        "q": "O Doctor tem um final bom?",
-        "a": "Sim, a rota do Doctor tem pelo menos um Final Bom. A rota do Doctor foi expandida com conteúdo adicional. Aceite suas cenas de exame e faça escolhas específicas de diálogo para desbloquear o final Mãos Limpas. Veja a página do personagem <a href=\"/en/characters/the-doctor\">Doctor</a> para detalhes."
+        "q": "O Doutor tem um final bom?",
+        "a": "Não. O Doutor não tem rota nem final na versão atual. O único final que existe é o final ruim \"Missing\" do Dia 1; os finais de Pierrot, Harlequin, da Protagonista e \"All together\" foram anunciados, mas ainda não foram implementados."
       }
     ]
   },
@@ -204,7 +204,7 @@
           "Poético",
           "Perigoso"
         ],
-        "routeTip": "Escolha diálogos introspectivos e empáticos no Dia 1. Evite a desafio no Dia 2 para desbloquear o Final Bom."
+        "routeTip": "Rota romântica planeada. O roteiro ainda está em desenvolvimento — não existem condições de ativação públicas até agora."
       },
       {
         "id": "harlequin",
@@ -217,46 +217,46 @@
           "Protetor",
           "Complexo"
         ],
-        "routeTip": "Selecione o balão vermelho no Dia 1. Use respostas ousadas e brincalhonas durante os encontros na tenda."
+        "routeTip": "Rota romântica planeada. O roteiro ainda está em desenvolvimento — não existem condições de ativação públicas até agora."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "O Trapaceiro",
-        "description": "Bobo da Corte existe entre os outros performers, nem totalmente leal nem totalmente antagonista. Sua rota explora a ética do entretenimento e o que significa fazer os outros rirem.",
+        "description": "O Jester existe entre os outros artistas, nem totalmente leal nem completamente antagônico. Ele amplia o circo para além da rivalidade central e guarda um propósito maior para si. A versão atual o apresenta sem abrir uma rota própria.",
         "traits": [
           "Ambíguo",
           "Ágil de raciocínio",
           "Solitário",
           "Calculista"
         ],
-        "routeTip": "A rota de Jester desbloqueia no Dia 2. Responda com humor, mas evite confrontos diretos."
+        "routeTip": "Apresentado na versão 0.2. O desenvolvedor confirma que não há rota do Jester; ele faz parte do elenco mais amplo."
       },
       {
         "id": "ticket-taker",
         "name": "Bilheteiro",
         "role": "O Guardião",
-        "description": "O primeiro personagem que você encontra. O Bilheteiro controla quem entra e quem sai, e tem observado tudo neste circo por muito mais tempo do que os outros imaginam.",
+        "description": "O primeiro personagem que você encontra. O Bilheteiro controla quem entra e quem sai, e observa tudo neste circo há muito tempo. A versão atual o apresenta sem abrir uma rota própria.",
         "traits": [
           "Observador",
           "Críptico",
           "Severo",
           "Antigo"
         ],
-        "routeTip": "Responda diretamente a todas as perguntas que o Bilheteiro faz. Sua rota requer persistência."
+        "routeTip": "Apresentado na versão 0.2. O desenvolvedor confirma que não há rota do Bilheteiro."
       },
       {
         "id": "doctor",
         "name": "Médico",
         "role": "O Cirurgião dos Segredos",
-        "description": "A rota do Doutor é a mais recentemente expandida e contém alguns dos conteúdos mais sombrios do jogo. Ele é metódico, íntimo e profundamente perturbador.",
+        "description": "O Doutor traz um registro mais clínico e frio ao circo. É metódico e inquietante, e a versão atual o apresenta sem abrir uma rota própria.",
         "traits": [
           "Clínico",
           "Íntimo",
           "Controlador",
           "Complexo"
         ],
-        "routeTip": "O conteúdo do Doutor se concentra principalmente no Dia 2. Aceite suas cenas de exame para progredir em sua rota."
+        "routeTip": "Apresentado na versão 0.2. O desenvolvedor confirma que não há rota do Doutor."
       }
     ],
     "pierrot": {

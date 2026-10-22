@@ -19,7 +19,12 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params: { locale } }: Pick<Props, 'params'>): Metadata {
-  const indexable = INDEXABLE_LOCALES.includes(locale as (typeof INDEXABLE_LOCALES)[number]);
+  // The layout only carries site-wide defaults. Whether a given page may be
+  // indexed in this locale depends on whether that page's body text exists
+  // in the language, which is decided per page through buildMetadata's
+  // availableLocales option. A blanket noindex here would hide a page that
+  // is genuinely translated, and a blanket index would expose a page that
+  // silently falls back to English.
   return {
     metadataBase: new URL(SITE_URL),
     description: SITE_DESC,
@@ -31,7 +36,6 @@ export function generateMetadata({ params: { locale } }: Pick<Props, 'params'>):
       ],
       apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
     },
-    ...(!indexable ? { robots: { index: false, follow: true } } : {}),
   };
 }
 

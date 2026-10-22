@@ -115,7 +115,7 @@
       "Huwag mag-reload ng mga save sa iyong unang gameplay. Ang iyong natural na mga desisyon ang magdudulot ng pinaka-makabuluhang karanasan.",
       "Maglaro nang hindi bababa sa dalawang beses — ang pangalawang run ay magpapakita ng mga usapan at eksena na hindi mo makikita sa unang beses.",
       "Magbigay-pansin ng mabuti sa Ticket Taker. Mas marami siyang sinasabi kaysa sa lumilitaw sa buong kuwento.",
-      "Bawat ruta ng karakter ay may Good Ending at hindi bababa sa isang Bad Ending. Ang mga kondisyon ay tiyak — sumangguni sa walkthrough pagkatapos ng iyong unang laro.",
+      "Isa lang ang ending na magagawa sa kasalukuyang bersyon, at ito ay masama. Ang mga ending ni Pierrot, Harlequin, ang Protagonist, at \"All together\" ay ipinapahayag ngunit nang developing pa, kaya asahan na hindi pa kumpleto ang mga branch.",
       "Gamitin ang save system sa mga pangunahing punto ng desisyon upang subukan ang ibang mga landas nang hindi nawawala ang progreso."
     ],
     "whyPlayTitle": "Bakit Maglaro?",
@@ -162,8 +162,8 @@
     "triviaTitle": "Trivia ng Tauhan at mga Nakakatuwang Katotohanan",
     "trivia": [
       {
-        "q": "Gaano kataas si Pierrot mula sa The Freak Circus?",
-        "a": "Hindi pa ibinunyag ng developer ang opisyal na taas ni Pierrot. Ang mga pagtataya ng mga tagahanga base sa paghahambing ng mga sprite sa laro ay nagpapahiwatig na siya ay may average hanggang matangkad na pangangatawan. Tingnan ang pahina ng karakter ng <a href=\"/en/characters/pierrot\">Pierrot</a> para sa karagdagang detalye."
+        "q": "Gaano kataas ang Pierrot sa The Freak Circus?",
+        "a": "198 cm ang Pierrot, mga 6 na talaga at 5,95 pulgada, sa height chart na inilathala ng developer. Iginagalang din siya sa ikatlong lugar ng limang hanggang sa opisyal na age order mula sa pinakamatanda. Tingnan ang <a href=\"/characters/heights\">height at ranking page</a>."
       },
       {
         "q": "Si Pierrot ba ay isang yandere type?",
@@ -178,12 +178,12 @@
         "a": "Ang backstory ni Columbina ay sinadya na panatilihing malabo at ipinapakita sa mga pira-piraso sa pamamagitan ng mga ruta nina Pierrot at Harlequin. Lumilitaw lamang siya sa mga flashback sequence at mahalaga sa pag-unawa sa nakatagong kasaysayan ng sirko. Basahin ang <a href=\"/en/characters/columbina\">Columbina lore page</a> para sa mga nalalaman."
       },
       {
-        "q": "Kaya mo bang ligawan ang Ticket Taker?",
-        "a": "Oo. May romanceable na ruta ang The Ticket Taker sa The Freak Circus. Ang kanyang ruta ay nangangailangan ng pagtitiyaga at maingat na atensyon sa diyalogo. Ibinunyag niya ang pinakamalalim na alamat tungkol sa pinagmulan ng sirko. Tingnan ang <a href=\"/en/characters/ticket-taker\">Ticket Taker route guide</a> para sa mga tips."
+        "q": "Maaari bang magmahal ang Ticket Taker?",
+        "a": "Hindi. Kinukumpirma ng developer na walang ruta para sa Ticket Taker — ang mga pagpipilian ay Pierrot, Harlequin, pareho, o wala. Ginawang possibility ng mga pangibabang karakter ang mga opsyong romantik, hindi pangako. Tingnan ang <a href=\"/endings\">endings at routes page</a>."
       },
       {
-        "q": "Maganda ba ang ending ng The Doctor?",
-        "a": "Oo, ang Doctor route ay may kahit isang Good Ending. Pinalawak ang ruta ng Doctor na may karagdagang nilalaman. Tanggapin ang kanyang mga eksena ng pagsusuri at gumawa ng mga partikular na pagpili ng diyalogo upang ma-unlock ang Clean Hands ending. Tingnan ang <a href=\"/en/characters/the-doctor\">Doctor character page</a> para sa mga detalye."
+        "q": "Mayroon bang good ending ang Doctor?",
+        "a": "Wala. Walang ruta o ending ang Doctor sa kasalukuyang bersyon. Ang tanging umiiral na ending ay ang \"Missing\" na bad ending sa Araw 1; ang mga ending ni Pierrot, Harlequin, ang Protagonist, at \"All together\" ay ipinapahayag ngunit hindi pa ipinapatupad."
       }
     ]
   },
@@ -204,7 +204,7 @@
           "makata",
           "Mapanganib"
         ],
-        "routeTip": "Pumili ng introspective at empathetic na diyalogo sa Day 1. Iwasan ang pagsuway sa Day 2 para ma-unlock ang Good Ending."
+        "routeTip": "Isang romance na binalak. Nakasulat ay nang developing pa — walang pampublikong trigger conditions sa ngayon."
       },
       {
         "id": "harlequin",
@@ -217,46 +217,46 @@
           "protektibo",
           "may patong"
         ],
-        "routeTip": "Piliin ang pulang lobo sa Araw 1. Gumamit ng matapang at masiglang mga tugon sa mga tent encounters."
+        "routeTip": "Isang romance na binalak. Nakasulat ay nang developing pa — walang pampublikong trigger conditions sa ngayon."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "Ang Trickster",
-        "description": "Umiiral si Jester sa pagitan ng ibang mga artista, hindi ganap na tapat o ganap na antagonistic. Tinutuklas ng kanyang ruta ang etika ng libangan at kung ano ang ibig sabihin ng pagpapatawa sa iba.",
+        "description": "Nasa pagitan ng mga iba ang Jester, ni tapat sa lahat ni antagonistic sa lahat. Inuutos niya ang circo higit sa gitnang rivalry at itinatago niya ang mas malaking layunin. Ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
         "traits": [
           "malabo",
           "mabilis mag-isip",
           "malungkot",
           "Pagkalkula"
         ],
-        "routeTip": "Nagbubukas ang ruta ng Jester sa Ikalawang Araw. Sumagot ng may humor pero iwasan ang direktang komprontasyon."
+        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Jester; bahagi siya ng mas malaking cast."
       },
       {
         "id": "ticket-taker",
         "name": "Tagakuha ng Tiket",
         "role": "Ang Tagapangalaga ng Tarangkahan",
-        "description": "Ang unang karakter na makikilala mo. Kinokontrol ng Ticket Taker kung sino ang papasok at lalabas, at mas matagal na niyang pinapanood ang lahat sa sirkus na ito kaysa sa inaakala ng iba.",
+        "description": "Ang unang karakter na makikita mo. Ang Ticket Taker ang nagpapasyok kung sino ang makakapasok at sino ang makalalabas, at matagal nang nakamasid sa lahat ng nangyayari sa circo na ito. Ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
         "traits": [
           "mapagmasid",
           "misteryoso",
           "Stern",
           "Sinauna"
         ],
-        "routeTip": "Direktang makipag-ugnayan sa bawat tanong na tinatanong ng Ticket Taker. Ang kanyang ruta ay nangangailangan ng pagtitiyaga."
+        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Ticket Taker."
       },
       {
         "id": "doctor",
         "name": "Doktor",
         "role": "Ang Siruhano ng mga Lihim",
-        "description": "Ang ruta ng The Doctor ang pinakabagong pinalawak at naglalaman ng ilan sa pinakamadilim na nilalaman ng laro. Siya ay maingat, malapit, at labis na nakakabagabag.",
+        "description": "Nagdagdag ang Doctor ng mas malamig at klinikal na tono sa circo. methodical at nakababahala siya, at ipin introduce siya ng kasalukuyang bersyon nang hindi nagbubukas ng sariling ruta.",
         "traits": [
           "Klinikal",
           "malapit",
           "Pagkontrol",
           "Kompleks"
         ],
-        "routeTip": "Ang nilalaman ng The Doctor ay halos nakatuon lamang sa Ikalawang Araw. Tanggapin ang mga eksena ng pagsusuri para umusad sa ruta."
+        "routeTip": "Ipin introduce sa bersyong 0.2. Kinukumpirma ng developer na walang ruta para sa Doctor."
       }
     ],
     "pierrot": {

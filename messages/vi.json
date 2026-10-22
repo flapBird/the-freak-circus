@@ -115,7 +115,7 @@
       "Không nên tải lại bản lưu trong lần chơi đầu tiên. Các quyết định tự nhiên của bạn dẫn đến trải nghiệm ý nghĩa nhất.",
       "Chơi ít nhất hai lần — lần chơi thứ hai sẽ tiết lộ đối thoại và cảnh bạn bỏ lỡ lần đầu.",
       "Chú ý đặc biệt đến Người Bán Vé. Anh ấy nói nhiều hơn những gì thoạt nhìn có vẻ nói trong suốt câu chuyện.",
-      "Mỗi tuyến nhân vật có một Kết Thúc Tốt và ít nhất một Kết Thúc Xấu. Điều kiện cụ thể — hãy tham khảo hướng dẫn sau lần chơi đầu tiên.",
+      "Trong bản hiện tại chỉ có một kết cục chơi được, và đó là kết cục xấu. Các kết cục của Pierrot, Harlequin, Nhân vật chính và \"All together\" đã được công bố nhưng vẫn đang phát triển, nên hãy kỳ vọng các nhánh còn chưa hoàn thiện.",
       "Sử dụng hệ thống lưu tại các điểm quyết định quan trọng để khám phá các con đường khác mà không mất tiến trình."
     ],
     "whyPlayTitle": "Tại sao nên chơi?",
@@ -162,8 +162,8 @@
     "triviaTitle": "Thông tin thú vị & sự thú vị về nhân vật",
     "trivia": [
       {
-        "q": "Pierrot trong The Freak Circus cao bao nhiêu?",
-        "a": "Chiều cao chính thức của Pierrot chưa được nhà phát triển tiết lộ. Ước tính của fan dựa trên so sánh sprite trong game cho thấy anh ấy có vóc dáng trung bình đến cao. Kiểm tra trang ký tự <a href=\"/en/characters/pierrot\">Pierrot</a> để biết thêm chi tiết."
+        "q": "Pierrot cao bao nhiêu trong The Freak Circus?",
+        "a": "Pierrot cao 198 cm, khoảng 6 feet 5,95 inch, theo bảng chiều cao do nhà phát triển công bố. Ông ấy cũng xếp thứ 3 trong số 5 người theo thứ tự tuổi chính thức, từ lớn đến nhỏ. Xem <a href=\"/characters/heights\">trang chiều cao và xếp hạng</a>."
       },
       {
         "q": "Pierrot có phải là kiểu yandere không?",
@@ -178,12 +178,12 @@
         "a": "Quá khứ của Columbina được cố ý giữ mơ hồ và được tiết lộ qua các đoạn Pierrot và Harlequin. Cô chỉ xuất hiện trong các đoạn hồi tưởng và đóng vai trò trung tâm trong việc hiểu về lịch sử ẩn giấu của rạp xiếc. Đọc trang lore <a href=\"/en/characters/columbina\">Columbina </a> để biết những gì đã biết."
       },
       {
-        "q": "Bạn có thể tán tỉnh The Ticket Taker không?",
-        "a": "Đúng vậy. The Ticket Taker có một tuyến truyện có thể lãng mạn trong The Freak Circus. Con đường của ông đòi hỏi sự kiên trì và chú ý kỹ lưỡng đến đối thoại. Ông tiết lộ những truyền thuyết sâu sắc nhất về nguồn gốc của rạp xiếc. Xem hướng dẫn tuyến <a href=\"/en/characters/ticket-taker\">Ticket Taker </a> để biết mẹo."
+        "q": "Có thể yêu Người Soát Vé không?",
+        "a": "Không. Nhà phát triển xác nhận không có tuyến của Người Soát Vé — các lựa chọn tuyến là Pierrot, Harlequin, cả hai, hoặc không chọn ai. Việc biến các nhân vật còn lại thành lựa chọn tình cảm được mô tả là một khả năng, không phải lời hứa. Xem <a href=\"/endings\">trang kết cục và tuyến</a>."
       },
       {
-        "q": "The Doctor có kết thúc tốt không?",
-        "a": "Đúng vậy, tuyến Doctor có ít nhất một Kết thúc Tốt. Tuyến Doctor đã được mở rộng với nội dung bổ sung. Chấp nhận các cảnh kiểm tra của anh ta và đưa ra các lựa chọn đối thoại cụ thể để mở khóa kết thúc Clean Hands. Xem trang ký tự <a href=\"/en/characters/the-doctor\">Doctor</a> để biết chi tiết."
+        "q": "Bác Sĩ có kết cục tốt không?",
+        "a": "Không. Bác Sĩ không có tuyến cũng không có kết cục trong bản hiện tại. Kết cục duy nhất tồn tại là kết cục xấu \"Missing\" ở Ngày 1; các kết cục của Pierrot, Harlequin, Nhân vật chính và \"All together\" đã được công bố nhưng chưa được thực hiện."
       }
     ]
   },
@@ -204,7 +204,7 @@
           "Thơ mộng",
           "Nguy hiểm"
         ],
-        "routeTip": "Chọn đối thoại suy tư và đồng cảm vào Ngày 1. Tránh thái độ chống đối vào Ngày 2 để mở khóa Kết Thúc Tốt."
+        "routeTip": "Tuyến tình cảm đang được lên kế hoạch. Kịch bản vẫn đang phát triển — hiện chưa có điều kiện kích hoạt nào được công khai."
       },
       {
         "id": "harlequin",
@@ -217,46 +217,46 @@
           "Bảo vệ",
           "Nhiều lớp"
         ],
-        "routeTip": "Chọn quả bóng màu đỏ vào Ngày 1. Sử dụng phản ứng dũng cảm, vui tươi trong các cuộc gặp gỡ tại rạp xiếc."
+        "routeTip": "Tuyến tình cảm đang được lên kế hoạch. Kịch bản vẫn đang phát triển — hiện chưa có điều kiện kích hoạt nào được công khai."
       },
       {
         "id": "jester",
         "name": "Jester",
         "role": "Kẻ Lừa Gạt",
-        "description": "Jester tồn tại giữa các người biểu diễn khác, không hoàn toàn trung thành cũng không hoàn toàn đối kháng. Lộ trình của anh khám phá đạo đức của việc giải trí và ý nghĩa của việc làm người khác cười.",
+        "description": "Jester nằm giữa những người biểu diễn khác, không hoàn toàn trung thành cũng không hoàn toàn đối địch. Anh ấy mở rộng rạp hưu khúc ra ngoài cuộc đối đầu trung tâm và giữ cho mình một mục đích lớn hơn. Bản hiện tại giới thiệu anh ấy mà chưa mở tuyến riêng.",
         "traits": [
           "Mơ hồ",
           "Nhanh trí",
           "Cô đơn",
           "Tính toán"
         ],
-        "routeTip": "Lộ trình của Jester mở vào Ngày 2. Hãy trả lời bằng sự hài hước nhưng tránh đối đầu trực tiếp."
+        "routeTip": "Đã xuất hiện trong phiên bản 0.2. Nhà phát triển xác nhận không có tuyến của Jester; anh ấy thuộc về dàn nhân vật rộng hơn."
       },
       {
         "id": "ticket-taker",
         "name": "Người Soát Vé",
         "role": "Người Gác Cổng",
-        "description": "Nhân vật đầu tiên bạn gặp. Người Soát Vé kiểm soát ai được vào và ai phải ra, và đã theo dõi mọi việc tại rạp xiếc này lâu hơn mọi người nghĩ.",
+        "description": "Nhân vật đầu tiên bạn gặp. Người Soát Vé kiểm soát ai được vào và ai ra, và đã quan sát mọi thứ ở rạp này từ lâu. Bản hiện tại giới thiệu anh ấy mà chưa mở tuyến riêng.",
         "traits": [
           "Quan sát",
           "Ẩn ý",
           "Nghiêm khắc",
           "Cổ xưa"
         ],
-        "routeTip": "Trả lời trực tiếp mọi câu hỏi của Người Soát Vé. Lộ trình của ông yêu cầu sự kiên trì."
+        "routeTip": "Đã xuất hiện trong phiên bản 0.2. Nhà phát triển xác nhận không có tuyến của Người Soát Vé."
       },
       {
         "id": "doctor",
         "name": "Bác Sĩ",
         "role": "Người Phẫu Thuật Bí Ẩn",
-        "description": "Lộ trình của Bác Sĩ là phần mới được mở rộng nhất và chứa một số nội dung tối nhất trong trò chơi. Ông tỉ mỉ, gần gũi và khiến người ta sâu sắc chấn động.",
+        "description": "Bác Sĩ mang lại một giọng điệu lạnh lùng và mang tính lâm sàng cho rạp. Anh ấy có tính toán và đáng sợ, và bản hiện tại giới thiệu anh ấy mà chưa mở tuyến riêng.",
         "traits": [
           "Lâm sàng",
           "Gần gũi",
           "Kiểm soát",
           "Phức tạp"
         ],
-        "routeTip": "Nội dung của Bác Sĩ chủ yếu diễn ra vào Ngày 2. Chấp nhận các cảnh khám của ông để tiến triển lộ trình."
+        "routeTip": "Đã xuất hiện trong phiên bản 0.2. Nhà phát triển xác nhận không có tuyến của Bác Sĩ."
       }
     ],
     "pierrot": {

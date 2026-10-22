@@ -2,6 +2,7 @@ import SafeImage from '@/components/SafeImage';
 import { COMMUNITY_POSTS } from '@/data/community-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 type PageProps = {
   params: { locale: string };
@@ -15,6 +16,8 @@ export function generateMetadata({ params: { locale } }: PageProps) {
       ? '关注 The Freak Circus 官方开发周报、角色 AMA 问答、粉丝创作与社区动态，了解 Day 3 和马戏团成员的最新消息。'
       : 'Follow The Freak Circus official development updates, character AMA answers, fan creations, and community news about Day 3 and the circus cast.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/community`,
+    availableLocales: CORE_LOCALES.community,
+    locale,
   });
 }
 

@@ -4,6 +4,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 import { COMMUNITY_LAST_CHECKED } from '@/data/community-posts';
 import { DAY_3_POSTS, LATEST_DAY_3_UPDATE, formatUpdateDate } from '@/lib/day3-updates';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string } };
 
@@ -73,7 +74,10 @@ export function generateMetadata({ params: { locale } }: Props) {
       ? '查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。'
       : 'Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/day-3`,
-  });
+    availableLocales: CORE_LOCALES["day-3"],
+    locale,
+  },
+  );
 }
 
 export default function DayThreePage({ params: { locale } }: Props) {
@@ -202,6 +206,10 @@ export default function DayThreePage({ params: { locale } }: Props) {
             <div className="reference-card">
               <h2>{c.continueTitle}</h2>
               <div className="blog-related-list">
+                <Link href={`${p}/endings`}><span>{c.endingsLink}</span><small>→</small></Link>
+                <Link href={`${p}/characters/heights`}><span>{c.heightsLink}</span><small>→</small></Link>
+                <Link href={`${p}/save`}><span>{c.saveLink}</span><small>→</small></Link>
+                <Link href={`${p}/faq`}><span>{c.faqLink}</span><small>→</small></Link>
                 <Link href={`${p}/updates`}><span>{c.updatesLink}</span><small>→</small></Link>
                 <Link href={`${p}/wiki`}><span>{c.wikiLink}</span><small>→</small></Link>
                 <Link href={`${p}/download`}><span>{c.downloadLink}</span><small>→</small></Link>
@@ -241,7 +249,7 @@ const copyEn = {
     { q: 'Can I download The Freak Circus Day 3?', a: 'There is currently no separate public Day 3 download. This page will only link to an official public build when one actually exists.' },
     { q: 'Is Day 3 still being developed?', a: 'Yes. Recent official development updates show that work on the next in-game day is continuing.' },
   ],
-  updatesLink: 'Updates timeline', wikiLink: 'Version 0.2 Wiki', downloadLink: 'Official download guide',
+  updatesLink: 'Updates timeline', wikiLink: 'Version 0.2 Wiki', downloadLink: 'Official download guide', endingsLink: 'Endings and routes', heightsLink: 'Heights and age order', saveLink: 'Saving and resuming', faqLink: 'Frequently asked questions',
   snapshot: 'STATUS SNAPSHOT', inDevelopment: 'In Development', releaseDateLabel: 'RELEASE DATE', notAnnounced: 'Not Announced', currentBuildLabel: 'CURRENT BUILD', lastCheckedLabel: 'LAST CHECKED',
   latestUpdateLabel: 'LATEST UPDATE', sidebarUpdateTitle: LATEST_DAY_3_UPDATE.day3.headline.en, sidebarUpdateText: LATEST_DAY_3_UPDATE.summary.en, continueTitle: 'Continue on this site',
 };
@@ -273,7 +281,7 @@ const copyZh: typeof copyEn = {
     { q: '可以下载 The Freak Circus Day 3 吗？', a: '目前没有单独公开的 Day 3 下载。只有官方公开版本实际存在时，本页才会提供对应链接。' },
     { q: 'Day 3 还在开发吗？', a: '是的。近期官方开发更新显示，下一个游戏日的制作仍在继续。' },
   ],
-  updatesLink: '站内更新记录', wikiLink: 'Version 0.2 Wiki', downloadLink: '官方下载指南',
+  updatesLink: '站内更新记录', wikiLink: 'Version 0.2 Wiki', downloadLink: '官方下载指南', endingsLink: '结局与路线', heightsLink: '身高与年龄顺序', saveLink: '存档与继续', faqLink: '常见问题',
   snapshot: '状态速览', inDevelopment: '正在开发', releaseDateLabel: '发布日期', notAnnounced: '尚未公布', currentBuildLabel: '当前版本', lastCheckedLabel: '最后核验',
   latestUpdateLabel: '最新更新', sidebarUpdateTitle: LATEST_DAY_3_UPDATE.day3.headline.zh, sidebarUpdateText: LATEST_DAY_3_UPDATE.summary.zh, continueTitle: '继续浏览站内内容',
 };

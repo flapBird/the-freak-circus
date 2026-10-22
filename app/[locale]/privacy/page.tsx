@@ -1,9 +1,13 @@
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 隐私政策' : 'The Freak Circus Privacy Policy', description: zh ? '阅读访问 The Freak Circus 角色、剧情、下载、社区与更新页面时适用的隐私政策。' : 'Read the privacy policy for visitors exploring The Freak Circus characters, story, downloads, community, and game updates.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/privacy` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 隐私政策' : 'The Freak Circus Privacy Policy', description: zh ? '阅读访问 The Freak Circus 角色、剧情、下载、社区与更新页面时适用的隐私政策。' : 'Read the privacy policy for visitors exploring The Freak Circus characters, story, downloads, community, and game updates.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/privacy` ,
+    availableLocales: CORE_LOCALES.privacy,
+    locale,
+  });
 }
 
 export default function PrivacyPage({ params: { locale } }: { params: { locale: string } }) {

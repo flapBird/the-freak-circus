@@ -2,6 +2,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { getNewsPosts } from '@/lib/news';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_DEVLOG_URL } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string } };
 
@@ -14,6 +15,8 @@ export function generateMetadata({ params: { locale } }: Props) {
       ? '查看 The Freak Circus 的版本公告、开发进度、维护记录与最新游戏动态。'
       : 'Follow The Freak Circus release notes, development progress, maintenance updates, and the latest game news.',
     canonical: `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`,
+    availableLocales: CORE_LOCALES.updates,
+    locale,
   });
 }
 

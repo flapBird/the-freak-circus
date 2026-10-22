@@ -1,9 +1,13 @@
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 联系与内容纠错' : 'The Freak Circus Contact & Content Corrections', description: zh ? '提交与 The Freak Circus 角色、剧情、游戏更新、社区作品和页面内容有关的问题或纠错。' : 'Send questions or corrections about The Freak Circus characters, story, game updates, community creations, and page content.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/contact` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 联系与内容纠错' : 'The Freak Circus Contact & Content Corrections', description: zh ? '提交与 The Freak Circus 角色、剧情、游戏更新、社区作品和页面内容有关的问题或纠错。' : 'Send questions or corrections about The Freak Circus characters, story, game updates, community creations, and page content.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/contact` ,
+    availableLocales: CORE_LOCALES.contact,
+    locale,
+  });
 }
 
 function EmailAddress() { return <span className="contact-address"><span>contact@thefreakcircus</span><span>.help</span></span>; }
