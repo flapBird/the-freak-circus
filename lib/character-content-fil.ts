@@ -78,7 +78,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          'Naglathala rin ang developer ng raw ranking ng pisikal na lakas, at nasa ${ordinal(chartFor('pierrot').strengthRank)} lugar si Pierrot — ahead ng Harlequin at Jester na magkatie sa ikalawa, saka ang Doctor, at sa dulo ang Ticket Taker. Inilathala ang ranking na ito bilang panig ng isang tanong mula sa isang fan at hindi bilang mekanismo ng laro, kaya mas maituturing itong paglalarawan ng karakter: ang pinakamalakas na miyembro ng sirko ay siya ring pinakamahigpit sa sarili.',
+          `Naglathala rin ang developer ng raw ranking ng pisikal na lakas, at nasa ${ordinal(chartFor('pierrot').strengthRank)} lugar si Pierrot — ahead ng Harlequin at Jester na magkatie sa ikalawa, saka ang Doctor, at sa dulo ang Ticket Taker. Inilathala ang ranking na ito bilang panig ng isang tanong mula sa isang fan at hindi bilang mekanismo ng laro, kaya mas maituturing itong paglalarawan ng karakter: ang pinakamalakas na miyembro ng sirko ay siya ring pinakamahigpit sa sarili.`,
         ],
       },
       {
@@ -547,7 +547,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          `Nasa ${ordinal(chartFor('ticket-taker').strengthRank)} lugar sa limang siya sa strength list ng developer, sa ibaba ng Doctor. Kasama ang pagiging pinakababa, ito ang pinakamababa sa presensya sa pisikal na anyo ng kumpanya — na tugma sa isang karakter na ang kanyang awtoridad ay prosedural lamang.`,
+          `Huling siya sa limang sa strength list ng developer — nasa ${ordinal(chartFor('ticket-taker').strengthRank)} antas, sa ibaba ng Doctor. Kasama ang pagiging pinakababa, ito ang pinakamababa sa presensya sa pisikal na anyo ng kumpanya — na tugma sa isang karakter na ang kanyang awtoridad ay prosedural lamang.`,
         ],
       },
       {
@@ -570,7 +570,7 @@ export const characterProfilesFil: Record<
           'Ang Ticket Taker ay napakabuting dokumentado sa materyal na opisyal para sa isang suporting character, lalo na dahil ang sistema ng tiket ay isa sa ilang kakaunting mekanikal na kinukumpirma.',
         ],
         list: [
-          'Kinukumpirma ng developer: ang kanyang taas bilang pinakababa sa limang, ang kanyang unang posisyon sa age order, ang kanyang huling posisyon sa ranking ng lakas, ang pag-iralang ng walong uri ng tiket, at ang katotohanan na wala siyang ruta.',
+          `Kinukumpirma ng developer: ang kanyang taas bilang pinakababa sa limang, ang kanyang ${ordinal(chartFor('ticket-taker').ageOrder)} posisyon sa age order, ang kanyang huling posisyon sa ranking ng lakas, ang pag-iralang ng walong uri ng tiket, at ang katotohanan na wala siyang ruta.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang katotohanan na binibigyan ang protagonist ng pink tiket sa Araw 1.',
           'Mula sa fandom: ang pagkakadisguise bilang "Unknown" ng café, ang epitetong "reality manipulator", at ang mga detalye ng kanyang kasaysayan sa Columbina.',
         ],

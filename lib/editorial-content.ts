@@ -17,6 +17,7 @@ import { guideContentEs } from './topic-content-es';
 import { guideContentPt } from './topic-content-pt';
 import { guideContentVi } from './topic-content-vi';
 import { guideContentId } from './topic-content-id';
+import { guideContentFil } from './topic-content-fil';
 
 import type { CharacterEditorial, CharacterProfile } from './character-content';
 import { characterProfiles, profile } from './character-content';
@@ -35,7 +36,7 @@ const GUIDE_SOURCES: Partial<Record<ResolvedLocale, Record<string, GuidePage>>> 
   pt: guideContentPt,
   vi: guideContentVi,
   id: guideContentId,
-  // Filipino is added once its translation module lands.
+  fil: guideContentFil,
 };
 
 // The English and Chinese records carry the numeric fields as well, so they

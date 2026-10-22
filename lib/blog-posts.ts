@@ -373,7 +373,7 @@ const POSTS_EN: BlogPost[] = [
         <li><strong>Pierrot</strong> — 198 cm, third oldest, strongest. The silent obsession at the centre of the story and the taller of the two romance leads.</li>
         <li><strong>Harlequin</strong> — 187 cm, youngest, tied second for strength. Pierrot's "seductive rival" and the shorter of the two romance leads.</li>
         <li><strong>Jester</strong> — 192 cm, fourth oldest, tied second for strength. The authority figure who makes the circus feel like an institution. No route.</li>
-        <li><strong>Doctor</strong> — 207 cm, second oldest, fourth strongest. The tallest of the five and one of the more clinical presences in the cast. No route.</li>
+        <li><strong>Doctor</strong> — 207 cm, second oldest, third strongest. The tallest of the five and one of the more clinical presences in the cast. No route.</li>
         <li><strong>Ticket Taker</strong> — 183 cm, oldest, weakest. The keeper of the threshold and the character tied most closely to the branching. No route.</li>
       </ul>
       <p>Three facts apply to all five at once. The height chart was published by the developer as a reference used when drawing the sprites, which is why the numbers are canonical. The age order is relative only — no numeric age exists for anyone. And the strength ranking was published as an aside to a fan question, so it reads as characterisation rather than as a stat screen.</p>
@@ -385,7 +385,7 @@ const POSTS_EN: BlogPost[] = [
       <h2>Jester</h2>
       <p>The character most often misdescribed online, usually by giving him a romance route he does not have. He functions as the authority figure of the circus: the fandom wiki calls him the leader and main antagonist, calm and collected rather than volatile, and the fandom also describes him as controlling the "Fools" and referring to humans as strays. Those details are interpretation of his scenes rather than developer statements, but his authority over the other characters is consistent across the build. There is no Jester route and no Jester ending.</p>
       <h2>Doctor</h2>
-      <p>The tallest of the five at 207 cm and only the fourth strongest, which the fandom wiki explains through a preference for wit over brute force. His introduction leans hardest into restraint, examination, and medical-horror imagery, and his composure is described as breaking visibly in a particular emotional register. He has no route and no ending, and the "Clean Hands" ending attributed to him by some older fan pages is not supported by any first-party source.</p>
+      <p>The tallest of the five at 207 cm and only the third strongest, which the fandom wiki explains through a preference for wit over brute force. His introduction leans hardest into restraint, examination, and medical-horror imagery, and his composure is described as breaking visibly in a particular emotional register. He has no route and no ending, and the "Clean Hands" ending attributed to him by some older fan pages is not supported by any first-party source.</p>
       <h2>Ticket Taker</h2>
       <p>Oldest, shortest, and last in the strength ranking — and yet one of the better-documented characters in the official material, because the ticket system is one of the few confirmed mechanics in the game. The developer has confirmed eight ticket types, with pink sitting below the main cast and red and green signalling a choice the protagonist makes. He has no route, and some long-standing fan guides describe a romanceable Ticket Taker route that unlocks through persistence and careful dialogue; no such route exists in the public build.</p>
 
@@ -1096,7 +1096,7 @@ const POSTS_ZH: BlogPost[] = [
         <li><strong>Pierrot</strong>——198 cm，第五人中第三年长，体能第一。故事核心的沉默执念，也是两位恋爱主角中较高的一位。</li>
         <li><strong>Harlequin</strong>——187 cm，最年轻，体能并列第二。Pierrot 的"魅惑型对手"，也是两位恋爱主角中较矮的一位。</li>
         <li><strong>Jester</strong>——192 cm，第四年长，体能并列第二。让马戏团像一个"机构"而非两个对手加背景板的权威人物。没有路线。</li>
-        <li><strong>Doctor</strong>——207 cm，第二年长，体能第四。阵容中最高的一位，也是气质最临床的压迫感来源之一。没有路线。</li>
+        <li><strong>Doctor</strong>——207 cm，第二年长，体能第三。阵容中最高的一位，也是气质最临床的压迫感来源之一。没有路线。</li>
         <li><strong>Ticket Taker</strong>——183 cm，最年长，体力最弱。门槛的守望者，也是与分支结构关系最紧的角色。没有路线。</li>
       </ul>
       <p>有三条事实同时适用于五人：身高表是开发者绘制立绘时的参照，所以数字属于权威数据；年龄顺序只有相对关系，谁都没有具体年龄；力量排名是开发者回答粉丝提问时附带的，因此更适合当作角色性格的一部分，而不是战斗数值界面。</p>
@@ -1108,7 +1108,7 @@ const POSTS_ZH: BlogPost[] = [
       <h2>Jester</h2>
       <p>他是网上被描述得最不准的角色，通常的偏差方向是给他安上一条并不存在的恋爱路线。他承担着马戏团权威人物的功能：同人文库称他是首领与主要反派，沉着冷静而非情绪化；同人文还描述他控制着"愚人（Fools）"、把人类称作走失的动物。这些细节属于对他场景的解读而非开发者声明，但他在其他角色面前的权威感在整个版本中是一致的。他没有 Jester 路线，也没有 Jester 结局。</p>
       <h2>Doctor</h2>
-      <p>207 cm，五人中最高，却只排体能第四；同人文库用"偏好机智而非蛮力"来解释这一点。他的介绍场景在束缚、检查与医疗恐怖意象上最为强烈，而同人文描述他的冷静会在某种情绪状态下明显崩解。他没有路线也没有结局，一些较老的同人页面把 "Clean Hands" 结局归给他，这一点没有任何第一方来源支持。</p>
+      <p>207 cm，五人中最高，却只排体能第三；同人文库用"偏好机智而非蛮力"来解释这一点。他的介绍场景在束缚、检查与医疗恐怖意象上最为强烈，而同人文描述他的冷静会在某种情绪状态下明显崩解。他没有路线也没有结局，一些较老的同人页面把 "Clean Hands" 结局归给他，这一点没有任何第一方来源支持。</p>
       <h2>Ticket Taker</h2>
       <p>最年长、最矮、力量排名最后——却是官方材料中记录相当充分的一位角色之一，因为门票系统是游戏中少数被确认的机制之一。开发者已确认门票共 8 种，粉色低于主要角色层级，红与绿表示由主角做出的选择。他没有路线；而一些流传已久的同人攻略描述了一条"靠坚持与谨慎对话解锁"的 Ticket Taker 恋爱路线——公开版本中并不存在这样的路线。</p>
 
