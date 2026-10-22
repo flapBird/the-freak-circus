@@ -1,0 +1,164 @@
+{
+  "landing": {
+    "schemaDescription": "Hướng dẫn không chính thức, dựa trên nguồn phát hành, về The Freak Circus — một tiểu thuyết hình ảnh kinh dị tâm lý 18+ của Neko Bueno.",
+    "heroSubtitle": "Rạp xiếc đã mở cửa. Chọn xem bạn tin ai.",
+    "heroLead": "The Freak Circus là một tiểu thuyết hình ảnh kinh dị tâm lý 18+ do Pierrot dẫn xuất — một tên hề im lặng khiến tình cảm dần biến thành ám ảnh — và Harlequin, kẻ đối thủ vừa quyến rũ vừa nguy hiểm của anh. Khi Jester, Doctor và Ticket Taker lần lượt bước vào vòng tròn, mỗi cuộc gặp gỡ lại kéo nhân vật chính — người làm việc ở quán cà phê — sâu hơn vào bên trong rạp xiếc.",
+    "playHere": "Chơi ngay tại đây",
+    "learnMore": "Khám phá cốt truyện và dàn nhân vật",
+    "playTitle": "Chơi The Freak Circus ngay",
+    "castTitle": "GẶP GỠ DÀN NHÂN VẬT",
+    "allCharacters": "Tổng quan nhân vật",
+    "whatTitle": "THE FREAK CIRCUS LÀ GÌ?",
+    "whatP1": "The Freak Circus là một tiểu thuyết hình ảnh kinh dị tâm lý 18+ lấy bối cảnh một rạp xiếc nơi tình cảm biến thành nguy hiểm. Một nhân viên quán cà phê tình cờ gặp Pierrot, tên hề im lặng kiểu \"yandere\" (\"yandere\" là kiểu nhân vật ám ảnh, sở hữu tình cảm đối với người mình yêu), rồi bị kéo vào cuộc đối đầu không ngừng leo thang giữa anh và Harlequin quyến rũ.",
+    "whatP2": "Bản nguyên mẫu hiện tại giới thiệu năm diễn viên khác biệt, kết hợp lựa chọn dựa trên nhân vật với những hình ảnh gợi ám, và vẫn để các tuyến cùng kết cục lớn hơn ở trạng thái đang phát triển. Đây là một câu chuyện về ám ảnh, mặt nạ, bí mật, và việc quyết định xem nụ cười nào đáng để tin.",
+    "meetCast": "Gặp gỡ dàn nhân vật",
+    "whatFeatures": [
+      {
+        "title": "Kinh dị tâm lý",
+        "text": "Tình yêu và nỗi sợ cùng chia sân khấu, khi tình cảm trượt dần sang kiểm soát, thao túng và kinh hoảng."
+      },
+      {
+        "title": "Cốt truyện dựa trên nhân vật",
+        "text": "Pierrot và Harlequin làm trục cho cuộc đối đầu, còn Jester, Doctor và Ticket Taker làm sâu thêm bí ẩn của rạp xiếc."
+      },
+      {
+        "title": "Những lựa chọn có ý nghĩa",
+        "text": "Lời thoại và quyết định tuyến thay đổi các cuộc gặp gỡ, mở khóa cảnh cảnh, và định hình những kết quả có thể đạt được trong bản build hiện tại."
+      },
+      {
+        "title": "Không khí rạp xiếc tối tăm",
+        "text": "Tranh vẽ nhân vật nguyên bản, lều trình diễn, các cảnh động và không khí hội chợ đầy u ám tạo nên trải nghiệm đặc trưng."
+      }
+    ],
+    "howTitle": "CÁCH CHƠI",
+    "howSteps": [
+      {
+        "title": "Khởi chạy trình phát",
+        "text": "Dùng trình phát trên trình duyệt ở đầu trang này và nhấn nút bắt đầu khi bạn đã sẵn sàng bước vào rạp xiếc."
+      },
+      {
+        "title": "Thiết lập tuỳ chọn",
+        "text": "Mở phần tuỳ chọn trong game để chọn ngôn ngữ hiện có, điều chỉnh âm thanh và đặt tốc độ chữ trước khi bắt đầu."
+      },
+      {
+        "title": "Lựa chọn và lưu game",
+        "text": "Đọc từng cảnh, đưa ra quyết định tuyến, và dùng menu Save/Load trong game trước những lựa chọn bạn có thể muốn xem lại."
+      },
+      {
+        "title": "Tiếp tục an toàn",
+        "text": "Giữ nguyên dữ liệu trình duyệt nếu bạn dùng bản lưu trên trình duyệt, hoặc dùng trang tải xuống chính thức cho bản máy tính và Android được hỗ trợ."
+      }
+    ],
+    "howCta": "Bắt đầu chơi",
+    "guidesTitle": "HƯỚNG DẪN THỰC HÀNH",
+    "guidesLead": "Câu trả lời trực tiếp cho những câu hỏi người chơi tìm kiếm nhiều nhất, mỗi câu đều được đối chiếu với chính những nguồn mà nhà phát triển đã công bố.",
+    "updateTitle": "CẬP NHẬT MỚI NHẤT",
+    "allUpdates": "Xem tất cả cập nhật",
+    "readUpdate": "Đọc toàn bộ cập nhật",
+    "faqTitle": "Câu hỏi thường gặp",
+    "reviewsTitle": "NGƯỜI CHƠI NÓI GÌ",
+    "faq": [
+      {
+        "q": "The Freak Circus là gì?",
+        "a": "The Freak Circus là một tiểu thuyết hình ảnh kinh dị tâm lý 18+ do Neko Bueno sáng tạo và Garula phát hành. Cốt truyện hiện tại xoay quanh một nhân viên quán cà phê, Pierrot và Harlequin."
+      },
+      {
+        "q": "The Freak Circus đã hoàn thành chưa?",
+        "a": "Chưa. Trang itch.io chính thức ghi rõ đây là một bản nguyên mẫu và phần kịch bản cùng kết cục còn lại vẫn đang được phát triển."
+      },
+      {
+        "q": "Tôi nên chơi hoặc tải ở đâu?",
+        "a": "Hãy dùng trang itch.io chính thức của Garula. Hướng dẫn này không lưu trữ cũng không phát tán lại các tệp trò chơi."
+      },
+      {
+        "q": "Day 3 đã có chưa?",
+        "a": "Nhà phát triển đang làm chương tiếp theo, nhưng chưa có ngày phát hành nào được công bố trên các nguồn chính thức mà chúng tôi theo dõi."
+      },
+      {
+        "q": "Những nhân vật nào xuất hiện trong bản build hiện tại?",
+        "a": "Bản nguyên mẫu hiện tại giới thiệu Pierrot, Harlequin, Jester, Doctor và Ticket Taker. Columbina cũng được nhắc đến trong ghi chú bảo trì chính thức."
+      },
+      {
+        "q": "Mọi nhân vật đều có tuyến hoàn chỉnh chứ?",
+        "a": "Không. Trang chính thức nêu tên các kết cục dự kiến của Pierrot, Harlequin và nhân vật chính, đồng thời xác nhận phần kịch bản và kết cục còn lại vẫn đang được phát triển."
+      },
+      {
+        "q": "Những ngôn ngữ nào là chính thức?",
+        "a": "Trang chính thức hiện liệt kê tiếng Anh, tiếng Bồ Đào Nha Brazil và tiếng Trung."
+      },
+      {
+        "q": "Những nền tảng nào được hỗ trợ?",
+        "a": "Trang chính thức hiện liệt kê chơi trên trình duyệt HTML5, Windows, macOS, Linux và Android."
+      },
+      {
+        "q": "The Freak Circus có phù hợp với người chơi nhỏ tuổi không?",
+        "a": "Không. Nhà phát triển xếp hạng game 18+ và liệt kê các chủ đề tối tăm như máu me, cái chết, bắt cóc, ăn thịt người, sử dụng ma túy không đồng ý, chế ngự thân thể, cùng quấy rối thể chất nhẹ và tiếp xúc cơ thể không đồng ý."
+      },
+      {
+        "q": "Tôi có thể theo dõi cập nhật game đáng tin ở đâu?",
+        "a": "Hãy dùng devlog itch.io của nhà phát triển và Tumblr chính thức. Mục Cập nhật của trang này liên kết phần tóm tắt trở lại đúng những bài đăng gốc đó."
+      },
+      {
+        "q": "Trang web này có gì?",
+        "a": "Trang cung cấp trình phát trong trang, hồ sơ nhân vật, một Wiki dựa trên nguồn gốc, trạng thái Day 3, hướng dẫn tải xuống chính thức, tóm tắt cập nhật, và fan art từ cộng đồng."
+      },
+      {
+        "q": "Đây có phải là trang web chính thức không?",
+        "a": "Không. Đây là một hướng dẫn độc lập của fan, và mọi mục đều dẫn ngược về nguồn chính thức của nhà phát triển."
+      }
+    ],
+    "characters": {
+      "pierrot": "Một tên hề đầy buồn, giấu những tình cảm sâu sắc dưới nụ cười đã vẽ. Câu chuyện của anh xoay quanh tình yêu, sự mất mát, và gánh nặng của những bí mật được giữ quá lâu.",
+      "harlequin": "Một tên đùa cổ tích vui vẻ, vẻ ngoài nhẹ nhàng giấu đi một tâm hồn phức tạp hơn nhiều. Mối gắn bó với Pierrot nằm ở trung tâm câu chuyện.",
+      "jester": "Người kể chuyện và nhân chứng thầm lặng của rạp xiếc, hé lộ truyền thuyết bi tráng về Columbina qua những buổi múa rối phơi bày những sự thật tối tăm nhất của buổi biểu diễn.",
+      "the-doctor": "Một bác sĩ dịch hạch tiến hành những thí nghiệm đáng sợ bên trong Cyan Tent, nghiên cứu chính nỗi sợ hãi và soi mò vùng tối hơn của đạo đức y khoa.",
+      "ticket-taker": "Một kẻ thao túng hiện thực, đứng trước Tent of Mirrors, dùng những hình phản chiếu méo mó để lột trần mặt thật của từng quái vật."
+    },
+    "guideCards": [
+      {
+        "href": "/endings",
+        "title": "Các kết cục và tuyến truyện",
+        "text": "Kết cục duy nhất bạn có thể đạt được hiện tại và bốn kết cục vẫn đang được phát triển.",
+        "cta": "Xem hướng dẫn các kết cục"
+      },
+      {
+        "href": "/characters/heights",
+        "title": "Chiều cao và thứ tự tuổi",
+        "text": "Bảng chiều cao, thứ tự tuổi và bảng xếp hạng sức mạnh do nhà phát triển công bố.",
+        "cta": "Xem toàn bộ bảng"
+      },
+      {
+        "href": "/save",
+        "title": "Lưu game và chơi tiếp",
+        "text": "Những gì engine thực sự hỗ trợ và những chi tiết về save chưa từng được tài liệu hóa.",
+        "cta": "Xem hướng dẫn lưu game"
+      },
+      {
+        "href": "/faq",
+        "title": "Câu hỏi thường gặp",
+        "text": "Câu trả lời ngắn về cách chơi, tải xuống, các kết cục và nhân vật.",
+        "cta": "Đọc phần câu hỏi thường gặp"
+      }
+    ],
+    "storyLink": "Câu chuyện của {name}",
+    "adLabel": "Quảng cáo"
+  },
+  "siteFooter": {
+    "note": "Khám phá một thế giới rạp xiếc rùng rợn, được tạo nên bởi ám ảnh, thao túng và cạnh tranh, nơi Pierrot và Harlequin kéo bạn vào một trải nghiệm tiểu thuyết hình ảnh đầy ám ảnh.",
+    "features": "Khám phá trang web",
+    "siteInfo": "Thông tin trang web",
+    "play": "Trang chủ",
+    "characters": "Nhân vật",
+    "download": "Tải xuống",
+    "updates": "Cập nhật",
+    "fanArt": "Fan art",
+    "community": "Cộng đồng",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "shareX": "Chia sẻ thefreakcircus.help trên X",
+    "shareFacebook": "Chia sẻ thefreakcircus.help trên Facebook",
+    "bottom": "Đây là một trang web không chính thức do fan tạo ra, chỉ mang mục đích cung cấp thông tin. Trang không có bất kỳ liên kết chính thức nào với những người sáng tạo hay nhà phát hành ban đầu. Không có tệp trò chơi nào được lưu trữ tại đây. Mọi nhãn hiệu và nội dung có bản quyền đều thuộc về chủ sở hữu tương ứng."
+  }
+}
