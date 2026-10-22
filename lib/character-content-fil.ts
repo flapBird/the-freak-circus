@@ -423,7 +423,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Sino ang Doctor',
         paragraphs: [
-          'Inilalarawan ng fandom wiki ang Doctor bilang pangalawang kontrabida o posibleng neutral na pigura, at nagbibigay sa kanya ng dalawang mukha: kalmado at matino sa isa, mainit at sadistikong sa iba. Nakakatulong ito sa pagbabasa ng kanyang mga eksena, sapagkat inilalarawan ang pagbabago bilang makikita — nagiging pula ang kanyang mga mata kapag may partikular na damdamin ang nakuha sa kanya. Ipinapakita rin ng wiki na mas gusto niya ang talino kaysa sa brutal na lakas, na tugma sa isang karakter na siyang pinakatall at ika-apat lang sa raw na lakas.',
+          'Inilalarawan ng fandom wiki ang Doctor bilang pangalawang kontrabida o posibleng neutral na pigura, at nagbibigay sa kanya ng dalawang mukha: kalmado at matino sa isa, mainit at sadistikong sa iba. Nakakatulong ito sa pagbabasa ng kanyang mga eksena, sapagkat inilalarawan ang pagbabago bilang makikita — nagiging pula ang kanyang mga mata kapag may partikular na damdamin ang nakuha sa kanya. Ipinapakita rin ng wiki na mas gusto niya ang talino kaysa sa brutal na lakas, na tugma sa isang karakter na siyang pinakatall at pangatlong lang sa raw na lakas.',
           'Siya rin ang karakter na pinakamalamang malalarawan bilang may ruta. Ang ideya ng isang ruta ng Doctor na may "magandang ending" ay umiikot sa ilang lumang gabay, at hindi ito tumutugma sa kahit anong inilarawan ng developer.',
         ],
       },
@@ -438,7 +438,7 @@ export const characterProfilesFil: Record<
         heading: 'Age order at lakas',
         paragraphs: [
           `Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar sa limang si Doctor sa opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Ang Ticket Taker lang ang mas matanda sa kanya.`,
-          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya, sa unahan ng Ticket Taker at sa likuran ng Pierrot, ng Harlequin, at ng Jester. Ang pagiging pinakatall at ika-apat sa lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
+          `Sa ranking ng lakas, nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya, sa unahan ng Ticket Taker at sa likuran ng Pierrot, ng Harlequin, at ng Jester. Ang pagiging pinakatall at pangatlong sa lakas ang kagiliwilang kombinasyon dito: malaki ang Doctor ngunit hindi napakalakas, at eksakto iyon ang inaasahan mula sa deskripsiyon ng mga fan na mas gusto niya ang talino kaysa sa lakas.`,
         ],
       },
       {
@@ -460,7 +460,7 @@ export const characterProfilesFil: Record<
           'May mas maraming materyal na mula sa fandom ang pahinang ng Doctor kumpara sa materyal na opisyal, kumpara sa iba pang karakter sa cast, sa malaking bahagi dahil walang siyang ruta at kaya walang first-party na deskripsiyon ng narrative tungkol dito.',
         ],
         list: [
-          'Kinukumpirma ng developer: ang kanyang taas bilang pinakatall sa limang, ang kanyang ikalawang posisyon sa age order, ang kanyang ika-apat na posisyon sa ranking ng lakas, at ang katotohanan na wala siyang ruta.',
+          `Kinukumpirma ng developer: ang kanyang taas bilang pinakatall sa limang, ang kanyang ikalawang posisyon sa age order, ang kanyang ${ordinal(chartFor('the-doctor').strengthRank)} na posisyon sa ranking ng lakas, at ang katotohanan na wala siyang ruta.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang paraan kung paano nagbubuo ang kanyang kalmaduhan.',
           'Mula sa fandom: ang mga eksperimento at espesimen na iniuugnay sa kanyang tent, ang kanyang personal na kasaysayan, at ang trivia ng karakter tungkol sa kanyang mga kagustuhan.',
         ],
@@ -474,12 +474,12 @@ export const characterProfilesFil: Record<
       {
         question: 'Ang pinakamamatanda ba ang Doctor?',
         answer:
-          'Ika-apat siya mula sa pinakamatanda. Ang opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata, ay Ticket Taker, Doctor, Pierrot, Jester, Harlequin.',
+          'Ikalawa siya mula sa pinakamatanda. Ang opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata, ay Ticket Taker, Doctor, Pierrot, Jester, Harlequin.',
       },
       {
         question: 'Ang pinakamalakas ba ang Doctor?',
         answer:
-          'Wala. Nasa ika-apat na lugar siya sa strength list ng developer, sa likuran ng Pierrot, ng Harlequin, at ng Jester.',
+          `Wala. Nasa ${ordinal(chartFor('the-doctor').strengthRank)} lugar siya sa strength list ng developer, sa likuran ng Pierrot, ng Harlequin, at ng Jester.`,
       },
       {
         question: 'May ruta ba ang Doctor?',
@@ -540,7 +540,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ang pinakamamatanda sa limang',
         paragraphs: [
-          'Ito ang pinakamamatag na dokumentadong katotohanan tungkol sa Ticket Taker. Nangunguna siya sa age order na inilathala ng developer: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Bilang pinakamamatanda ng grupo at ang naglakad ng kaayusan, ang edad niya ay bagay sa kanyang tungkulin sa halip na guluhin ito.',
+          'Ito ang pinakamatiyak na dokumentadong katotohanan tungkol sa Ticket Taker. Nangunguna siya sa age order na inilathala ng developer: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Bilang pinakamamatanda ng grupo at ang nag-iingat ng kaayusan, ang edad niya ay bagay sa kanyang tungkulin sa halip na guluhin ito.',
           'Gaya ng sa bawat karakter, walang numerikong edad na inilathala, at ang kaarawan na umiikot para sa kanya ay iniuugnay ng mga fan.',
         ],
       },
@@ -567,7 +567,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Kinukumpirmang katotohanan laban sa interpretasyon',
         paragraphs: [
-          'Ang Ticket Taker ay hindi karaniwang mabuting dokumentado sa materyal na opisyal para sa isang suporting character, lalo na dahil ang sistema ng tiket ay isa sa ilang kakaunting mekanikal na kinukumpirma.',
+          'Ang Ticket Taker ay napakabuting dokumentado sa materyal na opisyal para sa isang suporting character, lalo na dahil ang sistema ng tiket ay isa sa ilang kakaunting mekanikal na kinukumpirma.',
         ],
         list: [
           'Kinukumpirma ng developer: ang kanyang taas bilang pinakababa sa limang, ang kanyang unang posisyon sa age order, ang kanyang huling posisyon sa ranking ng lakas, ang pag-iralang ng walong uri ng tiket, at ang katotohanan na wala siyang ruta.',
@@ -589,7 +589,7 @@ export const characterProfilesFil: Record<
       {
         question: 'Ang pinakamalakas ba si Ticket Taker?',
         answer:
-          'Wala. Nasa huling lugar sa limang siya sa strength list ng developer.',
+          'Wala. Huling siya sa limang sa strength list ng developer.',
       },
       {
         question: 'Puwede bang makipag-relationship sa Ticket Taker?',

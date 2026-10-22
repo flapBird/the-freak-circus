@@ -24,6 +24,7 @@ import { characterProfilesEs } from './character-content-es';
 import { characterProfilesPt } from './character-content-pt';
 import { characterProfilesVi } from './character-content-vi';
 import { characterProfilesId } from './character-content-id';
+import { characterProfilesFil } from './character-content-fil';
 
 export type ResolvedLocale = 'en' | 'zh' | 'es' | 'pt' | 'vi' | 'id' | 'fil';
 
@@ -51,8 +52,7 @@ const CHARACTER_SOURCES: Record<ResolvedLocale, Record<string, CharacterProfile>
   pt: mergeCharacterLocales(characterProfilesPt),
   vi: mergeCharacterLocales(characterProfilesVi),
   id: mergeCharacterLocales(characterProfilesId),
-  // Filipino is still in translation.
-  fil: undefined,
+  fil: mergeCharacterLocales(characterProfilesFil),
 };
 
 function mergeCharacterLocales(
