@@ -222,5 +222,45 @@
     "shareX": "Chia sẻ thefreakcircus.help trên X",
     "shareFacebook": "Chia sẻ thefreakcircus.help trên Facebook",
     "bottom": "Đây là một trang web không chính thức do fan tạo ra, chỉ mang mục đích cung cấp thông tin. Trang không có bất kỳ liên kết chính thức nào với những người sáng tạo hay nhà phát hành ban đầu. Không có tệp trò chơi nào được lưu trữ tại đây. Mọi nhãn hiệu và nội dung có bản quyền đều thuộc về chủ sở hữu tương ứng."
+  },
+  "guide": {
+    "characterProfiles": "Hồ sơ nhân vật",
+    "readFaq": "Đọc phần câu hỏi thường gặp",
+    "quickFacts": "Thông tin nhanh",
+    "faq": "Câu hỏi thường gặp",
+    "relatedPages": "Các trang liên quan",
+    "continueReading": "Đọc tiếp"
+  },
+  "fanArt": {
+    "kicker": "SÁNG TẠO BỞI CỘNG ĐỒNG",
+    "title": "THƯ VIỆN FAN ART",
+    "viewMore": "Xem thêm tác phẩm",
+    "titleFor": "Fan art của {name}"
+  },
+  "character": {
+    "jointSecond": "Đồng hạng nhì",
+    "backToAll": "Quay lại tất cả nhân vật",
+    "enterStory": "Bước vào câu chuyện",
+    "officialHeight": "Chiều cao chính thức",
+    "ageOrder": "Thứ tự tuổi",
+    "strengthRank": "Xếp hạng sức mạnh",
+    "introduced": "Phiên bản ra mắt",
+    "routeStatus": "Trạng thái tuyến",
+    "planned": "Đã lên kế hoạch, chưa triển khai",
+    "noRoute": "Không có tuyến",
+    "seeHeightChart": "Xem bảng chiều cao và xếp hạng đầy đủ",
+    "boundaryTitle": "Ranh giới tuyến và kết cục",
+    "restOfCircus": "Những người còn lại trong rạp xiếc",
+    "goDeeper": "Tìm hiểu sâu hơn về rạp xiếc",
+    "worldFacts": "Dữ kiện về thế giới và bản build",
+    "endingsRoutes": "Các kết cục và tuyến truyện",
+    "implementedVsPlanned": "Đã triển khai và đang lên kế hoạch",
+    "heightsRankings": "Chiều cao và bảng xếp hạng",
+    "fullChart": "Bảng chính thức đầy đủ",
+    "nextChapter": "Tình trạng chương tiếp theo",
+    "updates": "Cập nhật",
+    "followProgress": "Theo dõi tiến độ đã xác minh",
+    "rank": "Hạng {n}",
+    "agePosition": "tuổi {n} trong 5"
   }
 }

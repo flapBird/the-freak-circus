@@ -222,5 +222,45 @@
     "shareX": "Compartir thefreakcircus.help en X",
     "shareFacebook": "Compartir thefreakcircus.help en Facebook",
     "bottom": "Este es un sitio web no oficial creado por fans con fines informativos. No tiene ninguna relación oficial con los creadores o los editores originales. Aquí no se aloja ningún archivo del juego. Todas las marcas registradas y los contenidos protegidos por derechos de autor pertenecen a sus respectivos titulares."
+  },
+  "guide": {
+    "characterProfiles": "Fichas de personajes",
+    "readFaq": "Leer las preguntas frecuentes",
+    "quickFacts": "Datos clave",
+    "faq": "Preguntas frecuentes",
+    "relatedPages": "Páginas relacionadas",
+    "continueReading": "Seguir leyendo"
+  },
+  "fanArt": {
+    "kicker": "CREADO POR LA COMUNIDAD",
+    "title": "GALERÍA DE ARTE DE FANS",
+    "viewMore": "Ver más obras",
+    "titleFor": "Arte de fans de {name}"
+  },
+  "character": {
+    "jointSecond": "Segundo empatado",
+    "backToAll": "Volver a todos los personajes",
+    "enterStory": "Entrar en la historia",
+    "officialHeight": "Altura oficial",
+    "ageOrder": "Orden de edad",
+    "strengthRank": "Ranking de fuerza",
+    "introduced": "Versión de debut",
+    "routeStatus": "Estado de la ruta",
+    "planned": "Planeada, no implementada",
+    "noRoute": "Sin ruta",
+    "seeHeightChart": "Ver la tabla completa de alturas y rankings",
+    "boundaryTitle": "Límite de rutas y finales",
+    "restOfCircus": "El resto del circo",
+    "goDeeper": "Profundiza en el circo",
+    "worldFacts": "Datos del mundo y de la versión",
+    "endingsRoutes": "Finales y rutas",
+    "implementedVsPlanned": "Implementado vs. planeado",
+    "heightsRankings": "Alturas y rankings",
+    "fullChart": "La tabla oficial completa",
+    "nextChapter": "Estado del próximo capítulo",
+    "updates": "Actualizaciones",
+    "followProgress": "Sigue el progreso verificado",
+    "rank": "Puesto {n}",
+    "agePosition": "edad {n} de 5"
   }
 }

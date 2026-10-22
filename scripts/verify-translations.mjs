@@ -45,7 +45,7 @@ function paths(value, prefix = '') {
 }
 
 const en = load('en');
-const NAMESPACES = ['landing', 'siteFooter'];
+const NAMESPACES = ['landing', 'siteFooter', 'guide', 'fanArt', 'character'];
 
 let problems = 0;
 const identical = new Map();

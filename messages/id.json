@@ -222,5 +222,45 @@
     "shareX": "Bagikan thefreakcircus.help di X",
     "shareFacebook": "Bagikan thefreakcircus.help di Facebook",
     "bottom": "Ini adalah website tidak resmi yang dibuat oleh fans untuk keperluan informasi, tanpa hubungan resmi apa pun dengan pembuat maupun penerbit aslinya. Tidak ada berkas game yang di-host di sini. Semua merek dagang dan konten berhak cipta adalah milik pemiliknya masing-masing."
+  },
+  "guide": {
+    "characterProfiles": "Profil karakter",
+    "readFaq": "Baca pertanyaan yang sering diajukan",
+    "quickFacts": "Fakta singkat",
+    "faq": "Pertanyaan yang sering diajukan",
+    "relatedPages": "Halaman terkait",
+    "continueReading": "Lanjut membaca"
+  },
+  "fanArt": {
+    "kicker": "DIBUAT OLEH KOMUNITAS",
+    "title": "GALERI FAN ART",
+    "viewMore": "Lihat lebih banyak karya",
+    "titleFor": "Fan Art {name}"
+  },
+  "character": {
+    "jointSecond": "Seri posisi kedua",
+    "backToAll": "Kembali ke semua karakter",
+    "enterStory": "Masuk ke cerita",
+    "officialHeight": "Tinggi resmi",
+    "ageOrder": "Urutan umur",
+    "strengthRank": "Peringkat kekuatan",
+    "introduced": "Versi kemunculan",
+    "routeStatus": "Status rute",
+    "planned": "Direncanakan, belum diterapkan",
+    "noRoute": "Tidak ada rute",
+    "seeHeightChart": "Lihat tabel lengkap tinggi dan peringkat",
+    "boundaryTitle": "Batas rute dan ending",
+    "restOfCircus": "Sisa anggota sirkus",
+    "goDeeper": "Telusuri lebih dalam sirkus",
+    "worldFacts": "Fakta dunia dan build",
+    "endingsRoutes": "Ending dan rute",
+    "implementedVsPlanned": "Diterapkan vs direncanakan",
+    "heightsRankings": "Tinggi dan peringkat",
+    "fullChart": "Tabel resmi lengkap",
+    "nextChapter": "Status bab berikutnya",
+    "updates": "Pembaruan",
+    "followProgress": "Ikuti kemajuan terverifikasi",
+    "rank": "Peringkat {n}",
+    "agePosition": "umur {n} dari 5"
   }
 }

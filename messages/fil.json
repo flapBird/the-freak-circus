@@ -222,5 +222,45 @@
     "shareX": "Ibahagi ang thefreakcircus.help sa X",
     "shareFacebook": "Ibahagi ang thefreakcircus.help sa Facebook",
     "bottom": "Ito ay isang hindi opisyal na website na ginawa ng mga fan para sa layunin ng impormasyon. Wala itong opisyal na koneksyon sa orihinal na mga lumikha o tagapaglabas. Walang game file na nai-host dito. Lahat ng trademark at nilalaman na may karapatang-ari ay pag-aari ng kani-kanilang may-ari."
+  },
+  "guide": {
+    "characterProfiles": "Mga Profile ng Tauhan",
+    "readFaq": "Basahin ang mga madalas itanong",
+    "quickFacts": "Mabilis na datos",
+    "faq": "Mga madalas itanong",
+    "relatedPages": "Mga kaugnay na pahina",
+    "continueReading": "Magpatuloy sa pagbasa"
+  },
+  "fanArt": {
+    "kicker": "GINAWA NG KOMUNIDAD",
+    "title": "FAN ART GALERIYA",
+    "viewMore": "Tingnan ang iba pang art",
+    "titleFor": "Fan Art ni {name}"
+  },
+  "character": {
+    "jointSecond": "Magkasabi sa pangalawa",
+    "backToAll": "Bumalik sa lahat ng tauhan",
+    "enterStory": "Pumasok sa kwento",
+    "officialHeight": "Opisyal na taas",
+    "ageOrder": "Pagkakasunod ng edad",
+    "strengthRank": "Rangking ng lakas",
+    "introduced": "Bersyon ng debut",
+    "routeStatus": "Status ng ruta",
+    "planned": "Plano pa, hindi pa ipinatutupad",
+    "noRoute": "Walang ruta",
+    "seeHeightChart": "Tingnan ang buong talahanayan ng taas at rangking",
+    "boundaryTitle": "Hangganan ng ruta at ending",
+    "restOfCircus": "Ang iba pang tauhan sa sirko",
+    "goDeeper": "Palimin sa sirko",
+    "worldFacts": "Mga katotohanan ng mundo at build",
+    "endingsRoutes": "Mga ending at ruta",
+    "implementedVsPlanned": "Naipatupad vs. planado",
+    "heightsRankings": "Mga taas at rangking",
+    "fullChart": "Ang buong opisyal na talahanayan",
+    "nextChapter": "Kalagayan ng susunod na kabanata",
+    "updates": "Mga update",
+    "followProgress": "Sundan ang beripikadong usad",
+    "rank": "Rangking {n}",
+    "agePosition": "edad {n} sa 5"
   }
 }
