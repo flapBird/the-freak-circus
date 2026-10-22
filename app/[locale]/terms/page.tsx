@@ -1,9 +1,13 @@
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 使用条款' : 'The Freak Circus Terms of Use', description: zh ? '阅读浏览 The Freak Circus 角色、剧情、社区、下载与游戏更新内容时适用的使用条款。' : 'Read the terms that apply when browsing The Freak Circus characters, story, community creations, downloads, and game updates.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/terms` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 使用条款' : 'The Freak Circus Terms of Use', description: zh ? '阅读浏览 The Freak Circus 角色、剧情、社区、下载与游戏更新内容时适用的使用条款。' : 'Read the terms that apply when browsing The Freak Circus characters, story, community creations, downloads, and game updates.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/terms` ,
+    availableLocales: CORE_LOCALES.terms,
+    locale,
+  });
 }
 
 export default function TermsPage({ params: { locale } }: { params: { locale: string } }) {

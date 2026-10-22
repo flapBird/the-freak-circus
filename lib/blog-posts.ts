@@ -213,6 +213,524 @@ const POSTS_EN: BlogPost[] = [
       <p>Keep your current saves, note which build created them, and avoid overwriting the first-playthrough slot. When the next build arrives, read its change notes before assuming old route advice still applies.</p>
     `,
   },
+  {
+    slug: 'pierrot-height-age-order',
+    title: 'Pierrot Height and Age Order in The Freak Circus',
+    description: 'Pierrot is 198 cm tall and third of five in the official age order, oldest first — what the developer published, and what the fandom adds on top.',
+    date: '2026-09-20',
+    tags: ['Pierrot', 'Heights', 'Character facts'],
+    image: '/images/characters/pierrot-1.webp',
+    imageAlt: 'Pierrot, the silent clown at the centre of The Freak Circus',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">Pierrot is 198 cm tall, and in the developer's published age order he is third of five, oldest first. Those two numbers come from the same official material as the rest of the cast chart, and between them they settle most of the argument that circulates online about his size and his age — while leaving two gaps the fandom fills on its own.</p>
+      <div class="walkthrough-note"><strong>What this article is based on</strong><p>Height, age order, and strength ranking come from the developer's published chart and AMA answers. No fan-assigned age, birthday, or estimated number is treated as fact here. Material that comes from the fandom wiki is labelled as fandom-derived rather than official.</p></div>
+
+      <h2>The height: 198 cm</h2>
+      <p>The developer published a height chart alongside the sprite reference used when drawing the cast. Pierrot's entry reads 198 cm, which converts to roughly 6 ft 5.95 in. That places him second tallest of the five introduced characters: nine centimetres below the Doctor at 207 cm, and eleven centimetres above Harlequin at 187 cm.</p>
+      <p>Because the chart existed as a drawing reference rather than as a set of numbers written after the fact, it is the kind of measurement that stays stable. Two things follow from it. The whole introduced cast spans only 24 cm, from the Doctor's 207 down to the Ticket Taker's 183, which is a narrow range and a useful check on fan art that shows one character towering over another. And the eleven-centimetre gap between the two romance leads is real, which is why the fandom wiki treats it as meaningful to how Pierrot and Harlequin are staged against each other.</p>
+      <h2>The age order: third of five, oldest first</h2>
+      <p>A separate AMA answer took a request to order the cast from oldest to youngest and gave a fixed sequence:</p>
+      <ol class="walkthrough-steps">
+        <li><strong>Ticket Taker</strong> — first, the oldest.</li>
+        <li><strong>Doctor</strong></li>
+        <li><strong>Pierrot</strong> — third.</li>
+        <li><strong>Jester</strong></li>
+        <li><strong>Harlequin</strong> — last, the youngest.</li>
+      </ol>
+      <p>Pierrot therefore sits in the middle of the company: older than Jester and Harlequin, younger than the Ticket Taker and the Doctor. In a cast built around a rivalry between the two ends of that list, being third means he is older than the man he competes with and younger than the two figures who hold the circus together.</p>
+      <h3>What "third" does not tell you</h3>
+      <p>It does not give a number, and it does not give a gap. A relative order says only that one character is older than another; two characters can be adjacent in the list and still be far apart in years. No numeric age has ever been published for any of the five, which makes the order the only age information the developer has released. That matters because a specific number is the single most common thing fan sites add to this cast, and those numbers almost never have a source behind them.</p>
+      <div class="walkthrough-tip"><strong>How to check a height or age claim you found elsewhere</strong><p>Ask three questions. Does the source point at the developer's chart, an AMA answer, or an official post? Does it distinguish a published number from an estimate? And does it tell you which build the information describes? A guide that answers all three can be trusted on details; one that answers none is decoration on top of someone else's guess.</p></div>
+
+      <h2>Strength is a separate list</h2>
+      <p>The developer also published a raw physical strength ranking, and it does not follow height. Pierrot is first on it — ahead of Harlequin and Jester, who are tied in second, then the Doctor, then the Ticket Taker last.</p>
+      <p>Pierrot being both the second tallest and the strongest is a deliberate piece of characterisation rather than a coincidence of the chart. The official synopsis calls him "the silent yandere", and a character who is physically dominant and almost entirely silent is a specific kind of threat: the danger is not that he will announce himself, but that he does not have to. The fandom wiki's description of him as gentle and polite on the surface while stalking the protagonist fits that shape, though that particular characterisation is fan-derived.</p>
+
+      <h2>What is confirmed and what is added</h2>
+      <ul>
+        <li><strong>Confirmed by the developer:</strong> his height of 198 cm, his third place in the age order, his first place in the strength ranking, his description as "the silent yandere", and the fact that a Pierrot romance ending is planned.</li>
+        <li><strong>From the current build:</strong> his appearance, his scenes, and the way he reacts to the protagonist across branches.</li>
+        <li><strong>Fandom-derived:</strong> the detailed costume description — white mask with black vertical slits, golden eyes, red-and-black jester cap, red motley coat — the in-fiction reason for his silence, and any specific age or birthday attached to him.</li>
+      </ul>
+      <p>One small point of clarification on the costume and the silence, because both are frequently mis-summarised. The fandom wiki's account is that a rule about not speaking in public was put in place by Jester, whom Pierrot deeply respects. That is a satisfying detail, consistent with how the two characters are written, but it comes from the wiki rather than from the developer. The first-party material stops at the phrase "the silent yandere" and treats the silence as characterisation rather than a missing voice track.</p>
+
+      <h2>Why the numbers are worth caring about at all</h2>
+      <p>Measurements are the part of a cast sheet that is easiest to check and most often gets invented, and this game has had both: a real published chart and a lot of numbers that do not come from it. Knowing that Pierrot is 198 cm and third-oldest means you can spot at a glance when a wiki has quietly swapped in a different figure — and, more usefully, you can read his scenes with an accurate picture. A 198 cm character who is also the strongest of the five behaves differently on screen than a man of average height, and the game's staging of him depends on that being true.</p>
+      <p>For the full picture across the cast, the <a href="/characters/heights">height and ranking guide</a> lists all five characters, and the <a href="/characters/pierrot">Pierrot profile</a> covers his route status and the fandom material in more detail.</p>
+    `,
+  },
+  {
+    slug: 'harlequin-height-age-order',
+    title: 'Harlequin Height and Age Order in The Freak Circus',
+    description: 'Harlequin is 187 cm tall and the youngest of the five introduced characters — the developer’s published numbers, and the fan claims they contradict.',
+    date: '2026-09-24',
+    tags: ['Harlequin', 'Heights', 'Character facts'],
+    image: '/images/characters/harlequin-1.webp',
+    imageAlt: 'Harlequin, Pierrot’s theatrical rival in The Freak Circus',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">Harlequin is 187 cm tall, the shortest of the five introduced characters, and the youngest of the five in the developer's published age order. Both facts are documented. The specific age that circulates for him online usually is not — and in most cases it contradicts the one age statement the developer has actually made.</p>
+      <div class="walkthrough-note"><strong>Scope and sourcing</strong><p>Height, age order, and strength ranking are taken from the developer's published chart and AMA answers. Costume description, personality summaries, and any specific age or birthday come from the fandom wiki and are marked as fandom-derived. This article does not treat an in-fiction estimate as a measurement.</p></div>
+
+      <h2>The height: 187 cm</h2>
+      <p>Harlequin's entry in the developer's height chart reads 187 cm, roughly 6 ft 1.62 in. That makes him the shortest of the five introduced characters, standing 24 cm below the Doctor at 207 cm, 11 cm below Pierrot, 5 cm below Jester, and 4 cm above the Ticket Taker.</p>
+      <p>The interesting part of that number is what it pairs with. Harlequin shares second place in the developer's strength ranking with Jester, behind Pierrot and ahead of the Doctor and the Ticket Taker. The fandom wiki reads that combination — youngest and shortest, but tied for second strongest — as the reason Harlequin is written as quick and physical rather than heavy. That reading is interpretation, but it is interpretation built on two published numbers rather than on a guess.</p>
+      <h2>The age order: last of five</h2>
+      <p>The developer's age order, oldest first, is Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Harlequin is fifth — the youngest of the introduced cast, and the youngest of the two romance leads by two positions.</p>
+      <p>This is a genuinely documented fact and one of the most frequently mangled online. A large amount of fan material assigns Harlequin a specific numeric age, and several of those numbers cannot be reconciled with a published order that places him below a much older Ticket Taker and Doctor and above nobody. The order is the reliable version, and it is also the only version that exists: no numeric age has been published for any character in this game.</p>
+      <div class="walkthrough-tip"><strong>If you want to quote his age, quote the order</strong><p>Write "the youngest of the five introduced characters" rather than a number. It is accurate, it is sourced, and it survives the next update. Numbers assigned to this cast by fan sites have a habit of being contradicted by later AMA answers, which is exactly why the developer publishes an order instead of a number.</p></div>
+
+      <h2>The eleven-centimetre gap</h2>
+      <p>Harlequin is 11 cm shorter than Pierrot, and that difference is large enough to read on screen without being exaggerated. The fandom wiki treats the gap as meaningful to the way the two leads are staged against each other — the silent one filling the frame, the theatrical one moving around it. Whether that was the design intent or a consequence of the sprite reference is not something the developer has stated, so it stays in the fandom column.</p>
+      <p>What is confirmed is simpler: the chart was published by the developer as a reference used when drawing sprites, which is why the numbers are treated as canonical rather than read off artwork. If a piece of fan art draws Harlequin as taller than Pierrot, the art is stylised; the official figures remain 187 and 198.</p>
+
+      <h2>What the official material says about him</h2>
+      <p>Beyond the charts, the developer has said several things about Harlequin directly. The official synopsis calls him Pierrot's "seductive rival" and describes the game as being led by one or the other — the clearest possible framing of a story with two romance routes and no others.</p>
+      <p>One AMA answer is worth quoting carefully because it is easy to misread. Asked about the bites Harlequin leaves while flirting, the answer was that they are not marriage proposals, that the mark leaves no scar, and that marriage and courtship among monsters work differently from how the protagonist would understand them. That small exchange does real work: it establishes that Harlequin's flirtation runs on the circus's own logic, and that the protagonist's frame of reference is not the frame of reference of the people around them.</p>
+      <p>The fandom wiki adds that Harlequin feels safe around the Doctor, that the Doctor is his favourite person in the circus, and that he gets along with the Ticket Taker despite a clash of tastes. It also records an implied link to Columbina's death — that Harlequin killed her to "save" her — which the wiki itself frames as implication rather than statement. The general shape of the circus's history is confirmed in AMA answers; that specific reading of Harlequin's role in it is not first-party.</p>
+
+      <h2>Route status: planned, not playable</h2>
+      <p>A Harlequin romance ending is one of the four conclusions the developer has named, alongside Pierrot's, the Protagonist's, and the combined "All together" ending. None of the four is implemented. The current build contains exactly one ending — the "Missing" bad ending on Day 1 — so there are no trigger conditions to publish and no honest walkthrough to write.</p>
+      <ul>
+        <li><strong>Confirmed:</strong> his height, his last place in the age order, his tie for second in strength, his description as Pierrot's "seductive rival", the clarification that his flirtation bites are not proposals, and that a Harlequin romance ending is planned.</li>
+        <li><strong>From the current build:</strong> his appearance, his scenes, and the fact that some of his appearances vary depending on the story branch, which is confirmed by an official bug note.</li>
+        <li><strong>Fandom-derived:</strong> the mask description — white mask with a green diamond and a green triangle, venom-green eyes, curly black hair with a heart-shaped lock — his personal history, and the specifics of his relationship with Columbina.</li>
+      </ul>
+
+      <h2>Putting the numbers together</h2>
+      <p>Harlequin's official measurements describe a specific character: the youngest, the shortest, and tied for the second strongest of a five-person company, who competes for attention with the second tallest and strongest member of that same company. He is not physically dominant and he is not inexperienced — he is quick, theatrical, and operating from a position where the rivalry is genuinely close. That is a good deal more useful than a made-up age, and it is fully documented.</p>
+      <p>For the whole cast at once, see the <a href="/characters/heights">height and ranking guide</a>; for his route status and relationships, see the <a href="/characters/harlequin">Harlequin profile</a>.</p>
+    `,
+  },
+  {
+    slug: 'the-freak-circus-endings-list',
+    title: 'The Freak Circus Endings: What Exists and What Does Not',
+    description: 'A complete status list of the endings in The Freak Circus — one implemented bad ending, four planned conclusions, and the routes that do not exist.',
+    date: '2026-09-28',
+    tags: ['Endings', 'Routes', 'Version 0.2'],
+    image: '/images/home/characters.webp',
+    imageAlt: 'The Freak Circus cast assembled around the protagonist',
+    readingTime: '9 min read',
+    content: `
+      <p class="article-lede">The Freak Circus has one playable ending today, and four more that the developer has named but not yet written into a build. Almost every "all endings" chart on the internet collapses those two categories together, which is why the same question gets four different answers. Here is the list with the status of each entry stated plainly.</p>
+      <div class="walkthrough-note"><strong>Scope of this list</strong><p>This covers the public version 0.2 prototype and the developer's own published statements about planned work. It contains story spoilers for the one ending that exists. No fan-theorised or fan-named conclusion is listed as an ending, because no such thing exists as an ending until the developer ships it.</p></div>
+
+      <h2>The short version</h2>
+      <ul>
+        <li><strong>Playable now: 1.</strong> The "Missing" ending — a bad ending on Day 1.</li>
+        <li><strong>Announced as planned: 4.</strong> Pierrot (romance), Harlequin (romance), Protagonist (no romance), and "All together" (poly).</li>
+        <li><strong>Route options confirmed: 4.</strong> Pierrot, Harlequin, both of them, or neither of them.</li>
+        <li><strong>Routes that do not exist: Jester, Ticket Taker, Doctor.</strong></li>
+        <li><strong>Official total number of endings: none published.</strong> The developer has said multiple endings are planned but cannot give a count.</li>
+      </ul>
+
+      <h2>The one ending that exists</h2>
+      <p>Version 0.2 contains a single ending, and it is a bad one. It is reached on Day 1, and the condition is deliberately simple: if the protagonist does nothing while Pierrot is being mocked by a man in front of a crowd, the protagonist is handed a pink ticket by an unknown figure, taken to the pink tent, and refused entry by every member of the circus. The game states plainly that the protagonist failed to catch Pierrot's attention and met a tragic end.</p>
+      <p>That is a real ending with real consequences, not a placeholder — and it is the entire content of the ending category in the current build. It is also, structurally, the game's argument in miniature: a protagonist who does not engage with the central conflict is quietly removed from it.</p>
+      <div class="walkthrough-tip"><strong>Record it rather than avoiding it</strong><p>The "Missing" ending is the only outcome the build officially offers, so reaching it completes the current prototype rather than ruining it. If a guide tells you to reload and never see it, it is treating the ending as something to protect rather than something that exists.</p></div>
+
+      <h2>The four planned endings</h2>
+      <p>The developer lists four conclusions on the official page and in the official FAQ. Two are romance endings, one is explicitly romance-free, and one is a poly ending.</p>
+      <ul>
+        <li><strong>Pierrot's ending (romance)</strong> — the protagonist ends with Pierrot. Listed as planned work and repeatedly described as still in development.</li>
+        <li><strong>Harlequin's ending (romance)</strong> — the protagonist ends with Harlequin. The script for it is not finished.</li>
+        <li><strong>Protagonist's ending (no romance)</strong> — the protagonist ends the story without a romance. The developer has confirmed this route exists as a concept and that friendships can still be chosen alongside it.</li>
+        <li><strong>"All together" (poly)</strong> — the protagonist falls in love with Pierrot and Harlequin at the same time. A distinct listed conclusion, not a variant of either romance route.</li>
+      </ul>
+      <p>It is important not to convert this list into a number. The developer has been asked directly how many endings the finished game will have and has said that multiple are planned but no figure can be given, because the script is still a work in progress. A page that states "The Freak Circus has five endings" has taken four named planned conclusions plus one implemented one and produced a total the developer has never stated.</p>
+
+      <h2>Which characters can be routed to</h2>
+      <p>The official answer is narrow: Pierrot, Harlequin, both of them, or neither. The Protagonist route is the "neither" option — confirmed to involve no romance, while still allowing you to choose to befriend the cast.</p>
+      <p>There is no route for Jester, Ticket Taker, or Doctor. The developer has said that if more routes are added later, they would most likely arrive as an add-on or DLC, and that this is not decided. Making the remaining characters romance options is described as a possibility rather than a commitment — a distinction that matters, because fan guides frequently describe those routes in the present tense as though they are merely hidden.</p>
+      <p>Two claims that circulate widely do not correspond to anything the developer has described: that the Jester route "unlocks on Day 2", and that the Doctor has a "Clean Hands" ending. The Day 2 update added characters, animated sprites, a redesigned menu, and an Android version — not new routes.</p>
+
+      <h2>Why guides disagree about the count</h2>
+      <p>Different sites answer different questions. Some count only what is playable, some count only what the developer has named, and some count a mixture of planned conclusions and fan theorising. Sorting any claim into three buckets — implemented, planned, or unverified — resolves the disagreement faster than arguing about the number.</p>
+      <p>Two caveats apply to the planned list. The script is still being written, so the set of conclusions can change before any of them ships. And Day 3 is where new conclusions are being written now, which makes the current list a snapshot of an in-progress plan rather than a finished catalogue.</p>
+
+      <h2>What this means for playing</h2>
+      <p>Treat the prototype as the first two days of a three-day story. What is available is an opening arc that establishes the cast, the rivalry, and one failure ending. The route structure exists in the branching; the conclusions do not yet exist in the build. Playing the current version is a way of seeing how the branching works, not a way of completing the game.</p>
+      <p>For the fuller breakdown with sources, see the <a href="/endings">endings and routes guide</a>; for what is still being written, see the <a href="/day-3">Day 3 tracker</a>.</p>
+    `,
+  },
+  {
+    slug: 'five-characters-overview',
+    title: 'The Five Characters of The Freak Circus',
+    description: 'A single-page overview of the five introduced characters — Pierrot, Harlequin, Jester, Doctor and Ticket Taker — with heights, ranks, and route status.',
+    date: '2026-10-01',
+    tags: ['Characters', 'Overview', 'Version 0.2'],
+    image: '/images/characters/jester-1.webp',
+    imageAlt: 'Jester, the authority figure of The Freak Circus',
+    readingTime: '10 min read',
+    content: `
+      <p class="article-lede">Version 0.2 introduces five characters, and all five have their own introduction scenes in the public build. That number is often the source of a second, wrong assumption — that five introduced characters means five available routes. It does not. Two of them have planned romance routes, three have none, and none of the planned endings is playable yet.</p>
+      <div class="walkthrough-note"><strong>How to read this overview</strong><p>Heights, age-order positions, and strength ranks come from the developer's published chart. Route and ending status follow the developer's own statements. Personality and relationship details attributed to the fandom wiki are labelled as such, because most of the interesting detail about this cast comes from story material rather than from developer posts.</p></div>
+
+      <h2>The cast at a glance</h2>
+      <ul>
+        <li><strong>Pierrot</strong> — 198 cm, third oldest, strongest. The silent obsession at the centre of the story and the taller of the two romance leads.</li>
+        <li><strong>Harlequin</strong> — 187 cm, youngest, tied second for strength. Pierrot's "seductive rival" and the shorter of the two romance leads.</li>
+        <li><strong>Jester</strong> — 192 cm, fourth oldest, tied second for strength. The authority figure who makes the circus feel like an institution. No route.</li>
+        <li><strong>Doctor</strong> — 207 cm, second oldest, fourth strongest. The tallest of the five and one of the more clinical presences in the cast. No route.</li>
+        <li><strong>Ticket Taker</strong> — 183 cm, oldest, weakest. The keeper of the threshold and the character tied most closely to the branching. No route.</li>
+      </ul>
+      <p>Three facts apply to all five at once. The height chart was published by the developer as a reference used when drawing the sprites, which is why the numbers are canonical. The age order is relative only — no numeric age exists for anyone. And the strength ranking was published as an aside to a fan question, so it reads as characterisation rather than as a stat screen.</p>
+
+      <h2>Pierrot</h2>
+      <p>The character the game is built around. The official synopsis calls him "the silent yandere" — the developer's own description, and the reason every gesture he makes carries weight in a medium that runs on dialogue. The fandom wiki characterises him as gentle and polite on the surface while stalking the protagonist, and as protective of both the protagonist and Columbina; it also records a developer answer that Pierrot would never abandon the protagonist, emphatically so. A Pierrot romance ending is planned and in development.</p>
+      <h2>Harlequin</h2>
+      <p>Where Pierrot works by constancy, Harlequin works by performance. The official synopsis calls him Pierrot's "seductive rival" and frames the game as led by one or the other. The fandom wiki describes him as carefree, sadistic, teasing, and secretly jealous — and notes that he is uncomfortable with affection, which reframes the rivalry as something he wants as much as Pierrot does. His romance ending is planned and not implemented.</p>
+      <h2>Jester</h2>
+      <p>The character most often misdescribed online, usually by giving him a romance route he does not have. He functions as the authority figure of the circus: the fandom wiki calls him the leader and main antagonist, calm and collected rather than volatile, and the fandom also describes him as controlling the "Fools" and referring to humans as strays. Those details are interpretation of his scenes rather than developer statements, but his authority over the other characters is consistent across the build. There is no Jester route and no Jester ending.</p>
+      <h2>Doctor</h2>
+      <p>The tallest of the five at 207 cm and only the fourth strongest, which the fandom wiki explains through a preference for wit over brute force. His introduction leans hardest into restraint, examination, and medical-horror imagery, and his composure is described as breaking visibly in a particular emotional register. He has no route and no ending, and the "Clean Hands" ending attributed to him by some older fan pages is not supported by any first-party source.</p>
+      <h2>Ticket Taker</h2>
+      <p>Oldest, shortest, and last in the strength ranking — and yet one of the better-documented characters in the official material, because the ticket system is one of the few confirmed mechanics in the game. The developer has confirmed eight ticket types, with pink sitting below the main cast and red and green signalling a choice the protagonist makes. He has no route, and some long-standing fan guides describe a romanceable Ticket Taker route that unlocks through persistence and careful dialogue; no such route exists in the public build.</p>
+
+      <h2>Who can actually be routed to</h2>
+      <p>The confirmed route options are Pierrot, Harlequin, both, or neither. The "neither" option corresponds to the Protagonist's ending, which involves no romance but still allows friendships with the cast. Jester, Ticket Taker, and Doctor have no routes; the developer has described making them romance options as a possibility rather than a commitment, and suggested any such addition would most likely arrive as an add-on or DLC.</p>
+      <div class="walkthrough-tip"><strong>How to use a character profile</strong><p>Read the confirmed section first and the fandom section second. The confirmed items will still be true after the next update; the fandom material is interpretation of the current build and may be revised when more scenes land. Profiles that mix the two without labelling them are the ones worth being careful with.</p></div>
+
+      <h2>What is missing from the cast</h2>
+      <p>Columbina is a former member of the circus whose death shapes the backstory of both leads, but she is not one of the five introduced characters and does not appear in the published height chart. Her design is still in production and the developer has deliberately withheld details. Anyone writing about this cast should treat her as a real part of the story's history and as an unfinished character at the same time.</p>
+      <p>For the full profiles, see the <a href="/characters/pierrot">Pierrot</a>, <a href="/characters/harlequin">Harlequin</a>, <a href="/characters/jester">Jester</a>, <a href="/characters/the-doctor">Doctor</a>, and <a href="/characters/ticket-taker">Ticket Taker</a> pages, plus the <a href="/characters/heights">height and ranking guide</a>.</p>
+    `,
+  },
+  {
+    slug: 'ticket-types-explained',
+    title: 'The Ticket System in The Freak Circus Explained',
+    description: 'The developer has confirmed eight ticket types in The Freak Circus, with pink, red and green carrying specific meanings for the branching.',
+    date: '2026-10-05',
+    tags: ['Tickets', 'Mechanics', 'Branching'],
+    image: '/images/characters/ticket-taker-1.webp',
+    imageAlt: 'Ticket Taker, the character who controls the game’s ticket system',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">Tickets are one of the few systems in The Freak Circus that the developer has explained directly, and the explanation covers more ground than most fan guides admit. The confirmed count is eight ticket types. Pink sits below the main cast, red and green mark a choice the protagonist makes, and a pink-and-red combination means the Ticket Taker takes the red option automatically.</p>
+      <div class="walkthrough-note"><strong>What is documented and what is not</strong><p>The number of ticket types and the meaning of pink, red, and green come from the developer. The complete roster of all eight — the names and colours of the remaining types — has not been published, so this article does not guess at them. The identification of the café figure who hands over a pink ticket as the Ticket Taker in disguise is fandom-derived and is marked as such.</p></div>
+
+      <h2>What the developer has confirmed</h2>
+      <ul>
+        <li><strong>Eight ticket types exist.</strong> This is a count, confirmed directly.</li>
+        <li><strong>Pink sits below the main cast.</strong> It is the tier you receive when you are not being pursued by the performers.</li>
+        <li><strong>Red and green indicate a choice the protagonist makes.</strong> These two colours mark a decision belonging to the player.</li>
+        <li><strong>Pink and red combined means the Ticket Taker takes the red option automatically.</strong> In that case the choice is made for you, by the character who administers the whole system.</li>
+      </ul>
+      <p>That last rule is the most useful one for reading scenes, because it tells you that the game does not simply hand you choices and let you pick freely. Some decisions are made by the circus. A protagonist who fails to act does not get a neutral outcome; they get the circus's outcome.</p>
+
+      <h2>The pink ticket and the one ending that exists</h2>
+      <p>The pink ticket appears in the current build, and it is the object that begins the game's only implemented ending. On Day 1, if the protagonist does nothing while Pierrot is being mocked by a man in front of a crowd, an unknown figure hands the protagonist a pink ticket. The protagonist is taken to the pink tent and refused entry by every member of the circus, and the game states that they failed to catch Pierrot's attention and met a tragic end.</p>
+      <p>The fandom wiki identifies that café figure — the "Unknown" man — as the Ticket Taker in disguise. That identification is fan-derived, but it connects directly to the one ending the build contains, and it explains why the character with no route of his own turns out to matter mechanically.</p>
+      <div class="walkthrough-tip"><strong>Do not treat tickets as collectibles</strong><p>Version 0.2 does not establish a conventional inventory in which tickets are collected to unlock future endings. Tickets here mark standing and choice, not a checklist. If a guide describes a ticket shelf, a ticket counter, or a hidden ticket per ending, it is describing a system the build does not have.</p></div>
+
+      <h2>Why a supporting character holds the branching</h2>
+      <p>The Ticket Taker has no route and no ending, and he is last of five in the strength ranking and the shortest of the cast. In a game whose route options are Pierrot, Harlequin, both, or neither, that would normally make him a background figure. The ticket system is the reason he is not.</p>
+      <p>Think about what a ticket does inside the fiction: it decides who you are allowed to become. A pink ticket puts you below the performers, which is precisely the position the "Missing" ending puts the protagonist in — outside, watched, turned away at the tent door. Red and green mark the choices that belong to the player. And when pink and red combine, the authority figure takes the player's choice away. A character who administers that rule is not a doorman; he is the mechanism by which the circus manages the protagonist.</p>
+      <p>It also fits his characterisation. The fandom wiki describes him as obedient and dedicated to the circus's agenda, mature and professional, preoccupied with cleanliness and organisation, and states his principle plainly: around here, no one breaks character. The system is the character. A performance that runs on tickets needs someone to hand them out.</p>
+
+      <h2>How the colours read in practice</h2>
+      <ul>
+        <li><strong>Pink</strong> — you are in the building but not in the show. This is the tier that ends the only ending currently in the build.</li>
+        <li><strong>Red</strong> — a decision attributed to you, and one the circus can override when it is paired with pink.</li>
+        <li><strong>Green</strong> — a decision attributed to you, without the override.</li>
+        <li><strong>The other five types</strong> — not individually documented. Their count is confirmed; their identities are not public.</li>
+      </ul>
+      <p>It is worth being honest about how little of this is visible yet. Version 0.2 is an introduction-heavy prototype with one ending, and the ticket system is described as a rule set rather than demonstrated in depth. A player in the current build will mostly see pink in practice, plus red and green where a choice is offered. Reading the system as a full branching map goes beyond what the build currently shows.</p>
+
+      <h2>What is confirmed versus what the fandom adds</h2>
+      <ul>
+        <li><strong>Confirmed by the developer:</strong> there are eight ticket types; pink sits below the main cast; red and green indicate a protagonist choice; pink plus red means the Ticket Taker takes the red option automatically; and the Ticket Taker has no route.</li>
+        <li><strong>From the current build:</strong> the protagonist is handed a pink ticket during Day 1, and that ticket leads directly into the "Missing" ending.</li>
+        <li><strong>Fandom-derived:</strong> the café "Unknown" man being the Ticket Taker in disguise, the "reality manipulator" epithet, and the details of his history with Columbina.</li>
+      </ul>
+      <p>For how this connects to the endings, see the <a href="/endings">endings guide</a>; for the character's own profile, see the <a href="/characters/ticket-taker">Ticket Taker page</a>.</p>
+    `,
+  },
+  {
+    slug: 'columbina-what-is-known',
+    title: 'What Is Known About Columbina in The Freak Circus',
+    description: 'Columbina shaped both leads’ backstories, but her design is still in production — what the developer has confirmed about her and what the fandom adds.',
+    date: '2026-10-07',
+    tags: ['Columbina', 'Lore', 'Character facts'],
+    image: '/images/characters/columbina-1.webp',
+    imageAlt: 'Columbina, the former circus member at the centre of both leads’ backstories',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">Columbina is the character everyone recognises and nobody can describe with confidence. Her death shapes the backstory of both romance leads, and the fandom has built a substantial reading of her around that. At the same time, the developer has said her design is still in production and that details are being deliberately withheld. Both of those things are true at once, and this article is about keeping them apart.</p>
+      <div class="walkthrough-note"><strong>Scope of this article</strong><p>This covers what the developer has confirmed, what the fandom wiki records, and where the two conflict. It contains story spoilers about the shared backstory of the two leads. No claim about Columbina is presented as settled unless the developer has stated it.</p></div>
+
+      <h2>What the developer has confirmed</h2>
+      <ul>
+        <li><strong>She is a former member of the circus.</strong> Her history with the company is behind her, not inside it.</li>
+        <li><strong>Her death shapes the backstory of both leads.</strong> Pierrot and Harlequin are both running away from something that involves her.</li>
+        <li><strong>The protagonist is not connected to Columbina.</strong> The developer has confirmed this directly, which is worth stating plainly because fan theories frequently place the protagonist in her story.</li>
+        <li><strong>"Columbina" means "little dove".</strong> The developer has confirmed the meaning of the name.</li>
+        <li><strong>Her design is still in production, and details are being deliberately withheld.</strong> The shape of the character is not finished and the developer has said so.</li>
+        <li><strong>There is no official height for her.</strong> The published height chart covers the five introduced characters, and she is not among them.</li>
+      </ul>
+      <p>That last point connects to a detail in the development updates. A recent official update mentions a new, very short scene that refers to her, and notes that her design is planned so that flashback silhouettes can be kept consistent. In other words, the story is confirming her presence while the character is still being drawn — an unusual position for a fan guide to write about, and the reason this article is deliberately short on characterisation.</p>
+
+      <h2>What the fandom wiki records</h2>
+      <p>The fandom wiki is the source for most of what people say about Columbina, and two of its claims matter enough to name.</p>
+      <p>The first is that she and Pierrot never had a romantic relationship. This contradicts a reading of the circus's own love-story narration and cuts against the assumption that the tragedy at the centre of Pierrot's past was a romance. The developer has separately stated that Pierrot has moved on from that history and has grown since — which suggests the backstory is a source of character rather than a fixed wound.</p>
+      <p>The second is an implied link to Harlequin's role in her death: the wiki records that Harlequin killed her to "save" her, and that Pierrot refused to take part. The wiki frames this as implication rather than statement, and it should be read the same way. The developer has confirmed the general shape of the circus's history in AMA answers, so the story is real; the specific reading of Harlequin's part in it is not first-party confirmed.</p>
+      <div class="walkthrough-note"><strong>Marking fandom material as fandom material</strong><p>"The fandom wiki records that Harlequin killed her to save her" is a different claim from "Harlequin killed her to save her". The first can be checked against a source. The second cannot, because no source states it. Guides that drop the attribution are making an editorial decision the evidence does not support.</p></div>
+
+      <h2>Why the withheld details are deliberate</h2>
+      <p>There is a reason the developer is keeping her specifics back, and it is not an accident of scheduling. A character whose design is unfinished cannot be described in final terms — the height, the costume, and the silhouette are all still being decided, and any guide that states them would be describing an intention rather than a fact. It is also why no official birthday and no official numeric age exist for her, and why the "one confirmed birthday" in this cast belongs to someone else entirely.</p>
+      <p>The practical consequence for a reader is that any page describing Columbina in detail — her appearance, her height, her exact role on the night she died — is describing something that has not been decided yet, whatever its confidence level suggests.</p>
+
+      <h2>Where she appears in the current build</h2>
+      <ul>
+        <li><strong>As backstory.</strong> Both leads' histories circle her, and the current build reveals that history in fragments rather than in a scene.</li>
+        <li><strong>As a name.</strong> Official maintenance notes record that a previously incomplete line surfaced when her name was entered, and a more recent development update describes a new short scene that mentions her.</li>
+        <li><strong>As a silhouette.</strong> The development notes reference flashback silhouettes, which implies that she is visible in the past even while her design is unfinished.</li>
+      </ul>
+      <p>The fact that she is referenced in the build while still being in production is not a contradiction the developer needs to explain. It is how the work is being done, and it is the reason a careful guide can talk about her without describing her.</p>
+
+      <h2>How to talk about Columbina responsibly</h2>
+      <ul>
+        <li>Attribute fandom claims to the fandom, explicitly and every time.</li>
+        <li>Do not publish a height, an age, a birthday, or a costume as fact for her.</li>
+        <li>Do not place the protagonist in her story; the developer has ruled that out.</li>
+        <li>Do read the "never romantic with Pierrot" record as correcting a common misreading, not as adding a new romance.</li>
+        <li>Do treat the "killed her to save her" thread as an implication the fandom draws, not as a confirmed event.</li>
+      </ul>
+      <p>She is the emotional centre of a story about two people who cannot stop competing, and the reason both of them are damaged. That much is safe to say. The rest of the picture will be worth reading when the developer finishes drawing her and releases the details — and this page will be updated then rather than filled in now.</p>
+    `,
+  },
+  {
+    slug: 'day-3-release-status',
+    title: 'The Freak Circus Day 3: Release Status and Verified Progress',
+    description: 'A verified status report on Day 3 in The Freak Circus — what the official development updates confirm, what the beta scope means, and why no date exists.',
+    date: '2026-10-10',
+    tags: ['Day 3', 'Updates', 'Fact check'],
+    image: '/images/community/weekly-update-day3-20261009.jpg',
+    imageAlt: 'An official development update image from the Day 3 build',
+    readingTime: '9 min read',
+    content: `
+      <p class="article-lede">Day 3 is being worked on, is not finished, and has no announced release date. That combination is the entire honest summary. Everything else circulating about Day 3 — months, weekends, countdowns — is inference built on top of development activity, and the developer has explicitly asked that outside date claims not be repeated.</p>
+      <div class="walkthrough-note"><strong>Status at a glance</strong><p>Public build today: version 0.2. Day 3 is in active development. No release date, no month, and no weekend has been announced. The figures quoted below are beta-scope figures, not whole-feature percentages, and the difference matters.</p></div>
+
+      <h2>What the official updates confirm</h2>
+      <p>The developer publishes weekly development updates and AMA answer series on the official Tumblr, and the Day 3 posts there form a reliable record of work in progress. Recent entries describe:</p>
+      <ul>
+        <li><strong>Continued coding with placeholder assets.</strong> Newly coded scenes still use placeholders and work only partially, with transitions, choices, and images to be polished once those scene decisions are settled.</li>
+        <li><strong>A new, very short scene referring to Columbina.</strong> Her character design is planned soon so that flashback silhouettes stay consistent.</li>
+        <li><strong>Beta progress.</strong> An earlier update described one part of the Day 3 beta as finished and put the beta at roughly 30–40% of the full update. A later update described being almost halfway through the content planned for the beta test.</li>
+        <li><strong>A larger script than Day 2</strong>, with additional bad ending content and hidden scenes described.</li>
+        <li><strong>Café scene work in progress</strong>, with some choices and situations needing further revision, and more sketches and possibly new backgrounds still needed.</li>
+        <li><strong>New sprites selected</strong> for Harlequin, Pierrot, and Jester, with revisions and new sprites for Doctor planned when development reaches his scene.</li>
+      </ul>
+      <p>None of that is a release schedule. Writing, artwork, sprites, and programming updates confirm that development is active; they do not mean Day 3 is finished. Day 3 should only be treated as released when a new public build actually appears.</p>
+      <div class="walkthrough-tip"><strong>Read the percentage carefully</strong><p>"30–40% of the full update" and "almost halfway through the planned beta content" describe different scopes. The first measures the whole update; the second measures the smaller slice of content earmarked for the beta. Neither one is a percentage of the finished game, and a beta is itself a milestone rather than a release.</p></div>
+
+      <h2>Why no date is being given</h2>
+      <p>The developer's position is consistent across the official FAQ and the Askbox answers: no release date has been announced, and date claims from outside the official posts should not be repeated. That is a deliberate instruction to the fandom, not an oversight.</p>
+      <p>There is practical context for it. The same period of development has included addressing unauthorised Google Play uploads, and the developer has noted that an official store release would receive its own announcement. A date announced before a build is finished, and before the distribution question is settled, would be a promise that could not be kept.</p>
+
+      <h2>What Day 3 is expected to change</h2>
+      <p>The planned shape of Day 3 is larger than what came before it, and that has direct consequences for what the current build does and does not show.</p>
+      <ul>
+        <li><strong>New bad ending content</strong> is described in the development posts, which means the ending category in the build will grow beyond the single "Missing" ending that exists today.</li>
+        <li><strong>Hidden scenes</strong> are also described, which is a different thing from a route — a hidden scene is content, not a conclusion.</li>
+        <li><strong>More branches.</strong> The script is bigger than Day 2's, and the branching work described includes sections with many choices that need extra testing.</li>
+        <li><strong>Columbina's story.</strong> The new short scene and the flashback silhouette work both point to more of the shared backstory surfacing.</li>
+      </ul>
+      <p>What has not been announced is any of the four planned endings shipping in Day 3. The planned endings remain planned.</p>
+
+      <h2>What is confirmed about the release itself</h2>
+      <p>Some things about how Day 3 will be delivered are settled, even though the date is not.</p>
+      <ul>
+        <li><strong>It will be a public build on the official page.</strong> The developer has confirmed the itch.io page as the only official page, so Day 3 will appear there rather than through a third-party launcher or a separate store front.</li>
+        <li><strong>Platforms are already established.</strong> Version 0.2 exists for browser, Windows, macOS, Linux, and Android, so the same set is the reasonable expectation for Day 3 — though no per-platform release order has been announced.</li>
+        <li><strong>Any official store release would be announced separately.</strong> The developer has noted that a store version would get its own announcement rather than arriving quietly alongside the itch.io update.</li>
+        <li><strong>Unauthorised uploads are being dealt with.</strong> Time went into addressing unauthorised Google Play uploads, which is a distribution problem rather than a development one — but it does mean the route a player takes to an official release is not entirely simple yet.</li>
+      </ul>
+
+      <h2>How to check the current status yourself</h2>
+      <ol class="walkthrough-steps">
+        <li><strong>Open the official itch.io page</strong> and confirm the listed build is still version 0.2.</li>
+        <li><strong>Read the devlog entries in order.</strong> They are dated and they are first-party.</li>
+        <li><strong>Check the official Tumblr</strong> for the most recent weekly update and the AMA answer series.</li>
+        <li><strong>Treat any date you find elsewhere as unverified</strong> unless it appears in one of those places.</li>
+        <li><strong>Ignore countdown pages.</strong> A countdown is a fan estimate with a clock attached.</li>
+      </ol>
+      <p>The developer has confirmed there is no official Discord server, so any server that is not linked from the official itch.io, Tumblr, Patreon, or Bluesky pages should be treated as fan-run or unauthorised. That rule applies to date announcements too: a date quoted in a fan Discord is a fan date.</p>
+
+      <h2>What to do with the current build in the meantime</h2>
+      <p>Keep your saves, note which build created them, and avoid overwriting the first-playthrough slot. When the next build arrives, read its change notes before assuming that version 0.2 route advice still applies. A prototype's branching can be reorganised between builds, and the ending list will change as the script is finished.</p>
+      <p>For the day-by-day record, see the site's <a href="/day-3">Day 3 tracker</a>, and for what the current build already contains, see the <a href="/blog/current-prototype-guide">prototype guide</a>.</p>
+    `,
+  },
+  {
+    slug: 'browser-vs-download',
+    title: 'Browser Version or Download? Which Way to Play The Freak Circus',
+    description: 'A practical comparison of the browser build and the desktop and Android downloads of The Freak Circus, including how saving behaves differently.',
+    date: '2026-10-13',
+    tags: ['Browser', 'Download', 'Setup'],
+    image: '/images/home/about-game.webp',
+    imageAlt: 'The Freak Circus, the only official itch.io page for the game',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">Both versions run the same version 0.2 build of the same story, so the choice is not about content. It is about reliability, setup, and how much of your progress you are willing to trust a browser with. For most players the answer is: browser first, download before you start caring about saves.</p>
+      <div class="walkthrough-note"><strong>Everything comes from one place</strong><p>The developer has stated that the itch.io page is the only official page for the game, and has asked that the game not be re-uploaded or reposted. There is no official Discord server. If a page offers you a "full download" elsewhere, it is unlicensed at best, and the site is not linking it.</p></div>
+
+      <h2>What is available</h2>
+      <ul>
+        <li><strong>Web browser (HTML5)</strong> — runs in the browser through the official itch.io page. No installation.</li>
+        <li><strong>Windows</strong> — PC build, version 0.2.</li>
+        <li><strong>macOS</strong> — Mac build, version 0.2.</li>
+        <li><strong>Linux</strong> — Linux build, version 0.2.</li>
+        <li><strong>Android</strong> — APK build, version 0.2.</li>
+      </ul>
+      <p>All of it is name-your-own-price, so the full build can be downloaded for free and paying is optional support for a developer who has described the project as largely solo work.</p>
+
+      <h2>Choose the browser build when</h2>
+      <p>The browser version is the fastest way to start and the easiest way to read a guide while playing. There is no archive to extract, no platform to match, and nothing to uninstall later. It is also the sensible choice on a shared or temporary machine where you would rather not leave game files behind.</p>
+      <p>Browser play is a maintained path rather than an accident: the developer has documented browser-specific freezes — including one in the Ticket Taker tent and some animated sections — and shipped fixes for them. The known remaining caveat is that skipping some scenes very quickly can leave visual effects out of sync, so give the browser version a little patience when you click through.</p>
+
+      <h2>Choose a download when</h2>
+      <p>The desktop builds are the better choice for repeated playthroughs, and for anyone who plans to keep a first-run save intact. A local install is not subject to browser storage limits, keeps its own copy of the game files, and gives you the full Ren'Py interface with rollback in history — which is the feature that makes branch comparison practical rather than tedious.</p>
+      <div class="walkthrough-tip"><strong>Extract desktop archives fully before launching</strong><p>Desktop packages arrive compressed. Extract the whole archive and keep the application together with its bundled files, then launch it. Launching an executable from inside an archive is the most common cause of a build that appears to start and then misbehaves.</p></div>
+
+      <h2>How saving differs, and what is not documented</h2>
+      <p>This is where the two versions genuinely diverge, and where published advice is least reliable.</p>
+      <ul>
+        <li><strong>Both use the engine's standard interface.</strong> The Freak Circus is a Ren'Py release, so saving uses the normal save and load buttons, a slot list, quick save and quick load, and rollback in history.</li>
+        <li><strong>Both offer a Day 2 entry point.</strong> The menu includes a Day 2 button with a short introduction, so you can continue into Day 2 without replaying Day 1.</li>
+        <li><strong>Browser saves live in browser storage.</strong> Clearing site data, opening a private window, or running a strict privacy configuration can remove them without warning, and they are tied to the browser profile that created them. This is the single most common reason players report losing progress.</li>
+        <li><strong>Official save documentation does not exist.</strong> The developer has not published save locations, slot counts, autosave behaviour, or whether browser saves can be moved into a desktop build. Any guide giving you a specific path, a slot count, or a guaranteed transfer procedure is describing engine behaviour rather than an official answer for this game.</li>
+      </ul>
+      <p>Ren'Py does offer export and import actions for saves in its engine overlay, and whether they work reliably for moving a browser save into a desktop build of this game has not been confirmed. Treat it as worth trying rather than a procedure, and back up anything you care about before experimenting.</p>
+
+      <h2>A simple rule</h2>
+      <ul>
+        <li><strong>Reading it once, on a shared machine, or without installing anything:</strong> use the browser build.</li>
+        <li><strong>Planning replays, comparing branches, or keeping a long-term save:</strong> download for your platform.</li>
+        <li><strong>On a phone:</strong> the Android APK is the supported option.</li>
+        <li><strong>Regardless of platform:</strong> take the download from the official itch.io page, and keep your own backup copies of any save you would be annoyed to lose.</li>
+      </ul>
+      <p>Neither version gives you more story than the other. Version 0.2 contains the same two days and the same single ending either way, so the practical difference is entirely about how safely your progress survives.</p>
+
+      <h2>Other differences worth knowing</h2>
+      <p>Three smaller things separate the versions, and none of them is about quality.</p>
+      <ul>
+        <li><strong>Languages and voice.</strong> The game ships in English, Brazilian Portuguese, and Simplified Chinese, with the Chinese translation revised for version 0.2. Voice acting is English only, performed by Darthsuki, so the language setting changes text rather than audio in every version.</li>
+        <li><strong>Input and text handling.</strong> The desktop builds support the usual keyboard, mouse, and windowed conveniences, including scrolling back through a scene. Browser play depends on the page, which is fine for a straightforward read-through but more awkward for comparing two branches side by side.</li>
+        <li><strong>Menus and interface.</strong> The menu includes a Day 2 entry point in both versions, which is the single most useful feature for anyone who wants to return to the current content without replaying Day 1.</li>
+      </ul>
+      <p>There is also a version-agnostic warning that applies to both: the game is rated 18+, and its published content warnings include blood, death, murder and gore, allusions to cannibalism, abuse, kidnapping, non-consensual use of drugs, physical domination, and non-consensual physical contact. Read that list before deciding how much of the story you want to read about in advance.</p>
+      <p>For the platform list and safety notes, see the <a href="/download">download guide</a>; for how saving behaves, see the <a href="/save">saving guide</a>.</p>
+    `,
+  },
+  {
+    slug: 'why-only-one-ending',
+    title: 'Why The Freak Circus Only Has One Ending Right Now',
+    description: 'The Freak Circus ships one playable ending because it is a prototype — how the implemented bad ending, the four planned endings and Day 3 fit together.',
+    date: '2026-10-16',
+    tags: ['Endings', 'Version 0.2', 'Development'],
+    image: '/images/home/faq.webp',
+    imageAlt: 'The Freak Circus current prototype, version 0.2',
+    readingTime: '8 min read',
+    content: `
+      <p class="article-lede">The reason there is only one ending is not that the other endings are hidden, or that they unlock in a later playthrough of version 0.2, or that you have missed a condition. The reason is that the game is a prototype, and the endings are the part of a script that gets written last.</p>
+      <div class="walkthrough-note"><strong>What this article explains</strong><p>The relationship between the single implemented ending, the four endings the developer has named, and the state of the script. It contains spoilers for the one ending that exists in the public build.</p></div>
+
+      <h2>One ending, and it is a bad one</h2>
+      <p>Version 0.2 contains exactly one ending: "Missing". It is reached on Day 1 when the protagonist does nothing while Pierrot is being mocked by a man in front of a crowd. An unknown figure hands the protagonist a pink ticket, takes them to the pink tent, and every member of the circus refuses them entry. The game states that the protagonist failed to catch Pierrot's attention and met a tragic end.</p>
+      <p>That ending is not a placeholder for a good one. It is a finished piece of writing with a theme attached — a protagonist who declines to engage with the central conflict is removed from it — and it is the only conclusion the current build officially offers.</p>
+
+      <h2>Four conclusions are planned, and none of them is in the build</h2>
+      <ul>
+        <li><strong>Pierrot's ending</strong> — a romance conclusion with Pierrot.</li>
+        <li><strong>Harlequin's ending</strong> — a romance conclusion with Harlequin.</li>
+        <li><strong>Protagonist's ending</strong> — a conclusion with no romance, though friendships can still be chosen alongside it.</li>
+        <li><strong>"All together"</strong> — the protagonist falls in love with Pierrot and Harlequin at the same time.</li>
+      </ul>
+      <p>These are named by the developer on the official page and in the official FAQ, and they are repeatedly described as still in development. There is no published trigger list for any of them, because there is nothing to trigger. A step-by-step guide to unlock the Harlequin ending would be describing a build that does not exist publicly.</p>
+      <h3>And there is no official total</h3>
+      <p>It is easy to add the numbers up and get five. That total has never been stated. The developer has said multiple endings are planned but cannot give a count, because the script is still a work in progress — and a planned conclusion can be merged, reworked, or added to before it ships.</p>
+
+      <h2>Endings are the last thing a script produces</h2>
+      <p>This is the practical reason the current build looks the way it does. A branching narrative has to be built from the inside out: the day needs its scenes, the scenes need their choices, the choices need consequences that feed later scenes, and only then does the shape of a conclusion exist. The current build has Days 1 and 2 with their introductions, their branches, and their scene variations, plus one ending placed where it demonstrates a consequence.</p>
+      <p>The official feature list is unusually honest about this. It records five introduced characters, one bad ending implemented, and character introductions complete with the rest of the story still in development. Those are four separate claims, and they are consistent with a project that has finished its opening and is still building the middle and the end.</p>
+      <div class="walkthrough-tip"><strong>How to test whether a branch is really different</strong><p>Because there are no endings to compare, the meaningful test is whether a scene changes. Load a save, change one meaningful response, and compare what follows. If two runs produce a reproducible difference in dialogue, staging, or who appears, the branch is real. If they produce one different line, that is a variation, not a route.</p></div>
+
+      <h2>Day 3 is where the conclusions are being written</h2>
+      <p>The next in-game day is in active development, and the official updates describe a script larger than Day 2's, with additional bad ending content and hidden scenes. The ending category is explicitly the kind of thing that grows: the current build lists one bad ending, and the update notes refer to more ending content being written.</p>
+      <p>That is also why there is no release date. The developer has asked that outside date claims not be repeated, which reads as an attempt to keep a schedule from forming around work that is not finished. Development updates describe beta progress — one part of the beta finished, the beta at roughly 30–40% of the update, later nearly halfway through the planned beta content — but a beta is a milestone, not a release.</p>
+
+      <h2>What this means for a player today</h2>
+      <ul>
+        <li><strong>There is nothing to unlock.</strong> Playing version 0.2 to its end reaches the "Missing" ending, and that is the complete ending content of the build.</li>
+        <li><strong>Replays are still worth doing.</strong> The branching is real, and scene variations, character appearances, and different readings are all things the current build contains.</li>
+        <li><strong>Do not buy or chase an "all endings" bundle</strong> for a game that currently has one ending. Nothing outside the official itch.io page is authorised anyway.</li>
+        <li><strong>Keep your saves.</strong> Version 0.2 choices will not necessarily map onto the next public build, and the ending list will change.</li>
+      </ul>
+      <p>The honest summary is that The Freak Circus is two and a bit days of a three-day story, with the last day in production. What you can play is a well-built opening with real branches. What you cannot play is the ending — and for now, that includes the good ones.</p>
+      <p>For the sourced list of endings and routes, see the <a href="/endings">endings guide</a>; for the development state, see the <a href="/day-3">Day 3 tracker</a>.</p>
+    `,
+  },
+  {
+    slug: 'reading-fan-guides-safely',
+    title: 'How to Read Fan Guides Without Getting Misinformation',
+    description: 'A method for evaluating any The Freak Circus fan guide — sort claims into implemented, planned and unverified, and spot the most common errors.',
+    date: '2026-10-19',
+    tags: ['Fact check', 'Guides', 'Community'],
+    image: '/images/community/fanart-1.webp',
+    imageAlt: 'Community artwork of The Freak Circus characters',
+    readingTime: '9 min read',
+    content: `
+      <p class="article-lede">Every visual novel with a small, enthusiastic fandom eventually accumulates guides that disagree with each other, and some of them are confidently wrong. Reading them is not difficult if you have a method. The method is simple: sort every claim into three buckets — implemented, planned, or unverified — and refuse to let a claim move buckets because it appears often enough.</p>
+      <div class="walkthrough-note"><strong>Why this matters here</strong><p>The Freak Circus has three unusual properties that make bad guides common: the game is a prototype with a single implemented ending, its cast has published measurements but no published ages, and a lot of the interesting character material comes from fandom wiki pages rather than developer posts. Each of those has produced a specific category of misinformation.</p></div>
+
+      <h2>The three buckets</h2>
+      <ul>
+        <li><strong>Implemented.</strong> You can reach it in the public build right now. One ending qualifies: "Missing", the bad ending on Day 1 reached by doing nothing while Pierrot is being mocked.</li>
+        <li><strong>Planned.</strong> The developer has named it, and it is not in a build. Four qualify: Pierrot, Harlequin, Protagonist, and "All together".</li>
+        <li><strong>Unverified.</strong> No first-party source, but repeated widely. Save paths, slot counts, autosave schedules, exact ages and birthdays, total completion time, Day 3 release dates, and any specific number of endings.</li>
+      </ul>
+      <p>Most factual arguments about this game dissolve once every sentence is in a bucket. "The game has five endings" is a merge error: one implemented ending plus four planned ones, presented as a confirmed total the developer never gave.</p>
+
+      <h2>Five questions to ask a guide</h2>
+      <ol class="walkthrough-steps">
+        <li><strong>Which build is this about?</strong> Version 0.2 is the current public build. A guide that never names a version is describing the author's memory.</li>
+        <li><strong>Does it link a source?</strong> An official page, a devlog entry, an AMA answer, a Tumblr post. A guide that cannot point at one of these is interpreting.</li>
+        <li><strong>Does it mark fandom material as fandom material?</strong> The costume details, the reason Pierrot is silent, Harlequin's role in Columbina's death — all useful, all from the fandom wiki, all worth labelling.</li>
+        <li><strong>Does it say where the spoilers start?</strong> A guide that spoils Day 2's opening without warning is not more useful than one that does.</li>
+        <li><strong>Does it hedge where it should?</strong> "Planned", "not implemented", "unconfirmed" are not weaknesses in a guide. They are the parts that will still be true after the next update.</li>
+      </ol>
+
+      <h2>The specific errors worth catching</h2>
+      <h3>Romance routes for characters who do not have them</h3>
+      <p>The confirmed route options are Pierrot, Harlequin, both, or neither. There is no Jester route, no Ticket Taker route, and no Doctor route. The developer has described making the remaining characters romance options as a possibility rather than a commitment, and any such route would most likely arrive as an add-on or DLC. Guides that describe a Ticket Taker route "unlocked through persistence and careful dialogue", a Doctor "Clean Hands" ending, or a Jester route that "unlocks on Day 2" are all describing things that do not exist. The Day 2 update added characters, animated sprites, a redesigned menu, and an Android version — not new routes.</p>
+      <h3>A "good ending" that does not exist</h3>
+      <p>There are no good endings implemented. The only ending in the build is a bad one, and the romance conclusions that are often described as the "good" outcomes are the same planned endings listed above — unfinished, and not guaranteed to be the outcomes fans expect.</p>
+      <h3>Precise numbers with no source</h3>
+      <p>Specific ages, birthdays, a height for Columbina, a total runtime, an exact number of endings, and a precise save location are all fan inventions dressed as data. The genuine measurements are the developer's height chart and the relative age order — and no numeric age has ever been published for anyone in the cast.</p>
+      <h3>Dates for Day 3</h3>
+      <p>No release date has been announced, and the developer has asked that outside date claims not be repeated. A countdown page is a fan estimate with a clock on it. The only date that counts is the one on the official itch.io page or in an official post.</p>
+
+      <h2>Reading sources without trusting them blindly</h2>
+      <p>The fandom wiki is genuinely valuable for this game and it is worth using — with a specific caveat. It compiles character material from the game's own scenes, which means its character descriptions are close to the source, while its inferences and dates are not first-party. The practical habit is to keep the two apart while you read.</p>
+      <ul>
+        <li><strong>What the wiki does well:</strong> costume detail, in-fiction explanations, relationship summaries, and the record of what the developer has answered in AMA threads.</li>
+        <li><strong>What the wiki gets wrong:</strong> numeric ages and most birthdays, a height for Columbina, and readings of ambiguous story events stated more firmly than the evidence allows.</li>
+        <li><strong>What to do:</strong> copy the description, keep the hedge.</li>
+      </ul>
+      <div class="walkthrough-tip"><strong>A one-line test for any claim</strong><p>Ask: "Could the developer contradict this tomorrow without anyone noticing?" If yes, the claim needs a hedge or an attribution. "The developer has confirmed eight ticket types" cannot be quietly contradicted. "Harlequin is 21" can, and has been.</p></div>
+
+      <h2>One more thing: where you got the game</h2>
+      <p>Before evaluating any guide, check its source links. The developer has stated that the itch.io page is the only official page for the game and has asked that the game not be re-uploaded or reposted. There is no official Discord server, so every server that is not linked from the official itch.io, Tumblr, Patreon, or Bluesky pages is fan-run or unauthorised.</p>
+      <p>Guides that push a "mirrored download", a "verification" program, or a "patched" installer are not guides at all. Never install a separate program or disable antivirus protection to obtain this game.</p>
+
+      <h2>A working habit</h2>
+      <p>Read a guide's scope note first. If it says which build it covers, where its sources are, and which parts are still in development, the rest of it can be trusted in proportion. If it opens with a confident claim about an ending that does not exist, put it down — that is a guide that will confidently tell you the wrong thing about everything else too.</p>
+      <p>For the verified version of the most-searched topics, start with the <a href="/endings">endings guide</a>, the <a href="/characters/heights">height guide</a>, and the <a href="/save">saving guide</a> — all of which separate confirmed facts from unverified claims in the same way.</p>
+    `,
+  },
 ];
 
 const POSTS_ZH: BlogPost[] = [

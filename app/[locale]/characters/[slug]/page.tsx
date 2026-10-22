@@ -4,7 +4,7 @@ import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { characterCopy, characterSlugs, editorialLocale, type CharacterSlug } from '@/lib/site-content';
-import { getCharacterProfile } from '@/lib/character-content';
+import { getLocalizedCharacter, characterLocales } from '@/lib/editorial-content';
 import { formatHeight } from '@/lib/game-facts';
 
 type Props = { params: { locale: string; slug: string } };
@@ -19,7 +19,8 @@ export function generateMetadata({ params: { locale, slug } }: Props) {
   if (!characterSlugs.includes(slug as CharacterSlug)) return {};
   const lang = editorialLocale(locale);
   const ch = characterCopy[lang][slug as CharacterSlug];
-  const profile = getCharacterProfile(lang, slug as CharacterSlug)!;
+  const profile = getLocalizedCharacter(locale, slug as CharacterSlug)
+    ?? getLocalizedCharacter('en', slug as CharacterSlug)!;
   const height = formatHeight({ cm: profile.cm, feet: profile.feet, inches: profile.inches });
   const description = lang === 'zh'
     ? `${ch.summary} 官方身高 ${profile.cm} 厘米（${height.imperial}），${ch.name} 在 The Freak Circus 中的性格、故事与人物关系。`
@@ -29,6 +30,8 @@ export function generateMetadata({ params: { locale, slug } }: Props) {
     description,
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters/${slug}`,
     ogImage: `${SITE_URL}${ch.image}`,
+    availableLocales: characterLocales(slug),
+    locale,
   });
 }
 
@@ -38,7 +41,8 @@ export default function CharacterPage({ params: { locale, slug } }: Props) {
   const lang = editorialLocale(locale);
   const zh = lang === 'zh';
   const ch = characterCopy[lang][current];
-  const profile = getCharacterProfile(lang, current)!;
+  const profile = getLocalizedCharacter(locale, current)
+    ?? getLocalizedCharacter('en', current)!;
   const p = locale === 'en' ? '' : `/${locale}`;
 
   const height = formatHeight({ cm: profile.cm, feet: profile.feet, inches: profile.inches });
@@ -148,7 +152,8 @@ export default function CharacterPage({ params: { locale, slug } }: Props) {
               {characterSlugs
                 .filter((other) => other !== current)
                 .map((other) => {
-                  const otherProfile = getCharacterProfile(lang, other)!;
+                  const otherProfile = getLocalizedCharacter(locale, other)
+                    ?? getLocalizedCharacter('en', other)!;
                   return (
                     <Link key={other} href={`${p}/characters/${other}`}>
                       <span>{characterCopy[lang][other].name}</span>

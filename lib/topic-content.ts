@@ -79,7 +79,7 @@ const endingRows = (locale: EditorialLocale): FactRow[] =>
     note: ending.summary,
   }));
 
-const guideContent: Record<EditorialLocale, Record<string, GuidePage>> = {
+export const guideContent: Record<EditorialLocale, Record<string, GuidePage>> = {
   en: {
     endings: {
       slug: 'endings',

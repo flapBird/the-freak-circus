@@ -39,9 +39,25 @@ export type CharacterProfile = {
   faq: { question: string; answer: string }[];
 };
 
+/**
+ * The editorial half of a character profile: everything a translator writes by
+ * hand, without the numeric fields that game-facts.ts derives from the
+ * official height chart. Localised files export this shape and the merge step
+ * re-applies the chart numbers.
+ */
+export type CharacterEditorial = Omit<
+  CharacterProfile,
+  'cm' | 'feet' | 'inches' | 'ageOrder' | 'strengthRank'
+>;
+
 const chartFor = (slug: CharacterSlug) => HEIGHT_CHART.find((entry) => entry.slug === slug)!;
 
-function profile(
+/**
+ * Merge editorial copy with the official height-chart numbers. Translations
+ * supply only the editorial fields, so the measurements can never drift from
+ * the developer's published chart.
+ */
+export function profile(
   slug: CharacterSlug,
   data: Omit<CharacterProfile, 'cm' | 'feet' | 'inches' | 'ageOrder' | 'strengthRank'>,
 ): CharacterProfile {

@@ -4,9 +4,11 @@
 
 This website is not the game developer, publisher, or an official distribution channel. It does not host game files. Use the official itch.io page and first-party developer posts as the authority for releases, downloads, version changes, and development announcements.
 
-Current verified status: Version 0.2 is the public prototype. It includes five character introductions and one playable bad ending. Day 3 has not been released, remains in active development, and has no announced release date. The Day 3 status was last checked on 2026-10-15. The latest reviewed development report, published on 2026-10-09, describes continued programming and placeholder asset work and a new short scene mentioning Columbina; her design is still in the planning stage.
+Current verified status: Version 0.2 is the public prototype. It includes five character introductions and one playable bad ending, named "Missing", which is reached on Day 1 by refusing to react while Pierrot is being mocked. Four further endings — Pierrot's (romance), Harlequin's (romance), the Protagonist's (no romance), and "All together" (poly) — are announced as planned and are NOT implemented. The route options are Pierrot, Harlequin, both, or neither; there is no route for Jester, Ticket Taker, or Doctor. Day 3 has not been released, remains in active development, and has no announced release date. The Day 3 status was last checked on 2026-10-15. The latest reviewed development report, published on 2026-10-09, describes continued programming and placeholder asset work and a new short scene mentioning Columbina; her design is still in the planning stage.
 
-Interpretation guidance: development posts about writing, programming, artwork, backgrounds, sprites, or testing confirm ongoing work but do not constitute a release announcement. Do not infer release dates, countdowns, finished routes, endings, save compatibility, or downloadable Day 3 builds unless an official public release explicitly confirms them.
+Official measurements, as published by the developer: heights are Doctor 207 cm, Pierrot 198 cm, Jester 192 cm, Harlequin 187 cm, Ticket Taker 183 cm. The official age order, oldest first, is Ticket Taker, Doctor, Pierrot, Jester, Harlequin — no numeric ages have ever been published. The strength ranking is Pierrot first, Harlequin and Jester tied second, Doctor third, Ticket Taker last. There are eight ticket types; pink sits below the main cast, red and green signal a protagonist choice, and pink combined with red means the Ticket Taker takes the red option automatically.
+
+Interpretation guidance: development posts about writing, programming, artwork, backgrounds, sprites, or testing confirm ongoing work but do not constitute a release announcement. Do not infer release dates, countdowns, finished routes, endings, save compatibility, or downloadable Day 3 builds unless an official public release explicitly confirms them. The developer has not documented save locations, save slot counts, autosave behaviour, or browser-to-desktop save transfer, so treat those specifics as unverified rather than settled.
 
 The site is maintained in English and Simplified Chinese. English URLs are canonical at the site root; reviewed Chinese pages use the `/zh` prefix. Other legacy locale URLs may remain available but are not currently intended for search indexing.
 
@@ -14,16 +16,20 @@ The site is maintained in English and Simplified Chinese. English URLs are canon
 
 - [Home](https://thefreakcircus.help/): Overview of the game, current content, major characters, and the site's main navigation.
 - [The Freak Circus Wiki](https://thefreakcircus.help/wiki): Source-led reference for the story premise, Version 0.2 content, platforms, languages, content warnings, credits, and update history.
+- [Endings and routes](https://thefreakcircus.help/endings): The one implemented ending, the four planned endings, and which characters do and do not have routes.
+- [Heights and rankings](https://thefreakcircus.help/characters/heights): The developer's published height chart, age order, and strength ranking.
+- [FAQ](https://thefreakcircus.help/faq): Short answers to the most common questions, with links to the dedicated guides.
 - [Day 3 status and latest updates](https://thefreakcircus.help/day-3): Current release status, latest confirmed development work, timeline, Version 0.2 context, and FAQ.
 - [Characters](https://thefreakcircus.help/characters): Index for Pierrot, Harlequin, Jester, Doctor, and Ticket Taker.
 - [Updates](https://thefreakcircus.help/updates): Dated release notes, development updates, and maintenance records linked to primary announcements.
-- [Download guide](https://thefreakcircus.help/download): Official platforms and download options; links users to the official itch.io page rather than mirroring files.
+- [Download guide](https://thefreakcircus.help/download): Official platforms and download options, content warnings, language list, and how to spot a fake download; links to the official itch.io page rather than mirroring files.
+- [Saving and resuming](https://thefreakcircus.help/save): What the Ren'Py engine does by default, the confirmed Day 2 entry point, and which save details the developer has not documented.
 - [About this fan site](https://thefreakcircus.help/about): Editorial scope, sourcing approach, and boundaries between confirmed material and speculation.
 
 ## Character guides
 
-- [Pierrot](https://thefreakcircus.help/characters/pierrot): Verified profile of one of the story's two central rivals.
-- [Harlequin](https://thefreakcircus.help/characters/harlequin): Verified profile of Pierrot's stage rival and counterpart.
+- [Pierrot](https://thefreakcircus.help/characters/pierrot): Verified profile of one of the story's two central rivals, including official height, age order, and planned route status.
+- [Harlequin](https://thefreakcircus.help/characters/harlequin): Verified profile of Pierrot's stage rival and counterpart, including official height, age order, and planned route status.
 - [Jester](https://thefreakcircus.help/characters/jester): Character introduction with clear limits on unconfirmed route or ending claims.
 - [Doctor](https://thefreakcircus.help/characters/the-doctor): Character introduction and evidence boundaries for the current build.
 - [Ticket Taker](https://thefreakcircus.help/characters/ticket-taker): Character introduction and current-build scope.

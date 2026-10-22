@@ -3,6 +3,7 @@ import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
 import { getBlogPosts } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string } };
 
@@ -12,6 +13,8 @@ export async function generateMetadata({ params: { locale } }: Props) {
     title: tMsg(locale, 'meta.blogTitle'),
     description: tMsg(locale, 'meta.blogDesc'),
     canonical: `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`,
+    availableLocales: CORE_LOCALES.blog,
+    locale,
   });
 }
 

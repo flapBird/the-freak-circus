@@ -2,10 +2,14 @@ import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { characterCopy, characterSlugs, editorialLocale } from '@/lib/site-content';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
-  return buildMetadata({ title: zh ? 'The Freak Circus 角色：Pierrot、Harlequin 与马戏团成员' : 'The Freak Circus Characters: Pierrot, Harlequin & More', description: zh ? '认识 The Freak Circus 中的 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker，探索他们的性格、秘密、故事和人物关系。' : 'Meet Pierrot, Harlequin, Jester, Doctor, and Ticket Taker, and explore their personalities, secrets, stories, and relationships in The Freak Circus.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters` });
+  return buildMetadata({ title: zh ? 'The Freak Circus 角色：Pierrot、Harlequin 与马戏团成员' : 'The Freak Circus Characters: Pierrot, Harlequin & More', description: zh ? '认识 The Freak Circus 中的 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker，探索他们的性格、秘密、故事和人物关系。' : 'Meet Pierrot, Harlequin, Jester, Doctor, and Ticket Taker, and explore their personalities, secrets, stories, and relationships in The Freak Circus.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/characters` ,
+    availableLocales: CORE_LOCALES.characters,
+    locale,
+  });
 }
 
 export default function CharactersPage({ params: { locale } }: { params: { locale: string } }) {

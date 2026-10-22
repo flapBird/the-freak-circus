@@ -4,6 +4,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 import { COMMUNITY_LAST_CHECKED } from '@/data/community-posts';
 import { DAY_3_POSTS, LATEST_DAY_3_UPDATE, formatUpdateDate } from '@/lib/day3-updates';
+import { CORE_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string } };
 
@@ -73,7 +74,10 @@ export function generateMetadata({ params: { locale } }: Props) {
       ? '查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。'
       : 'Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.',
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/day-3`,
-  });
+    availableLocales: CORE_LOCALES["day-3"],
+    locale,
+  },
+  );
 }
 
 export default function DayThreePage({ params: { locale } }: Props) {
