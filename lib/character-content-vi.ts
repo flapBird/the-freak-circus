@@ -421,7 +421,7 @@ export const characterProfilesVi: Record<
         heading: 'Thứ tự tuổi và sức mạnh',
         paragraphs: [
           'Doctor đứng thứ hai trong năm người theo thứ tự tuổi chính thức, từ lớn đến nhỏ: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Chỉ Ticket Taker lớn tuổi hơn anh ấy.',
-          'Trong bảng xếp hạng sức mạnh, anh ấy đứng thứ tư, trước Ticket Taker và sau Pierrot, Harlequin, Jester. Cao nhất mà vẫn chỉ mạnh thứ tư là tổ hợp thú vị ở đây: Doctor lớn chứ không mạnh, và mô tả của fan rằng anh ấy thích trí khéo hơn sức mạnh đúng là điều mà bạn có thể mong đợi từ một nhân vật như vậy.',
+          'Trong bảng xếp hạng sức mạnh, anh ấy đứng thứ ba, trước Ticket Taker và sau Pierrot cùng Harlequin, Jester bị hòa. Cao nhất mà vẫn chỉ mạnh thứ ba là tổ hợp thú vị ở đây: Doctor lớn chứ không mạnh, và mô tả của fan rằng anh ấy thích trí khéo hơn sức mạnh đúng là điều mà bạn có thể mong đợi từ một nhân vật như vậy.',
         ],
       },
       {

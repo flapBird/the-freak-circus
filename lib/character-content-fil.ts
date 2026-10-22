@@ -71,7 +71,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Age order at kinalalagyan niya sa limang karakter',
         paragraphs: [
-          'Isang partikular na AMA post ang sumagot sa direktang kahilingan na ayusin ang cast mula sa pinakamatanda patungo sa pinakamabata. Ang inilathala na pagkakasunod ay Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Pangatlong lugar kaya si Pierrot sa limang — mas matanda kaysa Jester at Harlequin, mas bata kaysa Ticket Taker at Doctor.',
+          `Isang partikular na AMA post ang sumagot sa direktang kahilingan na ayusin ang cast mula sa pinakamatanda patungo sa pinakamabata. Ang inilathala na pagkakasunod ay Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Nasa ${ordinal(chartFor('pierrot').ageOrder)} lugar kaya si Pierrot sa limang — mas matanda kaysa Jester at Harlequin, mas bata kaysa Ticket Taker at Doctor.`,
           'Walang numerikong edad na inilathala para sa kahit na karakter, at worth itong sabihin nang eksakto dahil madalas na nagbibigay ang mga fan wiki at database ng karakter ng tiyak na edad na walang batayan sa first-party. Ang age order lang ang impormasyon tungkol sa edad na inilabas ng developer.',
         ],
       },
@@ -140,7 +140,7 @@ export const characterProfilesFil: Record<
       {
         question: 'Mas matanda ba si Pierrot kaysa Harlequin?',
         answer:
-          `Oo. Ang Harlequin ang pinakamabata sa limang, at si Pierrot ang ${ordinal(chartFor('pierrot').ageOrder)} pinakamamatanda.`,
+          `Oo. Ang Harlequin ang pinakamabata sa limang, at nasa ${ordinal(chartFor('pierrot').ageOrder)} lugar si Pierrot mula sa pinakamatanda.`,
       },
       {
         question: 'Ang pinakamalakas ba si Pierrot?',
@@ -247,7 +247,7 @@ export const characterProfilesFil: Record<
           'Ganito ang paghahati sa pahinang ito.',
         ],
         list: [
-          'Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon bilang pinakamabata sa age order, ang kanyang pagtaya sa ikalawang lugar sa ranking ng lakas, ang paglalarawan sa kanya bilang "seductive rival" ni Pierrot, ang katotohanan na hindi mga alok sa kasal ang kanyang mga kagat habang naglaloko, at ang katotohanan na binalak ang romance ending ni Harlequin.',
+          `Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon bilang pinakamabata sa age order, ang kanyang pagtaya sa ${ordinal(chartFor('harlequin').strengthRank)} lugar sa ranking ng lakas, ang paglalarawan sa kanya bilang "seductive rival" ni Pierrot, ang katotohanan na hindi mga alok sa kasal ang kanyang mga kagat habang naglaloko, at ang katotohanan na binalak ang romance ending ni Harlequin.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang kanyang mga branch — may ilang paglabas niya na nagbabago depende sa branch ng kuwento, na mismong kinukumpirma ng isang opisyal na bug note.',
           'Mula sa fandom: ang buong deskripsiyon ng kostume at maskara, ang kanyang personal na kasaysayan, at ang mga espesipiko ng kanyang relasyon sa Columbina.',
         ],
@@ -362,7 +362,7 @@ export const characterProfilesFil: Record<
           'Lalo na sa kaso ni Jester ang proporsyon ang mahalaga, sapagkat napakaraming inilabas na materyal tungkol sa kanya ang espesipasyong ipinapakita bilang mekanismo.',
         ],
         list: [
-          'Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang pagtaya sa ikalawang lugar sa ranking ng lakas, at ang katotohanan na wala siyang ruta.',
+          `Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang pagtaya sa ${ordinal(chartFor('jester').strengthRank)} lugar sa ranking ng lakas, at ang katotohanan na wala siyang ruta.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang awtoridad niya sa ibang karakter.',
           'Mula sa fandom: ang konsepto ng "Fools", ang pagbalangkas ng "strays", ang mga detalye kung paano niya hahatiin ang mga papel, at ang kanyang personal na kasaysayan.',
         ],
@@ -460,7 +460,7 @@ export const characterProfilesFil: Record<
           'May mas maraming materyal na mula sa fandom ang pahinang ng Doctor kumpara sa materyal na opisyal, kumpara sa iba pang karakter sa cast, sa malaking bahagi dahil walang siyang ruta at kaya walang first-party na deskripsiyon ng narrative tungkol dito.',
         ],
         list: [
-          `Kinukumpirma ng developer: ang kanyang taas bilang pinakatall sa limang, ang kanyang ikalawang posisyon sa age order, ang kanyang ${ordinal(chartFor('the-doctor').strengthRank)} na posisyon sa ranking ng lakas, at ang katotohanan na wala siyang ruta.`,
+          `Kinukumpirma ng developer: ang kanyang taas bilang pinakatall sa limang, ang kanyang ${ordinal(chartFor('the-doctor').ageOrder)} posisyon sa age order, ang kanyang ${ordinal(chartFor('the-doctor').strengthRank)} na posisyon sa ranking ng lakas, at ang katotohanan na wala siyang ruta.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang paraan kung paano nagbubuo ang kanyang kalmaduhan.',
           'Mula sa fandom: ang mga eksperimento at espesimen na iniuugnay sa kanyang tent, ang kanyang personal na kasaysayan, at ang trivia ng karakter tungkol sa kanyang mga kagustuhan.',
         ],
@@ -547,7 +547,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          `Huling siya sa limang sa strength list ng developer — nasa ${ordinal(chartFor('ticket-taker').strengthRank)} antas, sa ibaba ng Doctor. Kasama ang pagiging pinakababa, ito ang pinakamababa sa presensya sa pisikal na anyo ng kumpanya — na tugma sa isang karakter na ang kanyang awtoridad ay prosedural lamang.`,
+          `Huling siya sa limang sa strength list ng developer, sa ibaba ng Doctor. Kasama ang pagiging pinakababa, ito ang pinakamababa sa presensya sa pisikal na anyo ng kumpanya — na tugma sa isang karakter na ang kanyang awtoridad ay prosedural lamang.`,
         ],
       },
       {

@@ -19,10 +19,10 @@
 //
 // Terminology follows the vocabulary already established in messages/fil.json:
 // "ruta" for route, "ending" for ending, "browser", "save", "slot",
-// "developer", "build", "bayan/developer" kept in Latin script, and
-// "Araw 1 / Araw 2 / Araw 3" for the in-game days, matching the wiki
-// glossary entry "Araw 1 / Araw 2". Character names and the game title stay
-// in Latin script, as on the rest of the Filipino site.
+// "developer", and "build" kept in Latin script, and "Araw 1 / Araw 2 /
+// Araw 3" for the in-game days, matching the wiki glossary entry
+// "Araw 1 / Araw 2". Character names and the game title stay in Latin
+// script, as on the rest of the Filipino site.
 
 import type { GuidePage } from './topic-content';
 import { AGE_ORDER_OLDEST_FIRST, STRENGTH_RANKING } from './game-facts';
@@ -247,7 +247,7 @@ export const guideContentFil: Record<string, GuidePage> = {
     ],
     sections: [
       {
-        heading: 'Ang kinakapability ng laro mula sa simula',
+        heading: 'Ang sinusuportahan ng laro mula sa simula',
         paragraphs: [
           "Ang The Freak Circus ay ginawa sa Ren'Py, isang karaniwang visual novel engine. Ibig sabihin, ginagamit nito ang karaniwang interface ng engine: isang save button na nagbubukas ng listahan ng slot, isang load button, quick save at quick load slot, at scene rollback sa history. Kung nagamit ka na ng ibang Ren'Py na laro, magiging pamilyar sa iyon ang dating ng lahat.",
           'Sinusuportahan din ang browser build, na inihahain mula sa opisyal na itch.io page. Nakatala at naaayos ng developer ang mga browser-specific na freeze at ang mga solusyon sa kanila, na nakumpirma na ang paglalaro sa browser ay isang napanatilih na landas at hindi aksidente.',
@@ -262,14 +262,14 @@ export const guideContentFil: Record<string, GuidePage> = {
       {
         heading: 'Saan nakalalagyan ang mga save sa desktop',
         paragraphs: [
-          "Ang desktop build ng Ren'Py ay iniimbak ang mga save sa folder na espesipiko sa proyekto sa loob ng directory ng user data. Magkaiba ang eksaktong lokasyon sa Windows, macOS, at Linux, at may ipinabahagi ang laro sa mahigit sa isang pangalan ng proyekto. Hindi namin ipinapublish ang isang partikular na lokasyon dito dahil hindi kailanman naitala ng developer ang ganito para sa laro na ito, at ang maling lokasyon sa isang gabay ay nagpapadala ng tao sa mga folder na wala naman.",
+          "Ang desktop build ng Ren'Py ay nag-iimbak ng mga save sa folder na espesipiko sa proyekto sa loob ng directory ng user data. Magkaiba ang eksaktong lokasyon sa Windows, macOS, at Linux, at may ipinabahagi ang laro sa mahigit sa isang pangalan ng proyekto. Hindi namin ipinapublish ang isang partikular na lokasyon dito dahil hindi kailanman naitala ng developer ang ganito para sa laro na ito, at ang maling lokasyon sa isang gabay ay nagpapadala ng tao sa mga folder na wala naman.",
           "Kung kailangan mo ang lokasyon para sa sarili mong makina, ang maaasahang paraan ay buksan ang load o save menu sa loob ng laro at gamitin ang save-management action ng engine overlay, na diretsang nagbubukas ng tamang folder para sa platform na ginagamit mo.",
         ],
       },
       {
         heading: 'Bakit maaaring mawala ang mga browser save',
         paragraphs: [
-          "Ang browser build ay iniimbak ang progreso sa sariling storage ng browser, hindi sa isang file na ikaw ang may hawak. May praktikal na bunga iyon: ang pag-clear ng site data, paggamit ng private window, o ilang mahigpit na privacy configuration ay magtatanggal ng mga save nang walang babala. Nangangahulugan din ito na nakatali ang browser save sa browser at profile na gumawa nito.",
+          "Iniimbak ng browser build ang progreso sa sariling storage ng browser, hindi sa isang file na ikaw ang may hawak. May praktikal na bunga iyon: ang pag-clear ng site data, paggamit ng private window, o ilang mahigpit na privacy configuration ay magtatanggal ng mga save nang walang babala. Nangangahulugan din ito na nakatali ang browser save sa browser at profile na gumawa nito.",
           'Ito ay gawi ng engine at hindi lamang peculiaridad ng laro na ito, at ito ang pinakakaraniwang dahilan kung bakit nag-uulat ang mga manlalaro na nawalan ng progreso.',
         ],
       },
@@ -305,12 +305,12 @@ export const guideContentFil: Record<string, GuidePage> = {
       {
         question: 'Bakit nawala ang browser save ko?',
         answer:
-          'Ang browser build ay iniimbak ang progreso sa browser storage. Ang pag-clear ng site data, private window, o mahigpit na privacy setting ay maaaring magtanggal nito. Nakatali din ang browser save sa browser profile na gumawa nito.',
+          'Iniimbak ng browser build ang progreso sa browser storage. Ang pag-clear ng site data, private window, o mahigpit na privacy setting ay maaaring magtanggal nito. Nakatali din ang browser save sa browser profile na gumawa nito.',
       },
       {
         question: 'Saan ang mga save file ko sa PC o Mac?',
         answer:
-          "Ang Ren'Py ay iniimbak ang mga save sa folder na espesifiko sa proyekto sa loob ng directory ng user data ng sistema, at magkaiba ang lokasyon depende sa platform at sa pangalan ng build. Hindi nai-publish ng developer ang lokasyon para sa laro na ito, kaya gamitin ang save-management action ng engine overlay mula sa menu ng laro upang mabuksan ang tamang folder sa iyong makina.",
+          "Ang Ren'Py ay nag-iimbak ng mga save sa folder na espesifiko sa proyekto sa loob ng directory ng user data ng sistema, at magkaiba ang lokasyon depende sa platform at sa pangalan ng build. Hindi nai-publish ng developer ang lokasyon para sa laro na ito, kaya gamitin ang save-management action ng engine overlay mula sa menu ng laro upang mabuksan ang tamang folder sa iyong makina.",
       },
       {
         question: 'Maaari ko bang ilipat ang browser save sa bersyong desktop?',
@@ -378,7 +378,7 @@ export const guideContentFil: Record<string, GuidePage> = {
           'Ang laro ay may Ingles, Brazilian Portuguese, at Simplified Chinese. Inayos ang pagsasalin sa Tsino para sa bersyong 0.2, at napag-usapan din ang karagdagang wika bilang pagsasaling suportado ng komunidad.',
           'Ingles lamang ang voice acting, isinagawa ni Darthsuki. Ipinaliwanag ng developer na hindi orihinal na plano ang pagdagdag ng iba pang wika para sa voice, at magiging bagong trabaho iyon.',
         ],
-        list: ['Ingles', 'Portuguese (Brasil)', 'Simplified Chinese'],
+        list: ['Ingles', 'Brazilian Portuguese', 'Simplified Chinese'],
       },
       {
         heading: 'Mga babala sa nilalaman',
@@ -388,7 +388,7 @@ export const guideContentFil: Record<string, GuidePage> = {
         list: [
           'Pagkakayanig ng screen',
           'Dugo, kamatayan, pagpatay, at gore',
-          'Mga sanggunian sa kannibalismo',
+          'Mga pahinuha sa kannibalismo',
           'Pang-aabuso',
           'Matinding wika',
           'Pagkidnap',
@@ -435,7 +435,7 @@ export const guideContentFil: Record<string, GuidePage> = {
       {
         question: 'Anong iba pang wika ang available?',
         answer:
-          'Ang laro ay may Ingles, Portuguese (Brasil), at Simplified Chinese, na voice acting sa Ingles lamang. Napag-usapan ang iba pang wika bilang pagsasaling galing sa komunidad.',
+          'Ang laro ay may Ingles, Brazilian Portuguese, at Simplified Chinese, na voice acting sa Ingles lamang. Napag-usapan ang iba pang wika bilang pagsasaling galing sa komunidad.',
       },
       {
         question: 'Paano ko malalaman kung fake ang isang download site?',
@@ -468,7 +468,7 @@ export const guideContentFil: Record<string, GuidePage> = {
       { label: 'Ending na puwedeng laruin', value: '1', note: '"Missing" — isang masamang ending' },
       { label: 'Plan na ending', value: '4' },
       { label: 'Mga platform', value: '5', note: 'Browser, Windows, macOS, Linux, Android' },
-      { label: 'Mga wika', value: '3', note: 'Ingles, Portuguese, Simplified Chinese' },
+      { label: 'Mga wika', value: '3', note: 'Ingles, Brazilian Portuguese, Simplified Chinese' },
       { label: 'Araw 3', value: 'Nagdederelop, walang ipinapahayag na petsa' },
     ],
     sections: [

@@ -398,13 +398,13 @@ export const characterProfilesPt: Record<
       {
         heading: 'Resposta rápida',
         paragraphs: [
-          'O Doctor tem 207 cm, o que o torna o mais alto dos cinco personagens apresentados por uma margem clara — 9 cm acima de Pierrot. Ele fica em segundo lugar entre cinco na ordem de idades do desenvolvedor, ou seja, apenas o Ticket Taker é mais velho. Ocupa o quarto lugar entre cinco em força, e não tem rota nem final.',
+          'O Doctor tem 207 cm, o que o torna o mais alto dos cinco personagens apresentados por uma margem clara — 9 cm acima de Pierrot. Ele fica em segundo lugar entre cinco na ordem de idades do desenvolvedor, ou seja, apenas o Ticket Taker é mais velho. Ocupa o terceiro lugar entre cinco em força, e não tem rota nem final.',
         ],
       },
       {
         heading: 'Quem é o Doctor',
         paragraphs: [
-          'O wiki de fãs descreve o Doctor como um antagonista secundário ou talvez uma figura neutra, e lhe dá dois lados: sereno e composto em um, apaixonado e sádico no outro. Essa é uma forma útil de ler as cenas dele, porque a mudança é descrita como visível — os olhos ficam vermelhos quando uma emoção específica assume o comando. O wiki também registra que ele prefere o engenho à força bruta, o que combina com um personagem que é ao mesmo tempo o mais alto e apenas o quarto em força bruta.',
+          'O wiki de fãs descreve o Doctor como um antagonista secundário ou talvez uma figura neutra, e lhe dá dois lados: sereno e composto em um, apaixonado e sádico no outro. Essa é uma forma útil de ler as cenas dele, porque a mudança é descrita como visível — os olhos ficam vermelhos quando uma emoção específica assume o comando. O wiki também registra que ele prefere o engenho à força bruta, o que combina com um personagem que é ao mesmo tempo o mais alto e apenas o terceiro em força bruta.',
           'Ele também é o personagem com mais chance de ser representado como tendo rota. A ideia de uma rota do Doctor com um "final bom" circula em vários guias mais antigos, e não corresponde a nada que o desenvolvedor tenha descrito.',
         ],
       },
@@ -419,7 +419,7 @@ export const characterProfilesPt: Record<
         heading: 'Ordem de idades e força',
         paragraphs: [
           'O Doctor fica em segundo lugar entre cinco na ordem de idades oficial, do mais velho para o mais novo: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Apenas o Ticket Taker é mais velho que ele.',
-          'No ranking de força ele aparece em quarto, à frente do Ticket Taker e atrás de Pierrot, Harlequin e Jester. Ser o mais alto e ficar em quarto na força é a combinação interessante: o Doctor é grande mais do que poderoso, e a descrição de fã de que ele prefere o engenho à força é exatamente o que se esperaria de alguém assim.',
+          'No ranking de força ele aparece em terceiro, à frente do Ticket Taker e atrás de Pierrot e dos empatados Harlequin e Jester. Ser o mais alto e ficar em terceiro na força é a combinação interessante: o Doctor é grande mais do que poderoso, e a descrição de fã de que ele prefere o engenho à força é exatamente o que se esperaria de alguém assim.',
         ],
       },
       {

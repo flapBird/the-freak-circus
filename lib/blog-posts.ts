@@ -275,7 +275,7 @@ const POSTS_EN: BlogPost[] = [
       <div class="walkthrough-note"><strong>Scope and sourcing</strong><p>Height, age order, and strength ranking are taken from the developer's published chart and AMA answers. Costume description, personality summaries, and any specific age or birthday come from the fandom wiki and are marked as fandom-derived. This article does not treat an in-fiction estimate as a measurement.</p></div>
 
       <h2>The height: 187 cm</h2>
-      <p>Harlequin's entry in the developer's height chart reads 187 cm, roughly 6 ft 1.62 in. That makes him the shortest of the five introduced characters, standing 24 cm below the Doctor at 207 cm, 11 cm below Pierrot, 5 cm below Jester, and 4 cm above the Ticket Taker.</p>
+      <p>Harlequin's entry in the developer's height chart reads 187 cm, roughly 6 ft 1.62 in. That makes him the shortest of the five introduced characters, standing 20 cm below the Doctor at 207 cm, 11 cm below Pierrot, 5 cm below Jester, and 4 cm above the Ticket Taker.</p>
       <p>The interesting part of that number is what it pairs with. Harlequin shares second place in the developer's strength ranking with Jester, behind Pierrot and ahead of the Doctor and the Ticket Taker. The fandom wiki reads that combination — youngest and shortest, but tied for second strongest — as the reason Harlequin is written as quick and physical rather than heavy. That reading is interpretation, but it is interpretation built on two published numbers rather than on a guess.</p>
       <h2>The age order: last of five</h2>
       <p>The developer's age order, oldest first, is Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Harlequin is fifth — the youngest of the introduced cast, and the youngest of the two romance leads by two positions.</p>
@@ -401,7 +401,7 @@ const POSTS_EN: BlogPost[] = [
   {
     slug: 'ticket-types-explained',
     title: 'The Ticket System in The Freak Circus Explained',
-    description: 'The developer has confirmed eight ticket types in The Freak Circus, with pink, red and green carrying specific meanings for the branching.',
+    description: 'The developer has confirmed eight ticket types in The Freak Circus, with pink, red and green carrying specific meanings for how the story branches.',
     date: '2026-10-05',
     tags: ['Tickets', 'Mechanics', 'Branching'],
     image: '/images/characters/ticket-taker-1.webp',
@@ -489,6 +489,8 @@ const POSTS_EN: BlogPost[] = [
         <li><strong>As a silhouette.</strong> The development notes reference flashback silhouettes, which implies that she is visible in the past even while her design is unfinished.</li>
       </ul>
       <p>The fact that she is referenced in the build while still being in production is not a contradiction the developer needs to explain. It is how the work is being done, and it is the reason a careful guide can talk about her without describing her.</p>
+
+      <div class="walkthrough-tip"><strong>A practical way to keep up with her</strong><p>Do not wait for a wiki page to summarise her for you. Watch the short scenes that mention her, note the wording the game itself uses for her, and treat every descriptive detail you find elsewhere as a proposal until the developer shows the finished design. That way the story stays ahead of the speculation, which is the only way this character's development actually gets to surprise you.</p></div>
 
       <h2>How to talk about Columbina responsibly</h2>
       <ul>
@@ -939,7 +941,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'pierrot-height-age-order',
-    title: 'The Freak Circus 中 Pierrot 的身高与年龄顺序',
+    title: 'Pierrot 身高与年龄顺序',
     description: 'Pierrot 身高 198 cm，在官方年龄顺序中位列五人中的第三，本文说明开发者公布的数据，以及同人文库在其之上补充的部分。',
     date: '2026-09-20',
     tags: ['Pierrot', '身高', '角色资料'],
@@ -986,7 +988,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'harlequin-height-age-order',
-    title: 'The Freak Circus 中 Harlequin 的身高与年龄顺序',
+    title: 'Harlequin 身高与年龄顺序',
     description: 'Harlequin 身高 187 cm，是五位已登场角色中最年轻的一位——本文给出开发者公布的数字，以及与之矛盾的粉丝说法。',
     date: '2026-09-24',
     tags: ['Harlequin', '身高', '角色资料'],
@@ -998,7 +1000,7 @@ const POSTS_ZH: BlogPost[] = [
       <div class="walkthrough-note"><strong>范围与来源</strong><p>身高、年龄顺序与力量排名取自开发者公布的图表和 AMA 回答。外形描述、性格概括以及任何具体年龄或生日来自同人文库，均标注为同人来源。本文不会把剧情内的估算当作测量数据。</p></div>
 
       <h2>身高：187 cm</h2>
-      <p>在开发者的身高表中，Harlequin 的条目是 187 cm，约合 6 英尺 1.62 英寸。这让他成为五位已登场角色中最矮的，比 207 cm 的 Doctor 矮 24 厘米，比 Pierrot 矮 11 厘米，比 Jester 矮 5 厘米，比 Ticket Taker 高 4 厘米。</p>
+      <p>在开发者的身高表中，Harlequin 的条目是 187 cm，约合 6 英尺 1.62 英寸。这让他成为五位已登场角色中最矮的，比 207 cm 的 Doctor 矮 20 厘米，比 Pierrot 矮 11 厘米，比 Jester 矮 5 厘米，比 Ticket Taker 高 4 厘米。</p>
       <p>这个数字有意思的地方，在于它和另一组数据的搭配。Harlequin 在开发者的力量排名中与 Jester 并列第二，排在 Pierrot 之后、Doctor 与 Ticket Taker 之前。同人文库把"最年轻、最矮，却并列第二强"这组关系解读为 Harlequin 被写成敏捷而强健、而非沉重有力的原因。这属于解读，但它是建立在两个已公布数字之上的解读，而不是猜测。</p>
       <h2>年龄顺序：五人中的最后一位</h2>
       <p>开发者的年龄顺序（由大到小）是 Ticket Taker、Doctor、Pierrot、Jester、Harlequin。Harlequin 排第五——他是已登场阵容中最年轻的，也是两位恋爱主角中比 Pierrot 小两位的那个。</p>
@@ -1124,7 +1126,7 @@ const POSTS_ZH: BlogPost[] = [
   {
     slug: 'ticket-types-explained',
     title: 'The Freak Circus 门票系统详解',
-    description: '开发者已确认 The Freak Circus 共有 8 种门票，其中粉色、红与绿对剧情分支带有具体含义，本文逐一解释。',
+    description: '开发者已确认 The Freak Circus 共有 8 种门票，其中粉色、红与绿对剧情分支带有具体含义，本文逐一解释这套系统。',
     date: '2026-10-05',
     tags: ['门票', '机制', '分支'],
     image: '/images/characters/ticket-taker-1.webp',
@@ -1173,7 +1175,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'columbina-what-is-known',
-    title: '关于《The Freak Circus》中 Columbina，目前知道些什么',
+    title: '关于 Columbina，目前已知什么',
     description: 'Columbina 塑造了两位主角的背景故事，但她的设计仍在制作之中——本文区分开发者已经确认的部分与同人文库补充的部分。',
     date: '2026-10-07',
     tags: ['Columbina', '背景设定', '角色资料'],
@@ -1213,6 +1215,8 @@ const POSTS_ZH: BlogPost[] = [
       </ul>
       <p>她在版本中被引用、同时仍在制作之中，这不是开发者需要解释的矛盾，而是这款作品的推进方式，也正是严谨的攻略可以谈论她、却不必描述她的原因。</p>
 
+      <div class="walkthrough-tip"><strong>跟进她的实用方式</strong><p>不要等某个 Wiki 页面替你总结她。去看那些提到她的短场景，记下游戏本身对她的措辞，并把别处看到的每一个外形细节都当作提案，直到开发者公开定稿设计。这样才能让剧情始终跑在猜测前面——也只有这样，这个角色的进展才还有可能给你惊喜。</p></div>
+
       <h2>如何负责任地谈论 Columbina</h2>
       <ul>
         <li>每次都明确把同人的说法归于同人。</li>
@@ -1226,7 +1230,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'day-3-release-status',
-    title: '《The Freak Circus》Day 3：发布状态与已核实的进展',
+    title: 'The Freak Circus Day 3：发布状态与已核实进度',
     description: '一份关于《The Freak Circus》Day 3 的核实状态报告——官方开发更新确认了什么、beta 范围意味着什么，以及为什么没有日期。',
     date: '2026-10-10',
     tags: ['Day 3', '开发更新', '事实核查'],
@@ -1290,7 +1294,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'browser-vs-download',
-    title: '浏览器版还是下载版？怎样选择《The Freak Circus》的游玩方式',
+    title: '浏览器版还是下载版？The Freak Circus 怎么玩',
     description: '《The Freak Circus》浏览器版与桌面端、Android 下载版的实用对比，包括两种方式的存档行为有何不同。',
     date: '2026-10-13',
     tags: ['浏览器', '下载', '安装'],
@@ -1351,7 +1355,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'why-only-one-ending',
-    title: '为什么《The Freak Circus》目前只有一个结局',
+    title: '为什么 The Freak Circus 目前只有一个结局',
     description: '《The Freak Circus》只提供一个可玩结局，是因为它是一款原型版——本文说明已实装的坏结局、四个计划中的结局与 Day 3 之间的关系。',
     date: '2026-10-16',
     tags: ['结局', '0.2 版本', '开发'],
@@ -1399,7 +1403,7 @@ const POSTS_ZH: BlogPost[] = [
   },
   {
     slug: 'reading-fan-guides-safely',
-    title: '怎样阅读粉丝攻略而不被错误信息带偏',
+    title: '如何阅读同人攻略而不被误导',
     description: '一套评估任何《The Freak Circus》粉丝攻略的方法——把说法分成已实装、计划中与未核实三类，并识别最常见的错误。',
     date: '2026-10-19',
     tags: ['事实核查', '攻略', '社区'],

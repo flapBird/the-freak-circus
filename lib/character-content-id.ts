@@ -312,7 +312,7 @@ export const characterProfilesId: Record<
       {
         heading: 'Tinggi badan dan detail fisik',
         paragraphs: [
-          `Tabel tinggi developer menempatkan Jester di ${formatHeight(chartFor('jester')).metric}, kira-kira ${formatHeight(chartFor('jester')).imperial}. Dia 6 cm lebih pendek dari Pierrot dan 20 cm lebih pendek dari Doctor.`,
+          `Tabel tinggi developer menempatkan Jester di ${formatHeight(chartFor('jester')).metric}, kira-kira ${formatHeight(chartFor('jester')).imperial}. Dia 6 cm lebih pendek dari Pierrot dan 15 cm lebih pendek dari Doctor.`,
           'Wiki fans menggolongkannya dengan rambut ungu tua yang panjang, topeng putih bertanda hati ungu terbalik dan bintang ungu, jas dinner ungu, serta sarung tangan opera, dan mencatat bahwa dia ambidekter. Deskripsi itu berasal dari fans, bukan pernyataan developer.',
         ],
       },

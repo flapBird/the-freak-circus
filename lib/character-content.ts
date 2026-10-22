@@ -348,7 +348,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: 'Height and physical detail',
           paragraphs: [
-            `The developer's height chart places Jester at ${formatHeight(chartFor('jester')).metric}, roughly ${formatHeight(chartFor('jester')).imperial}. He stands 6 cm shorter than Pierrot and 20 cm shorter than the Doctor.`,
+            `The developer's height chart places Jester at ${formatHeight(chartFor('jester')).metric}, roughly ${formatHeight(chartFor('jester')).imperial}. He stands 6 cm shorter than Pierrot and 15 cm shorter than the Doctor.`,
             'The fandom wiki describes him with long deep-violet hair, a white mask marked with a purple reversed heart and a purple astroid, a violet tailcoat, and opera gloves, and notes that he is ambidextrous. That description is fan-sourced rather than a developer statement.',
           ],
         },
@@ -437,13 +437,13 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: 'Quick answer',
           paragraphs: [
-            'The Doctor is 207 cm tall, which makes him the tallest of the five introduced characters by a clear margin — 9 cm above Pierrot. He is second of five in the developer\'s age order, meaning only the Ticket Taker is older. He ranks fourth of five in strength, and he has no route and no ending.',
+            'The Doctor is 207 cm tall, which makes him the tallest of the five introduced characters by a clear margin — 9 cm above Pierrot. He is second of five in the developer\'s age order, meaning only the Ticket Taker is older. He ranks third of five in strength, and he has no route and no ending.',
           ],
         },
         {
           heading: 'Who the Doctor is',
           paragraphs: [
-            'The fandom wiki describes the Doctor as a secondary antagonist or possibly a neutral figure, and gives him two sides: calm and composed in one, impassioned and sadistic in the other. That is a useful way to read his scenes, because the shift is described as visible — his eyes flashing red when a particular emotion takes over. The wiki also notes that he prefers wit over brute force, which is consistent with a character who is both the tallest and only fourth in raw strength.',
+            'The fandom wiki describes the Doctor as a secondary antagonist or possibly a neutral figure, and gives him two sides: calm and composed in one, impassioned and sadistic in the other. That is a useful way to read his scenes, because the shift is described as visible — his eyes flashing red when a particular emotion takes over. The wiki also notes that he prefers wit over brute force, which is consistent with a character who is both the tallest and only third in raw strength.',
             'He is also the character most likely to be misrepresented as having a route. The idea of a Doctor route with a "good ending" circulates in several older guides, and it does not correspond to anything the developer has described.',
           ],
         },
@@ -458,7 +458,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
           heading: 'Age order and strength',
           paragraphs: [
             'The Doctor is second of five in the official age order, oldest first: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Only the Ticket Taker is older than him.',
-            'In the strength ranking he comes fourth, ahead of the Ticket Taker and behind Pierrot, Harlequin, and Jester. Being the tallest and the fourth strongest is the interesting combination here: the Doctor is large rather than powerful, and the fandom description of him preferring wit over force is exactly what you would expect from that.',
+            'In the strength ranking he comes third, ahead of the Ticket Taker and behind Pierrot, Harlequin, and Jester. Being the tallest and the third strongest is the interesting combination here: the Doctor is large rather than powerful, and the fandom description of him preferring wit over force is exactly what you would expect from that.',
           ],
         },
         {
@@ -480,7 +480,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
             'The Doctor\'s page has more fan-derived material relative to official material than any other character in the cast, largely because he has no route and therefore no first-party narrative description of one.',
           ],
           list: [
-            'Confirmed by the developer: his height as the tallest of the five, his second position in the age order, his fourth position in the strength ranking, and that he has no route.',
+            'Confirmed by the developer: his height as the tallest of the five, his second position in the age order, his third position in the strength ranking, and that he has no route.',
             'From the current build: his appearance, his scenes, and the way his composure breaks.',
             'Fan-derived: the experiments and specimens attributed to his tent, his personal history, and the character trivia about his tastes.',
           ],
@@ -497,7 +497,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         },
         {
           question: 'Is the Doctor the strongest?',
-          answer: 'No. He ranks fourth in the developer\'s strength list, behind Pierrot, Harlequin and Jester.',
+          answer: 'No. He ranks third in the developer\'s strength list, behind Pierrot and the tied Harlequin and Jester.',
         },
         {
           question: 'Does the Doctor have a route?',
@@ -838,7 +838,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: '身高与外形',
           paragraphs: [
-            `开发者身高表将 Jester 列为 ${formatHeight(chartFor('jester')).metric}，约 ${formatHeight(chartFor('jester')).imperial}。他比 Pierrot 矮 6 cm，比 Doctor 矮 20 cm。`,
+            `开发者身高表将 Jester 列为 ${formatHeight(chartFor('jester')).metric}，约 ${formatHeight(chartFor('jester')).imperial}。他比 Pierrot 矮 6 cm，比 Doctor 矮 15 cm。`,
             '同人 Wiki 描述他有深紫色长发至腰、白面具上的紫色反向心形与紫色星芒、紫色燕尾礼服与长礼服手套，并指出他双手皆惯。该描述来自同人而非开发者声明。',
           ],
         },
@@ -900,13 +900,13 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
         {
           heading: '速览',
           paragraphs: [
-            'Doctor 身高 207 cm，是五位已登场角色中最高的，且领先明显——比 Pierrot 高 9 cm。他在开发者年龄顺序中列第 2 位，只有 Ticket Taker 比他年长。他在力量排名中列第 4 位，并且没有路线也没有结局。',
+            'Doctor 身高 207 cm，是五位已登场角色中最高的，且领先明显——比 Pierrot 高 9 cm。他在开发者年龄顺序中列第 2 位，只有 Ticket Taker 比他年长。他在力量排名中列第 3 位，并且没有路线也没有结局。',
           ],
         },
         {
           heading: 'Doctor 是谁',
           paragraphs: [
-            '同人 Wiki 把他描述为次要反派，或可能是中立角色，并给出两面性：一面冷静沉着，一面激情而残忍。这个读法对理解他的场景很有用，因为这种转变被描述为肉眼可见——当某种情绪涌上来时，他的眼睛会闪成红色。Wiki 还指出他宁取巧思而不取蛮力，这与一个"最高但力量仅第四"的角色完全吻合。',
+            '同人 Wiki 把他描述为次要反派，或可能是中立角色，并给出两面性：一面冷静沉着，一面激情而残忍。这个读法对理解他的场景很有用，因为这种转变被描述为肉眼可见——当某种情绪涌上来时，他的眼睛会闪成红色。Wiki 还指出他宁取巧思而不取蛮力，这与一个"最高但力量仅第三"的角色完全吻合。',
             '他同时也是最容易被误写成有路线的一位。带有"好结局"的 Doctor 路线出现在若干较早的攻略里，但这与开发者描述过的任何内容都不对应。',
           ],
         },
@@ -921,7 +921,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
           heading: '年龄顺序与力量',
           paragraphs: [
             'Doctor 在官方年龄顺序中列第 2 位（由大到小）：Ticket Taker、Doctor、Pierrot、Jester、Harlequin。只有 Ticket Taker 比他年长。',
-            '在力量排名中他列第 4，位于 Ticket Taker 之前、位于 Pierrot、Harlequin 与 Jester 之后。最高却排第四强，这个组合正是他有趣的地方：Doctor 体格巨大但力量有限，而同人描述中他"宁取巧思不取蛮力"，恰好符合这一设定。',
+            '在力量排名中他列第 3，位于 Ticket Taker 之前、位于 Pierrot 以及并列的 Harlequin 与 Jester 之后。最高却排第三强，这个组合正是他有趣的地方：Doctor 体格巨大但力量有限，而同人描述中他"宁取巧思不取蛮力"，恰好符合这一设定。',
           ],
         },
         {
@@ -943,7 +943,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
             '在整个角色群中，Doctor 页面上的同人材料相对于官方材料的比例最高，主要原因正是他没有路线，因此也就没有第一方叙事来描述这条路线。',
           ],
           list: [
-            '开发者已确认：身高为五人最高、年龄顺序第 2 位、力量排名第 4 位，以及他没有路线。',
+            '开发者已确认：身高为五人最高、年龄顺序第 2 位、力量排名第 3 位，以及他没有路线。',
             '来自当前版本：他的外形、场景，以及他镇定状态被打破的方式。',
             '源自粉丝：归于他帐篷的实验与标本、他的个人经历，以及关于其喜好的角色趣闻。',
           ],
@@ -952,7 +952,7 @@ export const characterProfiles: Record<EditorialLocale, Record<CharacterSlug, Ch
       faq: [
         { question: 'Doctor 身高多少？', answer: '207 cm，约 6 英尺 9.5 英寸——五位角色中最高，比 Pierrot 高 9 cm。' },
         { question: 'Doctor 是最年长的吗？', answer: '他排第二年长。官方年龄顺序（由大到小）为 Ticket Taker、Doctor、Pierrot、Jester、Harlequin。' },
-        { question: 'Doctor 最强吗？', answer: '不是。他在开发者力量列表中列第 4，位于 Pierrot、Harlequin 与 Jester 之后。' },
+        { question: 'Doctor 最强吗？', answer: '不是。他在开发者力量列表中列第 3，位于 Pierrot 以及并列的 Harlequin 与 Jester 之后。' },
         { question: 'Doctor 有路线吗？', answer: '没有。开发者已确认不存在 Doctor 路线。' },
         { question: 'Doctor 有好结局吗？', answer: '没有。当前版本中 Doctor 既无路线也无结局，唯一存在的结局是 Day 1 的 "Missing" 恶性结局。' },
         { question: 'Doctor 有 "Clean Hands" 结局吗？', answer: '没有。该说法出现在部分粉丝页面，但没有任何第一方来源支持，本站不将其列为事实。' },
