@@ -19,6 +19,22 @@ export default function HomeContent({ locale }: { locale: string }) {
   const copy = lang === 'zh' ? zhCopy : enCopy;
   const characterDescriptions = lang === 'zh' ? zhCharacterDescriptions : enCharacterDescriptions;
   const latestNews = getNewsPosts(locale).slice(0, 3);
+  // The guide hub is the internal-link path into the pages that answer the
+  // most-searched questions about this game. Without it, those pages are
+  // reachable only through the sitemap, which is a weak discovery signal.
+  const guideCards = lang === 'zh'
+    ? [
+        { href: '/endings', title: '结局与路线', text: '当前版本唯一能玩到的结局，以及四个仍在开发中的计划结局。', cta: '查看结局全解' },
+        { href: '/characters/heights', title: '身高与年龄顺序', text: '开发者公布的身高表、年龄顺序与力量排名。', cta: '查看完整榜单' },
+        { href: '/save', title: '存档与继续', text: '引擎实际支持什么，以及哪些存档细节开发者从未公布。', cta: '查看存档说明' },
+        { href: '/faq', title: '常见问题', text: '游玩、下载、结局、角色问题的简明答案。', cta: '查看 FAQ' },
+      ]
+    : [
+        { href: '/endings', title: 'Endings and routes', text: 'The one ending you can reach today, and the four that are still in development.', cta: 'See the endings guide' },
+        { href: '/characters/heights', title: 'Heights and age order', text: 'The developer’s published height chart, age order, and strength ranking.', cta: 'See the full chart' },
+        { href: '/save', title: 'Saving and resuming', text: 'What the engine actually supports, and which save details were never documented.', cta: 'See the saving guide' },
+        { href: '/faq', title: 'Frequently asked questions', text: 'Short answers on playing, downloading, endings, and characters.', cta: 'Read the FAQ' },
+      ];
 
   return (
     <>
@@ -105,6 +121,24 @@ export default function HomeContent({ locale }: { locale: string }) {
             </div>
             <div className="how-to-play-action">
               <a className="button-primary" href="#play">{copy.howCta} ↑</a>
+            </div>
+          </div>
+        </section>
+
+        <section className="page-section page-section-tinted">
+          <div className="page-container">
+            <div className="section-heading character-section-heading">
+              <h2>{copy.guidesTitle}</h2>
+            </div>
+            <p className="section-lead">{copy.guidesLead}</p>
+            <div className="guide-hub-grid">
+              {guideCards.map((card) => (
+                <Link key={card.href} href={`${p}${card.href}`} className="guide-hub-card">
+                  <h3>{card.title}</h3>
+                  <p>{card.text}</p>
+                  <span>{card.cta} →</span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
@@ -257,6 +291,8 @@ const enCopy = {
     { title: 'Continue safely', text: 'Keep browser data intact if you rely on browser saves, or use the official download page for the supported desktop and Android builds.' },
   ],
   howCta: 'Start playing',
+  guidesTitle: 'PRACTICAL GUIDES',
+  guidesLead: 'Direct answers to the questions players search for most, each one checked against the developer’s own published sources.',
   updateTitle: 'LATEST UPDATES',
   allUpdates: 'View all updates',
   readUpdate: 'Read full update',
@@ -305,6 +341,8 @@ const zhCopy: typeof enCopy = {
     { title: '安全地继续进度', text: '依赖浏览器存档时不要清除该站点的浏览器数据；也可以通过官方下载页获取受支持的桌面版和 Android 版。' },
   ],
   howCta: '开始游玩',
+  guidesTitle: '实用指南',
+  guidesLead: '针对玩家搜索最多的几个问题给出的直接答案，每一条都对照开发者自己公布的资料核实过。',
   updateTitle: '最新更新',
   allUpdates: '查看全部更新',
   readUpdate: '阅读完整更新',

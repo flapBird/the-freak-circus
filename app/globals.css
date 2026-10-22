@@ -908,3 +908,12 @@ button:focus-visible,
 .character-siblings a { display: grid; gap: .2rem; padding: .8rem 1rem; border: 1px solid var(--color-border); border-radius: 12px; background: rgba(255,255,255,.03); color: #fff; text-decoration: none; font-weight: 800; transition: border-color .2s ease, background-color .2s ease; }
 .character-siblings a:hover { border-color: var(--color-violet); background: rgba(154,103,255,.08); }
 .character-siblings small { color: #a99fb0; font-weight: 400; font-size: .82rem; }
+
+/* Homepage guide hub: the internal-link path into the high-intent guide pages */
+.section-lead { max-width: 62ch; margin: .9rem auto 2rem; color: #b7acb9; font-size: 1.05rem; line-height: 1.75; text-align: center; }
+.guide-hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.guide-hub-card { display: flex; flex-direction: column; gap: .6rem; padding: 1.35rem 1.45rem; border: 1px solid var(--color-border); border-radius: 16px; background: var(--color-card); text-decoration: none; transition: border-color .2s ease, transform .2s ease, background-color .2s ease; }
+.guide-hub-card:hover { border-color: var(--color-violet); transform: translateY(-2px); }
+.guide-hub-card h3 { color: #fff; font: 800 1.16rem ui-sans-serif, system-ui, sans-serif; letter-spacing: -.01em; }
+.guide-hub-card p { color: #c2b7c5; font-size: .98rem; line-height: 1.65; }
+.guide-hub-card span { margin-top: auto; color: var(--color-gold); font: 700 .88rem 'Courier Prime', monospace; }

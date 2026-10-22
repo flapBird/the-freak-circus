@@ -75,6 +75,19 @@ export default async function BlogPage({ params: { locale } }: Props) {
         })}
         </div>
       </section>
+
+      <section className="page-section page-container">
+        <div className="reference-card">
+          <h2>{zh ? '常用指南' : 'Frequently used guides'}</h2>
+          <div className="blog-related-list">
+            <Link href={`${p}/endings`}><span>{zh ? '结局与路线' : 'Endings and routes'}</span><small>{zh ? '已实装与计划中的区分' : 'Implemented vs planned'} →</small></Link>
+            <Link href={`${p}/characters/heights`}><span>{zh ? '身高与年龄顺序' : 'Heights and age order'}</span><small>{zh ? '官方完整数据' : 'The full official chart'} →</small></Link>
+            <Link href={`${p}/save`}><span>{zh ? '存档与继续' : 'Saving and resuming'}</span><small>{zh ? '已确认与未确认的部分' : 'Confirmed and unconfirmed'} →</small></Link>
+            <Link href={`${p}/download`}><span>{zh ? '下载与游玩' : 'Download and play'}</span><small>{zh ? '官方页面与各平台' : 'The official page and platforms'} →</small></Link>
+            <Link href={`${p}/faq`}><span>{zh ? '常见问题' : 'FAQ'}</span><small>{zh ? '全站精简版' : 'The short version of the site'} →</small></Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
