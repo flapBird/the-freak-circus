@@ -86,13 +86,31 @@ All application pages live under `app/[locale]/`. Next.js rewrites expose Englis
 | Simplified Chinese | `/zh/characters/pierrot` |
 | Portuguese | `/pt/characters/pierrot` |
 
-The locale list is defined in `lib/seo.ts`. All seven locale routes are generated, but only the reviewed English and Simplified Chinese editions are currently indexable. Portuguese, Filipino, Vietnamese, Spanish, and Indonesian remain available to visitors and are marked `noindex` until their editorial content has been reviewed.
+The locale list is defined in `lib/seo.ts`. All seven locale routes are generated. Indexability is decided **per page, per language**, not by a single site-wide switch: a locale is indexed for a page only when that page's body text actually exists in that language.
+
+| Page group | Indexed locales |
+| --- | --- |
+| Guide pages (`/endings`, `/characters/heights`, `/save`, `/faq`) | en, zh, es, pt, vi, id |
+| Character profiles | en, zh, es, pt, vi, id, fil |
+| Blog posts | en, zh (per slug) |
+| Core pages (home, wiki, day-3, about, …) | en, zh |
+
+A page whose content falls back to English is marked `noindex, follow` in that locale, and its `hreflang` cluster only advertises locales where a real translation exists. This avoids the self-inflicted mismatch where a Spanish URL serves English body copy while declaring `hreflang="es"`.
+
+The mechanism lives in three files:
+
+- `lib/game-facts.ts` — verified first-party facts with source links. Heights, ages, endings, and platforms come from here, never from prose.
+- `lib/editorial-content.ts` — resolves content for a locale and reports which locales have a translation.
+- `lib/content-availability.ts` — the per-page availability lists, derived from the translation modules so they cannot drift from what is actually published.
 
 Localization is split into two layers:
 
 - `messages/*.json` contains shared navigation and UI strings.
 - `messages/content/*.json` contains structured, locale-specific content such as news entries.
-- `lib/site-content.ts` contains source-led editorial copy and canonical external links. Editorial pages currently provide dedicated English and Chinese copy; the other routes fall back to English for this layer.
+- `lib/site-content.ts` contains source-led editorial copy and canonical external links.
+- `lib/topic-content*.ts` and `lib/character-content-*.ts` contain the long-form guide and character content, one file per locale.
+
+To add a locale's guide pages: write `lib/topic-content-<locale>.ts` exporting `guideContent<Locale>`, register it in `lib/editorial-content.ts`, and it becomes indexable for that locale automatically. Translations supply only the editorial fields — measurements are always merged from the official height chart in `lib/game-facts.ts` so a translation can never alter a published number.
 
 When adding a locale, update the locale declarations in `lib/seo.ts`, `components/LocaleSwitcher.tsx`, both message loaders, the relevant JSON files, and the routing rules in `next.config.js`.
 
@@ -104,9 +122,12 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 │   ├── [locale]/
 │   │   ├── layout.tsx          # Locale validation, metadata, analytics, shell
 │   │   ├── page.tsx            # Home page
-│   │   ├── characters/         # Character index and detail routes
+│   │   ├── characters/         # Character index, detail routes, and the height chart
 │   │   ├── fan-art/            # Community artwork gallery
 │   │   ├── blog/               # Article index and detail routes
+│   │   ├── endings/            # Endings and routes guide
+│   │   ├── save/               # Saving and resuming guide
+│   │   ├── faq/                # Master FAQ
 │   │   └── ...                 # Wiki, updates, download, legal, and other pages
 │   ├── robots.ts               # robots.txt metadata route
 │   ├── sitemap.xml/route.ts     # Dynamically generated XML sitemap
@@ -114,6 +135,7 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 ├── components/
 │   ├── FanArtGrid.tsx           # Artwork grid and accessible image dialog
 │   ├── GameEmbed.tsx            # Main game player
+│   ├── GuidePageLayout.tsx      # Shared layout for the guide pages
 │   ├── Header.tsx               # Navigation and locale controls
 │   ├── HomeContent.tsx          # Home-page sections
 │   ├── PageShell.tsx            # Shared header/footer shell
@@ -124,11 +146,17 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 │   └── community-posts.ts       # Curated community feed
 ├── lib/
 │   ├── blog-posts.ts            # Localized article records
+│   ├── character-content.ts     # Character profile content and the chart merge helper
+│   ├── content-availability.ts  # Which locales have a real translation of what
+│   ├── editorial-content.ts     # Locale resolver across all content modules
+│   ├── game-facts.ts            # Verified first-party facts with source links
 │   ├── localized-content.ts     # Structured-content locale loader
 │   ├── messages.ts              # UI-message locale loader
 │   ├── news.ts                  # Update helpers
 │   ├── seo.ts                   # Site constants and metadata builder
-│   └── site-content.ts          # Editorial content and official source URLs
+│   ├── site-content.ts          # Editorial content and official source URLs
+│   ├── topic-content.ts         # Guide page content (English and Chinese)
+│   └── topic-content-*.ts       # Per-locale guide page translations
 ├── messages/
 │   ├── content/                 # Structured content by locale
 │   └── *.json                   # Shared UI messages by locale
@@ -143,6 +171,21 @@ When adding a locale, update the locale declarations in `lib/seo.ts`, `component
 ### Character and editorial content
 
 Edit `lib/site-content.ts` for character profiles, official source URLs, and source-led English/Chinese copy. Character slugs are explicit; keep links, images, and any redirect rules synchronized when changing one.
+
+The deep character profiles live in `lib/character-content.ts` (English and Chinese) with per-locale translations in `lib/character-content-<locale>.ts`. A translation supplies only the editorial fields — `role`, `intro`, `sections`, and `faq`. The measurements (`cm`, `ageOrder`, `strengthRank`, …) are merged in from the official height chart via the exported `profile()` helper, so a translated page can never report a different number than the English one.
+
+### Guide pages
+
+`/endings`, `/characters/heights`, `/save`, and `/faq` are driven by `lib/topic-content.ts` (English and Chinese) and `lib/topic-content-<locale>.ts` for other languages. Each page record holds a `quickFacts` table, a list of `sections`, and an `faq` array, all rendered by `components/GuidePageLayout.tsx`.
+
+When you add a guide page:
+
+1. Add it to the `guideContent` record in `lib/topic-content.ts` for English and Chinese.
+2. Register the slug in `lib/content-availability.ts` under `GUIDE_LOCALES` so the sitemap and hreflang pick it up.
+3. Add the path to `staticPaths` in `app/sitemap.xml/route.ts`.
+4. Add a rewrite for the prefix-free English URL in `next.config.js`. **A new root-level page that is missing its rewrite returns 404 at the root even though the locale-prefixed URL works** — this is the single easiest mistake to make when adding a page here.
+
+The `related` array in a guide record holds internal slugs and must be copied verbatim between locales; only the visible text is translated.
 
 ### Blog posts and updates
 
@@ -182,7 +225,8 @@ Follow [IMAGES.md](IMAGES.md) for the current home-page and character naming con
 - Page metadata and canonical URLs are built through `lib/seo.ts`.
 - The sitemap is generated at request time by `app/sitemap.xml/route.ts` and cached for one hour at the edge.
 - English is the `x-default` language and uses prefix-free canonical URLs.
-- Only locales in `INDEXABLE_LOCALES` are included in `hreflang` and sitemap output.
+- A locale appears in `hreflang` and in the sitemap only when that page has a reviewed translation in it. `buildMetadata` takes `availableLocales` and `locale`; when the active locale is outside that list the page is marked `noindex, follow` automatically.
+- The root URL uses a trailing slash consistently across the canonical, the `hreflang` cluster, and the sitemap entry, so the homepage does not present two live variants of itself.
 - Google Fonts, Google AdSense, optional GA4, game iframes, and linked third-party sources may make external requests in the browser.
 - The main game iframe is sandboxed and lazy-started.
 

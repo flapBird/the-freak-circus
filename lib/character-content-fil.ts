@@ -78,7 +78,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          'Naglathala rin ang developer ng raw ranking ng pisikal na lakas, at nasa unang lugar si Pierrot — ahead ng Harlequin at Jester na magkatie sa ikalawa, saka ang Doctor, at sa dulo ang Ticket Taker. Inilathala ang ranking na ito bilang panig ng isang tanong mula sa isang fan at hindi bilang mekanismo ng laro, kaya mas maituturing itong paglalarawan ng karakter: ang pinakamalakas na miyembro ng sirko ay siya ring pinakamahigpit sa sarili.',
+          'Naglathala rin ang developer ng raw ranking ng pisikal na lakas, at nasa ${ordinal(chartFor('pierrot').strengthRank)} lugar si Pierrot — ahead ng Harlequin at Jester na magkatie sa ikalawa, saka ang Doctor, at sa dulo ang Ticket Taker. Inilathala ang ranking na ito bilang panig ng isang tanong mula sa isang fan at hindi bilang mekanismo ng laro, kaya mas maituturing itong paglalarawan ng karakter: ang pinakamalakas na miyembro ng sirko ay siya ring pinakamahigpit sa sarili.',
         ],
       },
       {
@@ -122,7 +122,7 @@ export const characterProfilesFil: Record<
           'Para malinaw ang pagkakaiba, ganito ang paghahati ng materyal sa pahinang ito.',
         ],
         list: [
-          'Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang unang lugar sa ranking ng lakas, ang paglalarawan sa kanya bilang "the silent yandere", ang kanyang tungkulin bilang isa sa dalawang lead, at ang katotohanan na binalak ang romance ending ni Pierrot.',
+          `Kinukumpirma ng developer: ang kanyang taas, ang kanyang posisyon sa age order, ang kanyang ${ordinal(chartFor('pierrot').strengthRank)} lugar sa ranking ng lakas, ang paglalarawan sa kanya bilang "the silent yandere", ang kanyang tungkulin bilang isa sa dalawang lead, at ang katotohanan na binalak ang romance ending ni Pierrot.`,
           'Mula sa kasalukuyang build: ang kanyang anyo, ang kanyang mga eksena, at ang paraan ng kanyang pagtugon sa protagonist.',
           'Mula sa fandom: ang buong deskripsiyon ng kostume at maskara, ang dahilan sa loob ng kuwento ng kanyang katahimikan, ang kanyang personal na kasaysayan, at ang mga espesipiko ng kanyang relasyon sa iba pang karakter.',
         ],
@@ -140,12 +140,12 @@ export const characterProfilesFil: Record<
       {
         question: 'Mas matanda ba si Pierrot kaysa Harlequin?',
         answer:
-          'Oo. Ang Harlequin ang pinakamabata sa limang, at si Pierrot ang pangatlong pinakamamatanda.',
+          `Oo. Ang Harlequin ang pinakamabata sa limang, at si Pierrot ang ${ordinal(chartFor('pierrot').ageOrder)} pinakamamatanda.`,
       },
       {
         question: 'Ang pinakamalakas ba si Pierrot?',
         answer:
-          'Oo. Nasa unang lugar siya sa strength list na inilathala ng developer, ahead ng Harlequin at Jester na magkatie sa ikalawa.',
+          `Oo. Nasa ${ordinal(chartFor('pierrot').strengthRank)} lugar siya sa strength list na inilathala ng developer, ahead ng Harlequin at Jester na magkatie sa ikalawa.`,
       },
       {
         question: 'Puwede bang makipag-relationship kay Pierrot?',
@@ -224,7 +224,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          'Nagtataya ang Harlequin ng ikalawang lugar sa ranking ng lakas ng developer kasama si Jester, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Kasama ang pagiging pinakamabata at pinakababa, siya ay patuloy na inilalarawan bilang pinakamabilis sa grupo at hindi pinakamabigat — itinatala rin ng fandom wiki na magkatie sila ng Jester sa ikalawang kategorya para sa raw na pisikal na lakas.',
+          `Nagtataya ang Harlequin ng ${ordinal(chartFor('harlequin').strengthRank)} lugar sa ranking ng lakas ng developer kasama si Jester, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Kasama ang pagiging pinakamabata at pinakababa, siya ay patuloy na inilalarawan bilang pinakamabilis sa grupo at hindi pinakamabigat — itinatala rin ng fandom wiki na magkatie sila ng Jester sa ikalawang kategorya para sa raw na pisikal na lakas.`,
         ],
       },
       {
@@ -339,7 +339,7 @@ export const characterProfilesFil: Record<
       {
         heading: 'Ranking ng lakas',
         paragraphs: [
-          'Nagtataya ang Jester ng ikalawang lugar kasama si Harlequin sa ranking ng lakas ng developer, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Gaya ng sa Harlequin, itinala ng fandom wiki siya bilang makapangyarihan, pero hindi siya makapagpantay sa Pierrot sa raw na lakas.',
+          `Nagtataya ang Jester ng ${ordinal(chartFor('jester').strengthRank)} lugar kasama si Harlequin sa ranking ng lakas ng developer, sa likuran ng Pierrot at sa unahan ng Doctor at ng Ticket Taker. Gaya ng sa Harlequin, itinala ng fandom wiki siya bilang makapangyarihan, pero hindi siya makapagpantay sa Pierrot sa raw na lakas.`,
         ],
       },
       {
@@ -400,7 +400,7 @@ export const characterProfilesFil: Record<
       {
         question: 'Ang pinakamalakas ba si Jester?',
         answer:
-          'Wala — nasa unang lugar si Pierrot. Nagtataya ang Jester ng ikalawang lugar kasama si Harlequin.',
+          `Wala — nasa ${ordinal(chartFor('pierrot').strengthRank)} lugar si Pierrot. Nagtataya ang Jester ng ${ordinal(chartFor('jester').strengthRank)} lugar kasama si Harlequin.`,
       },
       {
         question: 'Puwede bang makipag-relationship kay Jester?',
@@ -474,7 +474,7 @@ export const characterProfilesFil: Record<
       {
         question: 'Ang pinakamamatanda ba ang Doctor?',
         answer:
-          'Ikalawa siya mula sa pinakamatanda. Ang opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata, ay Ticket Taker, Doctor, Pierrot, Jester, Harlequin.',
+          `Nasa ${ordinal(chartFor('the-doctor').ageOrder)} lugar siya sa opisyal na age order, mula sa pinakamatanda patungo sa pinakamabata: Ticket Taker, Doctor, Pierrot, Jester, Harlequin. Ibig sabihin, ang Ticket Taker lang ang mas matanda sa kanya.`,
       },
       {
         question: 'Ang pinakamalakas ba ang Doctor?',
