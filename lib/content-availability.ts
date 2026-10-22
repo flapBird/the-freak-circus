@@ -23,6 +23,7 @@ export type EditorialLocale = (typeof EDITORIAL_LOCALES)[number];
 // The locale lists below are derived from the translation modules, so they
 // always reflect which languages actually have reviewed content.
 import { characterLocales, guideLocales } from './editorial-content';
+import { BLOG_LOCALES as derivedBlogLocales } from './blog-posts';
 
 /** Locales that always have the shared UI chrome and character copy. */
 export const UI_LOCALES: readonly Locale[] = ALL_LOCALES;
@@ -74,9 +75,10 @@ export const CORE_LOCALES: Record<string, readonly Locale[]> = {
 /**
  * Blog posts are indexed per slug, because each post is translated
  * independently. Posts without a reviewed translation stay out of the
- * sitemap for that locale.
+ * sitemap for that locale. The list is derived from the post arrays, so it
+ * can never disagree with what is actually published.
  */
-export const BLOG_LOCALES: Record<string, readonly Locale[]> = {};
+export const BLOG_LOCALES: Record<string, readonly Locale[]> = derivedBlogLocales;
 
 export function isLocale(value: string): value is Locale {
   return (ALL_LOCALES as readonly string[]).includes(value);

@@ -10,7 +10,7 @@ Official measurements, as published by the developer: heights are Doctor 207 cm,
 
 Interpretation guidance: development posts about writing, programming, artwork, backgrounds, sprites, or testing confirm ongoing work but do not constitute a release announcement. Do not infer release dates, countdowns, finished routes, endings, save compatibility, or downloadable Day 3 builds unless an official public release explicitly confirms them. The developer has not documented save locations, save slot counts, autosave behaviour, or browser-to-desktop save transfer, so treat those specifics as unverified rather than settled.
 
-The site is maintained in English and Simplified Chinese. English URLs are canonical at the site root; reviewed Chinese pages use the `/zh` prefix. Other legacy locale URLs may remain available but are not currently intended for search indexing.
+The site is maintained in English and Simplified Chinese as the reviewed editorial editions. Additional locale editions exist where a full translation has been reviewed: guide pages are available in Spanish (`/es`), Portuguese (`/pt`), Vietnamese (`/vi`), and Indonesian (`/id`), and character profiles in Spanish and Portuguese. Every page is indexed in a language only when its body text actually exists in that language — a page that falls back to English is marked noindex rather than advertised as a translation. English URLs are canonical at the site root; other languages use the `/<locale>` prefix.
 
 ## Core guides
 
@@ -42,6 +42,16 @@ The site is maintained in English and Simplified Chinese. English URLs are canon
 - [Current prototype guide](https://thefreakcircus.help/blog/current-prototype-guide): Summary of what Version 0.2 currently contains.
 - [Day 3 release-rumor checklist](https://thefreakcircus.help/blog/day-3-rumor-checklist): How to distinguish confirmed development activity from unsupported release claims.
 - [Browser or download guide](https://thefreakcircus.help/blog/browser-or-download): Comparison of official ways to play the current build.
+- [Pierrot height and age order](https://thefreakcircus.help/blog/pierrot-height-age-order): The official numbers, where the fandom fills the gaps, and what "third oldest" actually means.
+- [Harlequin height and age order](https://thefreakcircus.help/blog/harlequin-height-age-order): The official numbers and the fan claims that contradict them.
+- [The endings list](https://thefreakcircus.help/blog/the-freak-circus-endings-list): One implemented ending, four planned conclusions, and the routes that do not exist.
+- [The five characters](https://thefreakcircus.help/blog/five-characters-overview): One page covering all five, with height, ranking, and route status.
+- [The ticket system](https://thefreakcircus.help/blog/ticket-types-explained): The eight confirmed ticket types and what the colours mean.
+- [What is known about Columbina](https://thefreakcircus.help/blog/columbina-what-is-known): What the developer has confirmed, what the fandom adds, and why her design is still in production.
+- [Day 3 release status](https://thefreakcircus.help/blog/day-3-release-status): Current release status and verified progress, without the date rumours.
+- [Browser version or download](https://thefreakcircus.help/blog/browser-vs-download): Which way to play, and how to protect your progress either way.
+- [Why there is only one ending](https://thefreakcircus.help/blog/why-only-one-ending): The build reality behind the most common fan-guide error.
+- [Reading fan guides safely](https://thefreakcircus.help/blog/reading-fan-guides-safely): How to tell a sourced guide from a plausible-sounding guess.
 
 ## Official primary sources
 

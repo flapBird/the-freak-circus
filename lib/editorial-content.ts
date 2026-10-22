@@ -23,15 +23,16 @@ import { characterProfiles, profile } from './character-content';
 import { characterProfilesEs } from './character-content-es';
 import { characterProfilesPt } from './character-content-pt';
 
-export type ResolvedLocale = 'en' | 'zh' | 'es' | 'pt' | 'vi' | 'id';
+export type ResolvedLocale = 'en' | 'zh' | 'es' | 'pt' | 'vi' | 'id' | 'fil';
 
-const GUIDE_SOURCES: Record<ResolvedLocale, Record<string, GuidePage> | undefined> = {
+const GUIDE_SOURCES: Partial<Record<ResolvedLocale, Record<string, GuidePage>>> = {
   en: guideContent.en,
   zh: guideContent.zh,
   es: guideContentEs,
   pt: guideContentPt,
   vi: guideContentVi,
   id: guideContentId,
+  // Filipino is added once its translation module lands.
 };
 
 // The English and Chinese records carry the numeric fields as well, so they
@@ -46,9 +47,10 @@ const CHARACTER_SOURCES: Record<ResolvedLocale, Record<string, CharacterProfile>
   zh: characterProfiles.zh,
   es: mergeCharacterLocales(characterProfilesEs),
   pt: mergeCharacterLocales(characterProfilesPt),
-  // Vietnamese and Indonesian character profiles are still in translation.
+  // Vietnamese, Indonesian and Filipino character profiles are still in translation.
   vi: undefined,
   id: undefined,
+  fil: undefined,
 };
 
 function mergeCharacterLocales(

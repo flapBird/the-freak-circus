@@ -40,6 +40,9 @@ const nextConfig = {
       { source: '/', destination: '/en' },
       { source: '/about', destination: '/en/about' },
       { source: '/characters', destination: '/en/characters' },
+      // The static heights page must be listed before the dynamic slug rule,
+      // otherwise /characters/heights resolves as a character slug.
+      { source: '/characters/heights', destination: '/en/characters/heights' },
       { source: '/characters/:slug', destination: '/en/characters/:slug' },
       { source: '/wiki', destination: '/en/wiki' },
       { source: '/day-3', destination: '/en/day-3' },
@@ -52,6 +55,9 @@ const nextConfig = {
       { source: '/contact', destination: '/en/contact' },
       { source: '/privacy', destination: '/en/privacy' },
       { source: '/terms', destination: '/en/terms' },
+      { source: '/endings', destination: '/en/endings' },
+      { source: '/save', destination: '/en/save' },
+      { source: '/faq', destination: '/en/faq' },
     ];
   },
 };

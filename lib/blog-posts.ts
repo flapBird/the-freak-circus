@@ -38,7 +38,7 @@ const POSTS_EN: BlogPost[] = [
       <h2>The captive-room opening: read the contrast, not an affection meter</h2>
       <p>The day opens with the protagonist restrained in an unfamiliar room. Pierrot frames his actions as protection; Harlequin's arrival turns that claim into a confrontation. The scene matters because it establishes how differently the two rivals exert control, not because it asks you to select a permanent romance route.</p>
       <p>For a first playthrough, answer in the way that feels natural and keep moving. On a replay, return to the <strong>CAPTIVE ROOM</strong> save and change one response at a time. That makes it obvious whether you found a genuine scene variation or merely a different line.</p>
-      <div class="walkthrough-tip"><strong>Do not over-read the props.</strong><p>The mask and red ticket are meaningful story objects, but version 0.2 does not establish a conventional inventory where collecting them unlocks future endings. Treat them as part of the scene unless the game itself presents a later interaction.</p></div>
+      <div class="walkthrough-tip"><strong>Do not over-read the props.</strong><p>The mask and red ticket are meaningful story objects, but version 0.2 does not establish a conventional inventory where collecting them unlocks future endings. Ticket colours do carry confirmed meaning in this game — red and green mark a choice the protagonist makes, and pink sits below the main cast — but that is a branching signal rather than a collectible checklist. Treat the mask as a scene object unless the game itself presents a later interaction.</p></div>
 
       <h2>Returning to the circus: how to explore the tents</h2>
       <p>The circus section broadens the cast through themed spaces. The best strategy is simple: save before entering, finish the scene without skipping, and then use that save for the next variation. Do not assume that a character introduction is a complete route.</p>
@@ -93,6 +93,7 @@ const POSTS_EN: BlogPost[] = [
     content: `
       <p class="article-lede">Day 1 works best when you let it be uncomfortable. It introduces Pierrot on an ordinary walk to work, then gradually turns a small encounter into the beginning of a dangerous rivalry. You do not need a perfect answer sheet to reach Day 2; you need a few sensible saves and a clear idea of what the current prototype can—and cannot—resolve.</p>
       <div class="walkthrough-note"><strong>Guide boundary</strong><p>This is a spoiler-marked guide for public version 0.2. It explains progression and replay strategy without pretending that Pierrot, Harlequin, or the wider cast already have completed endings.</p></div>
+      <div class="walkthrough-note"><strong>On saving</strong><p>The developer has not published save locations, slot counts, autosave behaviour, or any browser-to-desktop transfer procedure for this game. The save names below are labels you give your own slots with the engine's standard save and load interface, not official filenames.</p></div>
 
       <h2>Before starting: set up a run you can actually revisit</h2>
       <p>The official content warnings include blood, death, abuse, kidnapping, non-consensual drug use, physical domination, and unwanted contact. Day 1 does not show every warning at maximum intensity, but it establishes the tone. Decide whether those themes are right for you before chasing completion.</p>
@@ -119,7 +120,7 @@ const POSTS_EN: BlogPost[] = [
         <li>confirm that the title screen shows the current 0.2 build;</li>
         <li>load <strong>DAY 1 — LATE</strong> rather than restarting;</li>
         <li>avoid skipping rapidly through transitions or animated scenes;</li>
-        <li>in the browser build, keep the tab open until the save indicator has finished.</li>
+        <li>in the browser build, keep the tab open while the scene finishes loading, since browser saves live in browser storage.</li>
       </ul>
 
       <h2>The best first-run strategy is deliberately simple</h2>
@@ -761,7 +762,7 @@ const POSTS_ZH: BlogPost[] = [
       <h2>被困房间：看懂两种控制，不要猜好感度条</h2>
       <p>主角在陌生房间中醒来时受到了束缚。Pierrot 把自己的行为说成“保护”，Harlequin 的到来则把这种说法变成两位对手的直接对峙。这一段重要的是两人以不同方式施加控制，而不是让玩家当场锁定恋爱路线。</p>
       <p>第一遍按自然反应继续；重玩时再回到“被困房间”存档，每次只改一个回答。这样才能分辨你遇到的是真正场景变化，还是只换了一句台词。</p>
-      <div class="walkthrough-tip"><strong>不要过度解读道具</strong><p>面具和红票在剧情中有明显意义，但 0.2 版并没有确立一套“收集后解锁未来结局”的传统背包系统。除非游戏后面实际提供互动，否则它们应被当作剧情物件。</p></div>
+      <div class="walkthrough-tip"><strong>不要过度解读道具</strong><p>面具和红票在剧情中有明显意义，但 0.2 版并没有确立一套“收集后解锁未来结局”的传统背包系统。门票颜色确实带有官方确认的含义——红与绿表示由主角做出的选择，粉色低于主要角色层级——但那是分支信号，而不是收集清单。除非游戏后面实际提供互动，否则面具应被当作剧情物件。</p></div>
 
       <h2>返回马戏团：帐篷怎么探索</h2>
       <p>马戏团部分通过不同主题空间扩大角色群。最稳妥的方法很简单：进入前存档，不快进地看完，再用该存档补其他变化。不要把角色介绍当成已完成路线。</p>
@@ -815,6 +816,7 @@ const POSTS_ZH: BlogPost[] = [
     content: `
       <p class="article-lede">Day 1 最好的玩法，是允许它让人感到不安。故事让主角在上班路上遇到 Pierrot，再把一次微小遭遇逐渐变成危险竞争的起点。进入 Day 2 并不需要一张“满分答案表”；你需要的只是几个合理存档，以及对当前原型版能够、不能够解决什么的清醒认识。</p>
       <div class="walkthrough-note"><strong>攻略边界</strong><p>这是公开 0.2 版的剧透指南，会讲清推进与重玩方法，但不会假装 Pierrot、Harlequin 或更多马戏团角色已经有完成结局。</p></div>
+      <div class="walkthrough-note"><strong>关于存档</strong><p>开发者从未公布过本作的存档路径、存档位数量、自动存档行为，也没有公布浏览器到桌面的转移流程。下文的存档名称是你用引擎自带的存读档界面给自己取的标签，不是官方文件名。</p></div>
 
       <h2>开始前：先建立可以真正回溯的进度</h2>
       <p>官方内容警告包括血腥、死亡、虐待、绑架、非自愿药物使用、身体控制与非自愿接触。Day 1 不会把所有警告都推到最强，但会建立基调。决定追求全内容前，先判断这些主题是否适合自己。</p>
@@ -841,7 +843,7 @@ const POSTS_ZH: BlogPost[] = [
         <li>确认标题界面显示的是当前 0.2 版；</li>
         <li>读取“DAY 1—后段”，不要重新开局；</li>
         <li>不要极快跳过过渡或动画场景；</li>
-        <li>玩浏览器版时，存档完成前不要关闭标签页。</li>
+        <li>玩浏览器版时，等场景加载完再关闭标签页，因为浏览器存档存在浏览器存储里。</li>
       </ul>
 
       <h2>最好的第一遍策略其实很简单</h2>
@@ -935,6 +937,240 @@ const POSTS_ZH: BlogPost[] = [
       <p>保留现有存档并记录创建它的版本，不要覆盖第一次游玩的存档槽。新版本上线后，先看变更说明，再判断旧路线建议是否仍然适用。</p>
     `,
   },
+  {
+    slug: 'pierrot-height-age-order',
+    title: 'The Freak Circus 中 Pierrot 的身高与年龄顺序',
+    description: 'Pierrot 身高 198 cm，在官方年龄顺序中位列五人中的第三，本文说明开发者公布的数据，以及同人文库在其之上补充的部分。',
+    date: '2026-09-20',
+    tags: ['Pierrot', '身高', '角色资料'],
+    image: '/images/characters/pierrot-1.webp',
+    imageAlt: 'The Freak Circus 的核心角色 Pierrot',
+    readingTime: '阅读约 8 分钟',
+    content: `
+      <p class="article-lede">Pierrot 身高 198 cm，在开发者公布的年龄顺序中位列五人中的第三（由大到小）。这两个数字与其他角色的官方数据出自同一份来源，它们足以解决网络上关于他身高与年龄的大部分争论——同时也留下了两处由粉丝自行填补的空白。</p>
+      <div class="walkthrough-note"><strong>本文依据</strong><p>身高、年龄顺序与力量排名均来自开发者公布的图表与 AMA 回答。本文不会把任何粉丝推定的年龄、生日或估算值当作事实。凡出自同人文库的材料，都标注为同人来源而非官方信息。</p></div>
+
+      <h2>身高：198 cm</h2>
+      <p>开发者曾随绘制立绘所用的参考图公布一张身高表。Pierrot 的条目写着 198 cm，换算下来约为 6 英尺 5.95 英寸。这让他在五位已登场角色中排第二高：比 207 cm 的 Doctor 矮 9 厘米，比 187 cm 的 Harlequin 高 11 厘米。</p>
+      <p>由于这张表原本是作画时的参照，而不是事后补写的数据，它的稳定性很强。由此可以得到两点结论。整个已登场阵容的身高跨度只有 24 厘米，从 Doctor 的 207 到 Ticket Taker 的 183——这在一部讲马戏团怪物的故事里算很窄的区间，也正好可以用来核对那些把某个角色画得远高于其他人的同人图。而两位恋爱主角之间 11 厘米的差距是真实存在的，这也正是同人文库把它视为 Pierrot 与 Harlequin 对台演出时一项重要依据的原因。</p>
+      <h2>年龄顺序：五人中的第三位</h2>
+      <p>在另一个 AMA 回答中，开发者回应了"把角色按从大到小排序"的请求，给出了一个固定序列：</p>
+      <ol class="walkthrough-steps">
+        <li><strong>Ticket Taker</strong>——第一位，最年长。</li>
+        <li><strong>Doctor</strong></li>
+        <li><strong>Pierrot</strong>——第三位。</li>
+        <li><strong>Jester</strong></li>
+        <li><strong>Harlequin</strong>——最后一位，最年轻。</li>
+      </ol>
+      <p>也就是说，Pierrot 处在整个班子的正中间：比 Jester 和 Harlequin 年长，比 Ticket Taker 和 Doctor 年轻。在一个围绕这条名单两端之间的对抗而建立的故事里，第三位意味着他比争夺他的那个男人年长，却比维持着马戏团的两个角色年轻。</p>
+      <h3>"第三"并没有告诉你什么</h3>
+      <p>它既不给出数字，也不给出差距。一个相对顺序只能说明谁比谁年长；名单上相邻的两个角色，实际年龄也可能相差甚远。官方从未公布过这五人中任何一人的具体年龄，因此这个顺序是开发者唯一发布过的年龄信息。这一点很重要，因为给这个阵容安上一个具体数字，是同人文库和角色数据库最常做的事，而这些数字几乎都找不到来源。</p>
+      <div class="walkthrough-tip"><strong>如何核对别处看到的身高或年龄说法</strong><p>问三个问题：来源是否指向开发者的图表、AMA 回答或官方帖子？它是否区分了"公布数字"与"估算"？它有没有说明这些信息对应哪个版本？三个问题都有答案的攻略，其细节值得信任；三个都没有的攻略，基本是别人的猜测加了一层装饰。</p></div>
+
+      <h2>力量排名是另一份清单</h2>
+      <p>开发者还公布过一份纯粹体能排名，结果并不跟随身高。Pierrot 位列第一——领先并列第二的 Harlequin 与 Jester，其后是 Doctor，Ticket Taker 垫底。</p>
+      <p>身高第二、体能第一，对 Pierrot 来说是有意为之的角色塑造，而非图表上的巧合。官方简介称他是"沉默的病娇（the silent yandere）"，一个身体上占据绝对优势却几乎不开口的人，威胁感是另一种形态：危险不在于他会主动宣告什么，而在于他不必。同人文库把他描述为表面温和礼貌、同时跟踪主角，这与那种气质相符，不过这属于同人侧的刻画。</p>
+
+      <h2>哪些是确认的，哪些是后来加上的</h2>
+      <ul>
+        <li><strong>开发者已确认：</strong>身高 198 cm、年龄顺序第三、力量排名第一、"沉默的病娇"这一描述，以及 Pierrot 恋爱结局处于计划中。</li>
+        <li><strong>来自当前版本：</strong>他的外形、他的场景，以及他在不同分支中对主角的反应方式。</li>
+        <li><strong>源自同人：</strong>细致的外形描述——带黑色竖向裂缝的白色面具、金色眼睛、红黑配色的丑角帽、红色 Motley 外套——剧情内他保持沉默的原因，以及任何被安在他身上的具体年龄或生日。</li>
+      </ul>
+      <p>关于外形和沉默，有一点需要澄清，因为两者都常被概括错。同人文库的说法是，Jester 定下了"公开场合不得说话"的规矩，而 Pierrot 对他极为尊重。这个细节很讨喜，也与两人的写法自洽，但它来自同人文库而非开发者。第一方材料只到"沉默的病娇"这句话为止，并把这种沉默当作角色塑造，而不是缺失的配音。</p>
+
+      <h2>为什么这些数字值得在意</h2>
+      <p>身体数据是一份角色资料里最容易核对、也最常被凭空发明出来的部分，而这个游戏两样都经历过：一张真实公布的图表，以及大量并不出自它的数字。知道 Pierrot 是 198 cm、年龄排第三，意味着你一眼就能看出某个 Wiki 何时悄悄换成了另一个数字；而更有用的价值在于，你能带着准确的画面读他的场景。一个 198 cm、同时也是五人中最强的人，在镜头前的行为方式本就不同于普通人，而游戏的调度正建立在这个前提之上。</p>
+      <p>想一次看全整个阵容，请参考 <a href="/zh/characters/heights">身高与排名指南</a>；想了解他的路线状态与同人材料，请看 <a href="/zh/characters/pierrot">Pierrot 资料页</a>。</p>
+    `,
+  },
+  {
+    slug: 'harlequin-height-age-order',
+    title: 'The Freak Circus 中 Harlequin 的身高与年龄顺序',
+    description: 'Harlequin 身高 187 cm，是五位已登场角色中最年轻的一位——本文给出开发者公布的数字，以及与之矛盾的粉丝说法。',
+    date: '2026-09-24',
+    tags: ['Harlequin', '身高', '角色资料'],
+    image: '/images/characters/harlequin-1.webp',
+    imageAlt: 'The Freak Circus 中 Pierrot 的舞台对手 Harlequin',
+    readingTime: '阅读约 8 分钟',
+    content: `
+      <p class="article-lede">Harlequin 身高 187 cm，是五位已登场角色中最矮的一位；在开发者公布的年龄顺序中，他也是最年轻的。这两件事都有据可查。网上流传的他的具体年龄通常没有依据，而且多数与开发者唯一给出过的年龄说法直接冲突。</p>
+      <div class="walkthrough-note"><strong>范围与来源</strong><p>身高、年龄顺序与力量排名取自开发者公布的图表和 AMA 回答。外形描述、性格概括以及任何具体年龄或生日来自同人文库，均标注为同人来源。本文不会把剧情内的估算当作测量数据。</p></div>
+
+      <h2>身高：187 cm</h2>
+      <p>在开发者的身高表中，Harlequin 的条目是 187 cm，约合 6 英尺 1.62 英寸。这让他成为五位已登场角色中最矮的，比 207 cm 的 Doctor 矮 24 厘米，比 Pierrot 矮 11 厘米，比 Jester 矮 5 厘米，比 Ticket Taker 高 4 厘米。</p>
+      <p>这个数字有意思的地方，在于它和另一组数据的搭配。Harlequin 在开发者的力量排名中与 Jester 并列第二，排在 Pierrot 之后、Doctor 与 Ticket Taker 之前。同人文库把"最年轻、最矮，却并列第二强"这组关系解读为 Harlequin 被写成敏捷而强健、而非沉重有力的原因。这属于解读，但它是建立在两个已公布数字之上的解读，而不是猜测。</p>
+      <h2>年龄顺序：五人中的最后一位</h2>
+      <p>开发者的年龄顺序（由大到小）是 Ticket Taker、Doctor、Pierrot、Jester、Harlequin。Harlequin 排第五——他是已登场阵容中最年轻的，也是两位恋爱主角中比 Pierrot 小两位的那个。</p>
+      <p>这是一个确凿的事实，也是网上被改写得最厉害的事实之一。大量同人材料给 Harlequin 安上一个具体年龄，其中好几个数字根本无法与那份把他排在年长 Ticket Taker 与 Doctor 之下的官方顺序并存。顺序才是可靠版本，同时它也是唯一存在的版本——这个游戏从未公布过任何角色的具体年龄。</p>
+      <div class="walkthrough-tip"><strong>如果一定要引用他的年龄，就引用顺序</strong><p>写"五位已登场角色中最年轻的一位"，而不是某个数字。前者准确、有来源，并且能撑过下一次更新。同人站给这个阵容安上的数字有个习惯：被后来的 AMA 回答推翻——这正是开发者公布顺序而不是公布数字的原因。</p></div>
+
+      <h2>那 11 厘米的差距</h2>
+      <p>Harlequin 比 Pierrot 矮 11 厘米，这个差距大到不需要夸张就能在画面上读出来。同人文库认为这一差距对两位主角的调度有意义——沉默的那个填满画框，戏剧化的那个在画框周围移动。这究竟是设计意图还是立绘参考带来的副产品，开发者并未说明，因此它留在同人那一栏。</p>
+      <p>可以确认的部分其实更简单：这张表是开发者作为绘制立绘时的参照发布的，这正是这些数字被当作权威数据、而不是从画面上估算出来的原因。如果某张同人图把 Harlequin 画得比 Pierrot 更高，那是画风处理；官方数字仍是 187 与 198。</p>
+
+      <h2>官方材料对他说过什么</h2>
+      <p>除了图表，开发者还直接谈过 Harlequin。官方简介称他是 Pierrot 的"魅惑型对手（seductive rival）"，并把游戏描述为由其中一人主导——这是对一个拥有两条恋爱路线、且仅有两条的故事最清晰的概括。</p>
+      <p>有一条 AMA 回答值得仔细引用，因为它很容易被误读。被问到 Harlequin 调情时留下的咬痕，答案是：那些不是求婚，不会留下疤痕，而怪物之间的婚姻与求爱方式，和主角理解的并不相同。这段简短的对白做了实事：它确立了 Harlequin 的调情运转于马戏团自己的逻辑，而主角的参照系并不是周围这些人的参照系。</p>
+      <p>同人文库补充说 Harlequin 在 Doctor 身边会觉得安全，Doctor 是他在马戏团里最喜欢的人，并且他与 Ticket Taker 相处融洽，只是品味不合。它还记录了一条关于 Columbina 之死的隐含关联——Harlequin 为了"拯救"她而杀死了她——而 Wiki 本身也将其表述为暗示而非陈述。马戏团历史的大致轮廓在 AMA 回答中已获确认；关于 Harlequin 在其中所扮演角色的那种具体读法，并非第一方信息。</p>
+
+      <h2>路线状态：已计划，但还不能玩</h2>
+      <p>Harlequin 的恋爱结局是开发者点名的四个结局之一，另外三个是 Pierrot、主角与"All together"。四者都尚未实装。当前版本只包含一个结局——Day 1 的 "Missing" 恶性结局——所以既没有可公布的触发条件，也没有诚实的攻略可写。</p>
+      <ul>
+        <li><strong>已确认：</strong>他的身高、年龄顺序最后一位、力量并列第二、"Pierrot 的魅惑型对手"这一描述、调情咬痕并非求婚这一澄清，以及 Harlequin 恋爱结局处于计划中。</li>
+        <li><strong>来自当前版本：</strong>他的外形、他的场景，以及他的一部分登场会随剧情分支变化——这一点由官方修复日志确认。</li>
+        <li><strong>源自同人：</strong>面具描述——带绿色菱形与绿色三角的白色面具、毒液般的绿色眼睛、带心形发卷的黑色卷发——他的个人经历，以及他与 Columbina 关系的具体细节。</li>
+      </ul>
+
+      <h2>把这些数字放在一起看</h2>
+      <p>Harlequin 的官方身体数据描述的是一个相当具体的角色：整个五人班子里最年轻、最矮，却并列第二强；他与同一班子里第二高、最强的成员争夺注意力。他既不是力量上的支配者，也不是经验上的新手——他敏捷、戏剧化，而且在这场对抗里真正势均力敌。这比一个凭空来的年龄数字有用得多，而且完全有据可查。</p>
+      <p>想一次看全整个阵容，请参考 <a href="/zh/characters/heights">身高与排名指南</a>；想了解他的路线状态与人物关系，请看 <a href="/zh/characters/harlequin">Harlequin 资料页</a>。</p>
+    `,
+  },
+  {
+    slug: 'the-freak-circus-endings-list',
+    title: 'The Freak Circus 结局清单：哪些存在，哪些不存在',
+    description: 'The Freak Circus 结局的完整状态清单——1 个已实装的恶性结局、4 个计划中的结论，以及并不存在的路线。',
+    date: '2026-09-28',
+    tags: ['结局', '路线', '0.2 版本'],
+    image: '/images/home/characters.webp',
+    imageAlt: 'The Freak Circus 角色群像围绕主角',
+    readingTime: '阅读约 9 分钟',
+    content: `
+      <p class="article-lede">The Freak Circus 目前只有一个可玩结局，另有四个由开发者点名、但尚未写进任何版本的结局。网上几乎所有"全结局表"都把这两种类别混在一起，于是同一个问题会得到四个不同的答案。这里把每一项的状态写清楚。</p>
+      <div class="walkthrough-note"><strong>本清单的范围</strong><p>本文覆盖公开的 0.2 原型版，以及开发者本人对计划工作的说明。内容包含现有那一个结局的剧透。凡是同人推测或同人自创的结论，都不会被列为结局——在开发者发布之前，它们还不是结局。</p></div>
+
+      <h2>先说结论</h2>
+      <ul>
+        <li><strong>现在能玩到：1 个。</strong>"Missing"——Day 1 的恶性结局。</li>
+        <li><strong>已公布为计划：4 个。</strong>Pierrot（恋爱）、Harlequin（恋爱）、主角（不含恋爱）、以及"All together"（多角）。</li>
+        <li><strong>已确认的路线选项：4 个。</strong>Pierrot、Harlequin、两者、或者都不选。</li>
+        <li><strong>并不存在的路线：Jester、Ticket Taker、Doctor。</strong></li>
+        <li><strong>官方结局总数：未公布。</strong>开发者表示计划了多个结局，但无法给出数字。</li>
+      </ul>
+
+      <h2>真正存在的那一个结局</h2>
+      <p>0.2 版本只包含一个结局，而且是恶性结局。它发生在 Day 1，触发条件刻意简单：当 Pierrot 被一名男子当众嘲笑时，如果主角选择不做出反应，主角会被一个身份不明的人塞上一张粉色门票，带到粉色帐篷，并被马戏团的每一位成员拒之门外。游戏明确写着主角没能吸引到 Pierrot 的注意，最终落得悲剧结局。</p>
+      <p>这是一个有真实后果的完整结局，而不是占位符——同时它也是当前版本里整个"结局"类别的全部内容。从结构上说，它也是这款游戏论点的缩影：一个不去参与核心冲突的主角，会被悄无声息地移出这个冲突。</p>
+      <div class="walkthrough-tip"><strong>记录它，而不是避开它</strong><p>"Missing" 是当前版本官方提供的唯一结果，所以触发它等于完成现在的原型版。如果某份攻略让你读档并且永远别看到它，那是把结局当成需要保护的东西，而不是当成确实存在的东西。</p></div>
+
+      <h2>四个计划中的结局</h2>
+      <p>开发者在官方页面和官方 FAQ 中列出四种结论。两个是恋爱结局，一个明确不含恋爱，一个是多角结局。</p>
+      <ul>
+        <li><strong>Pierrot 结局（恋爱）</strong>——主角最终与 Pierrot 在一起。属于计划中的工作，并被反复描述为仍在开发中。</li>
+        <li><strong>Harlequin 结局（恋爱）</strong>——主角最终与 Harlequin 在一起。相关剧本尚未完成。</li>
+        <li><strong>主角结局（不含恋爱）</strong>——主角在不涉及恋爱的情况下走完故事。开发者确认这条路线作为概念存在，同时也允许你选择与角色建立友谊。</li>
+        <li><strong>"All together"（多角结局）</strong>——主角同时爱上 Pierrot 和 Harlequin。它是独立列出的结论，而不是任一恋爱路线的变体。</li>
+      </ul>
+      <p>这里必须强调：不要把这份清单换算成一个数字。开发者被直接问过成品究竟有几个结局，回答是"计划了多个，但现在无法给出数字"，因为剧本仍在打磨中。一份写着"The Freak Circus 有 5 个结局"的页面，是把 4 个已点名的计划结论加上 1 个已实装结局，拼出了一个开发者从未说过的总数。</p>
+
+      <h2>到底能给谁走路线</h2>
+      <p>官方答案很窄：Pierrot、Harlequin、两者都选，或者都不选。主角路线就是"都不选"的那一项——已确认不含恋爱，但仍然允许你选择与角色建立友谊。</p>
+      <p>Jester、Ticket Taker 和 Doctor 没有路线。开发者表示，如果之后增加路线，更可能以追加内容或 DLC 的形式发布，而且这件事尚未决定。让其余角色成为恋爱对象被描述为"一种可能性"，而不是承诺——这个区别很重要，因为同人攻略常常用现在时描述那些路线，仿佛它们只是被藏起来了。</p>
+      <p>有两个流传很广的说法，与开发者描述过的任何内容都对不上：一是"Jester 路线在 Day 2 解锁"，二是 Doctor 有一个 "Clean Hands" 结局。Day 2 更新带来的是更多角色、动态立绘、重新设计的菜单和 Android 版本——不是新路线。</p>
+
+      <h2>为什么各家攻略说的数量不一样</h2>
+      <p>不同站点回答的是不同问题：有的只数当前能玩到的，有的只数开发者点名的，还有的把计划结论与同人推测混在一起。把任何说法放进"已实装 / 计划中 / 未核实"三个桶里，就能比争论数字更快地解决分歧。</p>
+      <p>对这份计划清单还要加两条提醒。剧本仍在写作中，因此结论集合在发布之前完全可能变化。而 Day 3 正是现在正在编写新结论的部分，所以目前的清单是一份进行中计划的快照，而不是完成的名录。</p>
+
+      <h2>这意味着什么游玩建议</h2>
+      <p>把当前原型版当作一个三天故事的前两天来看。可玩的内容是一个建立了角色阵容、核心对抗和一个失败结局的开篇弧。路线结构存在于分支之中，结论却还没有进入版本。玩现在的版本，是了解分支如何运作，而不是完成这款游戏。</p>
+      <p>想看带出处的完整拆解，请参考 <a href="/zh/endings">结局与路线指南</a>；想了解仍在编写的内容，请看 <a href="/zh/day-3">Day 3 追踪页</a>。</p>
+    `,
+  },
+  {
+    slug: 'five-characters-overview',
+    title: 'The Freak Circus 的五位角色',
+    description: '一页看懂 The Freak Circus 的五位已登场角色——Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker，附身高、排名与路线状态。',
+    date: '2026-10-01',
+    tags: ['角色', '总览', '0.2 版本'],
+    image: '/images/characters/jester-1.webp',
+    imageAlt: 'The Freak Circus 的权威人物 Jester',
+    readingTime: '阅读约 10 分钟',
+    content: `
+      <p class="article-lede">0.2 版本介绍了五位角色，而且五位在公开版本里都拥有各自的介绍场景。这个数字经常是另一个错误推论的源头——五位登场角色就意味着五条可选路线。事实并非如此：其中两位有计划中的恋爱路线，三位没有，而计划中的结局目前一个都还不能玩。</p>
+      <div class="walkthrough-note"><strong>如何阅读这份总览</strong><p>身高、年龄顺序位置与力量排名来自开发者公布的图表。路线与结局状态依照开发者本人的说法。有关同人文库的性格与关系描述均已标注来源，因为这个阵容里最有意思的细节大多来自剧情素材，而非开发者发言。</p></div>
+
+      <h2>一眼看全阵容</h2>
+      <ul>
+        <li><strong>Pierrot</strong>——198 cm，第五人中第三年长，体能第一。故事核心的沉默执念，也是两位恋爱主角中较高的一位。</li>
+        <li><strong>Harlequin</strong>——187 cm，最年轻，体能并列第二。Pierrot 的"魅惑型对手"，也是两位恋爱主角中较矮的一位。</li>
+        <li><strong>Jester</strong>——192 cm，第四年长，体能并列第二。让马戏团像一个"机构"而非两个对手加背景板的权威人物。没有路线。</li>
+        <li><strong>Doctor</strong>——207 cm，第二年长，体能第四。阵容中最高的一位，也是气质最临床的压迫感来源之一。没有路线。</li>
+        <li><strong>Ticket Taker</strong>——183 cm，最年长，体力最弱。门槛的守望者，也是与分支结构关系最紧的角色。没有路线。</li>
+      </ul>
+      <p>有三条事实同时适用于五人：身高表是开发者绘制立绘时的参照，所以数字属于权威数据；年龄顺序只有相对关系，谁都没有具体年龄；力量排名是开发者回答粉丝提问时附带的，因此更适合当作角色性格的一部分，而不是战斗数值界面。</p>
+
+      <h2>Pierrot</h2>
+      <p>整个游戏围绕他建立的角色。官方简介称他是"沉默的病娇（the silent yandere）"——这是开发者自己的描述，也解释了为什么在一款以对白为主的媒介里，他每一个细微动作都分量十足。同人文库把他刻画为表面温和礼貌、同时跟踪主角，并对主角与 Columbina 都带有保护意味；它还记录了一条开发者回答：Pierrot 绝不会放弃主角，而且语气极为坚决。Pierrot 恋爱结局正在开发中。</p>
+      <h2>Harlequin</h2>
+      <p>Pierrot 以恒定行事，Harlequin 则以表演行事。官方简介称他是 Pierrot 的"魅惑型对手"，并把游戏描述为由其中一人主导。同人文库描述他随性、残忍、爱调戏人，而且暗藏嫉妒——并指出他并不习惯被爱。这份嫉妒感的意义在于，它把对抗从"Harlequin 也在争夺"变成了他自己同样渴望的东西。他的恋爱结局已计划，但尚未实装。</p>
+      <h2>Jester</h2>
+      <p>他是网上被描述得最不准的角色，通常的偏差方向是给他安上一条并不存在的恋爱路线。他承担着马戏团权威人物的功能：同人文库称他是首领与主要反派，沉着冷静而非情绪化；同人文还描述他控制着"愚人（Fools）"、把人类称作走失的动物。这些细节属于对他场景的解读而非开发者声明，但他在其他角色面前的权威感在整个版本中是一致的。他没有 Jester 路线，也没有 Jester 结局。</p>
+      <h2>Doctor</h2>
+      <p>207 cm，五人中最高，却只排体能第四；同人文库用"偏好机智而非蛮力"来解释这一点。他的介绍场景在束缚、检查与医疗恐怖意象上最为强烈，而同人文描述他的冷静会在某种情绪状态下明显崩解。他没有路线也没有结局，一些较老的同人页面把 "Clean Hands" 结局归给他，这一点没有任何第一方来源支持。</p>
+      <h2>Ticket Taker</h2>
+      <p>最年长、最矮、力量排名最后——却是官方材料中记录相当充分的一位角色之一，因为门票系统是游戏中少数被确认的机制之一。开发者已确认门票共 8 种，粉色低于主要角色层级，红与绿表示由主角做出的选择。他没有路线；而一些流传已久的同人攻略描述了一条"靠坚持与谨慎对话解锁"的 Ticket Taker 恋爱路线——公开版本中并不存在这样的路线。</p>
+
+      <h2>到底能走谁的路线</h2>
+      <p>已确认的路线选项是 Pierrot、Harlequin、两者或都不选。"都不选"对应主角结局，其中不含恋爱，但仍可与角色建立友谊。Jester、Ticket Taker 与 Doctor 没有路线；开发者把让他们成为恋爱对象描述为一种可能性而非承诺，并表示这类追加更可能以附加内容或 DLC 的形式推出。</p>
+      <div class="walkthrough-tip"><strong>人物资料页该怎么读</strong><p>先读"已确认"部分，再读"同人"部分。已确认的内容在下一次更新后依然成立；同人材料是对当前版本的解读，随着更多场景落地也可能被修订。把两者混在一起却不加标注的页面，才是需要小心对待的那种。</p></div>
+
+      <h2>阵容里还缺谁</h2>
+      <p>Columbina 是马戏团的前成员，她的死亡塑造了两位主角的背景，但她不属于五位已登场角色，也不在公布的身高表里。她的设计仍在制作中，开发者刻意保留了细节。为这个阵容写稿的人，应当同时把她当作故事历史上真实存在的人，和一个尚未完成的角色。</p>
+      <p>想看完整人物资料，请阅读 <a href="/zh/characters/pierrot">Pierrot</a>、<a href="/zh/characters/harlequin">Harlequin</a>、<a href="/zh/characters/jester">Jester</a>、<a href="/zh/characters/the-doctor">Doctor</a> 与 <a href="/zh/characters/ticket-taker">Ticket Taker</a> 各页，以及 <a href="/zh/characters/heights">身高与排名指南</a>。</p>
+    `,
+  },
+  {
+    slug: 'ticket-types-explained',
+    title: 'The Freak Circus 门票系统详解',
+    description: '开发者已确认 The Freak Circus 共有 8 种门票，其中粉色、红与绿对剧情分支带有具体含义，本文逐一解释。',
+    date: '2026-10-05',
+    tags: ['门票', '机制', '分支'],
+    image: '/images/characters/ticket-taker-1.webp',
+    imageAlt: '掌控门票系统的角色 Ticket Taker',
+    readingTime: '阅读约 8 分钟',
+    content: `
+      <p class="article-lede">门票是 The Freak Circus 中少数被开发者直接解释过的系统之一，而这个解释涵盖的范围比多数同人攻略愿意承认的还要大。已确认的数量是 8 种门票类型。粉色低于主要角色层级，红与绿标记由主角做出的选择，而粉色加红色的组合意味着 Ticket Taker 会自动取走红色选项。</p>
+      <div class="walkthrough-note"><strong>哪些有据可查，哪些没有</strong><p>门票类型的数量，以及粉色、红、绿的含义，都来自开发者。至于全部 8 种的完整名单——其余类型的名称与颜色——官方并未公布，因此本文不做猜测。在咖啡馆塞给主角粉色门票的"未知男子"就是 Ticket Taker 伪装，这一认定属于同人来源，下文会明确标注。</p></div>
+
+      <h2>开发者确认了什么</h2>
+      <ul>
+        <li><strong>门票共有 8 种类型。</strong>这是一个被直接确认的数量。</li>
+        <li><strong>粉色低于主要角色层级。</strong>当你没有被表演者们追逐时，你拿到的就是这一档。</li>
+        <li><strong>红与绿表示由主角做出的选择。</strong>这两种颜色标记的是属于玩家的决定。</li>
+        <li><strong>粉色与红色组合，意味着 Ticket Taker 会自动取走红色选项。</strong>在这种情况下，选择是由你替不了的、掌管整个系统的那个人替你做出的。</li>
+      </ul>
+      <p>最后这条规则对读懂场景最有用，因为它说明这个游戏并不只是把选项交给你、让你自由挑选。有些决定是由马戏团替你做的。一个不采取行动的主角不会得到中立结果，他会得到马戏团给出的结果。</p>
+
+      <h2>粉色门票与现有那一个结局</h2>
+      <p>粉色门票出现在当前版本中，而它正是游戏唯一已实装结局的开端。Day 1，当 Pierrot 被一名男子当众嘲笑时，如果主角选择不做出反应，一个身份不明的人会把一张粉色门票塞给主角。主角随后被带到粉色帐篷，被马戏团的每一位成员拒之门外，游戏明确说明主角没能吸引到 Pierrot 的注意，最终落得悲剧结局。</p>
+      <p>同人文库把咖啡馆那位"未知男子"认定为 Ticket Taker 的伪装。这一认定属于同人来源，但它直接连向版本中唯一存在的那个结局，也解释了为什么一个自己没有路线的角色，在机制层面如此重要。</p>
+      <div class="walkthrough-tip"><strong>不要把门票当收集品</strong><p>0.2 版并没有确立一套"收集门票以解锁未来结局"的传统背包系统。这里的门票标记的是身份层级与选择，而不是一份清单。如果有攻略描述门票收藏栏、门票计数器，或"每个结局对应一张隐藏门票"，它描述的是本作并不存在的系统。</p></div>
+
+      <h2>为什么一个配角掌管着分支</h2>
+      <p>Ticket Taker 没有路线、没有结局，力量排名五人垫底，身高也是最矮的。在一个路线选项只有 Pierrot、Harlequin、两者或都不选的游戏里，他通常只是个背景人物。门票系统是他不是背景人物的原因。</p>
+      <p>想想一张门票在剧情内部做的事：它决定你被允许成为谁。一张粉色门票把你放在表演者之下，而这正是 "Missing" 结局里主角所处的位置——在外面，被注视，在帐篷门口被拒之门外。红与绿标记属于玩家的选择；而当粉色与红色组合，权威人物就替你拿走了那个选择。一个掌管这条规则的配角不是检票员——他正是马戏团用来管理主角的机制本身。</p>
+      <p>这也与他的性格写法吻合。同人文库描述他服从并奉献于马戏团的目标，成熟而专业，专注于洁净与秩序，并明确说出他的原则：在这里，没有人破坏角色扮演。而这套系统就是他的角色本身。一场靠门票运转的演出，需要有人负责发放。</p>
+
+      <h2>颜色在实际中如何解读</h2>
+      <ul>
+        <li><strong>粉色</strong>——你人在演出场地里，但不在演出中。这正是当前版本唯一结局里主角所在的层级。</li>
+        <li><strong>红色</strong>——一个归属于你的决定，而当它与粉色搭配时，可以被马戏团覆盖。</li>
+        <li><strong>绿色</strong>——一个归属于你的决定，且没有覆盖机制。</li>
+        <li><strong>其余五种</strong>——没有逐项说明。数量已确认，身份未公开。</li>
+      </ul>
+      <p>这里也要诚实说明，目前能看到的部分其实很少。0.2 是一个以角色介绍为主的原型版，只有一个结局，门票系统被描述为一套规则，而不是被完整演示出来。当前版本中的玩家，实践里大多只会见到粉色，以及在出现选项之处的红与绿。把这套系统读成一张完整的分支地图，已经超出了现有版本所能展示的范围。</p>
+
+      <h2>哪些是确认的，哪些是同人补充</h2>
+      <ul>
+        <li><strong>开发者已确认：</strong>门票共 8 种类型；粉色低于主要角色层级；红与绿表示由主角做出的选择；粉色加红色意味着 Ticket Taker 自动取走红色选项；以及 Ticket Taker 没有路线。</li>
+        <li><strong>来自当前版本：</strong>主角在 Day 1 会得到一张粉色门票，这张门票直接通向 "Missing" 结局。</li>
+        <li><strong>源自同人：</strong>咖啡馆"未知男子"是 Ticket Taker 伪装、"现实操纵者"这一称号，以及他与 Columbina 之间经历的具体细节。</li>
+      </ul>
+      <p>想了解这套系统如何与结局相连，请看 <a href="/zh/endings">结局指南</a>；想看这个角色自己的资料页，请见 <a href="/zh/characters/ticket-taker">Ticket Taker 页面</a>。</p>
+    `,
+  },
 ];
 
 export const BLOG_POSTS = POSTS_EN;
@@ -950,3 +1186,15 @@ export function getPostBySlug(slug: string, locale = 'en'): BlogPost | undefined
 export function getAllSlugs(): string[] {
   return BLOG_POSTS.map((post) => post.slug);
 }
+
+/**
+ * Locales in which each blog post has a reviewed translation. Derived from
+ * the arrays themselves so a post can never be advertised in a language it
+ * does not exist in.
+ */
+export const BLOG_LOCALES: Record<string, readonly ('en' | 'zh')[]> = Object.fromEntries(
+  BLOG_POSTS.map((post) => [
+    post.slug,
+    (['en', 'zh'] as const).filter((locale) => getBlogPosts(locale).some((entry) => entry.slug === post.slug)),
+  ]),
+);
