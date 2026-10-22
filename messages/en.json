@@ -64,7 +64,7 @@
   "landing": {
     "schemaDescription": "An unofficial, source-led guide to The Freak Circus, an 18+ psychological horror visual novel by Neko Bueno.",
     "heroSubtitle": "The Circus Is Open. Choose Who You Trust.",
-    "heroLead": "The Freak Circus is an 18+ psychological horror visual novel starring Pierrot, a silent clown whose affection turns into obsession, and Harlequin, his dangerously charming rival. As Jester, Doctor, and Ticket Taker enter the ring, every encounter draws the café-worker protagonist deeper into the circus.",
+    "heroLead": "The Freak Circus is a world where romance and horror collapse into one. {pierrot}'s silent devotion curdles into obsession, {harlequin}'s charm hides danger — and as the {jester}, {doctor}, and {ticketTaker} enter the ring, the café-worker protagonist is pulled deeper into a spell where love may be as dangerous as it is real.",
     "playHere": "Play here now",
     "learnMore": "Discover the Story & Cast",
     "playTitle": "Play The Freak Circus Now",
@@ -222,5 +222,45 @@
     "shareX": "Share thefreakcircus.help on X",
     "shareFacebook": "Share thefreakcircus.help on Facebook",
     "bottom": "This is an unofficial fan-made website created for informational purposes. It has no official connection with the original creators or publishers. No game files are hosted here. All trademarks and copyrighted content belong to their respective owners."
+  },
+  "guide": {
+    "characterProfiles": "Character profiles",
+    "readFaq": "Read the FAQ",
+    "quickFacts": "Quick facts",
+    "faq": "Frequently asked questions",
+    "relatedPages": "Related pages",
+    "continueReading": "Continue reading"
+  },
+  "fanArt": {
+    "kicker": "CREATED BY THE COMMUNITY",
+    "title": "FAN ART GALLERY",
+    "viewMore": "View more artwork",
+    "titleFor": "{name} Fan Art"
+  },
+  "character": {
+    "jointSecond": "Joint second",
+    "backToAll": "Back to all characters",
+    "enterStory": "Enter the story",
+    "officialHeight": "Official height",
+    "ageOrder": "Age order",
+    "strengthRank": "Strength rank",
+    "introduced": "Introduced",
+    "routeStatus": "Route status",
+    "planned": "Planned, not implemented",
+    "noRoute": "No route",
+    "seeHeightChart": "See the full height and ranking chart",
+    "boundaryTitle": "Route and ending boundary",
+    "restOfCircus": "The rest of the circus",
+    "goDeeper": "Go deeper into the circus",
+    "worldFacts": "World and build facts",
+    "endingsRoutes": "Endings and routes",
+    "implementedVsPlanned": "Implemented vs planned",
+    "heightsRankings": "Heights and rankings",
+    "fullChart": "The full official chart",
+    "nextChapter": "Next-chapter status",
+    "updates": "Updates",
+    "followProgress": "Follow verified progress",
+    "rank": "Rank {n}",
+    "agePosition": "age {n} of 5"
   }
 }

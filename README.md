@@ -90,10 +90,13 @@ The locale list is defined in `lib/seo.ts`. All seven locale routes are generate
 
 | Page group | Indexed locales |
 | --- | --- |
+| Home page | en, zh, es, pt, vi, id, fil |
 | Guide pages (`/endings`, `/characters/heights`, `/save`, `/faq`) | en, zh, es, pt, vi, id |
 | Character profiles | en, zh, es, pt, vi, id, fil |
 | Blog posts | en, zh (per slug) |
-| Core pages (home, wiki, day-3, about, …) | en, zh |
+| Core pages (wiki, day-3, about, …) | en, zh |
+
+Every locale must also be reachable from the interface. `components/LocaleSwitcher.tsx` lists all seven and renders each as a real `<a href>`, so a language is both clickable by a reader and followable by a crawler. A language that is translated but not linked is a language that is never read and never indexed.
 
 A page whose content falls back to English is marked `noindex, follow` in that locale, and its `hreflang` cluster only advertises locales where a real translation exists. This avoids the self-inflicted mismatch where a Spanish URL serves English body copy while declaring `hreflang="es"`.
 
@@ -105,7 +108,7 @@ The mechanism lives in three files:
 
 Localization is split into two layers:
 
-- `messages/*.json` contains shared navigation and UI strings.
+- `messages/*.json` contains shared UI strings. Only six namespaces are live: `game`, `blog`, `meta`, `ui`, `landing` (home page copy) and `siteFooter`. A missing key falls back to English rather than rendering empty, but `npm run verify:translations` reports any locale that is missing a whole namespace, so a silent English fallback does not ship unnoticed.
 - `messages/content/*.json` contains structured, locale-specific content such as news entries.
 - `lib/site-content.ts` contains source-led editorial copy and canonical external links.
 - `lib/topic-content*.ts` and `lib/character-content-*.ts` contain the long-form guide and character content, one file per locale.
@@ -186,6 +189,12 @@ When you add a guide page:
 4. Add a rewrite for the prefix-free English URL in `next.config.js`. **A new root-level page that is missing its rewrite returns 404 at the root even though the locale-prefixed URL works** — this is the single easiest mistake to make when adding a page here.
 
 The `related` array in a guide record holds internal slugs and must be copied verbatim between locales; only the visible text is translated.
+
+### Verification scripts
+
+- `npm run verify:facts` reads the published height chart and checks every height-rank claim in every locale against it. A superlative such as "the second tallest" is hand-written prose that cannot be derived automatically, so it drifts silently when the chart changes.
+- `npm run verify:translations` checks that every locale's message file carries the same structure as the English one, and lists values that are still identical to English so a human can check whether that is intentional.
+- `npm run verify` runs the build as well.
 
 ### Blog posts and updates
 

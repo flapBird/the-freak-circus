@@ -2,6 +2,7 @@ import Link from 'next/link';
 import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { type GuidePage, type EditorialLocale } from '@/lib/topic-content';
+import { tMsg } from '@/lib/messages';
 import { SOURCES, sourceUrl, type SourceKey } from '@/lib/game-facts';
 
 type Props = {
@@ -64,10 +65,10 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
             <p className="page-hero-lead">{page.intro}</p>
             <div className="page-hero-actions">
               <Link className="button-secondary" href={`${p}/characters`}>
-                ← {zh ? '角色档案' : 'Character profiles'}
+                ← {tMsg(locale, 'guide.characterProfiles')}
               </Link>
               <Link className="button-primary" href={`${p}/faq`}>
-                {zh ? '查看常见问题' : 'Read the FAQ'}
+                {tMsg(locale, 'guide.readFaq')}
               </Link>
             </div>
           </div>
@@ -82,7 +83,7 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
       <section className="page-section page-container guide-body">
         <aside className="guide-sidebar">
           <div className="reference-card guide-quick-facts">
-            <h2>{zh ? '关键结论' : 'Quick facts'}</h2>
+            <h2>{tMsg(locale, 'guide.quickFacts')}</h2>
             <dl className="guide-fact-table">
               {page.quickFacts.map((row) => (
                 <div key={row.label}>
@@ -97,12 +98,8 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
           </div>
 
           <div className="reference-card guide-source-card">
-            <h2>{zh ? '资料来源' : 'Sources'}</h2>
-            <p>
-              {zh
-                ? '本页每条事实都对应下列官方来源，便于你自行核对。'
-                : 'Every claim on this page maps to one of the official sources below, so you can check it yourself.'}
-            </p>
+            <h2>{tMsg(lang, 'guide.sourcesTitle')}</h2>
+            <p>{tMsg(lang, 'guide.sourcesLead')}</p>
             <ul>
               {(sources.length ? sources : (['itchPage'] as SourceKey[])).map((key) => (
                 <li key={key}>
@@ -133,7 +130,7 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
           ))}
 
           <section className="guide-section guide-faq">
-            <h2>{zh ? '常见问题' : 'Frequently asked questions'}</h2>
+            <h2>{tMsg(locale, 'guide.faq')}</h2>
             <dl className="guide-faq-list">
               {page.faq.map((item) => (
                 <div key={item.question}>
@@ -144,8 +141,8 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
             </dl>
           </section>
 
-          <nav className="guide-related" aria-label={zh ? '相关页面' : 'Related pages'}>
-            <h2>{zh ? '继续阅读' : 'Continue reading'}</h2>
+          <nav className="guide-related" aria-label={tMsg(locale, 'guide.relatedPages')}>
+            <h2>{tMsg(locale, 'guide.continueReading')}</h2>
             <div>
               {page.related.map((slug) => (
                 <Link key={slug} href={relatedHref(slug)}>

@@ -64,7 +64,7 @@
   "landing": {
     "schemaDescription": "《The Freak Circus》非官方资料站，基于一手来源整理这款 18+ 心理恐怖视觉小说的角色、更新与下载信息。",
     "heroSubtitle": "马戏团已经开场，你会相信谁？",
-    "heroLead": "《The Freak Circus》是一部 18+ 心理恐怖视觉小说。沉默的小丑 Pierrot 将爱意变成执念，而危险又迷人的 Harlequin 则是他的舞台对手；当 Jester、Doctor 和 Ticket Taker 陆续入场，身为咖啡店员工的主角也被一步步拖入马戏团深处。",
+    "heroLead": "The Freak Circus 是一个浪漫与恐怖融为一体的世界。{pierrot}沉默的爱意逐渐腐化为执念，{harlequin}的魅力背后暗藏危险——而当{jester}、{doctor}与{ticketTaker}踏入舞台，身为咖啡店员工的主角也被拖入更深的魔咒之中，在这里，爱可能和它表现出来的一样真实，也同样危险。",
     "playHere": "立即在线游玩",
     "learnMore": "探索故事与角色",
     "playTitle": "立即游玩 The Freak Circus",
@@ -222,5 +222,45 @@
     "shareX": "在 X 分享 thefreakcircus.help",
     "shareFacebook": "在 Facebook 分享 thefreakcircus.help",
     "bottom": "本站是出于信息整理目的创建的非官方粉丝网站，与原作者或发行方没有官方关联。本站不托管游戏文件，所有商标及受版权保护的内容均归各自权利人所有。"
+  },
+  "guide": {
+    "characterProfiles": "角色档案",
+    "readFaq": "查看常见问题",
+    "quickFacts": "关键结论",
+    "faq": "常见问题",
+    "relatedPages": "相关页面",
+    "continueReading": "继续阅读"
+  },
+  "fanArt": {
+    "kicker": "来自社区的创作",
+    "title": "同人画廊",
+    "viewMore": "查看更多作品",
+    "titleFor": "{name} 同人作品"
+  },
+  "character": {
+    "jointSecond": "并列第 2 位",
+    "backToAll": "返回全部角色",
+    "enterStory": "进入故事",
+    "officialHeight": "官方身高",
+    "ageOrder": "年龄顺序",
+    "strengthRank": "力量排名",
+    "introduced": "登场版本",
+    "routeStatus": "路线状态",
+    "planned": "计划中，尚未实装",
+    "noRoute": "无路线",
+    "seeHeightChart": "查看完整身高与排名表",
+    "boundaryTitle": "路线与结局边界",
+    "restOfCircus": "马戏团里的其他角色",
+    "goDeeper": "继续深入马戏团",
+    "worldFacts": "世界观与版本事实",
+    "endingsRoutes": "结局与路线",
+    "implementedVsPlanned": "已实装与计划中的区分",
+    "heightsRankings": "身高与排名",
+    "fullChart": "官方完整数据",
+    "nextChapter": "下一章当前状态",
+    "updates": "更新记录",
+    "followProgress": "按时间核对进度",
+    "rank": "第 {n} 位",
+    "agePosition": "年龄第 {n} 位"
   }
 }
