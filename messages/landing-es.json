@@ -1,0 +1,136 @@
+{
+  "landing": {
+    "schemaDescription": "Una guía no oficial, basada en las fuentes, de The Freak Circus, la novela visual de terror psicológico 18+ de Neko Bueno.",
+    "heroSubtitle": "El circo ya está abierto. Elige en quién confiar.",
+    "heroLead": "The Freak Circus es una novela visual de terror psicológico 18+ con dos protagonistas: Pierrot, un payaso silencioso cuyo afecto se convierte en obsesión, y Harlequin, su rival de un encanto peligroso. A medida que Jester, Doctor y Ticket Taker entran en el escenario, cada encuentro arrastra más adentro del circo a la protagonista que trabaja en una cafetería.",
+    "playHere": "Juega aquí ahora",
+    "learnMore": "Descubre la historia y el reparto",
+    "playTitle": "Juega a The Freak Circus ahora",
+    "castTitle": "CONOCE A LOS PERSONAJES",
+    "allCharacters": "Resumen de personajes",
+    "whatTitle": "¿QUÉ ES THE FREAK CIRCUS?",
+    "whatP1": "The Freak Circus es una novela visual de terror psicológico 18+ ambientada en un circo que convierte el afecto en peligro. Un empleado de cafetería se cruza con Pierrot, un payaso \"yandere\" silencioso —en el fandom, \"yandere\" designa la obsesión romántica que acaba en control— y acaba arrastrado a su rivalidad cada vez más intensa con el seductor Harlequin.",
+    "whatP2": "El prototipo actual presenta a cinco artistas muy distintos, mezcla las decisiones de diálogo con una imaginería inquietante y deja sus rutas y sus finales más amplios en desarrollo. Es una historia sobre obsesión, máscaras, secretos y sobre decidir qué sonrisa es seguro confiar.",
+    "meetCast": "Conoce al reparto",
+    "whatFeatures": [
+      {
+        "title": "Terror psicológico",
+        "text": "El romance y el pavor comparten el mismo escenario: el afecto se desliza hacia el control, la manipulación y el miedo."
+      },
+      {
+        "title": "Historia guiada por los personajes",
+        "text": "Pierrot y Harlequin sostienen la rivalidad, mientras Jester, Doctor y Ticket Taker ahondan el misterio del circo."
+      },
+      {
+        "title": "Decisiones con peso",
+        "text": "Los diálogos y las decisiones de ruta cambian los encuentros, desbloquean escenas y determinan los desenlaces disponibles en la versión actual."
+      },
+      {
+        "title": "Atmósfera de circo oscuro",
+        "text": "El arte original de los personajes, las carpas teatrales, las escenas animadas y un ambiente de feria sinistera definen la experiencia."
+      }
+    ],
+    "howTitle": "CÓMO JUGAR",
+    "howSteps": [
+      {
+        "title": "Arranca el reproductor",
+        "text": "Usa el reproductor del navegador que hay arriba en esta página y pulsa su botón de inicio cuando estés listo para entrar en el circo."
+      },
+      {
+        "title": "Ajusta tus preferencias",
+        "text": "Abre las preferencias del juego para elegir un idioma disponible, ajustar el sonido y fijar la velocidad del texto antes de empezar."
+      },
+      {
+        "title": "Elige y guarda",
+        "text": "Lee cada escena, decide tu ruta y usa los menús de guardar y cargar del juego antes de las decisiones que quieras volver a revisar."
+      },
+      {
+        "title": "Continúa con seguridad",
+        "text": "No borres los datos del navegador si dependes de las partidas guardadas ahí, o usa la página oficial de descargas para las versiones de escritorio y Android con soporte."
+      }
+    ],
+    "howCta": "Empezar a jugar",
+    "guidesTitle": "GUÍAS PRÁCTICAS",
+    "guidesLead": "Respuestas directas a las preguntas que más buscan los jugadores, cada una contrastada con las fuentes publicadas por el propio desarrollador.",
+    "updateTitle": "ÚLTIMAS ACTUALIZACIONES",
+    "allUpdates": "Ver todas las actualizaciones",
+    "readUpdate": "Leer la actualización completa",
+    "faqTitle": "Preguntas frecuentes",
+    "reviewsTitle": "QUÉ DICEN LOS JUGADORES",
+    "faq": [
+      {
+        "q": "¿Qué es The Freak Circus?",
+        "a": "The Freak Circus es una novela visual de terror psicológico 18+ creada por Neko Bueno y publicada por Garula. La historia actual gira en torno a un empleado de cafetería, Pierrot y Harlequin."
+      },
+      {
+        "q": "¿The Freak Circus está terminado?",
+        "a": "No. La página oficial de itch.io la etiqueta como prototipo y dice que el resto del guion y de los finales sigue en desarrollo."
+      },
+      {
+        "q": "¿Dónde debería jugarlo o descargarlo?",
+        "a": "Usa la página oficial de itch.io de Garula. Esta guía no aloja ni redistribuye archivos del juego."
+      },
+      {
+        "q": "¿Está disponible el Día 3?",
+        "a": "El desarrollador está trabajando en el siguiente capítulo, pero ninguna de las fuentes oficiales que seguimos ha publicado una fecha de lanzamiento."
+      },
+      {
+        "q": "¿Qué personajes aparecen en la versión actual?",
+        "a": "El prototipo actual presenta a Pierrot, Harlequin, Jester, Doctor y Ticket Taker. Columbina también aparece mencionada en las notas de mantenimiento oficiales."
+      },
+      {
+        "q": "¿Todos los personajes tienen una ruta completa?",
+        "a": "No. La página oficial menciona los finales planeados de Pierrot, Harlequin y de la Protagonista, y confirma que el resto del guion y de los finales sigue en desarrollo."
+      },
+      {
+        "q": "¿Qué idiomas son oficiales?",
+        "a": "La página oficial actual indica inglés, portugués brasileño y chino."
+      },
+      {
+        "q": "¿Qué plataformas tienen soporte?",
+        "a": "La página oficial incluye por ahora la versión de navegador HTML5, Windows, macOS, Linux y Android."
+      },
+      {
+        "q": "¿The Freak Circus es apto para jugadores jóvenes?",
+        "a": "No. El desarrollador clasifica el juego como 18+ y enumera temas oscuros como sangre, muerte, secuestro, canibalismo, uso de drogas sin consentimiento, dominación física y acoso físico leve y contacto físico sin consentimiento."
+      },
+      {
+        "q": "¿Dónde puedo seguir las actualizaciones verificadas del juego?",
+        "a": "Sigue el devlog de itch.io del desarrollador y su Tumblr oficial. La sección de Actualizaciones de este sitio enlaza sus resúmenes con esas publicaciones originales."
+      },
+      {
+        "q": "¿Qué puedo encontrar en este sitio web?",
+        "a": "El sitio ofrece un reproductor dentro de la página, fichas de personajes, una wiki basada en fuentes, el estado del Día 3, una guía de descargas oficiales, resúmenes de actualizaciones y arte de fans de la comunidad."
+      },
+      {
+        "q": "¿Es este un sitio web oficial?",
+        "a": "No. Es una guía de fans independiente que enlaza con las fuentes oficiales del desarrollador."
+      }
+    ],
+    "characters": {
+      "pierrot": "Un payaso triste que esconde emociones profundas bajo una sonrisa pintada. Su historia se despliega entre el amor, la pérdida y el peso de los secretos guardados durante años.",
+      "harlequin": "Un bromista juguetón cuya fachada despreocupada esconde un alma mucho más compleja. Su vínculo con Pierrot está en el centro mismo de la historia.",
+      "jester": "El narrador del circo y testigo silencioso, que deshace la trágica leyenda de Columbina mediante marionetas que destapan las verdades más oscuras del espectáculo.",
+      "the-doctor": "Un médico de la peste que realiza experimentos sinisteros dentro de la Cyan Tent, estudiando el miedo mismo y sondeando los límites más oscuros de la ética médica.",
+      "ticket-taker": "Un manipulador de la realidad que preside el Tent of Mirrors y usa reflejos deformados para descubrir el rostro verdadero de cada monstruo."
+    }
+  },
+  "siteFooter": {
+    "note": "Descubre un mundo de circo inquietante, marcado por la obsesión, la manipulación y la rivalidad, donde Pierrot y Harlequin te arrastran a una experiencia de novela visual que no se olvida.",
+    "features": "Explora el sitio",
+    "siteInfo": "Información del sitio",
+    "play": "Inicio",
+    "characters": "Personajes",
+    "download": "Descargas",
+    "updates": "Actualizaciones",
+    "fanArt": "Arte de fans",
+    "community": "Comunidad",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "shareX": "Compartir thefreakcircus.help en X",
+    "shareFacebook": "Compartir thefreakcircus.help en Facebook",
+    "bottom": "Este es un sitio web no oficial creado por fans con fines informativos. No tiene ninguna relación oficial con los creadores o los editores originales. Aquí no se aloja ningún archivo del juego. Todas las marcas registradas y los contenidos protegidos por derechos de autor pertenecen a sus respectivos titulares."
+  }
+}
