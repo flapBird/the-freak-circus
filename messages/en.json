@@ -229,13 +229,17 @@
     "quickFacts": "Quick facts",
     "faq": "Frequently asked questions",
     "relatedPages": "Related pages",
-    "continueReading": "Continue reading"
+    "continueReading": "Continue reading",
+    "sourcesTitle": "Sources",
+    "sourcesLead": "Every claim on this page maps to one of the official sources below, so you can check it yourself."
   },
   "fanArt": {
     "kicker": "CREATED BY THE COMMUNITY",
     "title": "FAN ART GALLERY",
     "viewMore": "View more artwork",
-    "titleFor": "{name} Fan Art"
+    "titleFor": "{name} Fan Art",
+    "intro": "The circus, through the eyes of its fans. Explore illustrations and fan comics, and discover the artists behind them.",
+    "empty": "Artwork for this character is being curated. Explore more creations in the gallery."
   },
   "character": {
     "jointSecond": "Joint second",
@@ -261,6 +265,7 @@
     "updates": "Updates",
     "followProgress": "Follow verified progress",
     "rank": "Rank {n}",
-    "agePosition": "age {n} of 5"
+    "agePosition": "age {n} of 5",
+    "boundary": "Released scenes and future plans are kept separate here. An introduction, implication, or branch-specific appearance does not by itself prove that a complete route exists. The only ending implemented in the current build is the \"Missing\" bad ending on Day 1; the rest are announced but not yet shipped."
   }
 }

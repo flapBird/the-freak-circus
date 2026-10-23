@@ -229,13 +229,17 @@
     "quickFacts": "Datos clave",
     "faq": "Preguntas frecuentes",
     "relatedPages": "Páginas relacionadas",
-    "continueReading": "Seguir leyendo"
+    "continueReading": "Seguir leyendo",
+    "sourcesTitle": "Fuentes",
+    "sourcesLead": "Cada dato de esta página corresponde a una de las fuentes oficiales que aparecen abajo, así que puedes comprobarlo tú mismo."
   },
   "fanArt": {
     "kicker": "CREADO POR LA COMUNIDAD",
     "title": "GALERÍA DE ARTE DE FANS",
     "viewMore": "Ver más obras",
-    "titleFor": "Arte de fans de {name}"
+    "titleFor": "Arte de fans de {name}",
+    "intro": "El circo, a través de los ojos de sus fans. Explora ilustraciones y cómics de fans y descubre a los artistas que hay detrás.",
+    "empty": "El arte de este personaje se está seleccionando. Descubre más creaciones en la galería."
   },
   "character": {
     "jointSecond": "Segundo empatado",
@@ -261,6 +265,7 @@
     "updates": "Actualizaciones",
     "followProgress": "Sigue el progreso verificado",
     "rank": "Puesto {n}",
-    "agePosition": "edad {n} de 5"
+    "agePosition": "edad {n} de 5",
+    "boundary": "Aquí se mantienen separadas las escenas publicadas y los planes futuros. Que un personaje aparezca, que se insinúe algo o que se le vea en una rama no demuestra por sí solo que exista una ruta completa. El único final implementado en la versión actual es el final malo «Missing» del Día 1; los demás están anunciados pero aún no se han lanzado."
   }
 }

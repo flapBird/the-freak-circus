@@ -229,13 +229,17 @@
     "quickFacts": "Thông tin nhanh",
     "faq": "Câu hỏi thường gặp",
     "relatedPages": "Các trang liên quan",
-    "continueReading": "Đọc tiếp"
+    "continueReading": "Đọc tiếp",
+    "sourcesTitle": "Nguồn",
+    "sourcesLead": "Mọi thông tin trên trang này đều tương ứng với một trong các nguồn chính thức bên dưới, để bạn có thể tự kiểm chứng."
   },
   "fanArt": {
     "kicker": "SÁNG TẠO BỞI CỘNG ĐỒNG",
     "title": "THƯ VIỆN FAN ART",
     "viewMore": "Xem thêm tác phẩm",
-    "titleFor": "Fan art của {name}"
+    "titleFor": "Fan art của {name}",
+    "intro": "Rạp xiếc qua góc nhìn của người hâm mộ. Khám phá tranh minh họa và truyện tranh fan, và tìm ra nghệ sĩ đằng sau tác phẩm.",
+    "empty": "Tranh của nhân vật này đang được tuyển chọn. Hãy khám phá thêm các tác phẩm khác trong thư viện."
   },
   "character": {
     "jointSecond": "Đồng hạng nhì",
@@ -261,6 +265,7 @@
     "updates": "Cập nhật",
     "followProgress": "Theo dõi tiến độ đã xác minh",
     "rank": "Hạng {n}",
-    "agePosition": "tuổi {n} trong 5"
+    "agePosition": "tuổi {n} trong 5",
+    "boundary": "Ở đây các cảnh đã phát hành và kế hoạch tương lai được giữ tách biệt. Việc nhân vật xuất hiện, có lời gợi ý hay xuất hiện trong một nhánh đều chưa đủ để chứng minh một tuyến hoàn chỉnh tồn tại. Kết cục duy nhất đã được thực hiện trong bản build hiện tại là kết cục xấu «Missing» ở Ngày 1; các kết cục còn lại đã được công bố nhưng chưa được triển khai."
   }
 }

@@ -229,13 +229,17 @@
     "quickFacts": "关键结论",
     "faq": "常见问题",
     "relatedPages": "相关页面",
-    "continueReading": "继续阅读"
+    "continueReading": "继续阅读",
+    "sourcesTitle": "资料来源",
+    "sourcesLead": "本页每条事实都对应下列官方来源，便于你自行核对。"
   },
   "fanArt": {
     "kicker": "来自社区的创作",
     "title": "同人画廊",
     "viewMore": "查看更多作品",
-    "titleFor": "{name} 同人作品"
+    "titleFor": "{name} 同人作品",
+    "intro": "用粉丝的视角重新认识马戏团。浏览插画与同人漫画，发现你喜欢的创作者。",
+    "empty": "这个角色的作品正在整理中。先去画廊发现更多创作。"
   },
   "character": {
     "jointSecond": "并列第 2 位",
@@ -261,6 +265,7 @@
     "updates": "更新记录",
     "followProgress": "按时间核对进度",
     "rank": "第 {n} 位",
-    "agePosition": "年龄第 {n} 位"
+    "agePosition": "年龄第 {n} 位",
+    "boundary": "这里把已发布剧情与开发计划分开：人物登场、暗示或分支画面都不能自动证明一条完整路线已经存在。当前版本唯一实装的结局是 Day 1 的 \"Missing\" 恶性结局，其余均已公布但尚未实装。"
   }
 }

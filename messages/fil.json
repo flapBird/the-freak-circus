@@ -229,13 +229,17 @@
     "quickFacts": "Mabilis na datos",
     "faq": "Mga madalas itanong",
     "relatedPages": "Mga kaugnay na pahina",
-    "continueReading": "Magpatuloy sa pagbasa"
+    "continueReading": "Magpatuloy sa pagbasa",
+    "sourcesTitle": "Mga Pinagmulan",
+    "sourcesLead": "Bawat mungkahi sa pahinang ito ay tumutugma sa isa sa mga opisyal na pinagmulan sa ibaba, kaya maaari mo itong beripikahin."
   },
   "fanArt": {
     "kicker": "GINAWA NG KOMUNIDAD",
     "title": "FAN ART GALERIYA",
     "viewMore": "Tingnan ang iba pang art",
-    "titleFor": "Fan Art ni {name}"
+    "titleFor": "Fan Art ni {name}",
+    "intro": "Ang sirko, sa pananaw ng mga tagahanga. Tingnan ang mga ilustrasyon at fan comics, at kilalanin ang mga artist sa likod ng mga ito.",
+    "empty": "Isinasagawa pa ang pagpili ng mga lika para sa karakter na ito. Tingnan ang iba pang likha sa galeriya."
   },
   "character": {
     "jointSecond": "Magkasabi sa pangalawa",
@@ -261,6 +265,7 @@
     "updates": "Mga update",
     "followProgress": "Sundan ang beripikadong usad",
     "rank": "Rangking {n}",
-    "agePosition": "edad {n} sa 5"
+    "agePosition": "edad {n} sa 5",
+    "boundary": "Dito hiwalay na itinuturo ang mga eksena na nailabas na at ang mga plano pa lang. Ang isang pagpapakilala, pahiwatig, o paglitaw sa isang branch ay hindi sapat na patunay na may kumpletong ruta nang umiiral. Ang tanging ending na ipinatupad sa kasalukuyang build ay ang «Missing» na bad ending sa Araw 1; ang iba ay inanunsyo ngunit hindi pa ipinatutupad."
   }
 }

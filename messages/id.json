@@ -229,13 +229,17 @@
     "quickFacts": "Fakta singkat",
     "faq": "Pertanyaan yang sering diajukan",
     "relatedPages": "Halaman terkait",
-    "continueReading": "Lanjut membaca"
+    "continueReading": "Lanjut membaca",
+    "sourcesTitle": "Sumber",
+    "sourcesLead": "Setiap klaim di halaman ini merujuk ke salah satu sumber resmi di bawah, sehingga kamu bisa memeriksanya sendiri."
   },
   "fanArt": {
     "kicker": "DIBUAT OLEH KOMUNITAS",
     "title": "GALERI FAN ART",
     "viewMore": "Lihat lebih banyak karya",
-    "titleFor": "Fan Art {name}"
+    "titleFor": "Fan Art {name}",
+    "intro": "Sirkus lewat mata para fans. Jelajahi ilustrasi dan komik fan, dan temukan seniman di baliknya.",
+    "empty": "Karya untuk karakter ini sedang dikurasi. Jelajahi karya lainnya di galeri."
   },
   "character": {
     "jointSecond": "Seri posisi kedua",
@@ -261,6 +265,7 @@
     "updates": "Pembaruan",
     "followProgress": "Ikuti kemajuan terverifikasi",
     "rank": "Peringkat {n}",
-    "agePosition": "umur {n} dari 5"
+    "agePosition": "umur {n} dari 5",
+    "boundary": "Di sini adegan yang sudah rilis dan rencana ke depan dipisahkan. Kemunculan karakter, sebuah petunjuk, atau adegan di satu cabang tidak dengan sendirinya membuktikan bahwa rute lengkap sudah ada. Satu-satunya ending yang diimplementasikan pada versi saat ini adalah ending buruk «Missing» di Hari 1; sisanya sudah diumumkan tetapi belum dirilis."
   }
 }

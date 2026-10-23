@@ -98,8 +98,8 @@ export default function GuidePageLayout({ page, locale, lang, pathSlug, image, e
           </div>
 
           <div className="reference-card guide-source-card">
-            <h2>{tMsg(lang, 'guide.sourcesTitle')}</h2>
-            <p>{tMsg(lang, 'guide.sourcesLead')}</p>
+            <h2>{tMsg(locale, 'guide.sourcesTitle')}</h2>
+            <p>{tMsg(locale, 'guide.sourcesLead')}</p>
             <ul>
               {(sources.length ? sources : (['itchPage'] as SourceKey[])).map((key) => (
                 <li key={key}>

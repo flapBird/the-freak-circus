@@ -2,18 +2,22 @@
 // Verifies that every locale's message file carries the same structure as the
 // English one, and that nothing was left untranslated by accident.
 //
-// Two checks:
-//   1. Structure. The key set, array lengths, and nested shapes must match
+// Three checks:
+//   1. Referenced keys. Every dotpath a component reads through tMsg or
+//      rawMsg must exist in messages/en.json. A key that is missing there
+//      has no English fallback to land on, so it renders as its own dotted
+//      path — visible broken text on a live page.
+//   2. Structure. The key set, array lengths, and nested shapes must match
 //      English exactly. A locale that is missing a key falls back to English
 //      at runtime, which is a fine safety net but a silent way to ship an
 //      untranslated page, so it is reported here.
-//   2. Untranslated strings. Values that are byte-identical to English are
+//   3. Untranslated strings. Values that are byte-identical to English are
 //      listed. Most are proper nouns that should stay in Latin script, so
 //      they are not an error — the list exists to make a human look.
 //
 // Run with: node scripts/verify-translations.mjs
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -44,8 +48,54 @@ function paths(value, prefix = '') {
   return [[prefix, value]];
 }
 
+/** Every dotted key path in a value, including the bare path of an array. */
+function keyPaths(value, prefix = '') {
+  if (Array.isArray(value)) return [prefix, ...value.flatMap((item, index) => keyPaths(item, `${prefix}[${index}]`))];
+  if (value && typeof value === 'object') {
+    return Object.entries(value).flatMap(([key, item]) => keyPaths(item, prefix ? `${prefix}.${key}` : key));
+  }
+  return [prefix];
+}
+
 const en = load('en');
 const NAMESPACES = ['landing', 'siteFooter', 'guide', 'fanArt', 'character'];
+
+// --- Check 1: keys referenced by components must exist in the English file. ---
+function collectReferencedKeys(dir) {
+  const found = new Set();
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      for (const key of collectReferencedKeys(full)) found.add(key);
+      continue;
+    }
+    if (!/\.(tsx|ts)$/.test(entry.name)) continue;
+    const source = readFileSync(full, 'utf8');
+    for (const match of source.matchAll(/\b(?:tMsg|rawMsg)(?:<[^>]*>)?\([^,]+,\s*['"`]([\w.]+)['"`]/g)) {
+      found.add(match[1]);
+    }
+  }
+  return found;
+}
+
+const available = new Set(keyPaths(en));
+const referenced = new Set([
+  ...collectReferencedKeys(join(root, 'app')),
+  ...collectReferencedKeys(join(root, 'components')),
+  ...collectReferencedKeys(join(root, 'lib')),
+]);
+
+// Expand dynamic prefixes such as `landing.characters.${slug}`.
+const expanded = new Set();
+for (const key of referenced) {
+  if (key.includes('${')) {
+    const prefix = key.split('${')[0];
+    for (const candidate of available) if (candidate.startsWith(prefix)) expanded.add(candidate);
+  } else {
+    expanded.add(key);
+  }
+}
+const missingKeys = [...expanded].filter((key) => !available.has(key));
 
 let problems = 0;
 const identical = new Map();

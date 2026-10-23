@@ -229,13 +229,17 @@
     "quickFacts": "Dados rápidos",
     "faq": "Perguntas frequentes",
     "relatedPages": "Páginas relacionadas",
-    "continueReading": "Continue lendo"
+    "continueReading": "Continue lendo",
+    "sourcesTitle": "Fontes",
+    "sourcesLead": "Cada informação desta página corresponde a uma das fontes oficiais listadas abaixo, para que você possa conferir por conta própria."
   },
   "fanArt": {
     "kicker": "CRIADO PELA COMUNIDADE",
     "title": "GALERIA DE ARTE DE FÃS",
     "viewMore": "Ver mais obras",
-    "titleFor": "Arte de fãs de {name}"
+    "titleFor": "Arte de fãs de {name}",
+    "intro": "O circo pelos olhos dos fãs. Explore ilustrações e HQs de fãs e descubra os artistas por trás delas.",
+    "empty": "A arte deste personagem está sendo selecionada. Explore mais criações na galeria."
   },
   "character": {
     "jointSecond": "Segundo empatado",
@@ -261,6 +265,7 @@
     "updates": "Atualizações",
     "followProgress": "Acompanhe o progresso verificado",
     "rank": "Posição {n}",
-    "agePosition": "idade {n} de 5"
+    "agePosition": "idade {n} de 5",
+    "boundary": "Aqui as cenas lançadas e os planos futuros são mantidos separados. Uma introdução, uma insinuação ou uma aparição em uma ramificação não prova, por si só, que exista uma rota completa. O único final implementado na versão atual é o final ruim «Missing» do Dia 1; os demais foram anunciados, mas ainda não foram lançados."
   }
 }
