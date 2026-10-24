@@ -8,8 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "verify:facts": "node scripts/verify-facts.mjs",
-    "verify": "npm run verify:facts && npm run verify:translations && npm run build",
-    "verify:translations": "node scripts/verify-translations.mjs"
+    "verify": "npm run verify:facts && npm run verify:translations && npm run verify:blog && npm run build",
+    "verify:translations": "node scripts/verify-translations.mjs",
+    "verify:blog": "node scripts/verify-blog.mjs"
   },
   "dependencies": {
     "geoip-lite": "^1.4.10",
