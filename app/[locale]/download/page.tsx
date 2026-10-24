@@ -2,12 +2,11 @@ import Link from 'next/link';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 import { CONTENT_WARNINGS, PLATFORMS, SHIPPED_LANGUAGES, VOICE_ACTING } from '@/lib/game-facts';
-import { GUIDE_LOCALES } from '@/lib/content-availability';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({ title: zh ? 'The Freak Circus 下载：PC、Mac、Linux 与 Android' : 'The Freak Circus Download: PC, Mac, Linux & Android', description: zh ? '下载 The Freak Circus 的 Windows、macOS、Linux 或 Android 版本，也可以通过游戏的 itch.io 页面直接游玩浏览器版。' : 'Download The Freak Circus for Windows, macOS, Linux, or Android, or play the browser version through the game’s itch.io page.', canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/download` ,
-    availableLocales: GUIDE_LOCALES.download,
+    availableLocales: ['en', 'zh'],
     locale,
   });
 }

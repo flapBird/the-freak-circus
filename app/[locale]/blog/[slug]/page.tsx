@@ -5,6 +5,7 @@ import SafeImage from '@/components/SafeImage';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { getAllSlugs, getBlogPosts, getPostBySlug } from '@/lib/blog-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { BLOG_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string; slug: string } };
 
@@ -23,6 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.description,
     canonical: `${SITE_URL}${params.locale === 'en' ? path : `/${params.locale}${path}`}`,
+    // Posts are written in English and Chinese; other locales fall back to
+    // the English body and must not be advertised as translations.
+    availableLocales: BLOG_LOCALES[post.slug] ?? ['en', 'zh'],
+    locale: params.locale,
   });
 }
 
