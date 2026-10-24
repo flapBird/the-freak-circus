@@ -267,5 +267,107 @@
     "rank": "第 {n} 位",
     "agePosition": "年龄第 {n} 位",
     "boundary": "这里把已发布剧情与开发计划分开：人物登场、暗示或分支画面都不能自动证明一条完整路线已经存在。当前版本唯一实装的结局是 Day 1 的 \"Missing\" 恶性结局，其余均已公布但尚未实装。"
+  },
+  "wiki": {
+    "lead": "围绕当前公开版本持续更新的资料库：以一手来源和明确内容边界为基础，不编造设定。",
+    "overviewTitle": "故事前提与当前范围",
+    "overview1": "主角在咖啡店工作。上班途中，主角遇见沉默的病娇 Pierrot，他的执念由此引发核心冲突；Pierrot 富有诱惑力的舞台对手 Harlequin 随后加入围绕主角展开的竞争。",
+    "overview2": "官方页面目前说明：五位角色介绍已经完成、存在一个坏结局，其余剧本与结局仍在开发。页面点名的计划结局为 Pierrot、Harlequin 和主角结局。",
+    "castTitle": "已登场角色",
+    "castText": "以下五位角色已在当前原型版完成介绍；“已登场”并不等于已经有完整路线或结局。",
+    "columbina": "Columbina 出现在官方维护记录中：2026 年 2 月中文更新提到，输入她的名字时曾有一句台词不完整。这能确认相关对白，却不足以支持本站此前发布的大量背景故事。",
+    "warningTitle": "年龄限制与内容警告",
+    "warning": "开发者将游戏标为 18+，并在官方页面列出可能不适合所有玩家的主题与场景。",
+    "warnings": [
+      "血腥与死亡",
+      "绑架",
+      "食人内容",
+      "非自愿用药、肢体控制，以及轻度肢体骚扰／非自愿肢体接触"
+    ],
+    "creditsTitle": "制作与发布信息",
+    "creator": "创作者",
+    "publisher": "发布者",
+    "status": "状态",
+    "version": "版本",
+    "ending": "当前列出 1 个坏结局",
+    "updates": "已核实更新时间线",
+    "next": "继续浏览",
+    "download": "下载指南",
+    "guides": "Blog",
+    "community": "Community",
+    "endingsLink": "结局与路线",
+    "heightsLink": "身高与年龄顺序",
+    "saveLink": "存档与继续",
+    "faqLink": "常见问题"
+  },
+  "day3": {
+    "pageTitle": "The Freak Circus Day 3——发布日期与最新更新",
+    "metaDescription": "查看 The Freak Circus Day 3 的最新开发动态、当前发布状态、Version 0.2 信息，以及官方是否已公布发布日期。",
+    "lead": "The Freak Circus Day 3 尚未发布。下一个游戏日仍在积极开发中，Version 0.2 仍是当前公开原型版，官方尚未公布发布日期。",
+    "lastChecked": "最后核验",
+    "lastCheckedDisplay": "2026年10月15日",
+    "latestCta": "查看最新更新",
+    "timelineCta": "查看开发时间线",
+    "officialUpdate": "官方开发更新",
+    "latestTitle": "Day 3 最新开发进度",
+    "weeklyTitle": "Day 3 开发进度 · 2026年10月9日",
+    "latestIntro": "Day 3 最新开发进度摘要",
+    "latestPoints": [],
+    "timelineTitle": "Day 3 开发时间线",
+    "timelineIntro": "这里简要记录已确认的 Day 3 开发工作，后续有新的官方里程碑时可继续添加。",
+    "currentVersionTitle": "当前版本",
+    "currentVersionPoints": [
+      "Version 0.2 仍是当前公开版本。",
+      "目前可以体验五位角色的介绍。",
+      "当前可以游玩一个坏结局。",
+      "下一个游戏日仍在开发中。"
+    ],
+    "releaseNoteTitle": "开发更新 ≠ 发布公告",
+    "releaseNoteText": "剧本、美术、立绘或编程更新能够确认开发仍在继续，但不代表 Day 3 已经发布。只有新的公开版本实际上线后，才应把 Day 3 视为已发布。",
+    "faqTitle": "The Freak Circus Day 3 常见问题",
+    "faq": [
+      {
+        "q": "The Freak Circus Day 3 已经发布了吗？",
+        "a": "没有。Day 3 仍在开发中，目前没有公开的 Day 3 版本。"
+      },
+      {
+        "q": "The Freak Circus Day 3 什么时候发布？",
+        "a": "官方尚未公布发布日期。开发更新可以确认工作仍在继续，但不应被当作发布日程。"
+      },
+      {
+        "q": "Day 3 最近有什么更新？",
+        "a": "Day 3 最新开发进度摘要",
+        "linkLabel": "查看最新开发更新。"
+      },
+      {
+        "q": "The Freak Circus 当前是什么版本？",
+        "a": "Version 0.2 仍是当前公开原型版。"
+      },
+      {
+        "q": "可以下载 The Freak Circus Day 3 吗？",
+        "a": "目前没有单独公开的 Day 3 下载。只有官方公开版本实际存在时，本页才会提供对应链接。"
+      },
+      {
+        "q": "Day 3 还在开发吗？",
+        "a": "是的。近期官方开发更新显示，下一个游戏日的制作仍在继续。"
+      }
+    ],
+    "updatesLink": "站内更新记录",
+    "wikiLink": "Version 0.2 Wiki",
+    "downloadLink": "官方下载指南",
+    "endingsLink": "结局与路线",
+    "heightsLink": "身高与年龄顺序",
+    "saveLink": "存档与继续",
+    "faqLink": "常见问题",
+    "snapshot": "状态速览",
+    "inDevelopment": "正在开发",
+    "releaseDateLabel": "发布日期",
+    "notAnnounced": "尚未公布",
+    "currentBuildLabel": "当前版本",
+    "lastCheckedLabel": "最后核验",
+    "latestUpdateLabel": "最新更新",
+    "sidebarUpdateTitle": "Day 3 开发进度",
+    "sidebarUpdateText": "Day 3 最新开发进度摘要",
+    "continueTitle": "继续浏览站内内容"
   }
 }

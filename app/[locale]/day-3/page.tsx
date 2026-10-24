@@ -4,7 +4,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale, OFFICIAL_GAME_URL } from '@/lib/site-content';
 import { COMMUNITY_LAST_CHECKED } from '@/data/community-posts';
 import { DAY_3_POSTS, LATEST_DAY_3_UPDATE, formatUpdateDate } from '@/lib/day3-updates';
-import { day3Copy } from '@/lib/page-copy';
+import { rawMsg } from '@/lib/messages';
 import { CORE_LOCALES } from '@/lib/content-availability';
 
 type Props = { params: { locale: string } };
@@ -84,7 +84,7 @@ export function generateMetadata({ params: { locale } }: Props) {
 export default function DayThreePage({ params: { locale } }: Props) {
   const zh = editorialLocale(locale) === 'zh';
   const p = locale === 'en' ? '' : `/${locale}`;
-  const c = day3Copy[editorialLocale(locale)] ?? day3Copy.en;
+  const c = rawMsg<Record<string, any>>(locale, 'day3');
   const canonical = `${SITE_URL}${p}/day-3`;
   const localeKey = zh ? 'zh' : 'en';
 

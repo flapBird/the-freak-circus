@@ -267,5 +267,107 @@
     "rank": "Rank {n}",
     "agePosition": "age {n} of 5",
     "boundary": "Released scenes and future plans are kept separate here. An introduction, implication, or branch-specific appearance does not by itself prove that a complete route exists. The only ending implemented in the current build is the \"Missing\" bad ending on Day 1; the rest are announced but not yet shipped."
+  },
+  "wiki": {
+    "lead": "A living reference for the current public build—written around primary sources and explicit content boundaries, not invented lore.",
+    "overviewTitle": "Premise and current scope",
+    "overview1": "The protagonist works at a café. On the way to work, they meet Pierrot, a silent yandere whose fixation starts the central conflict. Harlequin, Pierrot’s seductive stage rival, enters the competition around the protagonist.",
+    "overview2": "The official listing currently says all five character introductions are complete, one bad ending is available, and the rest of the script and endings are still being developed. The planned endings named there are Pierrot, Harlequin, and protagonist endings.",
+    "castTitle": "Introduced cast",
+    "castText": "These five characters have introductions in the current prototype. “Introduced” does not automatically mean a completed route or ending.",
+    "columbina": "Columbina appears in official maintenance notes: the February 2026 Chinese-language update mentions a previously incomplete line when her name was entered. This confirms dialogue context, but it does not support the extensive backstory previously published on this site.",
+    "warningTitle": "Age rating and content warnings",
+    "warning": "The developer labels the game 18+. The official page warns about themes and scenes that may not be suitable for every player.",
+    "warnings": [
+      "Blood and death",
+      "Kidnapping",
+      "Cannibalism",
+      "Non-consensual use of drugs, physical domination, and mild physical harassment / non-consensual physical contact"
+    ],
+    "creditsTitle": "Credits and publication",
+    "creator": "CREATOR",
+    "publisher": "PUBLISHER",
+    "status": "STATUS",
+    "version": "BUILD",
+    "ending": "1 bad ending currently listed",
+    "updates": "Verified update timeline",
+    "next": "Continue",
+    "download": "Download Guide",
+    "guides": "Blog",
+    "community": "Community",
+    "endingsLink": "Endings and routes",
+    "heightsLink": "Heights and age order",
+    "saveLink": "Saving and resuming",
+    "faqLink": "Frequently asked questions"
+  },
+  "day3": {
+    "pageTitle": "The Freak Circus Day 3 – Release Date & Latest Updates",
+    "metaDescription": "Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced.",
+    "lead": "The Freak Circus Day 3 has not been released yet. The next in-game day is still in active development, Version 0.2 remains the current public prototype, and no official release date has been announced.",
+    "lastChecked": "Last checked",
+    "lastCheckedDisplay": "October 15, 2026",
+    "latestCta": "Read latest update",
+    "timelineCta": "View development timeline",
+    "officialUpdate": "OFFICIAL DEVELOPMENT UPDATE",
+    "latestTitle": "Latest Day 3 Development Update",
+    "weeklyTitle": "Day 3 development report · October 9, 2026",
+    "latestIntro": "Latest Day 3 development report summary",
+    "latestPoints": [],
+    "timelineTitle": "Day 3 Development Timeline",
+    "timelineIntro": "A concise record of confirmed Day 3 work. New official milestones can be added here as development continues.",
+    "currentVersionTitle": "Current Version",
+    "currentVersionPoints": [
+      "Version 0.2 remains the current public build.",
+      "Five character introductions are available.",
+      "One bad ending is currently playable.",
+      "The next in-game day remains in development."
+    ],
+    "releaseNoteTitle": "Development Update ≠ Release Announcement",
+    "releaseNoteText": "Writing, artwork, sprites, or programming updates confirm that development is active, but they do not mean Day 3 has been released. Day 3 should only be treated as released when a new public build becomes available.",
+    "faqTitle": "The Freak Circus Day 3 FAQ",
+    "faq": [
+      {
+        "q": "Is The Freak Circus Day 3 out?",
+        "a": "No. Day 3 is still in development and there is currently no public Day 3 build."
+      },
+      {
+        "q": "When will The Freak Circus Day 3 release?",
+        "a": "No official release date has been announced. Development updates confirm ongoing work, but they should not be treated as a release schedule."
+      },
+      {
+        "q": "What is the latest Day 3 update?",
+        "a": "Latest Day 3 development report summary",
+        "linkLabel": "Read the latest development update."
+      },
+      {
+        "q": "What is the current version of The Freak Circus?",
+        "a": "Version 0.2 remains the current public prototype."
+      },
+      {
+        "q": "Can I download The Freak Circus Day 3?",
+        "a": "There is currently no separate public Day 3 download. This page will only link to an official public build when one actually exists."
+      },
+      {
+        "q": "Is Day 3 still being developed?",
+        "a": "Yes. Recent official development updates show that work on the next in-game day is continuing."
+      }
+    ],
+    "updatesLink": "Updates timeline",
+    "wikiLink": "Version 0.2 Wiki",
+    "downloadLink": "Official download guide",
+    "endingsLink": "Endings and routes",
+    "heightsLink": "Heights and age order",
+    "saveLink": "Saving and resuming",
+    "faqLink": "Frequently asked questions",
+    "snapshot": "STATUS SNAPSHOT",
+    "inDevelopment": "In Development",
+    "releaseDateLabel": "RELEASE DATE",
+    "notAnnounced": "Not Announced",
+    "currentBuildLabel": "CURRENT BUILD",
+    "lastCheckedLabel": "LAST CHECKED",
+    "latestUpdateLabel": "LATEST UPDATE",
+    "sidebarUpdateTitle": "Day 3 development report",
+    "sidebarUpdateText": "Latest Day 3 development report summary",
+    "continueTitle": "Continue on this site"
   }
 }
