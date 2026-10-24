@@ -267,5 +267,107 @@
     "rank": "Peringkat {n}",
     "agePosition": "umur {n} dari 5",
     "boundary": "Di sini adegan yang sudah rilis dan rencana ke depan dipisahkan. Kemunculan karakter, sebuah petunjuk, atau adegan di satu cabang tidak dengan sendirinya membuktikan bahwa rute lengkap sudah ada. Satu-satunya ending yang diimplementasikan pada versi saat ini adalah ending buruk «Missing» di Hari 1; sisanya sudah diumumkan tetapi belum dirilis."
+  },
+  "wiki": {
+    "lead": "Referensi yang terus diperbarui untuk build publik saat ini — ditulis berdasarkan sumber utama dan batasan konten yang dinyatakan secara eksplisit, bukan lore yang dikarang.",
+    "overviewTitle": "Premis dan cakupan saat ini",
+    "overview1": "Protagonist bekerja di sebuah kafe. Dalam perjalanan menuju tempat kerja, ia berpapasan dengan Pierrot, badut sunyi bergaya \"yandere\" (\"yandere\" adalah istilah fandom untuk obsesi romantis yang berakhir pada kendali), dan obsesinya itulah yang memicu konflik utama. Harlequin, rival panggung Pierrot yang mempesona, turut bersaing memperebutkan sang protagonist.",
+    "overview2": "Halaman resmi saat ini menyatakan kelima perkenalan karakter telah lengkap, satu ending buruk sudah tersedia, dan sisa naskah beserta ending lainnya masih dalam pengembangan. Ending yang direncanakan dan disebut di sana adalah ending Pierrot, Harlequin, dan protagonist.",
+    "castTitle": "Karakter yang sudah diperkenalkan",
+    "castText": "Lima karakter ini memiliki perkenalan di prototipe saat ini. \"Diperkenalkan\" tidak otomatis berarti sudah ada rute atau ending yang lengkap.",
+    "columbina": "Columbina muncul dalam catatan pemeliharaan resmi: pembaruan berbahasa Tionghoa pada Februari 2026 menyebut sebuah baris dialog yang sebelumnya belum lengkap ketika namanya dimasukkan. Ini mengonfirmasi konteks dialognya, tetapi tidak mendukung latar belakang yang panjang lebar yang sebelumnya pernah dipublikasikan di situs ini.",
+    "warningTitle": "Rating umur dan peringatan konten",
+    "warning": "Developer memberi label game ini 18+. Halaman resmi memperingatkan tentang tema dan adegan yang mungkin tidak cocok untuk setiap pemain.",
+    "warnings": [
+      "Darah dan kematian",
+      "Penculikan",
+      "Kanibalisme",
+      "Penggunaan obat tanpa persetujuan, dominasi fisik, serta pelecehan fisik ringan / kontak fisik tanpa persetujuan"
+    ],
+    "creditsTitle": "Kredit dan publikasi",
+    "creator": "PENCIPTA",
+    "publisher": "PENERBIT",
+    "status": "STATUS",
+    "version": "BUILD",
+    "ending": "1 ending buruk yang tercantum saat ini",
+    "updates": "Garis waktu pembaruan terverifikasi",
+    "next": "Lanjutkan",
+    "download": "Panduan Unduhan",
+    "guides": "Blog",
+    "community": "Komunitas",
+    "endingsLink": "Ending dan rute",
+    "heightsLink": "Tinggi badan dan urutan umur",
+    "saveLink": "Menyimpan dan melanjutkan",
+    "faqLink": "Pertanyaan yang sering diajukan"
+  },
+  "day3": {
+    "pageTitle": "The Freak Circus Hari 3 – Tanggal Rilis & Pembaruan Terbaru",
+    "metaDescription": "Cek pembaruan pengembangan The Freak Circus Hari 3 terbaru, status rilis saat ini, informasi Versi 0.2, dan apakah tanggal rilis resmi sudah diumumkan.",
+    "lead": "The Freak Circus Hari 3 belum dirilis. Hari dalam game berikutnya masih dalam pengembangan aktif, Versi 0.2 tetap menjadi prototipe publik saat ini, dan belum ada tanggal rilis resmi yang diumumkan.",
+    "lastChecked": "Terakhir diperiksa",
+    "lastCheckedDisplay": "15 Oktober 2026",
+    "latestCta": "Baca pembaruan terbaru",
+    "timelineCta": "Lihat garis waktu pengembangan",
+    "officialUpdate": "PEMBARUAN PENGEMBANGAN RESMI",
+    "latestTitle": "Pembaruan Pengembangan Hari 3 Terbaru",
+    "weeklyTitle": "Laporan pengembangan Hari 3 · 9 Oktober 2026",
+    "latestIntro": "Ringkasan laporan pengembangan Hari 3 terbaru",
+    "latestPoints": [],
+    "timelineTitle": "Garis Waktu Pengembangan Hari 3",
+    "timelineIntro": "Catatan ringkas tentang pekerjaan Hari 3 yang terkonfirmasi. Tonggak resmi yang baru dapat ditambahkan di sini seiring berlanjutnya pengembangan.",
+    "currentVersionTitle": "Versi Saat Ini",
+    "currentVersionPoints": [
+      "Versi 0.2 tetap menjadi build publik saat ini.",
+      "Lima perkenalan karakter tersedia.",
+      "Saat ini hanya satu ending buruk yang bisa dimainkan.",
+      "Hari dalam game berikutnya masih dalam pengembangan."
+    ],
+    "releaseNoteTitle": "Pembaruan Pengembangan ≠ Pengumuman Rilis",
+    "releaseNoteText": "Pembaruan penulisan, karya seni, sprite, atau pemrograman menegaskan bahwa pengembangan masih aktif, tetapi itu bukan berarti Hari 3 sudah dirilis. Hari 3 baru boleh dianggap rilis ketika sebuah build publik baru benar-benar tersedia.",
+    "faqTitle": "FAQ The Freak Circus Hari 3",
+    "faq": [
+      {
+        "q": "Apakah The Freak Circus Hari 3 sudah rilis?",
+        "a": "Belum. Hari 3 masih dalam pengembangan dan saat ini belum ada build Hari 3 yang publik."
+      },
+      {
+        "q": "Kapan The Freak Circus Hari 3 dirilis?",
+        "a": "Belum ada tanggal rilis resmi yang diumumkan. Pembaruan pengembangan menegaskan bahwa pekerjaan masih berjalan, tetapi jangan dianggap sebagai jadwal rilis."
+      },
+      {
+        "q": "Apa pembaruan Hari 3 terbaru?",
+        "a": "Ringkasan laporan pengembangan Hari 3 terbaru",
+        "linkLabel": "Baca pembaruan pengembangan terbaru."
+      },
+      {
+        "q": "Apa versi The Freak Circus saat ini?",
+        "a": "Versi 0.2 tetap menjadi prototipe publik saat ini."
+      },
+      {
+        "q": "Bisakah saya mengunduh The Freak Circus Hari 3?",
+        "a": "Saat ini belum ada unduhan Hari 3 publik yang terpisah. Halaman ini hanya akan menautkan ke build publik resmi ketika benar-benar ada."
+      },
+      {
+        "q": "Apakah Hari 3 masih dikembangkan?",
+        "a": "Ya. Pembaruan pengembangan resmi terbaru menunjukkan bahwa pengerjaan hari dalam game berikutnya masih berlanjut."
+      }
+    ],
+    "updatesLink": "Garis waktu pembaruan",
+    "wikiLink": "Wiki Versi 0.2",
+    "downloadLink": "Panduan unduhan resmi",
+    "endingsLink": "Ending dan rute",
+    "heightsLink": "Tinggi badan dan urutan umur",
+    "saveLink": "Menyimpan dan melanjutkan",
+    "faqLink": "Pertanyaan yang sering diajukan",
+    "snapshot": "RINGKASAN STATUS",
+    "inDevelopment": "Sedang Dikembangkan",
+    "releaseDateLabel": "TANGGAL RILIS",
+    "notAnnounced": "Belum Diumumkan",
+    "currentBuildLabel": "BUILD SAAT INI",
+    "lastCheckedLabel": "TERAKHIR DIPERIKSA",
+    "latestUpdateLabel": "PEMBARUAN TERBARU",
+    "sidebarUpdateTitle": "Laporan pengembangan Hari 3",
+    "sidebarUpdateText": "Ringkasan laporan pengembangan Hari 3 terbaru",
+    "continueTitle": "Lanjutkan di situs ini"
   }
 }

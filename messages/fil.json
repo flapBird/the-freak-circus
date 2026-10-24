@@ -267,5 +267,107 @@
     "rank": "Rangking {n}",
     "agePosition": "edad {n} sa 5",
     "boundary": "Dito hiwalay na itinuturo ang mga eksena na nailabas na at ang mga plano pa lang. Ang isang pagpapakilala, pahiwatig, o paglitaw sa isang branch ay hindi sapat na patunay na may kumpletong ruta nang umiiral. Ang tanging ending na ipinatupad sa kasalukuyang build ay ang «Missing» na bad ending sa Araw 1; ang iba ay inanunsyo ngunit hindi pa ipinatutupad."
+  },
+  "wiki": {
+    "lead": "Isang patuloy na napapanahong sanggunian para sa kasalukuyang pampublikong build — isinulat batay sa mga pangunahing pinagkunan at malinaw na hangganan ng content, hindi sa gawa-gawang lore.",
+    "overviewTitle": "Premisa at kasalukuyang saklaw",
+    "overview1": "Ang protagonist ay nagtatrabaho sa isang café. Papunta sa trabaho, nakatagpo niya si Pierrot, isang tahimik na \"yandere\" na payaso (ang \"yandere\" ay ang pananalit ng komunidad para sa obsessed na romansa na humahantong sa kontrol), at ang obsesyon niyang iyon ang nagpasimula ng pangunahing tunggalian. Si Harlequin, ang mapang-akit na kaaway ni Pierrot sa entablado, ay sumali sa laban para sa atensyon ng protagonist.",
+    "overview2": "Sinasabi ng opisyal na listing sa kasalukuyan na kumpleto na ang lahat ng limang pagpapakilala ng karakter, may isang bad ending na available, at ang natitirang script at mga ending ay nasa development pa rin. Ang mga planadong ending na binanggit doon ay ang mga ending nina Pierrot, Harlequin, at ng protagonist.",
+    "castTitle": "Mga tauhang naipakilala na",
+    "castText": "Ang limang karakter na ito ay may pagpapakilala sa kasalukuyang prototype. Ang \"pagpapakilala\" ay hindi awtomatikong nangangahulugang may kumpletong ruta o ending.",
+    "columbina": "Lumilitaw si Columbina sa mga opisyal na tala ng maintenance: binanggit ng Chinese-language update noong Pebrero 2026 ang isang dating di-kumpletong linya noong ilagay ang kanyang pangalan. Kinukumpirma nito ang konteksto ng dayalogo, ngunit hindi nito sinusuportahan ang malawakang backstory na dating nailathala sa site na ito.",
+    "warningTitle": "Rating ng edad at mga babala sa content",
+    "warning": "Nilalagyan ng developer ang laro ng label na 18+. Binabalaan ng opisyal na pahina ang mga tema at eksena na maaaring hindi angkop sa bawat manlalaro.",
+    "warnings": [
+      "Blood and death",
+      "Kidnapping",
+      "Cannibalism",
+      "Hindi pangkonsensuwal na paggamit ng gamot, physical domination, at mild physical harassment / hindi pangkonsensuwal na pisikal na kontak"
+    ],
+    "creditsTitle": "Mga Kredito at Paglalathala",
+    "creator": "TAGALIKHA",
+    "publisher": "TAGAPAGLABAS",
+    "status": "STATUS",
+    "version": "BUILD",
+    "ending": "1 bad ending ang kasalukuyang nakatala",
+    "updates": "Timeline ng mga beripikadong update",
+    "next": "Magpatuloy",
+    "download": "Gabay sa Download",
+    "guides": "Blog",
+    "community": "Komunidad",
+    "endingsLink": "Mga ending at ruta",
+    "heightsLink": "Mga taas at pagkakasunod ng edad",
+    "saveLink": "Pag-save at pagpapatuloy",
+    "faqLink": "Mga madalas itanong"
+  },
+  "day3": {
+    "pageTitle": "The Freak Circus Araw 3 – Petsa ng Paglabas & Mga Pinakabagong Update",
+    "metaDescription": "Tingnan ang pinakabagong development update ng The Freak Circus Araw 3, ang kasalukuyang status ng paglabas, impormasyon sa Bersyon 0.2, at kung may opisyal nang inanunsyo na petsa ng paglabas.",
+    "lead": "Ang The Freak Circus Araw 3 ay hindi pa nailabas. Ang susunod na araw sa loob ng laro ay nasa aktibong development pa rin, ang Bersyon 0.2 pa rin ang kasalukuyang pampublikong prototype, at walang opisyal na petsa ng paglabas na inanunsyo.",
+    "lastChecked": "Huling nasuri",
+    "lastCheckedDisplay": "Oktubre 15, 2026",
+    "latestCta": "Basahin ang pinakabagong update",
+    "timelineCta": "Tingnan ang timeline ng development",
+    "officialUpdate": "OPISYAL NA DEVELOPMENT UPDATE",
+    "latestTitle": "Pinakabagong Development Update sa Araw 3",
+    "weeklyTitle": "Ulat sa development ng Araw 3 · Oktubre 9, 2026",
+    "latestIntro": "Buod ng pinakabagong ulat sa development ng Araw 3",
+    "latestPoints": [],
+    "timelineTitle": "Timeline ng Development ng Araw 3",
+    "timelineIntro": "Isang maikling talaan ng mga beripikadong gawain para sa Araw 3. Maaaring idagdag dito ang mga bagong opisyal na milestone habang patuloy ang development.",
+    "currentVersionTitle": "Kasalukuyang Bersyon",
+    "currentVersionPoints": [
+      "Ang Bersyon 0.2 pa rin ang kasalukuyang pampublikong build.",
+      "Available ang limang pagpapakilala ng karakter.",
+      "Sa kasalukuyan, isang bad ending lang ang maaaring laruin.",
+      "Ang susunod na araw sa loob ng laro ay nasa development pa rin."
+    ],
+    "releaseNoteTitle": "Development Update ≠ Anunsyo ng Paglabas",
+    "releaseNoteText": "Kinukumpirma ng mga update sa pagsusulat, sining, sprites, o programming na aktibo ang development, ngunit hindi ito nangangahulugang nailabas na ang Araw 3. Dapat lang ituring na nailabas ang Araw 3 kapag may bagong pampublikong build na talagang available.",
+    "faqTitle": "FAQ ng The Freak Circus Araw 3",
+    "faq": [
+      {
+        "q": "Nailabas na ba ang The Freak Circus Araw 3?",
+        "a": "Hindi pa. Nasa development pa ang Araw 3 at kasalukuyang walang pampublikong build ng Araw 3."
+      },
+      {
+        "q": "Kailan ilalabas ang The Freak Circus Araw 3?",
+        "a": "Walang opisyal na petsa ng paglabas na inanunsyo. Kinukumpirma ng mga development update na tuloy pa rin ang gawain, ngunit hindi dapat ituring ang mga ito bilang isang iskedyul ng paglabas."
+      },
+      {
+        "q": "Ano ang pinakabagong update sa Araw 3?",
+        "a": "Buod ng pinakabagong ulat sa development ng Araw 3",
+        "linkLabel": "Basahin ang pinakabagong development update."
+      },
+      {
+        "q": "Ano ang kasalukuyang bersyon ng The Freak Circus?",
+        "a": "Ang Bersyon 0.2 pa rin ang kasalukuyang pampublikong prototype."
+      },
+      {
+        "q": "Maaari ko bang i-download ang The Freak Circus Araw 3?",
+        "a": "Kasalukuyang walang hiwalay na pampublikong download para sa Araw 3. Maglalagay lang ng link ang pahinang ito sa isang opisyal na pampublikong build kapag mayroon na talagang ganoon."
+      },
+      {
+        "q": "Nasa development pa rin ba ang Araw 3?",
+        "a": "Oo. Ipinapakita ng mga kamakailang opisyal na development update na tuloy pa rin ang gawain sa susunod na araw sa loob ng laro."
+      }
+    ],
+    "updatesLink": "Timeline ng mga update",
+    "wikiLink": "Wiki ng Bersyon 0.2",
+    "downloadLink": "Opisyal na gabay sa download",
+    "endingsLink": "Mga ending at ruta",
+    "heightsLink": "Mga taas at pagkakasunod ng edad",
+    "saveLink": "Pag-save at pagpapatuloy",
+    "faqLink": "Mga madalas itanong",
+    "snapshot": "BUOD NG STATUS",
+    "inDevelopment": "Nasa Development",
+    "releaseDateLabel": "PETSA NG PAGLABAS",
+    "notAnnounced": "Hindi Pa Inanunsyo",
+    "currentBuildLabel": "KASALUKUYANG BUILD",
+    "lastCheckedLabel": "HULING NASURI",
+    "latestUpdateLabel": "PINAKABAGONG UPDATE",
+    "sidebarUpdateTitle": "Ulat sa development ng Araw 3",
+    "sidebarUpdateText": "Buod ng pinakabagong ulat sa development ng Araw 3",
+    "continueTitle": "Magpatuloy sa site na ito"
   }
 }

@@ -267,5 +267,107 @@
     "rank": "Hạng {n}",
     "agePosition": "tuổi {n} trong 5",
     "boundary": "Ở đây các cảnh đã phát hành và kế hoạch tương lai được giữ tách biệt. Việc nhân vật xuất hiện, có lời gợi ý hay xuất hiện trong một nhánh đều chưa đủ để chứng minh một tuyến hoàn chỉnh tồn tại. Kết cục duy nhất đã được thực hiện trong bản build hiện tại là kết cục xấu «Missing» ở Ngày 1; các kết cục còn lại đã được công bố nhưng chưa được triển khai."
+  },
+  "wiki": {
+    "lead": "Tài liệu tham khảo luôn được cập nhật cho bản build công khai hiện tại — được viết dựa trên các nguồn chính và ranh giới nội dung được nêu rõ, chứ không phải những chi tiết bối cảnh bịa ra.",
+    "overviewTitle": "Tiền đề và phạm vi hiện tại",
+    "overview1": "Nhân vật chính làm việc ở một quán cà phê. Trên đường đi làm, họ gặp Pierrot — một gã hề im lặng kiểu \"yandere\" (\"yandere\" là kiểu nhân vật ám ảnh, sở hữu tình cảm đối với người mình yêu) — và chính sự ám ảnh ấy đã khơi mào xung đột trung tâm. Harlequin, đối thủ sân khấu quyến rũ của Pierrot, gia nhập cuộc cạnh tranh xoay quanh nhân vật chính.",
+    "overview2": "Trang chính thức hiện cho biết cả năm phần giới thiệu nhân vật đã hoàn tất, một kết cục xấu đã có sẵn, và phần còn lại của kịch bản cùng các kết cục vẫn đang được phát triển. Các kết cục được lên kế hoạch được nêu tên ở đó là kết cục của Pierrot, của Harlequin và của nhân vật chính.",
+    "castTitle": "Dàn nhân vật đã xuất hiện",
+    "castText": "Năm nhân vật này đều có phần giới thiệu trong bản nguyên mẫu hiện tại. \"Đã xuất hiện\" không tự động có nghĩa là đã có một tuyến hoặc kết cục hoàn chỉnh.",
+    "columbina": "Columbina xuất hiện trong các ghi chú bảo trì chính thức: bản cập nhật tiếng Trung vào tháng 2 năm 2026 nhắc đến một dòng thoại trước đó chưa hoàn chỉnh khi tên của cô được nhập vào. Điều này xác nhận ngữ cảnh của lời thoại, nhưng không nâng đỡ cho phần tiểu sử rộng lớn trước đây từng được công bố trên trang này.",
+    "warningTitle": "Phân hạng tuổi và cảnh báo nội dung",
+    "warning": "Nhà phát triển xếp hạng game 18+. Trang chính thức cảnh báo về những chủ đề và cảnh có thể không phù hợp với mọi người chơi.",
+    "warnings": [
+      "Máu và cái chết",
+      "Bắt cóc",
+      "Ăn thịt người",
+      "Sử dụng ma túy không đồng ý, chế ngự thân thể, và quấy rối thể chất nhẹ / tiếp xúc cơ thể không đồng ý"
+    ],
+    "creditsTitle": "Thông tin sản xuất và phát hành",
+    "creator": "NGƯỜI SÁNG TẠO",
+    "publisher": "NHÀ PHÁT HÀNH",
+    "status": "TRẠNG THÁI",
+    "version": "BẢN BUILD",
+    "ending": "1 kết cục xấu đang được liệt kê",
+    "updates": "Dòng thời gian cập nhật đã được xác minh",
+    "next": "Tiếp tục",
+    "download": "Hướng dẫn tải xuống",
+    "guides": "Blog",
+    "community": "Cộng đồng",
+    "endingsLink": "Các kết cục và tuyến truyện",
+    "heightsLink": "Chiều cao và thứ tự tuổi",
+    "saveLink": "Lưu game và chơi tiếp",
+    "faqLink": "Câu hỏi thường gặp"
+  },
+  "day3": {
+    "pageTitle": "The Freak Circus Ngày 3 – Ngày phát hành & Cập nhật mới nhất",
+    "metaDescription": "Cập nhật phát triển mới nhất của The Freak Circus Ngày 3, trạng thái phát hành hiện tại, thông tin Phiên bản 0.2, và xem liệu đã có ngày phát hành chính thức nào được công bố hay chưa.",
+    "lead": "The Freak Circus Ngày 3 chưa được phát hành. Ngày trong game tiếp theo vẫn đang được phát triển tích cực, Phiên bản 0.2 vẫn là bản nguyên mẫu công khai hiện tại, và chưa có ngày phát hành chính thức nào được công bố.",
+    "lastChecked": "Kiểm tra lần cuối",
+    "lastCheckedDisplay": "15 tháng 10 năm 2026",
+    "latestCta": "Đọc cập nhật mới nhất",
+    "timelineCta": "Xem dòng thời gian phát triển",
+    "officialUpdate": "CẬP NHẬT PHÁT TRIỂN CHÍNH THỨC",
+    "latestTitle": "Cập nhật phát triển Ngày 3 mới nhất",
+    "weeklyTitle": "Báo cáo phát triển Ngày 3 · 9 tháng 10 năm 2026",
+    "latestIntro": "Tóm tắt báo cáo phát triển Ngày 3 mới nhất",
+    "latestPoints": [],
+    "timelineTitle": "Dòng thời gian phát triển Ngày 3",
+    "timelineIntro": "Bản ghi súc tích về những công việc Ngày 3 đã được xác nhận. Các cột mốc chính thức mới có thể được bổ sung tại đây khi quá trình phát triển tiếp diễn.",
+    "currentVersionTitle": "Phiên bản hiện tại",
+    "currentVersionPoints": [
+      "Phiên bản 0.2 vẫn là bản build công khai hiện tại.",
+      "Năm phần giới thiệu nhân vật đã có sẵn.",
+      "Hiện chỉ có một kết cục xấu có thể chơi.",
+      "Ngày trong game tiếp theo vẫn đang trong quá trình phát triển."
+    ],
+    "releaseNoteTitle": "Cập nhật phát triển ≠ Thông báo phát hành",
+    "releaseNoteText": "Các cập nhật về viết kịch bản, mỹ thuật, sprite hay lập trình xác nhận rằng quá trình phát triển vẫn đang diễn ra, nhưng chúng không có nghĩa là Ngày 3 đã được phát hành. Ngày 3 chỉ nên được coi là đã phát hành khi một bản build công khai mới thực sự ra mắt.",
+    "faqTitle": "Câu hỏi thường gặp về The Freak Circus Ngày 3",
+    "faq": [
+      {
+        "q": "The Freak Circus Ngày 3 đã ra mắt chưa?",
+        "a": "Chưa. Ngày 3 vẫn đang được phát triển và hiện chưa có bản Ngày 3 công khai nào."
+      },
+      {
+        "q": "The Freak Circus Ngày 3 sẽ phát hành khi nào?",
+        "a": "Chưa có ngày phát hành chính thức nào được công bố. Các cập nhật phát triển xác nhận công việc vẫn đang tiếp diễn, nhưng không nên coi chúng như một lịch phát hành."
+      },
+      {
+        "q": "Cập nhật Ngày 3 mới nhất là gì?",
+        "a": "Tóm tắt báo cáo phát triển Ngày 3 mới nhất",
+        "linkLabel": "Đọc bản cập nhật phát triển mới nhất."
+      },
+      {
+        "q": "Phiên bản hiện tại của The Freak Circus là gì?",
+        "a": "Phiên bản 0.2 vẫn là bản nguyên mẫu công khai hiện tại."
+      },
+      {
+        "q": "Tôi có thể tải The Freak Circus Ngày 3 không?",
+        "a": "Hiện chưa có bản tải xuống Ngày 3 công khai riêng biệt. Trang này chỉ dẫn liên kết đến một bản build công khai chính thức khi bản đó thực sự tồn tại."
+      },
+      {
+        "q": "Ngày 3 vẫn còn được phát triển chứ?",
+        "a": "Có. Các cập nhật phát triển chính thức gần đây cho thấy công việc cho ngày trong game tiếp theo vẫn đang tiếp diễn."
+      }
+    ],
+    "updatesLink": "Dòng thời gian cập nhật",
+    "wikiLink": "Wiki Phiên bản 0.2",
+    "downloadLink": "Hướng dẫn tải xuống chính thức",
+    "endingsLink": "Các kết cục và tuyến truyện",
+    "heightsLink": "Chiều cao và thứ tự tuổi",
+    "saveLink": "Lưu game và chơi tiếp",
+    "faqLink": "Câu hỏi thường gặp",
+    "snapshot": "TÓM TẮT TRẠNG THÁI",
+    "inDevelopment": "Đang phát triển",
+    "releaseDateLabel": "NGÀY PHÁT HÀNH",
+    "notAnnounced": "Chưa công bố",
+    "currentBuildLabel": "BẢN BUILD HIỆN TẠI",
+    "lastCheckedLabel": "KIỂM TRA LẦN CUỐI",
+    "latestUpdateLabel": "CẬP NHẬT MỚI NHẤT",
+    "sidebarUpdateTitle": "Báo cáo phát triển Ngày 3",
+    "sidebarUpdateText": "Tóm tắt báo cáo phát triển Ngày 3 mới nhất",
+    "continueTitle": "Tiếp tục trên trang này"
   }
 }
