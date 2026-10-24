@@ -81,7 +81,7 @@ export const CORE_LOCALES: Record<string, readonly Locale[]> = {
  * sitemap for that locale. The list is derived from the post arrays, so it
  * can never disagree with what is actually published.
  */
-export const BLOG_LOCALES: Record<string, readonly Locale[]> = derivedBlogLocales;
+export const BLOG_LOCALES: Record<string, readonly Locale[]> = derivedBlogLocales as Record<string, readonly Locale[]>;
 
 export function isLocale(value: string): value is Locale {
   return (ALL_LOCALES as readonly string[]).includes(value);

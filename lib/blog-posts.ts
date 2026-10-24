@@ -1463,8 +1463,31 @@ const POSTS_ZH: BlogPost[] = [
 
 export const BLOG_POSTS = POSTS_EN;
 
+// Per-locale post arrays. English and Chinese live in this file; other
+// locales live in blog-posts-<locale>.ts and register themselves here. A
+// locale that has no module falls back to the English posts, and pages use
+// blogLocales() to decide what to advertise to search engines.
+import { POSTS_ES } from './blog-posts-es';
+import { POSTS_PT } from './blog-posts-pt';
+import { POSTS_VI } from './blog-posts-vi';
+import { POSTS_ID } from './blog-posts-id';
+import { POSTS_FIL } from './blog-posts-fil';
+
+const POSTS_BY_LOCALE: Record<string, BlogPost[]> = {
+  en: POSTS_EN,
+  zh: POSTS_ZH,
+  es: POSTS_ES,
+  pt: POSTS_PT,
+  vi: POSTS_VI,
+  id: POSTS_ID,
+  fil: POSTS_FIL,
+};
+
+/** Locales that carry a reviewed post array (not an English fallback). */
+export const BLOG_TRANSLATED_LOCALES: string[] = Object.keys(POSTS_BY_LOCALE);
+
 export function getBlogPosts(locale = 'en'): BlogPost[] {
-  return locale === 'zh' ? POSTS_ZH : POSTS_EN;
+  return POSTS_BY_LOCALE[locale] ?? POSTS_BY_LOCALE.en;
 }
 
 export function getPostBySlug(slug: string, locale = 'en'): BlogPost | undefined {
@@ -1480,9 +1503,11 @@ export function getAllSlugs(): string[] {
  * the arrays themselves so a post can never be advertised in a language it
  * does not exist in.
  */
-export const BLOG_LOCALES: Record<string, readonly ('en' | 'zh')[]> = Object.fromEntries(
+export const BLOG_LOCALES: Record<string, readonly string[]> = Object.fromEntries(
   BLOG_POSTS.map((post) => [
     post.slug,
-    (['en', 'zh'] as const).filter((locale) => getBlogPosts(locale).some((entry) => entry.slug === post.slug)),
+    BLOG_TRANSLATED_LOCALES.filter((locale) =>
+      POSTS_BY_LOCALE[locale]!.some((entry) => entry.slug === post.slug),
+    ),
   ]),
 );
