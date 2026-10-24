@@ -324,7 +324,7 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   publishedAt: '2026-09-18',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/828134682948517888/ama-2-answers-part-26',
   // Original post image: https://64.media.tumblr.com/ed933d7b74be3075c372df66e9ee1c44/5bd37be02ab5feec-0a/s1280x1920/a6323b23af2921a6bd254df7c8dc5c49dbc9780f.png
-  image: '/images/community/ama2-part26-20260918.png',
+  image: '/images/community/ama2-part26-20260918.jpg',
   imageAlt: {
     en: 'AMA 2 Part 26: Pierrot talks about admiring Jester’s adaptability and Doctor’s knowledge.',
     zh: 'AMA 2 第 26 部分：Pierrot 谈到自己欣赏 Jester 的应变能力与 Doctor 的知识。',
@@ -343,7 +343,7 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   publishedAt: '2026-09-11',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513414487343104/ama-2-answers-part-25-12',
   // Original post image: https://64.media.tumblr.com/859fd79c646c589e340d2886ea280d35/2b38b8683faea987-c4/s1280x1920/35a8b13fd89a712f3e0bfc01a754f1f4ded06239.png
-  image: '/images/community/ama2-part25-2-20260911.png',
+  image: '/images/community/ama2-part25-2-20260911.jpg',
   imageAlt: {
     en: 'AMA 2 Part 25, second half: Pierrot answers a question in front of the illuminated circus tents.',
     zh: 'AMA 2 第 25 部分下篇：Pierrot 在灯光明亮的马戏帐篷前回答问题。',
@@ -362,7 +362,7 @@ export const COMMUNITY_POSTS: readonly CommunityPost[] = [
   publishedAt: '2026-09-11',
   sourceUrl: 'https://freakcircusofhorrors.tumblr.com/post/827513385132441600/ama-2-answers-part-24-%C2%BD',
   // Original post image: https://64.media.tumblr.com/aed005b1cd8de3cb2e218728382854b9/378dac40524d8d9d-86/s1280x1920/51f3294473eee9f007926da320ea4a938afd10d0.png
-  image: '/images/community/ama2-part25-1-20260911.png',
+  image: '/images/community/ama2-part25-1-20260911.jpg',
   imageAlt: {
     en: 'AMA 2 Part 25, first half: Pierrot explains that he turns to Jester for guidance.',
     zh: 'AMA 2 第 25 部分上篇：Pierrot 表示自己会向 Jester 寻求指引。',

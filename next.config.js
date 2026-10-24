@@ -2,6 +2,12 @@
 const nextConfig = {
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'cdn.the-freakcircus.com' }],
+    // Serve images as-is instead of through the /_next/image optimizer.
+    // Vercel's optimization quota is metered, and when it runs out every
+    // image on the site returns 402 Payment Required. The sources under
+    // public/ are already sized and compressed for the web, so the
+    // optimizer bought little and cost reliability.
+    unoptimized: true,
   },
   async redirects() {
     const locales = ['pt', 'fil', 'vi', 'es', 'id', 'zh'];
