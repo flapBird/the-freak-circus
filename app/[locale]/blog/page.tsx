@@ -31,9 +31,7 @@ export default async function BlogPage({ params: { locale } }: Props) {
         <div className="page-container">
           <h1>{tMsg(locale, 'blog.title')}</h1>
           <p className="page-hero-lead">
-            {zh
-              ? '面向玩家的实用指南、版本说明与事实核查。每篇文章都标明范围，不把猜测包装成剧情事实。'
-              : 'Practical player guides, build explainers, and careful fact checks—written with clear scope and no invented story claims.'}
+            {tMsg(locale, 'blog.x0')}
           </p>
         </div>
       </header>

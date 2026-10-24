@@ -10,7 +10,8 @@
     "subtitle": "Walkthroughs, character analysis, and lore for The Freak Circus.",
     "backLink": "Back to all articles",
     "published": "Published {date}",
-    "footerLink": "Play The Freak Circus Online"
+    "footerLink": "Play The Freak Circus Online",
+    "x0": "Practical player guides, build explainers, and careful fact checks—written with clear scope and no invented story claims."
   },
   "meta": {
     "homeTitle": "The Freak Circus — Psychological Horror Visual Novel",
@@ -260,7 +261,14 @@
     "p17": "All character profiles",
     "p18": "Endings and routes",
     "p19": "Community and official updates",
-    "p20": "Download and play"
+    "p20": "Download and play",
+    "x0": "Every piece here was selected by hand, and each one keeps a record of its artist and original post. We do not turn fan work found online into an unlicensed house gallery: when the source, permission, or attribution is unclear, the piece is withheld rather than shown.",
+    "x1": "That means this gallery is smaller than an automatically scraped mirror would be, and it excludes anything marked \"do not repost\" or that comes from an aggregator site. If you would like your work included, send the link and say whether this site may display it — permission is requested first where it is needed.",
+    "x2": "Five characters are introduced in the current build, and their very different personalities pull fan art in different directions.",
+    "x3": "For a full profile of any of them — official height, age order, and route status — the character pages have the detail.",
+    "x4": "Fan art is a normal part of this game\\'s fandom and is welcome here. A few notes: the work stays with its creator and this site only displays it; the site hosts no game files and repackages or mirrors no download; pieces covering 18+ subject matter are labelled as such.",
+    "x5": "Selecting an image opens it larger. The enlarged view shows the artwork and its title only — no added creator labels or outbound links — while the attribution stays in this site\\'s own record.",
+    "x6": "Beyond the gallery, the site also carries character profiles, an endings and routes breakdown, and a guide to the official download channels."
   },
   "character": {
     "jointSecond": "Joint second",
@@ -389,7 +397,9 @@
     "latestUpdateLabel": "LATEST UPDATE",
     "sidebarUpdateTitle": "Day 3 development report",
     "sidebarUpdateText": "Latest Day 3 development report summary",
-    "continueTitle": "Continue on this site"
+    "continueTitle": "Continue on this site",
+    "x0": "The Freak Circus Day 3: Release Date & Updates",
+    "x1": "Check the latest The Freak Circus Day 3 development updates, current release status, Version 0.2 information, and whether an official release date has been announced."
   },
   "about": {
     "s0": "About The Freak Circus: Story, Characters & Game",
@@ -415,7 +425,27 @@
     "s20": "Saving and resuming",
     "s21": "Confirmed and unconfirmed",
     "s22": "FAQ",
-    "s23": "The short version of the site"
+    "s23": "The short version of the site",
+    "x0": "An independent, fan-maintained guide to The Freak Circus with a focus on useful context, clear sourcing, and honest limits.",
+    "x1": "Information about The Freak Circus is spread across playable builds, development notes, and community conversation. This site brings the questions players actually ask into one readable place: who the characters are, what the current build contains, where Day 3 stands, and how to play on a suitable platform.",
+    "x2": "Organising that information is not the hard part. The hard part is staying restrained while the information is still incomplete. The game is mid-development: of five introduced characters, only two have planned routes; of four announced endings, one is implemented; Day 3 is still being made and has no date. Under those conditions it is easy to find guides that look complete while being substantially guesswork.",
+    "x3": "That is why this site treats \"how far can we confirm\" as the more important question than \"how much can we write\". An honest answer and a confident-sounding guess are worth very different amounts to a reader, and only one of them can be acted on.",
+    "x4": "Material reproducible in a public build is described as current content. Developer intentions that have not shipped are labelled as planned or in development. Community theories, unsupported route names, and claims that cannot be reproduced in play are not rewritten as facts.",
+    "x5": "In practice that shows up as follows. Character pages state the official height and age order, and separately flag which appearance and relationship details come from the fandom wiki rather than from the developer. The endings page states that exactly one ending is playable and lists the four planned ones separately, rather than implying that multiple endings can be reached today.",
+    "x6": "What we decline to repeat matters just as much. The following circulate across fan sites as settled fact, but none of them have a first-party source, so this site does not present them as conclusions:",
+    "x7": "This is the point most often misread about this site, so it is worth stating plainly. Right now the game has one implemented ending, and the scripts for both romance routes are still being written. Where there is no trigger, there is no honest trigger chart.",
+    "x8": "Guides that specify picking a red balloon or avoiding defiance on Day 2 are describing a public build that does not exist. A reader who follows them finds no route at all, which is more confusing than having no guide in the first place. This site will add the real choices, scenes, and save points once the routes actually ship.",
+    "x9": "Primary sources are the developer\\'s itch.io page and devlog, and the official Tumblr FAQ and AMA posts. The height chart and age order quoted on the character pages come from images and answers published by the developer directly, not from sprite estimates or fan compilations.",
+    "x10": "Every page that cites a specific fact links the source it came from, so you can check it independently rather than taking our word for it.",
+    "x11": "This is not the developer, publisher, or an official support channel, and it does not present itself as one. Explanations and organization are independent editorial work; the game, characters, artwork, and related marks remain the property of their respective rights holders.",
+    "x12": "The developer has stated that the itch.io page is the only official page for the game and has asked that it not be re-uploaded or reposted, and has confirmed that no official Discord server exists — so any server or account not linked from the official pages should be treated as fan-run or unauthorized.",
+    "x13": "This site does not host game files and does not mirror the download packages. The optional player on the site is served by a third-party host, which the privacy policy covers.",
+    "x14": "The site does not repackage or host game files, and it does not turn fan work found online into an unlicensed house gallery. Community selections are curated by hand, remain the work of their creators, and are withheld when source, permission, or attribution is unclear.",
+    "x15": "Some appearance and relationship detail on the character profiles comes from the fandom wiki. That material is labelled as fan-derived on the page and kept visually separate from developer-confirmed facts, so a reader can decide how much weight to give it.",
+    "x16": "Version-sensitive information is maintained through the on-site Updates and Day 3 pages. Character profiles state where the evidence ends instead of inventing endings simply to make a page look complete.",
+    "x17": "The game is still a prototype, and its script, labels, and save behaviour can change between builds. If a page here conflicts with the current build, please say so.",
+    "x18": "If a page conflicts with the current build, lacks important context, or needs an attribution correction, use the Contact page and identify the affected page and specific issue. Reproducible, well-located reports are reviewed first.",
+    "x19": "Additions are welcome too. If there is a question you want answered here and no page covers it yet, tell us."
   },
   "charIndex": {
     "p0": "The Freak Circus Characters: Pierrot, Harlequin & More",
@@ -497,7 +527,10 @@
     "p1": "The Freak Circus Updates",
     "p2": "THE FREAK CIRCUS UPDATES",
     "p3": "Open the official devlog",
-    "p4": "Update timeline"
+    "p4": "Update timeline",
+    "x0": "Follow The Freak Circus release notes, development progress, maintenance updates, and the latest game news.",
+    "x1": "Release notes, development progress, and maintenance updates for The Freak Circus.",
+    "x2": "Release notes, development progress, and maintenance records collected in one continuous timeline, with dates and links back to each primary announcement."
   },
   "community": {
     "p0": "The Freak Circus Community: Official Updates, AMA & Fan Art",
@@ -508,6 +541,9 @@
     "p5": "Repost",
     "p6": "Like",
     "p7": "Bookmark",
-    "p8": "The first picks are being curated"
+    "p8": "The first picks are being curated",
+    "x0": "Follow The Freak Circus official development updates, character AMA answers, fan creations, and community news about Day 3 and the circus cast.",
+    "x1": "Follow official development updates, character AMA answers, fan creations, and community moments worth sharing.",
+    "x2": "Selected work will appear here after its creator, source, and content labels have been checked."
   }
 }

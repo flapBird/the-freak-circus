@@ -61,18 +61,17 @@ export const CORE_LOCALES: Record<string, readonly Locale[]> = {
   // The home page carries a full translation in every locale, so it can be
   // indexed wherever the landing copy exists.
   home: ['en', 'zh', 'es', 'pt', 'vi', 'id', 'fil'],
-  // Wiki and Day 3 are translated everywhere; the remaining core pages have
-  // Spanish and Portuguese so far, with more languages in progress.
-  wiki: ['en', 'zh', 'es', 'pt', 'vi', 'id', 'fil'],
-  'day-3': ['en', 'zh', 'es', 'pt', 'vi', 'id', 'fil'],
-  about: ['en', 'zh', 'es', 'pt'],
-  characters: ['en', 'zh', 'es', 'pt'],
-  'fan-art': ['en', 'zh', 'es', 'pt'],
-  updates: ['en', 'zh', 'es', 'pt'],
-  community: ['en', 'zh', 'es', 'pt'],
-  contact: ['en', 'zh', 'es', 'pt'],
-  privacy: ['en', 'zh', 'es', 'pt'],
-  terms: ['en', 'zh', 'es', 'pt'],
+  // Every core page carries a reviewed translation in all seven locales.
+  wiki: ALL_LOCALES,
+  'day-3': ALL_LOCALES,
+  about: ALL_LOCALES,
+  characters: ALL_LOCALES,
+  'fan-art': ALL_LOCALES,
+  updates: ALL_LOCALES,
+  community: ALL_LOCALES,
+  contact: ALL_LOCALES,
+  privacy: ALL_LOCALES,
+  terms: ALL_LOCALES,
   blog: ['en', 'zh'],
 };
 

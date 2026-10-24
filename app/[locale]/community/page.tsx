@@ -13,9 +13,7 @@ export function generateMetadata({ params: { locale } }: PageProps) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
     title: tMsg(locale, 'community.p0'),
-    description: zh
-      ? '关注 The Freak Circus 官方开发周报、角色 AMA 问答、粉丝创作与社区动态，了解 Day 3 和马戏团成员的最新消息。'
-      : 'Follow The Freak Circus official development updates, character AMA answers, fan creations, and community news about Day 3 and the circus cast.',
+    description: tMsg(locale, 'community.x0'),
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/community`,
     availableLocales: CORE_LOCALES.community,
     locale,
@@ -33,9 +31,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
       <header className="page-hero">
         <div className="page-container">
           <h1>{tMsg(locale, 'community.p1')}</h1>
-          <p className="page-hero-lead">{zh
-            ? '关注官方开发周报、角色 AMA 问答、粉丝创作与值得分享的社区动态。'
-            : 'Follow official development updates, character AMA answers, fan creations, and community moments worth sharing.'}</p>
+          <p className="page-hero-lead">{tMsg(locale, 'community.x1')}</p>
         </div>
       </header>
 
@@ -108,9 +104,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
           <div className="community-empty">
             <span aria-hidden="true">✦</span>
             <h2>{tMsg(locale, 'community.p8')}</h2>
-            <p>{zh
-              ? '完成作者、来源与内容标记后，精选作品会出现在这里。'
-              : 'Selected work will appear here after its creator, source, and content labels have been checked.'}</p>
+            <p>{tMsg(locale, 'community.x2')}</p>
           </div>
         )}
       </section>

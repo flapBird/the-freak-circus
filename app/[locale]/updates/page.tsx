@@ -12,9 +12,7 @@ export function generateMetadata({ params: { locale } }: Props) {
   const path = '/updates';
   return buildMetadata({
     title: tMsg(locale, 'updates.p0'),
-    description: zh
-      ? '查看 The Freak Circus 的版本公告、开发进度、维护记录与最新游戏动态。'
-      : 'Follow The Freak Circus release notes, development progress, maintenance updates, and the latest game news.',
+    description: tMsg(locale, 'updates.x0'),
     canonical: `${SITE_URL}${locale === 'en' ? path : `/${locale}${path}`}`,
     availableLocales: CORE_LOCALES.updates,
     locale,
@@ -41,9 +39,7 @@ export default function UpdatesPage({ params: { locale } }: Props) {
         type="WebPage"
         data={{
           name: tMsg(locale, 'updates.p1'),
-          description: zh
-            ? 'The Freak Circus 的版本公告、开发进度与维护记录。'
-            : 'Release notes, development progress, and maintenance updates for The Freak Circus.',
+          description: tMsg(locale, 'updates.x1'),
           url: canonical,
           mainEntity: posts.map((post) => ({
             '@type': 'Article',
@@ -59,9 +55,7 @@ export default function UpdatesPage({ params: { locale } }: Props) {
           <div className="page-container">
             <h1>{tMsg(locale, 'updates.p2')}</h1>
             <p className="page-hero-lead">
-              {zh
-                ? '版本公告、开发进度和维护记录集中在一个连续页面中；每条摘要都标注日期，并链接回对应的一手公告。'
-                : 'Release notes, development progress, and maintenance records collected in one continuous timeline, with dates and links back to each primary announcement.'}
+              {tMsg(locale, 'updates.x2')}
             </p>
             <div className="page-hero-actions">
               <a className="button-primary" href={OFFICIAL_DEVLOG_URL} target="_blank" rel="noopener noreferrer">
