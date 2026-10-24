@@ -239,7 +239,28 @@
     "viewMore": "View more artwork",
     "titleFor": "{name} Fan Art",
     "intro": "The circus, through the eyes of its fans. Explore illustrations and fan comics, and discover the artists behind them.",
-    "empty": "Artwork for this character is being curated. Explore more creations in the gallery."
+    "empty": "Artwork for this character is being curated. Explore more creations in the gallery.",
+    "p0": "The Freak Circus Fan Art Gallery",
+    "p1": "Explore community fan art of Pierrot, Harlequin, Jester, Doctor and Ticket Taker. Browse artwork by character and discover the original artists.",
+    "p2": "CREATED BY THE COMMUNITY",
+    "p3": "Fan Art Gallery",
+    "p4": "One circus. Countless imaginations. Discover the characters, stories, and moments brought to life by fans.",
+    "p5": "Community artwork",
+    "p6": "Filter by character",
+    "p7": "All artwork",
+    "p8": "All artwork",
+    "p9": "artworks",
+    "p10": "More artwork to come",
+    "p11": "We’re curating this character’s artwork. Discover the other characters in the meantime.",
+    "p12": "Browse all artwork",
+    "p13": "How this gallery is curated",
+    "p14": "Browse by character",
+    "p15": "Creation and display notes",
+    "p16": "Related pages",
+    "p17": "All character profiles",
+    "p18": "Endings and routes",
+    "p19": "Community and official updates",
+    "p20": "Download and play"
   },
   "character": {
     "jointSecond": "Joint second",
@@ -369,5 +390,47 @@
     "sidebarUpdateTitle": "Day 3 development report",
     "sidebarUpdateText": "Latest Day 3 development report summary",
     "continueTitle": "Continue on this site"
+  },
+  "about": {
+    "s0": "About The Freak Circus: Story, Characters & Game",
+    "s1": "Learn about The Freak Circus, its psychological horror story, the rivalry between Pierrot and Harlequin, its circus cast, and current game content.",
+    "s2": "About this site",
+    "s3": "Why this site exists",
+    "s4": "How facts, plans, and speculation are handled",
+    "s5": "Why there is no full walkthrough",
+    "s6": "Where our information comes from",
+    "s7": "This site is not official",
+    "s8": "Media, community work, and rights",
+    "s9": "How version-sensitive information is maintained",
+    "s10": "Corrections and updates",
+    "s11": "Where to start",
+    "s12": "Endings and routes",
+    "s13": "What is implemented vs planned",
+    "s14": "Heights and rankings",
+    "s15": "The full official chart",
+    "s16": "Character profiles",
+    "s17": "Profiles for all five",
+    "s18": "Download and play",
+    "s19": "The official page and platforms",
+    "s20": "Saving and resuming",
+    "s21": "Confirmed and unconfirmed",
+    "s22": "FAQ",
+    "s23": "The short version of the site"
+  },
+  "charIndex": {
+    "p0": "The Freak Circus Characters: Pierrot, Harlequin & More",
+    "p1": "Meet Pierrot, Harlequin, Jester, Doctor, and Ticket Taker, and explore their personalities, secrets, stories, and relationships in The Freak Circus.",
+    "p2": [
+      "每个角色都藏着秘密",
+      "Meet the twisted souls of The Freak Circus — where every character hides a secret, and every choice pulls you deeper into obsession."
+    ],
+    "p3": [
+      "The current story confirms",
+      "The current story confirms Pierrot and Harlequin as rivals around the protagonist. The wider circus cast is present, while their exact connections remain part of the story still unfolding."
+    ],
+    "p4": [
+      "WIDER CIRCUS CAST",
+      "WIDER CIRCUS CAST · EXACT CONNECTIONS NOT YET FULLY REVEALED"
+    ]
   }
 }

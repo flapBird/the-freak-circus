@@ -3,12 +3,13 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { editorialLocale } from '@/lib/site-content';
 import { CORE_LOCALES } from '@/lib/content-availability';
 import { UNVERIFIED_CLAIMS, sourceLabel, sourceUrl } from '@/lib/game-facts';
+import { tMsg } from '@/lib/messages';
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? '关于 The Freak Circus：剧情、角色与游戏内容' : 'About The Freak Circus: Story, Characters & Game',
-    description: zh ? '了解 The Freak Circus 的心理恐怖故事、Pierrot 与 Harlequin 的核心竞争、马戏团角色，以及当前游戏内容。' : 'Learn about The Freak Circus, its psychological horror story, the rivalry between Pierrot and Harlequin, its circus cast, and current game content.',
+    title: tMsg(locale, 'about.s0'),
+    description: tMsg(locale, 'about.s1'),
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/about`,
     availableLocales: CORE_LOCALES.about,
     locale,
@@ -23,7 +24,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
     <main>
       <header className="page-hero">
         <div className="page-container">
-          <h1>{zh ? '关于本站' : 'About this site'}</h1>
+          <h1>{tMsg(locale, 'about.s2')}</h1>
           <p className="page-hero-lead">
             {zh
               ? '一个由粉丝维护、重视来源与内容边界的 The Freak Circus 独立资料站。'
@@ -34,7 +35,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
       <section className="page-section page-container text-page">
         <article className="longform-copy">
-          <h2>{zh ? '我们为什么建立这个站点' : 'Why this site exists'}</h2>
+          <h2>{tMsg(locale, 'about.s3')}</h2>
           <p>
             {zh
               ? 'The Freak Circus 的剧情、角色与开发更新散落在游戏版本、开发记录和社区讨论之间。本站希望把玩家真正会查找的内容整理到一个易读的位置：角色是谁、当前版本包含什么、Day 3 处于什么状态，以及怎样在合适的平台游玩。'
@@ -51,7 +52,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'That is why this site treats "how far can we confirm" as the more important question than "how much can we write". An honest answer and a confident-sounding guess are worth very different amounts to a reader, and only one of them can be acted on.'}
           </p>
 
-          <h2>{zh ? '我们怎样处理事实、计划与推测' : 'How facts, plans, and speculation are handled'}</h2>
+          <h2>{tMsg(locale, 'about.s4')}</h2>
           <p>
             {zh
               ? '已经能在公开版本中游玩的内容，会明确写成"当前版本内容"；开发者表达过意向但尚未发布的内容，会标记为计划或开发中；社区猜测、未经验证的路线名称和无法重实现机证据的说法，不会被改写成事实。'
@@ -77,7 +78,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
             ))}
           </ul>
 
-          <h2>{zh ? '为什么我们不发布完整攻略' : 'Why there is no full walkthrough'}</h2>
+          <h2>{tMsg(locale, 'about.s5')}</h2>
           <p>
             {zh
               ? '这是本站最容易被误解的一点，所以单独说明。目前游戏只有一个已实装结局，而两个恋爱路线的剧本都还在写。没有可触发的选择，就不存在可以诚实写出的选择表。'
@@ -89,7 +90,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'Guides that specify picking a red balloon or avoiding defiance on Day 2 are describing a public build that does not exist. A reader who follows them finds no route at all, which is more confusing than having no guide in the first place. This site will add the real choices, scenes, and save points once the routes actually ship.'}
           </p>
 
-          <h2>{zh ? '我们的资料来源' : 'Where our information comes from'}</h2>
+          <h2>{tMsg(locale, 'about.s6')}</h2>
           <p>
             {zh
               ? '主要来源是开发者的 itch.io 游戏页与开发日志、官方 Tumblr 上的 FAQ 与 AMA 问答。角色页引用的身高表与年龄顺序都出自开发者本人发布的图片与回答，而不是从立绘估算或粉丝整理。'
@@ -110,7 +111,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'Every page that cites a specific fact links the source it came from, so you can check it independently rather than taking our word for it.'}
           </p>
 
-          <h2>{zh ? '本站不是官方站点' : 'This site is not official'}</h2>
+          <h2>{tMsg(locale, 'about.s7')}</h2>
           <p>
             {zh
               ? '本站不是游戏开发者、发行方或官方支持渠道，也不会把自己包装成官方站点。页面中的解释与整理属于独立编辑内容；游戏、人物、美术与相关品牌仍归各自权利人所有。'
@@ -127,7 +128,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'This site does not host game files and does not mirror the download packages. The optional player on the site is served by a third-party host, which the privacy policy covers.'}
           </p>
 
-          <h2>{zh ? '素材、社区作品与版权' : 'Media, community work, and rights'}</h2>
+          <h2>{tMsg(locale, 'about.s8')}</h2>
           <p>
             {zh
               ? '本站不会重新打包或托管游戏文件，也不会把网络上找到的粉丝作品未经许可搬运成自己的画廊。社区展示由人工筛选和维护，作品归原作者所有；如果来源、授权或署名不清楚，宁可暂时不展示。'
@@ -139,7 +140,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'Some appearance and relationship detail on the character profiles comes from the fandom wiki. That material is labelled as fan-derived on the page and kept visually separate from developer-confirmed facts, so a reader can decide how much weight to give it.'}
           </p>
 
-          <h2>{zh ? '版本敏感信息怎样维护' : 'How version-sensitive information is maintained'}</h2>
+          <h2>{tMsg(locale, 'about.s9')}</h2>
           <p>
             {zh
               ? '版本敏感信息会结合站内 Updates 与 Day 3 页面持续维护。人物页也会说明自己能确认到哪里，而不是为了显得丰富去提前编写不存在的结局。'
@@ -151,7 +152,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               : 'The game is still a prototype, and its script, labels, and save behaviour can change between builds. If a page here conflicts with the current build, please say so.'}
           </p>
 
-          <h2>{zh ? '纠错与更新' : 'Corrections and updates'}</h2>
+          <h2>{tMsg(locale, 'about.s10')}</h2>
           <p>
             {zh
               ? '如果你发现页面与当前游戏版本不一致、人物资料缺少上下文，或署名需要修正，请通过 Contact 页面说明受影响页面和具体问题。我们会优先核对能够复现或定位的反馈。'
@@ -167,31 +168,31 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
       <section className="page-section page-container">
         <div className="reference-card">
-          <h2>{zh ? '从哪里开始' : 'Where to start'}</h2>
+          <h2>{tMsg(locale, 'about.s11')}</h2>
           <div className="blog-related-list">
             <Link href={`${p}/endings`}>
-              <span>{zh ? '结局与路线' : 'Endings and routes'}</span>
-              <small>{zh ? '已实装与计划中的区分' : 'What is implemented vs planned'} →</small>
+              <span>{tMsg(locale, 'about.s12')}</span>
+              <small>{tMsg(locale, 'about.s13')} →</small>
             </Link>
             <Link href={`${p}/characters/heights`}>
-              <span>{zh ? '身高与排名' : 'Heights and rankings'}</span>
-              <small>{zh ? '官方完整数据' : 'The full official chart'} →</small>
+              <span>{tMsg(locale, 'about.s14')}</span>
+              <small>{tMsg(locale, 'about.s15')} →</small>
             </Link>
             <Link href={`${p}/characters`}>
-              <span>{zh ? '角色档案' : 'Character profiles'}</span>
-              <small>{zh ? '五人完整资料' : 'Profiles for all five'} →</small>
+              <span>{tMsg(locale, 'about.s16')}</span>
+              <small>{tMsg(locale, 'about.s17')} →</small>
             </Link>
             <Link href={`${p}/download`}>
-              <span>{zh ? '下载与游玩' : 'Download and play'}</span>
-              <small>{zh ? '官方页面与各平台' : 'The official page and platforms'} →</small>
+              <span>{tMsg(locale, 'about.s18')}</span>
+              <small>{tMsg(locale, 'about.s19')} →</small>
             </Link>
             <Link href={`${p}/save`}>
-              <span>{zh ? '存档与继续' : 'Saving and resuming'}</span>
-              <small>{zh ? '已确认与未确认的部分' : 'Confirmed and unconfirmed'} →</small>
+              <span>{tMsg(locale, 'about.s20')}</span>
+              <small>{tMsg(locale, 'about.s21')} →</small>
             </Link>
             <Link href={`${p}/faq`}>
-              <span>{zh ? '常见问题' : 'FAQ'}</span>
-              <small>{zh ? '全站精简版' : 'The short version of the site'} →</small>
+              <span>{tMsg(locale, 'about.s22')}</span>
+              <small>{tMsg(locale, 'about.s23')} →</small>
             </Link>
           </div>
         </div>

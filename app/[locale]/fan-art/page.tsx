@@ -4,14 +4,15 @@ import { getFanArt } from '@/data/fan-art';
 import { CharacterSlug, characterCopy, characterSlugs, editorialLocale } from '@/lib/site-content';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { CORE_LOCALES } from '@/lib/content-availability';
+import { tMsg } from '@/lib/messages';
 
 type Props = { params: { locale: string }; searchParams: { character?: string | string[] } };
 
 export function generateMetadata({ params: { locale } }: Props) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus 同人画廊' : 'The Freak Circus Fan Art Gallery',
-    description: zh ? '探索 Pierrot、Harlequin、Jester、Doctor 与 Ticket Taker 的社区同人作品，按角色浏览图片并发现原作者。' : 'Explore community fan art of Pierrot, Harlequin, Jester, Doctor and Ticket Taker. Browse artwork by character and discover the original artists.',
+    title: tMsg(locale, 'fanArt.p0'),
+    description: tMsg(locale, 'fanArt.p1'),
     canonical: `${SITE_URL}${locale === 'en' ? '' : `/${locale}`}/fan-art`,
     availableLocales: CORE_LOCALES["fan-art"],
     locale,
@@ -26,22 +27,22 @@ export default function FanArtPage({ params: { locale }, searchParams }: Props) 
   const items = getFanArt(selected);
   return <main className="fan-art-page">
     <header className="page-hero"><div className="page-container">
-      <p className="section-kicker">{zh ? '来自社区的创作' : 'CREATED BY THE COMMUNITY'}</p>
-      <h1>{zh ? '同人画廊' : 'Fan Art Gallery'}</h1>
-      <p className="page-hero-lead">{zh ? '同一个马戏团，无数种想象。发现粉丝笔下的角色、故事与瞬间。' : 'One circus. Countless imaginations. Discover the characters, stories, and moments brought to life by fans.'}</p>
+      <p className="section-kicker">{tMsg(locale, 'fanArt.p2')}</p>
+      <h1>{tMsg(locale, 'fanArt.p3')}</h1>
+      <p className="page-hero-lead">{tMsg(locale, 'fanArt.p4')}</p>
     </div></header>
-    <section className="page-section page-container fan-art-gallery" aria-label={zh ? '社区作品' : 'Community artwork'}>
-      <nav className="fan-art-filters" aria-label={zh ? '按角色筛选' : 'Filter by character'}>
-        <Link href={`${prefix}/fan-art`} scroll={false} aria-current={!selected ? 'page' : undefined}>{zh ? '全部作品' : 'All artwork'}</Link>
+    <section className="page-section page-container fan-art-gallery" aria-label={tMsg(locale, 'fanArt.p5')}>
+      <nav className="fan-art-filters" aria-label={tMsg(locale, 'fanArt.p6')}>
+        <Link href={`${prefix}/fan-art`} scroll={false} aria-current={!selected ? 'page' : undefined}>{tMsg(locale, 'fanArt.p7')}</Link>
         {characterSlugs.map(slug => <Link key={slug} href={`${prefix}/fan-art?character=${slug}`} scroll={false} aria-current={selected === slug ? 'page' : undefined}>{characterCopy[lang][slug].name}</Link>)}
       </nav>
-      <p className="fan-art-count" role="status">{selected ? characterCopy[lang][selected].name : zh ? '全部作品' : 'All artwork'} <span>· {items.length} {zh ? '张作品' : 'artworks'}</span></p>
-      {items.length ? <FanArtGrid key={selected ?? 'all'} items={items} locale={locale} /> : <div className="fan-art-empty"><h2>{zh ? '作品整理中' : 'More artwork to come'}</h2><p>{zh ? '这个角色的作品还在整理，先看看其他角色吧。' : 'We’re curating this character’s artwork. Discover the other characters in the meantime.'}</p><Link className="text-link" href={`${prefix}/fan-art`}>{zh ? '浏览全部作品' : 'Browse all artwork'} →</Link></div>}
+      <p className="fan-art-count" role="status">{selected ? characterCopy[lang][selected].name : tMsg(locale, 'fanArt.p8')} <span>· {items.length} {tMsg(locale, 'fanArt.p9')}</span></p>
+      {items.length ? <FanArtGrid key={selected ?? 'all'} items={items} locale={locale} /> : <div className="fan-art-empty"><h2>{tMsg(locale, 'fanArt.p10')}</h2><p>{tMsg(locale, 'fanArt.p11')}</p><Link className="text-link" href={`${prefix}/fan-art`}>{tMsg(locale, 'fanArt.p12')} →</Link></div>}
     </section>
 
     <section className="page-section page-container text-page">
       <article className="longform-copy">
-        <h2>{zh ? '这个画廊如何策展' : 'How this gallery is curated'}</h2>
+        <h2>{tMsg(locale, 'fanArt.p13')}</h2>
         <p>
           {zh
             ? '本站的同人作品全部由人工挑选，每一张都保留原作者与原始发布帖的记录。我们不会把网络上找到的作品未经许可搬运成自己的画廊：如果来源、授权或署名不清楚，就暂时不展示。'
@@ -53,7 +54,7 @@ export default function FanArtPage({ params: { locale }, searchParams }: Props) 
             : 'That means this gallery is smaller than an automatically scraped mirror would be, and it excludes anything marked "do not repost" or that comes from an aggregator site. If you would like your work included, send the link and say whether this site may display it — permission is requested first where it is needed.'}
         </p>
 
-        <h2>{zh ? '按角色浏览' : 'Browse by character'}</h2>
+        <h2>{tMsg(locale, 'fanArt.p14')}</h2>
         <p>
           {zh
             ? '当前版本登场了五位角色，他们的性格定位差别很大，同人创作的方向也因此各不相同。'
@@ -78,7 +79,7 @@ export default function FanArtPage({ params: { locale }, searchParams }: Props) 
             : 'For a full profile of any of them — official height, age order, and route status — the character pages have the detail.'}
         </p>
 
-        <h2>{zh ? '创作与展示约定' : 'Creation and display notes'}</h2>
+        <h2>{tMsg(locale, 'fanArt.p15')}</h2>
         <p>
           {zh
             ? '同人创作是这款游戏粉丝文化中很正常的一部分，本站也欢迎。请注意几点：作品版权归原作者所有，本站只做展示；本站不托管游戏文件，也不重新打包或镜像任何下载包；涉及 18+ 题材的作品会做标注。'
@@ -90,17 +91,17 @@ export default function FanArtPage({ params: { locale }, searchParams }: Props) 
             : 'Selecting an image opens it larger. The enlarged view shows the artwork and its title only — no added creator labels or outbound links — while the attribution stays in this site\'s own record.'}
         </p>
 
-        <h2>{zh ? '相关页面' : 'Related pages'}</h2>
+        <h2>{tMsg(locale, 'fanArt.p16')}</h2>
         <p>
           {zh
             ? '画廊之外，本站还有角色档案、结局与路线说明，以及官方下载渠道的指引。'
             : 'Beyond the gallery, the site also carries character profiles, an endings and routes breakdown, and a guide to the official download channels.'}
         </p>
         <ul>
-          <li><Link href={`${prefix}/characters`}>{zh ? '全部角色档案' : 'All character profiles'}</Link></li>
-          <li><Link href={`${prefix}/endings`}>{zh ? '结局与路线' : 'Endings and routes'}</Link></li>
-          <li><Link href={`${prefix}/community`}>{zh ? '社区与官方动态' : 'Community and official updates'}</Link></li>
-          <li><Link href={`${prefix}/download`}>{zh ? '下载与游玩' : 'Download and play'}</Link></li>
+          <li><Link href={`${prefix}/characters`}>{tMsg(locale, 'fanArt.p17')}</Link></li>
+          <li><Link href={`${prefix}/endings`}>{tMsg(locale, 'fanArt.p18')}</Link></li>
+          <li><Link href={`${prefix}/community`}>{tMsg(locale, 'fanArt.p19')}</Link></li>
+          <li><Link href={`${prefix}/download`}>{tMsg(locale, 'fanArt.p20')}</Link></li>
         </ul>
       </article>
     </section>
