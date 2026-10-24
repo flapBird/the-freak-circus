@@ -1,6 +1,7 @@
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { getNewsPosts } from '@/lib/news';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { tMsg } from '@/lib/messages';
 import { editorialLocale, OFFICIAL_DEVLOG_URL } from '@/lib/site-content';
 import { CORE_LOCALES } from '@/lib/content-availability';
 
@@ -10,7 +11,7 @@ export function generateMetadata({ params: { locale } }: Props) {
   const zh = editorialLocale(locale) === 'zh';
   const path = '/updates';
   return buildMetadata({
-    title: zh ? 'The Freak Circus 更新' : 'The Freak Circus Updates',
+    title: tMsg(locale, 'updates.p0'),
     description: zh
       ? '查看 The Freak Circus 的版本公告、开发进度、维护记录与最新游戏动态。'
       : 'Follow The Freak Circus release notes, development progress, maintenance updates, and the latest game news.',
@@ -39,7 +40,7 @@ export default function UpdatesPage({ params: { locale } }: Props) {
       <SchemaMarkup
         type="WebPage"
         data={{
-          name: zh ? 'The Freak Circus 更新' : 'The Freak Circus Updates',
+          name: tMsg(locale, 'updates.p1'),
           description: zh
             ? 'The Freak Circus 的版本公告、开发进度与维护记录。'
             : 'Release notes, development progress, and maintenance updates for The Freak Circus.',
@@ -56,7 +57,7 @@ export default function UpdatesPage({ params: { locale } }: Props) {
       <main>
         <header className="page-hero">
           <div className="page-container">
-            <h1>{zh ? 'THE FREAK CIRCUS 更新' : 'THE FREAK CIRCUS UPDATES'}</h1>
+            <h1>{tMsg(locale, 'updates.p2')}</h1>
             <p className="page-hero-lead">
               {zh
                 ? '版本公告、开发进度和维护记录集中在一个连续页面中；每条摘要都标注日期，并链接回对应的一手公告。'
@@ -64,13 +65,13 @@ export default function UpdatesPage({ params: { locale } }: Props) {
             </p>
             <div className="page-hero-actions">
               <a className="button-primary" href={OFFICIAL_DEVLOG_URL} target="_blank" rel="noopener noreferrer">
-                {zh ? '查看官方开发日志' : 'Open the official devlog'} ↗
+                {tMsg(locale, 'updates.p3')} ↗
               </a>
             </div>
           </div>
         </header>
 
-        <section className="page-section page-container updates-timeline" aria-label={zh ? '更新记录' : 'Update timeline'}>
+        <section className="page-section page-container updates-timeline" aria-label={tMsg(locale, 'updates.p4')}>
           {posts.map((post) => (
             <article className="update-detail-card" id={post.slug} key={post.slug}>
               <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, locale)}</time>

@@ -1,6 +1,7 @@
 import SafeImage from '@/components/SafeImage';
 import { COMMUNITY_POSTS } from '@/data/community-posts';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { tMsg } from '@/lib/messages';
 import { editorialLocale } from '@/lib/site-content';
 import { CORE_LOCALES } from '@/lib/content-availability';
 
@@ -11,7 +12,7 @@ type PageProps = {
 export function generateMetadata({ params: { locale } }: PageProps) {
   const zh = editorialLocale(locale) === 'zh';
   return buildMetadata({
-    title: zh ? 'The Freak Circus 社区：官方周报、角色问答与粉丝创作' : 'The Freak Circus Community: Official Updates, AMA & Fan Art',
+    title: tMsg(locale, 'community.p0'),
     description: zh
       ? '关注 The Freak Circus 官方开发周报、角色 AMA 问答、粉丝创作与社区动态，了解 Day 3 和马戏团成员的最新消息。'
       : 'Follow The Freak Circus official development updates, character AMA answers, fan creations, and community news about Day 3 and the circus cast.',
@@ -31,7 +32,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
     <main className="community-page">
       <header className="page-hero">
         <div className="page-container">
-          <h1>{zh ? '社区动态' : 'Community Feed'}</h1>
+          <h1>{tMsg(locale, 'community.p1')}</h1>
           <p className="page-hero-lead">{zh
             ? '关注官方开发周报、角色 AMA 问答、粉丝创作与值得分享的社区动态。'
             : 'Follow official development updates, character AMA answers, fan creations, and community moments worth sharing.'}</p>
@@ -62,7 +63,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
                           <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, lang)}</time>
                         </span>
                       </div>
-                      {post.featured ? <small>{zh ? '精选' : 'Featured'}</small> : null}
+                      {post.featured ? <small>{tMsg(locale, 'community.p2')}</small> : null}
                     </header>
 
                     <div className="community-feed-copy">
@@ -86,17 +87,17 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
                               width={1283}
                               height={721}
                             />
-                            {post.sensitive ? <span>{zh ? '敏感内容' : 'Sensitive content'}</span> : null}
+                            {post.sensitive ? <span>{tMsg(locale, 'community.p3')}</span> : null}
                           </div>
                         ))}
                       </div>
                     ) : null}
 
                     <div className="community-feed-actions" aria-hidden="true">
-                      <span title={zh ? '回复' : 'Reply'}>○</span>
-                      <span title={zh ? '转发' : 'Repost'}>↻</span>
-                      <span title={zh ? '喜欢' : 'Like'}>♡</span>
-                      <span title={zh ? '收藏' : 'Bookmark'}>⌑</span>
+                      <span title={tMsg(locale, 'community.p4')}>○</span>
+                      <span title={tMsg(locale, 'community.p5')}>↻</span>
+                      <span title={tMsg(locale, 'community.p6')}>♡</span>
+                      <span title={tMsg(locale, 'community.p7')}>⌑</span>
                     </div>
                   </div>
                 </article>
@@ -106,7 +107,7 @@ export default function CommunityPage({ params: { locale } }: PageProps) {
         ) : (
           <div className="community-empty">
             <span aria-hidden="true">✦</span>
-            <h2>{zh ? '首批精选正在整理' : 'The first picks are being curated'}</h2>
+            <h2>{tMsg(locale, 'community.p8')}</h2>
             <p>{zh
               ? '完成作者、来源与内容标记后，精选作品会出现在这里。'
               : 'Selected work will appear here after its creator, source, and content labels have been checked.'}</p>
