@@ -1484,7 +1484,9 @@ const POSTS_BY_LOCALE: Record<string, BlogPost[]> = {
 };
 
 /** Locales that carry a reviewed post array (not an English fallback). */
-export const BLOG_TRANSLATED_LOCALES: string[] = Object.keys(POSTS_BY_LOCALE);
+export const BLOG_TRANSLATED_LOCALES: string[] = Object.keys(POSTS_BY_LOCALE).filter(
+  (locale) => POSTS_BY_LOCALE[locale]!.length > 0,
+);
 
 export function getBlogPosts(locale = 'en'): BlogPost[] {
   return POSTS_BY_LOCALE[locale] ?? POSTS_BY_LOCALE.en;

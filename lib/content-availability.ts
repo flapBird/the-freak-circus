@@ -23,7 +23,7 @@ export type EditorialLocale = (typeof EDITORIAL_LOCALES)[number];
 // The locale lists below are derived from the translation modules, so they
 // always reflect which languages actually have reviewed content.
 import { characterLocales, guideLocales } from './editorial-content';
-import { BLOG_LOCALES as derivedBlogLocales } from './blog-posts';
+import { BLOG_LOCALES as derivedBlogLocales, BLOG_TRANSLATED_LOCALES } from './blog-posts';
 
 /** Locales that always have the shared UI chrome and character copy. */
 export const UI_LOCALES: readonly Locale[] = ALL_LOCALES;
@@ -72,7 +72,8 @@ export const CORE_LOCALES: Record<string, readonly Locale[]> = {
   contact: ALL_LOCALES,
   privacy: ALL_LOCALES,
   terms: ALL_LOCALES,
-  blog: ['en', 'zh'],
+  // The blog index follows the locales that actually carry translated posts.
+  blog: BLOG_TRANSLATED_LOCALES as unknown as readonly Locale[],
 };
 
 /**
