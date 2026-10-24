@@ -10,7 +10,8 @@
     "subtitle": "Walkthrough, analisis karakter, dan lore untuk The Freak Circus.",
     "backLink": "Kembali ke semua artikel",
     "published": "Diterbitkan {date}",
-    "footerLink": "Mainkan The Freak Circus Online"
+    "footerLink": "Mainkan The Freak Circus Online",
+    "x0": "Panduan praktis untuk pemain, penjelasan build, dan pemeriksaan fakta yang cermat — ditulis dengan cakupan yang jelas dan tanpa klaim cerita yang dikarang."
   },
   "meta": {
     "homeTitle": "Mainkan The Freak Circus Online",
@@ -260,7 +261,14 @@
     "p17": "Semua profil karakter",
     "p18": "Ending dan rute",
     "p19": "Komunitas dan pembaruan resmi",
-    "p20": "Unduh dan mainkan"
+    "p20": "Unduh dan mainkan",
+    "x0": "Setiap karya di sini dipilih secara manual, dan masing-masing menyimpan catatan tentang seniman serta unggahan aslinya. Kami tidak mengubah karya penggemar yang ditemukan di internet menjadi galeri milik situs tanpa izin: ketika sumber, izin, atau atribusinya tidak jelas, karya itu ditahan alih-alih ditampilkan.",
+    "x1": "Itu berarti galeri ini lebih kecil daripada situs mirror yang mengambil konten secara otomatis, dan mengecualikan apa pun yang ditandai \"jangan repost\" atau yang berasal dari situs agregator. Jika Anda ingin karya Anda dimasukkan, kirimkan tautannya dan sebutkan apakah situs ini boleh menampilkannya — izin diminta lebih dulu bila diperlukan.",
+    "x2": "Lima karakter diperkenalkan dalam build saat ini, dan kepribadian mereka yang sangat berbeda menarik fan art ke arah yang berbeda-beda.",
+    "x3": "Untuk profil lengkap salah satunya — tinggi resmi, urutan umur, dan status rute —, halaman profil karakter memuat detailnya.",
+    "x4": "Fan art adalah bagian normal dari fandom game ini dan dipersilakan di sini. Beberapa catatan: karya tetap milik pembuatnya dan situs ini hanya menampilkannya; situs tidak meng-host berkas game dan tidak mengemas ulang atau memirror unduhan apa pun; karya yang menyentuh materi 18+ diberi label demikian.",
+    "x5": "Memilih sebuah gambar akan membukanya dalam ukuran lebih besar. Tampilan yang diperbesar hanya menampilkan karya dan judulnya — tanpa label pembuat tambahan atau tautan keluar — sementara atribusinya tetap ada di catatan situs ini sendiri.",
+    "x6": "Di luar galeri, situs juga menyediakan profil karakter, rincian ending dan rute, serta panduan kanal unduhan resmi."
   },
   "character": {
     "jointSecond": "Seri posisi kedua",
@@ -389,7 +397,9 @@
     "latestUpdateLabel": "PEMBARUAN TERBARU",
     "sidebarUpdateTitle": "Laporan pengembangan Hari 3",
     "sidebarUpdateText": "Ringkasan laporan pengembangan Hari 3 terbaru",
-    "continueTitle": "Lanjutkan di situs ini"
+    "continueTitle": "Lanjutkan di situs ini",
+    "x0": "The Freak Circus Hari 3: Tanggal Rilis & Pembaruan",
+    "x1": "Cek pembaruan pengembangan The Freak Circus Hari 3 terbaru, status rilis saat ini, informasi Versi 0.2, dan apakah tanggal rilis resmi sudah diumumkan."
   },
   "about": {
     "s0": "Tentang The Freak Circus: Cerita, Karakter & Game",
@@ -415,7 +425,27 @@
     "s20": "Menyimpan dan melanjutkan",
     "s21": "Terkonfirmasi dan tidak terkonfirmasi",
     "s22": "FAQ",
-    "s23": "Versi singkat situs ini"
+    "s23": "Versi singkat situs ini",
+    "x0": "Panduan independen untuk The Freak Circus yang dikelola penggemar, dengan fokus pada konteks yang berguna, sumber yang jelas, dan batasan yang jujur.",
+    "x1": "Informasi tentang The Freak Circus tersebar di build yang bisa dimainkan, catatan pengembangan, dan percakapan komunitas. Situs ini mengumpulkan pertanyaan yang benar-benar diajukan pemain ke dalam satu tempat yang mudah dibaca: siapa para karakternya, apa isi build saat ini, bagaimana status Hari 3, dan cara bermain di platform yang sesuai.",
+    "x2": "Mengorganisasi informasi itu bukan bagian tersulitnya. Bagian tersulit adalah tetap menahan diri selama informasinya masih belum lengkap. Game ini sedang dalam pengembangan: dari lima karakter yang diperkenalkan, hanya dua yang punya rute yang direncanakan; dari empat ending yang diumumkan, satu sudah diterapkan; Hari 3 masih dikerjakan dan belum punya tanggal. Dalam kondisi seperti itu, mudah menemukan panduan yang tampak lengkap padahal sebagian besarnya cuma tebakan.",
+    "x3": "Karena itu, situs ini memandang \"seberapa jauh kami bisa memastikan\" sebagai pertanyaan yang lebih penting daripada \"seberapa banyak kami bisa menulis\". Jawaban yang jujur dan tebakan yang terdengar meyakinkan bernilai sangat berbeda bagi pembaca, dan hanya salah satunya yang bisa ditindaklanjuti.",
+    "x4": "Materi yang bisa direproduksi dalam build publik digambarkan sebagai konten saat ini. Niat pengembang yang belum dirilis dilabeli sebagai direncanakan atau sedang dikembangkan. Teori komunitas, nama rute tanpa dukungan, dan klaim yang tidak bisa direproduksi saat bermain tidak ditulis ulang sebagai fakta.",
+    "x5": "Dalam praktiknya, hal itu tampak seperti berikut. Halaman karakter menyatakan tinggi resmi dan urutan umur, serta menandai secara terpisah detail penampilan dan hubungan mana yang berasal dari wiki fandom alih-alih dari developer. Halaman ending menyatakan bahwa tepat satu ending yang bisa dimainkan dan mendaftar empat ending yang direncanakan secara terpisah, alih-alih menyiratkan bahwa beberapa ending bisa dicapai hari ini.",
+    "x6": "Hal yang kami tolak untuk diulang sama pentingnya. Hal-hal berikut beredar di situs-situs penggemar sebagai fakta yang sudah mapan, tetapi tidak satu pun punya sumber dari pihak developer sendiri, sehingga situs ini tidak menyajikannya sebagai kesimpulan:",
+    "x7": "Ini poin yang paling sering disalahpahami tentang situs ini, jadi perlu dijelaskan dengan lugas. Saat ini game hanya punya satu ending yang diterapkan, dan skrip untuk kedua rute romansa masih ditulis. Di mana tidak ada pemicunya, di situ tidak ada tabel pemicu yang jujur.",
+    "x8": "Panduan yang menyarankan memilih balon merah atau menghindari perlawanan pada Hari 2 sedang menggambarkan build publik yang tidak ada. Pembaca yang mengikuti panduan itu tidak menemukan rute apa pun, yang lebih membingungkan daripada tidak ada panduan sejak awal. Situs ini akan menambahkan pilihan, adegan, dan titik simpan yang sebenarnya begitu rute-rute itu benar-benar rilis.",
+    "x9": "Sumber utamanya adalah halaman itch.io dan devlog milik developer, serta FAQ resmi dan unggahan AMA di Tumblr. Tabel tinggi dan urutan umur yang dikutip di halaman karakter berasal dari gambar dan jawaban yang dipublikasikan langsung oleh developer, bukan dari perkiraan sprite atau kompilasi penggemar.",
+    "x10": "Setiap halaman yang mengutip fakta tertentu menautkan sumber asalnya, sehingga Anda bisa memeriksanya sendiri alih-alih percaya begitu saja pada kata kami.",
+    "x11": "Situs ini bukan pengembang, penerbit, atau kanal dukungan resmi, dan tidak menampilkan dirinya seperti itu. Penjelasan dan pengorganisasiannya adalah pekerjaan editorial independen; game, karakter, karya seni, dan merek terkait tetap menjadi milik pemegang hak masing-masing.",
+    "x12": "Developer telah menyatakan bahwa halaman itch.io adalah satu-satunya halaman resmi untuk game ini, meminta agar game tidak diunggah ulang atau direpost, dan mengonfirmasi bahwa tidak ada server Discord resmi — jadi server atau akun apa pun yang tidak ditautkan dari halaman resmi harus dianggap dikelola penggemar atau tidak resmi.",
+    "x13": "Situs ini tidak meng-host berkas game dan tidak memirror paket unduhan. Player opsional di situs disediakan oleh host pihak ketiga, hal yang dibahas dalam kebijakan privasi.",
+    "x14": "Situs tidak mengemas ulang atau meng-host berkas game, dan tidak mengubah karya penggemar yang ditemukan di internet menjadi galeri milik situs tanpa izin. Pilihan komunitas dikurasi secara manual, tetap menjadi karya pembuatnya, dan ditahan ketika sumber, izin, atau atribusinya tidak jelas.",
+    "x15": "Sebagian detail penampilan dan hubungan di profil karakter berasal dari wiki fandom. Materi itu dilabeli sebagai turunan penggemar di halaman dan disajikan terpisah secara visual dari fakta yang dikonfirmasi developer, sehingga pembaca bisa memutuskan seberapa jauh mengandalkannya.",
+    "x16": "Informasi yang berubah antarversi dipelihara melalui halaman Pembaruan dan Hari 3 di situs. Profil karakter menyatakan di mana bukti berakhir alih-alih mengarang ending hanya agar halaman terlihat lengkap.",
+    "x17": "Game ini masih berupa prototipe, dan skrip, label, serta perilaku simpannya bisa berubah antar-build. Jika ada halaman di sini yang bertentangan dengan build saat ini, mohon beri tahu kami.",
+    "x18": "Jika sebuah halaman bertentangan dengan build saat ini, kekurangan konteks penting, atau memerlukan koreksi atribusi, gunakan halaman Kontak dan sebutkan halaman yang terdampak beserta masalah spesifiknya. Laporan yang bisa direproduksi dan lokasinya jelas ditinjau lebih dulu.",
+    "x19": "Tambahan juga diterima. Jika ada pertanyaan yang ingin Anda lihat terjawab di sini dan belum ada halaman yang membahasnya, beri tahu kami."
   },
   "charIndex": {
     "p0": "Karakter The Freak Circus: Pierrot, Harlequin & Lainnya",
@@ -497,7 +527,10 @@
     "p1": "Pembaruan The Freak Circus",
     "p2": "PEMBARUAN THE FREAK CIRCUS",
     "p3": "Buka devlog resmi",
-    "p4": "Garis waktu pembaruan"
+    "p4": "Garis waktu pembaruan",
+    "x0": "Ikuti catatan rilis, kemajuan pengembangan, pembaruan pemeliharaan, dan berita game terbaru dari The Freak Circus.",
+    "x1": "Catatan rilis, kemajuan pengembangan, dan pembaruan pemeliharaan untuk The Freak Circus.",
+    "x2": "Catatan rilis, kemajuan pengembangan, dan catatan pemeliharaan dikumpulkan dalam satu garis waktu berkelanjutan, dengan tanggal dan tautan kembali ke setiap pengumuman utama."
   },
   "community": {
     "p0": "Komunitas The Freak Circus: Pembaruan Resmi, AMA & Fan Art",
@@ -508,6 +541,9 @@
     "p5": "Repost",
     "p6": "Suka",
     "p7": "Bookmark",
-    "p8": "Pilihan pertama sedang dikurasi"
+    "p8": "Pilihan pertama sedang dikurasi",
+    "x0": "Ikuti pembaruan pengembangan resmi The Freak Circus, jawaban AMA karakter, karya penggemar, dan berita komunitas tentang Hari 3 serta para karakter sirkus.",
+    "x1": "Ikuti pembaruan pengembangan resmi, jawaban AMA karakter, karya penggemar, dan momen komunitas yang layak dibagikan.",
+    "x2": "Karya terpilih akan muncul di sini setelah pembuatnya, sumbernya, dan label kontennya diperiksa."
   }
 }

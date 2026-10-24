@@ -10,7 +10,8 @@
     "subtitle": "Hướng dẫn, phân tích nhân vật và cốt truyện về The Freak Circus.",
     "backLink": "Quay lại tất cả bài viết",
     "published": "Xuất bản {date}",
-    "footerLink": "Chơi The Freak Circus Online"
+    "footerLink": "Chơi The Freak Circus Online",
+    "x0": "Hướng dẫn thực hành cho người chơi, giải thích về các bản build và kiểm chứng dữ kiện cẩn thận — được viết với phạm vi rõ ràng và không có những khẳng định cốt truyện bịa ra."
   },
   "meta": {
     "homeTitle": "Chơi The Freak Circus Online",
@@ -260,7 +261,14 @@
     "p17": "Tất cả hồ sơ nhân vật",
     "p18": "Các kết cục và tuyến truyện",
     "p19": "Cộng đồng và cập nhật chính thức",
-    "p20": "Tải xuống và chơi"
+    "p20": "Tải xuống và chơi",
+    "x0": "Mỗi tác phẩm ở đây đều được chọn thủ công, và mỗi tác phẩm đều giữ hồ sơ về nghệ sĩ cùng bài đăng gốc của nó. Chúng tôi không biến tác phẩm fan tìm trên mạng thành thư viện riêng không có giấy phép: khi nguồn gốc, sự cho phép hoặc thông tin ghi nguồn chưa rõ ràng, tác phẩm sẽ được giữ lại thay vì trưng bày.",
+    "x1": "Điều đó có nghĩa là thư viện này nhỏ hơn một trang mirror gom nội dung tự động, và nó loại bỏ mọi thứ được đánh dấu \"không đăng lại\" hoặc đến từ các trang tổng hợp. Nếu bạn muốn tác phẩm của mình xuất hiện ở đây, hãy gửi liên kết và cho biết trang này có được phép hiển thị nó hay không — khi cần, sự cho phép sẽ được xin trước.",
+    "x2": "Bản build hiện tại giới thiệu năm nhân vật, và tính cách khác biệt của họ kéo fan art theo những hướng khác nhau.",
+    "x3": "Để có hồ sơ đầy đủ về bất kỳ nhân vật nào trong số họ — chiều cao chính thức, thứ tự tuổi và trạng thái tuyến —, các trang hồ sơ nhân vật có chi tiết.",
+    "x4": "Fan art là một phần bình thường của cộng đồng hâm mộ trò chơi này và được chào đón tại đây. Vài lưu ý: tác phẩm vẫn thuộc về người sáng tạo và trang này chỉ hiển thị nó; trang không lưu trữ tệp trò chơi và không đóng gói lại hay phản chiếu bất kỳ bản tải xuống nào; những tác phẩm có nội dung 18+ được gắn nhãn như vậy.",
+    "x5": "Chọn một ảnh sẽ mở ảnh đó lớn hơn. Chế độ xem phóng to chỉ hiển thị tác phẩm và tiêu đề của nó — không thêm nhãn người sáng tạo hay liên kết ra ngoài — trong khi thông tin ghi nguồn vẫn nằm trong hồ sơ của chính trang này.",
+    "x6": "Ngoài thư viện, trang còn có các hồ sơ nhân vật, phần phân tích kết cục và tuyến truyện, và hướng dẫn các kênh tải xuống chính thức."
   },
   "character": {
     "jointSecond": "Đồng hạng nhì",
@@ -389,7 +397,9 @@
     "latestUpdateLabel": "CẬP NHẬT MỚI NHẤT",
     "sidebarUpdateTitle": "Báo cáo phát triển Ngày 3",
     "sidebarUpdateText": "Tóm tắt báo cáo phát triển Ngày 3 mới nhất",
-    "continueTitle": "Tiếp tục trên trang này"
+    "continueTitle": "Tiếp tục trên trang này",
+    "x0": "The Freak Circus Ngày 3: Ngày phát hành & Cập nhật",
+    "x1": "Cập nhật phát triển mới nhất của The Freak Circus Ngày 3, trạng thái phát hành hiện tại, thông tin Phiên bản 0.2, và xem liệu đã có ngày phát hành chính thức nào được công bố hay chưa."
   },
   "about": {
     "s0": "Giới thiệu về The Freak Circus: Cốt truyện, Nhân vật & Trò chơi",
@@ -415,7 +425,27 @@
     "s20": "Lưu game và chơi tiếp",
     "s21": "Đã xác nhận và chưa xác nhận",
     "s22": "Câu hỏi thường gặp",
-    "s23": "Phiên bản ngắn gọn của trang"
+    "s23": "Phiên bản ngắn gọn của trang",
+    "x0": "Một hướng dẫn độc lập về The Freak Circus do fan duy trì, tập trung vào ngữ cảnh hữu ích, nguồn dẫn rõ ràng và giới hạn trung thực.",
+    "x1": "Thông tin về The Freak Circus nằm rải rác giữa các bản build có thể chơi, ghi chú phát triển và các cuộc trò chuyện cộng đồng. Trang này gom những câu hỏi mà người chơi thực sự hỏi vào một nơi dễ đọc: nhân vật là ai, bản build hiện tại chứa gì, Ngày 3 đang ở đâu, và cách chơi trên một nền tảng phù hợp.",
+    "x2": "Sắp xếp thông tin không phải là phần khó. Phần khó là giữ sự kiềm chế khi thông tin vẫn còn dang dở. Trò chơi đang giữa chừng phát triển: trong năm nhân vật đã được giới thiệu, chỉ hai nhân vật có tuyến được lên kế hoạch; trong bốn kết cục đã công bố, một kết cục đã được triển khai; Ngày 3 vẫn đang được làm và chưa có ngày. Trong điều kiện đó, rất dễ tìm thấy những hướng dẫn trông có vẻ đầy đủ nhưng phần lớn chỉ là phỏng đoán.",
+    "x3": "Vì vậy, trang này coi \"chúng ta có thể xác nhận đến đâu\" là câu hỏi quan trọng hơn \"chúng ta có thể viết bao nhiêu\". Một câu trả lời trung thực và một phỏng đoán nghe đầy tự tin có giá trị rất khác nhau đối với người đọc, và chỉ một trong hai mới có thể hành động theo.",
+    "x4": "Tài liệu có thể tái hiện trong một bản build công khai được mô tả là nội dung hiện tại. Những ý định của nhà phát triển chưa được phát hành được ghi nhãn là đã lên kế hoạch hoặc đang phát triển. Các lý thuyết của cộng đồng, tên tuyến thiếu căn cứ, và những khẳng định không thể tái hiện khi chơi sẽ không được viết lại thành dữ kiện.",
+    "x5": "Trong thực tế, điều đó thể hiện như sau. Các trang nhân vật nêu chiều cao chính thức và thứ tự tuổi, đồng thời đánh dấu riêng những chi tiết ngoại hình và quan hệ nào đến từ wiki của cộng đồng hâm mộ thay vì từ nhà phát triển. Trang kết cục khẳng định rằng chỉ đúng một kết cục có thể chơi và liệt kê bốn kết cục được kế hoạch vào mục riêng, thay vì ngụ ý rằng hôm nay có thể đạt được nhiều kết cục.",
+    "x6": "Những gì chúng tôi từ chối nhắc lại cũng quan trọng không kém. Những điều sau đây lan truyền khắp các trang fan như thể là dữ kiện đã rõ, nhưng không điều nào trong số đó có nguồn từ chính nhà phát triển, nên trang này không trình bày chúng như các kết luận:",
+    "x7": "Đây là điểm bị hiểu sai nhiều nhất về trang này, nên đáng nói rõ. Ngay lúc này, trò chơi chỉ có một kết cục đã được triển khai, và kịch bản cho cả hai tuyến tình cảm vẫn đang được viết. Nơi không có yếu tố kích hoạt, không thể có bảng kích hoạt trung thực.",
+    "x8": "Những hướng dẫn chỉ rõ việc chọn bong bóng đỏ hay tránh sự phản kháng vào Ngày 2 đang mô tả một bản build công khai không tồn tại. Người đọc làm theo sẽ không tìm thấy tuyến nào cả, điều này còn gây bối rối hơn là không có hướng dẫn ngay từ đầu. Trang này sẽ bổ sung các lựa chọn, các cảnh và điểm lưu thực sự khi các tuyến thực sự ra mắt.",
+    "x9": "Các nguồn chính là trang itch.io và devlog của nhà phát triển, cùng FAQ chính thức và các bài AMA trên Tumblr. Bảng chiều cao và thứ tự tuổi được trích trên các trang nhân vật đến từ hình ảnh và câu trả lời do chính nhà phát triển công bố, chứ không phải từ ước lượng theo sprite hay bản tổng hợp của fan.",
+    "x10": "Mọi trang trích dẫn một dữ kiện cụ thể đều liên kết đến nguồn của dữ kiện đó, để bạn có thể tự kiểm chứng thay vì tin lời chúng tôi.",
+    "x11": "Trang này không phải là nhà phát triển, nhà phát hành hay kênh hỗ trợ chính thức, và cũng không tự nhận như vậy. Phần giải thích và tổ chức nội dung là công việc biên tập độc lập; trò chơi, các nhân vật, tác phẩm mỹ thuật và các nhãn hiệu liên quan vẫn thuộc quyền sở hữu của các chủ sở hữu quyền tương ứng.",
+    "x12": "Nhà phát triển đã tuyên bố rằng trang itch.io là trang chính thức duy nhất của trò chơi, đã đề nghị không tải lên lại hay đăng lại, và đã xác nhận rằng không có máy chủ Discord chính thức nào — vì vậy, bất kỳ máy chủ hay tài khoản nào không được liên kết từ các trang chính thức đều nên được coi là do fan vận hành hoặc không được phép.",
+    "x13": "Trang này không lưu trữ tệp trò chơi và không phản chiếu các gói tải xuống. Trình phát tùy chọn trên trang được phục vụ bởi một máy chủ bên thứ ba, điều mà chính sách bảo mật đã đề cập.",
+    "x14": "Trang không đóng gói lại hay lưu trữ tệp trò chơi, và không biến tác phẩm fan tìm thấy trên mạng thành thư viện riêng không có giấy phép. Các lựa chọn từ cộng đồng được tuyển chọn thủ công, vẫn là tác phẩm của người sáng tạo, và sẽ được giữ lại khi nguồn gốc, sự cho phép hoặc thông tin ghi nguồn chưa rõ ràng.",
+    "x15": "Một phần chi tiết ngoại hình và quan hệ trong hồ sơ nhân vật đến từ wiki của cộng đồng hâm mộ. Tài liệu đó được ghi nhãn là phái sinh từ fan ngay trên trang và được giữ tách biệt về mặt hiển thị với các dữ kiện do nhà phát triển xác nhận, để người đọc tự quyết định nên tin đến mức nào.",
+    "x16": "Thông tin nhạy cảm theo phiên bản được duy trì qua mục Cập nhật và trang Ngày 3 trên website. Hồ sơ nhân vật nêu rõ nơi bằng chứng kết thúc thay vì bịa ra các kết cục chỉ để trang trông có vẻ đầy đủ.",
+    "x17": "Trò chơi vẫn là một bản nguyên mẫu, và kịch bản, nhãn cùng hành vi lưu của nó có thể thay đổi giữa các bản build. Nếu một trang ở đây mâu thuẫn với bản build hiện tại, hãy cho chúng tôi biết.",
+    "x18": "Nếu một trang mâu thuẫn với bản build hiện tại, thiếu ngữ cảnh quan trọng, hoặc cần chỉnh sửa thông tin ghi nguồn, hãy dùng trang Liên hệ và nêu trang bị ảnh hưởng cùng vấn đề cụ thể. Các báo cáo tái hiện được và xác định rõ vị trí sẽ được xem xét trước.",
+    "x19": "Phần bổ sung cũng được chào đón. Nếu có một câu hỏi bạn muốn được trả lời ở đây mà chưa trang nào đề cập, hãy cho chúng tôi biết."
   },
   "charIndex": {
     "p0": "Nhân vật The Freak Circus: Pierrot, Harlequin & Nhiều Hơn Nữa",
@@ -497,7 +527,10 @@
     "p1": "Cập nhật The Freak Circus",
     "p2": "CẬP NHẬT THE FREAK CIRCUS",
     "p3": "Mở devlog chính thức",
-    "p4": "Dòng thời gian cập nhật"
+    "p4": "Dòng thời gian cập nhật",
+    "x0": "Theo dõi ghi chú phát hành, tiến độ phát triển, các bản cập nhật bảo trì, và tin tức trò chơi mới nhất của The Freak Circus.",
+    "x1": "Ghi chú phát hành, tiến độ phát triển, và các bản cập nhật bảo trì của The Freak Circus.",
+    "x2": "Ghi chú phát hành, tiến độ phát triển và hồ sơ bảo trì được tập hợp trong một dòng thời gian liên tục, có ngày tháng và liên kết ngược về từng thông báo chính."
   },
   "community": {
     "p0": "Cộng đồng The Freak Circus: Cập nhật chính thức, AMA & Fan Art",
@@ -508,6 +541,9 @@
     "p5": "Đăng lại",
     "p6": "Thích",
     "p7": "Đánh dấu",
-    "p8": "Những lựa chọn đầu tiên đang được tuyển chọn"
+    "p8": "Những lựa chọn đầu tiên đang được tuyển chọn",
+    "x0": "Theo dõi các cập nhật phát triển chính thức của The Freak Circus, các câu trả lời AMA của nhân vật, tác phẩm fan art, và tin tức cộng đồng về Ngày 3 cùng dàn nhân vật của rạp xiếc.",
+    "x1": "Theo dõi các cập nhật phát triển chính thức, các câu trả lời AMA của nhân vật, tác phẩm fan art, và những khoảnh khắc cộng đồng đáng chia sẻ.",
+    "x2": "Tác phẩm được chọn sẽ xuất hiện tại đây sau khi người sáng tạo, nguồn gốc và nhãn nội dung đã được kiểm tra."
   }
 }

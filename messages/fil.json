@@ -10,7 +10,8 @@
     "subtitle": "Mga walkthrough, pagsusuri ng karakter, at lore para sa The Freak Circus.",
     "backLink": "Bumalik sa lahat ng artikulo",
     "published": "Nailathalang {date}",
-    "footerLink": "Maglaro ng Freak Circus Online"
+    "footerLink": "Maglaro ng Freak Circus Online",
+    "x0": "Mga praktikal na gabay para sa manlalaro, mga paliwanag sa build, at maingat na pag-beripika ng mga katotohanan — isinulat nang malinaw ang saklaw at walang gawa-gawang claim tungkol sa kwento."
   },
   "meta": {
     "homeTitle": "Maglaro ng Freak Circus Online",
@@ -260,7 +261,14 @@
     "p17": "Lahat ng profile ng tauhan",
     "p18": "Mga ending at ruta",
     "p19": "Komunidad at mga opisyal na update",
-    "p20": "I-download at maglaro"
+    "p20": "I-download at maglaro",
+    "x0": "Bawat likha dito ay pinili nang mano-mano, at bawat isa ay may tala ng artist nito at ng orihinal na post. Hindi namin ginagawang sariling galeriya na walang lisensya ang mga likhang fan na natatagpuan online: kapag hindi malinaw ang pinagmulan, pahintulot, o atribusyon, pinipigilan muna ang likha sa halip na ipakita.",
+    "x1": "Nangangahulugan itong mas maliit ang galeriyang ito kaysa sa isang awtomatikong na-scrape na mirror site, at hindi nito kasama ang anumang minarkahang \"huwag i-repost\" o nagmumula sa aggregator site. Kung gusto mong maisama ang iyong likha, ipadala ang link at sabihin kung maaari itong ipakita ng site na ito — hinihingi muna ang pahintulot kung kailangan.",
+    "x2": "Limang karakter ang ipinapakilala sa kasalukuyang build, at ang lubhang magkakaibang personalidad nila ay humihila sa fan art sa magkakaibang direksyon.",
+    "x3": "Para sa kumpletong profile ng alinman sa kanila — opisyal na taas, pagkakasunod ng edad, at status ng ruta —, ang mga pahina ng tauhan ang may detalye.",
+    "x4": "Ang fan art ay normal na bahagi ng fandom ng larong ito at welcome dito. Ilang paalala: nananatili sa tagalikha ang likha at ang site na ito ay nagpapakita lamang nito; walang game file na naha-host ng site at hindi nito binubuo o minimirror ang anumang download; ang mga likhang may 18+ na paksa ay may ganitong label.",
+    "x5": "Ang pagpili sa isang imahe ay nagbubukas nito nang mas malaki. Ipapakita lang ng pinalaking view ang artwork at ang pamagat nito — walang idinagdag na label ng tagalikha o palabas na link — habang nananatili sa sariling tala ng site na ito ang atribusyon.",
+    "x6": "Bukod sa galeriya, mayroon ding mga profile ng tauhan ang site, isang pagsusuri sa mga ending at ruta, at isang gabay sa mga opisyal na channel ng download."
   },
   "character": {
     "jointSecond": "Magkasabi sa pangalawa",
@@ -389,7 +397,9 @@
     "latestUpdateLabel": "PINAKABAGONG UPDATE",
     "sidebarUpdateTitle": "Ulat sa development ng Araw 3",
     "sidebarUpdateText": "Buod ng pinakabagong ulat sa development ng Araw 3",
-    "continueTitle": "Magpatuloy sa site na ito"
+    "continueTitle": "Magpatuloy sa site na ito",
+    "x0": "The Freak Circus Araw 3: Petsa ng Paglabas at mga Update",
+    "x1": "Tingnan ang pinakabagong development update ng The Freak Circus Araw 3, ang kasalukuyang status ng paglabas, impormasyon sa Bersyon 0.2, at kung may opisyal nang inanunsyo na petsa ng paglabas."
   },
   "about": {
     "s0": "Tungkol sa The Freak Circus: Kwento, mga Tauhan at Laro",
@@ -415,7 +425,27 @@
     "s20": "Pag-save at pagpapatuloy",
     "s21": "Beripikado at hindi beripikado",
     "s22": "Mga madalas itanong",
-    "s23": "Ang maikling bersyon ng site"
+    "s23": "Ang maikling bersyon ng site",
+    "x0": "Isang malayang gabay sa The Freak Circus na inaalagaan ng mga fan, nakatuon sa kapaki-pakinabang na konteksto, malinaw na pinagmulan, at tapat na mga hangganan.",
+    "x1": "Ang impormasyon tungkol sa The Freak Circus ay hiwa-hiwalay sa mga build na maaaring laruin, sa mga tala ng development, at sa mga usapan ng komunidad. Isinasama ng site na ito sa iisang madaling basahing lugar ang mga tanong na talagang itinatanong ng mga manlalaro: sino ang mga tauhan, ano ang nilalaman ng kasalukuyang build, nasaan na ang Araw 3, at paano maglaro sa angkop na platform.",
+    "x2": "Ang pagsasaayos ng impormasyong iyon ang hindi mahirap. Ang mahirap ay manatiling mapagpigil habang hindi pa kumpleto ang impormasyon. Nasa gitna pa ng development ang laro: sa limang naipakilalang tauhan, dalawa lang ang may planadong ruta; sa apat na inanunsyong ending, isa ang naipatupad; ang Araw 3 ay ginagawa pa at walang petsa. Sa ganitong kalagayan, madaling makahanap ng mga gabay na mukhang kumpleto pero malaking bahagi ay haka-haka.",
+    "x3": "Kaya't itinuturing ng site na ito na mas mahalagang tanong ang \"hanggang saan ang kaya naming kumpirmahin\" kaysa \"gaano karami ang kaya naming isulat\". Ang tapat na sagot at ang haka-hakang lubos na kumpiyansa ang dating ay magkaiba nang husto ang halaga sa mambabasa, at isa lang sa kanila ang maaaring sundan.",
+    "x4": "Ang materyal na mauulit sa isang pampublikong build ay inilalarawan bilang kasalukuyang content. Ang mga intensyon ng developer na hindi pa nailalabas ay minumarkahan bilang planado o nasa development. Ang mga teorya ng komunidad, mga pangalan ng rutang walang pinagbabatayan, at mga claim na hindi mauulit sa paglalaro ay hindi isinusulat muli bilang mga katotohanan.",
+    "x5": "Sa praktika, ganito ito lumalabas. Ang mga pahina ng tauhan ay nagsasaad ng opisyal na taas at pagkakasunod ng edad, at hiwalay na itinuturo kung aling mga detalye sa hitsura at relasyon ang nagmula sa wiki ng fandom sa halip na sa developer. Ang pahina ng mga ending ay nagsasaad na tanging isang ending ang maaaring laruin at hiwalay na nakalista ang apat na planado, sa halip na magpahiwatig na maraming ending ang maaaring maabot ngayon.",
+    "x6": "Kasinghalaga rin ang mga tinatanggihan naming ulitin. Ang mga sumusunod ay kumakalat sa mga fan site bilang mga tapos nang katotohanan, ngunit wala sa mga ito ang may pinagmulan mula mismo sa developer, kaya hindi ito ipinapakilala ng site bilang mga konklusyon:",
+    "x7": "Ito ang punto na madalas maling unawain tungkol sa site na ito, kaya sulit sabihin nang tuwid. Sa ngayon, may isang naipatupad na ending ang laro, at isinusulat pa ang mga script ng parehong ruta ng romansa. Kung walang trigger, walang tapat na trigger chart.",
+    "x8": "Ang mga gabay na tumutukoy sa pagpili ng pulang lobo o pag-iwas sa pagtutol sa Araw 2 ay naglalarawan ng isang pampublikong build na hindi naman umiiral. Ang mambabasang sumusunod sa mga ito ay walang matatagpuang ruta kahit isa, at mas nakakalito iyon kaysa sa wala pang gabay sa simula pa lang. Idadagdag ng site na ito ang totoong mga pagpipilian, eksena, at save point kapag nailabas na nga ang mga ruta.",
+    "x9": "Ang mga pangunahing pinagkunan ay ang itch.io page at devlog ng developer, at ang opisyal na FAQ at mga AMA post sa Tumblr. Ang talahanayan ng taas at pagkakasunod ng edad na binabanggit sa mga pahina ng tauhan ay nagmula sa mga imahe at sagot na inilathala mismo ng developer, hindi sa mga tantiyang galing sa sprite o sa mga buo-buong tipon ng mga fan.",
+    "x10": "Bawat pahinang bumabanggit ng isang partikular na katotohanan ay nagli-link sa pinagmulan nito, para beripikahan mo ito nang mag-isa sa halip na maniwala sa salita namin.",
+    "x11": "Ang site na ito ay hindi ang developer, ang tagapaglabas, o isang opisyal na channel ng suporta, at hindi nito itinatangkilik ang sarili bilang ganoon. Ang mga paliwanag at ang pagsasaayos ay malayang gawaing editorial; ang laro, mga tauhan, artwork, at kaugnay na marka ay nananatiling pag-aari ng kani-kanilang may-hawak ng karapatan.",
+    "x12": "Sinabi ng developer na ang itch.io page ang tanging opisyal na pahina ng laro, hiniling nitong huwag itong i-upload muli o i-repost, at kinumpirma nitong walang opisyal na Discord server — kaya anumang server o account na hindi naka-link mula sa mga opisyal na pahina ay dapat ituring na pinapatakbo ng mga fan o hindi awtorisado.",
+    "x13": "Hindi nagho-host ng mga game file ang site na ito at hindi nito minimirror ang mga download package. Ang opsyonal na player sa site ay pinaglilingkuran ng third-party host, na sinasaklaw ng patakaran sa privacy.",
+    "x14": "Hindi binubuo o naha-host ng site ang mga game file, at hindi nito ginagawang sariling galeriya na walang lisensya ang mga likhang fan na natatagpuan online. Ang mga piling gawa ng komunidad ay pinipili nang mano-mano, nananatiling likha ng mga tagalikha nila, at pinipigilan kapag hindi malinaw ang pinagmulan, pahintulot, o atribusyon.",
+    "x15": "Ang ilang detalye sa hitsura at relasyon sa mga profile ng tauhan ay nagmumula sa wiki ng fandom. Minumarkahan ang materyal na iyon bilang galing sa fan mismo sa pahina at pinapanatiling hiwalay sa paningin mula sa mga katotohanang kinumpirma ng developer, para mapagdesisyunan ng mambabasa kung magkano ang bigat na ibibigay dito.",
+    "x16": "Ang impormasyong nababago ayon sa bersyon ay pinananatili sa pamamagitan ng mga pahina ng Updates at Araw 3 sa site. Sinasabi ng mga profile ng tauhan kung saan nagtatapos ang ebidensya sa halip na gumawa ng mga ending para lang mukhang kumpleto ang isang pahina.",
+    "x17": "Prototype pa rin ang laro, at maaaring mag-iba sa pagitan ng mga build ang script, mga label, at ang pag-uugali ng save nito. Kung may pahina rito na sumasalungat sa kasalukuyang build, pakisabi po.",
+    "x18": "Kung sumasalungat ang isang pahina sa kasalukuyang build, kulang sa mahalagang konteksto, o kailangan ng pagwawasto sa atribusyon, gamitin ang pahinang Contact at tukuyin ang apektadong pahina at ang partikular na isyu. Ang mga ulat na mauulit at malinaw ang lokasyon ang unang sinusuri.",
+    "x19": "Malugod ding tinatanggap ang mga dagdag. Kung may tanong kang nais mong masagot dito at wala pang pahinang sumasaklaw dito, sabihin mo sa amin."
   },
   "charIndex": {
     "p0": "Mga Tauhan ng The Freak Circus: Sina Pierrot, Harlequin at Iba Pa",
@@ -497,7 +527,10 @@
     "p1": "Mga Update ng The Freak Circus",
     "p2": "MGA UPDATE NG THE FREAK CIRCUS",
     "p3": "Buksan ang opisyal na devlog",
-    "p4": "Timeline ng mga update"
+    "p4": "Timeline ng mga update",
+    "x0": "Sundan ang mga release note, progreso ng development, mga update sa maintenance, at pinakabagong balita tungkol sa The Freak Circus.",
+    "x1": "Mga release note, progreso ng development, at mga update sa maintenance para sa The Freak Circus.",
+    "x2": "Mga release note, progreso ng development, at tala ng maintenance na tinipon sa tuloy-tuloy na timeline, na may mga petsa at link pabalik sa bawat pangunahing anunsyo."
   },
   "community": {
     "p0": "Komunidad ng The Freak Circus: Mga Opisyal na Update, AMA at Fan Art",
@@ -508,6 +541,9 @@
     "p5": "I-repost",
     "p6": "Gusto",
     "p7": "I-bookmark",
-    "p8": "Isinasagawa pa ang pagpili sa mga unang pinili"
+    "p8": "Isinasagawa pa ang pagpili sa mga unang pinili",
+    "x0": "Sundan ang mga opisyal na development update ng The Freak Circus, mga sagot sa AMA ng mga karakter, mga likha ng fan, at balita ng komunidad tungkol sa Araw 3 at sa mga tauhan ng sirko.",
+    "x1": "Sundan ang mga opisyal na development update, mga sagot sa AMA ng mga karakter, mga likha ng fan, at mga sandali ng komunidad na kapaki-pakinabang ibahagi.",
+    "x2": "Lalabas dito ang mga piniling likha pagkatapos beripikahin ang tagalikha, ang pinagmulan, at ang mga label ng content."
   }
 }

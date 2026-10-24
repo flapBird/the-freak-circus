@@ -10,7 +10,8 @@
     "subtitle": "Walkthroughs, análise de personagens e lore de The Freak Circus.",
     "backLink": "Voltar para todos os artigos",
     "published": "Publicado {date}",
-    "footerLink": "Jogue The Freak Circus Online"
+    "footerLink": "Jogue The Freak Circus Online",
+    "x0": "Guias práticos para jogadores, explicações das versões e verificações cuidadosas de fatos — escritos com escopo claro e sem afirmações inventadas sobre a história."
   },
   "meta": {
     "homeTitle": "Jogue The Freak Circus Online",
@@ -260,7 +261,14 @@
     "p17": "Todas as fichas de personagens",
     "p18": "Finais e rotas",
     "p19": "Comunidade e atualizações oficiais",
-    "p20": "Baixar e jogar"
+    "p20": "Baixar e jogar",
+    "x0": "Cada obra aqui foi selecionada à mão, e cada uma mantém o registro do artista e da publicação original. Não transformamos trabalho de fãs encontrado na internet em uma galeria própria sem licença: quando a origem, a permissão ou a atribuição não estão claras, a obra fica de fora em vez de ser exibida.",
+    "x1": "Isso significa que esta galeria é menor do que seria um espelho coletado automaticamente, e exclui tudo o que está marcado como «não repostar» ou que vem de um site agregador. Se você quiser ver o seu trabalho incluído, envie o link e diga se este site pode exibi-lo — quando necessário, a permissão é pedida antes.",
+    "x2": "Cinco personagens são apresentados na versão atual, e as personalidades bem diferentes deles puxam a arte de fãs em direções distintas.",
+    "x3": "Para um perfil completo de qualquer um deles — altura oficial, ordem de idade e estado da rota —, as fichas de personagens têm os detalhes.",
+    "x4": "A arte de fãs é uma parte normal do fandom deste jogo e é bem-vinda aqui. Algumas notas: a obra continua com o criador e este site apenas a exibe; o site não hospeda arquivos do jogo e não reempacota nem espelha nenhum download; as peças que abordam conteúdo 18+ são rotuladas como tal.",
+    "x5": "Ao selecionar uma imagem, ela abre em tamanho maior. A visão ampliada mostra apenas a obra e o título — sem rótulos de criador adicionados nem links externos —, enquanto a atribuição fica no registro do próprio site.",
+    "x6": "Além da galeria, o site também traz fichas de personagens, um detalhamento de finais e rotas e um guia dos canais de download oficiais."
   },
   "character": {
     "jointSecond": "Segundo empatado",
@@ -389,7 +397,9 @@
     "latestUpdateLabel": "ÚLTIMA ATUALIZAÇÃO",
     "sidebarUpdateTitle": "Relatório de desenvolvimento do Dia 3",
     "sidebarUpdateText": "Resumo do último relatório de desenvolvimento do Dia 3",
-    "continueTitle": "Continue neste site"
+    "continueTitle": "Continue neste site",
+    "x0": "The Freak Circus Dia 3: data de lançamento e atualizações",
+    "x1": "Confira as últimas atualizações do desenvolvimento de The Freak Circus Dia 3, o status atual do lançamento, as informações da versão 0.2 e se uma data de lançamento oficial foi anunciada."
   },
   "about": {
     "s0": "Sobre The Freak Circus: história, personagens e jogo",
@@ -415,7 +425,27 @@
     "s20": "Salvar e continuar",
     "s21": "Confirmado e não confirmado",
     "s22": "FAQ",
-    "s23": "A versão curta do site"
+    "s23": "A versão curta do site",
+    "x0": "Um guia independente de The Freak Circus mantido por fãs, com foco em contexto útil, fontes claras e limites honestos.",
+    "x1": "As informações sobre The Freak Circus estão espalhadas entre as versões jogáveis, as notas de desenvolvimento e as conversas da comunidade. Este site reúne as perguntas que os jogadores realmente fazem em um só lugar legível: quem são os personagens, o que a versão atual contém, como está o Dia 3 e como jogar em uma plataforma adequada.",
+    "x2": "Organizar essas informações não é a parte difícil. A parte difícil é manter a contenção enquanto as informações ainda estão incompletas. O jogo está em pleno desenvolvimento: de cinco personagens apresentados, apenas dois têm rotas planejadas; de quatro finais anunciados, um está implementado; o Dia 3 ainda está sendo feito e não tem data. Nessas condições, é fácil encontrar guias que parecem completos, mas que são, em grande parte, palpites.",
+    "x3": "Por isso, neste site, a pergunta «até onde podemos confirmar» vale mais do que «quanto podemos escrever». Uma resposta honesta e um palpite que soa confiante valem valores muito diferentes para o leitor, e só um deles pode ser posto em prática.",
+    "x4": "O material reproduzível em uma versão pública é descrito como conteúdo atual. As intenções do desenvolvedor que ainda não foram lançadas são rotuladas como planejadas ou em desenvolvimento. Teorias da comunidade, nomes de rotas sem respaldo e afirmações que não podem ser reproduzidas no jogo não são reescritas como fatos.",
+    "x5": "Na prática, isso aparece assim. As páginas de personagens informam a altura oficial e a ordem de idade, e apontam à parte quais detalhes de aparência e de relações vêm da wiki do fandom, e não do desenvolvedor. A página de finais afirma que exatamente um final é jogável e lista separadamente os quatro planejados, em vez de sugerir que vários finais podem ser alcançados hoje.",
+    "x6": "O que nos recusamos a repetir importa tanto quanto. O que segue circula pelos sites de fãs como fato consolidado, mas nenhum item tem fonte de primeira mão, então este site não os apresenta como conclusões:",
+    "x7": "Este é o ponto mais frequentemente mal interpretado sobre este site, então vale deixá-lo claro. Neste momento, o jogo tem um final implementado, e os roteiros das duas rotas românticas ainda estão sendo escritos. Onde não há gatilho, não existe tabela de gatilhos honesta.",
+    "x8": "Guias que indicam escolher um balão vermelho ou evitar o desafio no Dia 2 estão descrevendo uma versão pública que não existe. Um leitor que os seguir não encontra rota nenhuma, o que confunde mais do que não ter guia em primeiro lugar. Este site vai acrescentar as escolhas, as cenas e os pontos de save reais quando as rotas forem realmente lançadas.",
+    "x9": "As fontes primárias são a página do itch.io e o devlog do desenvolvedor, e o FAQ oficial e as publicações de AMA no Tumblr. A tabela de alturas e a ordem de idade citadas nas páginas de personagens vêm de imagens e respostas publicadas diretamente pelo desenvolvedor, não de estimativas por sprites nem de compilações de fãs.",
+    "x10": "Toda página que cita um fato específico linka a fonte de onde ele veio, para que você possa verificar por conta própria em vez de confiar na nossa palavra.",
+    "x11": "Este site não é o desenvolvedor, o publicador nem um canal de suporte oficial, e não se apresenta como tal. As explicações e a organização são trabalho editorial independente; o jogo, os personagens, as artes e as marcas relacionadas continuam sendo propriedade dos respectivos detentores de direitos.",
+    "x12": "O desenvolvedor afirmou que a página do itch.io é a única página oficial do jogo, pediu que ele não seja reenviado nem repostado e confirmou que não existe servidor oficial de Discord — então qualquer servidor ou conta não linkado das páginas oficiais deve ser tratado como administrado por fãs ou não autorizado.",
+    "x13": "Este site não hospeda arquivos do jogo e não espelha os pacotes de download. O player opcional do site é fornecido por um host de terceiros, o que a política de privacidade cobre.",
+    "x14": "O site não reempacota nem hospeda arquivos do jogo, e não transforma trabalho de fãs encontrado na internet em uma galeria própria sem licença. As seleções da comunidade são curadas à mão, permanecem obra de seus criadores e ficam de fora quando a origem, a permissão ou a atribuição não estão claras.",
+    "x15": "Parte dos detalhes de aparência e de relações nas fichas de personagens vem da wiki do fandom. Esse material é rotulado como derivado de fãs na página e mantido visualmente separado dos fatos confirmados pelo desenvolvedor, para que o leitor decida quanto peso dar a ele.",
+    "x16": "As informações sensíveis à versão são mantidas por meio das páginas de Atualizações e do Dia 3 do site. As fichas de personagens dizem até onde vai a evidência, em vez de inventar finais só para uma página parecer completa.",
+    "x17": "O jogo ainda é um protótipo, e o roteiro, os rótulos e o comportamento de save podem mudar entre versões. Se alguma página daqui conflitar com a versão atual, por favor avise.",
+    "x18": "Se uma página conflita com a versão atual, falta contexto importante ou precisa de uma correção de atribuição, use a página de Contato e indique a página afetada e o problema específico. Relatos reproduzíveis e bem localizados são analisados primeiro.",
+    "x19": "Acréscimos também são bem-vindos. Se existe uma pergunta que você quer ver respondida aqui e nenhuma página cobre ainda, conte para a gente."
   },
   "charIndex": {
     "p0": "Personagens de The Freak Circus: Pierrot, Harlequin e mais",
@@ -497,7 +527,10 @@
     "p1": "Atualizações de The Freak Circus",
     "p2": "ATUALIZAÇÕES DE THE FREAK CIRCUS",
     "p3": "Abrir o devlog oficial",
-    "p4": "Cronologia de atualizações"
+    "p4": "Cronologia de atualizações",
+    "x0": "Acompanhe as notas de versão, o progresso do desenvolvimento, as atualizações de manutenção e as últimas notícias do jogo de The Freak Circus.",
+    "x1": "Notas de versão, progresso do desenvolvimento e atualizações de manutenção de The Freak Circus.",
+    "x2": "Notas de versão, progresso do desenvolvimento e registros de manutenção reunidos em uma cronologia contínua, com datas e links que remetem a cada anúncio primário."
   },
   "community": {
     "p0": "Comunidade de The Freak Circus: atualizações oficiais, AMA e arte de fãs",
@@ -508,6 +541,9 @@
     "p5": "Repostar",
     "p6": "Curtir",
     "p7": "Salvar",
-    "p8": "As primeiras seleções estão em curadoria"
+    "p8": "As primeiras seleções estão em curadoria",
+    "x0": "Acompanhe as atualizações oficiais de desenvolvimento de The Freak Circus, as respostas dos AMA com os personagens, as criações de fãs e as notícias da comunidade sobre o Dia 3 e o elenco do circo.",
+    "x1": "Acompanhe as atualizações oficiais de desenvolvimento, as respostas dos AMA com os personagens, as criações de fãs e os momentos da comunidade que valem a pena compartilhar.",
+    "x2": "As obras selecionadas aparecerão aqui depois que o criador, a fonte e os rótulos de conteúdo forem verificados."
   }
 }
